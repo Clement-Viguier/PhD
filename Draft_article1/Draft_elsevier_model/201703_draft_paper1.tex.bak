@@ -116,7 +116,7 @@ scales and processes.
 \subsection{Representation of processes}
 Resources gathering and competition\\
 Resource allocation\\
-Plasticity (and costs).\\
+Plasticity (and costs). ! Gain function = link between allocation and ecological processes = generate the trade-off (between fundamental barrier and ecological gain, = balance\\
 (reproduction ?)\\
 \subsection{Initialisation and inputs}
 Because of implementation limitations running sensitivity analysis and full calibration is not possible. The model was used with fixed parameter values unless explicitly said (e.g. for plasticity costs analysis) (see appendix for details). The model was mostly used in the following set-ups:
