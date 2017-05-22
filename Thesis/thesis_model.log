@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.7)  19 MAY 2017 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.7)  22 MAY 2017 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,8 +344,9 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file thesis_model.bbl.
+(./thesis_model.bbl)
 \c@@tufte@num@bibkeys=\count111
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
@@ -1035,7 +1036,7 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 LaTeX Warning: Unused global option(s):
     [a4paperg].
 
-No file thesis_model.aux.
+(./thesis_model.aux)
 \openout1 = `thesis_model.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1056,6 +1057,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1079,6 +1081,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
+
+(./thesis_model.out) (./thesis_model.out)
 \@outlinefile=\write4
 \openout4 = `thesis_model.out'.
 
@@ -1173,31 +1177,24 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 [2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./thesis_model.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
-
-
-Package rerunfilecheck Warning: File `thesis_model.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis_model.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E56B976E7ACFCD256E6E7715BDAB8581;92.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
+Package rerunfilecheck Info: File `thesis_model.out' has not changed.
+(rerunfilecheck)             Checksum: E56B976E7ACFCD256E6E7715BDAB8581;92.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 13653 strings out of 493013
- 191833 string characters out of 6133328
- 289384 words of memory out of 5000000
+ 13660 strings out of 493013
+ 191934 string characters out of 6133328
+ 290275 words of memory out of 5000000
  16956 multiletter control sequences out of 15000+600000
- 39320 words of font info for 42 fonts, out of 8000000 for 9000
+ 37584 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,11n,45p,274b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1206,10 +1203,10 @@ exlive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on thesis_model.pdf (2 pages, 32390 bytes).
+Output written on thesis_model.pdf (2 pages, 35527 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
- 2561 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2057 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,13 +17,14 @@
 %\geometry{showframe}
 
 
-\title{Test Book formaat from Tufte}
+\title{Test Book format from Tufte - A freaking cool PhD Thesis inside, read it, please, at least the intro, and the adkowledgements}
 \author{Clément Viguier}
 
 \begin{document}
 
 
-\maketitle
+\maketitlepage
+
 
 \newpage
 
