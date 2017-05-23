@@ -1,4 +1,4 @@
-\documentclass[a4paperg]{tufte-book}
+\documentclass[a4paper, justified,marginals=raggedright]{tufte-handout}
 
 
 \usepackage[utf8]{inputenc}
@@ -11,14 +11,29 @@
 \usepackage{multicol} % multiple column layout facilities
 \usepackage{fancyvrb} % extended verbatim environments
   \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
+\usepackage{pgfplots}
+
+\usepackage{lipsum}
+
+% to see the margins and page width
+% \geometry{showframe}
+
+% Write packages versions in the log
+% \listfiles
 
 
-% to see the fruits of our labor
-%\geometry{showframe}
-
-
-\title{Test Book format from Tufte - A freaking cool PhD Thesis inside, read it, please, at least the intro, and the adkowledgements}
+% Commands use to make the title page and page headers
+\title{Crafting a trade-of}
 \author{Clément Viguier}
+
+% Commands use through the document
+
+
+% Include documents for graphical aspects
+% Color
+%\input{../latex_settings/colors}
+% Graph settings
+\input{../latex_settings/graph_settings}
 
 \begin{document}
 
@@ -28,9 +43,30 @@
 
 \newpage
 
-\section{Section 1}
-\subsection{Subsection A}
+\section{Whjat's a trade-of}
 
-Stuff
+\lipsum[1]
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[plot]
+\addplot[teal,
+xtick=data]
+coordinates {(0, 0) (1, 1) (2, 2)};
+\end{axis}
+\end{tikzpicture}
+\caption{Test figure to setup pgfplots in Tufte environment}
+\end{figure}
+
+\lipsum[1-3]
+
+\begin{marginfigure}
+\begin{tikzpicture}
+\begin{axis}[marginplot]
+\addplot[teal] coordinates {(0, 0) (1, 1) (2, 2)};
+\end{axis}
+\end{tikzpicture}
+\caption{Test figure to setup pgfplots in Tufte environment}
+\end{marginfigure}
 
 \end{document}

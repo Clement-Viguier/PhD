@@ -1,0 +1,36 @@
+\pgfplotsset{compat=1.14}
+
+\pgfplotsset{plot/.style={ 
+width = \textwidth,
+no markers,
+color = black,
+line width = 1pt,
+minor x tick num = 0,
+minor y tick num = 0,
+        xtick pos=left,
+        ytick pos=left,
+        tick align=outside,
+        try min ticks=2,
+        max space between ticks=100pt,
+  axis x line*=bottom,
+  axis y line*=left,
+        line join=round,
+    axis line style={->}, 
+        enlarge x limits=true,
+        every x tick/.style={color=black, thin},
+        every y tick/.style={color=black, thin},
+}
+}
+
+
+\pgfplotsset{marginplot/.style={ 
+plot,
+width = \marginparwidth
+}
+}
+
+\pgfplotsset{fullplot/.style={ 
+plot,
+width = \pagewidth
+}
+}

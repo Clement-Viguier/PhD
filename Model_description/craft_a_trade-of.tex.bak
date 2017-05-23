@@ -1,0 +1,113 @@
+\documentclass[a4paper, justified,marginals=raggedright]{tufte-handout}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % allow embedded images
+  \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+  \graphicspath{{graphics/}} % set of paths to search for images
+\usepackage{amsmath}  % extended mathematics
+\usepackage{booktabs} % book-quality tables
+\usepackage{units}    % non-stacked fractions and better unit spacing
+\usepackage{multicol} % multiple column layout facilities
+\usepackage{fancyvrb} % extended verbatim environments
+  \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
+\usepackage{pgfplots}
+
+\usepackage{lipsum}
+
+% to see the margins and page width
+% \geometry{showframe}
+
+% Write packages versions in the log
+% \listfiles
+
+
+% Commands use to make the title page and page headers
+\title{Why and how to craft a trade-of in a plant functioning model}
+\author{Clément Viguier}
+
+% Commands use through the document
+
+
+% Include documents for graphical aspects
+% Color
+%\input{../latex_settings/colors}
+% Graph settings
+\input{../latex_settings/graph_settings}
+
+\begin{document}
+\maketitle
+\begin{fullwidth}
+\begin{abstract}
+\noindent
+This document describes why and how a trade-of has be designed in the model MountGrass. This trade-of has the objective to allow for different strategy based on the level of resources. The same trade-of is used in shoot and roots. Parameters effects over the phenotype determination is explored for a balanced design where area cost is the same for both organs.
+\end{abstract}
+\end{fullwidth}
+
+\section{Why a trade-of}
+different conditions = different phenotypes\\
+could be anything, needed one. Explain WUE, nitrogen and others. Try to keep independences between strategy axis to keep it simple.\\
+Need for plastic driver. Explain the role of plasticity.
+
+\section{How to craft a trade-of}
+
+\indent The idea of trade-of suggest that you cannot invest in all strategies at the same time. To be relevant, it must be associated to a range conditions favouring different strategies along this trade-of. In other word, depending on a position on a gradient, the gradient should lead different niches. This can be visualizes as Gaussian's curves (see figure \ref{niches}).
+
+\begin{marginfigure}[-30mm]
+\begin{tikzpicture}
+\begin{axis}[marginplot,
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 40]
+
+\addplot[teal][domain = 0:1 ] {exp(-(x - 0.4)^2/0.02)};
+\addplot[orange][domain = 0:1 ]{exp(-(x - 0.6)^2/0.02)};
+\legend{Conditions 1, Conditions 2, Conditions 3}
+\end{axis}
+\end{tikzpicture}
+\label{niches}
+\caption{Different niches corresponding to different environmental conditions.}
+\end{marginfigure}
+
+The challenge is to go beyond the Gaussian function, and craft these niches from the plant physiology and ecology. Taking as a basis the usual functions used in plant modelling and the theoretical background upon which MountGrass is built, we will try to model different niches.\\
+
+\indent In MountGrass, the Leaf Economic spectrum (LES)\cite{Wright-2004} is explained by a differential investment between active and structural tissues (supported by analysis of Shipley\cite{Shipley}). This allocation constitutes a major strategic differentiation axis, along which plastic plants can move to optimize their fitness. To keep the approach simple, we hypothesize that such trade-off would also rule the allocation of organic matter in the below-ground compartment\cite{Reich-2014; Tjoelker-2005}. As explained above, plant can modify both the shot:root ratio, and the relative proportion of active tissues in shoot, and in roots. The first dimension is mainly driven by a balance between availability of above-ground versus below-ground resource.\footnote{This part does not belong to this section.}\\
+\subsection{Crafting a trade-of for shoot}
+\indent Let's consider only the shoot dimension for now, the demonstration that the same applies to root is done latter in the document.\\
+\indent The fitness function of the shoot can be described as the sum of the gain function and the cost function as follow:
+\begin{equation}
+Gain = \frac{Exchange}{Area} * \frac{Area}{Biomass} + \frac{Resp}{Biomass}
+\end{equation}
+where $\frac{Exchange}{Area}$ is the resource rate per area (function of exchange rate and resource availability), $\frac{Area}{Biomass}$ is the SLA (or inverse of leaf construction cost) and $\frac{Resp}{Biomass}$ is the normalize biomass \footnote{The temporal dimension of the LES is ignored as the parameters are chosen for a fitness equivalence on the construction cost-lifespan trade-of.}. Let's analyse how these variables vary for a constant level of resources with the relative proportion of active tissue. For convenience the exchange rate is assumed to be constant for the following calculations.
+The SLA is the inverse function of the leaf density. If we consider that active and structural tissue pools are two distinct constant densities respectively noted $\rho_{act}$ and $\rho_{str}$ with $\rho_{act} < \rho_{str}$, the leaf area per carbon unit can be written:
+\begin{equation}
+SLA = \frac{1}{th . vol_prop}. (\frac{1}{\rho_{str}}+(\frac{1}{\rho_{act}}-\frac{1}{\rho_{str}})p_{act})
+\end{equation}
+where $th$ is the thickness of the leaf, $vol_prop$ is the proportion of leaf volume occupied by tissue and $p_{act}$ is the fraction of active tissue. This shows a linear relationship between the gain function ($SLA . exchange rate$) and the proportion of active tissue ($p_{act}$).
+
+\begin{marginfigure}[-30mm]
+\begin{tikzpicture}
+\begin{axis}[marginplot,
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 40]
+
+\addplot[teal][domain = 0:1 ] {(1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x)};
+\addplot[orange][domain = 0:1 ] {exp(7*x)};
+\legend{$\frac{Area}{Biomass} = f(p_{act})$, Cost}
+\end{axis}
+\end{tikzpicture}
+\label{niches}
+\caption{Different niches corresponding to different environmental conditions.}
+\end{marginfigure}
+
+\subsection{How about root}
+
+\subsection{How do the two trade-of merge ?}
+
+
+\end{document}
