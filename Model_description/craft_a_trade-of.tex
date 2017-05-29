@@ -79,9 +79,11 @@ The challenge is to go beyond the Gaussian function, and craft these niches from
 \indent Let's consider only the shoot dimension for now, the demonstration that the same applies to root is done latter in the document.\\
 \indent The fitness function of the shoot can be described as the sum of the gain function and the cost function as follow:
 \begin{equation}\label{eq:gain}
-Net~Gain = \frac{Exchange}{Area} . \frac{Area}{Biomass} - \frac{Resp}{Biomass}
+\frac{Net~Gain}{Biomass} = \frac{Exchange}{Area} . \frac{Area}{Biomass} . (1  - TO~rate) - \frac{Resp}{Biomass}
 \end{equation}
-where $\frac{Exchange}{Area}$ is the resource mass exchanges per area (function of exchange rate and resource availability), $\frac{Area}{Biomass}$ is the SLA (or inverse of leaf construction cost) and $\frac{Resp}{Biomass}$ is the normalize biomass \footnote{The temporal dimension of the LES is ignored as the parameters are chosen for a fitness equivalence on the construction cost-lifespan trade-of.}. Let's analyse how these variables vary for a constant level of resources with the relative proportion of active tissue. For convenience the exchange rate is assumed to be constant for the following calculations.
+where $\frac{Exchange}{Area}$ is the resource mass exchanges per area (function of exchange rate and resource availability), $\frac{Area}{Biomass}$ is the SLA (or inverse of leaf construction cost), $\frac{Resp}{Biomass}$ is the normalize biomass respiration and $TO~rate$ is the turn-over rate.
+% \footnote{The temporal dimension of the LES is ignored as the parameters are chosen for a fitness equivalence on the construction cost-lifespan trade-of.}.
+ Let's analyse how these variables vary for a constant level of resources with the relative proportion of active tissue. For convenience the exchange rate is assumed to be constant for the following calculations.
 The SLA is the inverse function of the leaf density. If we consider that active and structural tissue pools are two distinct constant densities respectively noted $\rho_{act}$ and $\rho_{str}$ with $\rho_{act} < \rho_{str}$, the leaf area per carbon unit can be written:
 \begin{equation} \label{eq:SLA}
 SLA = \frac{1}{th. vol_prop} \left(\frac{1}{\rho_{str}}+\left(\frac{1}{\rho_{act}}-\frac{1}{\rho_{str}}\right)p_{act}\right)
@@ -100,8 +102,9 @@ samples = 40,
 restrict y to domain=-2000:2000,
 xlabel = $p_{act}$]
 
-\addplot[teal][domain = 0:1 ] {(1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x)};
-\addplot[orange][domain = 0:1 ] {exp(7*x) + 0.03*x};
+\addplot[teal][domain = 0:1 ] {(1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x) * (exp(6) * ((1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x))^(-0.6))};
+\addplot[orange][domain = 0:1 ] {(1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x) * (exp(6) * ((1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x))^(-0.6)- 0.03*x)
+*(1)};
 \legend{$\frac{Exchange}{Area}\frac{Area}{Biomass}= f(p_{act})$, $e^{kx} + r_{1}p_{act}$}
 \end{axis}
 \end{tikzpicture}
@@ -109,15 +112,13 @@ xlabel = $p_{act}$]
 \caption{Comparison of "gain" function and "cost" function. Parameter values: $\rho_{act} = 0.05$, $\rho_{str} = 1$,  $k = 7$ and  $vol_prop = 1$. The area between the two curves is the total gain by the plant.}
 \end{marginfigure}
 
+To avoid convergence toward an extremum (either $p_{act} = 0 or 1$), we need the cost function to have higher signed curvature in order to the difference to have a maximum for $ 0 < p_{act} < 0$. As respiration and construction cost (area per biomass) are linearly related to $p_{act}$ (null curvature), the turn-over rate must have a positive curvature. While respiration should not change with resource availability (only temperature), the realised exchange rate is related to resource level, leading to an increased slope of the linear gross gain function in case of increasing resource availability. Changes in the slope of the gross gain function, with the convex loss function lead to different optimum for $p_{act}$. 
 
 
-On figure \ref{fig:gain_cost} we see that the difference between the gain and cost functions leads to a bumpy curve with a maximum. This difference is the net gain and it admits a maximum corresponding to optimum value for $p_{act}$. The gain function (equation \ref{eq:gain}) can be rewritten with equations use to trace figure \ref{fig:gain_cost}. Plus, in the context of the model, the exchange rate is function of the resource availability, maximum exchange rate and the day length. This can be stored in one variable that will define the external conditions note $R$. From this the new gain function look like that.
 \begin{align}\label{eq:net_gain}
-Net~Gain & = R\frac{1}{th . vol_prop} \left(\frac{1}{\rho_{str}}+\left(\frac{1}{\rho_{act}}-\frac{1}{\rho_{str}}\right)p_{act}\right) - (exp^{k.p_{act}} + r_{1}p_{act})\\
-& =R (g_{1} + g_{2}p_{act}) - (e^{k.p_{act}} + r_{1}p_{act}) \\
+Net~Gain & = R\frac{1}{th . vol_prop} \left(\frac{1}{\rho_{str}}+\left(\frac{1}{\rho_{act}}-\frac{1}{\rho_{str}}\right)p_{act}\right)(1 -* \frac{1}{e^{k_{0}}} .SLA%^{k_{1}}) - r_{1}p_{act}\\
+& =R (g_{1} + g_{2}p_{act})(1 - \frac{1}{e^{k_{0}}} . (g_{1} + g_{2}p_{act})^{k_{1}}) -  r_{1}p_{act} 
 \end{align}
-
-From this, it is possible to compute $p_{act}$ to have the maximum net gain. The first derivatives of this function are easy to calculate and come as follow:
 
 \begin{equation}\label{eq:net_gain_der}
 f'(p_{act}) = R.g_{2}p_{act} - (k.e^{k.p_{act}} + r_{1})

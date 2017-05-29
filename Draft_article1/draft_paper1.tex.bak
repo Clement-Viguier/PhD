@@ -115,6 +115,13 @@ Need to draw axis of strategic differenciation : lead to strategic volume. Axis 
 
 
 \section{Modelling phenotypic plasticity}
+\subsection{Why ? The advantages (and limits)}
+adjust to weekly changes, avoid deadly conditions (to discuss: strategy here can be subtle, but the tau can help).
+
+\subsection{Principle}
+Use a future projection, alternative phenotype and gain function. The gain function allows to rank the alternative phenotypes to the estimated future conditions. The control is made by the projection because controlled by few traits. Discuss the diversity of strategy in the context of climatic conditions leading the phenotype choice, it's kind of paradoxical. But still control through plasticity cost function and some species specific strategy traits. These traits may adjust the gain function. \\
+On the importance of the main function: it makes the equilibrium in the process that compose fitness. Fitness is decomposed in multiple aspects: survival and reproduction, both mainly dependant on growth and allocation to specific mechanisms. Balance mechanisms: frost resistance, predation resistance, structural investment, productivity, competition... If we want to model diversity, let's keep it simple, and limits it to the allocation to the simple trade-of described earlier. Let's not talk about morphology.\\
+Hard to balance single organ optimisation and full plant optimisation ? Gain could be integrated (especially if you consider decrease in leaf potential). But if you have a balanced design and stable leaf activity, because gain evaluation is instantaneous (day by day), you should not need to integrate.
 
 \section{Methods: example of the model MountGrass}
 \subsection{Purpose}
