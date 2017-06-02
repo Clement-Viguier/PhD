@@ -52,7 +52,7 @@ Need for plastic driver. Explain the role of plasticity.
 
 \section{How to craft a trade-of}
 
-\indent The idea of trade-of suggest that you cannot invest in all strategies at the same time. To be relevant, it must be associated to a range conditions favouring different strategies along this trade-of. In other word, depending on a position on a gradient, the gradient should lead different niches. This can be visualizes as Gaussian's curves (see figure \ref{fig:niches}).
+\indent The idea of trade-of suggest that you cannot invest in all strategies at the same time. To be relevant, it must be associated to a range conditions favouring different strategies along this trade-of. In other word, depending on a position on a gradient, the gradient should lead different niches. This can be visualizes as Gaussian's curves (see figure \ref{fig:niches})
 
 \begin{marginfigure}[-30mm]
 \begin{tikzpicture}
@@ -74,24 +74,20 @@ samples = 40]
 
 The challenge is to go beyond the Gaussian function, and craft these niches from the plant physiology and ecology. Taking as a basis the usual functions used in plant modelling and the theoretical background upon which MountGrass is built, we will try to model different niches.\\
 
-\indent In MountGrass, the Leaf Economic spectrum (LES)\cite{Wright-2004} is explained by a differential investment between active and structural tissues (supported by analysis of Shipley\cite{Shipley}). This allocation constitutes a major strategic differentiation axis, along which plastic plants can move to optimize their fitness. To keep the approach simple, we hypothesize that such trade-off would also rule the allocation of organic matter in the below-ground compartment\cite{Reich-2014; Tjoelker-2005}. As explained above, plant can modify both the shot:root ratio, and the relative proportion of active tissues in shoot, and in roots. The first dimension is mainly driven by a balance between availability of above-ground versus below-ground resource.\footnote{This part does not belong to this section.}\\
+\indent In MountGrass, the Leaf Economic spectrum (LES)\cite{Wright-2004} is explained by a differential investment between active and structural tissues (supported by analysis of Shipley\cite{Shipley}). This allocation constitutes a major strategic differentiation axis, along which plastic plants can move to optimize their fitness. To keep the approach simple, we hypothesize that such trade-off would also rule the allocation of organic matter in the below-ground compartment\cite{Reich-2014; Tjoelker-2005}. As explained above, plant can modify both the shoot:root ratio, and the relative proportion of active tissues in shoot, and in roots. The first dimension is mainly driven by a balance between availability of above-ground versus below-ground resource, while the second can be driven by other strategic aspects.\footnote{This part does not belong to this section.}\\
 \subsection{Crafting a trade-of for shoot}
-\indent Let's consider only the shoot dimension for now, the demonstration that the same applies to root is done latter in the document.\\
-\indent The fitness function of the shoot can be described as the sum of the gain function and the cost function as follow:
-\begin{equation}\label{eq:gain}
-\frac{Net~Gain}{Biomass} = \frac{Exchange}{Area} . \frac{Area}{Biomass} . (1  - TO~rate) - \frac{Resp}{Biomass}
+\indent The aim of this paragraph is explain how to set up a shared plasticity mechanism that allow different phenotypes to emerge from different estimations of climatic conditions. The general principle exposed earlier is illustrated here with the example of shoot allocation strategies in MountGrass.\\
+\indent Carbon allocation is driven by a gain function that quantify daily gain of the examined phenotype. This is goes against the general principle of maximizing the overall fitness, but we hypothesize that the optimization of daily gain function participates to the optimization of overall fitness function. The daily gain function is described as follow:
+\begin{equation}
+sdf= qsdf
 \end{equation}
-where $\frac{Exchange}{Area}$ is the resource mass exchanges per area (function of exchange rate and resource availability), $\frac{Area}{Biomass}$ is the SLA (or inverse of leaf construction cost), $\frac{Resp}{Biomass}$ is the normalize biomass respiration and $TO~rate$ is the turn-over rate.
-% \footnote{The temporal dimension of the LES is ignored as the parameters are chosen for a fitness equivalence on the construction cost-lifespan trade-of.}.
- Let's analyse how these variables vary for a constant level of resources with the relative proportion of active tissue. For convenience the exchange rate is assumed to be constant for the following calculations.
-The SLA is the inverse function of the leaf density. If we consider that active and structural tissue pools are two distinct constant densities respectively noted $\rho_{act}$ and $\rho_{str}$ with $\rho_{act} < \rho_{str}$, the leaf area per carbon unit can be written:
-\begin{equation} \label{eq:SLA}
-SLA = \frac{1}{th. vol_prop} \left(\frac{1}{\rho_{str}}+\left(\frac{1}{\rho_{act}}-\frac{1}{\rho_{str}}\right)p_{act}\right)
-\end{equation}
-where $th$ is the thickness of the leaf, $vol_prop$ is the proportion of leaf volume occupied by tissue and $p_{act}$ is the fraction of active tissue. This shows a linear relationship between the gain function ($SLA . exchange_rate$) and the proportion of active tissue ($p_{act}$).
+It is composed by the gross gain function that determine the amount of carbon assimilated by the organ during a day, and the loss function, itself the sum of respiration and turn-over cost (loss of organic matter). The net gain function result from the difference between these two functions. In order to have an optimum for $ 0 < p_{act} < 1$, the loss function must have a greater power than the gross gain function. Since, the respiration and carbon assimilation have linear relationships with $p_{act}$, the net gain function can be rewritten as follow :
+\begin{equation}
+qsdf =qsd 
+\end{equation} 
+with $\gamma > 1$.  
 
-
-\begin{marginfigure}[-30mm]
+\begin{marginfigure}[-60mm]
 \begin{tikzpicture}
 \begin{axis}[marginplot,
 legend style
@@ -102,28 +98,15 @@ samples = 40,
 restrict y to domain=-2000:2000,
 xlabel = $p_{act}$]
 
-\addplot[teal][domain = 0:1 ] {(1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x) * (exp(6) * ((1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x))^(-0.6))};
-\addplot[orange][domain = 0:1 ] {(1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x) * (exp(6) * ((1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x))^(-0.6)- 0.03*x)
-*(1)};
-\legend{$\frac{Exchange}{Area}\frac{Area}{Biomass}= f(p_{act})$, $e^{kx} + r_{1}p_{act}$}
+\addplot[teal][domain = 0:1 ] {(1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x) };
+\addplot[orange][domain = 0:1 ]{1/exp(5.5)*((1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x))^(1.8) + 0.3*x};
+%\addplot[gray][domain = 0:1] {(exp(6) * ((1/(0.022 * 1)) * (1/1 + (1/0.05 - 1)*x))^(1.2)};
+\legend{$Gross~gain$, $Resp + TO~loss$}
 \end{axis}
 \end{tikzpicture}
 \label{fig:gain_cost}
 \caption{Comparison of "gain" function and "cost" function. Parameter values: $\rho_{act} = 0.05$, $\rho_{str} = 1$,  $k = 7$ and  $vol_prop = 1$. The area between the two curves is the total gain by the plant.}
 \end{marginfigure}
-
-To avoid convergence toward an extremum (either $p_{act} = 0 or 1$), we need the cost function to have higher signed curvature in order to the difference to have a maximum for $ 0 < p_{act} < 0$. As respiration and construction cost (area per biomass) are linearly related to $p_{act}$ (null curvature), the turn-over rate must have a positive curvature. While respiration should not change with resource availability (only temperature), the realised exchange rate is related to resource level, leading to an increased slope of the linear gross gain function in case of increasing resource availability. Changes in the slope of the gross gain function, with the convex loss function lead to different optimum for $p_{act}$. 
-
-
-\begin{align}\label{eq:net_gain}
-Net~Gain & = R\frac{1}{th . vol_prop} \left(\frac{1}{\rho_{str}}+\left(\frac{1}{\rho_{act}}-\frac{1}{\rho_{str}}\right)p_{act}\right)(1 -* \frac{1}{e^{k_{0}}} .SLA%^{k_{1}}) - r_{1}p_{act}\\
-& =R (g_{1} + g_{2}p_{act})(1 - \frac{1}{e^{k_{0}}} . (g_{1} + g_{2}p_{act})^{k_{1}}) -  r_{1}p_{act} 
-\end{align}
-
-\begin{equation}\label{eq:net_gain_der}
-f'(p_{act}) = R.g_{2}p_{act} - (k.e^{k.p_{act}} + r_{1})
-\end{equation}
-but the equation $f'(p_{act}) = 0$ is not numerically solvable, but we can visualize that the net gain function have different maximum for $p_{act}$ in the interval $[0:1]$.
 
 
 \begin{figure}
@@ -155,7 +138,7 @@ ymin = -100]
 \end{figure}
 
 
-\begin{marginfigure}[-63mm]
+\begin{marginfigure}
 \begin{tikzpicture}
 \begin{axis}[marginplot,
 legend style
@@ -178,8 +161,10 @@ extra x tick style={grid=major}]
 \end{marginfigure}
 
 \subsection{How about root}
+Root fol
 
 \subsection{How do the two trade-of merge ?}
+The complexity of the model is that different objectives are in line to maximize the fitness: the optimization of carbon allocation at the scale of the organ (organ efficiency), the equilibrium between the organ (whole plant balance), and other mechanisms at the plant scale (reproduction, reduction of grazing or frost risk). All these components are translated into carbon gain and losses and summed to give the net gain function. Two major components influence the balance between these components (and the resulting phenotype): the weight of species specific memory in future estimation, and the distance from optimum for each sub-function. 
 
 
 \end{document}
