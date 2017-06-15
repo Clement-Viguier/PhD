@@ -104,6 +104,7 @@
 
 \paragraph{plan}
 
+
 Challenges of ecology: understand coexistence mechanisms to better predict response to drivers (management view). Coexistence is a major question: it's based on the use of resources, the interactions (indirect and direct) between individuals and the adaptation to environmental conditions... <- a bit vague. Plus many other mechanisms: how to include enough of them to maintain coexistence and eventually study them (alternative to experimental approaches)\\
 Objective: Better understanding of coexistence mech and community dynamics by looking at effect of plant on resources, and resource levels on plant.\\
 Approach: generalist: Functional traits, shared physiology.\\
@@ -113,14 +114,17 @@ Why: services, productivity, (productivity-diversity relationship), better under
 
 Challenge: coexistence mech, response to drivers, and functional description.\\
 Pb: role of intraspecific variation (gen, or plasticity), potential for very different response, + impact on coexistence mechanisms (but also resistance and resilience.\\
-Curent state: see Fabio's biblio. too theoric, some empirical approaches, difficulty to predict community scale effect, and combine effect of management and climate variations. Reacton norms.\\
+Curent state: see Fabio's biblio. too theoric, some empirical approaches, difficulty to predict community scale effect, and combine effect of management and climate variations. Reaction norms.\\
 Introduction of mountgrass: coexistence framework for coexistence, allocation trade-off and phenotypic plasticity framework, interaction based on explicit resource use and dynamics.
+
+Understanding the mechanisms of coexistence leading to high diversity of ecological system has long time be a subject of research. From the apparent paradox of numerous species coexisting in a environment with a limited number of resources, theoretical progress has been made in the understanding of involved mechanisms. Among these mechanisms heterogeneity (spatial and temporal) and perturbations play a big role. Trade-offs are also important aspects of coexistence, preventing the existence of darwinian demons and allowing the existence of diverse equivalent (in fitness) strategies. Understanding these mechanisms is crucial in a time where the natural and semi-natural habitats are subjects to great pressure, changing drivers (global changes) and provide a high number of services of which the importance is more and more revealed. Empirical studies and models are already alvailable to interrogate the effect of drivers such as climate and land-use on vegetation communities (wilfried). However empirical studies are costly both in money and time and can be used for a limited number of scenarios. Models offer a good tool to address these questions in diverse scenarios combining climate trajectories and alternative management plans. These models are often limited to a restricted pool of species in non natural habitat or to braod functional types for semi-natural or natural habitats. ...
+Need for taking into account intra-specific variability: both to quantify services, but also to understand and predict community dynamics.
 
 
 \section{The multi-dimensionality of coexistence}
 multiplicity of mechanisms (equilizing, stabilizing) and scales: empirically studies are often interested in one specific scale, but plant functioning is not, a generalizing model should try to let the door open to that. We propose here a framework to gain in genericity, but can be adjusted to particular important mechanisms (resistance or avoidance of predation, frost, drought, submersion, ...).\\
 Need to draw axis of strategic differenciation : lead to strategic volume. Axis are drawn from fundamental trade-offs, ecological trade-off emerge from the model.\\
-Paritcular effect of 
+Particular effect of 
 
 
 \section{Modelling phenotypic plasticity}
@@ -135,7 +139,7 @@ THe role of estimation: you might want to follow global variations of resource v
 
 \section{Methods: example of the model MountGrass}
 \subsection{Purpose}
-The model \model is designed to investigate the effect of phenotypic plasticity on coexistence mechanisms in response to climatic and management drivers on mountain grasslands individual plants and communities. Its generic structure allows the representation of numerous species with diverse strategies. Its design also let ones use it both as a toy model for plants in controlled conditions (main use case in this paper) or as a community model.\\
+The model \model is designed to investigate the effect of phenotypic plasticity on coexistence mechanisms in response to climatic and management drivers on mountain grasslands individual plants and communities. Its generic structure allows the representation of numerous species with diverse strategies. Its design also lets ones use it both as a toy model for plants in controlled conditions (main use case in this paper) or as a community model (after calibration).\\
 
 \subsection{Structure}
 The model is an individual, spatially explicit, process-based model.\\
@@ -145,10 +149,21 @@ Environment : soil (water parameters, depth), atmosphere (temp, humidity, light)
 scales and processes.
 
 \subsection{Representation of processes}
+
+Pseudo-code and schedule.
+The vegetation model \model is designed for mountain grasslands, because this type of system works on a season basis, so does the model. It runs on a seasonal schedule, seasons being defined as the periods between the first (check that) snow fall of the first semester and the first snow fall of the second semester. On a biological side seasons start with the germination of new plants and end with the loss of aboveground organic matter. Within the season the processes are computed on a daily basis. The model's schedule is presented in the figure and major steps are detailed in the following paragraphs.\\
+
+Seed bank and germination\\
+
 Resources gathering and competition\\
-Resource allocation\\
+In \model plants compete for two resources: light and water. Competition for resources being the only form of interactions between plants and closely related to plants strategies, it is the main driver of community structure and dynamics. Light competition is simulated by diffusion law and integration of photosynthetic activity over leaf homogeneous shoot layers within each grid cell and summed up \cite{Taubert} to avoid the computational cost and complexity of ray casting methods. The total shoot potential photosynthetic activity is translated into potential evapo-transpiration or water demand. The water demand is divided over the grid cells of the plant rooting zone to compute the water competition per grid cell. In each cell the total water demand (sum of all plant water demand fractions and potential evaporation) is summed up. If the total demand does not exceed the volume of available water, each plant water demand fraction (and evaporation) is extracted, otherwise the available volume is divided proportionally to the individual demand (see appendix for details). The potential deficit caused by competition in some cells is not compensated in non limited portions of the rooting zone. Because the water demand is calculated from the potential photosynthesis, the water uptake cannot exceed the potential evapo-transpiration.\\
+The carbon assimilation equals the realised water uptake multiplied by the water use efficiency (WUE) and temperature reduction factor. The gross primary production (GPP) is reduced by the maintenance respiration proportionally to the amount of active tissues and the growth production if it is still positive. Mass of produce organic matter that can be allocated to plant growth, storage or reproduction is given by the net primary production (NPP) just calculated multiplied by an average leaf carbon content parameter (see table).\\
+
+Resource allocation
+The organic matter produced must be allocated to the different carbon pools of the plant. This is crucial as it greatly defines the strategy of the individual and its chances of success in reproduction and/or persistence. Juvenile will invest only in development, whereas mature plants will invest in reproduction and/or storage, and eventually maintain some investment in growth to compensate the tissue turn-over. The shift from juvenile to mature can be controlled by different variable (size, total biomass, degree.days) and constitute the only ontogenic control in \model . The organic matter allocated to development can now be divided between four carbon pools corresponding to the active and structural tissues of shoot and roots. This can follow fixed species specific coefficient or be controlled by simple rules of allocation that join species specific traits and individual experience. This part is further discussed in the plasticity paragraph. \\
 Plasticity (and costs).\\
-(reproduction ?)\\
+reproduction and dispersion
+At the end of the growing season\\
 \subsection{Initialisation and inputs}
 Because of implementation limitations running sensitivity analysis and full calibration is not possible. The model was used with fixed parameter values unless explicitly said (e.g. for plasticity costs analysis) (see appendix for details). The model was mostly used in the following set-ups:
 \begin{itemize}
@@ -157,13 +172,19 @@ Because of implementation limitations running sensitivity analysis and full cali
 \item[Greenhouse simulation:]
 %\item[Grassland simulation]
 \end{itemize}
+
+Rewrite the rest:
 In the rest of this paper we will use the terms "pot simulation", "double pot simulation" and "greenhouse simulation" to refer  to these set-ups.\\
 If not specified or varying the default precipitation and radiance levels where as follow: 2mm per day and 300 Watt per day (10/12 hours). Species traits are default traits (see appendix for details)\\
 Maturity and investment to storage or reproductive tissues is ignored to use the total growth as proxy for fitness.
 
+\subsection{The measure of success}
+Fitness is a important concept in ecology. It is a great tool for theoretical studies as its abstract form allow to capture and model numerous mechanisms with simple hypothesis. However the definition of fitness itself and the identifications of all its components is not always easy because it is a result of multiple, complex and interacting mechanism, not a proporty of an individual. Fitness is the result of the intrinsic characteristics of an individual, their fit with the environment, and interactions with other living beings. Components, they vary, mostly survival, reproduction.
+
 
 \section{Results}
 \subsection{Know your classics}
+Hard to do and out of context. We want more narrow questions.\\
 Reproduction of classical patterns: intermediate perturbation, heterogeneity, storage effect.
 -> that should lead to coexistence.\\
 Selection processes: selection of more conservative strategies with stressed conditions, selection of  shorter plants when cuts etc...
