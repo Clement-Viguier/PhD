@@ -1,0 +1,7 @@
+\titleformat{\chapter}
+  {\sffamily}{\thechapter}{1em}{}
+  
+ \titleformat{\section}
+  {\sffamily}{\thesection}{1em}{}
+  
+ 

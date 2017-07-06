@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.7)  30 MAY 2017 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.7)  30 JUN 2017 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1665,6 +1665,8 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 
 [2]
 
@@ -1687,8 +1689,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  ) 
 Here is how much of TeX's memory you used:
  33798 strings out of 493013
- 746074 string characters out of 6133328
- 1095067 words of memory out of 5000000
+ 746076 string characters out of 6133328
+ 1096320 words of memory out of 5000000
  36689 multiletter control sequences out of 15000+600000
  62194 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1703,7 +1705,7 @@ f-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on craft_a_trade-of.pdf (3 pages, 100041 bytes).
+Output written on craft_a_trade-of.pdf (3 pages, 99953 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

@@ -1,0 +1,33 @@
+
+\titleformat{\chapter}%
+  [display]% shape
+  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\Huge\thechapter}% label
+  {0pt}% horizontal separation between label and title body
+  {\huge\sffamily\scshape}% before the title body
+  [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+
+\titleformat{\section}%
+  [hang]% shape
+  {\rmfamily\Large}% format applied to label+text
+  {\thesection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+\titleformat{\subsection}%
+  [hang]% shape
+  {\rmfamily\large}% format applied to label+text
+  {\thesubsection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+\titleformat{\paragraph}%
+  [runin]% shape
+  {\normalfont\itshape}% format applied to label+text
+  {\theparagraph}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  
+\renewenvironment{quote}{\itshape\large \hspace{2em}}{\\}

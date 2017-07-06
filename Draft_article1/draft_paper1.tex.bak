@@ -178,13 +178,9 @@ In the rest of this paper we will use the terms "pot simulation", "double pot si
 If not specified or varying the default precipitation and radiance levels where as follow: 2mm per day and 300 Watt per day (10/12 hours). Species traits are default traits (see appendix for details)\\
 Maturity and investment to storage or reproductive tissues is ignored to use the total growth as proxy for fitness.
 
-\subsection{The measure of success}
-Fitness is a important concept in ecology. It is a great tool for theoretical studies as its abstract form allow to capture and model numerous mechanisms with simple hypothesis. However the definition of fitness itself and the identifications of all its components is not always easy because it is a result of multiple, complex and interacting mechanism, not a proporty of an individual. Fitness is the result of the intrinsic characteristics of an individual, their fit with the environment, and interactions with other living beings. Components, they vary, mostly survival, reproduction.
-
 
 \section{Results}
 \subsection{Know your classics}
-Hard to do and out of context. We want more narrow questions.\\
 Reproduction of classical patterns: intermediate perturbation, heterogeneity, storage effect.
 -> that should lead to coexistence.\\
 Selection processes: selection of more conservative strategies with stressed conditions, selection of  shorter plants when cuts etc...
