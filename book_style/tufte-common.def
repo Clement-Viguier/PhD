@@ -778,7 +778,7 @@
 
 \providecommand\newthought[1]{%
    \tuftebreak
-   \noindent\textsc{#1}%
+   \indent\textsc{#1}%
 }
 
 %%

@@ -1,4 +1,12 @@
 
+\titleformat{\part}%
+  [display]% shape
+  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\Huge\thepart}% label
+  {0pt}% horizontal separation between label and title body
+  {\Huge\sffamily\scshape}% before the title body
+  [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+  
 \titleformat{\chapter}%
   [display]% shape
   {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
