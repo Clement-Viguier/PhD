@@ -1,0 +1,132 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Custom commands:
+\newcommand{\model}{\textbf{\textit{MountGrass}}~}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{General framework for coexistence including phenotypic plasticity: the model \model}
+\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+\author{Elsevier\fnref{myfootnote}}
+\address{Radarweg 29, Amsterdam}
+\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\ead[url]{www.elsevier.com}
+
+\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{support@elsevier.com}
+
+\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+\end{abstract}
+
+\begin{keyword}
+\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+There is a need for community models capable of reproducing diverse plant communities. To investigate the effect of climate change it has to incorporate mechanism of response and individual level.\\
+Such mechanism is called phenotypic plasticity\\
+
+\section{Methods}
+\subsection{Model overview}
+\subsection{Calibration data}
+\subsection{Simulation setup}
+
+\section{Results}
+\subsection{Growth of diverse species}
+calibration\\
+sensitivity analysis\\
+1d gradient: distribution of as and memory of surviving species.\\
+niche\\
+
+\subsection{Plasticity in this framework}
+compare algorithm.\\
+effect of tau on growth (same parameters but with no plasticity cost)\\
+plastic calibration\\
+
+
+\section{Discussion}
+
+\section{Conclusion}
+using fundamental "deep" traits and memory: able to reproduce a diversity of resource use strategies. Possibility to \\
+%These strategies have an impact on niche and interactions\\
+This framework is compatible with phenotypic plasticity\\
+plasticity change the niche shape (and probably interactions) and may have an impact on community dynamics.
+
+
+\section*{References}
+\cite{Dirac1953888}
+\bibliography{201703_bib_paper1}
+
+\part*{Appendices}
+
+%\section{Theory}
+
+\section{\model description}
+
+\section{State variables, traits and parameters}
+\subsection{State variables}
+\subsection{Species specific traits}
+\subsection{Parameters}
+
+\section{Simulations}
+
+
+\end{document}

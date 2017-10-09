@@ -50,6 +50,8 @@
 % Graph settings
 \input{../latex_settings/graph_settings}
 
+\input{parameters}
+
 \begin{document}
 \maketitle
 \begin{fullwidth}
@@ -58,28 +60,6 @@
 This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al.. The model is inspired by multiple other forest and grassland models (for grassland models see particularly Taubert and Lohier) but differentiates it self from these models by its incorporation of phenotypic plasticity in a generalizing framework of plant functioning. This allows it to be used to explore the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
 \end{abstract}
 \end{fullwidth}
-
-\begin{marginfigure}
-\begin{tikzpicture}
-\begin{axis}[marginplot,
-legend style
-={at={(1, 1.1)},
-anchor=south east,
-draw = none},
-samples = 40,
-restrict y to domain=-300:700,
-xlabel = $p_{act}$,
-extra x ticks={0.618},
-extra x tick style={grid=major}]
-
-\addplot[darkgray][domain = 0:1 ] {(1/(0.022 * 1)) * (1 + (1/0.05 - 1)*x) - (exp(7*x) + 0.03*x)};
-\addplot[gray][domain = 0:1 ] {(1/(0.022 * 1)) * ((1/0.05 - 1)*x) - (7*exp(7*x) + 0.03)};
-\legend{$Net~gain$, $f'$}
-\end{axis}
-\end{tikzpicture}
-\label{fig:derivaives}
-\caption{Net gain function and its first derivative.} Looks like there is some kind of mismatch here.
-\end{marginfigure}
 
 
 
@@ -103,7 +83,7 @@ The development of \model is motivated by the need for a flexible tool to explor
 \begin{table*}
 \caption{State variables of individual plants} 
 \label{table:state_var_plant}
-\begin{center}
+%\begin{center}%
 \begin{tabular}{l|l|c}
 Variable & Description & Unit \\ 
 \hline 
@@ -124,7 +104,8 @@ r\_r & root radius & cm \\
 $light_{exp}$ & above-ground potential resource availability & gH2O.leaf area\\
 $water_{exp}$ & below-ground potential resource availability & gH2O.root area\\
 \end{tabular} 
-\end{center}
+%\end{center}
+\vspace*{0.5cm}
 \end{table*}
 
 %little scheme to show what it looks like
@@ -141,7 +122,7 @@ $water_{exp}$ & below-ground potential resource availability & gH2O.root area\\
 Trait & Range (close range) & unit & trade-of or strategy\\
 \hline 
 seed mass & (0.00001 - 0.001) & g & seed ouput vs seedling productivity\\
-maturity & - & time, degree.days or height & flowering time vs reproduction potential\\
+maturity & - & green biomass & flowering time vs reproduction potential\\
 fract\_dev & 0-1 (0.05-0.6) & - & blooming vs persistence\\
 fract\_rep & 0-1 (0-1) & - & reproduction vs persistence\\
 geometric constant ($k_{g}$) & (0.1 - 20) & - & competition sensitivity vs self-shading\\
@@ -155,6 +136,7 @@ germination rate & 0-1 (0.5 - 1) & - & good season bet-hedging\\
 thickness & 	(0.012 - 0.05) & cm & WUE vs light efficiency (not in this version)\\
 \end{tabular} 
 \end{center}
+\vspace*{0.5cm}
 \end{table*}
 %table of species traits. trait, range, distribution, trade-of or strategy associated.
 
@@ -233,21 +215,48 @@ Vapour pressure deficit is then computed from temperature and relative humidity.
 
 \subsection{Submodels}
 
-\paragraph{Germination} Individuals from the seed-bank randomly germinate according to their species specific germination rate. Germination consist of investing 20\% of the seed mass into shoot and root biomass according to default traits (active on structural tissues ratios in shoot and root, shoot:root ratio). Non germinating seeds stay in the seed-bank.
+\paragraph{Germination} Individuals from the seed-bank randomly germinate according to their species specific germination rate. Germination consist of investing 20\% of the seed mass into shoot and root biomass according to default traits (active on structural tissues ratios in shoot and root, shoot:root ratio). Non germinating seeds stay in the seed-bank.\\
+%
+%\vspace{0.5em}
+%\paragraph{Freezing resistance allocation} Resistance mechanisms are important for plants to invade harsh environments with perturbations such as grazing of frost events. Investment in free organic compounds is shown to provide resistance to frost. The concentration of such compounds is time variable and closely related to temperature. Other mechanisms morphological, structural, physiological can also play a role in frost resistance. For the sake of simplicity we will limit this aspect to the investment in circulating agents. Moreover, this aspect is crucial, indeed  because the frost risk is high at the beginning of the season, the choice of investing in resistance molecules instead of growing tissues is a strategy choice. Species can then be differentiated on a earlier growing/high frost risk - late growing/low frost risk axis, depending on their estimation of minimal temperature. Minimal temperature is estimated the same way other resources levels. Available stored biomass is invested in frost resistance is the estimated mean temperature is below 3\celsius .\\
+%
+% 
+%\paragraph{Freezing} The freezing damages are calculated based on the concentration of organic matter dedicated to frost resistance is the plant. The LT50 (temperature at which 50\% of biomass is lost) is proportional to the concentration of resistance molecules compare to overall biomass. Daily leaf biomass lost due to frost is computed as follow:
+%
+%
+%\begin{align}
+%k_{frost} &= log(1/dam_{-1} - 1)/(-1 - LT_{50})\\
+%dam &= \frac{1}{1 + e^{k_{frost}(T_{min} - LT_{50})}}
+%\end{align}
 
-\vspace{0.5em}
-\paragraph{Freezing resistance allocation} Resistance mechanisms are important for plants to invade harsh environments with perturbations such as grazing of frost events. Investment in free organic compounds is shown to provide resistance to frost. The concentration of such compounds is time variable and closely related to temperature. Other mechanisms morphological, structural, physiological can also play a role in frost resistance. For the sake of simplicity we will limit this aspect to the investment in circulating agents. Moreover, this aspect is crucial, indeed  because the frost risk is high at the beginning of the season, the choice of investing in resistance molecules instead of growing tissues is a strategy choice. Species can then be differentiated on a earlier growing/high frost risk - late growing/low frost risk axis, depending on their estimation of minimal temperature. Minimal temperature is estimated the same way other resources levels. Available stored biomass is invested in frost resistance is the estimated mean temperature is below 3\celsius .\\
-
- 
-\paragraph{Freezing} The freezing damages are calculated based on the concentration of organic matter dedicated to frost resistance is the plant. The LT50 (temperature at which 50\% of biomass is lost) is proportional to the concentration of resistance molecules compare to overall biomass. Daily leaf biomass lost due to frost is computed as follow:
-\begin{align}
-k_{frost} &= log(1/dam_{-1} - 1)/(-1 - LT_{50})\\
-dam &= \frac{1}{1 + e^{k_{frost}(T_{min} - LT_{50})}}
-\end{align}
+\textbf{Daily processes}\\
 
 \paragraph{Light competition}Light competition is central in all vegetation model as it constraints the photosynthetic activity. To avoid costly calculation we assume vertical homogeneous radiation (it can be easily adapted to be heterogeneous). Relief and orientation effects have to be taken into account in the radiance data.\\
 Light competition sub-model allows calculation of individual potential photosynthesis activity and light at soil surface for evaporation calculation.\\
 Competition for light is calculated independently for each pixel, potential photosynthetic activity is then aggregated at the individual level. Each pixel can be seen as a column of homogeneous layers containing at least one individual (top layer). For each layer the light transmission is computed based on leaf density.
+
+
+\begin{marginfigure}
+\begin{tikzpicture}
+\begin{axis}[marginplot,
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 40,
+restrict y to domain=-300:700,
+xlabel = $p_{act}$,
+extra x ticks={0.618},
+extra x tick style={grid=major}]
+
+\addplot[darkgray][domain = 0:1 ] {(1/(0.022 * 1)) * (1 + (1/0.05 - 1)*x) - (exp(7*x) + 0.03*x)};
+\addplot[gray][domain = 0:1 ] {(1/(0.022 * 1)) * ((1/0.05 - 1)*x) - (7*exp(7*x) + 0.03)};
+\legend{$Net~gain$, $f'$}
+\end{axis}
+\end{tikzpicture}
+\label{fig:derivaives}
+\caption{Net gain function and its first derivative.} Looks like there is some kind of mismatch here.
+\end{marginfigure}
 
 \begin{equation}\label{eq:Ih}
 I_{h} =  I_{0} e^{-LAI_{h}}
@@ -358,7 +367,8 @@ sen_{leaf} &= \frac{1}{LLS}\\
 sen_{root} &= \frac{1}{RLS}
 \end{align}
 where $LLS$ and $RLS$ are respectively the leaf and the root lifespans calculated as negative log-linear relationships with SLA and SRL.\\
-\indent Root senescent tissues disappear from the system. Information about senescent biomass is stored, but senescent biomass effect of light competition is ignored in this version because as it is implemented senescent tissues appear early in plant development and have large negative effect on light absorption.
+\indent Root senescent tissues disappear from the system. Information about senescent biomass is stored, but senescent biomass effect of light competition is ignored in this version because as it is implemented senescent tissues appear early in plant development and have large negative effect on light absorption.\\
+! it does not happen in the same time.
 
 \paragraph{Death} Death is modelled as in Reineking 2006. Age and desication (negative NPP) are the two reasons why a plant can die. The two mechanisms are simulated by random draw and comparaison to the following probability function:
 \begin{align}
@@ -368,7 +378,7 @@ P_{a} &= exp \left( - \left[\left(\frac{age + 1}{\alpha_{a}}\right)^{\gamma_{a}}
 \end{align}
 
 \paragraph{Allocation} \label{par:allocation}
-Allocation is primordial in plant development and we must be careful when modelling it. We can distinguish two phases in plant development that impact a lot OM allocation: the vegetative phase, and the reproductive phases. The separation between these phases and the development allocation are discussed in the following paragraphs.
+Allocation is primordial in plant development and we must be careful when modelling it. We can distinguish two phases in plant development that impact a lot OM allocation: the vegetative phase, and the reproductive phases. The separation between these phases and the development allocation are discussed in the following paragraphs.\\
 
 \textbf{Maturity:} Plants are considered mature in \model when the phenologic variable has reach a species specific threshold. The phenologic variable can be either the age, the height, the biomass, degree.days, in the current version age is used.\\
 \indent 
@@ -384,7 +394,26 @@ where $\alpha_{L}$ and $\gamma_{L}$ are the shoot allometry and shoot allometry 
 \end{equation}
 where $Str_{ag}$ is the structural biomass in shoot.\\
 
-\indent Allocation of produced organic matter is central in vegetation as it will shape the plant and define the strength of the different organs. There are multiple ways to model the distribution of produced organic matter between the plant organs. We believe that such mechanism has great impact on individual development and response to external conditions, and so on community dynamics. To explore the role of this mechanism, multiple options are implemented.
+\indent Allocation of produced organic matter is central in vegetation as it shapes the plant and define the strength of the different organs. There are multiple ways to model the distribution of produced organic matter between the plant organs. We believe that such mechanism has great impact on individual development and response to external conditions, and so on community dynamics. To explore the role of this mechanism, multiple options are implemented. The different allocation algorithms are summarised in the following table:
+
+
+%TAble of plant state variables
+\begin{table*}
+\caption{Allocation algorithms implemented in \model} 
+\label{table:state_var_plant}
+%\begin{center}%
+\begin{tabular}{l|c|c c c}
+Algorithm & Objective & variable RSR & variable SLA-SRL & stochastic \\ 
+\hline 
+Fixed & $-$ & $\circ$ & $\circ$ & $\circ$ \\
+Equilibrium & functional eq. & $\bullet$ & $\bullet$ & $\bullet$ \\
+Eq-F & functional eq. & $\bullet$ & $\circ$ & $\bullet$ \\
+Optimisation & instantaneous gain & $\bullet$ & $\bullet$ & $\bullet$ \\
+Optim-F & instantaneous gain & $\bullet$ & $\circ$ & $\bullet$ \\
+\end{tabular} 
+%\end{center}
+\vspace*{0.5cm}
+\end{table*}
 
 \textbf{Fixed trait allocation:} The fixed allocation supposes the allocation on OM to maintain trait values to fixed species specific values. The shoot:root ratio may however change to maintain functional equilibrium. The shoot root ratio is derived from the following equation of the functional equilibrium:
 \begin{align}\label{eq:equilibrium}
@@ -420,7 +449,7 @@ Plasticity in trait suggests that trait values are modified in time. Because pla
 
 
 \paragraph{Reproduction \& persistence}
-\textbf{Sexual \& clonal reproduction:} reproduction is handled at the end of the season. To limit the number of parameters reproduction is limited to the division of the invested biomass in reproduction by the species specific seed biomass into a round number of seeds. Clonal reproduction is not explicitly represented but can be mimic with bigger seeds and by adding a dispersion process around the parents. The seeds then are added to a potential seed-bank. This potential seed-bank is sampled, after eventual invasion, and merged with the existing seed-bank.\\
+\textbf{Sexual \& clonal reproduction:} reproduction is handled at the end of the season. To limit the number of parameters reproduction is limited to the division of the invested biomass in reproduction by the species specific seed biomass into a round number of seeds (the number of seed per plant could also be a differentiation axis). Clonal reproduction is not explicitly represented but can be mimic with bigger seeds and by adding a dispersion process around the parents. The seeds then are added to a potential seed-bank. This potential seed-bank is sampled, after eventual invasion, and merged with the existing seed-bank.\\
 \indent Control on the sampling process allows to model different type of ecosystems and test different hypothesis on invasions impact on community dynamics. The link between the community and the meta-community can also be explored through seed-bank control.\\
 \indent Three types of invasion/reproduction are currently implemented:
 \begin{itemize}

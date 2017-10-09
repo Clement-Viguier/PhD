@@ -48,7 +48,8 @@ This document describes why and how a trade-of has be designed in the model Moun
 \section{Why a trade-of}
 different conditions = different phenotypes\\
 could be anything, needed one. Explain WUE, nitrogen and others. Try to keep independences between strategy axis to keep it simple.\\
-Need for plastic driver. Explain the role of plasticity.
+Need for plastic driver. Explain the role of plasticity.\\
+Need for a mechanistic driving that is both competitive (allow good if not better growth than fixed allocation) and not functioning without cost constraint (i.e. plasticity could be constrained by cost, but if the mechanisms make the individual diverge, and this divergence is costly, plastic plant are artificially at disadvantage).
 
 \section{How to craft a trade-of}
 
@@ -164,7 +165,29 @@ extra x tick style={grid=major}]
 Root fol
 
 \subsection{How do the two trade-of merge ?}
-The complexity of the model is that different objectives are in line to maximize the fitness: the optimization of carbon allocation at the scale of the organ (organ efficiency), the equilibrium between the organ (whole plant balance), and other mechanisms at the plant scale (reproduction, reduction of grazing or frost risk). All these components are translated into carbon gain and losses and summed to give the net gain function. Two major components influence the balance between these components (and the resulting phenotype): the weight of species specific memory in future estimation, and the distance from optimum for each sub-function. 
+The complexity of the model is that different objectives are in line to maximize the fitness: the optimization of carbon allocation at the scale of the organ (organ efficiency), the equilibrium between the organ (whole plant balance), and other mechanisms at the plant scale (reproduction, reduction of grazing or frost risk). All these components are translated into carbon gain and losses and summed to give the net gain function. Two major components influence the balance between these components (and the resulting phenotype): the weight of species specific memory in future estimation, and the distance from optimum for each sub-function.\\
+
+The major challenge when you consider the functioning of shoot and root as coupled, is ta take into account both individual organ efficiency and global efficiency. Unfortunatelly the global efficiency is not the weighted mean of organ efficiencies, because it depends also on the relative equilibrium between activity of both organ. This can be understood by the following reasoning: taken that the global efficiency was the weighted average of both efficiency, if one organ is more efficient (mass based) you would tend to increase the biomass of this organ. However, doing so you would increase the difference in total activity in favour of the said organ and therefore decrease the global activity, and possibly the total efficiency.  Considering only the equilibrium would also be problematic as you could achieve equilibrium with low efficiency for both organs, possibly resulting in a suboptimal functioning. There is a trade-of between the maximisation of tissue efficiency and the balance between transpiration and water uptake, that needs to be solved. As many multi-criterion optimisation problem, the difficulty is to find a way to balance both interacting gain mechanisms. The solution is to define an unique gain function.\\
+
+\paragraph{The gain function}
+
+Not clear I'm mixing two things here: the ordering, and the gain function. The ordering could already fix a number of things. The gain function is important not because of turn-over effect lead to more resistant tissues if taken alone, but the fact that relative importance of production part reduces with the total biomass (less productive because more investment in supporting tissues. As the plant grows, the investment into productive tissues is less and less worth it because a bigger fraction is required into supporting tissues. So even for constant resources, the relative weight of production over persistence would decrease. This change in ratio, even 
+
+Gain function: need to be quite stable with stable conditions. Mix of persistence and production, resistance and resilience.
+\paragraph{Unlink efficiency component} One can decompose the components of organ efficiency into equilibrium dependent and equilibrium independent, respectively the exchange rate and the turn-over rate. Then sum. -> weight problem with increasing biomass.\\
+Plus it has an impact on the equilibrium the next step, and increase the weight of equilibrium independent mechanism.
+
+\paragraph{Growth} Another option is to consider both aspect all together by considering both effect of turn-over and exchange rate on both productivity and tissue persistence. This will include the indirect impact of senescence on the equilibrium. One problem that could still emerge is the turn-over aspect taking too much weight into the gain calculations if the productivity is too low. Together two things prevent this to happen: first taking into account the risk of plant death increased by negative NPP, forcing the productivity aspect to be essential, second: a non too low projection of future conditions that assures than the projected NPP will be positive. (that means there are minimum values of $w_ini$ and $l_ini$ that when averaged with zero, give positive close to zero NPP).\\
+Growth can be defined as :
+\begin{equation}
+growth = (invested biomass + produced biomass) * survival
+\end{equation}
+
+
+\paragraph{The parameter constraints: how do plant keep RSR close to one with root so long live ?} Between adaptation and recovery. There are two options when environment change around one individual: either adapt and hope it won't go back or don't adapt and hope it will go back to the better initial state. The plasticity mechanism cannot lead the plant to a path where there is no possible recovery, even if it does better during this harsh time.
+
+
+
 
 
 \end{document}

@@ -1,0 +1,257 @@
+ \documentclass[english,10pt]{article}
+  %\documentclass[english,10pt,twocolumn]{article}
+ \usepackage{setspace}
+ \onehalfspacing
+ \usepackage[utf8]{inputenc}
+ \usepackage{lmodern}
+ \usepackage[a4paper]{geometry}
+ \usepackage{babel}
+ \usepackage{wallpaper}
+ \usepackage{graphicx} %images
+ \usepackage{graphics} %images
+ \usepackage{gensymb} %°C
+ \usepackage{textcomp}
+ \usepackage{multicol}
+ \usepackage{lscape}   % paysage
+ \usepackage{pdflscape,array,booktabs}%pages du pdf avec tableau en paysage
+ \usepackage{geometry}
+ \usepackage{multirow} %tableau avec lignes multiples
+ \usepackage{fancyhdr}
+ %\usepackage[compact]{titlesec} %titres de section compact
+ \usepackage{float}
+ \usepackage[most]{tcolorbox}
+ \definecolor{grey}{gray}{0.95}
+ \definecolor{vert}{RGB}{102,194,165}
+ \definecolor{red}{RGB}{136,0,21}
+ \usepackage{url}
+ \usepackage{tocloft}  %table des figures
+ \usepackage{hyperref}
+% \usepackage{times}
+ \usepackage[small,bf,sf,font=sf]{caption}  %gestion des légendes
+ \captionsetup[table]{font={stretch=1,sf}}
+%Glossaire Need Perl
+\usepackage[toc,nonumberlist]{glossaries}
+ \makeglossaries
+ \usepackage{amsmath,amsfonts,amssymb} %équations, matrices etc...
+ \usepackage{cell} %bibliography style
+ \usepackage{indentfirst} %indentation des paragraphes en debut de section
+% \usepackage[numbered,autolinebreaks,useliterate]{mcode} %insertion de code Matlab framed,
+ \geometry{vmargin=2.5cm, hmargin=2cm}
+ \hypersetup{colorlinks=true, linkcolor= black, citecolor=black} %gestion lien hypertexte
+%\usepackage[rm]{roboto}
+ \usepackage[T1]{fontenc}
+\usepackage{titlesec}
+\usepackage[switch,pagewise]{lineno}
+
+ \newcommand{\auth}{Clément Viguier}
+ \newcommand{\model}{\textit{\textbf{MountGrass }}}
+ \newcommand{\tlte}{- MountGrass -\\An agent-based model for the exploration of mountain grassland community dynamics}
+ \newcommand{\tltesmall}{Plan \date}
+ 
+ \newcommand{\gl}{\hspace{0.6cm}\textbf } %A revoir
+
+\setlength{\columnsep}{20pt}
+ %__________________________________________________________
+ \newenvironment{changemargin}[2]{\begin{list}{}{%
+ \setlength{\topsep}{0pt}%
+ \setlength{\leftmargin}{0pt}%
+ \setlength{\rightmargin}{0pt}%
+ \setlength{\listparindent}{\parindent}%
+ \setlength{\itemindent}{\parindent}%
+ \setlength{\parsep}{0pt plus 1pt}%
+ \addtolength{\leftmargin}{#1}%
+ \addtolength{\rightmargin}{#2}%
+ }\item }{\end{list}}
+ 
+ \setlength{\parskip}{0em}
+ \captionsetup{belowskip=8pt,aboveskip=0pt}
+ 
+ 
+ %___________________________________________________________
+ 
+%\renewcommand{\familydefault}{\sfdefault}  
+ \renewcommand{\rmdefault}{ptm}
+ 
+ \titleformat{\section}{
+ 	\sffamily\color{red}\Large
+ }{\thesection}{1em}{}
+ 
+  \titleformat{\subsection}{
+ 	\sffamily\color{red}\large
+ }{\thesubsection}{1em}{}
+ 
+ % titre du document
+ \title{\tlte}
+ % auteur du document
+ \author{\auth}
+ \date{October 2016} %http://en.wikibooks.org/wiki/LaTeX/Title_Creation
+ 
+% \renewcommand{version}{\texttt{MountGrass2.0}}
+  
+ %Glossaire
+ %\newglossaryentry {alios}{name={alios}, description={portion argileuse du sol meuble à solide}}
+ %\newacronym{{ademe}{ADEME}{Agence De l'Environnement et de la Maîtrise de l'Énergie}}
+ 
+ 
+ 
+ %New paragraph definition avec saut de ligne
+\makeatletter
+\renewcommand\paragraph{
+\@startsection{paragraph}{4}{\z@}
+{-1.25ex\@plus -1ex \@minus -.2ex}
+{1ex \@plus .2ex}
+{\normalfont\normalsize\bfseries}}
+\makeatother  
+ 
+ 
+ %Légende tableaux :
+ \newenvironment{captiontable}{
+  \begin{small}
+ \begin{sffamily}
+ \begin{spacing}{1.1}}
+ {
+ \end{spacing}
+ \end{sffamily}
+ \end{small}
+ }
+ 
+ 
+ %DEBUT DU DOCUMENT _____________________________________________________________
+ \begin{document}
+ \pagestyle{fancy}
+ \renewcommand\headrulewidth{0.5pt}
+ \fancyhead[R]{\color{black}\small\auth - 2016}
+ \fancyhead[L]{\color{black}\small\tltesmall}
+ \thispagestyle{empty}
+% 
+% \newpage
+% \strut
+% \ThisLRCornerWallPaper{1}{../Figures/frontpage.pdf}
+% \newpage
+ 
+% \begin{titlepage}
+% 
+% \maketitle
+% \centering
+% 
+% \thispagestyle{empty}
+% \end{titlepage}
+%
+% \begin{changemargin}{2cm}{2cm}	%Sommaire
+% \vspace*{2cm}
+% \thispagestyle{empty}
+% \tableofcontents
+%\thispagestyle{empty} 
+% \end{changemargin}
+% 
+%\newpage
+%
+% \begin{changemargin}{2cm}{2cm}	%Liste des figures
+% \vspace*{2cm}
+% \thispagestyle{empty}
+%\listoffigures
+%\thispagestyle{empty} 
+% \end{changemargin}
+%\newpage
+%
+%
+% \begin{changemargin}{2cm}{2cm}	%Liste des tableaux
+% \vspace*{2cm}
+% \thispagestyle{empty}
+%\listoftables
+%\thispagestyle{empty} 
+% \end{changemargin}
+%\newpage
+%
+%\linenumbers
+%\modulolinenumbers[5]
+
+\section{Objectives}
+\subsection{Generic framework for modelling of plant communities}
+\subsection{The effect of phenotypic plasticity on plant community dynamics}
+\paragraph{Individual level}
+\paragraph{Community response to drought event}
+
+\section{Literature review}
+\subsection{Context: mountain grasslands and climate change}
+
+\subsection{Existing solutions/approaches}
+\paragraph{Modelling vegetation - traits and strategies}
+traits \& strategies\\
+existing models: a gap to fill\\
+coexistence processes
+
+\paragraph{Understanding phenotypic plasticity}
+what is it and why is it important\\
+cost and limits\\
+effect on coexistence and community
+
+\section{Generic model for plant community dynamics}
+Paper 1:
+\subsection{Introduction}
+\subsection{Strategy space and allocation pools}
+Leaf economic spectrum + Shipley
+
+\subsection{Model overview}
+\paragraph{pseudo-code and routine}
+\paragraph{allocation}
+mechanism and stochasticity\\
+5 types of allocation\\
+
+\subsection{Plasticity: between species memory and individual experience}
+\paragraph{concepts} equilibrium, resource use, resource availability, condition estimation
+\paragraph{comparison of different algorithms}
+the two sides of the performance/fitness: equilibrium and tissue efficiency\\
+age vs biomass.
+
+\subsection{Parameter filtering and sensitivity analysis}
+Obj: give confidence in the model, demonstrate is able to reproduce simple growth pattern.\\
+Obj2: have a beter idea of plasticity on growth.
+growth plastic and non plastic parameter filtering: can we distinguish species thanks to species specific parameters instead of shared parameters.\\
+does plasticity make it easier ?\\
+Impact of plasticity related parameters.
+
+\subsection{Community dynamics parametrisation}
+Obj: demonstrate that the model is able to reproduce community dynamics (as it was designed for).\\
+Find parameters that allows coexistence (suggest plasticity should allow a diversity of strategy). SLA and height data. Phytosociology for 10m quadrats.
+
+\section{Model's properties and individuals response}
+(Related to the notions cited above, like performance decomposition)
+
+\subsection{Craft a trade-of and phenotypic map}
+Can memory be related to strategy and active/structural ratios in shoot and roots ?
+
+\subsection{Niche response}
+Obj1: understand how resource use mechanisms and allocation algorithms shape the environmental potential niche in the context of the model.\\
+H1: strategy and memory affect niche in two ways if we suppose they are independent: shape and position. Strategy mostly affect shape (width and height) while memory (and so root:shoot ratio) affect mostly position.\\
+H1': there is strong link between strategy and memory in the case of optimisation allocation that increase niche height and might reduce its width.\\
+Obj2: understand the role of plasticity on the niche and if the effect in the same for all strategies/memories.\\
+H2: the plasticity increase niche width but not height (as phenotype is optimum at the center of the niche where memory match the resource availability).
+
+Stability and efficiency trade-off. Niche heigh and width and relationship with the strategy. How does plasticity affect that ? Does it increase the height and widen niches ? What does that mean for coexistence ?\\
+Hopefully higher niche would go with unstable niche.
+
+\subsection{Transitivity and competition}
+1 vs 1 interactions\\
+Is the resource competition transitive ? How does niche widening impact that, does plasticty change competition interaction. Is it related to the trait distance ? (don't think so)
+
+\section{The effect of phenotypic plasticity on plant community dynamics}
+Hypothesis on the cumulative effect on niche and interactions.
+
+\subsection{Individual resistance and resilience against drought events}
+Amplitude and length of the event :\\
+- severity effect reduced by lower tau ?\\
+- resistance versus resilience: H0: conservative strategy have higher resistance, H1 : low tau allows for re-equilibrium and increase resistance (low amplitude and long length. H2: high tau allow to avoid dead-end situation during short severe drought (high resilience)
+\subsection{Community response to drought event}
+coexistence effect vs resistance/resilience effect\\
+uniform vs heterogenous (plasticity wise) community response
+H1: 
+
+
+ \nocite{TitlesOn}
+ \bibliographystyle{cell}
+ \bibliography{biblio_model_description}
+
+
+  \end{document}
+%  }
