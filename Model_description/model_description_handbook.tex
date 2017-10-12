@@ -16,6 +16,7 @@
 
 \usepackage{lipsum}
 
+
 % custom package list
 
  \usepackage{gensymb} %°C
@@ -53,9 +54,11 @@
 \input{parameters}
 
 \begin{document}
+
+ \pgfmathsetmacro{\paralpha}{2.9662}
 \maketitle
 \begin{fullwidth}
-\begin{abstract}
+\begin{abstract} \paralpha
 \noindent
 This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al.. The model is inspired by multiple other forest and grassland models (for grassland models see particularly Taubert and Lohier) but differentiates it self from these models by its incorporation of phenotypic plasticity in a generalizing framework of plant functioning. This allows it to be used to explore the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
 \end{abstract}
@@ -244,14 +247,16 @@ legend style
 anchor=south east,
 draw = none},
 samples = 40,
-restrict y to domain=-300:700,
-xlabel = $p_{act}$,
-extra x ticks={0.618},
-extra x tick style={grid=major}]
+%restrict y to domain=-300:700,
+ylabel = $I_{h}$,
+xlabel = $h$
+%extra x ticks={0.618},
+%extra x tick style={grid=major}
+]
 
-\addplot[darkgray][domain = 0:1 ] {(1/(0.022 * 1)) * (1 + (1/0.05 - 1)*x) - (exp(7*x) + 0.03*x)};
-\addplot[gray][domain = 0:1 ] {(1/(0.022 * 1)) * ((1/0.05 - 1)*x) - (7*exp(7*x) + 0.03)};
-\legend{$Net~gain$, $f'$}
+\addplot[orange][domain = 0:10 ] {120 * exp(-1*x)};
+%\addplot[gray][domain = 0:1 ] {(1/(0.022 * 1)) * ((1/0.05 - 1)*x) - %(7*exp(7*x) + 0.03)};
+%\legend{$I_{h}$}
 \end{axis}
 \end{tikzpicture}
 \label{fig:derivaives}
@@ -268,6 +273,31 @@ LAI_{h} = LAI_{h+\Delta_{h}} +  \Delta h_{l, l-1} . pix\_width^{2} \sum_{i\ in\ 
 \end{equation}
 where $d_{i}$ is the individual leaf area density corrected by the coverage ($0< coverage =< 1$) of the pixel by the plant, $\Delta_{h}$ is the height of the layer.\\
 Following Thornley and Johnson, the potential photosynthetic leaf activity is calculated as :
+
+
+\begin{marginfigure}
+\begin{tikzpicture}
+\begin{axis}[marginplot,
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 100,
+%restrict y to domain=-300:700,
+xlabel = $I$,
+ylabel = $P_{leaf}$
+%extra x ticks={0.618},
+%extra x tick style={grid=major}
+]
+
+\addplot[orange][domain = 0:0.00001 ] {(\paralpha * x * \parPmax ) /(\paralpha * x + \parPmax ) };
+\legend{}
+\end{axis}
+\end{tikzpicture}
+\label{fig:derivaives}
+\caption{Photosynthetic saturation function}
+\end{marginfigure}
+
 \begin{equation}\label{eq:Pleaf}
 P_{leaf} = \frac{\alpha. I_{leaf}.Pm_{i}}{\alpha I_{leaf}+Pm_{i}}
 \end{equation}
