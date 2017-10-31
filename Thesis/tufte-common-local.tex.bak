@@ -1,9 +1,17 @@
 
-\titleformat{\chapter}%
+\titleformat{\part}%
   [display]% shape
   {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
-  {\Huge\thechapter}% label
+  {\Huge\thepart}% label
   {0pt}% horizontal separation between label and title body
+  {\Huge\sffamily\scshape}% before the title body
+  [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+  
+\titleformat{\chapter}%
+  [block]% shape
+  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\Huge\thechapter}% label
+  {1em}% horizontal separation between label and title body
   {\huge\sffamily\scshape}% before the title body
   [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
 
@@ -24,10 +32,15 @@
   []% after the title body
 
 \titleformat{\paragraph}%
-  [runin]% shape
-  {\normalfont\itshape}% format applied to label+text
+  [block]% shape
+  {}% format applied to label+text
   {\theparagraph}% label
-  {1em}% horizontal separation between label and title body
-  {}% before the title body
+  {}% horizontal separation between label and title body
+  {\setmarginnotefont{\sffamily\scshape\color{myGreen}}\begin{marginnote}}% before the title body
+  [\end{marginnote}]
+  
+\titlespacing*{\paragraph}{0pt}{*1}{-1.5em}
   
 \renewenvironment{quote}{\itshape\large \hspace{2em}}{\\}
+
+\geometry{a4paper,left=24.8mm,top=27.4mm,headsep=2\baselineskip,textwidth=137mm,marginparsep=8.2mm,marginparwidth=49.4mm,textheight=49\baselineskip,headheight=\baselineskip}

@@ -13,7 +13,17 @@
   \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
 \usepackage{pgfplots}
 
+
 \usepackage{lipsum}
+
+
+\usepackage{xcolor}
+\definecolor{myOrange}{HTML}{F37820}
+\definecolor{myGreen}{HTML}{178E5B}
+\definecolor{myRed}{HTML}{DA4426}
+\definecolor{myTurquoise}{HTML}{36BEBE}
+\definecolor{myYellow}{HTML}{FBD475}
+\definecolor{myBlue}{HTML}{0C86BF}
 
 % to see the margins and page width
 % \geometry{showframe}

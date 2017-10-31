@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  10 OCT 2017 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  24 OCT 2017 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,7 +1873,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 172.
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--209
+Underfull \hbox (badness 10000) in paragraph at lines 180--183
 
  []
 
@@ -1881,9 +1881,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
 \openout6 = `plan.ist'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
 
-LaTeX Warning: Citation `TitlesOn' undefined on input line 260.
+ []
+
+[2]
+
+LaTeX Warning: Citation `TitlesOn' undefined on input line 273.
 
 No file plan.bbl.
 
@@ -1896,23 +1901,23 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
  (./plan.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `plan.out' has not changed.
-(rerunfilecheck)             Checksum: AC6B275DD8990C9B8AA3C0B559FBE570;1840.
+(rerunfilecheck)             Checksum: 0FE78127A516CDE0C0414EA8CA043BF5;1915.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 36600 strings out of 494910
- 695366 string characters out of 6179836
+ 36604 strings out of 494910
+ 695418 string characters out of 6179836
  829310 words of memory out of 5000000
- 39244 multiletter control sequences out of 15000+600000
+ 39245 multiletter control sequences out of 15000+600000
  20988 words of font info for 24 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  63i,11n,101p,10494b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1920,10 +1925,10 @@ Here is how much of TeX's memory you used:
 fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on plan.pdf (3 pages, 54618 bytes).
+Output written on plan.pdf (3 pages, 55898 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

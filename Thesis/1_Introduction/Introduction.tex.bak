@@ -16,6 +16,11 @@ The idea is to go from context, to services to ecology. At the entd of this part
 
 \section{Mountain grasslands, source of services}
 
+\section{Let's talk about traits} % might not be at the right place here
+response trait and effect traits (?) <- you need to talk about this to better introduce the shift from there to a deep/low level traits to composite traits (SLA if related to a certain resource use strategy, is also a composite trait (Nitrogen, light and water all affect the SLA value). View such traits as mono dimensional is dangerous as it simplify a lot (and I might have fallen within this trap). Having low level traits that define the overall strategy (and not how to achieve it) should help to have a more systemic view (good term here ? view of the system with all its parts) and better understand the rules that drive the development. But they also imply the need for new mechanisms to link such traits and strategies to actual, measurable traits that define the phenotype as we see it (at the level of interaction or services profides). \\
+Opportunity to emphasis the fact (a simple scheme should help here) that apparent traits are usefull (and measurable) to define the current effect on the environment (and so interactions between plants) and on provided services, but they are difficult to use to predict the dynamic of individuals and communities (precisely because they are changing and composit traits that respond to the environment).
+
+
 
 %_________________________________________________________________________________
 \chapter{Modelling ecological systems}
@@ -40,6 +45,11 @@ community approaches, CWM to importance of individuals.\\
 
 
 \subsection{Processes}
+\paragraph{Test pragraph title - now what happen if it lays on multiples lines} This is a paragraphe \lipsum[2]
+
+\marginnote{\textbf{some notes}}
+\marginnote{\lipsum[1]}
+\sidenote{a short sidenote}
 
 \subsection{Agent-based models}
 
