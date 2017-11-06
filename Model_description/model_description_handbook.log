@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  26 OCT 2017 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  6 NOV 2017 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1428,7 +1428,7 @@ File: block.tss 2016/03/15
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 71.
+(hyperref)                removing `\\' on input line 73.
 
 (../latex_settings/graph_settings.tex) (./parameters.tex)
 (./model_description_handbook.aux
@@ -1453,35 +1453,35 @@ LaTeX Warning: Label `table:state_var_plant' multiply defined.
 )
 \openout1 = `model_description_handbook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 83.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1491,9 +1491,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
 (./model_description_handbook.out) (./model_description_handbook.out)
 \@outlinefile=\write5
@@ -1501,7 +1501,7 @@ LaTeX Info: Redefining \nameref on input line 83.
 
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 83.
+LaTeX Info: Redefining \selectfont on input line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1574,20 +1574,20 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
 \symgns@font=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/pplj/m/n --> TS1/pplj/bx/n on input line 83.
-Package gensymb Info: Math companion symbols declared on input line 83.
-LaTeX Info: Redefining \degree on input line 83.
-LaTeX Info: Redefining \celsius on input line 83.
+(Font)                  TS1/pplj/m/n --> TS1/pplj/bx/n on input line 85.
+Package gensymb Info: Math companion symbols declared on input line 85.
+LaTeX Info: Redefining \degree on input line 85.
+LaTeX Info: Redefining \celsius on input line 85.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 83.
-LaTeX Info: Redefining \ohm on input line 83.
-Package gensymb Info: Using \textohm for \ohm on input line 83.
-Package gensymb Info: Using \textmu for \micro on input line 83.
+erthousand on input line 85.
+LaTeX Info: Redefining \ohm on input line 85.
+Package gensymb Info: Using \textohm for \ohm on input line 85.
+Package gensymb Info: Using \textmu for \micro on input line 85.
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <9> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 89.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 91.
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 99.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 101.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 103.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1597,48 +1597,48 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 LaTeX Warning: Marginpar on page 2 moved.
 
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 107
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 109
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 107
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 107
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 107
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 107
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 107.
+(Font)              scaled to size 10.42007pt on input line 109.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 107.
+(Font)              scaled to size 7.91925pt on input line 109.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 107.
+(Font)              scaled to size 6.25204pt on input line 109.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 107.
+(Font)              scaled to size 10.42007pt on input line 109.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 107.
+(Font)              scaled to size 7.91925pt on input line 109.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 107.
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 107
+(Font)              scaled to size 6.25204pt on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 109
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
@@ -1648,18 +1648,26 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 110.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 112.
 
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Overfull \hbox (17.94347pt too wide) in paragraph at lines 151--168
+Overfull \hbox (17.94347pt too wide) in paragraph at lines 153--170
  [] 
  []
 
 
 LaTeX Warning: Marginpar on page 2 moved.
 
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 175.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 175.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 175.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 175.
 [2]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1671,19 +1679,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 LaTeX Warning: Marginpar on page 4 moved.
 
+
+LaTeX Warning: Marginpar on page 4 moved.
+
 [4]
 
 LaTeX Warning: Marginpar on page 5 moved.
 
 
-LaTeX Warning: Reference `text:invasion' on page 5 undefined on input line 209.
-
-
-
 LaTeX Warning: Marginpar on page 5 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
@@ -1698,7 +1705,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 LaTeX Warning: Marginpar on page 6 moved.
 
 
-Package hyperref Warning: Suppressing empty link on input line 214.
+Package hyperref Warning: Suppressing empty link on input line 216.
 
 
 LaTeX Warning: Marginpar on page 6 moved.
@@ -1708,7 +1715,7 @@ LaTeX Warning: Marginpar on page 6 moved.
 LaTeX Warning: Marginpar on page 7 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--261
+Underfull \hbox (badness 10000) in paragraph at lines 253--266
 
  []
 
@@ -1726,14 +1733,6 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 287.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 287.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 287.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 287.
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -1744,14 +1743,14 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 [8]
 
-LaTeX Warning: Reference `subsection:WUE' on page 9 undefined on input line 354
+LaTeX Warning: Reference `subsection:WUE' on page 9 undefined on input line 359
 .
 
 
 LaTeX Warning: Marginpar on page 9 moved.
 
 
-Overfull \hbox (1.10194pt too wide) in paragraph at lines 359--360
+Overfull \hbox (1.10194pt too wide) in paragraph at lines 364--365
 \T1/pplj/m/n/10 Photosynthesis de-pends on gazes ex-changes at the leaf sur-fac
 e. These
  []
@@ -1767,7 +1766,7 @@ Missing character: There is no t in font nullfont!
 LaTeX Warning: Marginpar on page 9 moved.
 
 
-Overfull \hbox (6.44678pt too wide) in paragraph at lines 395--395
+Overfull \hbox (6.44678pt too wide) in paragraph at lines 400--400
 [] 
  []
 
@@ -1782,7 +1781,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [9]
 
-Package natbib Warning: Citation `Reineking_2006' undefined on input line 408.
+Package natbib Warning: Citation `Reineking_2006' undefined on input line 413.
 
 
 LaTeX Warning: Marginpar on page 10 moved.
@@ -1804,7 +1803,7 @@ LaTeX Warning: Marginpar on page 10 moved.
 LaTeX Warning: Marginpar on page 10 moved.
 
 
-Overfull \hbox (1.1253pt too wide) in paragraph at lines 453--454
+Overfull \hbox (1.1253pt too wide) in paragraph at lines 458--459
 \T1/pplj/m/n/10 Following pre-vi-ous veg-e-ta-tion mod-els, the res-pi-ra-tion 
 is de-com-posed
  []
@@ -1836,7 +1835,7 @@ LaTeX Warning: Marginpar on page 11 moved.
 LaTeX Warning: Marginpar on page 11 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
@@ -1847,21 +1846,17 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
 
  []
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <8> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 572.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 577.
 [12]
-Overfull \hbox (5.34529pt too wide) in paragraph at lines 594--597
+Overfull \hbox (5.34529pt too wide) in paragraph at lines 599--602
 []\T1/pplj/m/n/10 From this, sup-pos-ing ho-mo-ge-neous dis-tri-bu-tion of ac-t
 ive and struc-
  []
-
-
-Underfull \vbox (badness 2698) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1878,13 +1873,9 @@ LaTeX Warning: Marginpar on page 14 moved.
 LaTeX Warning: Marginpar on page 15 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
 
  []
-
-
-Underfull \vbox (badness 6842) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1894,18 +1885,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [15]
 
-Package natbib Warning: Citation `TitlesOn' undefined on input line 679.
+Package natbib Warning: Citation `TitlesOn' undefined on input line 684.
 
 No file model_description_handbook.bbl.
 
 Package natbib Warning: There were undefined citations.
 
 [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 683.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 683.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
  (./model_description_handbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 683.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 683.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 688.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 688.
 Package rerunfilecheck Info: File `model_description_handbook.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: FEF90F7E619F3E36376F2E6785995BDB;491.
@@ -1916,16 +1907,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 683.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 688.
  ) 
 Here is how much of TeX's memory you used:
- 33788 strings out of 494910
- 736591 string characters out of 6179836
- 1367062 words of memory out of 5000000
- 36303 multiletter control sequences out of 15000+600000
+ 33787 strings out of 494910
+ 736576 string characters out of 6179836
+ 1367375 words of memory out of 5000000
+ 36302 multiletter control sequences out of 15000+600000
  82295 words of font info for 139 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 62i,20n,100p,1698b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,20n,100p,1746b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/clement/.t
 exmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
@@ -1939,7 +1930,7 @@ ve/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on model_description_handbook.pdf (16 pages, 204553 bytes).
+Output written on model_description_handbook.pdf (16 pages, 205014 bytes).
 PDF statistics:
  268 PDF objects out of 1000 (max. 8388607)
  221 compressed objects within 3 object streams

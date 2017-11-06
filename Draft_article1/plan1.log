@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  26 OCT 2017 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  6 NOV 2017 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -87,7 +87,7 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@enLab=\toks16
 \@sep=\skip43
 \@@sep=\skip44
-
+ (./plan1.spl)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
@@ -232,7 +232,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip47
 )
-No file plan1.aux.
+(./plan1.aux)
 \openout1 = `plan1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -249,7 +249,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen118
@@ -291,6 +291,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
+
+(./plan1.out) (./plan1.out)
 \@outlinefile=\write4
 \openout4 = `plan1.out'.
 
@@ -331,49 +333,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 113--117
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
 
  []
 
 
-Package natbib Warning: Citation `Dirac1953888' on page 4 undefined on input li
-ne 134.
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
+
+ []
+
+[5]
+
+Package natbib Warning: Citation `Dirac1953888' on page 6 undefined on input li
+ne 146.
 
 No file plan1.bbl.
-[4]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
-[5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (./plan1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
-
-
-Package rerunfilecheck Warning: File `plan1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `plan1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  6597A7E810DC0406E14CCE71A6BBC926;943.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+Package rerunfilecheck Info: File `plan1.out' has not changed.
+(rerunfilecheck)             Checksum: 54A84EE3E060C80486FFB90DBC390531;938.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 5867 strings out of 494910
- 84843 string characters out of 6179836
- 170963 words of memory out of 5000000
- 9093 multiletter control sequences out of 15000+600000
- 10265 words of font info for 35 fonts, out of 8000000 for 9000
+ 5898 strings out of 494910
+ 85196 string characters out of 6179836
+ 171227 words of memory out of 5000000
+ 9111 multiletter control sequences out of 15000+600000
+ 10433 words of font info for 36 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,7n,30p,1473b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,30p,1473b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -387,11 +392,12 @@ cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on plan1.pdf (5 pages, 172986 bytes).
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on plan1.pdf (6 pages, 184188 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 

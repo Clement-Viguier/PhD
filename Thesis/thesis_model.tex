@@ -12,7 +12,8 @@
 \usepackage{fancyvrb} % extended verbatim environments
   \fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
 \usepackage{pgfplots}
-
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
 
 \usepackage{lipsum}
 
@@ -70,9 +71,19 @@
 
 \tableofcontents
 
-\part*{Introduction}
+\part{Introduction}
+
+\include{./0_Objectives/Objectives}
+
 
 \include{./1_Introduction/Introduction}
+
+\part{Modelling alpine grasslands}
+\setcounter{chapter}{0}
+
+\include{./2_PP/Generic_model}
+\include{./2_PP/Individual_level}
+\include{./2_PP/Community_dynamics}
 
 \part{Extend mountgrass}
 \setcounter{chapter}{0}

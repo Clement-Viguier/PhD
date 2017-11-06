@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  24 OCT 2017 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  6 NOV 2017 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1411,39 +1411,41 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count167
 )
 (../latex_settings/graph_settings.tex) (./thesis_model.aux
-(./1_Introduction/Introduction.aux) (./99_Extensions/Extensions.aux))
+(./0_Objectives/Objectives.aux) (./1_Introduction/Introduction.aux)
+(./2_PP/Generic_model.aux) (./2_PP/Individual_level.aux)
+(./2_PP/Community_dynamics.aux) (./99_Extensions/Extensions.aux))
 \openout1 = `thesis_model.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 64.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 \AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1453,9 +1455,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count168
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 
 (./thesis_model.out) (./thesis_model.out)
 \@outlinefile=\write5
@@ -1463,7 +1465,7 @@ LaTeX Info: Redefining \nameref on input line 64.
 
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 64.
+LaTeX Info: Redefining \selectfont on input line 65.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1473,11 +1475,11 @@ LaTeX Info: Redefining \selectfont on input line 64.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside asymmetric 
-* h-part:(L,W,R)=(70.56284pt, 304.44447pt, 222.50056pt)
+* h-part:(L,W,R)=(70.56284pt, 332.89723pt, 194.0478pt)
 * v-part:(T,H,B)=(77.96053pt, 686.0pt, 81.08632pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=304.44447pt
+* \textwidth=332.89723pt
 * \textheight=686.0pt
 * \oddsidemargin=-1.70715pt
 * \evensidemargin=-1.70715pt
@@ -1486,8 +1488,8 @@ LaTeX Info: Redefining \selectfont on input line 64.
 * \headsep=28.0pt
 * \topskip=10.0pt
 * \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
+* \marginparwidth=126.33022pt
+* \marginparsep=11.95013pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -1533,18 +1535,18 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 67.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 67.
+(Font)              scaled to size 8.99994pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 67.
+(Font)              scaled to size 16.19989pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 32.39978pt on input line 67.
+(Font)              scaled to size 32.39978pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 67.
+(Font)              scaled to size 12.59991pt on input line 68.
  [1
 
 
@@ -1553,9 +1555,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 71.
+(Font)              scaled to size 18.66588pt on input line 72.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 18.66588pt on input line 71.
+(Font)              scaled to size 18.66588pt on input line 72.
  (./thesis_model.toc
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 1.
@@ -1585,111 +1587,213 @@ LaTeX Font Info:    Try loading font information for OT1+zplm on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-))
+) [3])
 \tf@toc=\write6
 \openout6 = `thesis_model.toc'.
 
- [3] [4]
+ [4]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 21.59985pt on input line 73.
+(Font)              scaled to size 21.59985pt on input line 74.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 21.59985pt on input line 73.
+(Font)              scaled to size 21.59985pt on input line 74.
  [5
 
 ]
 [6]
+\openout2 = `./0_Objectives/Objectives.aux'.
+
+ (./0_Objectives/Objectives.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 5.
+LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
+(Font)              scaled to size 8.99994pt on input line 7.
+
+Underfull \hbox (badness 1975) in paragraph at lines 7--7
+ \T1/phv/m/sc/10 Individual level
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 8--8
+ \T1/phv/m/sc/10 to drought event
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+) [7
+
+
+]
 \openout2 = `./1_Introduction/Introduction.aux'.
 
  (./1_Introduction/Introduction.tex
-Chapter 1.
-[7
-
-
-] [8]
 Chapter 2.
+[8
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
- []
-
-LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 8.99994pt on input line 48.
-
-LaTeX Warning: Marginpar on page 9 moved.
-
-[9
 
 ]
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 50.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
- \T1/pplj/b/n/8 some notes
- []
-
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-
-Underfull \hbox (badness 6268) in paragraph at lines 52--52
- $[]$[]\T1/pplj/m/n/8 a short side-note
- []
-
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-
-Overfull \hbox (14.77533pt too wide) in paragraph at lines 62--63
-\T1/pplj/m/n/10 know/understand all mech-a-nisms, 2) chal-leng-ing to in-cor-po
--rate enough
+[9]
+Overfull \hbox (31.78255pt too wide) in paragraph at lines 32--33
+\T1/pplj/m/n/10 Message: mod-elling co-ex-is-tence is a chal-lenge be-cause 1) 
+do not know/understand
  []
 
-<./1_Introduction/graphics/plankton.jpg, id=192, 216.81pt x 106.4778pt>
-File: ./1_Introduction/graphics/plankton.jpg Graphic file (type jpg)
 
-<use ./1_Introduction/graphics/plankton.jpg>
-Package pdftex.def Info: ./1_Introduction/graphics/plankton.jpg used on input l
-ine 69.
-(pdftex.def)             Requested size: 216.80946pt x 106.47752pt.
- [10 <./1_Introduction/graphics/plankton.jpg>]
+Overfull \hbox (0.40262pt too wide) in paragraph at lines 32--33
+\T1/pplj/m/n/10 all mech-a-nisms, 2) chal-leng-ing to in-cor-po-rate enough mec
+h-a-nisms, 3) costly
+ []
+
+) [10] [11
+
+
+] [12]
+\openout2 = `./2_PP/Generic_model.aux'.
+
+ (./2_PP/Generic_model.tex
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 ...Generic model for plant community dynamics}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{section.1.1}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Introduction}
+                          pdfTeX warning (ext4): destination with the same iden
+tifier (name{section.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \section{Strategy space and allocation pools}
+                                                 
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+[13
+
+
+]) [14]
+\openout2 = `./2_PP/Individual_level.aux'.
+
+ (./2_PP/Individual_level.tex
+Chapter 2.
+pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 ...odel's properties and individuals response}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{section.2.1}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Craft a trade-of and phenotypic map}
+                                                 pdfTeX warning (ext4): destina
+tion with the same identifier (name{section.2.2}) has been already used, duplic
+ate ignored
+<to be read again> 
+                   \relax 
+l.8 \section{Niche response}
+                            pdfTeX warning (ext4): destination with the same id
+entifier (name{section.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \section{Transitivity and competition}
+                                           ) [15
+
+
+
+]
+\openout2 = `./2_PP/Community_dynamics.aux'.
+
+
+(./2_PP/Community_dynamics.tex
 Chapter 3.
-[11
-
-] [12
-
-]) [13] [14
+[16
 
 
-] [15] [16]
+
+]) [17] [18
+
+
+] [19] [20]
 \openout2 = `./99_Extensions/Extensions.aux'.
 
- (./99_Extensions/Extensions.tex [17
+ (./99_Extensions/Extensions.tex
 
-] [18
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
+Chapter 1.
+[21
+
+] [22
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5 ...pter{Include nitrogen: source of trade-off}
+l.19 ...ter{Include nitrogen: source of trade-off}
                                                   
-Chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--10
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
@@ -1697,110 +1801,92 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 ...or a resource dependent tissue efficiency}
+l.27 ...or a resource dependent tissue efficiency}
                                                   
 
-LaTeX Warning: Reference `chapter:coexistence' on page 19 undefined on input li
-ne 15.
+LaTeX Warning: Reference `chapter:coexistence' on page 23 undefined on input li
+ne 29.
 
-[19] [20
+Chapter 2.
+[23] [24
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 ... pools: diversify strategies (and memory)}
+l.34 ... pools: diversify strategies (and memory)}
                                                   
-Chapter 2.
-
-Overfull \hbox (43.4719pt too wide) in paragraph at lines 20--20
-[]\T1/phv/m/n/24 2 \T1/phv/m/sc/20.74 Spe-cific re-sis-tance car-bon pools: di-
-ver-sify strate-
+Overfull \hbox (19.6173pt too wide) in paragraph at lines 34--34
+[]\T1/phv/m/sc/20.74 Specific re-sis-tance car-bon pools: di-ver-sify strate-
  []
 
-[21] [22
+Chapter 3.
+[25] [26
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 \chapter{Land-use: a important driver}
-                                           
-Chapter 3.
-pdfTeX warning (ext4): destination with the same identifier (name{section.3.1})
- has been already used, duplicate ignored
+l.38 \chapter{Land-use: a important driver}
+                                           pdfTeX warning (ext4): destination w
+ith the same identifier (name{section.3.1}) has been already used, duplicate ig
+nored
 <to be read again> 
                    \relax 
-l.26 \section{Proto-model of management}
-                                        
-Overfull \hbox (5.12209pt too wide) in paragraph at lines 28--29
-\T1/pplj/m/n/10 Mapping, di-gestibil-ity and se-lec-tiv-ity (smooth-ing). Graz-
-ing and mow-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{section.3.2})
- has been already used, duplicate ignored
+l.40 \section{Proto-model of management}
+                                        pdfTeX warning (ext4): destination with
+ the same identifier (name{section.3.2}) has been already used, duplicate ignor
+ed
 <to be read again> 
                    \relax 
-l.30 \section{Individual and collective response}
-                                                 pdfTeX warning (ext4): destina
-tion with the same identifier (name{section.3.3}) has been already used, duplic
-ate ignored
-<to be read again> 
-                   \relax 
-l.33 \section{Remaining questions}
-                                   [23] [24
-
-]
+l.44 \section{Individual and collective response}
+                                                 
 Chapter 4.
-
-Overfull \hbox (21.9692pt too wide) in paragraph at lines 39--39
-[]\T1/phv/m/n/24 4 \T1/phv/m/sc/20.74 Lo-cal adap-ta-tion and epi-ge-netic: be-
-tween species
- []
-
-[25] [26
+[27] [28
 
 ]
 Chapter 5.
-) [27]
+[29] [30
+
+]) [31]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
-(./thesis_model.aux (./1_Introduction/Introduction.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+(./thesis_model.aux (./0_Objectives/Objectives.aux)
+(./1_Introduction/Introduction.aux) (./2_PP/Generic_model.aux)
+(./2_PP/Individual_level.aux) (./2_PP/Community_dynamics.aux)
 (./99_Extensions/Extensions.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `thesis_model.out' has not changed.
-(rerunfilecheck)             Checksum: F1E25206268E6D9D96ADAC6796164E8A;6308.
+(rerunfilecheck)             Checksum: 2D902F4BBCBF7529E475307EE002E6CC;9420.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 32740 strings out of 494910
- 713749 string characters out of 6179836
- 964588 words of memory out of 5000000
- 35318 multiletter control sequences out of 15000+600000
- 92270 words of font info for 102 fonts, out of 8000000 for 9000
+ 32788 strings out of 494910
+ 714713 string characters out of 6179836
+ 967391 words of memory out of 5000000
+ 35334 multiletter control sequences out of 15000+600000
+ 74281 words of font info for 73 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 62i,11n,84p,947b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,84p,948b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
-uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis_model.pdf (27 pages, 308839 bytes).
+uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on thesis_model.pdf (31 pages, 90600 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 272 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 2802 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 2877 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,20 @@
 
 \fwnewthought{This section is meant to include thoughts and ideas on how to extend \model but that could not be included in the first versions of the model for various reasons. Despite not being included, these extensions are interesting from a scientific or technical point of view, and I hope these notes can be useful to anyone interested in \model or individual based vegetation modelling.}
 
+
+\section{Notes}
+
+\subsection{On modelling}
+Frustration: often look obvious, at least it's just logical, there is what we put in...\\
+
+Modelling approach, when not for prediction, what is it about ?
+\begin{itemize}
+\item building understanding
+\item weight mechanisms
+\item test hypothesis
+\end{itemize}
+
+
 %_________________________________________________________________________________
 \chapter{Include nitrogen: source of trade-off}
 

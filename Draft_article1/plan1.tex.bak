@@ -50,6 +50,7 @@
 \begin{frontmatter}
 
 \title{General framework for coexistence including phenotypic plasticity: the model \model}
+\title{The individual basis of plant coexistence in mountain grassland and the effect of phenotypic plasticity: investigation with the model \model}
 \tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
 
 %% Group authors per affiliation:
@@ -58,7 +59,7 @@
 \fntext[myfootnote]{Since 1880.}
 
 %% or include affiliations in footnotes:
-\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\author[clement.viguier@irstea.fr,mysecondaryaddress]{Clément Viguier}
 \ead[url]{www.elsevier.com}
 
 \author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
@@ -109,12 +110,12 @@ Such mechanism is called phenotypic plasticity\\
 \paragraph{Pot data}
 Pot data consists in total biomass and root shoot ration (RSR) data of ... species grown in pots by Peterson and al. (peterson). This old dataset has the advantages of being grass species grown in a described steady environment with two conditions of watering with measures of essential components of growth: biomass and RSR. The inputs used to simulated these experriment are detailed in appendix.
 
-\paragraph{Calibration process}
-generate priors\\
-filter\\
-simulate\\
-compare\\
-filter again\\
+\paragraph{Individual calibration process}
+Bayessian calibration could not be used for the model considering the number of parameters and the simulation time. A filtering process has been implemented in R. Parameters are sampled following the LHS method (from \texttt{lhs} package)	within parameter ranges (desccribed in table ...) defined from the litterature, and constraints dicted by desired behaviours from the model. When necessary the sample is log transformed. Because of strong relationship between exchange rate parameters and cost of exchagne area, exchanges rates parameters are expressed on a mass basis for sampling then transform to an area basis for the model. Phtosynthetic activity is defined relatively to the water uptake activity and water use efficiency (WUE) to avoid extreme root shoot ratios.\\
+
+Once generated a first filtering is applied to save simulation time and avoid unrealistic trait values (see table for ranges extracted from LES data in alpine biome) that are not tested against calibartion data.\\
+Once the parameters transformed and filtered, simulations matching growth conditions in Peterson experiments.\\
+Generated data from finished simulations (i.e. plant lives until the end and do not exceed model's internal size limits) are then compared to experiment data species by species. Parameters of logistic distribution are computed from species means and standards deviantions for RSR and total biomass. The use of this distribution form is justified by the intrinsic form of RSR measure and the need to reject negative values for total biomass. A parameter set is accepted for one species if it within a 95\% range of the calculated distribution for both RSR and total biomass in wet and dry conditions.\\
 
 \paragraph{Field data}
 Field data has been collected between years 201 .. and 201 in two distinct datasets from Chalmandrier and al.() and Claire Deleglise and al. (). 
@@ -122,8 +123,8 @@ Field data has been collected between years 201 .. and 201 in two distinct datas
 
 \section{Results}
 \subsection{Growth of diverse species}
-calibration\\
-sensitivity analysis\\
+calibration. Calibration filtering results in the selection of n parameter sets over m preselected parameters sets. Accepted sets are distributed among the 11 species of the dataset like presented in the table. Species A, B and C are the most numerous.\\
+sensitivity analysis. The models about seems to be sensitive to the following parameters: . Total biomass is particularly sensitive to exchange rate parameters, but also tissue construction cost.\\
 1d gradient: distribution of as and memory of surviving species.\\
 niche\\
 

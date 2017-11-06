@@ -1,0 +1,45 @@
+
+
+\chapter{Generic model for plant community dynamics}
+Paper 1:
+\section{Introduction}
+\section{Strategy space and allocation pools}
+Leaf economic spectrum + Shipley + Poorter
+\subsection{Allocation or anatomy: a choice to make}
+what is SLA and SRL: cost of exchange area: tissue density, tissue thickness. Poorter 2009, grace2017, Katabuchi 2017, de la riva 2016\\
+
+\section{Model overview}
+\paragraph{pseudo-code and routine}
+\paragraph{allocation}
+mechanism and stochasticity\\
+5 types of allocation\\
+
+\section{Plasticity: between species memory and individual experience}
+
+\subsection{Concepts}
+\paragraph{Memory} Genetic memory (see Sonia Sultan book for references). Selection and evolutionary processes.
+\paragraph{Equilibrium and efficiency}
+\paragraph{Optimum, strategy and memory} There might be optimum. But not easy to compute, especially when you consider more complex cost and interactions. Depend on different efficiencies and equilibrium... Also, you may want to avoid efficient by risky strategies (if you wrong, or if there is a quick shift). Need for strategic traits to drive allocation more than memory. Ok but what happen with optimisation allocation ? -> need the strategy to be tightly linked to memory. \\
+ equilibrium, resource use, resource availability, condition estimation
+\paragraph{Condition estimation}
+Important role of condition estimation. Perception mechanisms. (cost). Difference between plasticity and acclimation and epigenetics. 
+
+\subsection{Implementation}
+Why the use of a sampling method: complex effect of allocation and complex allocation system that is meant to be extended. Some results on the stability of phenotypes. How sampling method can drive the allocation.
+
+
+\subsection{comparison of different algorithms}
+full plasticity : freschet 2015 in poorter \& Ryser 2015
+the two sides of the performance/fitness: equilibrium and tissue efficiency\\
+age vs biomass.
+
+\section{Parameter filtering and sensitivity analysis}
+Obj: give confidence in the model, demonstrate is able to reproduce simple growth pattern.\\
+Obj2: have a beter idea of plasticity on growth.
+growth plastic and non plastic parameter filtering: can we distinguish species thanks to species specific parameters instead of shared parameters.\\
+does plasticity make it easier ?\\
+Impact of plasticity related parameters.
+
+\section{Community dynamics parametrisation}
+Obj: demonstrate that the model is able to reproduce community dynamics (as it was designed for).\\
+Find parameters that allows coexistence (suggest plasticity should allow a diversity of strategy). SLA and height data. Phytosociology for 10m quadrats.

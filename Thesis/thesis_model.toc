@@ -1,36 +1,57 @@
-\contentsline {part}{Introduction}{5}{part*.2}
-\contentsline {chapter}{\numberline {1}Mountain grasslands}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Geography, climate and managements: les drivers}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Mountain grasslands under climate change}{7}{section.1.2}
-\contentsline {section}{\numberline {1.3}Mountain grasslands, source of services}{7}{section.1.3}
-\contentsline {section}{\numberline {1.4}Let's talk about traits}{7}{section.1.4}
-\contentsline {chapter}{\numberline {2}Modelling ecological systems}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Models as understanding and testing tools}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Modelling plant communities}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Different levels of modelling: from communities to individuals}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Processes}{9}{subsection.2.2.2}
-\contentsline {paragraph}{Test pragraph title - now what happen if it lays on multiples lines}{9}{paragraph*.3}
-\contentsline {subsection}{\numberline {2.2.3}Agent-based models}{10}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Modelling coexistence}{10}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}What is diversity and why model it?}{10}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The concept of niche}{10}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Coexistence mechanisms}{10}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Breaking the resolution-specificity trade-off}{10}{section.2.4}
-\contentsline {chapter}{\numberline {3}Phenotypic plasticity of organisms}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Stability and plasticity}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Costs and limits of plasticity}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Plasticity and coexistence}{11}{section.3.3}
-\contentsline {part}{I\hspace {1em}Extend mountgrass}{15}{part.1}
-\contentsline {chapter}{\numberline {1}Include nitrogen: source of trade-off}{19}{chapter.1}
-\contentsline {section}{\numberline {1.1}Stable coexistence: the need for a resource dependent tissue efficiency}{19}{section.1.1}
-\contentsline {chapter}{\numberline {2}Specific resistance carbon pools: diversify strategies (and memory)}{21}{chapter.2}
-\contentsline {chapter}{\numberline {3}Land-use: a important driver}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Proto-model of management}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}Individual and collective response}{23}{section.3.2}
-\contentsline {section}{\numberline {3.3}Remaining questions}{23}{section.3.3}
-\contentsline {chapter}{\numberline {4}Local adaptation and epigenetic: between species and individual memory}{25}{chapter.4}
-\contentsline {chapter}{\numberline {5}Making it all fun}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Documentation and vignette}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Fun and simple simulations}{27}{section.5.2}
-\contentsline {section}{\numberline {5.3}Theme and shiny ?}{27}{section.5.3}
+\contentsline {part}{I\hspace {1em}Introduction}{5}{part.1}
+\contentsline {chapter}{\numberline {1}Objectives}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Generic framework for modelling of plant communities}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Effect of phenotypic plasticity on plant community dynamics}{7}{section.1.2}
+\contentsline {paragraph}{Individual level}{7}{paragraph*.1}
+\contentsline {paragraph}{Community response to drought event}{7}{paragraph*.2}
+\contentsline {chapter}{\numberline {2}Litterature review}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Context: mountain grasslands and climate change}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Diversity and coexistence}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Effects of diversity}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Mechanisms for coexistence}{9}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}global change and community dynamics: theory and empirical results}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Intraspecific variability}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Understanding phenotypic plasticity}{9}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Existing modelling solutions/approaches to question global change effect on vegetation community}{10}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Modelling vegetation - traits and strategies}{10}{subsection.2.4.1}
+\contentsline {part}{II\hspace {1em}Modelling alpine grasslands}{11}{part.2}
+\contentsline {chapter}{\numberline {1}Generic model for plant community dynamics}{13}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{13}{section.1.1}
+\contentsline {section}{\numberline {1.2}Strategy space and allocation pools}{13}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Allocation or anatomy: a choice to make}{13}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Model overview}{13}{section.1.3}
+\contentsline {paragraph}{pseudo-code and routine}{13}{paragraph*.3}
+\contentsline {paragraph}{allocation}{13}{paragraph*.4}
+\contentsline {section}{\numberline {1.4}Plasticity: between species memory and individual experience}{13}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Concepts}{13}{subsection.1.4.1}
+\contentsline {paragraph}{Memory}{13}{paragraph*.5}
+\contentsline {paragraph}{Equilibrium and efficiency}{13}{paragraph*.6}
+\contentsline {paragraph}{Optimum, strategy and memory}{13}{paragraph*.7}
+\contentsline {paragraph}{Condition estimation}{14}{paragraph*.8}
+\contentsline {subsection}{\numberline {1.4.2}Implementation}{14}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}comparison of different algorithms}{14}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Parameter filtering and sensitivity analysis}{14}{section.1.5}
+\contentsline {section}{\numberline {1.6}Community dynamics parametrisation}{14}{section.1.6}
+\contentsline {chapter}{\numberline {2}Model's properties and individuals response}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Craft a trade-of and phenotypic map}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Niche response}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}Transitivity and competition}{15}{section.2.3}
+\contentsline {chapter}{\numberline {3}The effect of phenotypic plasticity on plant community dynamics}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Individual resistance and resilience against drought events}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Community response to drought event}{17}{section.3.2}
+\contentsline {part}{III\hspace {1em}Extend mountgrass}{19}{part.3}
+\contentsline {section}{\numberline {0.3}Notes}{21}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}On modelling}{21}{subsection.0.3.1}
+\contentsline {chapter}{\numberline {1}Include nitrogen: source of trade-off}{23}{chapter.1}
+\contentsline {section}{\numberline {1.1}Stable coexistence: the need for a resource dependent tissue efficiency}{23}{section.1.1}
+\contentsline {chapter}{\numberline {2}Specific resistance carbon pools: diversify strategies (and memory)}{25}{chapter.2}
+\contentsline {chapter}{\numberline {3}Land-use: a important driver}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Proto-model of management}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Individual and collective response}{27}{section.3.2}
+\contentsline {section}{\numberline {3.3}Remaining questions}{27}{section.3.3}
+\contentsline {chapter}{\numberline {4}Local adaptation and epigenetic: between species and individual memory}{29}{chapter.4}
+\contentsline {chapter}{\numberline {5}Making it all fun}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Documentation and vignette}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Fun and simple simulations}{31}{section.5.2}
+\contentsline {section}{\numberline {5.3}Theme and shiny ?}{31}{section.5.3}
 \contentsfinish 

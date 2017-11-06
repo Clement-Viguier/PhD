@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  26 OCT 2017 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  6 NOV 2017 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,8 +394,8 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.20   {\rmfamily\Large
-                       }% format applied to label+text
+l.20   {\sffamily\LARGE
+                       \color{myGreen}}% format applied to label+text
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -403,8 +403,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.21   {\thesection
-                   }% label
+l.20   {\sffamily\LARGE\color
+                             {myGreen}}% format applied to label+text
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.23   {\thesection
+                   \hspace{0.6em}}% before the title body
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -412,8 +421,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (69.08339pt too wide) in paragraph at lines 19--25
-[]\OT1/cmss/m/n/10 [hang]1em[] 
+Overfull \hbox (100.00014pt too wide) in paragraph at lines 19--25
+[]\OT1/cmss/m/n/10 [hang]myGreen1em
+ []
+
+
+Overfull \hbox (5.77777pt too wide) in paragraph at lines 19--25
+\OT1/cmss/m/n/10 [] 
  []
 
 ! Undefined control sequence.
@@ -447,7 +461,7 @@ You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.28   {\rmfamily\large
+l.28   {\sffamily\Large
                        }% format applied to label+text
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -456,8 +470,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.29   {\thesubsection
-                      }% label
+l.31   {\thesubsection
+                      \hspace{0.6em}}% before the title body
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -465,8 +479,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (69.08339pt too wide) in paragraph at lines 27--33
-[]\OT1/cmss/m/n/10 [hang]1em[] 
+Overfull \hbox (63.30562pt too wide) in paragraph at lines 27--33
+[]\OT1/cmss/m/n/10 [hang]1em
+ []
+
+
+Overfull \hbox (5.77777pt too wide) in paragraph at lines 27--33
+\OT1/cmss/m/n/10 [] 
  []
 
 ! Undefined control sequence.
@@ -614,7 +633,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.44 \renewenvironment{quote}
-                             {\itshape\large \hspace{2em}}{\\}
+                             {\itshape\large \hspace{2em}}{ \vspace{0.5em}\\}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -644,7 +663,7 @@ If that doesn't work, type  X <return>  to quit.
 <to be read again> 
                    t
 l.46 ...4.8mm,top=27.4mm,headsep=2\baselineskip,te
-                                                  xtwidth=137mm,marginparsep...
+                                                  xtwidth=117mm,marginparsep...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -655,7 +674,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    h
-l.46 ...rwidth=49.4mm,textheight=49\baselineskip,h
+l.46 ...rwidth=44.4mm,textheight=49\baselineskip,h
                                                   eadheight=\baselineskip}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -685,6 +704,12 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
+
+Overfull \hbox (614.14008pt too wide) in paragraph at lines 46--48
+[]\OT1/cmss/m/n/10 a4paper,left=24.8mm,top=27.4mm,headsep=2textwidth=117mm,marg
+inparsep=4.2mm,marginparwidth=44.4mm,textheight=49headheight= 
+ []
+
 )
 ! Emergency stop.
 <*> tufte-common-local.tex
@@ -695,9 +720,9 @@ two letters. (See Chapter 27 of The TeXbook.)
 Here is how much of TeX's memory you used:
  18 strings out of 494910
  303 string characters out of 6179836
- 45652 words of memory out of 5000000
+ 45659 words of memory out of 5000000
  3408 multiletter control sequences out of 15000+600000
  4246 words of font info for 16 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 16i,1n,11p,198b,104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 16i,1n,11p,199b,104s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
