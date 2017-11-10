@@ -17,6 +17,10 @@
 
 \usepackage{lipsum}
 
+% make footnotes and sidenotes counters be reset per page
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\MakePerPage{sidenote} %the perpage package command
 
 \usepackage{xcolor}
 \definecolor{myOrange}{HTML}{F37820}
@@ -85,9 +89,17 @@
 \include{./2_PP/Individual_level}
 \include{./2_PP/Community_dynamics}
 
-\part{Extend mountgrass}
-\setcounter{chapter}{0}
+\part{Synthesis & Outlook}
+
+%
+%\part{Extend mountgrass}
+%\setcounter{chapter}{0}
 \include{./99_Extensions/Extensions}
+
+
+
+%Rambling
+\include{./rambling}
 
 
 

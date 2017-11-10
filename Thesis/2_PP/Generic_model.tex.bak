@@ -19,7 +19,12 @@ mechanism and stochasticity\\
 \subsection{Concepts}
 \paragraph{Memory} Genetic memory (see Sonia Sultan book for references). Selection and evolutionary processes.
 \paragraph{Equilibrium and efficiency}
-\paragraph{Optimum, strategy and memory} There might be optimum. But not easy to compute, especially when you consider more complex cost and interactions. Depend on different efficiencies and equilibrium... Also, you may want to avoid efficient by risky strategies (if you wrong, or if there is a quick shift). Need for strategic traits to drive allocation more than memory. Ok but what happen with optimisation allocation ? -> need the strategy to be tightly linked to memory. \\
+\paragraph{Optimum, strategy and memory} There might be optimum. But not easy to compute, especially when you consider more complex cost and interactions. Depend on different efficiencies and equilibrium... Also, you may want to avoid efficient by risky strategies (if you wrong, or if there is a quick shift). Need for strategic traits to drive allocation more than memory.\\
+Ok but what happen with optimisation allocation ? -> need the strategy to be tightly linked to memory. But that part has requirements: memory is a reliable source for strategy. Ultimately the resource availability is only one (ok, maybe two) dimension to phenotype optimisation. This strategy trait is necessary as other aspects of fitness are ignore (temperature implemented but not tested, grazzing vulnerability, frost damade, WUE, CO2 etc...) If you multiply mechanisms affecting the fitness you complexify the fitness landscape and allow for multiple strategies to be explored. Otherwise you must aartifically constraint. \\
+
+\indent \textbf{This is crucial to discuss this important aspect of strategic differenciation emerging for processes and how plant change strategy as the projection of environment evolves. Memory then plays more a role of sensitivity (with tau).}\\
+But for the moment the partial implementation of that through the artificial but meant to disappear default strategy is making analysis and assumptions difficult. Ok, but how do you treat it ? 
+
  equilibrium, resource use, resource availability, condition estimation
 \paragraph{Condition estimation}
 Important role of condition estimation. Perception mechanisms. (cost). Difference between plasticity and acclimation and epigenetics. 

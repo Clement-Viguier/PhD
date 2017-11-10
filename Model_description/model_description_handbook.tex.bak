@@ -21,6 +21,11 @@
 % The following package makes prettier tables.  We're all about the bling!
 \usepackage{booktabs}
 
+% make footnotes and sidenotes counters be reset per page
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\MakePerPage{sidenote} %the perpage package command
+
  \usepackage{gensymb} %°C
  \geometry{bindingoffset=0.2in}
  %\usepackage{showframe}
@@ -86,7 +91,7 @@
 
 \maketitle
 \begin{fullwidth}
-\begin{abstract} \paralpha
+\begin{abstract} 
 \noindent
 This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al.. The model is inspired by multiple other forest and grassland models (for grassland models see particularly Taubert and Lohier). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
 \end{abstract}
@@ -172,7 +177,7 @@ thickness & 	(0.012 - 0.05) & cm & WUE vs light efficiency (not in this version)
 \end{table*}
 %table of species traits. trait, range, distribution, trade-of or strategy associated.
 
-\paragraph{Seed-bank} The seed-bank is the transition state between the different seasons. Individuals may persist thanks to stored resources, but they can also reproduce by the production of new individuals. Lot of grasses use clonal reproduction, in addition or replacement of sexual reproduction. This type of reproduction is characterised by a persistent link between the newly produced individuals and the parent one that allow the two to communicate and exchange resources. Such dynamics are complex and costly to represent as the link between ramets must be stored and strategies defined for the resource distribution (see Oborny 2012) for more details on clonal growth modelling). To avoid too much complexity, it is possible to approximate the representation of clones to big seeds with little dispersion around the parent plant\sidenote{This would take advantage od dispersion kernels. Not implemented in current version. Dispersion is uniformely random within the simulation plan}. For this reason, reproduction mechanism is reduce to sexual reproduction mechanism with production of "seeds". Seeds are stored in the seed-bank and only defined by their species and positions. 
+\paragraph{Seed-bank} The seed-bank is the transition state between the different seasons. Individuals may persist thanks to stored resources, but they can also reproduce by the production of new individuals. Lot of grasses use clonal reproduction, in addition or replacement of sexual reproduction. This type of reproduction is characterised by a persistent link between the newly produced individuals and the parent one that allow the two to communicate and exchange resources. Such dynamics are complex and costly to represent as the link between ramets must be stored and strategies defined for the resource distribution (see Oborny 2012) for more details on clonal growth modelling). To avoid too much complexity, it is possible to approximate the representation of clones to big seeds with little dispersion around the parent plant\footnote{This would take advantage od dispersion kernels. Not implemented in current version. Dispersion is uniformely random within the simulation plan}. For this reason, reproduction mechanism is reduce to sexual reproduction mechanism with production of "seeds". Seeds are stored in the seed-bank and only defined by their species and positions. 
 
 \paragraph{Soil} Soil is an important aspect of the model as it drives (with the precipitations) the water competition between individuals. It is however limited, as in numerous vegetation models, to a grid characterised by: its capacity to retain water, and its depth. Only the first component (water retention capacity) is spatially variable and is described by the critical water content (minimum soil water content), the saturation water content (maximum water content, the water non absorbed leaves the system we assume the same root depth for all species), and the current water content (temporally variable, depending on competition, precipitation and evaporation, between the critical and the saturation water content) only dynamic variable among the three.
 
@@ -184,9 +189,9 @@ As mentioned the model runs at daily step to capture individual responses to con
 \indent One season can be divided in the following parts:
 \begin{itemize}
 \setlength\itemsep{0em}
-\item \textit{germination}: marks the beginning of the season when the ground is no more snow covered. Seeds germinate into individual plants, based on species specific germination rate;
+\item \textit{germination}: marks the beginning of the season when the ground is no more snow-covered;
 \item \textit{growing season}: consists in daily processes like competition, production of organic matter (OM), allocation, and death lottery;
-\item \textit{reproduction-invasion-persistence}: marks the end of the season when the first persistent snow-fall occurs. OM invested in reproductive tissues turns into seeds that are sampled to create the seed-bank. Seeds from the meta-population may integrate the seed-bank. Persistent perennial individuals lose their aboveground biomass.
+\item \textit{reproduction-invasion-persistence}: marks the end of the season when the first persistent snow-fall occurs. OM invested in reproductive tissues turns into seeds that are sampled to create the seed-bank. Seeds from the meta-population may integrate the seed-bank. Persistent perennial loose most of their biomass but storage (and eventually stem) and regrow from stored organic mass at the begining of the following season.
 \end{itemize}
 
 The \textit{growing season} part consists in all processes evaluated every day of the growing season. These processes are:
@@ -199,8 +204,8 @@ The \textit{growing season} part consists in all processes evaluated every day o
 \item \textit{production}: respiration and production are computed to give the net productivity in OM;
 \item \textit{senescence}: based on lifespan a part of tissue is no longer active.
 \item \textit{death}: death of individuals based on their age and their desiccation stage (number of consecutive days with negative growth).
-\item \textit{allocation}: allocation of produced OM to the 6 carbon pools of the plant.
-\item \textit{grazing/cutting}: (optional) grazing or cutting of plants to a certain height. The grazing can be selective.
+\item \textit{allocation}: allocation of produced OM to the different carbon pools of the plant.
+\textcolor{Gray}{\item \textit{grazing/cutting}: (optional) grazing or cutting of plants to a certain height. The grazing can be selective.}\footnote{remarks in \textcolor{Gray}{grey} are features or components implemented in the model but not used and-or calibrated.}
 \end{itemize}
 
 \section{Design concepts}
@@ -208,9 +213,9 @@ The \textit{growing season} part consists in all processes evaluated every day o
 \subsection{Design concepts}
 This part clarifies the rules that drives the dynamics of the model.
 
-\paragraph{Emergence} The purpose of the model being to understand the rules that drive the community responses, we tried to make what define the community emerge from the underlying processes of plant growth, resource use and reproduction. That means that population dynamics is at least partially emergent from the surviving and reproducing individuals. It is partially emergent as it depends on the invasion rules applied to the system. The traits and biomass distribution that describe the community are completely emergent from the individual traits exposed by the individuals and their relative biomass and abundance.
+\paragraph{Emergence} The purpose of the model being to understand the rules that drive the community responses, we tried make the community dynamics emerge from the underlying processes of plant growth, resource use and reproduction. That means that population dynamics is at least partially emergent from the surviving and reproducing individuals. 'Partially emergent' because it depends on the invasion rules applied to the system. The traits and biomass distribution that describe the community are completely emergent from the individual traits exposed by the individuals and their relative biomass and abundance.
 
-\paragraph{Adaptation} Plants have in theory many options to adjust their phenotype and increase their fitness in response to changes in environmental conditions (resource availability, temperature, ...). High diversity of mountain grasslands suggests that multiple strategies coexist and that individuals do not change to converge toward a unique strategy. These strategies are set up at the species level by the species specific traits (see table \ref{table:state_var_species}). Therefore, individuals may only adapt morphological traits but not strategic traits (unless there is an epigenetic mechanism added). These morphological traits are: the relative biomass of shoot and root, relative proportion of active and structural tissues in each leaves, and roots (controlling respectivelly the SLA and SRL and the overall resource acquisition cost). Geometrics traits (distribution of leaves and roots within space) are not considered plastic as grasses have far less control on their geometry than forbs or trees. Root distribution plasticity has been shown to greatly improve the individual and community productivity (Gemini aticle), but to keep the model (and implementation) simple we will ignore root distribution plasticity and foraging strategies to focus on allocation problems instead of spatial distribution questions.\\
+\paragraph{Adaptation} Plants have in theory many options to adjust their phenotype and increase their fitness in response to changes in environmental conditions (resource availability, temperature, ...). High diversity of mountain grasslands suggests that multiple strategies coexist and that individuals do not change to converge toward a unique strategy. These strategies are set up at the species level by the species specific traits (see table \ref{table:state_var_species}). Therefore, individuals may only adapt morphological traits but not strategic traits (unless there is an epigenetic mechanism added). These morphological traits are: the relative biomass of shoot and root, relative proportion of active and structural tissues in each leaves, and roots (controlling respectivelly the SLA and SRL and the overall resource acquisition cost)\footnote{and optionally the proportion of stored OM dedicated to frost resistance and not to growth}. Geometry traits (distribution of leaves and roots within space) are not considered plastic as grasses have far less control on their geometry than forbs or trees. Root distribution plasticity has been shown to greatly improve the individual and community productivity (Gemini aticle), but to keep the model (and implementation) simple we will ignore root distribution plasticity and foraging strategies to focus on allocation problems instead of spatial distribution questions. Shallow soils and relative small rooting zone are also arguments to ignore spatial distribution plasticity for roots.
 
 \paragraph{Fitness} 
 In the model the realised fitness can be estimated as the capacity of plants to maintain themselves or their descendants through time. It emerges from the productivity, allocation to storage or reproductive carbon pools, and survival. Assessing fitness as the average number of persistent individuals is however a bit hazardous in simulations limited in time and to a relatively small spatial scale. Plus, plants cannot easily make prediction of such variable to adjust their phenotype. They need a proxy function for fitness that integrate measures of external conditions to evaluate the best strategy to develop. As said above, this strategy should be a composite between the species strategy and individual adjustment specific to the individual experience of the environment. Plant fitness is estimated by individual plant thanks to a gain function integrating current phenotype, species strategy and projection of future conditions. This gain function can take multiple forms and be more or less constraint. In the context of the model, the function should include a measure of productivity that relies on the principle of functional equilibrium - that is the allocation of organic matter to maintain the balance between the shoot activity (transpiration) and root activity (water uptake). This equilibrium can be achieved by changes in shoot:root ratio only, or also changes in active over structural tissues ratio. Further details about the gain function are discussed in the dedicated paragraphs (\ref{par:allocation}). More complex form of functional equilibrium incorporating nutrients (like nitrogen) could be added to the framework of this model.
@@ -230,7 +235,7 @@ In the model the realised fitness can be estimated as the capacity of plants to 
 Further details on daily mechanisms are described in the following paragraphs.
 
 \subsection{Initialisation}
-The model doesn't need particular initialisation if the state of the community species pool, the seedbank and the soil are given as inputs. Otherwise, a set of \textit{E(n/s)} individuals are created from a set of \textit{s} species (randomly generated if not given) and randomly positioned on the soil grid, where \textit{s} and \textit{n} are respectively the number of species and the approximate number of individuals within the grid. Soil grid is also randomly generated within default ranges for critical and saturation water contents then slightly smooth, and homogeneously filled ($ \frac{w_{cont} - w_{crit}}{w_{sat} - w_{crit}} = filling$).
+The model doesn't need particular initialisation if the state of the community species pool, the seedbank and the soil are given as inputs. Otherwise, a set of \textit{E(n/s)} individuals are created from a set of \textit{s} species (randomly generated if not given) and randomly positioned on the soil grid, where \textit{s} and \textit{n} are respectively the number of species and the approximate number of individuals within the grid. Soil grid is also randomly generated within default ranges for critical and saturation water contents then slightly smooth, and homogeneously filled ($filling = \frac{w_{cont} - w_{crit}}{w_{sat} - w_{crit}}$).
 
 \subsection{Inputs}
 \model needs system state information (individuals, species, seed-bank and soil) and climate data. If the state of the system is not completely given, then the complete state is generated in the initialisation. The daily climate data at must contain the following fields:
@@ -250,7 +255,7 @@ Vapour pressure deficit is then computed from temperature and relative humidity.
 
 \subsection{Submodels}
 
-\paragraph{Germination} Individuals from the seed-bank randomly germinate according to their species specific germination rate. Germination consist of investing $100*\parmob$\% of the seed mass into shoot and root biomass according to default traits. This is coupled with a round of random seed death following uniform law of parameter $seed_{surv}$. Living non germinating seeds stay in the seed-bank until the next season.\\
+\paragraph{Germination} Individuals from the seed-bank randomly germinate according to their species specific germination rate. Germination consist of investing a percentage ($mob$ parameter) of the seed mass into shoot and root biomass according to default traits. This is coupled with a round of random seed death following uniform law of parameter $seed_{surv}$. Living non germinating seeds stay in the seed-bank until the next season.\\
 %
 %\vspace{0.5em}
 %\paragraph{Freezing resistance allocation} Resistance mechanisms are important for plants to invade harsh environments with perturbations such as grazing of frost events. Investment in free organic compounds is shown to provide resistance to frost. The concentration of such compounds is time variable and closely related to temperature. Other mechanisms morphological, structural, physiological can also play a role in frost resistance. For the sake of simplicity we will limit this aspect to the investment in circulating agents. Moreover, this aspect is crucial, indeed  because the frost risk is high at the beginning of the season, the choice of investing in resistance molecules instead of growing tissues is a strategy choice. Species can then be differentiated on a earlier growing/high frost risk - late growing/low frost risk axis, depending on their estimation of minimal temperature. Minimal temperature is estimated the same way other resources levels. Available stored biomass is invested in frost resistance is the estimated mean temperature is below 3\celsius .\\
@@ -286,7 +291,7 @@ xlabel = $h$
 %extra x tick style={grid=major}
 ]
 
-\addplot[myOrange][domain = 0:10 ] {120 * exp(-1*x)};
+\addplot[black][domain = 0:10 ] {120 * exp(-1*x)};
 %\addplot[gray][domain = 0:1 ] {(1/(0.022 * 1)) * ((1/0.05 - 1)*x) - %(7*exp(7*x) + 0.03)};
 %\legend{$I_{h}$}
 \end{axis}
@@ -296,15 +301,15 @@ xlabel = $h$
 \end{marginfigure}
 
 \begin{equation}\label{eq:Ih}
-I_{h} =  I_{0} e^{-LAI_{h}}
+I(h) =  I_{0} e^{-LAI(h)}
 \end{equation}
 
-where $LAI_{h}$ is the cumulative LAI at the bottom of layer \textit{l} (between $h$ and $h+\Delta_{h}$) defined as the homogeneous layer delimited by the top of consecutive individuals in the same pixel. The LAI is calculated like this:
+where $LAI(h)$ is the cumulative LAI at the bottom of layer \textit{l} (between $h$ and $h+\Delta_{h}$) defined as the homogeneous layer delimited by the top of consecutive individuals in the same pixel. The LAI is calculated like this:
 \begin{equation}\label{eq:LAI}
-LAI_{h} = LAI_{h+\Delta_{h}} +  \Delta h_{l, l-1} . pix\_width^{2} \sum_{i\ in\ l}d_{i}.coverage_{i, p}
+LAI(h) = LAI(h+\Delta_{h}) +   \Delta_{h} . pix\_width^{2} \sum_{i\ in\ l}d_{i}.coverage_{i, p}
 \end{equation}
-where $d_{i}$ is the individual leaf area density corrected by the coverage ($0< coverage =< 1$) of the pixel by the plant, $\Delta_{h}$ is the height of the layer.\\
-Following Thornley and Johnson, the potential photosynthetic leaf activity is calculated as :
+where $d_{i}$ is the individual leaf area density corrected by the coverage ($0< coverage =< 1$) of the pixel $p$ by the plant $i$, $\Delta_{h} = (h_{l} - h_{l-1})$ is the height of the layer $l$.\\
+Following Thornley and Johnson, the potential photosynthetic leaf activity is calculated as:
 
 
 \begin{marginfigure}
@@ -316,13 +321,13 @@ anchor=south east,
 draw = none},
 samples = 1000,
 %restrict y to domain=-300:700,
-xlabel = $I W.cm^{2}$,
+xlabel = $I (W.cm^{2})$,
 ylabel = $P_{leaf} (gCO_{2}.cm^{-2}s^{-1}) check that$
 %extra x ticks={0.618},
 %extra x tick style={grid=major}
 ]
 
-\addplot[myGreen][domain = 0:0.04 ] {(\paralpha * x * \parPmax ) /(\paralpha * x + \parPmax ) };
+\addplot[black][domain = 0:0.04 ] {(\paralpha * x * \parPmax ) /(\paralpha * x + \parPmax ) };
 \legend{}
 \end{axis}
 \end{tikzpicture}
@@ -331,21 +336,22 @@ ylabel = $P_{leaf} (gCO_{2}.cm^{-2}s^{-1}) check that$
 \end{marginfigure}
 
 \begin{equation}\label{eq:Pleaf}
-P_{leaf} = \frac{\alpha. I_{leaf}.Pm_{i}}{\alpha I_{leaf}+Pm_{i}}
+P_{leaf}(h) = \frac{\alpha. I_{leaf}(h).P_{max}}{\alpha I_{leaf}(h)+P_{max}}
 \end{equation}
- where $I_{leaf}$ is the light absorbed by the leaf and the photosynthetic potential rate $Pm_{i}$ is linearly related to active biomass per leaf area as follow:
-\begin{equation}
-Pm_{i} = min(P_{slope} \frac{Leaf_{Act_{i}}}{Area_{i}}, P_{max})
-\end{equation}
-where $\alpha$ is the initial slope of the light response curve and $Pm_{i}$ is the maximum gross photosynthetic rate, $I_{leaf}$ is the radiance at the leaf surface, derived by correcting the radiance at the top of the layer :
+where $I_{leaf}(h)$ is the light absorbed by the leaf at height $h$, $\alpha$ the initial slope of the light response curve and $Pm_{i}$ the maximum photosynthetic rate per unit of area and unit of time.
+% where $I_{leaf}$ is the light absorbed by the leaf and the photosynthetic potential rate $Pm_{i}$ is linearly related to active biomass per leaf area as follow:
+%\begin{equation}
+%Pm_{i} = min(P_{slope} \frac{Leaf_{Act_{i}}}{Area_{i}}, P_{max})
+%\end{equation}
+$I_{leaf}$ is the radiance at the leaf surface, derived by correcting the radiance at the top of the layer following the equation used in Taubert with the extinction and transmission coefficients $k$ and $m$:
 
 \begin{equation}
-I{leaf}(h) = \frac{k}{1-m}I_{h}
+I{leaf}(h) = \frac{k}{1-m}I(h)
 \end{equation}
 
-The equation \eqref{eq:Pleaf} can be integrated over the leaf surface by mixing it with equations \eqref{eq:Ih} and \eqref{eq:LAI}:
+The equation \eqref{eq:Pleaf} can be integrated over the leaf surface by mixing it with equations \eqref{eq:Ih} and \eqref{eq:LAI} to give the total potential photosynthesis for layer $l$ in pixel $p$:
 \begin{equation}\label{Ppixlay}
-\int_{h_{bottom}}^{h_{top}}P_{leaf}(p,l) = d_{i}.coverage_{i}.\Delta_{h}\int_{h_{bottom}}^{h_{top}}P_{h}
+P_{leaf}(p,l) = d_{i}.coverage_{i, p}.\Delta_{h}(l)\int_{h_{bottom}}^{h_{top}}P_{leaf}(h)
 \end{equation}
 %
 %\begin{equation}
@@ -354,17 +360,17 @@ The equation \eqref{eq:Pleaf} can be integrated over the leaf surface by mixing 
 
 the total leaf potential photosynthesis is then calculated as follow:
 \begin{equation}\label{eq:PS_pot}
-PS_{pot} = \sum_{p\ in\ shoot}\sum_{l\ in\ pixel}\int_{h_{bottom}}^{h_{top}}P_{leaf}(p,l)
+PS_{pot} = \sum_{p\ in\ shoot}\sum_{l\ in\ pixel}P_{leaf}(p,l)
 \end{equation}
-\indent Potential photosynthesis must then be converted to potential transpiration to define the water demand. The conversion from photosynthesis to transpiration is done by dividing the potential photosynthesis by the WUE (see subsection \ref{subsection:WUE} for more details). The potential activity of leaves are also dependent on the regulation of stomata so the transpiration can be written:
+\indent Potential photosynthesis must then be converted to potential transpiration to define the water demand. The conversion from photosynthesis to transpiration is done by dividing the potential photosynthesis by the water use efficiency ($WUE$). The potential activity of leaves are also dependent on the regulation of stomata so the transpiration can be written:
 \begin{equation}
 transp = \frac{PS_{pot} . g_{red}}{WUE}
 \end{equation}
 
-\paragraph{Stomatal regulation} Photosynthesis depends on gazes exchanges at the leaf surface. These fluxes result from relative concentration in carbon dioxide and water, and from the stomatal conductance. Stomatal conductance is reduced and limits productivity when vapour pressure deficit is too high. A linear relationship describe this relationship:
+\textcolor{Gray}{\paragraph{Stomatal regulation} Photosynthesis depends on gazes exchanges at the leaf surface. These fluxes result from relative concentration in carbon dioxide and water, and from the stomatal conductance. Stomatal conductance is reduced and limits productivity when vapour pressure deficit is too high \sidenote{$g_{red}$ is set to 1 for current version to avoid potential problems between allocation and regulation}. A linear relationship describe this relationship:
 \begin{equation}
 g_{red} = 1+ VPD_{g\_red}
-\end{equation}
+\end{equation}}
 
 \paragraph{Evaporation} Potential evaporation is calculated for each pixel depending on the light at soil surface:
 
@@ -383,13 +389,13 @@ extra x ticks={0.8},
 extra x tick style={grid=major}
 ]
 
-\addplot[myOrange][domain = 0:0.8 ] {(1/4) * (1-cos(deg(x/0.8 * pi)))^2};
-\addplot[myOrange][domain = 0.8:1 ] {1};
+\addplot[black][domain = 0:0.8 ] {(1/4) * (1-cos(deg(x/0.8 * pi)))^2};
+\addplot[black][domain = 0.8:1 ] {1};
 %\legend{$I_{h}$}
 \end{axis}
 \end{tikzpicture}
 \label{fig:derivaives}
-\caption{Evaporation function.}
+\caption{Evaporation  limitation function.}
 \end{marginfigure}
 
 \begin{align}
@@ -399,21 +405,15 @@ extra x tick style={grid=major}
  evap &= PET . \beta . I_{surface} . daylength
 \end{align}
 
-\paragraph{Water competition} Water competition is also computed at the pixel level. To determine the water uptake, we first calculate the individual water demand as the minimum between the transpiration and the potential water uptake. Transpiration is easily calculated by dividing the potential photosynthetic activity by the water use efficiency, and is then normalized by the volume in the pixel over the overall root volume. Water potential uptake is the product of root area and root water uptake rate, leading to the water demand for individual $i$:
+\paragraph{Water competition} Water competition is also computed at the pixel level. To determine the water uptake, first the individual water demand is computed as the minimum between the transpiration and the potential water uptake. Transpiration demand per pixel is easily calculated by dividing the total potential transpiration by the volume in the pixel $V_{i,p}$ over the overall root volume $V_{i}$. Water potential uptake is the product of root area in the pixel and root water uptake rate reduced by the water availability reduction factor $U_{lim}$, leading to the water demand for individual $i$ in pixel $p$:
 \begin{align}
-transp_{i} &= frac{P_{i}}{WUE_{i}}\\
-Wpot_{i} &= Root_{area}.Coverage_{i}.U_{i}\\
-Wdem_{i} &= min(transp_{i}, Wpot_{i})\\
+transp_{i}(p) &= transp . \frac{V_{i,p}}{V_{i}}\\
+Wpot_{i}(p) &= Root_{area}(p).U_{max}.U_{lim}\\
+Wdem_{i}(p) &= min(transp_{i}(p), Wpot_{i}(p))\\
 \end{align}
-Where $U_{i}$ is related to the maximum water uptake $U_{max}$ and to the the $\frac{Root_{Act_{i}}}{Area_{i}}$  as in equation \eqref{eq:Pleaf}.\\
-The total water demand per pixel is then the sum of all water demand of the pixel and potential evaporation. For each individual in the pixel, the realised water uptake is the individual water demand multiplied by the soil water availability reduction coefficient ($U_{lim}$). Is the total water demand exceeds the total water availability ($W_{av}$) then the available water is distributed proportionally to the individual demand.\\
-\begin{equation}\label{eq:water_uptake}
-Wup_{i} = Wdem_{i} . U_{lim} . \frac{Wdem_{total}}{min(Wdem_{total}, W_{av})}
-\end{equation}
 where, the limitation function $U_{lim}$ is defined as in \cite{Reineking_2006}:
 
-
-\begin{marginfigure}
+\begin{marginfigure}[-40pt]
 \begin{tikzpicture}
 \begin{axis}[marginplot,
 legend style
@@ -428,7 +428,7 @@ ylabel = $U_{lim}$
 %extra x tick style={grid=major}
 ]
 
-\addplot[myGreen][domain = 0.21:0.99 ] {exp(\parbeta0 * (1/(1-0.2) - 1/(x-0.2))) };
+\addplot[black][domain = 0.21:0.99 ] {exp(\parbetazero * (1/(1-0.2) - 1/(x-0.2))) };
 %\legend{Water limitation}
 \end{axis}
 \end{tikzpicture}
@@ -440,125 +440,74 @@ ylabel = $U_{lim}$
 U_{lim} &= exp\left(\beta_{\theta} \left( \frac{1}{\theta_{s} - \theta_{crit}} - \frac{1}{\theta - \theta_{crit}}\right)\right) & if \theta < \theta_{crit}\\
  &= 0 & otherwise
 \end{align}
-\indent The potential water uptake, non limited by the transpiration is calculated the same way but considering $Wdem_{i} = Wpot_{i}$ in equation (\ref{eq:water_uptake}).
+
+%Where $U_{i}$ is related to the maximum water uptake $U_{max}$ and to the the $\frac{Root_{Act_{i}}}{Area_{i}}$ as in equation \eqref{eq:Pleaf}.\\
+The total water demand per pixel is then the sum of all individual water demand of the pixel and potential evaporation. If the total water demand exceeds the total water availability ($W_{av}$ product of water content and soil volume in the pixel) then the available water is distributed proportionally to the individual demand.\\
+\begin{equation}\label{eq:water_uptake}
+Wup_{i} = Wdem_{i} . \frac{Wdem_{total}}{min(Wdem_{total}, W_{av})}
+\end{equation}
 
 
-\paragraph{Condition estimation} External conditions are estimated based on \textit{a priori} information and experience. The first estimation is the genetic memory, the species specific values for initial light and water availability. The estimation is then updated with perception of resource availability weighted by $(1- \tau)$. Experienced conditions are estimated as the potential activity of above- and below-ground organs. The potential transpiration and the potential water uptake are normalized to the exchange area of respectively leaves and roots, defining the resource availability experienced. 
-\begin{align}
-light_{exp} &= \frac{transp}{SLA . BM_{ag}.g_{red}}\\
-water_{exp} &= \frac{Wup}{SRL . BM_{bg}}\\
-\end{align}
-leading to:
-\begin{align}
-light_{est} &= (1 - \tau).light_{exp} + \tau . light_{est}\\
-water_{est} &= (1 - \tau).water_{exp} + \tau . water_{est}
-\end{align}
-\indent Because these are supposed to be expected conditions for the future, other formulation can be used instead of an average that is likely to introduce a lag in estimations.
+\indent The potential water uptake ($Wpup$), non limited by the transpiration is calculated the same way but considering $Wdem_{i} = Wpot_{i}$ in equation (\ref{eq:water_uptake}).\\
+\indent Because the water competition is computed at the pixel level, there is no compensation between two pixels containing respectively not enough and too much water.\\
+\indent No radial flow of water between pixel is implemented in the model. This simplification leads inevitably to edge effects, but allows simpler implementation and is partially covered by the effect of the pixel size. Indeed, increasing pixel size would have similar effect in the pixels at the border of the rooting zone than radial flow because it would increase the potential water pool plant has access to.\\
+
+\indent Once potential and realised transpiration and water uptake are computed, 
+plant productivity can be calculated.
+
 
 \paragraph{Production, and respiration} Following previous vegetation models, the respiration is decomposed in growth respiration and maintenance respiration. The first is function of trait values, biomass and temperature:
 \begin{equation}
 R_{m} = \left(R_{act}.\left(Act_{ag} + Act_{bg}\right)\right) . daylength . T_{effect}
 \end{equation}
-where $R_{act}$ is the respiration rate of active tissues and $Act_{ag}$ and $Act_{bg}$ are the active biomass pools in shoot and root.\\
+where $R_{act}$ is the respiration rate of active tissues, and $Act_{ag}$ and $Act_{bg}$ are the active biomass pools in shoot and root.\\
 \indent Net Primary production (in $CO_{2}$ equivalent) can then be calculated the difference of GPP and respiration, then converted in OM production thanks to tissue carbon content (under the assumption of fixed carbon content for leaf and roots between species):
  \begin{align}
  NPP_{carbon} &= (1- R_{g}) . (WUE . min(w_up, trans_p) - R_{m})\\
  NPP_{OM} &= NPP_{carbon} . (12/44) / TCC
 \end{align} 
-
+Here $R_{g}$ is a fixed parameter but is set to $0$ if the difference between gross productivity ($GPP = WUE . min(w_up, trans_p) - R_{m}$) and maintenance respiration is negative.
 
 \paragraph{Temperature effect} Temperature has a effect of plant activity, this effect can be modelled by a bell shape function around an optimum value of 20 \celsius . See Lohier for details.
 
 
-\paragraph{Senescence}
-
-Senescence is the process of aging of tissues. This process uselly occurs at the scale of an individual organ (e.g. a leaf), however \model does not consider organs independently because it would be complex and computationally expensive to follow multiple leaves and roots for all individuals. So the process is considered homogeneous over all tissues. The fraction of senescent tissue is calculated based on the tissues lifespan, giving :
+\paragraph{Condition estimation} The projection of environmental conditions is central in any implementaion of phenotype plasticity. Differences between the current perception of environment and the projections lead to adjustment of phenotype to increase fitness. In the model \model this projection results from hte averaging of two key concept: memory and perception. The latter is relatively simple to understand and corresponds to the perceived resource availability computed as the mean potential exchange rate per unit of area (total leaf or root area) and per hour\sidenote{the hourly measure is used instead of daily measure to simulate the ability of plant to perceive the photoperiod. This is an easy way of taking into account one aspect of seasonality without complexifying the model.}:
 \begin{align}
-sen_{leaf} &= \frac{1}{LLS}\\
-sen_{root} &= \frac{1}{RLS}
+light_{exp} &= \frac{transp}{exhange area_{ag}}\\
+water_{exp} &= \frac{Wpup}{exchange area_{bg}}\\
 \end{align}
-
-
-\begin{marginfigure}
-\begin{tikzpicture}
-\begin{axis}[marginplot,
-legend style
-={at={(1, 1.1)},
-anchor=south east,
-draw = none},
-samples = 100,
-%restrict y to domain=-300:700,
-xlabel = $P_{act}$,
-ylabel = $Turn-over rate$
-%extra x ticks={0.618},
-%extra x tick style={grid=major}
-]
-
-\addplot[myGreen][domain = 0:0.99 ] {1/(\parlsszero * (1- x^\parlssone) ) };
-\addplot[myOrange][domain = 0:0.99 ] {1/(\parlsrzero * (1- x^\parlsrone) ) };
-\legend{Aboveground, Belowground}
-\end{axis}
-\end{tikzpicture}
-\label{fig:derivaives}
-\caption{Water uptake limitation response function to soil saturation}
-\end{marginfigure}
-
-
-where $LLS$ and $RLS$ are respectively the leaf and the root lifespans calculated as negative log-linear relationships with SLA and SRL.\\
-\indent Root senescent tissues disappear from the system. Information about senescent biomass is stored, but senescent biomass effect of light competition is ignored in this version because as it is implemented senescent tissues appear early in plant development and have large negative effect on light absorption.\\
-! it does not happen in the same time.
-
-\paragraph{Death} Death is modelled as in Reineking 2006. Age and desication (negative NPP) are the two reasons why a plant can die. The two mechanisms are simulated by random draw and comparaison to the following probability function:
+The former is related to the species (or group) history and result from processes of selection and acclimatation. It is the default projection of resource availability when the plant is not plastic. 
 \begin{align}
-P_{d} &=  exp \left( - \left[\left(\frac{des}{\alpha_{d}}\right)^{\gamma_{d}} - \left(\frac{max(des - 1, 0)}{\alpha_{d}}\right)^{\gamma_{d}}\right]\right) & if NPP \le 0\\
-&= 1 & otherwise\\
-P_{a} &= exp \left( - \left[\left(\frac{age + 1}{\alpha_{a}}\right)^{\gamma_{a}} - \left(\frac{age}{\alpha_{a}}\right)^{\gamma_{a}}\right]\right)\\
+light_{est} &= (1 - \tau).light_{exp} + \tau . light_{est} . daylenght\\
+water_{est} &= (1 - \tau).water_{exp} + \tau . water_{est} . daylenght
 \end{align}
+\indent Because these are supposed to be expected conditions for the future, other formulation can be used instead of an average that is likely to introduce a lag in estimations.
 
-\begin{marginfigure}
-\begin{tikzpicture}
-\begin{axis}[marginplot,
-legend style
-={at={(1, 1.1)},
-anchor=south east,
-draw = none},
-samples = 100,
-%restrict y to domain=-300:700,
-xlabel = $\theta$,
-ylabel = $U_{lim}$
-%extra x ticks={0.618},
-%extra x tick style={grid=major}
-]
 
-\addplot[myGreen][domain = 0.21:0.99 ] {exp(\parbeta0 * (1/(1-0.2) - 1/(x-0.2))) };
-%\legend{Water limitation}
-\end{axis}
-\end{tikzpicture}
-\label{fig:derivaives}
-\caption{Water uptake limitation response function to soil saturation}
-\end{marginfigure}
 
 \paragraph{Allocation} \label{par:allocation}
-Allocation is primordial in plant development and we must be careful when modelling it. We can distinguish two phases in plant development that impact a lot OM allocation: the vegetative phase, and the reproductive phases. The separation between these phases and the development allocation are discussed in the following paragraphs.\\
+Allocation is primordial in plant development and ontogeny. The following paragraph detail the implementation of the plastic allocation in \model.
 
-\textbf{Maturity:} Plants are considered mature in \model when the phenologic variable has reach a species specific threshold. The phenologic variable can be either the age, the height, the biomass, degree.days, in the current version age is used.\\
+\textbf{Maturity:} For most of plants the development cycle is divided in two phases of different durations: the vegetative phase when plant growths organs to gather resources and product OM, and the reproductive phase when plant take advantage of these organs to accumulate carbon and invest them in reproduction mechanisms. Plants are considered mature (they switch from vegetative t o reproductive phase) in \model when the phenologic variable has reach a species specific threshold. The phenologic variable can be either the age, the height, the biomass, degree.days, in the current version total living biomass is used as trigger for reproductive phase.\\
 \indent 
 
-\textbf{Allocation to stem:} Even-though grasses do not grow high vegetative parts like trees, some grow vertically and they are exposed to stronger winds than most of forest, and therefore need structural supports. Not all grasses grow stem, so we suppose that the supporting function is fulfilled by the leaf structural tissue. The minimal mechanical support needed is calculated as a function of above-ground biomass:
+\textbf{Allocation to stem:} Eventhough grasses do not grow tall vegetative parts like trees, some grow vertically and they are exposed to stronger winds than most of forest. Therefore they need structural supports\sidenote{This supporting tissue mechanic is also needed to avoid exponential growth rate.}. Not all grasses grow stem, but they'll have stronger central vein in their leaves to structuraly support the weight of leaves. In addition shoots and roots also need supporting tissues for water transport, for this reason the minimal mechanical support needed is calculated as a function of total living biomass:
 \begin{equation}
-support = \alpha_{L} . (BM_{ag})^\gamma_{L}
+support = \alpha . (BM_{ag} + BM_{bg})^\gamma
 \end{equation}
-where $\alpha_{L}$ and $\gamma_{L}$ are the shoot allometry and shoot allometry exponent.\\
-\indent To avoid complex allocation optimisation problem, the allocation of supporting tissue is done before any other allocation. Is the support is not sufficient, no organic matter can be invested in vegetative development. The biomass the plant needs to invest in the stem is defined as:
-\begin{equation}
-\Delta_{stem} = max(support - (stem + Str_{ag}), 0)
-\end{equation}
-where $Str_{ag}$ is the structural biomass in shoot.\\
+where $\alpha$ and $\gamma$ are allometry coefficients.\\
+
+\indent At each time step we must determine what fraction of OM dedicated to vegetative growth
+%\indent To avoid complex allocation optimisation problem, the allocation of supporting tissue is done before any other allocation. Is the support is not sufficient, no organic matter can be invested in vegetative development. The biomass the plant needs to invest in the stem is defined as:
+%\begin{equation}
+%\Delta_{stem} = max(support - (stem + Str_{ag}), 0)
+%\end{equation}
+%where $Str_{ag}$ is the structural biomass in shoot.\\
 
 \indent Allocation of produced organic matter is central in vegetation as it shapes the plant and define the strength of the different organs. There are multiple ways to model the distribution of produced organic matter between the plant organs. We believe that such mechanism has great impact on individual development and response to external conditions, and so on community dynamics. To explore the role of this mechanism, multiple options are implemented. The different allocation algorithms are summarised in the following table:
 
 
-%TAble of plant state variables
+%TAble of plasticity mech
 \begin{table*}
 \caption{Allocation algorithms implemented in \model} 
 \label{table:state_var_plant}
@@ -608,6 +557,83 @@ Plasticity in trait suggests that trait values are modified in time. Because pla
 \end{align}
 
 
+\paragraph{Senescence}
+
+Senescence is the process of aging of tissues. This process uselly occurs at the scale of an individual organ (e.g. a leaf), however \model does not consider organs independently because it would be complex and computationally expensive to follow multiple leaves and roots for all individuals. So the process is considered homogeneous over all tissues. To emulate the senescence process senescence is calculated from the tissues lifespan, giving :
+
+\begin{marginfigure}
+\begin{tikzpicture}
+\begin{axis}[marginplot,
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 1000,
+%restrict y to domain=0:1,
+xlabel = $P_{act}$,
+ylabel = $Lifespan (days)$
+%extra x ticks={0.618},
+%extra x tick style={grid=major}
+]
+
+\addplot[myGreen][domain = 0:0.99 ] {(\parlsszero * (1- x^\parlssone) ) };
+\addplot[black][domain = 0:0.99 ] {(\parlsrzero * (1- x^\parlsrone) ) };
+\legend{Aboveground, Belowground}
+\end{axis}
+\end{tikzpicture}
+\label{fig:derivaives}
+\caption{Water uptake limitation response function to soil saturation}
+\end{marginfigure}
+
+\begin{align}
+sen_{leaf} &= \frac{1}{LLS}\\
+sen_{root} &= \frac{1}{RLS}
+\end{align}
+
+Because \model does not contain any mechanism preventing plant from growing only  active tissues\sidenote[][5pt]{it was intended to make the WUE negatively correlated to the amount of structural tissue per area.}, it is necessary for this cost function to make this strategy unreliable. The is then expressed as follow:
+
+\begin{align}
+LLS &= LSs_{s0} * (1- p_{act root}^{LSs_{1}}) \\
+RLS &= LSr_{s0} * (1- p_{act root}^{LSr_{1}})
+\end{align}
+
+
+where $LLS$ and $RLS$ are respectively the leaf and the root lifespans calculated as negative log-linear relationships with proportion of active tissue.\\
+\indent Root senescent tissues disappear from the system. Information about senescent aboveground biomass is stored, but senescent biomass effect of light competition is ignored in this version because as it is implemented senescent tissues appear early in plant development and have large negative effect on light absorption.\\
+\indent To the natural senescence and artifial cost of having only active tissue, an additional component can be added to the turn-over rate: the negative NPP. In case of negative NPP the biomass will be taken from the already allocated following the shoot root ratio. This can lead to a lower overall productivity (negative growth during unproductive periods) but also changes in the equilibrium if tissue have different efficiencies.
+
+\paragraph{Death} Death is modelled as in Reineking 2006. Age and desication (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random loteries following the following survival probbabilities:
+
+\begin{marginfigure}[-10pt]
+\begin{tikzpicture}
+\begin{axis}[marginplot,
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 100,
+%restrict y to domain=-300:700,
+xlabel = $age (days)$,
+ylabel = $survival$
+%extra x ticks={0.618},
+%extra x tick style={grid=major}
+]
+
+\addplot[black][domain = 0:100] {exp(-((x/ \paralphaa)^\pargammaa- (max(x - 1, 0) / \paralphaa)^(\pargammaa)) ) };
+%\legend{Water limitation}
+\end{axis}
+\end{tikzpicture}
+\label{fig:derivaives}
+\caption{Age related survival probability function}
+\end{marginfigure}
+
+\begin{align}
+P_{d} &=  exp \left( - \left[\left(\frac{des}{\alpha_{d}}\right)^{\gamma_{d}} - \left(\frac{max(des - 1, 0)}{\alpha_{d}}\right)^{\gamma_{d}}\right]\right) & if NPP \le 0\\
+&= 1 & otherwise\\
+P_{a} &= exp \left( - \left[\left(\frac{age + 1}{\alpha_{a}}\right)^{\gamma_{a}} - \left(\frac{age}{\alpha_{a}}\right)^{\gamma_{a}}\right]\right)\\
+\end{align}
+
+State of dead individuals is store until the end of the season when seed are stored in the seed bank. Seeds of dead individual then join other seeds.
 
 \paragraph{Reproduction \& persistence}
 \textbf{Sexual \& clonal reproduction:} reproduction is handled at the end of the season. To limit the number of parameters reproduction is limited to the division of the invested biomass in reproduction by the species specific seed biomass into a round number of seeds (the number of seed per plant could also be a differentiation axis). Clonal reproduction is not explicitly represented but can be mimic with bigger seeds and by adding a dispersion process around the parents. The seeds then are added to a potential seed-bank. This potential seed-bank is sampled, after eventual invasion, and merged with the existing seed-bank.\\

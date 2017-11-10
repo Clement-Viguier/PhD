@@ -1,0 +1,67 @@
+
+\fwnewthought{This section is meant to include thoughts and ideas on how to extend \model but that could not be included in the first versions of the model for various reasons. Despite not being included, these extensions are interesting from a scientific or technical point of view, and I hope these notes can be useful to anyone interested in \model or individual based vegetation modelling.}
+
+
+\section{Notes}
+
+\subsection{On modelling}
+Frustration: often look obvious, at least it's just logical, there is what we put in...\\
+
+Modelling approach, when not for prediction, what is it about ?
+\begin{itemize}
+\item building understanding
+\item weight mechanisms
+\item test hypothesis
+\end{itemize}
+\
+
+%_________________________________________________________________________________
+\chapter{Include nitrogen: source of trade-off} %<-- may need to be turned into sections
+
+As seen previously in chapter %\ref{\chapter:trade-of}
+, the emergence of trade-off in growth strategy in the actual framework actually rely on a strong genetic constraint over plant plasticity. Indeed, without plasticity cost and low reactivity there would be a high rate of phenotypic convergence of individuals from different species. This is explained by the existence of optimum carbon partitioning (for a given size) in a stable environment. The coexistence of different resource use strategies (exploitative vs conservative) is allowed only through temporal variations and non equilibrium state. This is quite common since a lot of models will predict rapid dominance of one entity in case of equilibrium (need references here).\\
+Multiple questions arise from this observation: are the conclusions of this work still interesting in the understanding of the coexistence mechanisms? (I hope I did convince you in the dedicated part of this document, see .. for more details), is it possible to see coexistence of multiple strategies in a temporally stable environment? how can we produce trade-off by including only one more resource?\\
+
+In the following paragraphs I try to answer these questions with theoretical arguments and suggestions on how to integrate them in \model.
+
+\section{Stable coexistence: the need for a resource dependent tissue efficiency}
+
+Coexistence mechanisms are listed and detailed in the introduction of this thesis (see chapter \ref{chapter:coexistence}). Here I focus on the efficiency of tissues... Nitrogen based, why coexistence ? different phenotype correspond to different limiting resources and for different resource availabilities, different phenotype will optimize the return cost of tissues.Nitrogen also allow the model to have an extra dimension into strategy: WUE (local scale) versus NUE (global scale) (element of reflexion in Maire's thesis).\\
+Its also can be related to
+
+
+%__________________________________________________________________________________
+\chapter{Specific resistance carbon pools: diversify strategies (and memory)}
+
+Original idea was to have specific carbon pools for different function, and weight the relative allocation based on gain projections.
+
+\chapter{Land-use: a important driver}
+
+\section{Proto-model of management}
+
+Mapping, digestibility and selectivity (smoothing). Grazing and mowing. Height correction.
+
+\section{Individual and collective response}
+Response could be to grow thinner, more fragile leaves to go back on tracks (and take advantages of nutrients and lower competition) or grow bigger leaves and invest in predation resistance/avoidance.
+
+\section{Remaining questions}
+
+Calibration of herbivory pressure.
+
+
+%__________________________________________________________________________________
+\chapter{Local adaptation and epigenetic: between species and individual memory}
+
+
+
+%__________________________________________________________________________________
+
+\chapter{Making it all fun}
+Making it fun to use, so that people use it.
+Making it pretty ?
+
+\section{Documentation and vignette}
+
+\section{Fun and simple simulations}
+
+\section{Theme and shiny ?}

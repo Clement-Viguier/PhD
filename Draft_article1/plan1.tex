@@ -105,7 +105,12 @@ There is a need for community models capable of reproducing diverse plant commun
 Such mechanism is called phenotypic plasticity\\
 
 \section{Methods}
-\subsection{Model overview}
+\subsection{Model overview and concepts}
+\paragraph{Overview of \textit{MountGrass}}
+\paragraph{Plasticity in \textit{MountGrass}: concepts and implementation}
+
+Plasticity: expected environment -> phenotype, here phneotype is equivalent to biomass partitioning, that means expected environement -> allocation coefficients. Then memory -> expectations -> allocation. Because low dimensions, and we want diversity, and the link between memory and allocation might not be a function (one memroy give exactly one optimum allocation), in hte model this relationship is not verified. Species specfic traits are used to allow for different strategies to be associated to a same memory (different plants won't have the same strat, despite sharing the projection)
+
 \subsection{Calibration}
 \paragraph{Pot data}
 Pot data consists in total biomass and root shoot ration (RSR) data of ... species grown in pots by Peterson and al. (peterson). This old dataset has the advantages of being grass species grown in a described steady environment with two conditions of watering with measures of essential components of growth: biomass and RSR. The inputs used to simulated these experriment are detailed in appendix.
@@ -125,6 +130,11 @@ Field data has been collected between years 201 .. and 201 in two distinct datas
 \subsection{Growth of diverse species}
 calibration. Calibration filtering results in the selection of n parameter sets over m preselected parameters sets. Accepted sets are distributed among the 11 species of the dataset like presented in the table. Species A, B and C are the most numerous.\\
 sensitivity analysis. The models about seems to be sensitive to the following parameters: . Total biomass is particularly sensitive to exchange rate parameters, but also tissue construction cost.\\
+
+Plasticity and tha acceptance rate\\
+Change of relationship between parameters and acceptance rate\\
+accept = f(tau)
+
 1d gradient: distribution of as and memory of surviving species.\\
 niche\\
 
