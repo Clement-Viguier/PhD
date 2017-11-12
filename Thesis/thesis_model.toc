@@ -33,26 +33,28 @@
 \contentsline {subsection}{\numberline {1.4.3}comparison of different algorithms}{16}{subsection.1.4.3}
 \contentsline {section}{\numberline {1.5}Parameter filtering and sensitivity analysis}{16}{section.1.5}
 \contentsline {section}{\numberline {1.6}Community dynamics parametrisation}{16}{section.1.6}
-\contentsline {chapter}{\numberline {2}Model's properties and individuals response}{17}{chapter.2}
+\contentsline {chapter}{\numberline {2}Results: Model's properties and individuals response}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}Craft a trade-of and phenotypic map}{17}{section.2.1}
 \contentsline {section}{\numberline {2.2}Niche response}{17}{section.2.2}
 \contentsline {section}{\numberline {2.3}Transitivity and competition}{17}{section.2.3}
 \contentsline {chapter}{\numberline {3}The effect of phenotypic plasticity on plant community dynamics}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Individual resistance and resilience against drought events}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}Community response to drought event}{19}{section.3.2}
-\contentsline {part}{III\hspace {1em}Extend mountgrass}{21}{part.3}
-\contentsline {section}{\numberline {0.3}Notes}{23}{section.0.3}
-\contentsline {subsection}{\numberline {0.3.1}On modelling}{23}{subsection.0.3.1}
-\contentsline {chapter}{\numberline {1}Include nitrogen: source of trade-off}{25}{chapter.1}
-\contentsline {section}{\numberline {1.1}Stable coexistence: the need for a resource dependent tissue efficiency}{25}{section.1.1}
-\contentsline {chapter}{\numberline {2}Specific resistance carbon pools: diversify strategies (and memory)}{27}{chapter.2}
-\contentsline {chapter}{\numberline {3}Land-use: a important driver}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}Proto-model of management}{29}{section.3.1}
-\contentsline {section}{\numberline {3.2}Individual and collective response}{29}{section.3.2}
-\contentsline {section}{\numberline {3.3}Remaining questions}{29}{section.3.3}
-\contentsline {chapter}{\numberline {4}Local adaptation and epigenetic: between species and individual memory}{31}{chapter.4}
-\contentsline {chapter}{\numberline {5}Making it all fun}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}Documentation and vignette}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}Fun and simple simulations}{33}{section.5.2}
-\contentsline {section}{\numberline {5.3}Theme and shiny ?}{33}{section.5.3}
+\contentsline {part}{III\hspace {1em}Synthesis \& Outlook}{21}{part.3}
+\contentsline {section}{\numberline {3.3}Notes}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}On modelling}{23}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Include nitrogen: source of trade-off}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Stable coexistence: the need for a resource dependent tissue efficiency}{25}{section.4.1}
+\contentsline {chapter}{\numberline {5}Specific resistance carbon pools: diversify strategies (and memory)}{27}{chapter.5}
+\contentsline {chapter}{\numberline {6}Land-use: a important driver}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Proto-model of management}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Individual and collective response}{29}{section.6.2}
+\contentsline {section}{\numberline {6.3}Remaining questions}{29}{section.6.3}
+\contentsline {chapter}{\numberline {7}Local adaptation and epigenetic: between species and individual memory}{31}{chapter.7}
+\contentsline {chapter}{\numberline {8}Making it all fun}{33}{chapter.8}
+\contentsline {section}{\numberline {8.1}Documentation and vignette}{33}{section.8.1}
+\contentsline {section}{\numberline {8.2}Fun and simple simulations}{33}{section.8.2}
+\contentsline {section}{\numberline {8.3}Theme and shiny ?}{33}{section.8.3}
+\contentsline {part}{IV\hspace {1em}Rambling}{37}{part.4}
+\contentsline {chapter}{\numberline {9}Evolution, physiology and justification}{39}{chapter.9}
 \contentsfinish 

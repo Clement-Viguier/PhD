@@ -1,4 +1,4 @@
-\documentclass[a4paper,twoside, justified,marginals=raggedright]{tufte-handout}
+\documentclass[a4paper,twoside, justified,marginals=raggedright, nobib]{tufte-handout}
 
 
 \usepackage[utf8]{inputenc}
@@ -41,6 +41,12 @@
 
 % to see the margins and page width
 % \geometry{showframe}
+
+% for proper citation styling
+\usepackage{natbib}
+\setcitestyle{authoryear}
+% should work with the following style: \bibliographystyle{plainnat}
+
 
 % Write packages versions in the log
 % \listfiles
@@ -93,7 +99,7 @@
 \begin{fullwidth}
 \begin{abstract} 
 \noindent
-This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al.. The model is inspired by multiple other forest and grassland models (for grassland models see particularly Taubert and Lohier). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
+This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al.. The model is inspired by multiple other forest and grassland models (for grassland models see particularly Taubert \cite{taubert_modelling_2014} and Lohier \cite{lohier_explaining_2014}). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
 \end{abstract}
 \end{fullwidth}
 
@@ -411,7 +417,7 @@ transp_{i}(p) &= transp . \frac{V_{i,p}}{V_{i}}\\
 Wpot_{i}(p) &= Root_{area}(p).U_{max}.U_{lim}\\
 Wdem_{i}(p) &= min(transp_{i}(p), Wpot_{i}(p))\\
 \end{align}
-where, the limitation function $U_{lim}$ is defined as in \cite{Reineking_2006}:
+where, the limitation function $U_{lim}$ is defined as in \cite{reineking_environmental_2006}:
 
 \begin{marginfigure}[-40pt]
 \begin{tikzpicture}
@@ -707,8 +713,12 @@ The model is implemented in R with some limiting function using RCPP to speed up
 
 
 
- \nocite{TitlesOn}
- \bibliographystyle{cell}
- \bibliography{biblio_model_description}
+% \nocite{TitlesOn}
+\bibliographystyle{cell}
+
+%\bibliographystyle{plainnat}
+ \bibliography{../Bibliography/bib_zotero20171106}
+ 
+ 
 
 \end{document}
