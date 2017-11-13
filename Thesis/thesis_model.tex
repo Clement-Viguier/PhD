@@ -1,4 +1,4 @@
-\documentclass[a4paper, notoc, justified,marginals=raggedouter]{tufte-book}
+\documentclass[a4paper, notoc, justified,marginals=raggedouter, nobib]{tufte-book}
 
 
 \usepackage[utf8]{inputenc}
@@ -21,6 +21,12 @@
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
 \MakePerPage{sidenote} %the perpage package command
+
+
+
+% for proper citation styling
+\usepackage{natbib}
+\setcitestyle{authoryear}
 
 \usepackage{xcolor}
 \definecolor{myOrange}{HTML}{F37820}
@@ -89,7 +95,7 @@
 \include{./2_PP/Individual_level}
 \include{./2_PP/Community_dynamics}
 
-\part{Synthesis & Outlook}
+\part{Synthesis \& Outlook}
 
 %
 %\part{Extend mountgrass}
@@ -97,6 +103,12 @@
 \include{./99_Extensions/Extensions}
 
 
+% \nocite{TitlesOn}
+\bibliographystyle{cell}
+
+%\bibliographystyle{plainnat}
+ \bibliography{../Bibliography/bib_zotero20171106}
+ 
 
 %Rambling
 \include{./rambling}
@@ -128,5 +140,7 @@
 %\end{tikzpicture}
 %\caption{Test figure to setup pgfplots in Tufte environment}
 %\end{marginfigure}
+
+
 
 \end{document}
