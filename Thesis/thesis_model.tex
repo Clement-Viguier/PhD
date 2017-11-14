@@ -17,6 +17,9 @@
 
 \usepackage{lipsum}
 
+
+\usepackage{pdfpages} % insert the papers pdf in the text.
+
 % make footnotes and sidenotes counters be reset per page
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
@@ -38,7 +41,7 @@
 
 % to see the margins and page width
 % \geometry{showframe}
-
+\geometry{bindingoffset=1cm}
 % Write packages versions in the log
 % \listfiles
 
@@ -88,11 +91,14 @@
 
 \include{./1_Introduction/Introduction}
 
-\part{Modelling alpine grasslands}
+\part{Modelling alpine grasslands: genericity and plasticity}
 \setcounter{chapter}{0}
+\includepdf[pages=-, width = 21cm]{../Draft_article1/plan1.pdf}
 
 \include{./2_PP/Generic_model}
 \include{./2_PP/Individual_level}
+
+%\part{Application of \model: resistance of alpine mountain grasslands to drought}
 \include{./2_PP/Community_dynamics}
 
 \part{Synthesis \& Outlook}

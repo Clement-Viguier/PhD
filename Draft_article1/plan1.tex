@@ -104,12 +104,20 @@ We stressed the importance of considering intra-specific variations, ann highlig
 There is a need for community models capable of reproducing diverse plant communities. To investigate the effect of climate change it has to incorporate mechanism of response and individual level.\\
 Such mechanism is called phenotypic plasticity\\
 
+\textbf{
+How is it really different from source-sink approaches ? Or functional equilibrium ?}
+-> allocation based, trait variations, plasticity is a strategy. This last poinnt is important. It's related to the discussion around van kleunen ad Dewitt (not all species are plastic, sultan says most are) <- check that.
+
 \section{Methods}
 \subsection{Model overview and concepts}
 \paragraph{Overview of \textit{MountGrass}}
 \paragraph{Plasticity in \textit{MountGrass}: concepts and implementation}
+\textbf{Allocation} Why allocation and not just traits ? Allocation model provide structural constraint for plant strategies. Study ecology is studying the relative performance of individuals (and their impact on environmental conditions) in relationship with their strategies. Considering the amount of traits and strategies plants can develop, it is crucial to reduce the dimensionality of the strategic space (space define by all independent strategic axis plant can be found on). The most effective way to use laws of physics, chemistry and biology to eliminate impossible strategies (or combination of traits). Allocation based model take advantage of the "law of mass balance" ... to limit the number of possible allocation pattern, or strategies. This approach has the advantage of creating limited \textit{continuous} strategy space that can be explored and reveal ecological relationships/constraint. The search for such relationships or trade-offs is a big challenge in empirical ecology (see \cite{reich_evolution_2003, wright_worldwide_2004, diaz_plant_2004, diaz_global_2016} for plants) and ecological modelling (see \cite{reineking_environmental_2006, falster_plant:_2016}) as they reduce the complexity and help understand the main mechanisms that shape communities.\\
 
-Plasticity: expected environment -> phenotype, here phneotype is equivalent to biomass partitioning, that means expected environement -> allocation coefficients. Then memory -> expectations -> allocation. Because low dimensions, and we want diversity, and the link between memory and allocation might not be a function (one memroy give exactly one optimum allocation), in hte model this relationship is not verified. Species specfic traits are used to allow for different strategies to be associated to a same memory (different plants won't have the same strat, despite sharing the projection)
+\textbf{Plasticity}: expected environment -> phenotype, here phneotype is equivalent to biomass partitioning, that means expected environement -> allocation coefficients. Then memory -> expectations -> allocation. Because low dimensions, and we want diversity, and the link between memory and allocation might not be a function (one memroy give exactly one optimum allocation), in the model this relationship is not verified. Species specfic traits are used to allow for different strategies to be associated to a same memory (different plants won't have the same strat, despite sharing the projection)
+
+\textbf{Allocation algorithms}
+
 
 \subsection{Calibration}
 \paragraph{Pot data}
@@ -131,8 +139,8 @@ Field data has been collected between years 201 .. and 201 in two distinct datas
 calibration. Calibration filtering results in the selection of n parameter sets over m preselected parameters sets. Accepted sets are distributed among the 11 species of the dataset like presented in the table. Species A, B and C are the most numerous.\\
 sensitivity analysis. The models about seems to be sensitive to the following parameters: . Total biomass is particularly sensitive to exchange rate parameters, but also tissue construction cost.\\
 
-Plasticity and tha acceptance rate\\
-Change of relationship between parameters and acceptance rate\\
+Plasticity and acceptance rate\\
+Change of relationship between parameters and acceptance rate -> none\\
 accept = f(tau)
 
 1d gradient: distribution of as and memory of surviving species.\\
@@ -154,8 +162,7 @@ plasticity change the niche shape (and probably interactions) and may have an im
 
 
 \section*{References}
-\cite{Dirac1953888}
-\bibliography{201703_bib_paper1}
+\bibliography{../Bibliography/bib_zotero20171106}
 
 \part*{Appendices}
 

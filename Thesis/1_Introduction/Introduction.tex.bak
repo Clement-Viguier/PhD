@@ -18,12 +18,13 @@ productivity\\
 resistance ?\\
 Ecosystem services and complementarity\\
 
-\subsection{Mechanisms for coexistence}
+\subsection{Mechanisms for coexistence and strategies}
 main theories: niche, neutral, individual based. -> scale and dimension dependant.\\
-chesson\\
+chesson \cite{chesson_mechanisms_2000}\\
 Spatial and temporal variability\\
 trade-off, strategy space, and variability.\\
 in the end it's rarely direct interaction but capacity to respond to stress and interect interaction through resource pools.
+\paragraph{Strategy space and trade-of}
 
 \section{global change and community dynamics: theory and empirical results}
 
@@ -37,12 +38,23 @@ effect on niche and interactions: effect on coexistence\\
 -> plasticity a special form of ISV
 \subsection{Understanding phenotypic plasticity}
 adaptive intraspecific variation\\
-cost and limits\\
+cost and limits van kleunen, Dewitt and sultan \\
 effect on coexistence and community
 
 
 \section{Existing  modelling solutions and approaches to question global change effect on vegetation community}
-Message: modelling coexistence is a challenge because 1) do not know/understand all mechanisms, 2) challenging to incorporate enough mechanisms, 3) costly computation and data wise. -> need for more generic and complete (multiple mechanisms approaches.
+
+Message: modelling coexistence is a challenge because 1) do not know/understand all mechanisms, 2) challenging to incorporate enough mechanisms, 3) costly computation and data wise. -> need for more generic and complete (multiple mechanisms approaches.\\
+
+DGVMs\\
+IBMs
+
+Reaction norms\\
+Source sink models\\
+Functional-Structural plant models FSPMs ? vos 2009\\
+Functional equilibrium. Somehow similar to the source sink in its philosophy, it allows optimisation of phenotype for multiple resources. \\
+
+
 \subsection{Modelling vegetation - traits and strategies}
 traits \& strategies\\
 existing models: a gap to fill\\

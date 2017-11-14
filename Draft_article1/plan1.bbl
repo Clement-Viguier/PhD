@@ -1,0 +1,80 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{reich_evolution_2003}
+P.~B. Reich, I.~J. Wright, J.~Cavender‐Bares, J.~M. Craine, J.~Oleksyn,
+  M.~Westoby, M.~B. Walters,
+  \href{http://www.jstor.org/stable/10.1086/374368}{The {Evolution} of {Plant}
+  {Functional} {Variation}: {Traits}, {Spectra}, and {Strategies}},
+  International Journal of Plant Sciences 164~(S3) (2003) S143--S164.
+\newblock \href {http://dx.doi.org/10.1086/374368} {\path{doi:10.1086/374368}}.
+\newline\urlprefix\url{http://www.jstor.org/stable/10.1086/374368}
+
+\bibitem{wright_worldwide_2004}
+I.~J. Wright, P.~B. Reich, M.~Westoby, D.~D. Ackerly, Z.~Baruch, F.~Bongers,
+  J.~Cavender-Bares, T.~Chapin, J.~H.~C. Cornelissen, M.~Diemer, J.~Flexas,
+  E.~Garnier, P.~K. Groom, J.~Gulias, K.~Hikosaka, B.~B. Lamont, T.~Lee,
+  W.~Lee, C.~Lusk, J.~J. Midgley, M.-L. Navas, �.~Niinemets, J.~Oleksyn,
+  N.~Osada, H.~Poorter, P.~Poot, L.~Prior, V.~I. Pyankov, C.~Roumet, S.~C.
+  Thomas, M.~G. Tjoelker, E.~J. Veneklaas, R.~Villar,
+  \href{http://www.nature.com/nature/journal/v428/n6985/abs/nature02403.html}{The
+  worldwide leaf economics spectrum}, Nature 428~(6985) (2004) 821--827.
+\newblock \href {http://dx.doi.org/10.1038/nature02403}
+  {\path{doi:10.1038/nature02403}}.
+\newline\urlprefix\url{http://www.nature.com/nature/journal/v428/n6985/abs/nature02403.html}
+
+\bibitem{diaz_plant_2004}
+S.~Diaz, J.~Hodgson, K.~Thompson, M.~Cabido, J.~Cornelissen, A.~Jalili,
+  G.~Montserrat-Martí, J.~Grime, F.~Zarrinkamar, Y.~Asri, S.~Band,
+  S.~Basconcelo, P.~Castro-Díez, G.~Funes, B.~Hamzehee, M.~Khoshnevi,
+  N.~Pérez-Harguindeguy, M.~Pérez-Rontomé, F.~Shirvany, F.~Vendramini,
+  S.~Yazdani, R.~Abbas-Azimi, A.~Bogaard, S.~Boustani, M.~Charles, M.~Dehghan,
+  L.~de~Torres-Espuny, V.~Falczuk, J.~Guerrero-Campo, A.~Hynd, G.~Jones,
+  E.~Kowsary, F.~Kazemi-Saeed, M.~Maestro-Martínez, A.~Romo-Díez, S.~Shaw,
+  B.~Siavash, P.~Villar-Salvador, M.~Zak,
+  \href{http://onlinelibrary.wiley.com/doi/10.1111/j.1654-1103.2004.tb02266.x/abstract}{The
+  plant traits that drive ecosystems: {Evidence} from three continents},
+  Journal of Vegetation Science 15~(3) (2004) 295--304.
+\newblock \href {http://dx.doi.org/10.1111/j.1654-1103.2004.tb02266.x}
+  {\path{doi:10.1111/j.1654-1103.2004.tb02266.x}}.
+\newline\urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1654-1103.2004.tb02266.x/abstract}
+
+\bibitem{diaz_global_2016}
+S.~Díaz, J.~Kattge, J.~H.~C. Cornelissen, I.~J. Wright, S.~Lavorel, S.~Dray,
+  B.~Reu, M.~Kleyer, C.~Wirth, I.~Colin~Prentice, E.~Garnier, G.~Bönisch,
+  M.~Westoby, H.~Poorter, P.~B. Reich, A.~T. Moles, J.~Dickie, A.~N. Gillison,
+  A.~E. Zanne, J.~Chave, S.~Joseph~Wright, S.~N. Sheremet’ev, H.~Jactel,
+  C.~Baraloto, B.~Cerabolini, S.~Pierce, B.~Shipley, D.~Kirkup, F.~Casanoves,
+  J.~S. Joswig, A.~Günther, V.~Falczuk, N.~Rüger, M.~D. Mahecha, L.~D.
+  Gorné,
+  \href{http://www.nature.com/nature/journal/v529/n7585/full/nature16489.html}{The
+  global spectrum of plant form and function}, Nature 529~(7585) (2016)
+  167--171.
+\newblock \href {http://dx.doi.org/10.1038/nature16489}
+  {\path{doi:10.1038/nature16489}}.
+\newline\urlprefix\url{http://www.nature.com/nature/journal/v529/n7585/full/nature16489.html}
+
+\bibitem{reineking_environmental_2006}
+B.~Reineking, M.~Veste, C.~Wissel, A.~Huth,
+  \href{http://www.sciencedirect.com/science/article/pii/S0304380006002924}{Environmental
+  variability and allocation trade-offs maintain species diversity in a
+  process-based model of succulent plant communities}, Ecological Modelling
+  199~(4) (2006) 486--504.
+\newblock \href {http://dx.doi.org/10.1016/j.ecolmodel.2006.03.038}
+  {\path{doi:10.1016/j.ecolmodel.2006.03.038}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0304380006002924}
+
+\bibitem{falster_plant:_2016}
+D.~S. Falster, R.~G. FitzJohn, �.~Brännström, U.~Dieckmann, M.~Westoby,
+  \href{http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12525/abstract}{plant:
+  {A} package for modelling forest trait ecology and evolution}, Methods Ecol
+  Evol 7~(2) (2016) 136--146.
+\newblock \href {http://dx.doi.org/10.1111/2041-210X.12525}
+  {\path{doi:10.1111/2041-210X.12525}}.
+\newline\urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12525/abstract}
+
+\end{thebibliography}

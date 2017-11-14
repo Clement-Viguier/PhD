@@ -1,4 +1,4 @@
-\documentclass[a4paper, notoc, justified,marginals=raggedouter]{tufte-book}
+\documentclass[a4paper, notoc, justified,marginals=raggedouter, nobib]{tufte-book}
 
 
 \usepackage[utf8]{inputenc}
@@ -17,10 +17,19 @@
 
 \usepackage{lipsum}
 
+
+\usepackage{pdfpages} % insert the papers pdf in the text.
+
 % make footnotes and sidenotes counters be reset per page
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
 \MakePerPage{sidenote} %the perpage package command
+
+
+
+% for proper citation styling
+\usepackage{natbib}
+\setcitestyle{authoryear}
 
 \usepackage{xcolor}
 \definecolor{myOrange}{HTML}{F37820}
@@ -32,7 +41,7 @@
 
 % to see the margins and page width
 % \geometry{showframe}
-
+\geometry{bindingoffset=1cm}
 % Write packages versions in the log
 % \listfiles
 
@@ -82,14 +91,17 @@
 
 \include{./1_Introduction/Introduction}
 
-\part{Modelling alpine grasslands}
+\part{Modelling alpine grasslands: genericity and plasticity}
 \setcounter{chapter}{0}
+\includepdf[pages=-, width = 21cm]{../Draft_article1/plan1.pdf}
 
 \include{./2_PP/Generic_model}
 \include{./2_PP/Individual_level}
+
+%\part{Application of \model: resistance of alpine mountain grasslands to drought}
 \include{./2_PP/Community_dynamics}
 
-\part{Synthesis & Outlook}
+\part{Synthesis \& Outlook}
 
 %
 %\part{Extend mountgrass}
@@ -97,6 +109,12 @@
 \include{./99_Extensions/Extensions}
 
 
+% \nocite{TitlesOn}
+\bibliographystyle{cell}
+
+%\bibliographystyle{plainnat}
+ \bibliography{../Bibliography/bib_zotero20171106}
+ 
 
 %Rambling
 \include{./rambling}
@@ -128,5 +146,7 @@
 %\end{tikzpicture}
 %\caption{Test figure to setup pgfplots in Tufte environment}
 %\end{marginfigure}
+
+
 
 \end{document}
