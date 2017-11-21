@@ -93,7 +93,7 @@ To better understand and predict the effect of global change in these ecosystems
 To overcome these limitations and difficulties, modelling approaches has been developped (fate-h, samsara, taubert, lohier ...). They are either used for the retrospective studies long term dynamics from time series data, the prediction of community dynamics along different scenarios, or to interogate the underlying mecanisms of community dynamics (gemini). These models, to be able to account for changing condittions are all based on strong plant functioning processes at the scale of interest and are supported by field data through parametrisation.\\
 
 
-Most of these models feature a fixed plant functioning where the dynamic of the community is mostly driven by, 1) the abiotic conditions, 2) the relative competitiveness of species/group specific parameters or direct competion coefficients. If 1) is essential in the context of climate change, the point 2) as main mecanism of plant interaction can be discussed as it relies on differences between species specific physiological parameters. Physiological or competition parameters are generaly estimated by direct measures or derived from dta through calibration. Both methods give estimators in what we have good confidence, however they do not allow them to vary within the group (plant functional type, species or population) they haved been difined for. The estimator produce good results and generally follow fundamental or ecological trade-offs. Yet, they do not allow for variations within the group for these parameters, as they are not strictly constraint by said trade-offs and could lead to darwinian demons, or would require calibration of this variation space. More efforts must be done in the representation of the link  between chemical, anatomical and morpholocical traits and physiological traits that drive plant growth and plant interactions. Defining such link would authorise variations within a group while maintaining strong trade-offs between physiological traits and allowing variation and search in the strategy space... (not clear).\\
+Most of these models feature a fixed plant functioning where the dynamic of the community is mostly driven by, 1) the abiotic conditions, 2) the relative competitiveness of species/group specific parameters or direct competion coefficients. If 1) is essential in the context of climate change, the point 2) as main mechanism of plant interaction can be discussed as it relies on differences between species specific physiological parameters. Physiological or competition parameters are generally estimated by direct measures or derived from dta through calibration. Both methods give estimators in what we have good confidence, however they do not allow them to vary within the group (plant functional type, species or population) they have been defined for. The estimator produce good results and generally follow fundamental or ecological trade-offs. Yet, they do not allow for variations within the group for these parameters, as they are not strictly constraint by said trade-offs and could lead to Darwinian demons, or would require calibration of this variation space. More efforts must be done in the representation of the link  between chemical, anatomical and morphological traits and physiological traits that drive plant growth and plant interactions. Defining such link would authorise variations within a group while maintaining strong trade-offs between physiological traits and allowing variation and search in the strategy space... (not clear).\\
 
 We stressed the importance of considering intra-specific variations, ann highlight the necessity for a link between chemical and anatomical traits to functioning traits.  
  Not clear what is genetic variation and selection/evolutionary processes or phenotypic plasticity. Phenotypic plasticity in models: theoretical: 2 species interactions, not at community model. (Heritability ?)
@@ -106,15 +106,22 @@ Such mechanism is called phenotypic plasticity\\
 
 \textbf{
 How is it really different from source-sink approaches ? Or functional equilibrium ?}
--> allocation based, trait variations, plasticity is a strategy. This last poinnt is important. It's related to the discussion around van kleunen ad Dewitt (not all species are plastic, sultan says most are) <- check that.
+-> allocation based, trait variations, plasticity is a strategy. This last poinnt is important. It's related to the discussion around van kleunen ad Dewitt (not all species are plastic, sultan says most are) <- check that.\\
+
+The need of mechanistic model integrating functional traits and carbon allocation ... \cite{marechaux_individual-based_2017} + probably general reviews on vegetation modelling
 
 \section{Methods}
 \subsection{Model overview and concepts}
 \paragraph{Overview of \textit{MountGrass}}
-\paragraph{Plasticity in \textit{MountGrass}: concepts and implementation}
-\textbf{Allocation} Why allocation and not just traits ? Allocation model provide structural constraint for plant strategies. Study ecology is studying the relative performance of individuals (and their impact on environmental conditions) in relationship with their strategies. Considering the amount of traits and strategies plants can develop, it is crucial to reduce the dimensionality of the strategic space (space define by all independent strategic axis plant can be found on). The most effective way to use laws of physics, chemistry and biology to eliminate impossible strategies (or combination of traits). Allocation based model take advantage of the "law of mass balance" ... to limit the number of possible allocation pattern, or strategies. This approach has the advantage of creating limited \textit{continuous} strategy space that can be explored and reveal ecological relationships/constraint. The search for such relationships or trade-offs is a big challenge in empirical ecology (see \cite{reich_evolution_2003, wright_worldwide_2004, diaz_plant_2004, diaz_global_2016} for plants) and ecological modelling (see \cite{reineking_environmental_2006, falster_plant:_2016}) as they reduce the complexity and help understand the main mechanisms that shape communities.\\
+\paragraph{Plasticity in \textit{MountGrass}:
+ concepts and implementation}
 
-\textbf{Plasticity}: expected environment -> phenotype, here phneotype is equivalent to biomass partitioning, that means expected environement -> allocation coefficients. Then memory -> expectations -> allocation. Because low dimensions, and we want diversity, and the link between memory and allocation might not be a function (one memroy give exactly one optimum allocation), in the model this relationship is not verified. Species specfic traits are used to allow for different strategies to be associated to a same memory (different plants won't have the same strat, despite sharing the projection)
+\textbf{Allocation} Why allocation and not just traits ? Allocation model provide structural constraint for plant strategies. Study ecology is studying the relative performance of individuals (and their impact on environmental conditions) in relationship with their strategies. Considering the amount of traits and strategies plants can develop, it is crucial to reduce the dimensionality of the strategic space (space define by all independent strategic axis plant can be found on). The most effective way to use laws of physics, chemistry and biology to eliminate impossible strategies (or combination of traits). Allocation based model take advantage of the "law of mass balance" ... to limit the number of possible allocation pattern, or strategies. This approach has the advantage of creating limited \textit{continuous} strategy space that can be explored and reveal ecological relationships/constraint. The search for such relationships or trade-offs is a big challenge in empirical ecology (see \cite{reich_evolution_2003, wright_worldwide_2004, diaz_plant_2004, diaz_global_2016} for plants) and ecological modelling (see \cite{reineking_environmental_2006, falster_plant:_2016}) as they reduce the complexity and help understand the main mechanisms that shape communities.\\
+Introduce the idea of default strategy with this ratio of active vs structural tissues.
+
+
+\textbf{Plasticity}: expected environment -> phenotype, here phneotype is equivalent to biomass partitioning, that means expected environement -> allocation coefficients. Then memory -> expectations -> allocation. Because low dimensions, and we want diversity, and the link between memory and allocation might not be a function (one memroy give exactly one optimum allocation), in the model this relationship is not verified. Species specfic traits are used to allow for different strategies to be associated to a same memory (different plants won't have the same strat, despite sharing the projection)\\
+Once the plasticity is introduced, talk about the memory. Now you can also talk about the mapping/consistency between both and the difficulties to use both.
 
 \textbf{Allocation algorithms}
 
@@ -130,29 +137,112 @@ Once generated a first filtering is applied to save simulation time and avoid un
 Once the parameters transformed and filtered, simulations matching growth conditions in Peterson experiments.\\
 Generated data from finished simulations (i.e. plant lives until the end and do not exceed model's internal size limits) are then compared to experiment data species by species. Parameters of logistic distribution are computed from species means and standards deviantions for RSR and total biomass. The use of this distribution form is justified by the intrinsic form of RSR measure and the need to reject negative values for total biomass. A parameter set is accepted for one species if it within a 95\% range of the calculated distribution for both RSR and total biomass in wet and dry conditions.\\
 
+\paragraph{Strategy diversity filtering}
+To further reduce the number of parameter sets considered, we proceeded in an additional filtering step. Because the first filtering was conduced for only one strategy over the whole 4D strategy space (l\_ini,  w\_ini, as\_s\_d, as\_r\_d) it is necessary to verify that other strategies do not lead to potential Darwinian demon. This should be limited by the choice of priors, while at the same time promoted by the selection of parameters increasing growth to counter balance potential unfitted strategies\footnote{Better do that beforehand than after... But I guess it's too late now.}.
+
+\paragraph{Field calibration}
+New random parameters sets (with no species specific parameters) for population dynamics and competition specific parameters (see table ...).
+Sequence of around 60 year for each site. Parameters were selected by...
+
+
 \paragraph{Field data}
-Field data has been collected between years 201 .. and 201 in two distinct datasets from Chalmandrier and al.() and Claire Deleglise and al. (). 
+Field data has been collected between years 201 .. and 201 by Claire Deleglise and al. ().
+
+\paragraph{Weather data}
+Weather data has be computed by the MeteoFrance model SAFRAN by ... using GPS coordinates and slope, azimuth and horizon computed from a "MNT". These parameters were also used by the model CROCUS to compute snow accumulation and melting. These high frequency data (resolution under 1h) have been average daily and used to compute input variables for \model . 
+
 \subsection{Simulation setup}
+All common parameters for pot simulations. i.e. weather, soil, default species parameters.
+
+
 
 \section{Results}
 \subsection{Growth of diverse species}
-calibration. Calibration filtering results in the selection of n parameter sets over m preselected parameters sets. Accepted sets are distributed among the 11 species of the dataset like presented in the table. Species A, B and C are the most numerous.\\
-sensitivity analysis. The models about seems to be sensitive to the following parameters: . Total biomass is particularly sensitive to exchange rate parameters, but also tissue construction cost.\\
+\paragraph{Individual calibration}. Calibration filtering results in the selection of n parameter sets over m preselected parameters sets. Accepted sets are distributed among the 11 species of the dataset like presented in the table. Species A, B and C are the most numerous.\\
+sensitivity analysis. The models about seems to be sensitive to the following parameters: $r_1$, $\beta_0$, $P_{max}$, $u_{max}$, $k_{or}$, $\rho_{ar}$. The four first parameters are related to global resource availability and directly related to growth rate, while the second and the last three and related to the below-ground resource foraging and exchange rate.\\
+Total biomass is particularly sensitive to exchange rate parameters, but also tissue construction cost. (not shown)\\
 
-Plasticity and acceptance rate\\
+Plasticity does not change the acceptance rate in any form (only slight increased from 0.26\% to 0.38\%). Despite non overlapping (around respectively and third and a quarter of accepted parameter sets are shared between non plastic and plastic calibration) the distribution of not shared parameter sets are very similar and does not show any clear pattern. \\
+
+\begin{figure}
+\includegraphics[width = \textwidth]{/mnt/quadri1/simulations/exploration/species_par_space2017-10-26/plots/acceptance_rate_RSRnWeight_per_par.pdf}
+\caption{Acceptance rate per parameter for individual growth. No plasticity}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width = \textwidth]{/mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/acceptance_rate_RSRnWeight_per_par.pdf}
+\caption{Acceptance rate per parameter for individual growth. RSR plasticity}
+\end{figure}
+
+Acceptance rate without plasticity:
+\input{../Resources/Calibration/acc_rate_spnon_plastic.tex}
+Acceptance rate with RSR plasticity for equilibrium:
+\input{../Resources/Calibration/acc_rate_spplastic.tex}
+
 Change of relationship between parameters and acceptance rate -> none\\
-accept = f(tau)
+accept = f(tau)\\
 
-1d gradient: distribution of as and memory of surviving species.\\
-niche\\
+PCA reveal that sensitive parameters are also the dominant variables in the main components of the component analysis of the accepted parameter sets. Species cannot be distinguished on the two main component space, neither on 1 or 2D species specific parameters space (l\_ini, w\_ini, w\_ini vs l\_ini, as\_s\_d, as\_r\_d, as\_r\_d vs as\_s\_d) despite small variations in distribution shapes between species.\\
 
-\subsection{Plasticity in this framework}
-compare algorithm.\\
-effect of tau on growth (same parameters but with no plasticity cost)\\
-plastic calibration\\
+
+
+\begin{figure}
+\includegraphics[width = 10cm]{/mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/var_imp_plot_eq_design.pdf}
+\caption{Importance of the random forest to explain filtering outcome (accepted or rejected) of a balanced sample of parameter set between all tested (all accepted parameters and an equivalent sample in rejected parameters).  RSR plasticity.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width = 10cm]{/mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/PCA_acc.pdf}
+\caption{Accepted parameters set for plastic individual growth calibration filtering  on the two main components of PCA.}
+\end{figure}
+
+\paragraph{Individual growth pattern and plasticity}
+
+Individual growth and allocation looks like that:\\
+change in size of different pools (shoot, active, shoot str, stem ..., rep, storage). Plus constant traits.\\
+
+Different allocation algorithms change the growth but also the traits:\\
+BMtot, RSR, SRL and SLA of the same plant with different algorithms, other things being equal.
+
+\paragraph{Active versus structural: the foundation of the niche}
+
+Niche results from the absolute (potential niche) or relative (realised niche) performance of individual plant along environmental gradient. Performance (if measured as living biomass at a given time) in \model is a composite variable depending on: the absolute efficiency of the different organs (shoot and root), the relative proportion of these organs, and the equilibrium between shoot and root activity.\\
+Theoretical performance trade-off: result from the mathematical expression of construction cost of tissue and their exchange rates.\\
+\textit{figure and formulas}
+Realised trade-off\\
+\textit{figure and formulas}\\
+
+From now memory matters as it defines the phenotypes.
+
+\paragraph{Allocation matters: stability vs risk}
+Effect of algo on performance 
+$\rightarrow$ why plasticity is important: not only good allocation is important, but also good measure of conditions.\\
+\textit{(there is some conceptual drawing to put in here: optimum landscape and how can allocation let you drive in that space.)}\\
+
+Freer allocation algorithms lead to convergence to phenotypes of higher performance. But these phenotype may also be of higher risk ! $\rightarrow $ need for good condition estimation.\\
+
+Importance of having good estimation.\\
+
+\paragraph{Plasticity: benefit ?}
+Niche experiment = previous analysis discussion. Test hypothesis through simulations for few selected (how ?) parameter sets.\\
+Widden niche: 
+
+\subsection{Community level}
+
+Coexisting species ? (look at seed bank to see the traits of coexisting (and persistent) species)
+How does plasticity may affect that ?
 
 
 \section{Discussion}
+\paragraph{Individual calibration}
+Individual calibration allowed to filter parameters related to individual growth with only few parameters being sensitive.\\
+
+\paragraph{individual growth}
+Link memory and phenotype.\\
+Link allocation algo and plasticity to the different components of performance.\\
+Because the performance depends on multiple aspects of plant allocation in relation with external conditions, it is difficult to isolate each aspect and compute their relative importance or response to certain variables > this is complex to study. Hope this model will help bring more light on plasticity and plant strategies interactions.
+
+
 
 \section{Conclusion}
 using fundamental "deep" traits and memory: able to reproduce a diversity of resource use strategies. Possibility to \\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  13 NOV 2017 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  20 NOV 2017 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -336,37 +336,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+Package natbib Warning: Citation `marechaux_individual-based_2017' on page 4 un
+defined on input line 111.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 150--153
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+</mnt/quadri1/simulations/exploration/species_par_space2017-10-26/plots/accepta
+nce_rate_RSRnWeight_per_par.pdf, id=131, 739.76375pt x 739.76375pt>
+File: /mnt/quadri1/simulations/exploration/species_par_space2017-10-26/plots/ac
+ceptance_rate_RSRnWeight_per_par.pdf Graphic file (type pdf)
+
+<use /mnt/quadri1/simulations/exploration/species_par_space2017-10-26/plots/acc
+eptance_rate_RSRnWeight_per_par.pdf>
+Package pdftex.def Info: /mnt/quadri1/simulations/exploration/species_par_space
+2017-10-26/plots/acceptance_rate_RSRnWeight_per_par.pdf used on input line 157.
+
+(pdftex.def)             Requested size: 345.0pt x 345.00249pt.
+
+</mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/accepta
+nce_rate_RSRnWeight_per_par.pdf, id=132, 739.76375pt x 739.76375pt>
+File: /mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/ac
+ceptance_rate_RSRnWeight_per_par.pdf Graphic file (type pdf)
+
+<use /mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/acc
+eptance_rate_RSRnWeight_per_par.pdf>
+Package pdftex.def Info: /mnt/quadri1/simulations/exploration/species_par_space
+2017-11-06/plots/acceptance_rate_RSRnWeight_per_par.pdf used on input line 162.
+
+(pdftex.def)             Requested size: 345.0pt x 345.00249pt.
+
+(../Resources/Calibration/acc_rate_spnon_plastic.tex)
+(../Resources/Calibration/acc_rate_spplastic.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
+
+ []
+
+[7] [8 </mnt/quadri1/simulations/exploration/species_par_space2017-10-26/plots/
+acceptance_rate_RSRnWeight_per_par.pdf>] [9 </mnt/quadri1/simulations/explorati
+on/species_par_space2017-11-06/plots/acceptance_rate_RSRnWeight_per_par.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--146
+</mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/var_imp
+_plot_eq_design.pdf, id=167, 597.23125pt x 844.15375pt>
+File: /mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/va
+r_imp_plot_eq_design.pdf Graphic file (type pdf)
+
+<use /mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/var
+_imp_plot_eq_design.pdf>
+Package pdftex.def Info: /mnt/quadri1/simulations/exploration/species_par_space
+2017-11-06/plots/var_imp_plot_eq_design.pdf used on input line 179.
+(pdftex.def)             Requested size: 284.52756pt x 402.16222pt.
+
+</mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/PCA_acc
+.pdf, id=168, 597.23125pt x 844.15375pt>
+File: /mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/PC
+A_acc.pdf Graphic file (type pdf)
+
+<use /mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plots/PCA
+_acc.pdf>
+Package pdftex.def Info: /mnt/quadri1/simulations/exploration/species_par_space
+2017-11-06/plots/PCA_acc.pdf used on input line 184.
+(pdftex.def)             Requested size: 284.52756pt x 402.16222pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
-[6] (./plan1.bbl
+[10] [11 </mnt/quadri1/simulations/exploration/species_par_space2017-11-06/plot
+s/var_imp_plot_eq_design.pdf>] [12 </mnt/quadri1/simulations/exploration/specie
+s_par_space2017-11-06/plots/PCA_acc.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+[13] (./plan1.bbl
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ê in font cmr10!
@@ -403,7 +485,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--45
 / doi / 10 . 1111 / j . 1654-[]1103 .
  []
 
-[7]
+[14]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≠ in font cmr10!
 Missing character: There is no √ in font cmr10!
@@ -440,44 +522,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--79
 / doi / 10 . 1111 / 2041-[]210X .
  []
 
-) [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
+) [15]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+[16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (./plan1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
 Package rerunfilecheck Info: File `plan1.out' has not changed.
-(rerunfilecheck)             Checksum: AC7274F8D132454C3C47E56FD9DBEB0E;951.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+(rerunfilecheck)             Checksum: CBACEB21113995FBF000C90798B8E1C4;873.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 5930 strings out of 494910
- 85926 string characters out of 6179836
+ 5979 strings out of 494910
+ 88277 string characters out of 6179836
  172321 words of memory out of 5000000
- 9130 multiletter control sequences out of 15000+600000
+ 9149 multiletter control sequences out of 15000+600000
  10433 words of font info for 36 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,7n,30p,1473b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,30p,1474b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on plan1.pdf (9 pages, 199064 bytes).
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+s8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/zapfding/uzdr.pfb>
+Output written on plan1.pdf (16 pages, 515236 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

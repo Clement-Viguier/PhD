@@ -27,6 +27,8 @@
 \MakePerPage{footnote} %the perpage package command
 \MakePerPage{sidenote} %the perpage package command
 
+
+
  \usepackage{gensymb} %°C
  \geometry{bindingoffset=0.2in}
  %\usepackage{showframe}
@@ -519,10 +521,10 @@ where $\alpha$ and $\gamma$ are allometry coefficients.\\
 \item the objective function;\\
 \item the plastic dimensions.\\
 \end{itemize}
-The \textit{objective function} refers to the optimisation criterion that will allow to rank the alternative phenotypes...\\
-The \textit{plastic dimensions}...\\
+The \textit{objective function}: it is the function that give an fitness estimation or gain metrics for any given phenotype. This function is used to compute the optimum phenotype (phenotype at which the function is evaluated at the maximum value), or rank alternative phenotypes\sidenote{in this case, if not all possible phenotypes are tested, the solution might be only a local optimum. This is the case in \model.}. \\
+The \textit{plastic dimensions}: they are the dimensions along which the individual can move. The space defined by these dimensions is the phenotypic space within which each individual plant can look for an alternative phenotype. They do not necessarily fully define a phenotype since some dimensions of the individual's phenotype can be fixed \sidenote{either by shared parameters of species specific ones.}. \\
 
-\indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, SLA, and-or SRL). In case of simple equations an analytical solution could be used to find an optimum \sidenote{under the condition that it exists such optimum. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial and the model is likely to evolve, a numeric solution is adopted. \textbf{Need to detail the random algorithm.}\\
+\indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, SLA and SRL). In case of simple equations an analytical solution could be used to find an optimum \sidenote{under the condition that such optimum exists. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial and the model is likely to evolve, a numeric solving method is adopted. \textbf{Need to detail the random algorithm.}\\
 Also make a note on multiple optimum and the choice for a 'gradient descent" type of algorithm. Also sensitivity at eraly stages 
 
 %TAble of plasticity mech
@@ -543,6 +545,8 @@ Optim-Fixed & instantaneous gain & $\bullet$ & $\circ$ & $\bullet$ \\
 \vspace*{0.5cm}
 \end{table*}
 
+\textbf{No plasticity allocation:} this allocation is very similar to classic vegetation model where the biomass is allocated to the different carbon pools according to species specific parameters. But \model differs from other models by the order of the different steps of growth. In this model, the senescence comes between the allocation step and the resource competion-prodction steps \sidenote{see plastic allocation algorithm for explanation}
+
 \textbf{Fixed trait allocation:} The fixed allocation supposes the allocation on OM to maintain trait values to fixed species specific values. The shoot:root ratio may however change to maintain functional equilibrium. The shoot root ratio is derived from the following equation of the functional equilibrium:
 \begin{align}\label{eq:equilibrium}
 SLA . BM_{ag} . light_{est} &= SRL . BM_{bg} . water_{est}\\
@@ -553,14 +557,15 @@ where $light_{est}$ and $water_{est}$ are the estimated resource availabilities.
 %\subparagraph{Plastic functional equilibrium} This allocation mechanism is also based on the functional equilibrium, however it incorporate changes in traits, that means that the proportion between active and structural tissues in an organ can change. This idea is supported by tha fact that plants change both their shoot:root and their trait values when conditions change. From a perspective with only one allocation dimension (shoot or root in "fixed trait allocation") with three dimensions (shoot or root, active or structural in shoot and in root tissues), the number of constraints must increase to find a unique solution. The functional equilibrium only is not sufficient to define the allocation scheme as multiple solutions satisfy this constraint. The solution is to chose among all possible allocation schemes the closest to the current allocation, the shortest path to functional equilibrium. This is done by minimising the 
 % doesn't work for now
 
-\textbf{Pseudo-optimization:} Another approach to allocation is to try to optimize it based on a fitness proxy. This proxy can  be the sum of NPP, tissue turn-over loss and plasticity cost. The individual performance is calculated as:
-\begin{equation}
-Perf = NPP_{f} + TO_{f} + Stem_{f} + survival_{f}
-\end{equation}
-where $NNP_{f}$ is the projected NPP based on the estimated activity of shoot and root, and estimated temperature, $TO_{f}$ is the biomass lost due to turn-over, $Stem_{f}$ is the biomass needed in the stem and that will not be invested is the active tissues and $survival_{f}$ is the total biomass multiplied by the estimated survival chances.\\
-\indent Having a performance function is not sufficient to find the best allocation scheme, and a research algorithm must be used. To avoid the very costly use of R internal optimisation function, a pseudo gradient approach is used. This approach estimates the performance of allocation to the four carbon pools (active tissue in shoot, structural tissue in shoot, active tissue in root and structural tissue in root) for 5 allocation schemes: full allocation to one of the pools and balanced allocation to all pools. Then investment in the different pools is calculated as the sum of relative performances multiply by allocation schemes. This algorithm is however weak and must be redesigned.
+\textbf{Plastic trait allocation:} Another approach to allocation is to try to optimize phenotype based on a fitness proxy. This proxy can  be the sum of NPP, tissue turn-over loss and plasticity cost. But in a complex model like \model, plant performance is function of multiple aspects:\
+\begin{itemize}
+\item individual organ efficiency;
+\item relative mass of each organ;
+\item balance between organ water exchange activities.
+\end{itemize}
+And this could be extended to herbivory and frost risks. To take into account all these components, and take advantage of having all processes already made explicit, the daily processes of senescence and production are recalculated according to the \textbf{estimation of conditions} and the plant phenotype. This function is used to rank different alternative phenotypes. Alternative phenotypes are computed from the actual phenotype and random uniform distribution of available organic matter to the main active and structural carbon pools of the plant.\sidenote{talk about the order senescence production, and the way exchange rates are computed.} This algorithm has the advantage of being relatively cheap compare to other optimization functions, however its performances are variables and it is very sensitive to the number of samples used. As a consequence there is a trade-off between model stability and performance as a function of number of samples (\textit{i.e.} alternative phenotypes) considered.
 
-\textbf{Plastic trait equilibrium:} Another approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as pseudo-optimisation mechanism but measure performance with a function negatively related to the difference between estimated shoot and root activity. Such mechanism would nonetheless require the algorithm to look for close solutions within the allocation space to avoid convergence or drift from species strategy.
+\textbf{Plastic trait equilibrium:} Another approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as before but rank phenotypes with a function negatively correlated to the difference between estimated shoot and root activity. Such mechanism would nonetheless require the algorithm to look for close solutions within the allocation space to avoid convergence or drift from species strategy. Considering the cost of plasticity is this approach limits the drifting of the plant phenotype.
 
 
 \paragraph{Trait update:}
@@ -620,7 +625,7 @@ where $LLS$ and $RLS$ are respectively the leaf and the root lifespans calculate
 \indent Root senescent tissues disappear from the system. Information about senescent aboveground biomass is stored, but senescent biomass effect of light competition is ignored in this version because as it is implemented senescent tissues appear early in plant development and have large negative effect on light absorption.\\
 \indent To the natural senescence and artificial cost of having only active tissue, an additional component can be added to the turn-over rate: the negative NPP. In case of negative NPP the biomass will be taken from the already allocated following the shoot root ratio. This can lead to a lower overall productivity (negative growth during unproductive periods) but also changes in the equilibrium if tissue have different efficiencies.\\
 
-\paragraph{Death} Death is modelled as in Reineking 2006. Age and desiccation (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random lotteries following the following survival probabilities:
+\paragraph{Death} Death is modelled as in Reineking \cite{reineking_environmental_2006}. Age and desiccation (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random lotteries following the following survival probabilities:
 
 \begin{marginfigure}[-10pt]
 \begin{tikzpicture}
@@ -655,15 +660,15 @@ State of dead individuals is store until the end of the season when seed are sto
 
 \paragraph{Reproduction \& persistence}
 \textbf{Sexual \& clonal reproduction:} reproduction is handled at the end of the season. To limit the number of parameters reproduction is limited to the division of the invested biomass in reproduction by the species specific seed biomass into a round number of seeds (the number of seed per plant could also be a differentiation axis). Clonal reproduction is not explicitly represented but can be mimic with bigger seeds and by adding a dispersion process around the parents. The seeds then are added to a potential seed-bank. This potential seed-bank is sampled, after eventual invasion, and merged with the existing seed-bank.\\
-\indent Control on the sampling process allows to model different type of ecosystems and test different hypothesis on invasions impact on community dynamics. The link between the community and the meta-community can also be explored through seed-bank control.\\
-\indent Three types of invasion/reproduction are currently implemented:
-\begin{itemize}
-\item closed environment reproduction: the seeds produced in the community return to the community, no invasion, the seed-bank size can be limited by a seed density limiting calculation explosions and simulating density mortality. Such mechanism should in theory lead to low diversity unless close equivalence between some species;
-\item constant reproduction in open environment: the seed-bank is generated at the meta-population levels, all species have the same biomass invested in reproductive pool independently from the local performance and seeds are randomly sampled. This mechanism stabilize greatly the system by does not allow to explore the meta-community dynamics and selection processes;
-\item productivity dependent reproduction in open environment: this mechanism is similar to the previous system but incorporate the productivity of the system by defining the seed input biomass as the total invested biomass in reproduction in the system at the end of the season. System is stabilize but the overall productivity impacts the seed-bank dynamic.
-\end{itemize}
+%\indent Control on the sampling process allows to model different type of ecosystems and test different hypothesis on invasions impact on community dynamics. The link between the community and the meta-community can also be explored through seed-bank control.\\
+%\indent Three types of invasion/reproduction are currently implemented:
+%\begin{itemize}
+%\item closed environment reproduction: the seeds produced in the community return to the community, no invasion, the seed-bank size can be limited by a seed density limiting calculation explosions and simulating density mortality. Such mechanism should in theory lead to low diversity unless close equivalence between some species;
+%\item constant reproduction in open environment: the seed-bank is generated at the meta-population levels, all species have the same biomass invested in reproductive pool independently from the local performance and seeds are randomly sampled. This mechanism stabilize greatly the system by does not allow to explore the meta-community dynamics and selection processes;
+%\item productivity dependent reproduction in open environment: this mechanism is similar to the previous system but incorporate the productivity of the system by defining the seed input biomass as the total invested biomass in reproduction in the system at the end of the season. System is stabilize but the overall productivity impacts the seed-bank dynamic.
+%\end{itemize}
 
-\textbf{Persistence} Some grasses are perennial and persist over the cold season. This is allowed in the model by investment in storage tissues instead of reproductive tissues. This mechanism allows the plant to benefit from the same conditions and to maintain below-ground biomass. At the end of the season, market by the snow cover, these plants (with non-null storage biomass) loss most of their above-ground biomass.
+\textbf{Persistence} Some grasses are perennial and persist over the cold season. This is allowed in the model by investment in storage tissues instead of reproductive tissues.  At the end of the season, marked by the first snowfall, these plants (with non-null storage biomass) loose their living and supporting biomass, but will regrow from a large pool of store organic matter.
 
 \textcolor{gray}{\paragraph{Grazing/cutting} Explore management effect on the community is one of the aim of the \model model. The management of mountain grassland will be explore only of the aspect of biomass removal, as productivity changes can be explore by changing the parameters value as the nutrients are not explicitly modelled. The management sub-model is not detailed here but it is based on the mapping of biomass and target trait (e.g. fraction of structural biomass as proxy for digestibility). Both cutting and grazing can be modelled but require management plan in the form of calendar of management operation and a cutting height or harvest objective.}\\
 
