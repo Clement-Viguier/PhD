@@ -3,6 +3,8 @@
 \usepackage{lineno,hyperref}
 \modulolinenumbers[5]
 
+\usepackage{pgfplots}
+
 \journal{Journal of \LaTeX\ Templates}
 
 %%%%%%%%%%%%%%%%%%%%%%%
@@ -42,6 +44,7 @@
 
 
 
+\input{../Model_description/parameters}
 
 %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -204,15 +207,110 @@ change in size of different pools (shoot, active, shoot str, stem ..., rep, stor
 Different allocation algorithms change the growth but also the traits:\\
 BMtot, RSR, SRL and SLA of the same plant with different algorithms, other things being equal.
 
+\begin{figure}
+\includegraphics[width = \textwidth]{./Figures/Perf_landscape.pdf}
+\caption{Performance landscape.}
+Landscape accessible with only RSR plasticity. Part of the landscape (especailly) optimum is not accessible without trait plasticity.
+\end{figure}
+
 \paragraph{Active versus structural: the foundation of the niche}
 
 Niche results from the absolute (potential niche) or relative (realised niche) performance of individual plant along environmental gradient. Performance (if measured as living biomass at a given time) in \model is a composite variable depending on: the absolute efficiency of the different organs (shoot and root), the relative proportion of these organs, and the equilibrium between shoot and root activity.\\
 Theoretical performance trade-off: result from the mathematical expression of construction cost of tissue and their exchange rates.\\
-\textit{figure and formulas}
-Realised trade-off\\
-\textit{figure and formulas}\\
 
-From now memory matters as it defines the phenotypes.
+\textit{figure and formulas}
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 100,
+%restrict y to domain=-300:700,
+xlabel = $\theta$,
+ylabel = $U_{lim}$
+%extra x ticks={0.618},
+%extra x tick style={grid=major}
+]
+
+%    SLA <- CtoSLA(as,th = par$th, vt_s = par$vt_s, rho_as = par$rho_as, rho_ss = par$rho_ss)
+%    exc_ag <- SLA * light
+%	 gross_eff_ag <- (exc_ag - par$r_1) * (1 - par$r_g * sign(exc_ag - par$r_1))
+%    
+%    # turn-over rate calculation
+%    TO_ag <-  1/(par$ls_s0 * (1- x^par$ls_s1) )
+%    
+%    # gain calculation
+%    net_eff_ag <- gross_eff_ag  * (1 - TO_ag) - TO_ag
+%    
+\addplot[green][domain = 0.01:0.99 ] { \parPmax / \parWUE * 3600 * 1 / ( \parth * (\parrhoas * x + \parrhoss * (1 - x)))};
+\addplot[gray][domain = 0.01:0.99 ] {  \parPmax / \parWUE * 3600 * 1 / ( \parth * (\parrhoas * x + \parrhoss * (1 - x))) - \parrone * x};
+\addplot[black][domain = 0.01:0.99 ] {\parrone * x};
+\addplot[black][domain = 0.01:0.99 ] {( \parPmax / \parWUE * 3600 / ( \parth * (\parrhoas * x + \parrhoss * (1 - x))) - \parrone * x) * (1 - \parrg)};
+\addplot[orange][domain = 0.01:0.99 ] {( \parPmax / \parWUE * 3600 / ( \parth * (\parrhoas * x + \parrhoss * (1 - x))) - \parrone * x) * (1 - \parrg)* (1 - 1/(\parlsrzero * (1- x^\parlsrone) )) - 1/(\parlsrzero * (1- x^\parlsrone) )};
+ 
+
+%\legend{Cost function}
+\end{axis}
+\end{tikzpicture}
+\label{fig:derivaives}
+\caption{Organ efficiency}
+\end{figure}
+
+
+\textit{figure and formulas}
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 100,
+%restrict y to domain=-300:700,
+xlabel = $\theta$,
+ylabel = $U_{lim}$
+%extra x ticks={0.618},
+%extra x tick style={grid=major}
+]
+
+%    SLA <- CtoSLA(as,th = par$th, vt_s = par$vt_s, rho_as = par$rho_as, rho_ss = par$rho_ss)
+%    exc_ag <- SLA * light
+%	 gross_eff_ag <- (exc_ag - par$r_1) * (1 - par$r_g * sign(exc_ag - par$r_1))
+%    
+%    # turn-over rate calculation
+%    TO_ag <-  1/(par$ls_s0 * (1- x^par$ls_s1) )
+%    
+%    # gain calculation
+%    net_eff_ag <- gross_eff_ag  * (1 - TO_ag) - TO_ag
+%    
+\addplot[red][domain = 0.01:0.99 ] {(0.1 * \parPmax / \parWUE * 3600 / ( \parth * (\parrhoas * x + \parrhoss * (1 - x))) - \parrone * x) * (1 - \parrg)* (1 - 1/(\parlsrzero * (1- x^\parlsrone) )) - 1/(\parlsrzero * (1- x^\parlsrone) )};
+
+\addplot[orange][domain = 0.01:0.99 ] {(0.5 * \parPmax / \parWUE * 3600 / ( \parth * (\parrhoas * x + \parrhoss * (1 - x))) - \parrone * x) * (1 - \parrg)* (1 - 1/(\parlsrzero * (1- x^\parlsrone) )) - 1/(\parlsrzero * (1- x^\parlsrone) )};
+
+\addplot[green][domain = 0.01:0.99 ] {( \parPmax / \parWUE * 3600 / ( \parth * (\parrhoas * x + \parrhoss * (1 - x))) - \parrone * x) * (1 - \parrg)* (1 - 1/(\parlsrzero * (1- x^\parlsrone) )) - 1/(\parlsrzero * (1- x^\parlsrone) )};
+ 
+
+%\legend{Cost function}
+\end{axis}
+\end{tikzpicture}
+\label{fig:derivaives}
+\caption{Organ efficiency}
+\end{figure}
+
+Add conceptual graphics and arguments to explain the components of performance, and the problem of mismatch strategy and unbalance phenotype.
+
+\textit{Simulations}\\
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./Figures/best_strat_rain_gradient.pdf}
+\caption{Best strategy for root along a precipitation gradient.}
+Growth of plants with different strategies (different RSR and active/structural ratio for roots) along a precipitation gradient have been simulated. The best strat is defined as the weighted mean of the active/structural ratio by the total fresh biomass after 100 days of simulation. Each grey line correspond to a parameter set, while the blue line is the fitted gam regression.
+\end{figure}
+
+
+%From now memory matters as it defines the phenotypes.
 
 \paragraph{Allocation matters: stability vs risk}
 Effect of algo on performance 
@@ -221,7 +319,13 @@ $\rightarrow$ why plasticity is important: not only good allocation is important
 
 Freer allocation algorithms lead to convergence to phenotypes of higher performance. But these phenotype may also be of higher risk ! $\rightarrow $ need for good condition estimation.\\
 
-Importance of having good estimation.\\
+Importance of having good estimation to have a good strat and good balance.\\
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./Figures/max_BM_f_strat_dist.pdf}
+\caption{Biomass peak as function of distance to the optimum strategy (a/s ratio)}. Each panel correspond to a precipitation value (not indicated). There is a strong assymetry between more conservative strategies (left) that perform worse but are still viable even far from optimum (positive values far left) and exploitative strategies (right side) that perform well but only if close to the equilibrium. (could it be interesting to show the relationship between strategy and performance variability ?) 
+
+\end{figure}
 
 \paragraph{Plasticity: benefit ?}
 Niche experiment = previous analysis discussion. Test hypothesis through simulations for few selected (how ?) parameter sets.\\

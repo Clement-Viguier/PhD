@@ -116,6 +116,11 @@ The development of \model is motivated by the need for a flexible tool to explor
 \indent Moreover, since we focus on the community levels, coexistence mechanisms are important and we should include a certain number of these if we want to maintain diversity to observed levels. These mechanisms include: multiple resources competition (water and light), spatial and temporal heterogeneity of resource levels, strategic trade-of between species, perturbation mechanisms (frost, management), link  to meta-population, etc...\\
 \indent The model is built to try to satisfy conditions to reproduce and explore mountain grassland community dynamics. In the current version of the model (\version), a generalist approach has been privileged, and focus on some coexistence maintenance mechanisms and integration of phenotypic plasticity framework. In this state the model has to be seen as a toy model with good generalisation potential. The link between to ecosystem services are not included, but we can easily imagine to compute them from the community trait distribution. All processes and mechanism are detailed below.
 
+\begin{figure}
+\includegraphics{./Figures/overview_model_t.png}
+\caption{Model overview}
+\end{figure}
+
 
 \subsection{State variables}
 
@@ -123,6 +128,10 @@ The development of \model is motivated by the need for a flexible tool to explor
 In mountain grasslands individuals (tillers) generally do not grow big and interact only with close neighbours and form little patches. And thus it is possible to represent rich community at a fairly small scale ($\approx$ dm or m), but the spatial resolution should be relatively fine ($\approx$ cm) to capture inter-individual interactions. Because the model is intended to explore climate change impact on mountain grasslands, it can runs on multiple growth seasons separated by snow covered periods, but must also integrates the intra-seasonal variations at daily scale. Mountain weather (mostly temperature) is known for its large hourly variations, it would however require too much computational power to consider such variations. In addition  to this argument, we believe that even-though  they imply physiological flexibility and specific strategies for plants experiencing these conditions, they will not have a huge impact on overall community dynamics changes caused by the climate change. That why hourly variations will not be considered, and physiological processes are estimated at the daily time scale.
 
 \paragraph{Plants} The plants are described in the model by state variables described in table \ref{table:state_var_plant}. The best way to understand how plant are represented is to imagine two homogeneous cylinders on top of each others, the shoot cylinder varying in radius and height representing the light acquisition (and shading) zone, and the root cylinder varying only in diameter (because of shallow soil in mountain ecosystems) representing the water acquisition zone. These cylinders are centred on cells of the torus simulation plan.\\
+\begin{marginfigure}
+\includegraphics{./Figures/plant_geometry_m.pdf}
+\caption{Plant geometry and growth axis.}
+\end{marginfigure}
 \indent In addition to classic variables (age, position, height, diameter, shoot and root biomasses) the plants are described by traits, that can be species specific or non-specific, others are variable (SLA, SRL) and depend on particular traits that are unique to this model: the \textbf{ratio between active tissue and structural tissue} (in shoot and root) (variables $\frac{act}{str}_{ag}$ and $\frac{act}{str}_{bg}$ in table \ref{table:state_var_plant}). This couple of traits come from the evidences that numerous trade-of observed in leaves can be explained (at least partially) by this allocation trade-of between active tissue producing organic matter, but increasing respiration, and structural tissue that increase tissue lifespan.
 
 %TAble of plant state variables
@@ -188,7 +197,12 @@ thickness & 	(0.012 - 0.05) & cm & WUE vs light efficiency (not in this version)
 
 \paragraph{Seed-bank} The seed-bank is the transition state between the different seasons. Individuals may persist thanks to stored resources, but they can also reproduce by the production of new individuals. Lot of grasses use clonal reproduction, in addition or replacement of sexual reproduction. This type of reproduction is characterised by a persistent link between the newly produced individuals and the parent one that allow the two to communicate and exchange resources. Such dynamics are complex and costly to represent as the link between ramets must be stored and strategies defined for the resource distribution (see Oborny 2012) for more details on clonal growth modelling). To avoid too much complexity, it is possible to approximate the representation of clones to big seeds with little dispersion around the parent plant\footnote{This would take advantage of dispersion kernels. Not implemented in current version. Dispersion is uniformly random within the simulation plan}. For this reason, reproduction mechanism is reduce to sexual reproduction mechanism with production of "seeds". Seeds are stored in the seed-bank and only defined by their species and positions. 
 
-\paragraph{Soil} Soil is an important aspect of the model as it drives (with the precipitations) the water competition between individuals. It is however limited, as in numerous vegetation models, to a grid characterised by: its capacity to retain water, and its depth. Only the first component (water retention capacity) is spatially variable and is described by the critical water content (minimum soil water content), the saturation water content (maximum water content, the water non absorbed leaves the system we assume the same root depth for all species), and the current water content (temporally variable, depending on competition, precipitation and evaporation, between the critical and the saturation water content) only dynamic variable among the three.
+\paragraph{Soil}
+\begin{marginfigure}
+\includegraphics{./Figures/soil_section_m.pdf}
+\caption{Soil section.}
+\end{marginfigure}
+Soil is an important aspect of the model as it drives (with the precipitations) the water competition between individuals. It is however limited, as in numerous vegetation models, to a grid characterised by: its capacity to retain water, and its depth. Only the first component (water retention capacity) is spatially variable and is described by the critical water content (minimum soil water content), the saturation water content (maximum water content, the water non absorbed leaves the system we assume the same root depth for all species), and the current water content (temporally variable, depending on competition, precipitation and evaporation, between the critical and the saturation water content) only dynamic variable among the three.
 
 %table of soil state variables
 
@@ -196,6 +210,10 @@ thickness & 	(0.012 - 0.05) & cm & WUE vs light efficiency (not in this version)
 
 As mentioned the model runs at daily step to capture individual responses to conditions and over multiple seasons to capture long temporal dynamics. Some processes occur (or are evaluated) at the daily time-step, some at the season time-step. The following ordered list presents the different processes and the scheduling over days and season of one simulation.\\
 \indent One season can be divided in the following parts:
+\begin{marginfigure}
+\includegraphics{./Figures/season_cycle_m.pdf}
+\caption{Seasons cycle in \model.}
+\end{marginfigure}
 \begin{itemize}
 \setlength\itemsep{0em}
 \item \textit{germination}: marks the beginning of the season when the ground is no more snow-covered;
@@ -216,6 +234,10 @@ The \textit{growing season} part consists in all processes evaluated every day o
 \item \textit{allocation}: allocation of produced OM to the different carbon pools of the plant.
 \textcolor{Gray}{\item \textit{grazing/cutting}: (optional) grazing or cutting of plants to a certain height. The grazing can be selective.}\footnote{remarks in \textcolor{Gray}{grey} are features or components implemented in the model but not used and-or calibrated.}
 \end{itemize}
+\begin{figure}
+\includegraphics{./Figures/daily_cycle_t.pdf}
+\caption{Processes in order during the daily cycle.}
+\end{figure}
 
 \section{Design concepts}
 
@@ -242,6 +264,12 @@ In the model the realised fitness can be estimated as the capacity of plants to 
 \section{Details}
 
 Further details on daily mechanisms are described in the following paragraphs.
+
+
+\begin{marginfigure}
+%\includegraphics{./Figures/plant_geometry_m.pdf}
+\caption{Overview of the model inputs and outputs.}
+\end{marginfigure}
 
 \subsection{Initialisation}
 The model doesn't need particular initialisation if the state of the community species pool, the seedbank and the soil are given as inputs. Otherwise, a set of \textit{E(n/s)} individuals are created from a set of \textit{s} species (randomly generated if not given) and randomly positioned on the soil grid, where \textit{s} and \textit{n} are respectively the number of species and the approximate number of individuals within the grid. Soil grid is also randomly generated within default ranges for critical and saturation water contents then slightly smooth, and homogeneously filled ($filling = \frac{w_{cont} - w_{crit}}{w_{sat} - w_{crit}}$).
@@ -480,7 +508,7 @@ Here $R_{g}$ is a fixed parameter but is set to $0$ if the difference between gr
 \paragraph{Temperature effect} Temperature has a effect of plant activity, this effect can be modelled by a bell shape function around an optimum value of 20 \celsius . See Lohier for details.
 
 
-\paragraph{Condition estimation} The projection of environmental conditions is central in any implementaion of phenotype plasticity. Differences between the current perception of environment and the projections lead to adjustment of phenotype to increase fitness. In the model \model this projection results from hte averaging of two key concept: memory and perception. The latter is relatively simple to understand and corresponds to the perceived resource availability computed as the mean potential exchange rate per unit of area (total leaf or root area) and per hour\sidenote{the hourly measure is used instead of daily measure to simulate the ability of plant to perceive the photoperiod. This is an easy way of taking into account one aspect of seasonality without complicating the model.}:
+\paragraph{Condition estimation} The projection of environmental conditions is central in any implementaion of phenotype plasticity. Differences between the current perception of environment and the projections lead to adjustment of phenotype to increase fitness. In the model \model this projection results from hte averaging of two key concept: memory and perception. The latter is relatively simple to understand and corresponds to the perceived resource availability computed as the mean potential exchange rate per unit of area (total leaf or root area) and per hour\sidenote{the hourly measure is used instead of daily measure to simulate the ability of plant to perceive the photoperiod. This is an easy way of taking into account one aspect of seasonality without complicating the model. However, it also reduce the range of memroy and its impact to determine the phenotype, as an additional information would be needed to define the optimum phenotype: the day length.}:
 \begin{align}
 light_{exp} &= \frac{transp}{exhange area_{ag}}\\
 water_{exp} &= \frac{Wpup}{exchange area_{bg}}\\
@@ -502,20 +530,25 @@ Allocation is primordial in plant development and ontogeny. The following paragr
 
 \textbf{Maturity:} For most of plants the development cycle is divided in two phases of different durations: the vegetative phase when plant growths organs to gather resources and product OM, and the reproductive phase when plant take advantage of these organs to accumulate carbon and invest them in reproduction mechanisms. Plants are considered mature (they switch from vegetative to reproductive phase) in \model when the phenologic variable has reach a species specific threshold. The phenologic variable can be either the age, the height, the biomass, degree.days, in the current version total living biomass is used as trigger for reproductive phase.\\
 
-\textbf{Allocation to stem:} Even-though grasses do not grow tall vegetative parts like trees, some grow vertically and they are exposed to stronger winds than most of forest. Therefore they need structural supports\sidenote{This supporting tissue mechanic is also needed to avoid exponential growth rate.}. Not all grasses grow stem, but they'll have stronger central vein in their leaves to structurally support the weight of leaves. In addition shoots and roots also need supporting tissues for water transport, for this reason the minimal mechanical support needed is calculated as a function of total living biomass:
+\textbf{Allocation to supporting tissues:} Even-though grasses do not grow tall vegetative parts like trees, some grow vertically and they are exposed to stronger winds than most of forest. Therefore they need structural supports\sidenote{This supporting tissue mechanic is also needed to avoid exponential growth rate.}. Not all grasses grow stem, but they'll have stronger central vein in their leaves to structurally support the weight of leaves. In addition shoots and roots also need supporting tissues for water transport, for this reason the minimal mechanical support needed is calculated as a function of total living biomass:
 \begin{equation}
 support = \alpha . (BM_{ag} + BM_{bg})^\gamma
 \end{equation}
 where $\alpha$ and $\gamma$ are allometry coefficients.\\
 
-\indent At each time step we must determine what fraction of new OM will be allocated to tissues growth while the remaining will support these need tissues. This leads to an optimisation problem numerically solved by the function \texttt{uniroot}.	 
+\indent At each time step we must determine what fraction of new OM will be allocated to tissues growth while the remaining will support these need tissues. This leads to an optimisation problem numerically solved by the function \texttt{uniroot}.\\
+%Despite the ambiguity in the name, there is a fundamental difference between structural tissues and supporting tissues: the former is part the individual organs and  
 %\indent To avoid complex allocation optimisation problem, the allocation of supporting tissue is done before any other allocation. Is the support is not sufficient, no organic matter can be invested in vegetative development. The biomass the plant needs to invest in the stem is defined as:
 %\begin{equation}
 %\Delta_{stem} = max(support - (stem + Str_{ag}), 0)
 %\end{equation}
 %where $Str_{ag}$ is the structural biomass in shoot.\\
+\begin{figure}
+\includegraphics{./Figures/allocation_path_t.pdf}
+\caption{Allocation of produced organic matter to different processes and pools.}
+\end{figure}
 
-\indent Allocation of produced organic matter is central in vegetation as it shapes the plant and define the strength of the different organs. There are multiple ways to model the distribution of produced organic matter between the plant organs. We believe that such mechanism has great impact on individual development and response to external conditions, and so on community dynamics. To explore the role of this mechanism, multiple options are implemented. The different allocation algorithms are summarised in table \ref{table:alloc_algo}.\\
+\textbf{Allocation to organs:} Allocation of produced organic matter is central in vegetation as it shapes the plant and define the strength of the different organs. There are multiple ways to model the distribution of produced organic matter between the plant organs. We believe that such mechanism has great impact on individual development and response to external conditions, and so on community dynamics. To explore the role of this mechanism, multiple options are implemented. The different allocation algorithms are summarised in table \ref{table:alloc_algo}.\\
 \indent There are two major components in the allocation algorithm:
 \begin{itemize}
 \item the objective function;\\

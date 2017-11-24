@@ -5,6 +5,16 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{marechaux_individual-based_2017}
+I.~Maréchaux, J.~Chave,
+  \href{http://onlinelibrary.wiley.com/doi/10.1002/ecm.1271/abstract}{An
+  individual-based forest model to jointly simulate carbon and tree diversity
+  in {Amazonia}: description and applications}, Ecol Monogr 87~(4) (2017)
+  632--664.
+\newblock \href {http://dx.doi.org/10.1002/ecm.1271}
+  {\path{doi:10.1002/ecm.1271}}.
+\newline\urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1002/ecm.1271/abstract}
+
 \bibitem{reich_evolution_2003}
 P.~B. Reich, I.~J. Wright, J.~Cavender‐Bares, J.~M. Craine, J.~Oleksyn,
   M.~Westoby, M.~B. Walters,
