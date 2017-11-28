@@ -309,6 +309,7 @@ Add conceptual graphics and arguments to explain the components of performance, 
 Growth of plants with different strategies (different RSR and active/structural ratio for roots) along a precipitation gradient have been simulated. The best strat is defined as the weighted mean of the active/structural ratio by the total fresh biomass after 100 days of simulation. Each grey line correspond to a parameter set, while the blue line is the fitted gam regression.
 \end{figure}
 
+Equilibrium as major part of plant performance (better perf, even if not best strat, 
 
 %From now memory matters as it defines the phenotypes.
 

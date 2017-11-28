@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  21 NOV 2017 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  28 NOV 2017 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1828,6 +1828,8 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 
 LaTeX Warning: Marginpar on page 9 moved.
 
@@ -1894,17 +1896,15 @@ is de-com-posed
  []
 
 
-LaTeX Warning: Marginpar on page 11 moved.
+Overfull \hbox (9.34077pt too wide) in paragraph at lines 505--505
+[] 
+ []
 
 
 LaTeX Warning: Marginpar on page 11 moved.
 
 
 LaTeX Warning: Marginpar on page 11 moved.
-
-
-Underfull \vbox (badness 6493) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -1956,7 +1956,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 536--538
 
  []
 
-<./Figures/allocation_path_t.pdf, id=265, 389.9679pt x 176.22136pt>
+<./Figures/allocation_path_t.pdf, id=264, 389.9679pt x 176.22136pt>
 File: ./Figures/allocation_path_t.pdf Graphic file (type pdf)
 
 <use ./Figures/allocation_path_t.pdf>
@@ -1984,15 +1984,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--559
  []
 
 
-LaTeX Warning: Marginpar on page 13 moved.
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 23.07503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [13 <./Figures/allocation_path_t.pdf>]
+
+LaTeX Warning: Marginpar on page 14 moved.
+
 
 LaTeX Warning: Marginpar on page 14 moved.
 
@@ -2010,12 +2010,6 @@ LaTeX Warning: Marginpar on page 15 moved.
 LaTeX Warning: Marginpar on page 15 moved.
 
 
-Overfull \hbox (5.34529pt too wide) in paragraph at lines 605--607
-[]\T1/pplj/m/n/10 From this, sup-pos-ing ho-mo-ge-neous dis-tri-bu-tion of ac-t
-ive and struc-
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 23.07503pt.
  We now make it that large for the rest of the document.
@@ -2025,11 +2019,29 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 LaTeX Warning: Marginpar on page 16 moved.
 
+
+LaTeX Warning: Marginpar on page 16 moved.
+
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
+Overfull \hbox (5.34529pt too wide) in paragraph at lines 641--642
+[]\T1/pplj/m/n/10 From this, sup-pos-ing ho-mo-ge-neous dis-tri-bu-tion of ac-t
+ive and struc-
+ []
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
 LaTeX Warning: Marginpar on page 16 moved.
 
 
@@ -2038,44 +2050,32 @@ LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Warning: Marginpar on page 16 moved.
 
-
-Overfull \hbox (6.26524pt too wide) in paragraph at lines 657--660
+[16]
+Overfull \hbox (6.26524pt too wide) in paragraph at lines 692--695
 \T1/pplj/m/n/10 about senes-cent above-ground biomass is stored, but senes-cent
  biomass
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--660
-
- []
-
-
-LaTeX Warning: Marginpar on page 16 moved.
-
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-LaTeX Warning: Marginpar on page 16 moved.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-
-LaTeX Warning: Marginpar on page 17 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 695--703
+Underfull \hbox (badness 10000) in paragraph at lines 692--695
 
  []
 
 
 LaTeX Warning: Marginpar on page 17 moved.
 
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--738
 
  []
 
@@ -2085,7 +2085,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17] (./model_description_handbook.bbl [18])
+[17]
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 741--742
+
+ []
+
+[18] (./model_description_handbook.bbl)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 23.07503pt.
@@ -2093,25 +2102,25 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 774.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 774.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 809.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 809.
  (./model_description_handbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 774.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 774.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 809.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 809.
 Package rerunfilecheck Info: File `model_description_handbook.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 9F8AC74531C6826ACA6ACB1C36D2DCEB;491.
+(rerunfilecheck)             Checksum: 36D39EF7172F484D9421BDF82455C557;491.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 774.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 809.
  ) 
 Here is how much of TeX's memory you used:
- 34531 strings out of 494910
- 749261 string characters out of 6179836
- 1402263 words of memory out of 5000000
- 37010 multiletter control sequences out of 15000+600000
+ 34552 strings out of 494910
+ 749725 string characters out of 6179836
+ 1412183 words of memory out of 5000000
+ 37030 multiletter control sequences out of 15000+600000
  82295 words of font info for 139 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  62i,20n,100p,1746b,2284s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2128,10 +2137,10 @@ ve/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on model_description_handbook.pdf (19 pages, 1486828 bytes).
+Output written on model_description_handbook.pdf (19 pages, 1491490 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 104 named destinations out of 1000 (max. 500000)
  1099 words of extra memory for PDF output out of 10000 (max. 10000000)
 

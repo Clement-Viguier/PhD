@@ -500,15 +500,15 @@ R_{m} = \left(R_{act}.\left(Act_{ag} + Act_{bg}\right)\right) . daylength . T_{e
 where $R_{act}$ is the respiration rate of active tissues, and $Act_{ag}$ and $Act_{bg}$ are the active biomass pools in shoot and root.\\
 \indent Net Primary production (in $CO_{2}$ equivalent) can then be calculated the difference of GPP and respiration, then converted in OM production thanks to tissue carbon content (under the assumption of fixed carbon content for leaf and roots between species):
  \begin{align}
- NPP_{carbon} &= (1- R_{g}) . (WUE . min(w_up, trans_p) - R_{m})\\
+ NPP_{carbon} &= (1- R_{g}) . (WUE . min(w_up, trans_p) - R_{m}) - BM_{total} * Pl_cost\\
  NPP_{OM} &= NPP_{carbon} . (12/44) / TCC
 \end{align} 
-Here $R_{g}$ is a fixed parameter but is set to $0$ if the difference between gross productivity ($GPP = WUE . min(w_up, trans_p) - R_{m}$) and maintenance respiration is negative.
+Here $R_{g}$ is a fixed parameter but is set to $0$ if the difference between gross productivity ($GPP = WUE . min(w_up, trans_p) - R_{m}$) and maintenance respiration is negative. $Pl_{cost}$ is the plasticity cost as calculated in the dedicated paragraph below.
 
 \paragraph{Temperature effect} Temperature has a effect of plant activity, this effect can be modelled by a bell shape function around an optimum value of 20 \celsius . See Lohier for details.
 
 
-\paragraph{Condition estimation} The projection of environmental conditions is central in any implementaion of phenotype plasticity. Differences between the current perception of environment and the projections lead to adjustment of phenotype to increase fitness. In the model \model this projection results from hte averaging of two key concept: memory and perception. The latter is relatively simple to understand and corresponds to the perceived resource availability computed as the mean potential exchange rate per unit of area (total leaf or root area) and per hour\sidenote{the hourly measure is used instead of daily measure to simulate the ability of plant to perceive the photoperiod. This is an easy way of taking into account one aspect of seasonality without complicating the model. However, it also reduce the range of memroy and its impact to determine the phenotype, as an additional information would be needed to define the optimum phenotype: the day length.}:
+\paragraph{Condition estimation} The projection of environmental conditions is central in any implementaion of phenotype plasticity. Differences between the current perception of environment and the projections lead to adjustment of phenotype to increase fitness. In the model \model this projection results from hte averaging of two key concept: memory and perception. The latter is relatively simple to understand and corresponds to the perceived resource availability computed as the mean potential exchange rate per unit of area (total leaf or root area) and per hour(the hourly measure is used instead of daily measure to simulate the ability of plant to perceive the photoperiod. This is an easy way of taking into account one aspect of seasonality without complicating the model. However, it also reduce the range of memory and its impact to determine the phenotype, as an additional information would be needed to define the optimum phenotype: the day length).:
 \begin{align}
 light_{exp} &= \frac{transp}{exhange area_{ag}}\\
 water_{exp} &= \frac{Wpup}{exchange area_{bg}}\\
@@ -520,7 +520,7 @@ water_{est}(t+1) &= (1 - \tau).water_{exp}(t) + \tau . water_{memory} . daylengh
 \end{align}
 \indent Because these are supposed to be expected conditions for the future, other formulation can be used instead of an average that is likely to introduce a lag in estimations. For example the following equation allow for a more stable projection that better fits the slower process of plant physiology adjustments:
 \begin{align}
-light_{est}(t+1) &= ((1 - \tau_{react}).light_{exp}(t) + \tau_{react} . light_{est}(t))((1 - \tau_{amp}) + \tau_{amp} . light_{memory}) . daylenght(t+1) \\
+light_{est}(t+1) &= ((1 - \tau_{react}).light_{exp}(t) + \tau_{react} . light_{est}(t))((1 - \tau_{amp}) + \tau_{amp} . light_{memory}) . daylenght(t+1)
 \end{align}
 with $\tau_{amp}$ and $\tau_{react}$ being respectively amplitude and reactivity where only $\tau_{amp}$ is used in the first equation. Such solution could limit sensitivity and phenotypic instability.\\
 \indent The estimation of external conditions as expressed here is then used to select the best allocation scheme during the allocation process. Limited here to levels of two resources (light and water), this estimation equation could be extended to other mechanisms such as herbivory risk, frost risk, humidity impact on water pressure deficit.\\
@@ -551,12 +551,11 @@ where $\alpha$ and $\gamma$ are allometry coefficients.\\
 \textbf{Allocation to organs:} Allocation of produced organic matter is central in vegetation as it shapes the plant and define the strength of the different organs. There are multiple ways to model the distribution of produced organic matter between the plant organs. We believe that such mechanism has great impact on individual development and response to external conditions, and so on community dynamics. To explore the role of this mechanism, multiple options are implemented. The different allocation algorithms are summarised in table \ref{table:alloc_algo}.\\
 \indent There are two major components in the allocation algorithm:
 \begin{itemize}
-\item the objective function;\\
-\item the plastic dimensions.\\
+\item the objective function;
+\item the plastic dimensions.
 \end{itemize}
 The \textit{objective function}: it is the function that give an fitness estimation or gain metrics for any given phenotype. This function is used to compute the optimum phenotype (phenotype at which the function is evaluated at the maximum value), or rank alternative phenotypes\sidenote{in this case, if not all possible phenotypes are tested, the solution might be only a local optimum. This is the case in \model.}. \\
 The \textit{plastic dimensions}: they are the dimensions along which the individual can move. The space defined by these dimensions is the phenotypic space within which each individual plant can look for an alternative phenotype. They do not necessarily fully define a phenotype since some dimensions of the individual's phenotype can be fixed \sidenote{either by shared parameters of species specific ones.}. \\
-
 \indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, SLA and SRL). In case of simple equations an analytical solution could be used to find an optimum \sidenote{under the condition that such optimum exists. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial and the model is likely to evolve, a numeric solving method is adopted. \textbf{Need to detail the random algorithm.}\\
 Also make a note on multiple optimum and the choice for a 'gradient descent" type of algorithm. Also sensitivity at eraly stages 
 
@@ -598,18 +597,53 @@ where $light_{est}$ and $water_{est}$ are the estimated resource availabilities.
 \end{itemize}
 And this could be extended to herbivory and frost risks. To take into account all these components, and take advantage of having all processes already made explicit, the daily processes of senescence and production are recalculated according to the \textbf{estimation of conditions} and the plant phenotype. This function is used to rank different alternative phenotypes. Alternative phenotypes are computed from the actual phenotype and random uniform distribution of available organic matter to the main active and structural carbon pools of the plant.\sidenote{talk about the order senescence production, and the way exchange rates are computed.} This algorithm has the advantage of being relatively cheap compare to other optimization functions, however its performances are variables and it is very sensitive to the number of samples used. As a consequence there is a trade-off between model stability and performance as a function of number of samples (\textit{i.e.} alternative phenotypes) considered.
 
-\textbf{Plastic trait equilibrium:} Another approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as before but rank phenotypes with a function negatively correlated to the difference between estimated shoot and root activity. Such mechanism would nonetheless require the algorithm to look for close solutions within the allocation space to avoid convergence or drift from species strategy. Considering the cost of plasticity is this approach limits the drifting of the plant phenotype.
+\textbf{Plastic trait equilibrium:} An alternative approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as before but rank phenotypes with a function negatively correlated to the difference between estimated shoot and root activity. Such mechanism would nonetheless require the algorithm to look for close solutions within the allocation space to avoid convergence or drift from species strategy. Considering the cost of plasticity is this approach limits the drifting of the plant phenotype.
 
+\textbf{Fixed trait optimisation:} This algorithm takes the idea of the optimisation algorithm but limits the plastic traits to the RSR ratio. If we can expect similar response than the fixed trait equilibrium if we suppose that the equilibrium is the main aspect of plant performance, global efficiency being considered in this case the result may vary.
 
-\paragraph{Trait update:}
-Plasticity in trait suggests that trait values are modified in time. Because plants are described by single values (e.g. one SLA value for all leaves), this values must be updated after the plastic allocation. This values could be updated as average of old tissue value weighted by old biomass and new tissue value weighted by the freshly produced biomass. This however would work only if active on structural tissues ratio were linearly link to others traits. This is not the case, it is then simpler to consider that organs have uniform active and structural distribution. This hypothesis suggests that whenever the allocation scheme change, old tissue reallocate their own biomass to follow the new scheme. Nevertheless, to avoid full plasticity allowed by this hypothesis, the changes in trait carbon pool sizes is limited by the produced biomass available for plant development.\\
-\indent From this, supposing homogeneous distribution of active and structural tissues within an organ allow to directly link the size of the carbon pools to average traits by the following relationships:
-
+\paragraph{Plasticity cost}
+The limits and costs of plasticity has long been discussed in related litterature. If \model is intended to be used to examine ecological costs and limits, it has to include physiological aspects of plasticity limits. There are two physiological processes involved in the mechanism of altering a phenotype based on changes in external conditions: sensing and signalling. 'Sensing' relates to the capacity of the individual to perceive environmental conditions. This is related to capacity of the individual to perceive the environment and should therefore be considered constant over time. To take into account the cost of precise sensing, the first component of the plastcitiy cost is proportional to $\tau$.\\
+The other component is related to the capacity of the plant to transmit this knowledge of conditions to change the development plan toward a new phenotype. This cost is proportional to the carbon based distance (calculated as the difference between proportion of active tissues) between the default phenotype and the alternative (during allocation algorithm) or current phenotype.\sidenote{We could imagine cost based not on the default, but previous phenotype, but it would have lead to large phenotypic shifting and convergence.}\\
+Plasticity cost is the sum of both component and is proportional to the total biomass since most of tissues should have the appropriated cell machinery and are affected b plasticity.
 \begin{align}
-  th_{a} &= \frac{\frac{act}{str}_{s} . th . \rho_{ss}}{\rho_{as} + \frac{act}{str}_{s} . \rho_{ss} }\\
-  SLA &= \frac{1}{(th_{a} . \rho_{as} + (th - th_{a}) . \rho_{ss} ) . V_{t}}\\ 
-  s_{a} &= \frac{\frac{act}{str}_{r} . s_{root} . \rho_{sr} }{ \rho_{ar} + \frac{act}{str}_{r} . \rho_{sr}}\\
-  SRL &= \frac{1}{(s_{a} . \rho_{ar} + (s_{root} - s_{a}) . \rho_{sr}}
+pc_{maintenance} = (1 - tau) * pc_m \\
+pc_{plasticity} = d_{traits} * pc_p
+\end{align}
+where $d_{traits}$ is the euclidean distance between default phenotype and the alternative phenotype in the space defined by the proportion in active tissue for shoot and for roots.
+
+\paragraph{Trait update}
+Plasticity in trait suggests that trait values are modified in time. Because plants are described by single values (e.g. one SLA value for all leaves), this values must be updated after the plastic allocation. This values could be updated as average of old tissue value weighted by old biomass and new tissue value weighted by the freshly produced biomass. This however would work only if active on structural tissues ratio were linearly link to others traits. This is not the case, it is then simpler to consider that organs have uniform active and structural distribution. This hypothesis suggests that whenever the allocation scheme change, old tissue reallocate their own biomass to follow the new scheme. Nevertheless, to avoid full plasticity allowed by this hypothesis, the changes in trait carbon pool sizes is limited by the produced biomass available for plant development.\\ollowing the following survival probabilities:
+
+
+\indent From this, supposing homogeneous distribution of active and structural tissues within an organ allow to directly link the size of the carbon pools to average traits by the following relationships:
+\begin{marginfigure}[-10pt]
+\begin{tikzpicture}
+\begin{axis}[marginplot,
+legend style
+={at={(1, 1.1)},
+anchor=south east,
+draw = none},
+samples = 100,
+%restrict y to domain=-300:700,
+xlabel = $p_{act_{shoot}$,
+ylabel = $SLA$
+%extra x ticks={0.618},
+%extra x tick style={grid=major}
+]
+
+\addplot[black][domain = 0:1] {1/(\parth *  x * \parrhoas + \parth * (1 -  x) * \parrhoss * \parvts) };
+%\legend{Water limitation}
+\end{axis}
+\end{tikzpicture}
+\label{fig:SLA}
+\caption{Specific Leaf Area as a function of the proportion in active tissues in shoot}
+\end{marginfigure}
+
+%  th_{a} &= \frac{\frac{act}{str}_{s} . th . \rho_{ss}}{\rho_{as} + \frac{act}{str}_{s} . \rho_{ss} }\\
+%  s_{a} &= \frac{\frac{act}{str}_{r} . s_{root} . \rho_{sr} }{ \rho_{ar} + \frac{act}{str}_{r} . \rho_{sr}}\\
+\begin{align}
+  SLA &= \frac{1}{(th .  p_{act_{shoot}} . \rho_{as} + th . (1 -  p_{act_{shoot}}) . \rho_{ss} ) . V_{t}}\\
+  SRL &= \frac{1}{(s_{r} .  p_{act_{shoot}} . \rho_{ar} + s_{r}.(1 -  p_{act_{shoot}}) . \rho_{sr}}
 \end{align}
 
 
@@ -637,8 +671,8 @@ ylabel = $Lifespan (days)$
 \legend{Aboveground, Belowground}
 \end{axis}
 \end{tikzpicture}
-\label{fig:derivaives}
-\caption{Water uptake limitation response function to soil saturation}
+\label{fig:lifespan}
+\caption{Lifespan of organs as a function of proportion of active tissues.}
 \end{marginfigure}
 
 \begin{align}
@@ -649,8 +683,8 @@ sen_{root} &= \frac{1}{RLS}
 Because \model does not contain any mechanism preventing plant from growing only  active tissues\sidenote[][5pt]{it was intended to make the WUE negatively correlated to the amount of structural tissue per area.}, it is necessary for this cost function to make this strategy unreliable. The is then expressed as follow:
 
 \begin{align}
-LLS &= LSs_{s0} * (1- p_{act root}^{LSs_{1}}) \\
-RLS &= LSr_{s0} * (1- p_{act root}^{LSr_{1}})
+LLS &= LSs_{s0} * (1- p_{act_{shoot}}^{LSs_{1}}) \\
+RLS &= LSr_{s0} * (1- p_{act_{root}}^{LSr_{1}})
 \end{align}
 
 
@@ -686,7 +720,7 @@ ylabel = $survival$
 \begin{align}
 P_{d} &=  exp \left( - \left[\left(\frac{des}{\alpha_{d}}\right)^{\gamma_{d}} - \left(\frac{max(des - 1, 0)}{\alpha_{d}}\right)^{\gamma_{d}}\right]\right) & if NPP \le 0\\
 &= 1 & otherwise\\
-P_{a} &= exp \left( - \left[\left(\frac{age + 1}{\alpha_{a}}\right)^{\gamma_{a}} - \left(\frac{age}{\alpha_{a}}\right)^{\gamma_{a}}\right]\right)\\
+P_{a} &= exp \left( - \left[\left(\frac{age + 1}{\alpha_{a}}\right)^{\gamma_{a}} - \left(\frac{age}{\alpha_{a}}\right)^{\gamma_{a}}\right]\right)
 \end{align}
 
 State of dead individuals is store until the end of the season when seed are stored in the seed bank. Seeds of dead individual then join other seeds.
