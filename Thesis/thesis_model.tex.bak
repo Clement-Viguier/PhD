@@ -1,3 +1,8 @@
+
+\RequirePackage{marginnote}
+%\let\marginpar\marginnote
+\let\marginnote\undefined
+
 \documentclass[a4paper, notoc, justified,marginals=raggedouter, nobib]{tufte-book}
 
 
@@ -38,6 +43,17 @@
 \definecolor{myTurquoise}{HTML}{36BEBE}
 \definecolor{myYellow}{HTML}{FBD475}
 \definecolor{myBlue}{HTML}{0C86BF}
+
+
+% colorbox
+\usepackage{tcolorbox} %Package
+%
+%\newtcolorbox{exbox}{}
+
+\tcbuselibrary{breakable,skins} %Pour que la box puisse être sur 2 pages ou plus
+
+\tcbset{enhanced,colframe=myGreen,colback=black!0,fonttitle=\sffamily\sffamily,breakable,attach boxed title to top right={xshift=-4mm,yshift*=-3.5mm},coltitle=myGreen,colbacktitle=black!0,boxed title style={colframe=myGreen!0},before skip=0.5cm} %Caractéristiques de la box
+ 
 
 % to see the margins and page width
 % \geometry{showframe}

@@ -306,6 +306,7 @@ Add conceptual graphics and arguments to explain the components of performance, 
 \begin{figure}
 \includegraphics[width = \textwidth]{./Figures/best_strat_rain_gradient.pdf}
 \caption{Best strategy for root along a precipitation gradient.}
+
 Growth of plants with different strategies (different RSR and active/structural ratio for roots) along a precipitation gradient have been simulated. The best strat is defined as the weighted mean of the active/structural ratio by the total fresh biomass after 100 days of simulation. Each grey line correspond to a parameter set, while the blue line is the fitted gam regression.
 \end{figure}
 
@@ -330,7 +331,29 @@ Importance of having good estimation to have a good strat and good balance.\\
 
 \paragraph{Plasticity: benefit ?}
 Niche experiment = previous analysis discussion. Test hypothesis through simulations for few selected (how ?) parameter sets.\\
-Widden niche: 
+Widden niche:
+
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./Figures/abs_BM_pl_nonpl_10034.pdf}
+\caption{Biomass for plastic and noon plastic plant for a fixed shoot strategy.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./Figures/optimum_shifting_pl_10034.pdf}
+\caption{Shift in optimum in the strategy space due to plasticity.}
+\end{figure}
+
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./Figures/abs_BM_weather_10034.pdf}
+\caption{Biomass for wet and dry condition for a fixed shoot strategy.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./Figures/optimum_shifting_weather_10034.pdf}
+\caption{Shift in optimum in the strategy space due to weather.}
+\end{figure}
 
 \subsection{Community level}
 
@@ -339,13 +362,37 @@ How does plasticity may affect that ?
 
 
 \section{Discussion}
-\paragraph{Individual calibration}
-Individual calibration allowed to filter parameters related to individual growth with only few parameters being sensitive.\\
+We build a model of plant growth based on allocation trade-off at the organ level that we compare to empirical data to validate the behaviour of the model. This model was used to explore the how strategy impact fitness along a resource gradient and how this is altered by plasticity.
+ 
+\subsection{Allocation trade-off}
+- fundamental and theoretical support to the approach, plus it works with plasticity\\
+- different strats are working in low conditions\\
+- higher stability of more conservative strats.\\
+- flexible multidimension strategy space: better diversity if diverse regulation factors, multiple dimension of variability (resources anddisturbance). Can be used to explore ecolgical trade-off in a space that is constraint.
 
-\paragraph{individual growth}
-Link memory and phenotype.\\
-Link allocation algo and plasticity to the different components of performance.\\
-Because the performance depends on multiple aspects of plant allocation in relation with external conditions, it is difficult to isolate each aspect and compute their relative importance or response to certain variables > this is complex to study. Hope this model will help bring more light on plasticity and plant strategies interactions.
+\subsection{Plasticity effect}
+- improve performance (expected)\\
+- allows for more exploitative strategies\\
+- increase the competitive effect of exploitative species (despite higher relative improvment at margins)\\
+- question of efficiency
+- widen the absolute niche (improvement of bad performers) but narrow the relative niche
+
+\subsection{Going further with plasticity}
+- new estimates
+- trait changes
+- how the more exploitative species (supposedly less resistant to drought) would resist to drought event ?
+- selection for plasticity along cons-exploit gradient ?
+
+\section{Conclusion}
+allocation trade-off are good. plasticity benefit is asymmetric: more perf and balance in efficiency
+
+%\paragraph{Individual calibration}
+%The validation of multiple parameter sets during the individual-growth parameter filtering process demonstrates the capacity of the model to reproduce growth of alpine plant in two different set of conditions. Howevern the high sensitivity of parameters involved in water uptake ($\beta_0$, $u_{max}$, $k_{or}$, $\rho_{ar}$) and whole plant productivity ($r_1$, $P_{max}$) and the selection of parameters values (for these parameters and less sensitive parameters) indicates that maintening growth might be more difficult than expected. This could be explained by 
+%
+%\paragraph{individual growth}
+%Link memory and phenotype.\\
+%Link allocation algo and plasticity to the different components of performance.\\
+%Because the performance depends on multiple aspects of plant allocation in relation with external conditions, it is difficult to isolate each aspect and compute their relative importance or response to certain variables > this is complex to study. Hope this model will help bring more light on plasticity and plant strategies interactions.
 
 
 

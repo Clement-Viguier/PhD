@@ -222,6 +222,10 @@ As mentioned the model runs at daily step to capture individual responses to con
 \end{itemize}
 
 The \textit{growing season} part consists in all processes evaluated every day of the growing season. These processes are:
+\begin{marginfigure}
+\includegraphics{./Figures/daily_cycle_t.pdf}
+\caption{Processes in order during the daily cycle.}
+\end{marginfigure}
 \begin{itemize}
 \setlength\itemsep{0em}
 %\item \textit{resistance allocation}: the stored OM (in seeds or in storage tissues) are either invested in resistance molecules or in development;
@@ -234,33 +238,44 @@ The \textit{growing season} part consists in all processes evaluated every day o
 \item \textit{allocation}: allocation of produced OM to the different carbon pools of the plant.
 \textcolor{Gray}{\item \textit{grazing/cutting}: (optional) grazing or cutting of plants to a certain height. The grazing can be selective.}\footnote{remarks in \textcolor{Gray}{grey} are features or components implemented in the model but not used and-or calibrated.}
 \end{itemize}
-\begin{figure}
-\includegraphics{./Figures/daily_cycle_t.pdf}
-\caption{Processes in order during the daily cycle.}
-\end{figure}
+
 
 \section{Design concepts}
 
 \subsection{Design concepts}
 This part clarifies the rules that drives the dynamics of the model.
 
-\paragraph{Emergence} The purpose of the model being to understand the rules that drive the community responses, we tried make the community dynamics emerge from the underlying processes of plant growth, resource use and reproduction. That means that population dynamics is at least partially emergent from the surviving and reproducing individuals. 'Partially emergent' because it depends on the invasion rules applied to the system. The traits and biomass distribution that describe the community are completely emergent from the individual traits exposed by the individuals and their relative biomass and abundance.
+\paragraph{Emergence} 
+The purpose of the model being to understand the rules that drive the community responses, we tried make the community dynamics emerge from the underlying processes of plant growth, resource use and reproduction. That means that population dynamics is at least partially emergent from the surviving and reproducing individuals.
+\textit{Partially} emergent because it depends on the invasion rules applied to the system. The traits and biomass distribution that describe the community are completely emergent from the individual traits exposed by the individuals and their relative biomass and abundance.
+\begin{marginfigure}
+\includegraphics{./Figures/emergence.pdf}
+\caption{Population dynamics emerging from plant growth and weather.}
+\end{marginfigure}
 
 \paragraph{Adaptation} Plants have in theory many options to adjust their phenotype and increase their fitness in response to changes in environmental conditions (resource availability, temperature, ...). High diversity of mountain grasslands suggests that multiple strategies coexist and that individuals do not change to converge toward a unique strategy. These strategies are set up at the species level by the species specific traits (see table \ref{table:state_var_species}). Therefore, individuals may only adapt morphological traits but not strategic traits (unless there is an epigenetic mechanism added). These morphological traits are: the relative biomass of shoot and root, relative proportion of active and structural tissues in each leaves, and roots (controlling respectively the SLA and SRL and the overall resource acquisition cost)\footnote{and optionally the proportion of stored OM dedicated to frost resistance and not to growth}. Geometry traits (distribution of leaves and roots within space) are not considered plastic as grasses have far less control on their geometry than forbs or trees. Root distribution plasticity has been shown to greatly improve the individual and community productivity (Gemini article), but to keep the model (and implementation) simple we will ignore root distribution plasticity and foraging strategies to focus on allocation problems instead of spatial distribution questions. Shallow soils and relative small rooting zone are also arguments to ignore spatial distribution plasticity for roots.
 
-\paragraph{Fitness} 
+\paragraph{Fitness}
+\begin{marginfigure}
+\includegraphics{./Figures/fitness.pdf}
+\caption{Fitness emerges from the plant growth and the plant reproductive strategy.}
+\begin{footnotesize}
+The plant growth is the result of the interaction of the resource levels, the plant strategy and the competitors.
+\end{footnotesize}
+\end{marginfigure}
 In the model the realised fitness can be estimated as the capacity of plants to maintain themselves or their descendants through time. It emerges from the productivity, allocation to storage or reproductive carbon pools, and survival. Assessing fitness as the average number of persistent individuals is however a bit hazardous in simulations limited in time and to a relatively small spatial scale. Plus, plants cannot easily make prediction of such variable to adjust their phenotype. They need a proxy function for fitness that integrate measures of external conditions to evaluate the best strategy to develop. As said above, this strategy should be a composite between the species strategy and individual adjustment specific to the individual experience of the environment. Plant fitness is estimated by individual plant thanks to a gain function integrating current phenotype, species strategy and projection of future conditions. This gain function can take multiple forms and be more or less constraint. In the context of the model, the function should include a measure of productivity that relies on the principle of functional equilibrium - that is the allocation of organic matter to maintain the balance between the shoot activity (transpiration) and root activity (water uptake). This equilibrium can be achieved by changes in shoot:root ratio only, or also changes in active over structural tissues ratio. Further details about the gain function are discussed in the dedicated paragraphs (\ref{par:allocation}). More complex form of functional equilibrium incorporating nutrients (like nitrogen) could be added to the framework of this model.
 
 \paragraph{Prediction} Adaptation or plasticity mechanisms imply that agents have an insight of what will be the future. In \model we consider that plants have two main sources of information. The first source of information is the genetic information. Indeed, the evolutionary process of genotype selection has led to the selection of genotypes adapted to the local conditions. This selection relationship can be seen as a link between environmental conditions and genetic information. Because plants cannot fully predict future environmental conditions, they grow following (at least partially) the plan contained in genetic information that match conditions where previous generations grew in.  This is an internal \textit{a priori} information about the external conditions. If the conditions where the seed grow change from the conditions its genotype has been selected for, the genetic information does not fit the environmental conditions is not sufficient enough to build a working phenotype. In this case, if the plant has a plasticity capacity, it can integrate the second source of information, in the form of the experienced conditions, to its "a priori" and forge a new estimation of what conditions will be. One question emerges to this idea is: how to create an image of future conditions and how to balance the genetic \textit{a priori} information with the experienced information ? This balance can be described by a term of "reactivity" that describe the relative weight of genetic and experienced information. A reactive species will give a higher weight to experienced condition information, whereas an stable species will give a higher weight to genetic information.\\
 \indent The way the two source of information are brought together and used to define the plant phenotype is at the core of plant strategy and is the main feature of the model \model.
+\begin{figure}
+\includegraphics{./Figures/memory2phenotype_t.pdf}
+\caption{Genetic and perceived information are both considered to determine the phenotype.}
+\end{figure}
 %\indent From that mechanism we can define two terms: the \textbf{climatic niche center} of a species is the \textit{a priori} information on climatic conditions, and the \textbf{plastic capacity} of a species is both its reactivity and its capacity to overcome the plasticity cost and invest in required tissues.
-
 %Individuals do not estimate directly their fitness. They have however way of estimating how well they perform depending on the level of resources they estimate. This measure is essential in plasticity mechanism as it drives plasticity. This measure is dependent on the plasticity mechanism chosen. Indeed plasticity can be approached in different ways that are discussed latter, one mechanism consists in maintaining the \textit{functional equilibrium}, in this case the fitness information is approach by the relative balance between above-and below-ground activities. The other mechanism is the \textit{optimisation}, that implies a more complex estimation of productivity, respiration, tissue turn-over and death changes and gives a more detailed approximation of individual fitness.
-
 %\paragraph{Prediction and adaptation} As explained above, the "incomplete fitness proxies" used in the plasticity mechanisms require estimation of above- and below-ground activities, based on their trait values (SLA and SRL) and on an estimation of future external conditions (temperature, water availability and light availability). The originality of our approach is to make this estimation depending on both species specific parameters and individual experience. The conditions are estimated as the weighted mean between the species specific genetic \textit{a priori} on resource availability and the potential resource availability normalized over exchange area. This make the estimation by one individual depending both on the species specific "environmental niche" and the competition effects on resources. Moreover, this mechanism, because it includes relative weight to the two sources of information, allow multiple strategies for the estimation of external conditions and so on how to cope with resource levels variation.
 %
 %\paragraph{Adaptation} Adaptation is central in the model as we believe it explain a lot of intra-specific variability in mountain grassland ecosystems (cite albert and others)
-
 \section{Details}
 
 Further details on daily mechanisms are described in the following paragraphs.
@@ -556,6 +571,10 @@ where $\alpha$ and $\gamma$ are allometry coefficients.\\
 \end{itemize}
 The \textit{objective function}: it is the function that give an fitness estimation or gain metrics for any given phenotype. This function is used to compute the optimum phenotype (phenotype at which the function is evaluated at the maximum value), or rank alternative phenotypes\sidenote{in this case, if not all possible phenotypes are tested, the solution might be only a local optimum. This is the case in \model.}. \\
 The \textit{plastic dimensions}: they are the dimensions along which the individual can move. The space defined by these dimensions is the phenotypic space within which each individual plant can look for an alternative phenotype. They do not necessarily fully define a phenotype since some dimensions of the individual's phenotype can be fixed \sidenote{either by shared parameters of species specific ones.}. \\
+\begin{figure}
+\includegraphics{./Figures/strategy_space_algo.pdf}
+\caption{Trajectories of a plant in the trait space depending on the plastic dimensions explored.}
+\end{figure}
 \indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, SLA and SRL). In case of simple equations an analytical solution could be used to find an optimum \sidenote{under the condition that such optimum exists. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial and the model is likely to evolve, a numeric solving method is adopted. \textbf{Need to detail the random algorithm.}\\
 Also make a note on multiple optimum and the choice for a 'gradient descent" type of algorithm. Also sensitivity at eraly stages 
 
@@ -577,7 +596,7 @@ Optim-Fixed & instantaneous gain & $\bullet$ & $\circ$ & $\bullet$ \\
 \vspace*{0.5cm}
 \end{table*}
 
-\textbf{No plasticity allocation:} this allocation is very similar to classic vegetation model where the biomass is allocated to the different carbon pools according to species specific parameters. But \model differs from other models by the order of the different steps of growth. In this model, the senescence comes between the allocation step and the resource competion-prodction steps \sidenote{see plastic allocation algorithm for explanation}
+\textbf{No plasticity allocation:} this allocation is very similar to classic vegetation model where the biomass is allocated to the different carbon pools according to species specific parameters. But \model differs from other models by the order of the different steps of growth. In this model, the senescence comes between the allocation step and the resource competition-production steps \sidenote{see plastic allocation algorithm for explanation}. The partitioning coefficient are directly computed from species default trait to maintain the phenotype after senescence.
 
 \textbf{Fixed trait allocation:} The fixed allocation supposes the allocation on OM to maintain trait values to fixed species specific values. The shoot:root ratio may however change to maintain functional equilibrium. The shoot root ratio is derived from the following equation of the functional equilibrium:
 \begin{align}\label{eq:equilibrium}
@@ -595,11 +614,19 @@ where $light_{est}$ and $water_{est}$ are the estimated resource availabilities.
 \item relative mass of each organ;
 \item balance between organ water exchange activities.
 \end{itemize}
-And this could be extended to herbivory and frost risks. To take into account all these components, and take advantage of having all processes already made explicit, the daily processes of senescence and production are recalculated according to the \textbf{estimation of conditions} and the plant phenotype. This function is used to rank different alternative phenotypes. Alternative phenotypes are computed from the actual phenotype and random uniform distribution of available organic matter to the main active and structural carbon pools of the plant.\sidenote{talk about the order senescence production, and the way exchange rates are computed.} This algorithm has the advantage of being relatively cheap compare to other optimization functions, however its performances are variables and it is very sensitive to the number of samples used. As a consequence there is a trade-off between model stability and performance as a function of number of samples (\textit{i.e.} alternative phenotypes) considered.
+And this could be extended to herbivory or frost risks. To take into account all these components, and take advantage of having all processes already made explicit by the implementation in the model, the daily processes of senescence and production are recalculated according to the \textbf{estimation of conditions} and the plant phenotype. This function is used to rank different alternative phenotypes (algorithm detailed below).
 
-\textbf{Plastic trait equilibrium:} An alternative approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as before but rank phenotypes with a function negatively correlated to the difference between estimated shoot and root activity. Such mechanism would nonetheless require the algorithm to look for close solutions within the allocation space to avoid convergence or drift from species strategy. Considering the cost of plasticity is this approach limits the drifting of the plant phenotype.
+\textbf{Plastic trait equilibrium:} An alternative approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as before but rank phenotypes with a function negatively correlated to the difference between estimated shoot and root activity. Such mechanism would nonetheless require the algorithm to look for close solutions within the allocation space to avoid convergence or drift from species strategy. Having non zero cost of plasticity in this approach should limit the drifting of the plant phenotype.
 
 \textbf{Fixed trait optimisation:} This algorithm takes the idea of the optimisation algorithm but limits the plastic traits to the RSR ratio. If we can expect similar response than the fixed trait equilibrium if we suppose that the equilibrium is the main aspect of plant performance, global efficiency being considered in this case the result may vary.
+
+\paragraph{Plastic algorithm}
+
+Alternative phenotypes are computed from the actual phenotype and random uniform distribution of available organic matter to the main active and structural carbon pools of the plant.\sidenote{talk about the order senescence production, and the way exchange rates are computed.} ... This algorithm has the advantage of being relatively cheap compare to other optimization functions, however its performances are variables and it is very sensitive to the number of samples used. As a consequence there is a trade-off between model stability and performance as a function of number of samples (\textit{i.e.} alternative phenotypes) considered.
+\begin{figure}
+\includegraphics{./Figures/phenotype_ranking_t.pdf}
+\caption{Algorithm for the evaluation and selection of randomly generated alternative phenotypes.}
+\end{figure}
 
 \paragraph{Plasticity cost}
 The limits and costs of plasticity has long been discussed in related litterature. If \model is intended to be used to examine ecological costs and limits, it has to include physiological aspects of plasticity limits. There are two physiological processes involved in the mechanism of altering a phenotype based on changes in external conditions: sensing and signalling. 'Sensing' relates to the capacity of the individual to perceive environmental conditions. This is related to capacity of the individual to perceive the environment and should therefore be considered constant over time. To take into account the cost of precise sensing, the first component of the plastcitiy cost is proportional to $\tau$.\\
@@ -616,7 +643,7 @@ Plasticity in trait suggests that trait values are modified in time. Because pla
 
 
 \indent From this, supposing homogeneous distribution of active and structural tissues within an organ allow to directly link the size of the carbon pools to average traits by the following relationships:
-\begin{marginfigure}[-10pt]
+\begin{marginfigure}
 \begin{tikzpicture}
 \begin{axis}[marginplot,
 legend style
@@ -625,7 +652,7 @@ anchor=south east,
 draw = none},
 samples = 100,
 %restrict y to domain=-300:700,
-xlabel = $p_{act_{shoot}$,
+xlabel = $p_{act_{shoot}}$,
 ylabel = $SLA$
 %extra x ticks={0.618},
 %extra x tick style={grid=major}

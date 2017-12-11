@@ -8,53 +8,57 @@
 \contentsline {section}{\numberline {2.1}Context: mountain grasslands and climate change}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Diversity and coexistence mechanisms}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Effects of diversity}{10}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Mechanisms for coexistence}{10}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Mechanisms for coexistence and strategies}{10}{subsection.2.2.2}
+\contentsline {paragraph}{Strategy space and trade-off}{10}{paragraph*.3}
+\contentsline {paragraph}{about trade-off}{10}{paragraph*.4}
 \contentsline {section}{\numberline {2.3}global change and community dynamics: theory and empirical results}{10}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Community dynamics: from individuals to group dynamics}{10}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Intraspecific variability}{10}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Understanding phenotypic plasticity}{10}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Existing modelling solutions and approaches to question global change effect on vegetation community}{10}{section.2.4}
+\contentsline {section}{\numberline {2.4}Existing modelling solutions and approaches to question global change effect on vegetation community}{11}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Modelling vegetation - traits and strategies}{11}{subsection.2.4.1}
 \contentsline {part}{II\hspace {1em}Modelling alpine grasslands: genericity and plasticity}{13}{part.2}
-\contentsline {chapter}{\numberline {1}Mechanistic model for plant community dynamics centred around carbon allocation}{21}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{21}{section.1.1}
-\contentsline {section}{\numberline {1.2}Strategy space and allocation pools}{21}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Allocation or anatomy: a choice to make}{21}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Model overview}{21}{section.1.3}
-\contentsline {paragraph}{pseudo-code and routine}{21}{paragraph*.3}
-\contentsline {paragraph}{allocation}{21}{paragraph*.4}
-\contentsline {section}{\numberline {1.4}Plasticity: between species memory and individual experience}{21}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Concepts}{21}{subsection.1.4.1}
-\contentsline {paragraph}{Memory}{21}{paragraph*.5}
-\contentsline {paragraph}{Equilibrium and efficiency}{21}{paragraph*.6}
-\contentsline {paragraph}{Optimum, strategy and memory}{21}{paragraph*.7}
-\contentsline {paragraph}{Condition estimation}{22}{paragraph*.8}
-\contentsline {subsection}{\numberline {1.4.2}Implementation}{22}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}comparison of different algorithms}{22}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Parameter filtering and sensitivity analysis}{22}{section.1.5}
-\contentsline {section}{\numberline {1.6}Community dynamics parametrisation}{22}{section.1.6}
-\contentsline {chapter}{\numberline {2}Results: Model's properties and individuals response}{23}{chapter.2}
-\contentsline {section}{\numberline {2.1}Craft a trade-of and phenotypic map}{23}{section.2.1}
-\contentsline {section}{\numberline {2.2}Niche response}{23}{section.2.2}
-\contentsline {section}{\numberline {2.3}Transitivity and competition}{23}{section.2.3}
-\contentsline {chapter}{\numberline {3}The effect of phenotypic plasticity on plant community dynamics}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}Individual resistance and resilience against drought events}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Community response to drought event}{25}{section.3.2}
-\contentsline {part}{III\hspace {1em}Synthesis \& Outlook}{27}{part.3}
-\contentsline {section}{\numberline {3.3}Notes}{29}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}On modelling}{29}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}Include nitrogen: source of trade-off}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Stable coexistence: the need for a resource dependent tissue efficiency}{31}{section.4.1}
-\contentsline {chapter}{\numberline {5}Specific resistance carbon pools: diversify strategies (and memory)}{33}{chapter.5}
-\contentsline {chapter}{\numberline {6}Land-use: a important driver}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}Proto-model of management}{35}{section.6.1}
-\contentsline {section}{\numberline {6.2}Individual and collective response}{35}{section.6.2}
-\contentsline {section}{\numberline {6.3}Remaining questions}{35}{section.6.3}
-\contentsline {chapter}{\numberline {7}Local adaptation and epigenetic: between species and individual memory}{37}{chapter.7}
-\contentsline {chapter}{\numberline {8}Making it all fun}{39}{chapter.8}
-\contentsline {section}{\numberline {8.1}Documentation and vignette}{39}{section.8.1}
-\contentsline {section}{\numberline {8.2}Fun and simple simulations}{39}{section.8.2}
-\contentsline {section}{\numberline {8.3}Theme and shiny ?}{39}{section.8.3}
-\contentsline {part}{IV\hspace {1em}Rambling}{43}{part.4}
-\contentsline {chapter}{\numberline {9}Evolution, physiology and justification}{45}{chapter.9}
+\contentsline {chapter}{\numberline {1}Mechanistic model for plant community dynamics centred around carbon allocation}{35}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{35}{section.1.1}
+\contentsline {section}{\numberline {1.2}Strategy space and allocation pools}{35}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Allocation or anatomy: a choice to make}{35}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Model overview}{35}{section.1.3}
+\contentsline {paragraph}{pseudo-code and routine}{35}{paragraph*.5}
+\contentsline {paragraph}{allocation}{35}{paragraph*.6}
+\contentsline {section}{\numberline {1.4}Plasticity: between species memory and individual experience}{35}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Concepts}{35}{subsection.1.4.1}
+\contentsline {paragraph}{Memory}{35}{paragraph*.7}
+\contentsline {paragraph}{Equilibrium and efficiency}{36}{paragraph*.8}
+\contentsline {paragraph}{Optimum, strategy and memory}{36}{paragraph*.9}
+\contentsline {paragraph}{Condition estimation}{36}{paragraph*.10}
+\contentsline {subsection}{\numberline {1.4.2}Implementation}{36}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}comparison of different algorithms}{36}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Parameter filtering and sensitivity analysis}{36}{section.1.5}
+\contentsline {section}{\numberline {1.6}Community dynamics parametrisation}{37}{section.1.6}
+\contentsline {chapter}{\numberline {2}Results: Model's properties and individuals response}{39}{chapter.2}
+\contentsline {section}{\numberline {2.1}Craft a trade-of and phenotypic map}{39}{section.2.1}
+\contentsline {section}{\numberline {2.2}Niche response}{39}{section.2.2}
+\contentsline {section}{\numberline {2.3}Transitivity and competition}{39}{section.2.3}
+\contentsline {chapter}{\numberline {3}The effect of phenotypic plasticity on plant community dynamics}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Individual resistance and resilience against drought events}{41}{section.3.1}
+\contentsline {section}{\numberline {3.2}Community response to drought event}{41}{section.3.2}
+\contentsline {part}{III\hspace {1em}Synthesis \& Outlook}{43}{part.3}
+\contentsline {section}{\numberline {3.3}Notes}{45}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}On modelling}{45}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Include nitrogen: source of trade-off}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Stable coexistence: the need for a resource dependent tissue efficiency}{47}{section.4.1}
+\contentsline {chapter}{\numberline {5}Specific resistance carbon pools: diversify strategies (and memory)}{49}{chapter.5}
+\contentsline {chapter}{\numberline {6}Land-use: a important driver}{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}Proto-model of management}{51}{section.6.1}
+\contentsline {section}{\numberline {6.2}Individual and collective response}{51}{section.6.2}
+\contentsline {section}{\numberline {6.3}Remaining questions}{51}{section.6.3}
+\contentsline {chapter}{\numberline {7}Local adaptation and epigenetic: between species and individual memory}{53}{chapter.7}
+\contentsline {chapter}{\numberline {8}Making it all fun}{55}{chapter.8}
+\contentsline {section}{\numberline {8.1}Documentation and vignette}{55}{section.8.1}
+\contentsline {section}{\numberline {8.2}Fun and simple simulations}{55}{section.8.2}
+\contentsline {section}{\numberline {8.3}Theme and shiny ?}{55}{section.8.3}
+\contentsline {part}{IV\hspace {1em}Rambling}{59}{part.4}
+\contentsline {chapter}{\numberline {9}Evolution, physiology and justification}{61}{chapter.9}
+\contentsline {chapter}{\numberline {10}About efficiency, equilibrium and optimum}{63}{chapter.10}
+\contentsline {chapter}{\numberline {11}The dead end plasticity}{65}{chapter.11}
 \contentsfinish 
