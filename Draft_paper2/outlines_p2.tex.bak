@@ -1,0 +1,147 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Custom commands:
+\newcommand{\model}{\textbf{\textit{MountGrass}}~}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Outline paper 2}
+\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+\author{Elsevier\fnref{myfootnote}}
+\address{Radarweg 29, Amsterdam}
+\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\ead[url]{www.elsevier.com}
+
+\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{support@elsevier.com}
+
+\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+\end{abstract}
+
+\begin{keyword}
+\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+
+\section{Introduction}
+
+\section{Community level calibration}
+Maintain growth on multiple sites.\\
+biomass and traits in ranges.\\
+
+Selection of 1-5 parameter sets.
+ 
+
+\section{Plasticity effect on diversity}
+Hypothesis: plasticity allow for more efficient strategies and strategies less driven by the water availability.\\
+
+Method: \\
+simulations:\\
+Define a set of diverse strategies. Run simulations over 20 years (most recent years of my dataset) with 3 different diversity levels (3 levels: 100\% strategies, ). With plasticity (tau =0) and without (tau = 1) for fixed-equilibrium strategy (avoid drifting or convergence, simple to understand).\\
+
+Which strategies ? \\
+Uniform reproduction strategy ? What parameters ?\\
+Which sites ?\\
+
+Results:\\
+Strategic diversity time line and centroïd for the different plasticities.\\
+Also look at the overlap between strategies.\\
+
+\section{Response to drought}
+How does plasticity impact community response to drought ?
+
+\subsection{Community intra-seasonal response to drought event}
+
+Hypothesis: phenotypic plasticity increases community resistance through phenotypic adaptation of individuals. This direct effect of plasticity on individual plant resistance and resilience may be modulated by the effect of plasticity on community composition.\\
+H2 : phenotypic plasticity effect may affect functional diversity if it changes the relative resistance/resilience of the different resource-use strategies.\\
+Hsup (discussion) : the potential (if plasticity cost) co-selection of plasticity and resource-use strategy may also change the overall response.\\
+
+Method:\\
+Simulations:\\
+Start from the state of communities in previous step. (run multiple replicates). Apply drought treatment beginning of June for multiple lengths : 2, 4, 6 (or 8) weeks. Drought treatment consist of no water at all while watered plot receive the week average in two watering events per week.\\
+
+Analysis:\\
+Within season response:\\
+Compare normalized (to watered community) resistance and resilience of biomass, species and functional diversities between plastic and non plastic.\\
+resistance measure : difference between high and low values. Resilience is computed between the end of the event and 1 or 2 weeks after, or along the time.\\
+
+explain $\gamma$:\\
+$\gamma \sim (div + plas + div:plas) * drought_{length}$\\
+This should give us an insight on plasticity and diversity direct and interaction effects.\\
+
+%Look at potential shift in strategic centroïd\\
+Use of structural model to analyse the effects of diversity and plasticity on stability.
+
+
+\subsection{Community inter-seasonal response to extreme drought event}
+
+Does plasticity has an effect on recruitment the following season ?\\
+Hyp: plasticity reduce advantage of drought resistant species during drought, allowing the community to return to initial state, while non plastic community will be more impacted and this translate into new year community composition.\\
+Hyp2: the frequency of drought event promote selection of drought tolerant species when non plastic, increasing year after year resistance and resilience of this community. While this resistance acquisition is slowed down in plastic community.
+(more stable community with plasticity, but reduce drought resistance acquisition.)\\
+
+Method: \\
+Continue simulations with 2 to five consecutive drought events.\\
+Measure the community biomass and diversity resilience during the year.\\
+Follow the dominant strategy during drought years, and the overlap (Ceres Baros stability) between initial state, and a normal season after drought events (don't forget negative control).
+
+
+\end{document}

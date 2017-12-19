@@ -307,7 +307,13 @@ Vapour pressure deficit is then computed from temperature and relative humidity.
 
 \subsection{Submodels}
 
-\paragraph{Germination} Individuals from the seed-bank randomly germinate according to their species specific germination rate. Germination consist of investing a percentage ($mob$ parameter) of the seed mass into shoot and root biomass according to default traits. This is coupled with a round of random seed death following uniform law of parameter $seed_{surv}$. Living non germinating seeds stay in the seed-bank until the next season.\\
+\paragraph{Germination} Individuals from the seed-bank randomly germinate according to their species specific germination rate. Germination consist of investing a percentage ($mob$ parameter) of the seed mass into shoot and root biomass according to default traits for shoot and root (see table \ref{table:state_var_species}). The default root:shoot ratio (RSR) is computed according to the functional equilibrium hypothesis for water described as follow:
+\begin{align}\label{eq:equilibrium}
+& SLA . BM_{ag} . light_{est} &= SRL . BM_{bg} . water_{est}\\
+RSR &= \frac{BM_{bg}}{BM_{ag}} &= \frac{SLA}{SRL} . \frac{light_{est}}{water_{est}}
+\end{align}
+where $light_{est}$ and $water_{est}$ are the estimated resource availabilities.
+% This is coupled with a round of random seed death following uniform law of parameter $seed_{surv}$. Living non germinating seeds stay in the seed-bank until the next season.\\
 %
 %\vspace{0.5em}
 %\paragraph{Freezing resistance allocation} Resistance mechanisms are important for plants to invade harsh environments with perturbations such as grazing of frost events. Investment in free organic compounds is shown to provide resistance to frost. The concentration of such compounds is time variable and closely related to temperature. Other mechanisms morphological, structural, physiological can also play a role in frost resistance. For the sake of simplicity we will limit this aspect to the investment in circulating agents. Moreover, this aspect is crucial, indeed  because the frost risk is high at the beginning of the season, the choice of investing in resistance molecules instead of growing tissues is a strategy choice. Species can then be differentiated on a earlier growing/high frost risk - late growing/low frost risk axis, depending on their estimation of minimal temperature. Minimal temperature is estimated the same way other resources levels. Available stored biomass is invested in frost resistance is the estimated mean temperature is below 3\celsius .\\
@@ -571,13 +577,8 @@ where $\alpha$ and $\gamma$ are allometry coefficients.\\
 \end{itemize}
 The \textit{objective function}: it is the function that give an fitness estimation or gain metrics for any given phenotype. This function is used to compute the optimum phenotype (phenotype at which the function is evaluated at the maximum value), or rank alternative phenotypes\sidenote{in this case, if not all possible phenotypes are tested, the solution might be only a local optimum. This is the case in \model.}. \\
 The \textit{plastic dimensions}: they are the dimensions along which the individual can move. The space defined by these dimensions is the phenotypic space within which each individual plant can look for an alternative phenotype. They do not necessarily fully define a phenotype since some dimensions of the individual's phenotype can be fixed \sidenote{either by shared parameters of species specific ones.}. \\
-\begin{figure}
-\includegraphics{./Figures/strategy_space_algo.pdf}
-\caption{Trajectories of a plant in the trait space depending on the plastic dimensions explored.}
-\end{figure}
-\indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, SLA and SRL). In case of simple equations an analytical solution could be used to find an optimum \sidenote{under the condition that such optimum exists. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial and the model is likely to evolve, a numeric solving method is adopted. \textbf{Need to detail the random algorithm.}\\
-Also make a note on multiple optimum and the choice for a 'gradient descent" type of algorithm. Also sensitivity at eraly stages 
-
+\indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, and eventually SLA and SRL). If the link between the objective function and the plastic dimensions is described by simple system of equations an analytical solution could be used to find an optimum \sidenote{under the condition that such optimum exists. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial for the current state of the model and it is likely to evolve, a numeric solving method is adopted (see figures \ref{fig:alloc_algo, fig:traj} and associated paragraph).\\
+\indent To allow different level of phenotypic variation and to test different hypothesis on the way plant change their phenotype, multiple combinations of objective function and plastic spaces are implemented and summarised in the following table.
 %TAble of plasticity mech
 \begin{table*}
 \caption{Allocation algorithms implemented in \model} 
@@ -596,40 +597,54 @@ Optim-Fixed & instantaneous gain & $\bullet$ & $\circ$ & $\bullet$ \\
 \vspace*{0.5cm}
 \end{table*}
 
-\textbf{No plasticity allocation:} this allocation is very similar to classic vegetation model where the biomass is allocated to the different carbon pools according to species specific parameters. But \model differs from other models by the order of the different steps of growth. In this model, the senescence comes between the allocation step and the resource competition-production steps \sidenote{see plastic allocation algorithm for explanation}. The partitioning coefficient are directly computed from species default trait to maintain the phenotype after senescence.
+\paragraph{Plastic allocation: ranking of stochastic phenotypes}
+To solve the objective function when the system is complex (number of processes involved), the following method is used (described in figure \ref{fig:alloc_algo}):
+\begin{itemize}
+\item alternative phenotypes are computed based on the actual phenotype of the plant, and the random allocation of available organic matter to the main active and structural carbon pools of the plant (first panel of figure \ref{fig:alloc_algo});\\
+\item daily processes are simulated for each alternative phenotype based on the projection of external conditions (bottom panel of figure \ref{fig:alloc_algo});\\
+\item the objective function is evaluated for all alternative phenotypes for all plants;
+\item; the best allocation scheme (i.e. alternative phenotype) is define as the scheme for this time step.
+\end{itemize}
+\sidenote{talk about the order senescence production, and the way exchange rates are computed.}This algorithm has the advantage of being relatively cheap compare to other optimization functions, however its performances and stability are variables since only a small number of alternative allocation schemes are tested. Therefore there is a trade-off between model stability and performance as a function of number of samples (\textit{i.e.} alternative phenotypes) considered. Stability is increased by higher number of samples but also the cost of plasticity that limits the viable solutions around the current phenotype\sidenote{see unstable allocation in third panel of figure \ref{fig:traj}}. This method works well if the objective function is relatively smooth and have limited number of local optima.
+\begin{figure}
+\includegraphics{./Figures/phenotype_ranking_t.pdf}
+\label{fig:alloc_algo}
+\caption{Algorithm for the evaluation and selection of randomly generated alternative phenotypes.}
+\end{figure}
 
-\textbf{Fixed trait allocation:} The fixed allocation supposes the allocation on OM to maintain trait values to fixed species specific values. The shoot:root ratio may however change to maintain functional equilibrium. The shoot root ratio is derived from the following equation of the functional equilibrium:
-\begin{align}\label{eq:equilibrium}
-SLA . BM_{ag} . light_{est} &= SRL . BM_{bg} . water_{est}\\
-\frac{BM_{ab}}{BM_{bg}} &= \frac{SRL}{SLA} . \frac{water_{est}}{light_{est}}
-\end{align}
-where $light_{est}$ and $water_{est}$ are the estimated resource availabilities.
-%
+This method is used for most allocation combination of objective function and plastic dimensions.
+
+\begin{figure}
+\includegraphics{./Figures/strategy_space_algo.pdf}
+\label{fig:traj}
+\caption{Trajectories of a plant in the trait space depending on the plastic dimensions explored.}
+\end{figure}
+
+\textbf{Non plastic allocation:} this allocation is very similar to classic vegetation model where the biomass is allocated to the different carbon pools according to species specific parameters. As non plastic there is neither objective function or plastic dimensions, even though the RSR may change depending on organ specific turn-over rates. The partitioning coefficient are directly computed from species default trait to maintain the phenotype.\\
+
+\textbf{Fixed trait allocation:} The fixed trait allocation supposes the allocation of OM to maintain trait values to fixed species specific values. The shoot:root ratio change to maintain functional equilibrium (see equation \ref{eq:equilbirum}). The objective function is exponentially negatively correlated to the difference between estimated shoot and root activity.
 %\subparagraph{Plastic functional equilibrium} This allocation mechanism is also based on the functional equilibrium, however it incorporate changes in traits, that means that the proportion between active and structural tissues in an organ can change. This idea is supported by tha fact that plants change both their shoot:root and their trait values when conditions change. From a perspective with only one allocation dimension (shoot or root in "fixed trait allocation") with three dimensions (shoot or root, active or structural in shoot and in root tissues), the number of constraints must increase to find a unique solution. The functional equilibrium only is not sufficient to define the allocation scheme as multiple solutions satisfy this constraint. The solution is to chose among all possible allocation schemes the closest to the current allocation, the shortest path to functional equilibrium. This is done by minimising the 
 % doesn't work for now
+\textbf{Plastic trait equilibrium:} An alternative approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as before but using more plastic dimensions, allowing SLA and SRL to vary to better match the equilibrium. In this case there might be plasticity cost\sidenote{in current version, plasticity cost is limited to trait changes, but it could eventually also impact RSR changes.}. Plasticity cost normally impacts growth, but wouldn't be considered in growth if not explicitly contained in the objective function. To take into account this cost, the value of objective function is multiplied by $1 - pc$ where $pc$ is the sum of the type two of plasticity cost detailed below.\\
+\indent Because it is relatively easy to maintain equilibrium in 3D, a lot of phenotypes are equivalent and that could lead to drifting of the phenotype (greatly influenced by the sampling of alternative allocation schemes). Having non zero cost of plasticity in this approach should limit the drifting of the plant phenotype. Another solution could be to reduce the subspace the alternative phenotypes are sampled from, but this was to limit implementation complexity.\\
 
-\textbf{Plastic trait allocation:} Another approach to allocation is to try to optimize phenotype based on a fitness proxy. This proxy can  be the sum of NPP, tissue turn-over loss and plasticity cost. But in a complex model like \model, plant performance is function of multiple aspects:\
+
+
+\textbf{Fixed trait optimisation:} Another approach to allocation is to try to optimize phenotype based on a fitness proxy. This proxy can  be the sum of NPP, tissue turn-over loss and plasticity cost. But in a complex model like \model, plant performance is function of multiple aspects:\\
 \begin{itemize}
 \item individual organ efficiency;
 \item relative mass of each organ;
 \item balance between organ water exchange activities.
 \end{itemize}
-And this could be extended to herbivory or frost risks. To take into account all these components, and take advantage of having all processes already made explicit by the implementation in the model, the daily processes of senescence and production are recalculated according to the \textbf{estimation of conditions} and the plant phenotype. This function is used to rank different alternative phenotypes (algorithm detailed below).
+And this could be extended to herbivory or frost risks. To take into account all these components, and take advantage of having all processes already made explicit by the implementation in the model, the daily processes of senescence and production are recalculated according to the \textbf{estimation of conditions} and the plant phenotype (see figure \ref{fig:alloc_algo}, second panel).\\
+\indent If we can expect similar response than the fixed trait equilibrium if we suppose that the equilibrium is the main aspect of plant performance, global efficiency being considered in this case the result may vary.
 
-\textbf{Plastic trait equilibrium:} An alternative approach can be easily derived from the previous one and extend the principle of the first: the functional equilibrium with plastic traits. This approach consists in using the same algorithm as before but rank phenotypes with a function negatively correlated to the difference between estimated shoot and root activity. Such mechanism would nonetheless require the algorithm to look for close solutions within the allocation space to avoid convergence or drift from species strategy. Having non zero cost of plasticity in this approach should limit the drifting of the plant phenotype.
 
-\textbf{Fixed trait optimisation:} This algorithm takes the idea of the optimisation algorithm but limits the plastic traits to the RSR ratio. If we can expect similar response than the fixed trait equilibrium if we suppose that the equilibrium is the main aspect of plant performance, global efficiency being considered in this case the result may vary.
+\textbf{Plastic trait allocation:} As the fixed trait optimisation the objective function is the daily growth of the individual, but the plastic dimensions are extended to SLA and SRL. This algorithm is expected to have the best growth rates, but could lead to high convergence.
 
-\paragraph{Plastic algorithm}
-
-Alternative phenotypes are computed from the actual phenotype and random uniform distribution of available organic matter to the main active and structural carbon pools of the plant.\sidenote{talk about the order senescence production, and the way exchange rates are computed.} ... This algorithm has the advantage of being relatively cheap compare to other optimization functions, however its performances are variables and it is very sensitive to the number of samples used. As a consequence there is a trade-off between model stability and performance as a function of number of samples (\textit{i.e.} alternative phenotypes) considered.
-\begin{figure}
-\includegraphics{./Figures/phenotype_ranking_t.pdf}
-\caption{Algorithm for the evaluation and selection of randomly generated alternative phenotypes.}
-\end{figure}
 
 \paragraph{Plasticity cost}
-The limits and costs of plasticity has long been discussed in related litterature. If \model is intended to be used to examine ecological costs and limits, it has to include physiological aspects of plasticity limits. There are two physiological processes involved in the mechanism of altering a phenotype based on changes in external conditions: sensing and signalling. 'Sensing' relates to the capacity of the individual to perceive environmental conditions. This is related to capacity of the individual to perceive the environment and should therefore be considered constant over time. To take into account the cost of precise sensing, the first component of the plastcitiy cost is proportional to $\tau$.\\
+The limits and costs of plasticity has long been discussed in related literature. If \model is intended to be used to examine ecological costs and limits, it has to include physiological aspects of plasticity limits. There are two physiological processes involved in the mechanism of altering a phenotype based on changes in external conditions: sensing and signalling. 'Sensing' relates to the capacity of the individual to perceive environmental conditions. This is related to capacity of the individual to perceive the environment and should therefore be considered constant over time. To take into account the cost of precise sensing, the first component of the plastcitiy cost is proportional to $\tau$.\\
 The other component is related to the capacity of the plant to transmit this knowledge of conditions to change the development plan toward a new phenotype. This cost is proportional to the carbon based distance (calculated as the difference between proportion of active tissues) between the default phenotype and the alternative (during allocation algorithm) or current phenotype.\sidenote{We could imagine cost based not on the default, but previous phenotype, but it would have lead to large phenotypic shifting and convergence.}\\
 Plasticity cost is the sum of both component and is proportional to the total biomass since most of tissues should have the appropriated cell machinery and are affected b plasticity.
 \begin{align}

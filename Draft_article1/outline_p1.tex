@@ -1,0 +1,125 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Custom commands:
+\newcommand{\model}{\textbf{\textit{MountGrass}}~}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Outline paper 1}
+\tnotetext[mytitlenote]{Fully documented templates are available in the elsarticle package on \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
+
+%% Group authors per affiliation:
+\author{Elsevier\fnref{myfootnote}}
+\address{Radarweg 29, Amsterdam}
+\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+\author[mymainaddress,mysecondaryaddress]{Elsevier Inc}
+\ead[url]{www.elsevier.com}
+
+\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{support@elsevier.com}
+
+\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+\end{abstract}
+
+\begin{keyword}
+\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+
+\section{Introduction}
+
+\section{The model}
+
+The active-structural allocation trade-off, base of multi-dimensional strategy space.\\
+Spatially explicit light and water competition (with spatial heterogeneity for water).\\
+
+Phenotypic plasticity in allocation: objective functions and plastic dimensions and momery.\\
+
+\section{Results}
+\subsection{Calibration}
+
+\subsection{Basic plasticity allocation behaviour} (here or in the Thesis, needed anyway).
+Evolution of carbon pools and eventually traits between the different algorithms.
+
+\subsection{Response to a gradient}
+
+Hypothesis: More conservative strategies will have better 
+20*20 root strategies,  along 20 water gradient\\
+Show the ability of the model to have different optimum depending on the resource availability. Needed for heterogeneity to have a positive impact on functional diversity. The effect is a bit weak, but should be enough.\\
+Phenotypic plasticity doesn't change a lot (but already caped for gradient high part).\\
+
+Water availability memory is need for equilibrium, check if there is a good alignment between memory and water availability.\\
+
+there is a little offset toward higher w_ini, probably because invest more in shoot tissues with higher organ efficiency. Lost from not being at the equilibrium should be the same.
+
+\subsection{Study of a parameter space}
+
+strategy space (15^3 strategies) * 20 parameters * 2 conditions (high resources and low resources: 1/4)\\
+Does plasticity work ? Could it improve coexistence and limit invasion ?\\
+is there an overlapping between the best performer strategies (for a given position in the 2D space, within 0.9-1 relative perf) between the two conditions. Does that change with plasticity ? - plasticity make the plant explore less space and potentially miss niches.\\
+Look at overlapping of "equivalent strategies".\\
+
+\subsection{Response to variable environment}
+No particular benefit of plasticity but going to a better strategy sub-space. Even between best strategies, plastic plant should have advantage over the non plastic ones.\\
+
+Hyp: the time variability of the resource may lead to different optimum phenotype despite the same average because of evaporation and feedback on resource: the average realised water availability may change.% (look at mean(water_av)). (equivalent to diversity).
+This effect should be reduced by plasticity that will promote tissue efficiency over equilibrium.\\
+
+Hyp: plasticity advantage is better perceived in variable environment. Increasing temporal variability of water resource should increase the advantage of plastic plants over best non plastic plant.\\
+
+\end{document}
