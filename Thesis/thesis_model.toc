@@ -1,64 +1,284 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {part}{I\hspace {1em}Introduction}{5}{part.1}
-\contentsline {chapter}{\numberline {1}Objectives}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Generic framework for modelling of plant communities}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Effect of phenotypic plasticity on plant community dynamics}{7}{section.1.2}
-\contentsline {paragraph}{Individual level}{7}{paragraph*.1}
-\contentsline {paragraph}{Community response to drought event}{7}{paragraph*.2}
-\contentsline {chapter}{\numberline {2}Litterature review}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Context: mountain grasslands and climate change}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Diversity and coexistence mechanisms}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Effects of diversity}{11}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Mechanisms for coexistence and strategies}{11}{subsection.2.2.2}
-\contentsline {paragraph}{Strategy space and trade-off}{11}{paragraph*.3}
-\contentsline {paragraph}{about trade-off}{11}{paragraph*.4}
-\contentsline {section}{\numberline {2.3}global change and community dynamics: theory and empirical results}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Community dynamics: from individuals to group dynamics}{11}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Intra-specific variability}{11}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Understanding phenotypic plasticity}{11}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Existing modelling solutions and approaches to question global change effect on vegetation community}{12}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Modelling vegetation - traits and strategies}{12}{subsection.2.4.1}
-\contentsline {part}{II\hspace {1em}Modelling alpine grasslands: genericity and plasticity}{13}{part.2}
-\contentsline {chapter}{\numberline {1}Mechanistic model for plant community dynamics centred around carbon allocation}{15}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{15}{section.1.1}
-\contentsline {section}{\numberline {1.2}Strategy space and allocation pools}{15}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Allocation or anatomy: a choice to make}{15}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Model overview}{15}{section.1.3}
-\contentsline {paragraph}{pseudo-code and routine}{15}{paragraph*.5}
-\contentsline {paragraph}{allocation}{15}{paragraph*.6}
-\contentsline {section}{\numberline {1.4}Plasticity: between species memory and individual experience}{15}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Concepts}{15}{subsection.1.4.1}
-\contentsline {paragraph}{Memory}{15}{paragraph*.7}
-\contentsline {paragraph}{Equilibrium and efficiency}{16}{paragraph*.8}
-\contentsline {paragraph}{Optimum, strategy and memory}{16}{paragraph*.9}
-\contentsline {paragraph}{Condition estimation}{16}{paragraph*.10}
-\contentsline {subsection}{\numberline {1.4.2}Implementation}{16}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}comparison of different algorithms}{16}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Parameter filtering and sensitivity analysis}{16}{section.1.5}
-\contentsline {section}{\numberline {1.6}Community dynamics parametrisation}{17}{section.1.6}
-\contentsline {chapter}{\numberline {2}Results: Model's properties and individuals response}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}Craft a trade-of and phenotypic map}{19}{section.2.1}
-\contentsline {section}{\numberline {2.2}Niche response}{19}{section.2.2}
-\contentsline {section}{\numberline {2.3}Transitivity and competition}{19}{section.2.3}
-\contentsline {chapter}{\numberline {3}The effect of phenotypic plasticity on plant community dynamics}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Individual resistance and resilience against drought events}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Community response to drought event}{21}{section.3.2}
-\contentsline {part}{III\hspace {1em}Synthesis \& Outlook}{23}{part.3}
-\contentsline {section}{\numberline {3.3}Notes}{25}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}On modelling}{25}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}Include nitrogen: source of trade-off}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Stable coexistence: the need for a resource dependent tissue efficiency}{27}{section.4.1}
-\contentsline {chapter}{\numberline {5}Specific resistance carbon pools: diversify strategies (and memory)}{29}{chapter.5}
-\contentsline {chapter}{\numberline {6}Land-use: a important driver}{31}{chapter.6}
-\contentsline {section}{\numberline {6.1}Proto-model of management}{31}{section.6.1}
-\contentsline {section}{\numberline {6.2}Individual and collective response}{31}{section.6.2}
-\contentsline {section}{\numberline {6.3}Remaining questions}{31}{section.6.3}
-\contentsline {chapter}{\numberline {7}Local adaptation and epigenetic: between species and individual memory}{33}{chapter.7}
-\contentsline {chapter}{\numberline {8}Making it all fun}{35}{chapter.8}
-\contentsline {section}{\numberline {8.1}Documentation and vignette}{35}{section.8.1}
-\contentsline {section}{\numberline {8.2}Fun and simple simulations}{35}{section.8.2}
-\contentsline {section}{\numberline {8.3}Theme and shiny ?}{35}{section.8.3}
-\contentsline {part}{IV\hspace {1em}Rambling}{39}{part.4}
-\contentsline {chapter}{\numberline {9}Evolution, physiology and justification}{41}{chapter.9}
-\contentsline {chapter}{\numberline {10}About efficiency, equilibrium and optimum}{43}{chapter.10}
-\contentsline {chapter}{\numberline {11}The dead end plasticity}{45}{chapter.11}
+\defcounter {refsection}{1}\relax 
+\contentsline {chapter}{\numberline {1}Context}{7}{chapter.I.chapter.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {1.1}Global change: how to describe the future of alpine ecosystems}{7}{section.I.section.1.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {1.1.1}The value of ecosystems}{7}{subsection.I.section.1.1.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Global change}{7}{subsection.I.section.1.1.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {1.1.3}The need for mechanistic models}{7}{subsection.I.section.1.1.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {1.2}Community dynamics: complexity emerging from the parts and the role of phenotypic plasticity}{7}{section.I.section.1.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {1.2.1}The limit of classic patterns}{7}{subsection.I.section.1.2.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {1.2.2}The rise of individual-based approaches}{7}{subsection.I.section.1.2.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {1.2.3}When phenotypic plasticity makes things complicated}{7}{subsection.I.section.1.2.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {chapter}{\numberline {2}Aims, Objectives and Overview}{7}{chapter.I.chapter.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {2.1}Aims: functioning, diversity and flexibility}{7}{section.I.section.2.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {2.2}Objectives: an agent-based model for plant community dynamics}{8}{section.I.section.2.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Generic framework for multi-species and plastic plant modelling}{8}{subsection.I.section.2.2.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Effect of phenotypic plasticity on plant growth and community dynamics}{8}{subsection.I.section.2.2.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {paragraph}{Individual level}{8}{paragraph*.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {paragraph}{Community level}{8}{paragraph*.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {2.3}Thesis overview}{8}{section.I.section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{II\hspace {1em}Background: community dynamics, traits and phenotypic plasticity}{11}{part.2}
+\defcounter {refsection}{2}\relax 
+\contentsline {chapter}{\numberline {1}Understanding community dynamics: drivers and theories of coexistence}{13}{chapter.II.chapter.1}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {1.1}The mystery of coexistence}{13}{section.II.section.1.1}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {1.2}Abiotic and biotic factors: from potential to realised niche}{13}{section.II.section.1.2}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {1.3}The complexity of coexistence}{13}{section.II.section.1.3}
+\defcounter {refsection}{2}\relax 
+\contentsline {chapter}{\numberline {2}Considering strategies and functional traits}{13}{chapter.II.chapter.2}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {2.1}The continuity of functional ecology}{14}{section.II.section.2.1}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {2.2}How trade-offs make strategy space}{14}{section.II.section.2.2}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {2.3}Modelling diverse plant community}{14}{section.II.section.2.3}
+\defcounter {refsection}{2}\relax 
+\contentsline {chapter}{\numberline {3}The importance of intra-specific variability}{14}{chapter.II.chapter.3}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {3.1}Intra-specific variations change the rules}{14}{section.II.section.3.1}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {3.2}Phenotypic plasticity: a specific case}{15}{section.II.section.3.2}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {3.3}Beyond the mean and the bell-shape: for more mechanisms in intra-specific variability}{15}{section.II.section.3.3}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {3.4}For an integrative framework of plant strategy and phenotypic plasticity}{15}{section.II.section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{III\hspace {1em}Modelling alpine grasslands with MountGrass a generic framework integrating phenotypic plasticity}{17}{part.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{\numberline {1}Alpine environment: conditions, resources and perturbations}{19}{chapter.III.chapter.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1.1}The scale of alpine grasslands}{19}{section.III.section.1.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1.2}Resources: light and water}{19}{section.III.section.1.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {1.3}Perturbations: frost, grazing and cutting}{19}{section.III.section.1.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{\numberline {2}Multi-dimension strategy space, carbon pools and trade-offs}{19}{chapter.III.chapter.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {2.1}Multi-dimension strategy space and allocation pools}{19}{section.III.section.2.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {2.1.1}The strategy space in \textit {\texttt {MountGrass }}}{19}{subsection.III.section.2.1.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{What is a strategy space}{19}{paragraph*.4}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {2.2}Craft a trade-off and define the phenotype}{22}{section.III.section.2.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{gain as function of conditions}{22}{paragraph*.5}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Memory of species: a driving trait}{23}{paragraph*.6}
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{\numberline {3}Model phenotypic plasticity}{23}{chapter.III.chapter.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.1}Plasticity as a strategy: between species memory and individual experience}{23}{section.III.section.3.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Projection of external conditions: between species memory and individual experience}{24}{subsection.III.section.3.1.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {3.1.2}On the difficulty to match strategy and conditions.}{24}{subsection.III.section.3.1.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.2}Driving rules of allocation}{24}{section.III.section.3.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{\numberline {4}The model}{24}{chapter.III.chapter.4}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {4.1}Model overview}{25}{section.III.section.4.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Model purpose}{25}{subsection.III.section.4.1.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.1.2}State variables}{25}{subsection.III.section.4.1.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Scales}{25}{paragraph*.7}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Plants}{26}{paragraph*.8}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Species}{26}{paragraph*.9}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Seed-bank}{28}{paragraph*.10}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Soil}{28}{paragraph*.11}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Process overview and scheduling}{28}{subsection.III.section.4.1.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {4.2}Design concepts}{29}{section.III.section.4.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Design concepts}{29}{subsection.III.section.4.2.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Emergence}{29}{paragraph*.12}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Adaptation}{29}{paragraph*.13}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Fitness}{29}{paragraph*.14}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Prediction}{30}{paragraph*.15}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {4.3}Details}{30}{section.III.section.4.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Initialisation}{31}{subsection.III.section.4.3.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Inputs}{31}{subsection.III.section.4.3.2}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Submodels}{31}{subsection.III.section.4.3.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Germination}{31}{paragraph*.16}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Light competition}{32}{paragraph*.17}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Stomatal regulation}{33}{paragraph*.18}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Evaporation}{33}{paragraph*.19}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Water competition}{33}{paragraph*.20}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Production, and respiration}{34}{paragraph*.21}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Temperature effect}{34}{paragraph*.22}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Condition estimation}{34}{paragraph*.23}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Allocation}{35}{paragraph*.24}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Plastic algorithm}{38}{paragraph*.25}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Plasticity cost}{38}{paragraph*.26}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Trait update}{39}{paragraph*.27}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Senescence}{39}{paragraph*.28}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Death}{40}{paragraph*.29}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Reproduction \& persistence}{40}{paragraph*.30}
+\defcounter {refsection}{3}\relax 
+\contentsline {paragraph}{Grazing/cutting}{41}{paragraph*.31}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {4.4}Limitations and problems}{41}{section.III.section.4.4}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Link to the real world and data}{41}{subsection.III.section.4.4.1}
+\defcounter {refsection}{3}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Technical problems}{41}{subsection.III.section.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IV\hspace {1em}Individual performance: strategy and plasticity}{47}{part.4}
+\defcounter {refsection}{4}\relax 
+\contentsline {chapter}{\numberline {1}Results: Model's properties and individuals response}{49}{chapter.IV.chapter.1}
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {1.1}Parameter filtering and sensitivity analysis}{49}{section.IV.section.1.1}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Method}{49}{subsection.IV.section.1.1.1}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Pot data}{49}{paragraph*.33}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Individual calibration process}{49}{paragraph*.34}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Results}{50}{subsection.IV.section.1.1.2}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Individual calibration}{50}{paragraph*.35}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Acceptance rate}{51}{paragraph*.36}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Sensitivity}{51}{paragraph*.37}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Root shoot ratio and plasticity}{51}{paragraph*.38}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.1.3}Discussion}{51}{subsection.IV.section.1.1.3}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Growth and strategy space}{51}{paragraph*.39}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{}{51}{paragraph*.40}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{}{51}{paragraph*.41}
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {1.2}Individual level behaviour and properties}{51}{section.IV.section.1.2}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Method}{51}{subsection.IV.section.1.2.1}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Strategy diversity filtering}{51}{paragraph*.42}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Simulation setup}{51}{paragraph*.43}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Results}{52}{subsection.IV.section.1.2.2}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Discussion}{52}{subsection.IV.section.1.2.3}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Allocation rules, plasticity and performance}{52}{paragraph*.44}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Fast slow strategy and allocation trade-off}{52}{paragraph*.45}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Memory and phenotypes}{52}{paragraph*.46}
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {1.3}Performance landscape, plasticity and response to a gradient}{52}{section.IV.section.1.3}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Method}{52}{subsection.IV.section.1.3.1}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Results}{52}{subsection.IV.section.1.3.2}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Discussion}{52}{subsection.IV.section.1.3.3}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Convergence to subspace}{52}{paragraph*.47}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Improvement in variable conditions}{52}{paragraph*.48}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Heterogeneity of response}{52}{paragraph*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{V\hspace {1em}Community dynamics}{55}{part.5}
+\defcounter {refsection}{5}\relax 
+\contentsline {chapter}{\numberline {1}Community level calibration}{57}{chapter.V.chapter.1}
+\defcounter {refsection}{5}\relax 
+\contentsline {section}{\numberline {1.1}Method}{57}{section.V.section.1.1}
+\defcounter {refsection}{5}\relax 
+\contentsline {paragraph}{Field calibration}{57}{paragraph*.50}
+\defcounter {refsection}{5}\relax 
+\contentsline {paragraph}{Field data}{57}{paragraph*.51}
+\defcounter {refsection}{5}\relax 
+\contentsline {paragraph}{Weather data}{57}{paragraph*.52}
+\defcounter {refsection}{5}\relax 
+\contentsline {section}{\numberline {1.2}Results}{57}{section.V.section.1.2}
+\defcounter {refsection}{5}\relax 
+\contentsline {chapter}{\numberline {2}Plasticity: a winning strategy ?}{57}{chapter.V.chapter.2}
+\defcounter {refsection}{5}\relax 
+\contentsline {chapter}{\numberline {3}Plasticity mechanism of coexistence}{57}{chapter.V.chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{VI\hspace {1em}Synthesis \& Outlook}{59}{part.6}
+\defcounter {refsection}{6}\relax 
+\contentsline {chapter}{\numberline {1}Synthesis}{61}{chapter.VI.chapter.1}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {1.1}Phenotypic plasticity...}{61}{section.VI.section.1.1}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {1.2}The limit of the species.}{61}{section.VI.section.1.2}
+\defcounter {refsection}{6}\relax 
+\contentsline {chapter}{\numberline {2}Outlook}{62}{chapter.VI.chapter.2}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {2.1}Plasticity and resistance to climatic events}{62}{section.VI.section.2.1}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {2.2}\IeC {\textbullet }}{62}{section.VI.section.2.2}
+\defcounter {refsection}{6}\relax 
+\contentsline {chapter}{\numberline {3}Extensions}{63}{chapter.VI.chapter.3}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {3.1}Include nitrogen: source of trade-off}{63}{section.VI.section.3.1}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {3.2}Stable coexistence: the need for a resource dependent tissue efficiency}{63}{section.VI.section.3.2}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {3.3}Specific resistance carbon pools: diversify strategies (and memory)}{64}{section.VI.section.3.3}
+\defcounter {refsection}{6}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Resistance carbon pools}{64}{subsection.VI.section.3.3.1}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {3.4}Local adaptation and epigenetic: between species and individual memory}{64}{section.VI.section.3.4}
 \contentsfinish 

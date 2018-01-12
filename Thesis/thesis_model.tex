@@ -3,7 +3,7 @@
 %\let\marginpar\marginnote
 \let\marginnote\undefined
 
-\documentclass[a4paper, notoc, justified,marginals=raggedouter, nobib]{tufte-book}
+\documentclass[a4paper, notoc, justified,marginals=left, nobib]{tufte-book}
 
 
 \usepackage[utf8]{inputenc}
@@ -21,9 +21,11 @@
 \usepackage{booktabs}
 
 \usepackage{lipsum}
-
+\usepackage{hyperref}
 
 \usepackage{pdfpages} % insert the papers pdf in the text.
+
+ \usepackage{gensymb} %°C
 
 % make footnotes and sidenotes counters be reset per page
 \usepackage{perpage} %the perpage package
@@ -32,9 +34,27 @@
 
 
 
-% for proper citation styling
-\usepackage{natbib}
-\setcitestyle{authoryear}
+%% for proper citation styling
+%\usepackage{natbib}
+%\setcitestyle{authoryear}
+
+% for split bibliography
+\usepackage[sorting=none, backend=biber]{biblatex}
+
+ \addbibresource{../Bibliography/bib_zotero20171106.bib}
+
+
+%% avoid page break before chapter:
+%\usepackage{etoolbox}
+%\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+
+\makeatletter %keeps latex from stumbling over @ signs
+\renewcommand\chapter{\thispagestyle{plain}%
+\global\@topnum\z@
+\@afterindentfalse
+\secdef\@chapter\@schapter}
+\makeatother % resets @ signs to their normal usage in latex.
+
 
 \usepackage{xcolor}
 \definecolor{myOrange}{HTML}{F37820}
@@ -65,15 +85,23 @@
 % Commands use to make the title page and page headers
 \title{PhD Thesis}
 \author{Clément Viguier}
+ \newcommand{\model}{\textit{\texttt{MountGrass }}}
+ 
+ \newcommand{\version}{\texttt{MountGrass2.0}}
 
 % Commands use through the document
-\newcommand{\model}{\smallcaps{MountGrass}}
+%\newcommand{\model}{\smallcaps{MountGrass}}
 \newcommand{\fwnewthought}[1]{\begin{fullwidth}\newthought{#1}\end{fullwidth}}
 
 % Headers:
 
-\lhead[\leftmark]{ }
-\rhead[]{ \rightmark}
+%\lhead[\leftmark]{ }
+%\rhead[]{ \rightmark}
+\renewcommand{\chaptermark}[1]{ \markboth{\thechapter.\ #1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{\ #1}{} }
+
+\lhead[\thepage]{}
+\rhead[\thepart ~- \leftmark]{ \thepage}
 
 % Include documents for graphical aspects
 % Color
@@ -81,6 +109,7 @@
 % Graph settings
 \input{../latex_settings/graph_settings}
 
+\input{../Model_description/parameters}
 % Titles settings
 %\input{../latex_settings/titles_settings}
 
@@ -90,6 +119,9 @@
 % Change the depth of section numbering and table of content to allow proper numbering
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{1}
+% avoid hyperref link ambiguity added by setcounter(0) by concatenating \thepart to the link
+\renewcommand{\theHsection}{\thepart.section.\thesection} 
+\renewcommand{\theHchapter}{\thepart.chapter.\thechapter} 
 
 \begin{document}
 
@@ -101,39 +133,102 @@
 \tableofcontents
 
 \part{Introduction}
-
+\begin{refsection}
 \include{./0_Objectives/Objectives}
 
+\begin{fullwidth}
+\printbibliography[heading=bibliography] 
+\end{fullwidth}
+\end{refsection}
+
+%____________________________________________________________
+\part{Background: community dynamics, traits and phenotypic plasticity}
+\begin{refsection}
+\setcounter{chapter}{0}
 
 \include{./1_Introduction/Introduction}
 
-\part{Modelling alpine grasslands: genericity and plasticity}
+\begin{fullwidth}
+\printbibliography[heading=bibliography] 
+\end{fullwidth}
+\end{refsection}
+
+
+%____________________________________________________________
+\part{Modelling alpine grasslands with MountGrass a generic framework integrating phenotypic plasticity}
 \setcounter{chapter}{0}
+\begin{refsection}
+
 %\includepdf[pages=-, width = 21cm]{../Draft_article1/plan1.pdf}
 
 \include{./2_PP/Generic_model}
+
+
+\begin{fullwidth}
+\printbibliography[heading=bibliography] 
+\end{fullwidth}
+\end{refsection}
+
+
+%____________________________________________________________
+\part{Individual performance: strategy and plasticity}
+
+\begin{refsection}
+\setcounter{chapter}{0}
 \include{./2_PP/Individual_level}
 
+\begin{fullwidth}
+\printbibliography[heading=bibliography] 
+\end{fullwidth}
+\end{refsection}
+
+%____________________________________________________________
+\part{Community dynamics}
+
+\begin{refsection}
+\setcounter{chapter}{0}
 %\part{Application of \model: resistance of alpine mountain grasslands to drought}
 \include{./2_PP/Community_dynamics}
 
+\begin{fullwidth}
+\printbibliography[heading=bibliography] 
+\end{fullwidth}
+\end{refsection}
+
+%____________________________________________________________
 \part{Synthesis \& Outlook}
+\setcounter{chapter}{0}
+\begin{refsection}
 
-%
+\include{./3_Synthesis/synthesis}
+\include{./3_Synthesis/outlook}
+\include{./3_Synthesis/extensions}
+
+\begin{fullwidth}
+\printbibliography[heading=bibliography] 
+\end{fullwidth}
+\end{refsection}
+%%
 %\part{Extend mountgrass}
+%
+%\begin{refsection}
 %\setcounter{chapter}{0}
-\include{./99_Extensions/Extensions}
-
+%\include{./3_Synthesis/extensions}
+%
+%\begin{fullwidth}
+%\printbibliography[heading=bibliography] 
+%\end{fullwidth}
+%\end{refsection}
 
 % \nocite{TitlesOn}
-\bibliographystyle{cell}
+%\bibliographystyle{cell}
 
 %\bibliographystyle{plainnat}
- \bibliography{../Bibliography/bib_zotero20171106}
+% \bibliography{../Bibliography/bib_zotero20171106}
  
 
 %Rambling
-\include{./rambling}
+%\include{./rambling}
 
 
 

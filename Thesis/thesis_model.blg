@@ -1,10 +1,37 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis_model.aux
-A level-1 auxiliary file: ./0_Objectives/Objectives.aux
-A level-1 auxiliary file: ./1_Introduction/Introduction.aux
-A level-1 auxiliary file: ./2_PP/Generic_model.aux
-A level-1 auxiliary file: ./2_PP/Individual_level.aux
-A level-1 auxiliary file: ./2_PP/Community_dynamics.aux
-A level-1 auxiliary file: ./99_Extensions/Extensions.aux
-The style file: cell.bst
-A level-1 auxiliary file: ./rambling.aux
-Database file #1: ../Bibliography/bib_zotero20171106.bib
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'thesis_model.blg'
+[27] biber-MSWIN64:303> INFO - === 
+[50] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
+[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 1
+[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 2
+[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[135] Biber.pm:835> INFO - Found 32 citekeys in bib section 3
+[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[136] Biber.pm:835> INFO - Found 0 citekeys in bib section 4
+[136] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[136] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
+[136] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[136] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
+[136] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[185] Biber.pm:3670> INFO - Processing section 3
+[204] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 3
+[348] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[599] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
+[762] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[762] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[763] Utils.pm:164> WARN - I didn't find a database entry for 'tjoelker_linking_2015' (section 3)
+[763] Utils.pm:164> WARN - I didn't find a database entry for 'freschet' (section 3)
+[763] Utils.pm:164> WARN - I didn't find a database entry for 'kleidon' (section 3)
+[763] Utils.pm:164> WARN - I didn't find a database entry for 'reich' (section 3)
+[763] Utils.pm:164> WARN - I didn't find a database entry for 'westoby' (section 3)
+[763] Utils.pm:164> WARN - I didn't find a database entry for 'lohier' (section 3)
+[763] Utils.pm:164> WARN - I didn't find a database entry for 'soussana' (section 3)
+[784] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[784] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[784] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[784] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[803] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
+[814] bbl.pm:712> INFO - Output to thesis_model.bbl
+[814] Biber.pm:109> INFO - WARNINGS: 9

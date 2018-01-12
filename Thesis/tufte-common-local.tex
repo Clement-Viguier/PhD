@@ -9,7 +9,7 @@
  
  \titleclass{\chapter}{top}
 \titleformat{\chapter}%
-  [display]% shape
+  [block]% shape
   {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
   {\Huge\thechapter}% label
   {1em}% horizontal separation between label and title body
@@ -21,7 +21,7 @@
   {\sffamily\LARGE\color{myGreen}}% format applied to label+text
   {}% label
   {1em}% horizontal separation between label and title body
-  {\thesection\hspace{0.6em}}% before the title body
+  {\thesection\hspace{0.3em}}% before the title body
   []% after the title body
 
 \titleformat{\subsection}%
@@ -29,7 +29,7 @@
   {\sffamily\Large}% format applied to label+text
   {}% label
   {1em}% horizontal separation between label and title body
-  {\thesubsection\hspace{0.6em}}% before the title body
+  {\thesubsection\hspace{0.3em}}% before the title body
   []% after the title body
 
 \titleformat{\paragraph}%
@@ -44,6 +44,6 @@
   
 \renewenvironment{quote}{\itshape\large \hspace{2em}}{ \vspace{0.5em}\\}
 
-\geometry{a4paper,left=24.8mm,top=27.4mm,headsep=2\baselineskip,textwidth=117mm,marginparsep=4.2mm,marginparwidth=44.4mm,textheight=49\baselineskip,headheight=\baselineskip}
+\geometry{a4paper,left=16.8mm,top=27.4mm,headsep=2\baselineskip,textwidth=125mm,marginparsep=4.2mm,marginparwidth=44.4mm,textheight=49\baselineskip,headheight=\baselineskip}
 %\geometry{a4paper,left=24.8mm,top=27.4mm,headsep=2\baselineskip,textwidth=107mm,marginparsep=8.2mm,marginparwidth=49.4mm,textheight=49\baselineskip,headheight=\baselineskip}
 
