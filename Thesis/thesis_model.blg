@@ -1,37 +1,37 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis_model.blg'
-[27] biber-MSWIN64:303> INFO - === 
-[48] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
-[132] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[132] Biber.pm:835> INFO - Found 0 citekeys in bib section 1
-[132] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[132] Biber.pm:835> INFO - Found 0 citekeys in bib section 2
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[133] Biber.pm:835> INFO - Found 32 citekeys in bib section 3
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 4
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
-[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[184] Biber.pm:3670> INFO - Processing section 3
-[202] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 3
-[345] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[592] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
-[768] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[768] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[769] Utils.pm:164> WARN - I didn't find a database entry for 'tjoelker_linking_2015' (section 3)
-[769] Utils.pm:164> WARN - I didn't find a database entry for 'freschet' (section 3)
-[769] Utils.pm:164> WARN - I didn't find a database entry for 'kleidon' (section 3)
-[769] Utils.pm:164> WARN - I didn't find a database entry for 'reich' (section 3)
-[769] Utils.pm:164> WARN - I didn't find a database entry for 'westoby' (section 3)
-[769] Utils.pm:164> WARN - I didn't find a database entry for 'lohier' (section 3)
-[769] Utils.pm:164> WARN - I didn't find a database entry for 'soussana' (section 3)
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[789] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[789] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[808] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
-[818] bbl.pm:712> INFO - Output to thesis_model.bbl
-[819] Biber.pm:109> INFO - WARNINGS: 9
+[29] biber-MSWIN64:303> INFO - === 
+[51] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
+[138] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[138] Biber.pm:835> INFO - Found 0 citekeys in bib section 1
+[138] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[138] Biber.pm:835> INFO - Found 0 citekeys in bib section 2
+[138] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[138] Biber.pm:835> INFO - Found 32 citekeys in bib section 3
+[138] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[139] Biber.pm:835> INFO - Found 0 citekeys in bib section 4
+[139] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[139] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
+[139] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[139] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
+[139] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[190] Biber.pm:3670> INFO - Processing section 3
+[208] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 3
+[359] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[615] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
+[785] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[785] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[785] Utils.pm:164> WARN - I didn't find a database entry for 'tjoelker_linking_2015' (section 3)
+[786] Utils.pm:164> WARN - I didn't find a database entry for 'freschet' (section 3)
+[786] Utils.pm:164> WARN - I didn't find a database entry for 'kleidon' (section 3)
+[786] Utils.pm:164> WARN - I didn't find a database entry for 'reich' (section 3)
+[786] Utils.pm:164> WARN - I didn't find a database entry for 'westoby' (section 3)
+[786] Utils.pm:164> WARN - I didn't find a database entry for 'lohier' (section 3)
+[786] Utils.pm:164> WARN - I didn't find a database entry for 'soussana' (section 3)
+[806] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[806] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[806] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[806] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[825] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
+[836] bbl.pm:712> INFO - Output to thesis_model.bbl
+[836] Biber.pm:109> INFO - WARNINGS: 9

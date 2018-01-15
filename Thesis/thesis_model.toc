@@ -12,7 +12,7 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {1.1.3}The need for mechanistic models}{1}{subsection.I.section.1.1.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1.2}Community dynamics: complexity emerging from the parts and the role of phenotypic plasticity}{1}{section.I.section.1.2}
+\contentsline {section}{\numberline {1.2}Community dynamics: complexity emerging from parts and the role of phenotypic plasticity}{1}{section.I.section.1.2}
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {1.2.1}The limit of classic patterns}{1}{subsection.I.section.1.2.1}
 \defcounter {refsection}{1}\relax 
@@ -22,9 +22,9 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {chapter}{\numberline {2}Aims, Objectives and Overview}{1}{chapter.I.chapter.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.1}Aims: functioning, diversity and flexibility}{1}{section.I.section.2.1}
+\contentsline {section}{\numberline {2.1}Aims: understanding and prediction}{1}{section.I.section.2.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.2}Objectives: an agent-based model for plant community dynamics}{2}{section.I.section.2.2}
+\contentsline {section}{\numberline {2.2}Objectives: a new agent-based model for plant community dynamics}{2}{section.I.section.2.2}
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Generic framework for multi-species and plastic plant modelling}{2}{subsection.I.section.2.2.1}
 \defcounter {refsection}{1}\relax 
@@ -40,11 +40,11 @@
 \defcounter {refsection}{2}\relax 
 \contentsline {chapter}{\numberline {1}Understanding community dynamics: drivers and theories of coexistence}{7}{chapter.II.chapter.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {1.1}The mystery of coexistence}{7}{section.II.section.1.1}
+\contentsline {section}{\numberline {1.1}The question of coexistence}{7}{section.II.section.1.1}
 \defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {1.2}Abiotic and biotic factors: from potential to realised niche}{7}{section.II.section.1.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {1.3}The complexity of coexistence}{7}{section.II.section.1.3}
+\contentsline {section}{\numberline {1.3}The complexity of community dynamics}{7}{section.II.section.1.3}
 \defcounter {refsection}{2}\relax 
 \contentsline {chapter}{\numberline {2}Considering strategies and functional traits}{7}{chapter.II.chapter.2}
 \defcounter {refsection}{2}\relax 
@@ -56,15 +56,15 @@
 \defcounter {refsection}{2}\relax 
 \contentsline {chapter}{\numberline {3}The importance of intra-specific variability}{8}{chapter.II.chapter.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.1}Intra-specific variations change the rules}{8}{section.II.section.3.1}
+\contentsline {section}{\numberline {3.1}Intra-specific variability change the rules}{8}{section.II.section.3.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.2}Phenotypic plasticity: a specific case}{9}{section.II.section.3.2}
+\contentsline {section}{\numberline {3.2}Phenotypic plasticity: a specific case of intra-specific variability}{9}{section.II.section.3.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.3}Beyond the mean and the bell-shape: for more mechanisms in intra-specific variability}{9}{section.II.section.3.3}
+\contentsline {section}{\numberline {3.3}Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}{9}{section.II.section.3.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.4}For an integrative framework of plant strategy and phenotypic plasticity}{9}{section.II.section.3.4}
+\contentsline {section}{\numberline {3.4}Toward an integrative framework of plant strategy and phenotypic plasticity}{9}{section.II.section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Modelling alpine grasslands with MountGrass a generic framework integrating phenotypic plasticity}{11}{part.3}
+\contentsline {part}{III\hspace {1em}Modelling alpine grasslands with MountGrass, a generic framework integrating phenotypic plasticity}{11}{part.3}
 \defcounter {refsection}{3}\relax 
 \contentsline {chapter}{\numberline {1}Alpine environment: conditions, resources and perturbations}{13}{chapter.III.chapter.1}
 \defcounter {refsection}{3}\relax 
@@ -72,11 +72,11 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {1.2}Resources: light and water}{13}{section.III.section.1.2}
 \defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {1.3}Perturbations: frost, grazing and cutting}{13}{section.III.section.1.3}
+\contentsline {section}{\numberline {1.3}Perturbations: frost, grazing and mowing}{13}{section.III.section.1.3}
 \defcounter {refsection}{3}\relax 
-\contentsline {chapter}{\numberline {2}Multi-dimension strategy space, carbon pools and trade-offs}{13}{chapter.III.chapter.2}
+\contentsline {chapter}{\numberline {2}Multi-dimensional strategy space, carbon pools and trade-offs}{13}{chapter.III.chapter.2}
 \defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {2.1}Multi-dimension strategy space and allocation pools}{13}{section.III.section.2.1}
+\contentsline {section}{\numberline {2.1}Multi-dimensional strategy space and allocation pools}{13}{section.III.section.2.1}
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {2.1.1}The strategy space in \textit {\texttt {MountGrass }}}{13}{subsection.III.section.2.1.1}
 \defcounter {refsection}{3}\relax 
@@ -90,7 +90,7 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {paragraph}{Memory of species: a driving trait}{17}{paragraph*.6}
 \defcounter {refsection}{3}\relax 
-\contentsline {chapter}{\numberline {3}Model phenotypic plasticity}{17}{chapter.III.chapter.3}
+\contentsline {chapter}{\numberline {3}Modelling phenotypic plasticity}{17}{chapter.III.chapter.3}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {3.1}Plasticity as a strategy: between species memory and individual experience}{17}{section.III.section.3.1}
 \defcounter {refsection}{3}\relax 
@@ -100,7 +100,7 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {3.2}Driving rules of allocation}{18}{section.III.section.3.2}
 \defcounter {refsection}{3}\relax 
-\contentsline {chapter}{\numberline {4}The model}{18}{chapter.III.chapter.4}
+\contentsline {chapter}{\numberline {4}ODD description of the model \textit {\texttt {MountGrass }}}{18}{chapter.III.chapter.4}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {4.1}Model overview}{19}{section.III.section.4.1}
 \defcounter {refsection}{3}\relax 
@@ -180,9 +180,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{IV\hspace {1em}Individual performance: strategy and plasticity}{41}{part.4}
 \defcounter {refsection}{4}\relax 
-\contentsline {chapter}{\numberline {1}Model's properties and individuals response}{43}{chapter.IV.chapter.1}
+\contentsline {chapter}{\numberline {1}Model properties and individual responses}{43}{chapter.IV.chapter.1}
 \defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {1.1}Parameter filtering and sensitivity analysis}{43}{section.IV.section.1.1}
+\contentsline {section}{\numberline {1.1}Parametrisation and sensitivity analysis}{43}{section.IV.section.1.1}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {1.1.1}Method}{43}{subsection.IV.section.1.1.1}
 \defcounter {refsection}{4}\relax 
@@ -246,7 +246,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{V\hspace {1em}Community dynamics}{49}{part.5}
 \defcounter {refsection}{5}\relax 
-\contentsline {chapter}{\numberline {1}Community level calibration}{51}{chapter.V.chapter.1}
+\contentsline {chapter}{\numberline {1}Community level parametrisation}{51}{chapter.V.chapter.1}
 \defcounter {refsection}{5}\relax 
 \contentsline {section}{\numberline {1.1}Method}{51}{section.V.section.1.1}
 \defcounter {refsection}{5}\relax 
