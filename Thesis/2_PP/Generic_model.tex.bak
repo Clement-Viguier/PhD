@@ -5,10 +5,6 @@ Paper 1:
 \section{Introduction}
 \section{Strategy space and allocation pools}
 Leaf economic spectrum + Shipley + Poorter
-
-\The multiple axis of \model. Reproduction, leaf, roots, geometry, frost. Not all combinations work, but there are probably co-selection: tool to explore ecological trade-offs (different from structural trade-offs).\\
-Also, not coexistence of all selection (see Barabas nature letter), but increasing the number of dimensions should allow more combinaison of trait. But, may be hard to ensure "neutrality" as you increase the number of dimensions, you may discover strong optima and therefore deccrease realised diversity despite larger potential diversity. (probably not at the good place since it is really more discussion than results).
-
 \subsection{Allocation or anatomy: a choice to make}
 what is SLA and SRL: cost of exchange area: tissue density, tissue thickness. Poorter 2009, grace2017, Katabuchi 2017, de la riva 2016\\
 THere is not only coordination -> part of RSR is explained by SRL:SLA\cite{freschet_explaining_2015}. Multiple source of information (memory) that affects these traits: composite traits that affect multiple fitness dimension -> memory not only for climate. -> but also coordination. More tight trade-off for root with smaller changes in SRL and more changes in RMF, the opposite for SLA. Need for a model that allow such asymmetry. 
@@ -43,22 +39,15 @@ Why the use of a sampling method: complex effect of allocation and complex alloc
 \subsection{comparison of different algorithms}
 full plasticity : freschet 2015 in poorter \& Ryser 2015
 the two sides of the performance/fitness: equilibrium and tissue efficiency\\
-age vs biomass.\\
-How the different algorithms react and how does they affect performance with tau = 1, and tau =0 ?\\
-Convergence of phenotypes.
+age vs biomass.
 
-\section{From individual performance to community dynamics}
-Mostly hypothesis and discussion on underlying mechanisms that drive the community dynamics and rarely discussed within theoretical models.
+\section{Parameter filtering and sensitivity analysis}
+Obj: give confidence in the model, demonstrate is able to reproduce simple growth pattern.\\
+Obj2: have a beter idea of plasticity on growth.
+growth plastic and non plastic parameter filtering: can we distinguish species thanks to species specific parameters instead of shared parameters.\\
+does plasticity make it easier ?\\
+Impact of plasticity related parameters.
 
-\subsection{The convergence of phenotypes: what effect on coexistence ?}
-
-
-\subsection{Who benefit from this plasticity: what does that mean for new communities ?}
-
-\subsection{Better performance, better resistance ?}
-lead to paper 2.
-
-\subsection{From invasion resistance to tipping point}
-Hyp: better resistance, intraspecific variability vs species turn-over.\\
-
-Can does that lead to tipping point ? should discuss that after the second paper).
+\section{Community dynamics parametrisation}
+Obj: demonstrate that the model is able to reproduce community dynamics (as it was designed for).\\
+Find parameters that allows coexistence (suggest plasticity should allow a diversity of strategy). SLA and height data. Phytosociology for 10m quadrats.

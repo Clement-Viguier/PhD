@@ -1,23 +1,13 @@
 \part{Rambling}
 
 
-\section{Evolution, physiology and justification}
+\chapter{Evolution, physiology and justification}
 
-\section{About efficiency, equilibrium and optimum}
+\chapter{About efficiency, equilibrium and optimum}
 
 Multidimension efficiency 
 
-\section{The dead end plasticity}
+\chapter{The dead end plasticity}
 
 WHen resource is limited in amount, the exchange rate is always overestimated that leads to plant exaustion. It would matter if the condition does not change, both plant would probably die quickly, but it does if conditions change. -> discussion about being patient or reactive, and when to pay the price... This should feed the discussion about the interest of plasticity as implemented here as a strategic factor.\\
-Arise from the instantaneous view of plasticity, that might not be selected. Reaction norm can give you plasticities that would not emerge from this system of rule, but could be selected in an evolutionary context.\\
-
-\section{Plasticity as a strategy}
-Plasticity is great, but has cost, does this cost affect how plasticity is selected by species ?\\
-
-Is there a co-selection of tau and resource-use strategy ? How does that vary with plasticity cost type, and variations of conditions ? test that at community scale for a given reproductive strategy. Also expect co-selection between strat and rep strat  ?
-
-\section{The problem with high dimension strategy space}
-
-The need for time for ecological filtering: filter strategies or combinations of strategies that do not work in the context of the model. Needed if you want a community that make sense. You don't want strong trade-off, and you want to avoid ridiculus strategies.\\
-Also it is a good tool to test the co-selection of strategies. Having trade-off but giving them more amplitude.
+Arise from the instantaneous view of plasticity, that might not be selected. Reaction norm can give you plasticities that would not emerge from this system of rule, but could be selected in an evolutionary context.
