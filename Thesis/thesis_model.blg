@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis_model.aux
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis_model.aux
 A level-1 auxiliary file: ./0_Objectives/Objectives.aux
 A level-1 auxiliary file: ./1_Introduction/Introduction.aux
 A level-1 auxiliary file: ./2_PP/Generic_model.aux
@@ -8,3 +10,44 @@ A level-1 auxiliary file: ./99_Extensions/Extensions.aux
 The style file: cell.bst
 A level-1 auxiliary file: ./rambling.aux
 Database file #1: ../Bibliography/bib_zotero20171106.bib
+You've used 3 entries,
+            2116 wiz_defined-function locations,
+            528 strings with 4728 characters,
+and the built_in function-call counts, 1202 in all, are:
+= -- 129
+> -- 43
+< -- 1
++ -- 15
+- -- 14
+* -- 124
+:= -- 196
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 13
+chr.to.int$ -- 2
+cite$ -- 12
+duplicate$ -- 36
+empty$ -- 83
+format.name$ -- 17
+if$ -- 233
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 29
+stack$ -- 0
+substring$ -- 108
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 0
+while$ -- 12
+width$ -- 0
+write$ -- 41
