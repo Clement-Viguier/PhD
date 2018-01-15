@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  15 JAN 2018 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  15 JAN 2018 12:35
 entering extended mode
 **./thesis_model.tex
 (thesis_model.tex
@@ -1920,7 +1920,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 3):
-(biblatex)                kleidon
+(biblatex)                reich
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1948,14 +1948,14 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 3):
-(biblatex)                freschet
+(biblatex)                kleidon
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 3):
-(biblatex)                reich
+(biblatex)                freschet
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -3004,7 +3004,7 @@ Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplri8a.pfb>
-Output written on thesis_model.pdf (66 pages, 2732111 bytes).
+Output written on thesis_model.pdf (66 pages, 2732113 bytes).
 PDF statistics:
  1224 PDF objects out of 1440 (max. 8388607)
  273 named destinations out of 1000 (max. 500000)
