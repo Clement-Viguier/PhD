@@ -3,7 +3,7 @@
 %\let\marginpar\marginnote
 \let\marginnote\undefined
 
-\documentclass[a4paper, notoc, justified,marginals=left, nobib]{tufte-book}
+\documentclass[a4paper, notoc, justified,marginals=raggedouter, nobib]{tufte-book}
 
 
 \usepackage[utf8]{inputenc}
@@ -21,11 +21,9 @@
 \usepackage{booktabs}
 
 \usepackage{lipsum}
-\usepackage{hyperref}
+
 
 \usepackage{pdfpages} % insert the papers pdf in the text.
-
- \usepackage{gensymb} %°C
 
 % make footnotes and sidenotes counters be reset per page
 \usepackage{perpage} %the perpage package
@@ -34,27 +32,9 @@
 
 
 
-%% for proper citation styling
-%\usepackage{natbib}
-%\setcitestyle{authoryear}
-
-% for split bibliography
-\usepackage[sorting=none, backend=biber]{biblatex}
-
- \addbibresource{../Bibliography/bib_zotero20171106.bib}
-
-
-%% avoid page break before chapter:
-%\usepackage{etoolbox}
-%\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
-
-\makeatletter %keeps latex from stumbling over @ signs
-\renewcommand\chapter{\thispagestyle{plain}%
-\global\@topnum\z@
-\@afterindentfalse
-\secdef\@chapter\@schapter}
-\makeatother % resets @ signs to their normal usage in latex.
-
+% for proper citation styling
+\usepackage{natbib}
+\setcitestyle{authoryear}
 
 \usepackage{xcolor}
 \definecolor{myOrange}{HTML}{F37820}
@@ -85,23 +65,15 @@
 % Commands use to make the title page and page headers
 \title{PhD Thesis}
 \author{Clément Viguier}
- \newcommand{\model}{\textit{\texttt{MountGrass }}}
- 
- \newcommand{\version}{\texttt{MountGrass2.0}}
 
 % Commands use through the document
-%\newcommand{\model}{\smallcaps{MountGrass}}
+\newcommand{\model}{\smallcaps{MountGrass}}
 \newcommand{\fwnewthought}[1]{\begin{fullwidth}\newthought{#1}\end{fullwidth}}
 
 % Headers:
 
-%\lhead[\leftmark]{ }
-%\rhead[]{ \rightmark}
-\renewcommand{\chaptermark}[1]{ \markboth{\thechapter.\ #1}{} }
-\renewcommand{\sectionmark}[1]{ \markright{\ #1}{} }
-
-\lhead[\thepage]{}
-\rhead[\thepart ~- \leftmark]{ \thepage}
+\lhead[\leftmark]{ }
+\rhead[]{ \rightmark}
 
 % Include documents for graphical aspects
 % Color
@@ -109,7 +81,6 @@
 % Graph settings
 \input{../latex_settings/graph_settings}
 
-\input{../Model_description/parameters}
 % Titles settings
 %\input{../latex_settings/titles_settings}
 
@@ -119,9 +90,6 @@
 % Change the depth of section numbering and table of content to allow proper numbering
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{1}
-% avoid hyperref link ambiguity added by setcounter(0) by concatenating \thepart to the link
-\renewcommand{\theHsection}{\thepart.section.\thesection} 
-\renewcommand{\theHchapter}{\thepart.chapter.\thechapter} 
 
 \begin{document}
 
@@ -130,117 +98,42 @@
 
 \newpage
 
-\newpage
-
-\chapter*{Abstract}
-
-\begin{fullwidth}
-Mountain grasslands provide numerous ecosystem services that need fine understanding and characterisation to be assessed and predicted. The vulnerability to climate change and the complexity of mechanisms driving alpine community dynamics require the development of new tools to predict the dynamics of these communities facing new conditions. Moreover, recent litterature highlighted the importance of individual variations for community response to external conditions, while the effects of such intraspecific variations on main coexistence mechanisms are not yet disentangled. To answer both the need for community dynamics model of diverse community, and integration of individual functioning mechanism, the model \model was design. It is design around two main components: a closed strategy space allowing high species diversity and a plastic aallocation mechanism both relying on central allocation trade-offs between active and structural tissues, and shoot and root tissues. In a first result part, after a parameter filtering step, the combined effects of allocation rules, species strategy and phenotypic plasticity on individual plants are studied. The effect of plasticity is then studied at the scale of the community.\\
-This work demonstrate the importance of phneotypic plasticity both at the individual scale, but also for the understanding of its role on community dynamics. If further work is needed to fully capture plasticity mechanisms, the model form a great tool to further explore the role of intra-specific variability of coexistence mechanisms (and resistance to invasion), but also resistance and resiliance to drought events or the detection of regime shift in this type of systems.
-\end{fullwidth}
-
-%Mountain grasslands, as many natural or semi-natural systems, provide numerous ecosystem services. Assessing the level of these services is crucial for better management of these systems, and relies on detailed characterisation of the community structure and processes.
-%The rise of functional ecology lead to improvement in the understanding and prediction of community assembly rules, response to driver and link to services. But, because the alpine grasslands are vulnerable to global change, and already experience new conditions, traditional patterns are not sufficient enough to predict future alpine community dynamics. There is an urgent need for now predictive and understanding tools to explore diverse scenarios of climate and mangement changes. Moreover, considering the complexity of the mechanisms driving alpine grasslands dynamics,  mechanistic modelling approaches constitute interesting alternative to this challenge. Mechanisstic agent-based models are great tools to explore diverse scenarios and build an understandting of main mechanisms at stake. Furthermore, recent litterature also highlighted the importance of individual variations for community response to external conditions, while the effects of such intraspecific variations on main coexistence mechanisms are not yet disentangled. New mechanistic approaches should focus on individual functioning, and particularly integrate mechanism of individual adaptation to varying conditions, and study its impact at the scale of the community.
-
 \tableofcontents
 
 \part{Introduction}
-\begin{refsection}
+
 \include{./0_Objectives/Objectives}
 
-\begin{fullwidth}
-\printbibliography[heading=bibliography] 
-\end{fullwidth}
-\end{refsection}
-
-%____________________________________________________________
-\part{Background: community dynamics, traits and phenotypic plasticity}
-\begin{refsection}
-\setcounter{chapter}{0}
 
 \include{./1_Introduction/Introduction}
 
-\begin{fullwidth}
-\printbibliography[heading=bibliography] 
-\end{fullwidth}
-\end{refsection}
-
-
-%____________________________________________________________
-\part{Modelling alpine grasslands with MountGrass a generic framework integrating phenotypic plasticity}
+\part{Modelling alpine grasslands: genericity and plasticity}
 \setcounter{chapter}{0}
-\begin{refsection}
-
 %\includepdf[pages=-, width = 21cm]{../Draft_article1/plan1.pdf}
 
 \include{./2_PP/Generic_model}
-
-
-\begin{fullwidth}
-\printbibliography[heading=bibliography] 
-\end{fullwidth}
-\end{refsection}
-
-
-%____________________________________________________________
-\part{Individual performance: strategy and plasticity}
-
-\begin{refsection}
-\setcounter{chapter}{0}
 \include{./2_PP/Individual_level}
 
-\begin{fullwidth}
-\printbibliography[heading=bibliography] 
-\end{fullwidth}
-\end{refsection}
-
-%____________________________________________________________
-\part{Community dynamics}
-
-\begin{refsection}
-\setcounter{chapter}{0}
 %\part{Application of \model: resistance of alpine mountain grasslands to drought}
 \include{./2_PP/Community_dynamics}
 
-\begin{fullwidth}
-\printbibliography[heading=bibliography] 
-\end{fullwidth}
-\end{refsection}
-
-%____________________________________________________________
 \part{Synthesis \& Outlook}
-\setcounter{chapter}{0}
-\begin{refsection}
 
-\include{./3_Synthesis/synthesis}
-\include{./3_Synthesis/outlook}
-\include{./3_Synthesis/extensions}
-
-\begin{fullwidth}
-\printbibliography[heading=bibliography] 
-\end{fullwidth}
-\end{refsection}
-%%
+%
 %\part{Extend mountgrass}
-%
-%\begin{refsection}
 %\setcounter{chapter}{0}
-%\include{./3_Synthesis/extensions}
-%
-%\begin{fullwidth}
-%\printbibliography[heading=bibliography] 
-%\end{fullwidth}
-%\end{refsection}
+\include{./99_Extensions/Extensions}
+
 
 % \nocite{TitlesOn}
-%\bibliographystyle{cell}
+\bibliographystyle{cell}
 
 %\bibliographystyle{plainnat}
-% \bibliography{../Bibliography/bib_zotero20171106}
+ \bibliography{../Bibliography/bib_zotero20171106}
  
 
 %Rambling
-%\include{./rambling}
+\include{./rambling}
 
 
 
