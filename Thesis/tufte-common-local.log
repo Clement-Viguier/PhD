@@ -1,11 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.28)  6 NOV 2017 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  12 JAN 2018 14:45
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**tufte-common-local.tex
-(./tufte-common-local.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+**./tufte-common-local.tex
+(tufte-common-local.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 76 language(s) loaded.
 ! Undefined control sequence.
 l.2 \titleformat
                 {\part}%
@@ -192,8 +190,8 @@ Overfull \hbox (191.27805pt too wide) in paragraph at lines 3--9
  []
 
 ! Undefined control sequence.
-l.10 \titleformat
-                 {\chapter}%
+l.10  \titleclass
+                 {\chapter}{top}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -201,8 +199,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.10 \titleformat{\chapter
-                          }%
+l.10  \titleclass{\chapter
+                          }{top}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -216,13 +214,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11   [
-        block]% shape
+l.10  \titleclass{\chapter}{t
+                             op}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.12   {\relax\sffamily\ifthenelse
+l.11 \titleformat
+                 {\chapter}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 \titleformat{\chapter
+                          }%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13   {\relax\sffamily\ifthenelse
                                   {\NOT\boolean{@tufte@symmetric}}{\begin{fu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -231,7 +247,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12   {\relax\sffamily\ifthenelse{\NOT
+l.13   {\relax\sffamily\ifthenelse{\NOT
                                        \boolean{@tufte@symmetric}}{\begin{fu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -240,7 +256,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12   {\relax\sffamily\ifthenelse{\NOT\boolean
+l.13   {\relax\sffamily\ifthenelse{\NOT\boolean
                                                {@tufte@symmetric}}{\begin{fu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -255,7 +271,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...olean{@tufte@symmetric}}{\begin{fullwidth}
+l.13 ...olean{@tufte@symmetric}}{\begin{fullwidth}
                                                   }{}}% format applied to la...
 
 Your command was ignored.
@@ -263,7 +279,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Extra }, or forgotten \endgroup.
-l.12 ...lean{@tufte@symmetric}}{\begin{fullwidth}}
+l.13 ...lean{@tufte@symmetric}}{\begin{fullwidth}}
                                                   {}}% format applied to lab...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -272,7 +288,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten \endgroup.
-l.12 ...n{@tufte@symmetric}}{\begin{fullwidth}}{}}
+l.13 ...n{@tufte@symmetric}}{\begin{fullwidth}}{}}
                                                   % format applied to label+...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -281,7 +297,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.13   {\Huge
+l.14   {\Huge
              \thechapter}% label
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -290,7 +306,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.13   {\Huge\thechapter
+l.14   {\Huge\thechapter
                         }% label
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -299,7 +315,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.15   {\huge
+l.16   {\huge
              \sffamily\scshape}% before the title body
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -308,7 +324,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.16   [\ifthenelse
+l.17   [\ifthenelse
                    {\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% aft...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -317,7 +333,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.16   [\ifthenelse{\NOT
+l.17   [\ifthenelse{\NOT
                         \boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% aft...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -326,7 +342,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.16   [\ifthenelse{\NOT\boolean
+l.17   [\ifthenelse{\NOT\boolean
                                 {@tufte@symmetric}}{\end{fullwidth}}{}]% aft...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -341,7 +357,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...boolean{@tufte@symmetric}}{\end{fullwidth}
+l.17 ...boolean{@tufte@symmetric}}{\end{fullwidth}
                                                   }{}]% after the title body
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -350,7 +366,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.16 ...boolean{@tufte@symmetric}}{\end{fullwidth}
+l.17 ...boolean{@tufte@symmetric}}{\end{fullwidth}
                                                   }{}]% after the title body
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -359,12 +375,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (222.83365pt too wide) in paragraph at lines 11--17
-[]\OT1/cmss/m/n/10 [block]@tufte@symmetric1em[@tufte@symmetric] 
+Overfull \hbox (33.7778pt too wide) in paragraph at lines 10--18
+[]\OT1/cmss/m/n/10 top
+ []
+
+
+Overfull \hbox (202.83365pt too wide) in paragraph at lines 10--18
+\OT1/cmss/m/n/10 [block]@tufte@symmetric1em[@tufte@symmetric] 
  []
 
 ! Undefined control sequence.
-l.18 \titleformat
+l.19 \titleformat
                  {\section}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -373,7 +394,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.18 \titleformat{\section
+l.19 \titleformat{\section
                           }%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -388,13 +409,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19   [
+l.20   [
         hang]% shape
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.20   {\sffamily\LARGE
+l.21   {\sffamily\LARGE
                        \color{myGreen}}% format applied to label+text
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -403,7 +424,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.20   {\sffamily\LARGE\color
+l.21   {\sffamily\LARGE\color
                              {myGreen}}% format applied to label+text
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -412,8 +433,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.23   {\thesection
-                   \hspace{0.6em}}% before the title body
+l.24   {\thesection
+                   \hspace{0.3em}}% before the title body
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -421,17 +442,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (100.00014pt too wide) in paragraph at lines 19--25
+Overfull \hbox (100.00014pt too wide) in paragraph at lines 20--26
 []\OT1/cmss/m/n/10 [hang]myGreen1em
  []
 
 
-Overfull \hbox (5.77777pt too wide) in paragraph at lines 19--25
+Overfull \hbox (5.77777pt too wide) in paragraph at lines 20--26
 \OT1/cmss/m/n/10 [] 
  []
 
 ! Undefined control sequence.
-l.26 \titleformat
+l.27 \titleformat
                  {\subsection}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -440,7 +461,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.26 \titleformat{\subsection
+l.27 \titleformat{\subsection
                              }%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -455,13 +476,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27   [
+l.28   [
         hang]% shape
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.28   {\sffamily\Large
+l.29   {\sffamily\Large
                        }% format applied to label+text
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -470,8 +491,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.31   {\thesubsection
-                      \hspace{0.6em}}% before the title body
+l.32   {\thesubsection
+                      \hspace{0.3em}}% before the title body
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -479,17 +500,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (63.30562pt too wide) in paragraph at lines 27--33
+Overfull \hbox (63.30562pt too wide) in paragraph at lines 28--34
 []\OT1/cmss/m/n/10 [hang]1em
  []
 
 
-Overfull \hbox (5.77777pt too wide) in paragraph at lines 27--33
+Overfull \hbox (5.77777pt too wide) in paragraph at lines 28--34
 \OT1/cmss/m/n/10 [] 
  []
 
 ! Undefined control sequence.
-l.34 \titleformat
+l.35 \titleformat
                  {\paragraph}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -498,7 +519,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.34 \titleformat{\paragraph
+l.35 \titleformat{\paragraph
                             }%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -513,13 +534,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35   [
+l.36   [
         block]% shape
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.37   {\theparagraph
+l.38   {\theparagraph
                      }% label
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -528,7 +549,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.39   {\setmarginnotefont
+l.40   {\setmarginnotefont
                           {\sffamily\scshape\color{myGreen}}\begin{marginnot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -537,7 +558,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.39   {\setmarginnotefont{\sffamily\scshape\color
+l.40   {\setmarginnotefont{\sffamily\scshape\color
                                                   {myGreen}}\begin{marginnot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -552,14 +573,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ...\scshape\color{myGreen}}\begin{marginnote}
+l.40 ...\scshape\color{myGreen}}\begin{marginnote}
                                                   }% before the title body
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Extra }, or forgotten \endgroup.
-l.39 ...scshape\color{myGreen}}\begin{marginnote}}
+l.40 ...scshape\color{myGreen}}\begin{marginnote}}
                                                   % before the title body
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -574,19 +595,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40   [\end{marginnote}
+l.41   [\end{marginnote}
                         ]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (99.14702pt too wide) in paragraph at lines 35--41
+Overfull \hbox (99.14702pt too wide) in paragraph at lines 36--42
 []\OT1/cmss/m/n/10 [block]\OT1/cmr/m/sc/10 myGreen\OT1/cmss/m/n/10 [] 
  []
 
 ! Undefined control sequence.
-l.42 \titlespacing
+l.43 \titlespacing
                   *{\paragraph}{0pt}{*1}{-1.5em}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -601,13 +622,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \titlespacing*
+l.43 \titlespacing*
                    {\paragraph}{0pt}{*1}{-1.5em}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.42 \titlespacing*{\paragraph
+l.43 \titlespacing*{\paragraph
                               }{0pt}{*1}{-1.5em}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -616,12 +637,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (52.11118pt too wide) in paragraph at lines 42--43
+Overfull \hbox (52.11118pt too wide) in paragraph at lines 43--44
 []\OT1/cmss/m/n/10 *0pt*1-
  []
 
 
-Overfull \hbox (25.16672pt too wide) in paragraph at lines 42--43
+Overfull \hbox (25.16672pt too wide) in paragraph at lines 43--44
 \OT1/cmss/m/n/10 1.5em 
  []
 
@@ -632,13 +653,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \renewenvironment{quote}
+l.45 \renewenvironment{quote}
                              {\itshape\large \hspace{2em}}{ \vspace{0.5em}\\}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.46 \geometry
+l.47 \geometry
               {a4paper,left=24.8mm,top=27.4mm,headsep=2\baselineskip,textwid...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -653,7 +674,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \geometry{a
+l.47 \geometry{a
                 4paper,left=24.8mm,top=27.4mm,headsep=2\baselineskip,textwid...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -662,7 +683,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    t
-l.46 ...4.8mm,top=27.4mm,headsep=2\baselineskip,te
+l.47 ...4.8mm,top=27.4mm,headsep=2\baselineskip,te
                                                   xtwidth=117mm,marginparsep...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -674,7 +695,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    h
-l.46 ...rwidth=44.4mm,textheight=49\baselineskip,h
+l.47 ...rwidth=44.4mm,textheight=49\baselineskip,h
                                                   eadheight=\baselineskip}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -686,7 +707,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.46 ...=49\baselineskip,headheight=\baselineskip}
+l.47 ...=49\baselineskip,headheight=\baselineskip}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -695,7 +716,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.46 ...=49\baselineskip,headheight=\baselineskip}
+l.47 ...=49\baselineskip,headheight=\baselineskip}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -705,24 +726,24 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (614.14008pt too wide) in paragraph at lines 46--48
+Overfull \hbox (614.14008pt too wide) in paragraph at lines 47--49
 []\OT1/cmss/m/n/10 a4paper,left=24.8mm,top=27.4mm,headsep=2textwidth=117mm,marg
 inparsep=4.2mm,marginparwidth=44.4mm,textheight=49headheight= 
  []
 
 )
 ! Emergency stop.
-<*> tufte-common-local.tex
-                          
+<*> ./tufte-common-local.tex
+                            
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 18 strings out of 494910
- 303 string characters out of 6179836
- 45659 words of memory out of 5000000
- 3408 multiletter control sequences out of 15000+600000
- 4246 words of font info for 16 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 16i,1n,11p,199b,104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19 strings out of 493314
+ 267 string characters out of 3138867
+ 53750 words of memory out of 3000000
+ 3662 multiletter control sequences out of 15000+200000
+ 4246 words of font info for 16 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 16i,1n,11p,202b,104s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
