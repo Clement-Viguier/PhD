@@ -145,14 +145,19 @@ To further reduce the number of parameter sets considered, we proceeded in an ad
 
 \subsection{Single plant growth simulations}
 \paragraph{Simulation set-up}
-Individual plant growth is simulated in square pots (9 x 9 x 12) with a soil critical and saturation water content equal to respectively $0.1$ and $0.7 cm^{3}.cm^{-3}$ for 100 days of 15 ours with a spatial resolution of 1 centimetre.
+Individual plant growth is simulated in square pots (9 x 9 x 12) with a soil critical and saturation water content equal to respectively $0.1$ and $0.7 cm^{3}.cm^{-3}$ for 100 days of 15 ours with a spatial resolution of 1 centimetre. Reproduction was enabled and geometric trait fixed for all plants.
 
 \paragraph{Landscape performance simulations}
 $15^{3}$ uniformly distributed phenotypes were sampled in the space defined by the proportion of active tissues in shoot and in root and the proportion of root biomass in the whole plant. Each phenotype's growth was simulated in two different conditions: high resource availability (1800 Watt per square meter and per day, and 4 mm per day for 100 days of 15 hours) in the same order than the calibration runs, and low resource (four times less resources but same season and day durations). The simulations were run with the fixed phenotype algorithm and the fixed-equilibrium algorithm.
 
 \paragraph{Constant water influx}
 The relationship between the optimum root tissue allocation strategy (or resource use strategy) was explore through a set of simulation with different water influx, other conditions being constant. Along this gradient, the growth of a total of 400 different root phenotypes (allocation to active tissues and water availability memory) was simulated. The shoot phenotype was fixed and numerically selected to be closed to the optimum and the light availability was set at maximum.\\
-At the end of ea
+The state of the plant was recorded at the end of the simulation, no taking into account possible production peak during the simulation.\\
+Each group of 400 phenotypes where grown with and without phenotypic plasticity (root:shoot plasticity only) for ten different water influx uniformly distributed between 0.05 and 4 mm per days.
+
+
+\paragraph{Variable water influx}
+
 
 \section{Results}
 \subsection{Growth of diverse species}
