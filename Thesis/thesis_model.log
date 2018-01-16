@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  15 JAN 2018 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  16 JAN 2018 18:45
 entering extended mode
 **./thesis_model.tex
 (thesis_model.tex
@@ -1744,6 +1744,9 @@ Package biblatex Warning: Patching footnotes failed.
 (thesis_model.aux (0_Objectives/Objectives.aux)
 (1_Introduction/Introduction.aux) (2_PP/Generic_model.aux
 
+LaTeX Warning: Label `table:state_var_plant' multiply defined.
+
+
 LaTeX Warning: Label `fig:derivaives' multiply defined.
 
 
@@ -1760,31 +1763,31 @@ LaTeX Warning: Label `fig:derivaives' multiply defined.
 (3_Synthesis/extensions.aux))
 \openout1 = `thesis_model.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 132.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 133.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 132.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 132.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 133.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pplj.fd"
@@ -1794,7 +1797,7 @@ Package marginnote Info: \pdfoutput not 0 or unimportant and
 (marginnote)             \pdflastxpos or \lastxpos available.
 (marginnote)             Extended position detection mode activated.
 \AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring OFF on input line 132.
+Package hyperref Info: Link coloring OFF on input line 133.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1804,16 +1807,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count364
 )
-LaTeX Info: Redefining \ref on input line 132.
-LaTeX Info: Redefining \pageref on input line 132.
-LaTeX Info: Redefining \nameref on input line 132.
+LaTeX Info: Redefining \ref on input line 133.
+LaTeX Info: Redefining \pageref on input line 133.
+LaTeX Info: Redefining \nameref on input line 133.
 
 (thesis_model.out) (thesis_model.out)
 \@outlinefile=\write9
 \openout9 = `thesis_model.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 132.
+LaTeX Info: Redefining \selectfont on input line 133.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1892,15 +1895,15 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \symgns@font=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/pplj/m/n --> TS1/pplj/bx/n on input line 132.
-Package gensymb Info: Math companion symbols declared on input line 132.
-LaTeX Info: Redefining \degree on input line 132.
-LaTeX Info: Redefining \celsius on input line 132.
+(Font)                  TS1/pplj/m/n --> TS1/pplj/bx/n on input line 133.
+Package gensymb Info: Math companion symbols declared on input line 133.
+LaTeX Info: Redefining \degree on input line 133.
+LaTeX Info: Redefining \celsius on input line 133.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 132.
-LaTeX Info: Redefining \ohm on input line 132.
-Package gensymb Info: Using \textohm for \ohm on input line 132.
-Package gensymb Info: Using \textmu for \micro on input line 132.
+erthousand on input line 133.
+LaTeX Info: Redefining \ohm on input line 133.
+Package gensymb Info: Using \textohm for \ohm on input line 133.
+Package gensymb Info: Using \textmu for \micro on input line 133.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1913,14 +1916,21 @@ Package biblatex Info: ... file 'thesis_model.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 3):
-(biblatex)                westoby
+(biblatex)                tjoelker_linking_2015
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 3):
-(biblatex)                reich
+(biblatex)                need-references
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 3):
+(biblatex)                westoby
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1934,7 +1944,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 3):
-(biblatex)                tjoelker_linking_2015
+(biblatex)                reich
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1955,25 +1965,25 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 3):
-(biblatex)                freschet
+(biblatex)                wright_worlwide_2004
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 132.
-Package biblatex Info: Reference segment=0 on input line 132.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 135.
+Package biblatex Info: Reference section=0 on input line 133.
+Package biblatex Info: Reference segment=0 on input line 133.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 136.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 135.
+(Font)              scaled to size 8.99994pt on input line 136.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 135.
+(Font)              scaled to size 16.19989pt on input line 136.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 32.39978pt on input line 135.
+(Font)              scaled to size 32.39978pt on input line 136.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 135.
+(Font)              scaled to size 12.59991pt on input line 136.
  [1
 
 
@@ -1982,21 +1992,21 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 142.
+(Font)              scaled to size 18.66588pt on input line 143.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 18.66588pt on input line 142.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 147.
+(Font)              scaled to size 18.66588pt on input line 143.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 148.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\bera\t1fvm.fd"
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 147.
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 148.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 8.50006pt on input line 147.
+(Font)              scaled to size 8.50006pt on input line 148.
  [1]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 155.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 156.
  (thesis_model.toc
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
@@ -2016,11 +2026,11 @@ Overfull \hbox (11.65536pt too wide) in paragraph at lines 67--67
 
 [2]
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 103.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 121.
 LaTeX Font Info:    Font shape `T1/fvm/bx/it' in size <10> not available
-(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 103.
+(Font)              Font shape `T1/fvm/b/sl' tried instead on input line 121.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
-(Font)              scaled to size 8.50006pt on input line 103.
+(Font)              scaled to size 8.50006pt on input line 121.
 )
 \tf@toc=\write10
 \openout10 = `thesis_model.toc'.
@@ -2029,14 +2039,14 @@ LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 21.59985pt on input line 161.
+(Font)              scaled to size 21.59985pt on input line 162.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 21.59985pt on input line 161.
+(Font)              scaled to size 21.59985pt on input line 162.
  [5] [6]
 \blx@maxsegment@1=\count371
 \blx@sectionciteorder@1=\count372
-Package biblatex Info: Reference section=1 on input line 162.
-Package biblatex Info: Setting label 'refsection:1' on input line 162.
+Package biblatex Info: Reference section=1 on input line 163.
+Package biblatex Info: Setting label 'refsection:1' on input line 163.
 \openout2 = `./0_Objectives/Objectives.aux'.
 
  (0_Objectives/Objectives.tex
@@ -2075,7 +2085,7 @@ LaTeX Warning: Marginpar on page 2 moved.
 LaTeX Warning: Marginpar on page 2 moved.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 89--164
+Underfull \hbox (badness 10000) in paragraph at lines 89--165
 
  []
 
@@ -2083,12 +2093,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.164 \include{./0_Objectives/Objectives}
+l.165 \include{./0_Objectives/Objectives}
                                           [2]
 
-LaTeX Warning: Empty bibliography on input line 167.
+LaTeX Warning: Empty bibliography on input line 168.
 
-Package biblatex Info: Reference section=0 on input line 169.
+Package biblatex Info: Reference section=0 on input line 170.
 [3
 
 ] [4
@@ -2096,8 +2106,8 @@ Package biblatex Info: Reference section=0 on input line 169.
 ] [5] [6]
 \blx@maxsegment@2=\count373
 \blx@sectionciteorder@2=\count374
-Package biblatex Info: Reference section=2 on input line 173.
-Package biblatex Info: Setting label 'refsection:2' on input line 173.
+Package biblatex Info: Reference section=2 on input line 174.
+Package biblatex Info: Setting label 'refsection:2' on input line 174.
 \openout2 = `./1_Introduction/Introduction.aux'.
 
  (1_Introduction/Introduction.tex
@@ -2156,100 +2166,104 @@ Overfull \hbox (3.3779pt too wide) in paragraph at lines 57--57
 ecific vari-
  []
 
-LaTeX Font Info:    Font shape `TS1/pplj/bx/n' in size <10> not available
-(Font)              Font shape `TS1/pplj/b/n' tried instead on input line 60.
 [8]
-Overfull \hbox (9.84483pt too wide) in paragraph at lines 64--64
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Overfull \hbox (9.84483pt too wide) in paragraph at lines 72--72
 |[]\T1/phv/m/n/14.4 3.3 Be-yond the mean and the bell-shape: to-wards more mech
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-) [9]
+[9]) [10]
 
-LaTeX Warning: Empty bibliography on input line 179.
+LaTeX Warning: Empty bibliography on input line 180.
 
-Package biblatex Info: Reference section=0 on input line 181.
-[10
+Package biblatex Info: Reference section=0 on input line 182.
+[11
+
+] [12
 
 ]
-Overfull \hbox (32.63754pt too wide) in paragraph at lines 185--185
+Overfull \hbox (32.63754pt too wide) in paragraph at lines 186--186
 []\T1/phv/m/sc/24 Modelling alpine grass-lands with Mount-Grass,
  []
 
-[11
-
-] [12]
+[13] [14]
 \blx@maxsegment@3=\count375
 \blx@sectionciteorder@3=\count376
-Package biblatex Info: Reference section=3 on input line 187.
-Package biblatex Info: Setting label 'refsection:3' on input line 187.
+Package biblatex Info: Reference section=3 on input line 188.
+Package biblatex Info: Setting label 'refsection:3' on input line 188.
 \openout2 = `./2_PP/Generic_model.aux'.
 
  (2_PP/Generic_model.tex
 Chapter 1.
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
 Chapter 2.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 23.
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <12> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 23.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 10.20007pt on input line 23.
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-[13
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+ [15
 
- []
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 36.
+LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <12> not available
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 36.
+LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
+(Font)              scaled to size 10.20007pt on input line 36.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-
- []
-
-
-Underfull \vbox (badness 2111) has occurred while \output is active []
-
- [15]
 
 LaTeX Warning: Marginpar on page 16 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
@@ -2257,11 +2271,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 
-LaTeX Warning: Marginpar on page 16 moved.
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [17]
+Overfull \hbox (54.35039pt too wide) in paragraph at lines 53--54
+[]\T1/pplj/m/n/10 The Sim-i-lar axis of dif-fer-en-ti-taion has been demon-stra
+ted for roots [[],
  []
 
 
@@ -2269,41 +2289,144 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[16]
 
-LaTeX Warning: Marginpar on page 17 moved.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+LaTeX Warning: Marginpar on page 18 moved.
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[19]
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 Chapter 3.
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+Underfull \hbox (badness 2744) in paragraph at lines 104--104
+\T1/phv/m/sc/10 Decomposition of plas-tic
+ []
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <8> not available
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 105.
+LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
+(Font)              scaled to size 6.80005pt on input line 105.
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+[20]
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 109.
+
+LaTeX Warning: Reference `box:molecular-basis' on page 21 undefined on input li
+ne 109.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+LaTeX Warning: Reference `fig:memory-confidence' on page 22 undefined on input 
+line 125.
+
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+[22]
+
+LaTeX Warning: Reference `table:allocation-rule' on page 23 undefined on input 
+line 153.
 
 Chapter 4.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <20.74> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 117.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 179.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 18.66588pt on input line 117.
+(Font)              scaled to size 18.66588pt on input line 179.
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <20.74> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 117.
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 179.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 17.62912pt on input line 117.
-(2_PP/model_description.tex [18]
+(Font)              scaled to size 17.62912pt on input line 179.
+(2_PP/model_description.tex [23]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 18.
 
@@ -2312,7 +2435,7 @@ Overfull \hbox (40.27853pt too wide) in paragraph at lines 16--19
 n of the model (\T1/fvm/m/n/10 MountGrass2.0\T1/pplj/m/n/10 ),
  []
 
-<./Figures/overview_model_t.png, id=498, 1186.4325pt x 671.50874pt>
+<./Figures/overview_model_t.png, id=564, 1186.4325pt x 671.50874pt>
 File: ./Figures/overview_model_t.png Graphic file (type png)
 <use ./Figures/overview_model_t.png>
 Package pdftex.def Info: ./Figures/overview_model_t.png  used on input line 21.
@@ -2325,18 +2448,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
  []
 
 
-LaTeX Warning: Marginpar on page 19 moved.
+LaTeX Warning: Marginpar on page 24 moved.
 
-[19]
+[24]
 
-LaTeX Warning: Marginpar on page 20 moved.
+LaTeX Warning: Marginpar on page 25 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-<./Figures/plant_geometry_m.pdf, id=509, pagebox=cropbox, 179.88606pt x 186.389
+<./Figures/plant_geometry_m.pdf, id=575, pagebox=cropbox, 179.88606pt x 186.389
 34pt>
 File: ./Figures/plant_geometry_m.pdf Graphic file (type pdf)
 <use ./Figures/plant_geometry_m.pdf>
@@ -2350,27 +2473,27 @@ Underfull \hbox (badness 1107) in paragraph at lines 34--34
  []
 
 
-LaTeX Warning: Marginpar on page 20 moved.
+LaTeX Warning: Marginpar on page 25 moved.
 
 
 Overfull \hbox (3.71709pt too wide) in paragraph at lines 77--94
  [] 
  []
 
-[20 <./Figures/overview_model_t.png> <./Figures/plant_geometry_m.pdf>] [21]
+[25 <./Figures/overview_model_t.png> <./Figures/plant_geometry_m.pdf>] [26]
 
-LaTeX Warning: Marginpar on page 22 moved.
-
-
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
-<./Figures/soil_section_m.pdf, id=548, pagebox=cropbox, 191.70119pt x 138.52654
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+<./Figures/soil_section_m.pdf, id=614, pagebox=cropbox, 191.70119pt x 138.52654
 pt>
 File: ./Figures/soil_section_m.pdf Graphic file (type pdf)
 <use ./Figures/soil_section_m.pdf>
@@ -2379,9 +2502,9 @@ on input line 103.
 Package pdftex.def Info: Requested size: 126.33304pt x 91.29039pt on input line
  103.
 
-LaTeX Warning: Marginpar on page 22 moved.
+LaTeX Warning: Marginpar on page 27 moved.
 
-<./Figures/season_cycle_m.pdf, id=549, pagebox=cropbox, 134.2074pt x 114.25987p
+<./Figures/season_cycle_m.pdf, id=615, pagebox=cropbox, 134.2074pt x 114.25987p
 t>
 File: ./Figures/season_cycle_m.pdf Graphic file (type pdf)
 <use ./Figures/season_cycle_m.pdf>
@@ -2389,10 +2512,6 @@ Package pdftex.def Info: ./Figures/season_cycle_m.pdf  used on input line 115.
 on input line 115.
 Package pdftex.def Info: Requested size: 126.33311pt x 107.55595pt on input lin
 e 115.
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <8> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 116.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 6.80005pt on input line 116.
 
 Underfull \hbox (badness 7064) in paragraph at lines 116--116
 \T1/pplj/m/n/8 Figure 4.4: Sea-sons cy-cle in
@@ -2404,7 +2523,7 @@ Overfull \hbox (6.20699pt too wide) in paragraph at lines 122--123
 e meta-population
  []
 
-<./Figures/daily_cycle_t.pdf, id=550, pagebox=cropbox, 209.52779pt x 158.76013p
+<./Figures/daily_cycle_t.pdf, id=616, pagebox=cropbox, 209.52779pt x 158.76013p
 t>
 File: ./Figures/daily_cycle_t.pdf Graphic file (type pdf)
 <use ./Figures/daily_cycle_t.pdf>
@@ -2412,19 +2531,19 @@ Package pdftex.def Info: ./Figures/daily_cycle_t.pdf  used on input line 127. o
 n input line 127.
 Package pdftex.def Info: Requested size: 126.33148pt x 95.72192pt on input line
  127.
-[22 <./Figures/soil_section_m.pdf> <./Figures/season_cycle_m.pdf> <./Figures/da
+[27 <./Figures/soil_section_m.pdf> <./Figures/season_cycle_m.pdf> <./Figures/da
 ily_cycle_t.pdf>]
 Underfull \hbox (badness 1661) in paragraph at lines 140--140
 \T1/pplj/m/n/8 com-po-nents im-ple-mented in the
  []
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
-<./Figures/emergence.pdf, id=633, pagebox=cropbox, 122.76465pt x 108.1079pt>
+<./Figures/emergence.pdf, id=699, pagebox=cropbox, 122.76465pt x 108.1079pt>
 File: ./Figures/emergence.pdf Graphic file (type pdf)
 <use ./Figures/emergence.pdf>
 Package pdftex.def Info: ./Figures/emergence.pdf  used on input line 153. on in
@@ -2432,18 +2551,18 @@ put line 153.
 Package pdftex.def Info: Requested size: 126.33658pt x 111.25339pt on input lin
 e 153.
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
-<./Figures/fitness.pdf, id=635, pagebox=cropbox, 128.88852pt x 104.72124pt>
+<./Figures/fitness.pdf, id=701, pagebox=cropbox, 128.88852pt x 104.72124pt>
 File: ./Figures/fitness.pdf Graphic file (type pdf)
 <use ./Figures/fitness.pdf>
 Package pdftex.def Info: ./Figures/fitness.pdf  used on input line 161. on inpu
@@ -2451,13 +2570,13 @@ t line 161.
 Package pdftex.def Info: Requested size: 126.33545pt x 102.64688pt on input lin
 e 161.
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 28 moved.
 
-[23 <./Figures/emergence.pdf> <./Figures/fitness.pdf>]
+[28 <./Figures/emergence.pdf> <./Figures/fitness.pdf>]
 
-LaTeX Warning: Marginpar on page 24 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
-<./Figures/memory2phenotype_t.pdf, id=699, pagebox=cropbox, 315.88112pt x 72.09
+<./Figures/memory2phenotype_t.pdf, id=764, pagebox=cropbox, 315.88112pt x 72.09
 555pt>
 File: ./Figures/memory2phenotype_t.pdf Graphic file (type pdf)
 <use ./Figures/memory2phenotype_t.pdf>
@@ -2470,22 +2589,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
-[24]
+[29]
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 30 moved.
 
 
-LaTeX Warning: Marginpar on page 25 moved.
+LaTeX Warning: Marginpar on page 30 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--224
 
  []
 
-[25 <./Figures/memory2phenotype_t.pdf>]
+[30 <./Figures/memory2phenotype_t.pdf>]
 
-LaTeX Warning: Marginpar on page 26 moved.
+LaTeX Warning: Marginpar on page 31 moved.
 
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -2494,35 +2617,31 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-[26]
+[31]
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
-[27]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 404--407
 
  []
@@ -2533,15 +2652,15 @@ Underfull \hbox (badness 2443) in paragraph at lines 412--412
  []
 
 
-LaTeX Warning: Marginpar on page 28 moved.
+LaTeX Warning: Marginpar on page 33 moved.
 
 
-LaTeX Warning: Marginpar on page 28 moved.
+LaTeX Warning: Marginpar on page 33 moved.
 
 
-LaTeX Warning: Marginpar on page 28 moved.
+LaTeX Warning: Marginpar on page 33 moved.
 
-[28]
+[33]
 Overfull \hbox (108.96425pt too wide) in paragraph at lines 440--440
 [] 
  []
@@ -2552,7 +2671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 440--443
  []
 
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Marginpar on page 34 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 445--446
@@ -2565,14 +2684,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--448
  []
 
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Marginpar on page 34 moved.
 
-[29]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
-<./Figures/allocation_path_t.pdf, id=805, pagebox=cropbox, 333.06232pt x 119.31
+<./Figures/allocation_path_t.pdf, id=870, pagebox=cropbox, 333.06232pt x 119.31
 577pt>
 File: ./Figures/allocation_path_t.pdf Graphic file (type pdf)
 <use ./Figures/allocation_path_t.pdf>
@@ -2595,7 +2714,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 474--474
 $[]$\T1/pplj/m/n/8 either by shared pa-ram-e-ters of
  []
 
-<./Figures/strategy_space_algo.pdf, id=807, pagebox=cropbox, 722.7pt x 289.08pt
+<./Figures/strategy_space_algo.pdf, id=872, pagebox=cropbox, 722.7pt x 289.08pt
 >
 File: ./Figures/strategy_space_algo.pdf Graphic file (type pdf)
 <use ./Figures/strategy_space_algo.pdf>
@@ -2614,23 +2733,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 476--478
  []
 
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 35 moved.
 
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 35 moved.
 
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 35 moved.
 
-[30 <./Figures/allocation_path_t.pdf>]
+[35 <./Figures/allocation_path_t.pdf>]
 
-LaTeX Warning: Marginpar on page 31 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
-[31 <./Figures/strategy_space_algo.pdf>]
+[36 <./Figures/strategy_space_algo.pdf>]
 
-LaTeX Warning: Marginpar on page 32 moved.
+LaTeX Warning: Marginpar on page 37 moved.
 
-<./Figures/phenotype_ranking_t.pdf, id=853, pagebox=cropbox, 330.12834pt x 199.
+<./Figures/phenotype_ranking_t.pdf, id=919, pagebox=cropbox, 330.12834pt x 199.
 26044pt>
 File: ./Figures/phenotype_ranking_t.pdf Graphic file (type pdf)
 <use ./Figures/phenotype_ranking_t.pdf>
@@ -2644,40 +2763,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--530
  []
 
 
-LaTeX Warning: Marginpar on page 32 moved.
+LaTeX Warning: Marginpar on page 37 moved.
 
 
-LaTeX Warning: Marginpar on page 32 moved.
+LaTeX Warning: Marginpar on page 37 moved.
 
-[32 <./Figures/phenotype_ranking_t.pdf>]
+[37 <./Figures/phenotype_ranking_t.pdf>]
 
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 38 moved.
 
 
-LaTeX Warning: Marginpar on page 33 moved.
-
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 38 moved.
 
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-LaTeX Warning: Marginpar on page 33 moved.
+LaTeX Warning: Marginpar on page 38 moved.
 
 
 Underfull \vbox (badness 5711) has occurred while \output is active []
 
- [33]
+ [38]
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 39 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 619--622
@@ -2685,14 +2804,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 619--622
  []
 
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 39 moved.
 
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 39 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 656--656
@@ -2700,16 +2819,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 656--656
  []
 
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 39 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 657--665
 
  []
 
-[34]
+[39]
 
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 40 moved.
 
 
 Overfull \hbox (1.61076pt too wide) in paragraph at lines 668--669
@@ -2722,17 +2841,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
-) [35]) [36] [37
+) [40]) [41] [42
 
-] [38]
-Package biblatex Info: Reference section=0 on input line 197.
- [39] [40
+] [43] [44] [45]
+Package biblatex Info: Reference section=0 on input line 198.
+ [46] [47
 
-] [41] [42]
+] [48]
 \blx@maxsegment@4=\count377
 \blx@sectionciteorder@4=\count378
-Package biblatex Info: Reference section=4 on input line 203.
-Package biblatex Info: Setting label 'refsection:4' on input line 203.
+Package biblatex Info: Reference section=4 on input line 204.
+Package biblatex Info: Setting label 'refsection:4' on input line 204.
 \openout2 = `./2_PP/Individual_level.aux'.
 
  (2_PP/Individual_level.tex
@@ -2743,10 +2862,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--12
  []
 
 
-LaTeX Warning: Marginpar on page 43 moved.
+LaTeX Warning: Marginpar on page 49 moved.
 
 
-LaTeX Warning: Marginpar on page 43 moved.
+LaTeX Warning: Marginpar on page 49 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
@@ -2758,11 +2877,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
-[43
+[49
 
 ]
 
-LaTeX Warning: Marginpar on page 44 moved.
+LaTeX Warning: Marginpar on page 50 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--33
@@ -2785,30 +2904,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[44]
+[50]
 
-LaTeX Warning: Marginpar on page 45 moved.
-
-
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
+
+
+LaTeX Warning: Marginpar on page 51 moved.
 
 
 Underfull \hbox (badness 1259) in paragraph at lines 95--95
@@ -2816,26 +2935,26 @@ Underfull \hbox (badness 1259) in paragraph at lines 95--95
  []
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
-[45]
+[51]
 
-LaTeX Warning: Marginpar on page 46 moved.
-
-
-LaTeX Warning: Marginpar on page 46 moved.
+LaTeX Warning: Marginpar on page 52 moved.
 
 
-LaTeX Warning: Marginpar on page 46 moved.
+LaTeX Warning: Marginpar on page 52 moved.
+
+
+LaTeX Warning: Marginpar on page 52 moved.
 
 Chapter 2.
 
@@ -2845,20 +2964,20 @@ Overfull \hbox (24.28905pt too wide) in paragraph at lines 118--118
  []
 
 
-LaTeX Warning: Marginpar on page 46 moved.
+LaTeX Warning: Marginpar on page 52 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[46]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 137--137
 \T1/phv/m/sc/10 Improvement in vari-able
  []
 
 
-LaTeX Warning: Marginpar on page 47 moved.
+LaTeX Warning: Marginpar on page 53 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--141
@@ -2866,67 +2985,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--141
  []
 
 
-LaTeX Warning: Marginpar on page 47 moved.
+LaTeX Warning: Marginpar on page 53 moved.
 
 
-LaTeX Warning: Marginpar on page 47 moved.
+LaTeX Warning: Marginpar on page 53 moved.
 
-) [47]
+) [53]
 
-LaTeX Warning: Empty bibliography on input line 208.
+LaTeX Warning: Empty bibliography on input line 209.
 
-Package biblatex Info: Reference section=0 on input line 210.
-[48
+Package biblatex Info: Reference section=0 on input line 211.
+[54
 
-] [49
+] [55
 
-] [50]
+] [56]
 \blx@maxsegment@5=\count379
 \blx@sectionciteorder@5=\count380
-Package biblatex Info: Reference section=5 on input line 215.
-Package biblatex Info: Setting label 'refsection:5' on input line 215.
+Package biblatex Info: Reference section=5 on input line 216.
+Package biblatex Info: Setting label 'refsection:5' on input line 216.
 \openout2 = `./2_PP/Community_dynamics.aux'.
 
  (2_PP/Community_dynamics.tex
 Chapter 1.
 
-LaTeX Warning: Marginpar on page 51 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
 
-LaTeX Warning: Marginpar on page 51 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
 
-LaTeX Warning: Marginpar on page 51 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
 Chapter 2.
-) [51
+) [57
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 221.
+LaTeX Warning: Empty bibliography on input line 222.
 
-Package biblatex Info: Reference section=0 on input line 223.
-[52
+Package biblatex Info: Reference section=0 on input line 224.
+[58
 
-] [53
+] [59
 
-] [54]
+] [60]
 \blx@maxsegment@6=\count381
 \blx@sectionciteorder@6=\count382
-Package biblatex Info: Reference section=6 on input line 228.
-Package biblatex Info: Setting label 'refsection:6' on input line 228.
+Package biblatex Info: Reference section=6 on input line 229.
+Package biblatex Info: Setting label 'refsection:6' on input line 229.
 \openout2 = `./3_Synthesis/synthesis.aux'.
 
  (3_Synthesis/synthesis.tex
 Chapter 1.
-) [55
+) [61
 
 ]
 \openout2 = `./3_Synthesis/outlook.aux'.
 
  (3_Synthesis/outlook.tex
 Chapter 2.
-) [56
+) [62
 
 
 ]
@@ -2940,7 +3059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
  []
 
 
-LaTeX Warning: Reference `chapter:coexistence' on page 57 undefined on input li
+LaTeX Warning: Reference `chapter:coexistence' on page 63 undefined on input li
 ne 30.
 
 
@@ -2948,26 +3067,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-) [57
+) [63
 
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 235.
+LaTeX Warning: Empty bibliography on input line 236.
 
-Package biblatex Info: Reference section=0 on input line 237.
-[58
+Package biblatex Info: Reference section=0 on input line 238.
+[64
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
  (thesis_model.aux (0_Objectives/Objectives.aux)
 (1_Introduction/Introduction.aux) (2_PP/Generic_model.aux)
 (2_PP/Individual_level.aux) (2_PP/Community_dynamics.aux)
 (3_Synthesis/synthesis.aux) (3_Synthesis/outlook.aux)
 (3_Synthesis/extensions.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
 Package rerunfilecheck Info: File `thesis_model.out' has not changed.
 (rerunfilecheck)             Checksum: BD1D99495C735B8C1580EB0A7C4BB132;15639.
 
@@ -2980,16 +3099,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'thesis_model.run.xml'.
 \openout1 = `thesis_model.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
  ) 
 Here is how much of TeX's memory you used:
- 44476 strings out of 493314
- 970051 string characters out of 3138867
- 1977403 words of memory out of 3000000
- 46869 multiletter control sequences out of 15000+200000
- 117327 words of font info for 151 fonts, out of 3000000 for 9000
+ 44595 strings out of 493314
+ 973518 string characters out of 3138867
+ 2022204 words of memory out of 3000000
+ 46957 multiletter control sequences out of 15000+200000
+ 122319 words of font info for 156 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,20n,128p,4789b,2635s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,20n,128p,4789b,2675s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -3004,9 +3123,9 @@ Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplri8a.pfb>
-Output written on thesis_model.pdf (66 pages, 2732113 bytes).
+Output written on thesis_model.pdf (72 pages, 2769419 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 273 named destinations out of 1000 (max. 500000)
+ 1333 PDF objects out of 1440 (max. 8388607)
+ 301 named destinations out of 1000 (max. 500000)
  4100 words of extra memory for PDF output out of 10000 (max. 10000000)
 
