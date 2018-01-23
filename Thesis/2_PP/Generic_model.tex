@@ -9,19 +9,29 @@ The objective of this chapter is to develop the core concepts of the model, intr
 \end{fullwidth}
 
 \chapter{Alpine environment: conditions, resources and perturbations}
-\section{The scale of alpine grasslands}
+\section{The scales of alpine grasslands}
 
 \paragraph{The scale}
-The scale is a determinant variable in the quantification of mechanisms that structure ecological communities \cite{bello_hierarchical_2013}, and therefor in modelling approaches. It is chosen based on structures that the modeller intends to explore, and determine the upper limit of mechanisms the model can reproduce. Large scales will favour geo-climatic and dispersal effects \cite{kleidon_global_2000} while small scales will focus on direct plant interactions processes or resource heterogeneity \cite{ soussana_gemini:_2012, maire_plasticity_2013, taubert_modelling_2014}. This is true for spatial scale, but also temporal scales. Because of ...reasons... , spatial and temporal scales are often correlated.
+The \textemph{scale} is a determinant variable in the quantification of mechanisms that structure ecological communities \cite{bello_hierarchical_2013}, and therefore in modelling approaches. It is chosen based on structures that the modeller intends to explore, and determine the upper limit of mechanisms the model can reproduce. Large scales will favour geo-climatic and dispersal effects \cite{kleidon_global_2000} while small scales will focus on direct plant interactions processes or resource heterogeneity \cite{ soussana_gemini:_2012, maire_plasticity_2013, taubert_modelling_2014}. This is true for spatial scale, but also temporal scales. Because mechanisms studies at large scales like dispersion, invasion, speciation occur over long time scales whereas mechanisms occuring at smaller spatial scale, like competition, facilitation, disturbances play a role on shorter time scales, spatial and temporal scales are often correlated. The scales are also dependent on the stdied environment. There is a high contrast between highly productive environments like tropical forests, and unproductive environments like mountain grasslands. The dimensions of individuals themselves are a constraint on the scales: while tropical trees grow few tens of meter high and above one meter diameter \cite{}, alpine grasses do not exceed half a meter \cite{korner_alpine_2011}. Similar difference of an order of magnitude can be observed for life cycles between long live tree and annuals or bi-annuals grasses. The focus of this work being on plant functioning and interaction mechanisms, the scale of the model will be around the meter, while the temporal scale will be in the order of the season.
 
-\paragraph{The resolution} The resolution is also determined by processes of interest and the scale of the model. 
+\paragraph{The resolution} The same way the scales are constraint by the size or length of the individual, the \textemph{resolution} should be close to the size of the modelled entities. The resolution is also determined by the focus of the model: interactions between individuals must be distinct and not blended to hope see the emergence of spatial patterns. Cell size and time step length should be small enough to take into account heterogeneity that is a important driver of diversity. For these reasons, the spatial resolution is set up to the centimetre and the temporal resolution to the day (can be changed but processes might not scale well).
 
-\paragraph{Complexity: scale and resolution}
+\paragraph{Complexity and performance}
+Once resolution is fixed there is always the temptation to increase the size, or scale, of the system. This should be avoided for two main reasons. (1) the increase of scale with relatively fine resolution lead to a high increase in computational power required for simulations that are already complex. (2) there is a high change that the processes modelled at fine resolution loose their sense when scale increases. Indeed, as mentioned, the importance of processes at stake is often dependant on the scale the system is studied. The effect of higher scale processes are often taken into account in inputs or parameters\cite{}. Calibration these parameters against certain data is a way to better understand these processes \cite{lagarigues}. 
 
 \section{Resources: light and water}
 As mentioned in the previous chapter, resource fluctuations, heterogeneity and competition are important factors for coexistence. Unlike animals, plant mainly compete for the same resources: light, water and nutrients. Light is the source of energy that allow the transformation of inorganic carbon into organic matter through photosynthesis. Water has multiple function in plants: transport, structural support, and oxygen supply for photosynthesis. Nutrients are used in construction of cells and cell walls, and especially the production of proteins that act as cell machinery.
 
 \section{Perturbations: frost, grazing and mowing}
+\paragraph{Climate}
+The most notable specificity of mountain grasslands is the climate. While there is a wide range of mountain grasslands type, the focus of this document is on French Alps. Alpine climate in France is characterise by cold winter with snow precipitations and dry summer. The growing season is relatively short and spread between May and October in low altitude, and June and September in high altitude \textbf{need some charts here}. The particularity of this habitat is the presence of snow cover during winter that protects soil, rhizomes and seeds from negative temperatures. Because of this, seasons are decomposed in the model based on the snow melt in scpring/summer and the first snowfall in winter. While a rise in temperature is needed to allow snow to melt down, frost event can occur after the beginning of the season. Such events represent strong environmental filter for non adaptive plants that do not invest in specific resistance mechanisms to favour early germination and growth. Therefore there is a strategic trade-off between germination date and early growth with frost resistance.
+
+\paragraph{Management}
+Another specificity of alpine grasslands is that they are subject to changing management practices. Mountain grazing by domestic cattle was fairly common in Alps, but changes in agricultural practices and decrease in productivity due to drought lead to less and less grazing or mowing for fodder in alpine grasslands. These two types of management have different impacts on the community. While mowing is non specific and favour small plants, herbivory is known to be specific when the production is greater than the grazing pressure. Leaves with high nutrient content and low structural tissues content are generally favoured because of high input and high digestibility. The grazing pressure plays as ... mechanisms as it favours conservative species with lower competitive ability.
+
+\paragraph{Other form of herbivory}
+
+
 
 \chapter{Multi-dimensional strategy space, carbon pools and trade-offs}
 \section{Multi-dimensional strategy space and allocation pools}
@@ -80,6 +90,8 @@ The phenotype (within the subspace of vegetative allocation) depends both on the
 phenotype = ensemble of response trait values. Emerge from default trait + environment.\\
 Composite traits are defined by the interaction of different, independent, driving traits. What is a driving traits ? Biology: genetic information. This genetic information is selected by climatic conditions. If we can make a link between optimum value for a trait and environmental conditions, then store external conditions and use link between.\\
 
+
+\paragraph{Vegetative phenotype axis}
 
 %Th example of the leaf trade-off and the importance of resource availability for optimum position.\\
 
@@ -170,8 +182,8 @@ Strong plasticity effect & \textcolor{myGreen}{$\bullet$} & $\circ$
 \end{table*}
 
 %Take home message ####################################
-\textbf{... few words on the space ?\\
-The driving rule of plasticity defines whether or not the choice of the  phenotype is fully determined by the projection of external conditions or constrained by some species specific parameters. The effect of this balance between projection and parameters is crucial in the model behaviour. In any case the projection is the main control on individual plastic response to change in conditions, offering possibilities to modulate individual plasticity despite a shared mechanism.}
+\textbf{
+The driving rule of plasticity defines whether or not the choice of the  phenotype is fully determined by the projection of external conditions or also constrained by some species specific parameters. The effect of this balance between projection and parameters has a large influence on the model behaviour. In any case the projection is the main control on individual plastic response to change in conditions, offering possibilities to modulate individual plasticity despite a allocation rule shared by all species. The role of both projection and allocation rule will of particular interest during the analysis of the impact of phenotypic plasticity of plant growth and community dynamics.}
 
 
 

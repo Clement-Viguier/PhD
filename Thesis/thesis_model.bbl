@@ -17,6 +17,563 @@
 \endgroup
 
 
+\refsection{2}
+  \sortlist[entry]{none/global/}
+    \entry{jung_intraspecific_2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8ebed31ded78c47a084b88ac0d0b2ac3}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e8b2a05af229dec13260ee602ba35594}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8f524674b7870bae7bfbc772ee46b984}{%
+           family={Violle},
+           familyi={V\bibinitperiod},
+           given={Cyrille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1ad96402d9c897e77bdc8f6aa201304b}{%
+           family={Kunstler},
+           familyi={K\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bf0bba63671e57013397183d2ea56348}{%
+           family={Loucougaray},
+           familyi={L\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7d81da4e759edc1db5287a25366d37fd}{%
+           family={Spiegelberger},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5c4e114f8ae1b013d4ae751c81c7f4a9}
+      \strng{fullhash}{d71ca02425009214f7a06d147fecfaa4}
+      \strng{authornamehash}{5c4e114f8ae1b013d4ae751c81c7f4a9}
+      \strng{authorfullhash}{d71ca02425009214f7a06d147fecfaa4}
+      \field{labelalpha}{Jun+14}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Climate change is expected to increase the magnitude and the frequency of extreme climatic events such as droughts. Better understanding how plant communities will respond to these droughts is a major challenge. We expect the response to be a shift in functional trait values resulting from both species turnover and intraspecific trait variability, but little research has addressed the relative contribution of both components. * We analysed the short-term functional response of subalpine grassland communities to a simulated drought by focusing on four leaf traits (LDMC: leaf dry matter content, SLA: specific leaf area, LNC: leaf nitrogen concentration and LCC: leaf carbon concentration). After evaluating species turnover and intraspecific variability separately, we determined their relative contribution in the community functional response to drought, reflected by changes in community-weighted mean traits. * We found significant species turnover and intraspecific variability, as well as significant changes in community-weighted mean for most of the traits. The relative contribution of intraspecific variability to the changes in community mean traits was more important (42–99\%) than the relative contribution of species turnover (1–58\%). Intraspecific variability either amplified (for LDMC, SLA and LCC) or dampened (for LNC) the community functional response mediated by species turnover. We demonstrated that the small contribution of species turnover to the changes in community mean LDMC and LCC was explained by a lack of covariation between species turnover and interspecific trait differences. * Synthesis. These results highlight the need for a better consideration of intraspecific variability to understand and predict the effect of climate change on plant communities. While both species turnover and intraspecific variability can be expected following an extreme drought, we report new evidence that intraspecific variability can be a more important driver of the short-term functional response of plant communities.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Intraspecific trait variability mediates the response of subalpine grassland communities to extreme drought events}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{102}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 53}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12177
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/Z32Z2SNG/Jung et al. - 2014 - Intraspecific trait variability mediates the respo.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/FM4HKTJJ/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12177/abstract
+      \endverb
+      \keyw{intraspecific variability,Drought,plant functional traits,climate change experiments,community-weighted mean traits,grasslands,plant–climate interactions}
+    \endentry
+    \entry{kichenin_contrasting_2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4af912481f39f09ec65c4ed146b69fb5}{%
+           family={Kichenin},
+           familyi={K\bibinitperiod},
+           given={Emilie},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2a36cd6a6a37d4a5ab6dbc29193dea60}{%
+           family={Wardle},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0a53338028da78dd75b6677e742f1c1b}{%
+           family={Peltzer},
+           familyi={P\bibinitperiod},
+           given={Duane\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=dd9f84dedc82b5249f0a201bbe7fcf96}{%
+           family={Morse},
+           familyi={M\bibinitperiod},
+           given={Chris\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5eabbd844f7b67ff5d02b95652625087}{%
+           family={Freschet},
+           familyi={F\bibinitperiod},
+           given={Grégoire\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ec3e5253613ce88f6bb164e8c968d82d}
+      \strng{fullhash}{71fc4551962060dc86530a5ff7f2c599}
+      \strng{authornamehash}{ec3e5253613ce88f6bb164e8c968d82d}
+      \strng{authorfullhash}{71fc4551962060dc86530a5ff7f2c599}
+      \field{labelalpha}{Kic+13}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Despite widespread focus on interspecific variation in trait-based ecology, there is growing evidence that intraspecific trait variability can play a fundamental role in plant community responses to environmental change and community assembly. * Here, we quantify the strength and direction of inter- and intraspecific plant community trait responses along a 900 m elevation gradient spanning alpine and subalpine plant communities in southern New Zealand. We measured five commonly used leaf traits (i.e. dry matter content, N and P concentrations, leaf area and specific leaf area) on all 31 dominant and subordinate species recorded along the gradient, and examined their species-specific and community-level responses to elevation using both abundance-weighted and nonweighted averages of trait values. * By decomposing the variance of community-level measures of these traits across the gradient, we showed that the contribution of interspecific variation to the response of plant assemblages to elevation was stronger than that of intraspecific variation, for all traits except specific leaf area. Further, the relative contributions of interspecific effects were greater when abundance-weighted rather than nonweighted measures were used. We also observed contrasting intraspecific trait responses to the gradient among species (particularly for leaf N and P concentrations), and found both positive and negative covariation between inter- and intraspecific effects on community-level trait values. * The weak community-average trait responses to elevation, as found for specific leaf area (SLA) and leaf N and P concentrations, resulted from strong but opposing responses among vs. within species, which are not typically accounted for in species-based measures of plant community responses. For instance, increasing elevation (and associated factors such as a decrease in soil nutrient availability) favoured the dominance of species with relatively high leaf nutrient concentrations while simultaneously triggering an intraspecific decrease in the leaf nutrient concentrations of these species. * The context dependency of positive and negative covariation between inter- and intraspecific trait variability, and the species-specific nature of intraspecific shifts in functional trait values, reveal highly complex plastic responses of plants to environmental changes, and highlights the need for greater consideration of the role that intraspecific variation plays in community-level processes.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Funct Ecol}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Contrasting effects of plant inter- and intraspecific variation on community-level trait measures along an environmental gradient}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{27}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1254\bibrangedash 1261}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12116
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/JHM29BDM/Kichenin et al. - 2013 - Contrasting effects of plant inter- and intraspeci.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/PTGT6PUZ/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2435.12116/abstract
+      \endverb
+      \keyw{plant functional traits,specific leaf area (SLA),elevational gradient,interspecific and intraspecific variation,leaf nutrient content,plant community structure,Species Turnover,variance decomposition}
+    \endentry
+    \entry{siefert_global_2015}{article}{}
+      \name{author}{45}{}{%
+        {{hash=bdd8fc90970961fcc5795839cbca46b2}{%
+           family={Siefert},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8f524674b7870bae7bfbc772ee46b984}{%
+           family={Violle},
+           familyi={V\bibinitperiod},
+           given={Cyrille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=98eb058b72a09ea8e891b935c10f072d}{%
+           family={Chalmandrier},
+           familyi={C\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e8b2a05af229dec13260ee602ba35594}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=be163b7f94ac55abd4a5fb72c6585c55}{%
+           family={Taudiere},
+           familyi={T\bibinitperiod},
+           given={Adrien},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f1467e9749913fc11a6cb6838bf2f42d}{%
+           family={Fajardo},
+           familyi={F\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dccfc52a895567d682747304be3c34df}{%
+           family={Aarssen},
+           familyi={A\bibinitperiod},
+           given={Lonnie\bibnamedelima W.},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=17a0f82760cffaae4575372a39430934}{%
+           family={Baraloto},
+           familyi={B\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=493c76edc3d37e3ed26f07c0f0ac0d93}{%
+           family={Carlucci},
+           familyi={C\bibinitperiod},
+           given={Marcos\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c0b08c337e2bc8a5bee41bbc0427af4f}{%
+           family={Cianciaruso},
+           familyi={C\bibinitperiod},
+           given={Marcus\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9e396b35221527f2c284e716972234ac}{%
+           family={L.\bibnamedelimi Dantas},
+           familyi={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Vinícius},
+           giveni={V\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=4f541e029495cc4e5864a69760cbfb91}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=47b201ef4e736603c565f2cc895f4297}{%
+           family={Duarte},
+           familyi={D\bibinitperiod},
+           given={Leandro\bibnamedelimb D.\bibnamedelimi S.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=80f060fafcb7e45bffcaf15052b461e2}{%
+           family={Fonseca},
+           familyi={F\bibinitperiod},
+           given={Carlos\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5eabbd844f7b67ff5d02b95652625087}{%
+           family={Freschet},
+           familyi={F\bibinitperiod},
+           given={Grégoire\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=b2bac23717c94e607a59374501bb810a}{%
+           family={Gaucherand},
+           familyi={G\bibinitperiod},
+           given={Stéphanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b37ef90307ccac34e3e3d1ffb4a20baf}{%
+           family={Hikosaka},
+           familyi={H\bibinitperiod},
+           given={Kouki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4ee17876deff85b292cd7af5684e1aa1}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8ebed31ded78c47a084b88ac0d0b2ac3}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c3ef3808d9df2208565f8abbd6fcdbc3}{%
+           family={Kamiyama},
+           familyi={K\bibinitperiod},
+           given={Chiho},
+           giveni={C\bibinitperiod}}}%
+        {{hash=74927302cdc84ea32b4c44e3897375d6}{%
+           family={Katabuchi},
+           familyi={K\bibinitperiod},
+           given={Masatoshi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=383a8a204fc676a7247532b3b29b3322}{%
+           family={Kembel},
+           familyi={K\bibinitperiod},
+           given={Steven\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4af912481f39f09ec65c4ed146b69fb5}{%
+           family={Kichenin},
+           familyi={K\bibinitperiod},
+           given={Emilie},
+           giveni={E\bibinitperiod}}}%
+        {{hash=060b3b461f525c88bbcdeadb05c43b7a}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Nathan\bibnamedelimb J.\bibnamedelimi B.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=cf591e5d9efb378abd017f8077ed7633}{%
+           family={Lagerström},
+           familyi={L\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5ee0fc819184361653ec5efc1e809b49}{%
+           family={Bagousse-Pinguet},
+           familyi={B\bibinithyphendelim P\bibinitperiod},
+           given={Yoann\bibnamedelima Le},
+           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0d2c91b24f885b22d373a892a768abc8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuanzhi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b3075d08629e44f15d66db5684a3bd03}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={Norman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=78b6d2cd4d9718034be3c5a8c6bd7e09}{%
+           family={Messier},
+           familyi={M\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=39ec282ce730c8005ecb9d11da3a4b41}{%
+           family={Nakashizuka},
+           familyi={N\bibinitperiod},
+           given={Tohru},
+           giveni={T\bibinitperiod}}}%
+        {{hash=653378d9bbe30625fe2574a6b598ba92}{%
+           family={Overton},
+           familyi={O\bibinitperiod},
+           given={Jacob\bibnamedelima McC.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0a53338028da78dd75b6677e742f1c1b}{%
+           family={Peltzer},
+           familyi={P\bibinitperiod},
+           given={Duane\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=52e7b7aa48f19c621e9189dbc533df04}{%
+           family={Pérez-Ramos},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={I.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0aeeffe087239ff9d8f839d94b7fe777}{%
+           family={Pillar},
+           familyi={P\bibinitperiod},
+           given={Valério\bibnamedelima D.},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=df4137903d45b1dcc053cc7232dc9bef}{%
+           family={Prentice},
+           familyi={P\bibinitperiod},
+           given={Honor\bibnamedelima C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=733205b7770ee61b94393fed6dccdd13}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9401ea0ea4e1e432ff7f7fd4c4a5f967}{%
+           family={Sasaki},
+           familyi={S\bibinitperiod},
+           given={Takehiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c68aa19a6ae7932e49b4154f7f8caf21}{%
+           family={Schamp},
+           familyi={S\bibinitperiod},
+           given={Brandon\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4d582068c8336b7f66132fd91b4617e1}{%
+           family={Schöb},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fe8693ba623b1a6061f0ed7dcab4e401}{%
+           family={Shipley},
+           familyi={S\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4e582f0f10b97ca91b66ccb938871eaa}{%
+           family={Sundqvist},
+           familyi={S\bibinitperiod},
+           given={Maja},
+           giveni={M\bibinitperiod}}}%
+        {{hash=927e8e43d27221e4a5b2a154455c265b}{%
+           family={Sykes},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=a4a79425b3fe90b546bfa7b2e4c4a57d}{%
+           family={Vandewalle},
+           familyi={V\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2a36cd6a6a37d4a5ab6dbc29193dea60}{%
+           family={Wardle},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dc84dd7597a1810ba58937b01b4702de}
+      \strng{fullhash}{6bbdc0dd7505d8cb49e9c8eebe667e3f}
+      \strng{authornamehash}{dc84dd7597a1810ba58937b01b4702de}
+      \strng{authorfullhash}{6bbdc0dd7505d8cb49e9c8eebe667e3f}
+      \field{labelalpha}{Sie+15}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent studies have shown that accounting for intraspecific trait variation (ITV) may better address major questions in community ecology. However, a general picture of the relative extent of ITV compared to interspecific trait variation in plant communities is still missing. Here, we conducted a meta-analysis of the relative extent of ITV within and among plant communities worldwide, using a data set encompassing 629 communities (plots) and 36 functional traits. Overall, ITV accounted for 25\% of the total trait variation within communities and 32\% of the total trait variation among communities on average. The relative extent of ITV tended to be greater for whole-plant (e.g. plant height) vs. organ-level traits and for leaf chemical (e.g. leaf N and P concentration) vs. leaf morphological (e.g. leaf area and thickness) traits. The relative amount of ITV decreased with increasing species richness and spatial extent, but did not vary with plant growth form or climate. These results highlight global patterns in the relative importance of ITV in plant communities, providing practical guidelines for when researchers should include ITV in trait-based community and ecosystem studies.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecol Lett}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{A global meta-analysis of the relative extent of intraspecific trait variation in plant communities}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2016}
+      \field{volume}{18}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{1406\bibrangedash 1419}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/ele.12508
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/KEE9GXJ6/Siefert et al. - 2015 - A global meta-analysis of the relative extent of i.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/FIT3PW9K/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/ele.12508/abstract
+      \endverb
+      \keyw{Community ecology,functional diversity,Interspecific variation,intraspecific variability,leaf trait,plant functional trait,trait-based ecology}
+    \endentry
+    \entry{albert_importance_2012}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e8b2a05af229dec13260ee602ba35594}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=4f541e029495cc4e5864a69760cbfb91}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=f011d51a2af6b374f6231107f0ab059c}{%
+           family={Boulangeat},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod}}}%
+        {{hash=667195f9eb77cc33ba61c6a0b0affe39}{%
+           family={Pellet},
+           familyi={P\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+        {{hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{92e8b90fe897184b802000c69e408a2d}
+      \strng{fullhash}{fccde8f69f28563e9f57274c405444eb}
+      \strng{authornamehash}{92e8b90fe897184b802000c69e408a2d}
+      \strng{authorfullhash}{fccde8f69f28563e9f57274c405444eb}
+      \field{labelalpha}{Alb+12}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Functional diversity (FD) is a key facet of biodiversity used to address central questions in ecology. Despite recent methodological advances, FD remains a complex concept and no consensus has been reached either on how to quantify it, or on how it influences ecological processes. Here we define FD as the distribution of trait values within a community. When and how to account for intraspecific trait variability (ITV) when measuring FD remains one of the main current debates. It remains however unclear to what extent accounting for population-level ITV would modify FD quantification and associated conclusions. In this paper, we address two critical questions: (1) How sensitive are different components of FD to the inclusion of population-level ITV? (2) Does the omission of ITV obscure the understanding of ecological patterns? Using a mixture of empirical data and simulation experiments, we conducted a sensitivity analysis of four commonly used FD indices (community weighted mean traits, functional richness, Rao's quadratic entropy, Petchey and Gaston's FD index) and their relationships with environmental gradients and species richness, by varying both the extent (plasticity or not) and the structure (contingency to environmental gradient due to local adaptation) of population-level ITV. Our results suggest that ITV may strongly alter the quantification of FD and the detection of ecological patterns. Our analysis highlights that 1) species trait values distributions within communities are crucial to the sensitivity to ITV, 2) ITV structure plays a major role in this sensitivity and 3) different indices are not evenly sensitive to ITV, the single-trait FD from Petchey and Gaston being the most sensitive among the four metrics tested. We conclude that the effects of intraspecific variability in trait values should be more systematically tested before drawing central conclusions on FD, and suggest the use of simulation studies for such sensitivity analyses.}
+      \field{issn}{1600-0706}
+      \field{journaltitle}{Oikos}
+      \field{number}{1}
+      \field{title}{On the importance of intraspecific variability for the quantification of functional diversity}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{121}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{116\bibrangedash 126}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/j.1600-0706.2011.19672.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/6FFGK95C/Albert et al. - 2012 - On the importance of intraspecific variability for.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/NRQZCTU9/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0706.2011.19672.x/abstract
+      \endverb
+    \endentry
+    \entry{violle_return_2012}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8f524674b7870bae7bfbc772ee46b984}{%
+           family={Violle},
+           familyi={V\bibinitperiod},
+           given={Cyrille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=65212fc1a7ff452a91bb0b51c2e24b74}{%
+           family={Enquist},
+           familyi={E\bibinitperiod},
+           given={Brian\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7342f63ec775b6dc750c6afe1d3b17f1}{%
+           family={McGill},
+           familyi={M\bibinitperiod},
+           given={Brian\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=bef2a7487ff5b645c8024d4ec3c6137b}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e8b2a05af229dec13260ee602ba35594}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=f0ecd938aeb2f0d271d2853282857682}{%
+           family={Hulshof},
+           familyi={H\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8ebed31ded78c47a084b88ac0d0b2ac3}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=78b6d2cd4d9718034be3c5a8c6bd7e09}{%
+           family={Messier},
+           familyi={M\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb015bf77099b74cca30361e4af9f65f}
+      \strng{fullhash}{268d4379f4b2e73310a2ceab45d107ee}
+      \strng{authornamehash}{bb015bf77099b74cca30361e4af9f65f}
+      \strng{authorfullhash}{268d4379f4b2e73310a2ceab45d107ee}
+      \field{labelalpha}{Vio+12}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Despite being recognized as a promoter of diversity and a condition for local coexistence decades ago, the importance of intraspecific variance has been neglected over time in community ecology. Recently, there has been a new emphasis on intraspecific variability. Indeed, recent developments in trait-based community ecology have underlined the need to integrate variation at both the intraspecific as well as interspecific level. We introduce new T-statistics (‘T’ for trait), based on the comparison of intraspecific and interspecific variances of functional traits across organizational levels, to operationally incorporate intraspecific variability into community ecology theory. We show that a focus on the distribution of traits at local and regional scales combined with original analytical tools can provide unique insights into the primary forces structuring communities.}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{The return of the variance}
+      \field{title}{The return of the variance: intraspecific variability in community ecology}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{27}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{244\bibrangedash 252}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.tree.2011.11.014
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/EG5M5D3A/Violle et al. - 2012 - The return of the variance intraspecific variabil.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/SV7PUBDH/S0169534711003375.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169534711003375
+      \endverb
+      \keyw{intraspecific variation,functional trait,community assembly,species coexistence,species diversity,mean field approach,T-statistics,variance}
+    \endentry
+  \endsortlist
+\endrefsection
+
 \refsection{3}
   \sortlist[entry]{none/global/}
     \entry{grimm_standard_2006}{article}{}
@@ -166,6 +723,7 @@
       \strng{fullhash}{a3fed0a62ff09a69c215488d787c3e81}
       \strng{authornamehash}{34a4de0c97c67c80ceb4801a22916c07}
       \strng{authorfullhash}{a3fed0a62ff09a69c215488d787c3e81}
+      \field{labelalpha}{Gri+06}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
@@ -240,6 +798,7 @@
       \strng{fullhash}{6fe1f1d4867228a45b79df5669557aeb}
       \strng{authornamehash}{6aa681f151279080c88bbb7985884e36}
       \strng{authorfullhash}{6fe1f1d4867228a45b79df5669557aeb}
+      \field{labelalpha}{Bel+13}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -288,6 +847,7 @@
       \strng{fullhash}{335836b2e59d8074945d684b53be6038}
       \strng{authornamehash}{335836b2e59d8074945d684b53be6038}
       \strng{authorfullhash}{335836b2e59d8074945d684b53be6038}
+      \field{labelalpha}{KM00}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -365,6 +925,7 @@
       \strng{fullhash}{d7c1e2eed0eebfe0f40f3afa90f80120}
       \strng{authornamehash}{02b03acf8cedbc8fc75c213a20ddbd4f}
       \strng{authorfullhash}{d7c1e2eed0eebfe0f40f3afa90f80120}
+      \field{labelalpha}{Sou+12}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
@@ -446,8 +1007,10 @@
       \strng{fullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
       \strng{authornamehash}{2617b207b06c76ec7ffdd81f6af87288}
       \strng{authorfullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \field{labelalpha}{Mai+13}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Gemini, a mechanistic model linking plant functional traits, plant populations, community dynamics, and ecosystem scale fluxes in grasslands has been reported in a companion paper (Soussana et al., 2012). For monocultures and six species mixtures of perennial grass species, this model has been successfully evaluated against experimental data of above-ground net primary productivity (ANPP) and plant community structure across nitrogen and disturbance (cutting frequency) gradients. The Gemini model combines two categories of processes: (i) C and N fluxes, (ii) morphogenesis and architecture of roots and shoots and demography of clonal plant axes. These two process categories constrain the form and function of the simulated clonal plants within plastic limits. We show here that the plasticity of the simulated plant populations accounts for well-established empirical laws: (i) root:shoot ratio, (ii) self-thinning, (iii) critical shoot N content, and (iv) role of plant traits (specific leaf area and plant height) for population response to environmental gradients (nitrogen and disturbance). Moreover, we show that model versions for which plasticity simulation has been partly or fully suppressed have a reduced ANPP in monocultures and in binary mixtures and do not capture anymore productivity and dominance changes across environmental gradients. We conclude that, along environmental and competition gradients, the plasticity of plant form and function is required to maintain the coordination of multiple resource capture and, hence, to sustain productivity and dominance.}
@@ -489,6 +1052,7 @@
       \strng{fullhash}{44aab02fe59417e078bb8f8a2bd840b2}
       \strng{authornamehash}{44aab02fe59417e078bb8f8a2bd840b2}
       \strng{authorfullhash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \field{labelalpha}{Tau14}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
@@ -520,8 +1084,9 @@
       \strng{fullhash}{1ecb3c0a8262af560d1c5fcef2827334}
       \strng{authornamehash}{1ecb3c0a8262af560d1c5fcef2827334}
       \strng{authorfullhash}{1ecb3c0a8262af560d1c5fcef2827334}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelalpha}{Mai09}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Due to the difficulty to link dynamically and mechanistically the composition, the structure and the individual functions of grassland ecosystem, the ecosystem functioning remains unclear, which limits the prediction of ecosystem response to climatic and management changes. Plant functional traits are proposed as useful tool to link community response to environmental change and consecutive effect on ecosystem functioning. Plant functional trait is morphological, physiological, chemical and phenological characteristic of a plant, which can be transposed to organisation levels of species and community. This thesis deals with traits utilisation in a mechanistic modelling approach in order to link dynamically this hierarchy of organisation levels and, consequently, community response and ecosystem functioning. We used the functional traits of 13 grass species coocurring in mesic grassland, in a biogeochemical model of grassland diversity, GEMINI (Grassland Ecosystem Model with INdividual centered Interactions). This model has been developed, calibrated and used to understand the role of plant traits for the response of these species to two cut frequencies and two N fertilisation levels in monocultures and in mixtures in terms of productivity, plasticity and abundance. In first time, a model hypothesis concerning the leaf C:N stoichiometry has been validated. This leaf photosynthesis coordination hypothesis states a co-limitation of photosynthesis by light-driven and dark biochemical reactions. It has been tested by using a database of 31 species belonging to 6 plant functional groups and growing in different environmental conditions. This hypothesis explained without bias 92\% of total variance of leaf nitrogen content per unit leaf area by the variations of three leaf photosynthetic traits. The model equations of substrates allocation between leaf structures and leaf photosynthetic proteins are therefore validated and calibrated. In second time, functional traits linked to root N acquisition and shoot N utilisation (N productivity efficiency and N residence time in tissue) have been measured in field monoculture on 13 species. We showed mechanistically the fundamental relationships linking root and shoot traits (size vs physiological activity specialization axes). Moreover, we highlighted interspecific trade-offs between: i) the root uptake capacities of NO3 - and NH4 + and ii) root area developed in resource patch and root N uptake. These results allowed the integration of root and leaf traits implied in N plant strategies in the calibration of GEMINI for each grass species. Once the model development completed, the simulations showed several emergent properties: 1) after defoliation and nitrogen deprivation, the plastic adjustments of relative size of structural compartments and of their physiological activities restore the functional balance leading to a colimitation of plant by light, nitrogen and CO2; 2) at equilibrium state, the size and the tiller density simulated by the model covary according to a -3/4 power coefficient. The model allows the simulation of vegetative production variations between species and between two cut frequencies and two N fertilisation levels both in monocultures and in mixtures. The observed ranks of grasses relative abundance are well predicted in different six species mixtures. Finally, the model simulates a positive biodiversity effect on the production of 6 species mixtures, which overproduce in comparison of each species in monoculture with the same initial tiller density. When the model is simplified, its prediction ability is degraded. The actual version of the model gives interesting perspective in terms of fundamental question in community ecology and in functional ecology. We provide an application example by investigating the origin of covariations between morphological traits observed in natura. For four traits representative of functional strategies of 13 grass species, a systematic study in 4D space built by these traits showed that: 1) the measured traits value maximizes the simulated growth for each of these species; 2) the individual plasticity observed in response to N deprivation maximizes the simulated growth. These results increases the understanding about the constraints imposed by intra-and-inter-specific trade-offs on the performance and the plasticity of these grass species across resource gradients.}
@@ -583,8 +1148,9 @@
       \strng{fullhash}{9fe24616dfe097bad001173cedc4f432}
       \strng{authornamehash}{9bc67367bc44504d3da96832e9d9b1c3}
       \strng{authorfullhash}{9fe24616dfe097bad001173cedc4f432}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelalpha}{Loh+14}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Background and Aims Simple models of herbaceous plant growth based on optimal partitioning theory predict, at steady state, an isometric relationship between shoot and root biomass during plant ontogeny, i.e. a constant root–shoot ratio. This prediction has received mixed empirical support, suggesting either that optimal partitioning is too coarse an assumption to model plant biomass allocation, or that additional processes need to be modelled to account for empirical findings within the optimal partitioning framework. In this study, simulations are used to compare quantitatively two potential explanations for observed non-isometric relationships, namely nutrient limitation during the experiments and initial developmental constraints. Methods A simple plant growth model was built to simulate the growth of herbaceous species, based on optimal partitioning theory combined with empirically measured plant functional traits. Its ability to reproduce plant relative growth rate and final root weight ratio was assessed against previously published data. Predicted root–shoot ratios during plant ontogeny were compared with experimental observations. The effects of nutrient limitation and initial developmental constraints on root–shoot ratios were then tested. Key Results The model was found to reproduce overall plant growth patterns accurately, but failed, in its simplest form, at explaining non-isometric growth trajectories. Both nutrient limitation and ontogenetic developmental constraints were further shown to cause transient dynamics resulting in a deviation from isometry. Nitrogen limitation alone was not sufficient to explain the observed trajectories of most plant species. The inclusion of initial developmental constraints (fixed non-optimal initial root–shoot ratios) enabled the reproduction of the observed trajectories and were consistent with observed initial root–shoot ratios. Conclusions This study highlights the fact that considering transient dynamics enables theoretical predictions based on optimal partitioning to be reconciled with empirically measured ontogenetic root–shoot allometries. The transient dynamics cannot be solely explained by nutrient limitation during the experiments, pointing to a likely role for initial developmental constraints in the observed non-isometric growth trajectories.}
@@ -638,8 +1204,9 @@
       \strng{fullhash}{ea3290a05c1e8e9135cdb2e2d34babde}
       \strng{authornamehash}{97108e57ed8ea169c482b5e611765319}
       \strng{authorfullhash}{ea3290a05c1e8e9135cdb2e2d34babde}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelalpha}{Rei+06}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Ecological theory suggests that environmental variability can promote coexistence, provided that species occupy differential niches. In this study, we focus on two questions: (1) Do allocation trade-offs provide a sufficient basis for niche differentiation in succulent plant communities? (2) What is the relative importance of different forms of environmental variability on species diversity and community composition? We approach these questions with a generic, individual-based simulation model. In our model, plants compete for water in a spatially explicit environment. Species differ in their size at maturity and in the allocation of carbon to roots, leaves and storage tissue. The model was fully specified with independent literature data. Model output was compared to characteristics of a species-rich community in the semi-arid Richtersveld (South Africa). The model reproduced the coexistence of plants with different sizes at maturity, the dominance of succulent shrubs, and the level of vegetation cover. We analyzed the effects of three forms of environmental variability: (a) temporal fluctuations in precipitation (rain and fog), (b) spatial heterogeneity of water supply due to run-on and run-off processes and (c) ‘rock pockets’ that limit root competition in space. The three types of variability had differential effects on diversity: diversity exhibited a strong hump-shaped response to temporal variation. Spatial variability increased diversity, with the strongest increase occurring at intermediate levels of temporal variability. Finally, rock pockets had the weakest effect, but contributed to diversity by providing refuges for small species, particularly at low temporal variability. The model thus shows that spatio-temporal variation of resource supply can maintain diversity over long time scales even in small systems, as is the case in the Richtersveld succulent communities. Trade-offs in allocation provide the basis for necessary niche differentiation. By describing resource competition between individual plants, our model provides a mechanistic basis for the link from species traits to community composition at given environmental conditions. It thereby contributes to an understanding of the forces shaping plant communities. Such an understanding is critical to reduce the threats environmental change poses to biodiversity and ecosystem services.}
@@ -683,8 +1250,9 @@
       \strng{fullhash}{b7f0fb86b43bc1563488fea1037940e5}
       \strng{authornamehash}{b7f0fb86b43bc1563488fea1037940e5}
       \strng{authorfullhash}{b7f0fb86b43bc1563488fea1037940e5}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelalpha}{Wes98}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A leaf-height-seed (LHS) plant ecology strategy scheme is proposed. The axes would be specific leaf area SLA (light-capturing area deployed per dry mass allocated), height of the plant's canopy at maturity, and seed mass. All axes would be log-scaled. The strategy of a species would be described by its position in the volume formed by the three axes. The advantages of the LHS scheme can be understood by comparing it to Grime's CSR scheme, which has Competitors, Stress-tolerators and Ruderals at the corners of a triangle. The CSR triangle is widely cited as expressing important strategic variation between species. The C–S axis reflects variation in responsiveness to opportunities for rapid growth; in the LHS scheme, SLA reflects the same type of variation. The R axis reflects coping with disturbance; in the LHS scheme, height and seed mass reflect separate aspects of coping with disturbance. A plant ecology strategy scheme that permitted any species worldwide to be readily positioned within the scheme could bring substantial benefits for improved meta-analysis of experimental results, for placing detailed ecophysiology in context, and for coping with questions posed by global change. In the CSR triangle the axes are defined by reference to concepts, there is no simple protocol for positioning species beyond the reference datasets within the scheme, and consequently benefits of worldwide comparison have not materialized. LHS does permit any vascular land plant species to be positioned within the scheme, without time-consuming measurement of metabolic rates or of field performance relative to other species. The merits of the LHS scheme reside (it is argued) in this potential for worldwide comparison, more than in superior explanatory power within any particular vegetation region. The LHS scheme avoids also two other difficulties with the CSR scheme: (a) It does not prejudge that there are no viable strategies under high stress and high disturbance (the missing quadrant in the CSR triangle compared to a two-axis rectangle); (b) It separates out two distinct aspects of the response to disturbance, height at maturity expressing the amount of growth attempted between disturbances, and seed mass (inverse of seed output per unit reproductive effort) expressing the capacity to colonize growth opportunities at a distance. The advantage of LHS axes defined through a single readily-measured variable needs to be weighed against the disadvantage that single plant traits may not capture as much strategy variation as CSR's multi-trait axes. It is argued that the benefits of potential worldwide comparison do actually outweigh any decrease in the proportion of meaningful variation between species that is captured. Further, the LHS scheme opens the path to quantifying what proportion of variation in any other ecologically-relevant trait is correlated with the LHS axes. This quantification could help us to move forward from unprofitable debates of the past 30 years, where CSR opponents have emphasized patterns that were not accommodated within the scheme, while CSR proponents have emphasized patterns that the scheme did account for.}
@@ -727,8 +1295,9 @@
       \strng{fullhash}{975117d6fc572b5e9ab2f502ec53dc42}
       \strng{authornamehash}{975117d6fc572b5e9ab2f502ec53dc42}
       \strng{authorfullhash}{975117d6fc572b5e9ab2f502ec53dc42}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelalpha}{Lau14}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{* Plants are multifaceted organisms that have evolved numerous solutions to the problem of establishing, growing and reproducing with limited resources. The intrinsic dimensionality of plant traits is the minimum number of independent axes of variation that adequately describes the functional variation among plants and is therefore a fundamental quantity in comparative plant ecology. Given the large number of functional traits that are measured on plants, the dimensionality of plant form and function is potentially vast. * A variety of linear and nonlinear methods were used to estimate the intrinsic dimensionality of three large trait data sets. The results of these analyses indicate that while the dimensionality of plant traits is generally larger than we have admitted in the past, it does not exceed six in the most comprehensive data set. * The dimensionality of plant form and function is a blessing, not a curse. The higher the intrinsic dimension of traits in an analysis, the more easily our models will be able to accurately discriminate species in trait space and therefore be able to predict species distributions and abundances. Recent analyses indicate that the ability to predict community composition increases rapidly with additional traits, but reaches a plateau after four to eight traits. * Synthesis. There appears to be a tractable upper limit to the dimensionality of plant traits. To optimize research efficiency for advancing our understanding of trait-based community assembly, ecologists should minimize the number of traits while maximizing the number of dimensions, because including multiple correlated traits does not yield dividends and including more than eight traits leads to diminishing returns. It is recommended to measure traits from multiple organs whenever possible, especially leaf, stem, root and flowering traits, given their consistent performance in explaining community assembly across different ecosystems.}
@@ -930,8 +1499,9 @@
       \strng{fullhash}{ad230580115ef199fabc3627245af9f2}
       \strng{authornamehash}{9eec28f8526a30f38277d1f364777612}
       \strng{authorfullhash}{ad230580115ef199fabc3627245af9f2}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelalpha}{Wri+04}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Bringing together leaf trait data spanning 2,548 species and 175 sites we describe, for the first time at global scale, a universal spectrum of leaf economics consisting of key chemical, structural and physiological properties. The spectrum runs from quick to slow return on investments of nutrients and dry mass in leaves, and operates largely independently of growth form, plant functional type or biome. Categories along the spectrum would, in general, describe leaf economic variation at the global scale better than plant functional types, because functional types overlap substantially in their leaf traits. Overall, modulation of leaf traits and trait relationships by climate is surprisingly modest, although some striking and significant patterns can be seen. Reliable quantification of the leaf economics spectrum and its interaction with climate will prove valuable for modelling nutrient fluxes and vegetation boundaries under changing land-use and climate.}
@@ -1143,8 +1713,9 @@
       \strng{fullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
       \strng{authornamehash}{4fbc03d537a6a41ed4e64fcd65a32233}
       \strng{authorfullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelalpha}{Día+16}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Earth is home to a remarkable diversity of plant forms and life histories, yet comparatively few essential trait combinations have proved evolutionarily viable in today’s terrestrial biosphere. By analysing worldwide variation in six major traits critical to growth, survival and reproduction within the largest sample of vascular plant species ever compiled, we found that occupancy of six-dimensional trait space is strongly concentrated, indicating coordination and trade-offs. Three-quarters of trait variation is captured in a two-dimensional global spectrum of plant form and function. One major dimension within this plane reflects the size of whole plants and their parts; the other represents the leaf economics spectrum, which balances leaf construction costs against growth potential. The global plant trait spectrum provides a backdrop for elucidating constraints on evolution, for functionally qualifying species and ecosystems, and for improving models that predict future vegetation based on continuous variation in plant form and function.}
@@ -1187,8 +1758,9 @@
       \strng{fullhash}{16a0c1d77d39baccb7cc82c42cd3699f}
       \strng{authornamehash}{16a0c1d77d39baccb7cc82c42cd3699f}
       \strng{authorfullhash}{16a0c1d77d39baccb7cc82c42cd3699f}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelalpha}{Rei14}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{* The leaf economics spectrum (LES) provides a useful framework for examining species strategies as shaped by their evolutionary history. However, that spectrum, as originally described, involved only two key resources (carbon and nutrients) and one of three economically important plant organs. Herein, I evaluate whether the economics spectrum idea can be broadly extended to water – the third key resource –stems, roots and entire plants and to individual, community and ecosystem scales. My overarching hypothesis is that strong selection along trait trade-off axes, in tandem with biophysical constraints, results in convergence for any taxon on a uniformly fast, medium or slow strategy (i.e. rates of resource acquisition and processing) for all organs and all resources. * Evidence for economic trait spectra exists for stems and roots as well as leaves, and for traits related to water as well as carbon and nutrients. These apply generally within and across scales (within and across communities, climate zones, biomes and lineages). * There are linkages across organs and coupling among resources, resulting in an integrated whole-plant economics spectrum. Species capable of moving water rapidly have low tissue density, short tissue life span and high rates of resource acquisition and flux at organ and individual scales. The reverse is true for species with the slow strategy. Different traits may be important in different conditions, but as being fast in one respect generally requires being fast in others, being fast or slow is a general feature of species. * Economic traits influence performance and fitness consistent with trait-based theory about underlying adaptive mechanisms. Traits help explain differences in growth and survival across resource gradients and thus help explain the distribution of species and the assembly of communities across light, water and nutrient gradients. Traits scale up – fast traits are associated with faster rates of ecosystem processes such as decomposition or primary productivity, and slow traits with slow process rates. * Synthesis. Traits matter. A single ‘fast–slow’ plant economics spectrum that integrates across leaves, stems and roots is a key feature of the plant universe and helps to explain individual ecological strategies, community assembly processes and the functioning of ecosystems.}
@@ -1228,6 +1800,7 @@
       \strng{fullhash}{db6b43699dc16ed26ca5592cbdebda43}
       \strng{authornamehash}{db6b43699dc16ed26ca5592cbdebda43}
       \strng{authorfullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \field{labelalpha}{Che00}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
@@ -1291,6 +1864,7 @@
       \strng{fullhash}{12fbd6c8a2d33cb028c4408592643faa}
       \strng{authornamehash}{198f511ce3684875fd7b8053773758a4}
       \strng{authorfullhash}{12fbd6c8a2d33cb028c4408592643faa}
+      \field{labelalpha}{Adl+06}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
@@ -1342,6 +1916,7 @@
       \strng{fullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
       \strng{authornamehash}{41714ddefeb6dc403b457cb11d4d7c5d}
       \strng{authorfullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \field{labelalpha}{RWE92}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
@@ -1412,8 +1987,10 @@
       \strng{fullhash}{6ba017d909ab1d7c053bb8e506fffafe}
       \strng{authornamehash}{2617b207b06c76ec7ffdd81f6af87288}
       \strng{authorfullhash}{6ba017d909ab1d7c053bb8e506fffafe}
+      \field{labelalpha}{Mai+13}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{BackgroundPlant functional traits co-vary along strategy spectra, thereby defining trade-offs for resource acquisition and utilization amongst other processes. A main objective of plant ecology is to quantify the correlations among traits and ask why some of them are sufficiently closely coordinated to form a single axis of functional specialization. However, due to trait co-variations in nature, it is difficult to propose a mechanistic and causal explanation for the origin of trade-offs among traits observed at both intra- and inter-specific level.Methodology/Principal FindingsUsing the Gemini individual-centered model which coordinates physiological and morphological processes, we investigated with 12 grass species the consequences of deliberately decoupling variation of leaf traits (specific leaf area, leaf lifespan) and plant stature (height and tiller number) on plant growth and phenotypic variability. For all species under both high and low N supplies, simulated trait values maximizing plant growth in monocultures matched observed trait values. Moreover, at the intraspecific level, plastic trait responses to N addition predicted by the model were in close agreement with observed trait responses. In a 4D trait space, our modeling approach highlighted that the unique trait combination maximizing plant growth under a given environmental condition was determined by a coordination of leaf, root and whole plant processes that tended to co-limit the acquisition and use of carbon and of nitrogen.Conclusion/SignificanceOur study provides a mechanistic explanation for the origin of trade-offs between plant functional traits and further predicts plasticity in plant traits in response to environmental changes. In a multidimensional trait space, regions occupied by current plant species can therefore be viewed as adaptive corridors where trait combinations minimize allometric and physiological constraints from the organ to the whole plant levels. The regions outside this corridor are empty because of inferior plant performance.}
@@ -1472,8 +2049,9 @@
       \strng{fullhash}{a34e4958688b1d5bbe3906c8fce197b6}
       \strng{authornamehash}{9d63577275aba1da378793ac9ac60db7}
       \strng{authorfullhash}{a34e4958688b1d5bbe3906c8fce197b6}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelalpha}{Cai+04}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The objective of this study was to clarify the changes in the contents of endogenous carbohydrates and proline in the stolons and leaves of centipedegrass (Eremochloa ophiuroides (Munro) Hack.), during the natural cold acclimation (hardening) and de-acclimation (dehardening) in relation to freezing tolerance in the field at the transition zone between temperate and subtropical areas in China. The contents of carbohydrates and proline, and freezing tolerance estimated by LT50, which is the temperature at which 50\% of the electrolytes in the organ was measured in the leachate, were determined at 10-day intervals from October 1, 2001 to April 18, 2002. It was indicated that the freezing tolerance of stolons increased (LT50 of stolons decreased) quickly, as temperature dropped before winter, but that of leaves which senesced along with the drop in temperature did not. The freezing tolerance of stolons decreased gradually along with the rise in temperature above 5 °C in spring, when the overwintered plants started to grow. The contents of proline and soluble carbohydrates, including sucrose, fructose and glucose, increased as LT50 decreased when temperature dropped below 5 °C before winter, and decreased as LT50 increased in early spring. Correlation analysis revealed that the freezing tolerance of stolons of centipedegrass significantly and positively correlated with the contents of proline and soluble carbohydrates, and the ratio of the soluble carbohydrates to starch. Thus, the freezing tolerance of stolons, which are critical organs that determine the winter surviving ability, largely depended on the content of soluble carbohydrates and the ratio of soluble carbohydrates to starch in centipedegrass. The possible relationship between freezing tolerance and carbohydrate metabolism was also discussed.}
@@ -1512,6 +2090,7 @@
       \strng{fullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
       \strng{authornamehash}{a3e0beb729aa361dfee5e8212a94c3ba}
       \strng{authorfullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \field{labelalpha}{Gri98}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1578,6 +2157,7 @@
       \strng{fullhash}{a963ebd2010d9f5d38b0c7cee131a546}
       \strng{authornamehash}{4dc3c5c51a53d2acbcc756934206b9f8}
       \strng{authorfullhash}{a963ebd2010d9f5d38b0c7cee131a546}
+      \field{labelalpha}{Cra+02}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1649,6 +2229,7 @@
       \strng{fullhash}{0cb98842b88eed6bd4eedb9a948a2e6b}
       \strng{authornamehash}{ab21d17be0116a5a128d17abbbb13d1b}
       \strng{authorfullhash}{0cb98842b88eed6bd4eedb9a948a2e6b}
+      \field{labelalpha}{Rei+03}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1710,6 +2291,7 @@
       \strng{fullhash}{bcc58e2d969e805240f88f4e16389c25}
       \strng{authornamehash}{13ecc15841e5641c3a414252ae9ae1e1}
       \strng{authorfullhash}{bcc58e2d969e805240f88f4e16389c25}
+      \field{labelalpha}{Poo+09}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1760,6 +2342,7 @@
       \strng{fullhash}{b4f3a2667e928fde01c7526c89c8d666}
       \strng{authornamehash}{b4f3a2667e928fde01c7526c89c8d666}
       \strng{authorfullhash}{b4f3a2667e928fde01c7526c89c8d666}
+      \field{labelalpha}{DHM14}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1831,6 +2414,7 @@
       \strng{fullhash}{f42f818c6f2e54901aa756bbd883d465}
       \strng{authornamehash}{290c8d6c8e658b70bc02a2db3013dbe5}
       \strng{authorfullhash}{f42f818c6f2e54901aa756bbd883d465}
+      \field{labelalpha}{Del+15}
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
@@ -1871,8 +2455,9 @@
       \strng{fullhash}{7ec0a2c6198def84bba4f499d1e7f005}
       \strng{authornamehash}{7ec0a2c6198def84bba4f499d1e7f005}
       \strng{authorfullhash}{7ec0a2c6198def84bba4f499d1e7f005}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelalpha}{Rys96}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{1. Under nutrient-poor conditions initially fast-growing species will in the long term be competitively inferior to slow-growing species. Here, we ask whether this phenomenon can be explained by constraints caused by tissue density. The hypothesis is that low tissue density is necessary for fast growth but has as a consequence short organ life span. This leads to a rapid loss of nutrients that cannot be sustained under nutrient-poor conditions. 2. Biomass accumulation, turnover rate of leaves and roots, and tissue density were studied for five ecologically contrasting grass species. Plants were grown in a garden experiment over two growing seasons on sand with a low nutrient supply level. 3. Species that were characteristic of nutrient-rich sites had a low leaf and root tissue density and were larger after one growing season than species of nutrient-poor sites. However, after two growing seasons the species of nutrient-poor sites were larger. These species had a high tissue density. 4. Life span of both leaves and roots was also correlated with tissue density. Species with low tissue density had a faster turnover of leaves and roots. 5. It is concluded that tissue structure is an inherent constraint that prevents simultaneous maximization of both nutrient acquisition and nutrient conservation. The short life span of fast-growing organs explains the long-term disadvantage of a high growth rate for plants in low nutrient conditions.}
@@ -1936,8 +2521,9 @@
       \strng{fullhash}{7669f9f7259ee23e037268cbdf166e34}
       \strng{authornamehash}{9d5461313fbc798bbbdc0a5b3ba619a4}
       \strng{authorfullhash}{7669f9f7259ee23e037268cbdf166e34}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelalpha}{Joh+17}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Leaf dry mass per unit leaf area (LMA) is a central trait in ecology, but its anatomical and compositional basis has been unclear. An explicit mathematical and physical framework for quantifying the cell and tissue determinants of LMA will enable tests of their influence on species, communities and ecosystems. We present an approach to explaining LMA from the numbers, dimensions and mass densities of leaf cells and tissues, which provided unprecedented explanatory power for 11 broadleaved woody angiosperm species diverse in LMA (33–262 g m−2; R2 = 0.94; P {<} 0.001). Across these diverse species, and in a larger comparison of evergreen vs. deciduous angiosperms, high LMA resulted principally from larger cell sizes, greater major vein allocation, greater numbers of mesophyll cell layers and higher cell mass densities. This explicit approach enables relating leaf anatomy and composition to a wide range of processes in physiological, evolutionary, community and macroecology.}
@@ -1992,8 +2578,9 @@
       \strng{fullhash}{819ba01b12bb99703615a803f08c7eb0}
       \strng{authornamehash}{a9ef3f397f3ff31cd6161177ac9ba64c}
       \strng{authorfullhash}{819ba01b12bb99703615a803f08c7eb0}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelalpha}{Shi+06}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Recent work has identified a worldwide “economic” spectrum of correlated leaf traits that affects global patterns of nutrient cycling and primary productivity and that is used to calibrate vegetation–climate models. The correlation patterns are displayed by species from the arctic to the tropics and are largely independent of growth form or phylogeny. This generality suggests that unidentified fundamental constraints control the return of photosynthates on investments of nutrients and dry mass in leaves. Using novel graph theoretic methods and structural equation modeling, we show that the relationships among these variables can best be explained by assuming (1) a necessary trade-off between allocation to structural tissues versus liquid phase processes and (2) an evolutionary trade-off between leaf photosynthetic rates, construction costs, and leaf longevity.}
@@ -2046,8 +2633,9 @@
       \strng{fullhash}{d3ee364d8f3cf4a5e9bbe85889b4db20}
       \strng{authornamehash}{d3ee364d8f3cf4a5e9bbe85889b4db20}
       \strng{authorfullhash}{d3ee364d8f3cf4a5e9bbe85889b4db20}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelalpha}{MEH01}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Leaf mass per unit area (LMA) and internal leaf anatomy often affect net gas exchange because of their effects on internal CO2 conductance to the site of carboxylation, internal shading, competition for CO2 among carboxylation sites, nitrogen concentration and its partitioning. To evaluate effects of LMA and leaf anatomy on CO2 assimilation, water-use efficiency (WUE) and nitrogen-use efficiency (NUE), we measured LMA, leaf thickness, the thickness of mesophyll components, and gas exchange rates at ambient CO2 concentration in leaves of six woody deciduous and evergreen species with different leaf life spans. In two species, CO2 assimilation was also estimated at saturating CO2 concentrations. There were interspecific differences in all morphological variables studied. Long-lived leaves had higher LMA and were thicker than short-lived leaves. Species with high LMA had low assimilation rates and NUE, both in ambient and saturating CO2 concentrations. Thus, in species with high LMA, assimilation was reduced by non-stomatal limitations, possibly because of a lower allocation of N to the photosynthetic machinery than in species with low LMA. Within a species, thicker leaves tended to have a lower tissue density. In intraspecific comparisons under field conditions, increasing internal air volume had positive effects on WUE, probably because of enhanced internal CO2 conductance to the site of carboxylation. We conclude that, in interspecific comparisons, different patterns of N partitioning strongly influence NUE, whereas in intraspecific comparisons, internal leaf anatomy is a key factor regulating resource-use efficiency.}
@@ -2098,6 +2686,7 @@
       \strng{fullhash}{b4006b5248a53713432661097e91131b}
       \strng{authornamehash}{b4006b5248a53713432661097e91131b}
       \strng{authorfullhash}{b4006b5248a53713432661097e91131b}
+      \field{labelalpha}{WWR00}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -2158,6 +2747,7 @@
       \strng{fullhash}{3674dc20b109567fc50b4e8c40dcd3ed}
       \strng{authornamehash}{904ced53600cdcc966eac093b7503f90}
       \strng{authorfullhash}{3674dc20b109567fc50b4e8c40dcd3ed}
+      \field{labelalpha}{Tjo+05}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -2208,6 +2798,7 @@
       \strng{fullhash}{8f96c6bb299cd3ef1fd2fbf13eff9900}
       \strng{authornamehash}{8f96c6bb299cd3ef1fd2fbf13eff9900}
       \strng{authorfullhash}{8f96c6bb299cd3ef1fd2fbf13eff9900}
+      \field{labelalpha}{FKW15}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -2308,6 +2899,7 @@
       \strng{fullhash}{a24193158c3bee0f9619ba5bf0cea066}
       \strng{authornamehash}{aa7770e54a1e04d1daca2be7328bc2c8}
       \strng{authorfullhash}{a24193158c3bee0f9619ba5bf0cea066}
+      \field{labelalpha}{Hu+15}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -2365,6 +2957,7 @@
       \strng{fullhash}{aea886c1f7eb1e0314c394903a17830f}
       \strng{authornamehash}{52f53bb56f6c58a78100ee3e80c4e153}
       \strng{authorfullhash}{aea886c1f7eb1e0314c394903a17830f}
+      \field{labelalpha}{Fre+13}
       \field{sortinit}{3}
       \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
@@ -2418,6 +3011,7 @@
       \strng{authorfullhash}{462e5d36238356982b4a10d7261f4dff}
       \strng{editornamehash}{801fc63c203c892ba43561d46433d2f6}
       \strng{editorfullhash}{801fc63c203c892ba43561d46433d2f6}
+      \field{labelalpha}{Bra65}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
@@ -2455,6 +3049,7 @@
       \strng{fullhash}{786d0393cf17ee3d01711e58d71e03b2}
       \strng{authornamehash}{786d0393cf17ee3d01711e58d71e03b2}
       \strng{authorfullhash}{786d0393cf17ee3d01711e58d71e03b2}
+      \field{labelalpha}{Bra06}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
@@ -2501,6 +3096,7 @@
       \strng{fullhash}{65525e5c4ca5709686ec8763b8ca9719}
       \strng{authornamehash}{65525e5c4ca5709686ec8763b8ca9719}
       \strng{authorfullhash}{65525e5c4ca5709686ec8763b8ca9719}
+      \field{labelalpha}{RE00}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
@@ -2564,6 +3160,7 @@
       \strng{fullhash}{71fc4551962060dc86530a5ff7f2c599}
       \strng{authornamehash}{ec3e5253613ce88f6bb164e8c968d82d}
       \strng{authorfullhash}{71fc4551962060dc86530a5ff7f2c599}
+      \field{labelalpha}{Kic+13}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
@@ -2594,14 +3191,16 @@
       \keyw{plant functional traits,specific leaf area (SLA),elevational gradient,interspecific and intraspecific variation,leaf nutrient content,plant community structure,Species Turnover,variance decomposition}
     \endentry
   \endsortlist
-  \missing{tjoelker_linking_2015}
+  \missing{korner_alpine_2011}
   \missing{need-references}
-  \missing{westoby}
-  \missing{lohier}
   \missing{reich}
-  \missing{soussana}
-  \missing{kleidon}
   \missing{wright_worlwide_2004}
+  \missing{lohier}
+  \missing{westoby}
+  \missing{lagarigues}
+  \missing{tjoelker_linking_2015}
+  \missing{kleidon}
+  \missing{soussana}
 \endrefsection
 \endinput
 

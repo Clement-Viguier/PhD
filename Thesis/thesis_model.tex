@@ -38,6 +38,10 @@
 \MakePerPage{footnote} %the perpage package command
 \MakePerPage{sidenote} %the perpage package command
 
+% create an index
+\usepackage{makeidx}
+% Tells latex to make an index
+\makeindex
 
 
 %% for proper citation styling
@@ -45,7 +49,10 @@
 %\setcitestyle{authoryear}
 
 % for split bibliography
-\usepackage[sorting=none, backend=biber]{biblatex}
+\usepackage[sorting=none, style = alphabetic, backend=biber]{biblatex}
+%\usepackage{natbib}
+%\setcitestyle{authoryear}
+
 
  \addbibresource{../Bibliography/bib_zotero20171106.bib}
 
@@ -70,7 +77,9 @@
 \definecolor{myYellow}{HTML}{FBD475}
 \definecolor{myBlue}{HTML}{0C86BF}
 
-\newcommand{\textemph}[1]{\textcolor{myGreen}{\textsf{#1}}}
+% Emphasis command that make the word green and sans serif, and create an index entry
+\newcommand{\textemph}[1]{\textcolor{myGreen}{\textsf{\index{#1}}}}
+
 
 % colorbox
 \usepackage{tcolorbox} %Package
@@ -90,7 +99,20 @@
 
 
 % Commands use to make the title page and page headers
-\title{PhD Thesis}
+%\title{Effect of phenotypic plasticity on plant performance and community dynamics: a new agent-based model for mountain grasslands}
+
+%\title{Phenotypic plasticity in mountain grasslands: concept, implementation and effects}
+
+%\title{Understanding the role phenotypic plasticity in mountain grasslands dynamics: a new agent-based modelling approach}
+
+\title{Mountain grasslands dynamics: integrating phenotypic plasticity in a new agent-based model}
+
+%\title{The effect of phenotypic plasticity on mountain grasslands: a mechanistic modelling approach}
+
+%\title{MountGrass: integrating phenotypic plasticity in an agent-based model of mountain grasslands}
+
+
+
 \author{Clément Viguier}
  \newcommand{\model}{\textit{\texttt{MountGrass }}}
  
@@ -236,6 +258,9 @@ Mountain grasslands provide numerous ecosystem services that need fine understan
 \printbibliography[heading=bibliography] 
 \end{fullwidth}
 \end{refsection}
+
+
+\printindex
 %%
 %\part{Extend mountgrass}
 %
@@ -251,7 +276,7 @@ Mountain grasslands provide numerous ecosystem services that need fine understan
 % \nocite{TitlesOn}
 %\bibliographystyle{cell}
 
-%\bibliographystyle{plainnat}
+%
 % \bibliography{../Bibliography/bib_zotero20171106}
  
 
