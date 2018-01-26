@@ -1,0 +1,41 @@
+name,default,min,max,unit,full_name,source
+u_max_mass,1,0.5,10,cm3.g.h-1,Maximum root uptake rate,
+beta_0,0.02,0.002,0.2,,Soil absorption limitation strength,Saxton 1986 (in Reineking 2006)
+P_max.Umax_mass,0,-1,1,,Maximum photosynthesis,Jonhson and Thornley
+alpha,0.00001,0.00001,0.0001,,Photosynthesis curvature,Jonhson and Thornley
+mob,0.2,0.0005,1,fraction total green BM,Maximum growth rate,
+m,0.1,0.1,0.5,,Leaf light transmitance,Thornley & France 2007
+g_s_red,-0.33,-0.5,-0.1,,Slope of stomatel reduction due to VPD,Lohier
+pc_m,0,0,0.2,,Cost of maintenance plasticity (f(tau)),
+pc_p,0,0,0.2,,Cost of plasticity (f(distance between phenotypes)),
+wl_fract,0,0,0.01,,Water loss fraction for WUE calculation (not used),Farquhar
+r_g,0.3,0.1,0.5,gC.gC-1.h-1,Growth respiration rate,Reineking 2006
+r_0,-1000,-2000,0,,not used,NA
+r_1,0.03,0.001,0.1,gC.gMO?1,Active tissue respiration rate,
+ls_s0,5.7658,600,4000,day,Log of maximum shoot lifespan,Poorter Urbas and Tjoelkercheck datasets used
+ls_s1,0.02,-1.2,0.5,day,Shoot lifespan slope,
+ls_r0,800,800,5000,day,Log of maximum root lifespan,
+ls_r1,0.02,-1.2,0.5,day,Root lifespan slope,
+sd_s_rate,300,300,3000,per year,Seed survival rate,
+WUE,0.01,0.001,0.01,GCO2.gH2O-1,Water Use efficiency,Reineking 0.001 gC/cH2O
+P_slope,1000,0.0001,0.01,.(g.cm-1)-1,,
+U_slope,1000,0.0001,0.01,(cm3.cm-2).(g.cm-2)-1,,Rewald 2011
+res_0,0,-5,0.001,degC,Starting frost temperature,Cai 2004
+res_1,-0.125,-0.2,-0.1,degC.gOM,Frost resistance calculation parameter,Cai 2004
+c0,310,280,330,micromol.mol-3,not used,
+c1,-28000,-35000,-20000,micromol.mol-3,not used,
+LCC,0.43,0.39,0.5,gC.gOM-1,Leaf carbon content,greg's data
+alpha_d,20,10,30,,Drought mortality,Reineking 2006
+gamma_d,2,1,3,,Drought mortality,Reineking 2006
+alpha_a,90,60,120,,Age mortality (not used),Reineking 2006
+gamma_a,5,4,6,,Age mortality (not used),Reineking 2006
+th,0.022,0.0124,0.0437,cm,Leaf thickness,greg's data
+s_r,0.00607904,0.001,0.01,cm,Root section (area),Pohl 2011 and Korner
+rho_as,0.2,0.01,0.1,g.cm-3,Volumic mass of shoot active tissue,
+rho_ss,1,0.7,1.5,g.cm-3,Volumic mass of shoot structural tissue,
+rho_ar,0.2,0.01,0.1,g.cm-3,Volumic mass of root active tissue, 
+rho_sr,1,0.7,1.5,g.cm-3,Volumic mass of root structural tissue,
+vt_s,1,0.7,0.75,,Volume occupied by the tissue in total leaf volume,Korner
+k_os,0.01,0.001,0.01,cm3.cm-3,Shoot volume occupancy,Taubert 0.002
+k_or,0.1,0.001,0.01,cm3.cm-3,Root volume occupancy,Reineking 2006
+k,0.5,0.4,0.6,M-1,Light extinction parameter,

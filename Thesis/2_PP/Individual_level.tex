@@ -1,6 +1,7 @@
 
 \chapter{Model properties and individual responses}
 %(Related to the notions cited above, like performance decomposition)
+Question I try to answer: (use of schematics ?)
 
 
 \section{Parametrisation and sensitivity analysis}
@@ -22,6 +23,7 @@ Once generated a first filtering is applied to save simulation time and avoid un
 Once the parameters transformed and filtered, simulations matching growth conditions in Peterson experiments.\\
 Generated data from finished simulations (i.e. plant lives until the end and do not exceed model's internal size limits) are then compared to experiment data species by species. Parameters of logistic distribution are computed from species means and standards deviantions for RSR and total biomass. The use of this distribution form is justified by the intrinsic form of RSR measure and the need to reject negative values for total biomass. A parameter set is accepted for one species if it within a 95\% range of the calculated distribution for both RSR and total biomass in wet and dry conditions.\\
 
+Include chart to show how calibration was made.
 
 
 \subsection{Results}
@@ -33,8 +35,15 @@ Total biomass is particularly sensitive to exchange rate parameters, but also ti
 
 Plasticity does not change the acceptance rate in any form (only slight increased from 0.26\% to 0.38\%). Despite non overlapping (around respectively and third and a quarter of accepted parameter sets are shared between non plastic and plastic calibration) the distribution of not shared parameter sets are very similar and does not show any clear pattern. \\
 
-\begin{figure}
-%\includegraphics[width = \textwidth]{/mnt/quadri1/simulations/exploration/species_par_space2017-10-26/plots/acceptance_rate_RSRnWeight_per_par.pdf}
+
+\begin{figure}\label{fig:comparison_BM}
+\includegraphics[width = \textwidth]{./2_PP/Figures/weight_full_sim.pdf}
+\caption{Comparison of simulated weights with distribution of weights of real alpine species for contrasting conditions.}
+\end{figure}
+
+
+\begin{figure}\label{fig:accept_rate}
+\includegraphics[width = \textwidth]{./2_PP/Figures/acceptance_rate_RSRnWeight_per_par.pdf}
 \caption{Acceptance rate per parameter for individual growth. No plasticity}
 \end{figure}
 
@@ -66,11 +75,28 @@ PCA reveal that sensitive parameters are also the dominant variables in the main
 \end{figure}
 
 \paragraph{Acceptance rate}
+
 Rerun acceptance rate for non plastic simulations with growth only.
 
 \paragraph{Sensitivity}
 
+\begin{figure}\label{fig:sensitivity_BM}
+\includegraphics[width = \textwidth]{./2_PP/Figures/par_effect_none_BM.pdf}
+\caption{Main parameters effect on the total plant biomass. No plasticity.}
+\end{figure}
+
+\begin{figure}\label{fig:sensitivity_RSR}
+\includegraphics[width = \textwidth]{./2_PP/Figures/par_effect_none_RSR.pdf}
+\caption{Main parameters effect on the total plant Root Mass Fraction (RMF). No plasticity}
+\end{figure}
+
 \paragraph{Root shoot ratio and plasticity}
+
+
+\begin{figure}\label{fig:comparison_RSR}
+\includegraphics[width = \textwidth]{./2_PP/Figures/RSR_full_sim.pdf}
+\caption{Comparison of simulated values (over time) of RSR with real species RSR in two contrasting conditons. Because there is no plasticity or ontogeny, the simulated plant do not express any chagnes in RSR}
+\end{figure}
 
 \subsection{Discussion}
 
@@ -88,6 +114,7 @@ Rerun acceptance rate for non plastic simulations with growth only.
 
 
 \section{Individual level behaviour and properties}
+Question I try to answer: (use of schematics ?)
 %Proof of concept
 \subsection{Method}
 
@@ -95,9 +122,12 @@ Rerun acceptance rate for non plastic simulations with growth only.
 \paragraph{Strategy diversity filtering}
 To further reduce the number of parameter sets considered, we proceeded in an additional filtering step. Because the first filtering was conduced for only one strategy over the whole 4D strategy space (l\_ini,  w\_ini, as\_s\_d, as\_r\_d) it is necessary to verify that other strategies do not lead to potential Darwinian demon. This should be limited by the choice of priors, while at the same time promoted by the selection of parameters increasing growth to counter balance potential unfitted strategies\footnote{Better do that beforehand than after... But I guess it's too late now.}.
 
-\paragraph{Simulation setup}
+\paragraph{Simulation set-up}
 All common parameters for pot simulations. i.e. weather, soil, default species parameters.
 
+\paragraph{Comparison of different allocation algorithm}
+
+\paragraph{Memory effect on phenotype}
 
 \subsection{Results}
 
@@ -105,23 +135,69 @@ All common parameters for pot simulations. i.e. weather, soil, default species p
 \subsection{Discussion}
 \paragraph{Allocation rules, plasticity and performance}
 
+include figure from "showtime" data to illustrate the differences between allocation algorithms.
+
 \textbf{Allocation rules are extremely important as they reduce the phenotypic space explore. Without even considering plasticity. Need a good understanding of the performance within the phneotypic landscape. Plus there is a need for alignment between starting phenotype and endpoint. Will also affect how plasticity is driven.}
 
 \paragraph{Fast slow strategy and allocation trade-off}
 
+... nothing here, the idea was to show that the "strategy" of the species conduce to slow and fast archetypes.
+
 \textbf{Allocation trade-off allow for strategies from the fast-slow spectrum to arise, independently for shoot and root, in coherent framework. Potential effect of other strategy axis can be analysed alongside this trade-off, even if they affect composite traits like SLA or SRL.}
 
 \paragraph{Memory and phenotypes}
+
+
+\begin{figure}\label{fig:plastic_allocation_trajectory}
+\includegraphics[width = \textwidth]{./2_PP/Figures/memory_effect.pdf}
+\caption{Trajectories along time in the strategy space of 5 plants with different memories. After 10 days, all plants have converged toward the estimated optimum.}
+\end{figure}
+
+\begin{figure}\label{fig:memory_n_phenotype}
+\includegraphics[width = \textwidth]{./2_PP/Figures/par_v_2D_points.pdf}
+\caption{Impact of species memory on final phenotype in case of fully plastic allocation. Each point corresponds to a plant phenotype for a memory syndrome for a given parameter set. Colours denote the memory syndromes.}
+\end{figure}
+
+
+\begin{figure}\label{fig:w_ini_p_as_r}
+\includegraphics[width = \textwidth]{./2_PP/Figures/w_ini_p_as_r.pdf}
+\caption{Effect of memory of water availability on proportion of active tissues in root.}
+\end{figure}
+
+Strong effect with saturation: optimum. 
+
+\begin{figure}\label{fig:w_ini_p_as_s}
+\includegraphics[width = \textwidth]{./2_PP/Figures/w_ini_p_as_s.pdf}
+\caption{Effect of memory of water availability on proportion of active tissues in shoot.}
+\end{figure}
+There is also a positive effect, that is smoother and have lower values. Same pattern for light memory respectively with proportion of active tissues in shoot, and proportion of active tissues in roots. This symmetry and the curves shpaes suggest that resource related organ is more sensitive and that "apparent" increase in resource availability promote more exploitative strategy.\\
+
+For each parameter set the alpha shape of the volume could be drawn to have an idea on how parameters impact potential functional diversity.
+
 
 \textbf{Memory is a strong enough driver to control plant organ strategy. The effect of overall activity should be studied too and considered if memory is used to determine the default phenotype.)}
 
 \chapter{Individual performance, plasticity and variable conditions}
 \section{Individual performance: between strategy, memory and plasticity}
 
+Question I try to answer: (use of schematics ?)
+
 \subsection{Method}
+
+\paragraph{Strategy space sampling}
+Idea, having an idea on how the 
+
+\paragraph{Simulation set-up}
+Two climatic conditions. ... Watts per square metters and .. mm, days of 15h. Low resource availability conditions correspond to a reduction by a factor 4 of resource influx, but the day length was conserved.
 
 \subsection{Results}
 
+
+\begin{figure}\label{fig:w_ini_p_as_r}
+\includegraphics[width = \textwidth]{./2_PP/Figures/plot_BM_allocation.pdf}
+\caption{Effect of plasticity and resource availability on average biomass of living species.}
+\end{figure}
+Increase in average biomass. The biomass profile is not visualised, but following figures suppose fitness equivalence as less that 10\% under the maximum local biomass.
 
 \subsection{Discussion}
 
@@ -133,6 +209,7 @@ Somehow I need to talk about the cost of being wrong. Can be observe in the delt
 
 
 \section{Plasticity and variability of conditions}
+Question I try to answer: (use of schematics ?)
 
 \paragraph{Improvement in variable conditions}
 
