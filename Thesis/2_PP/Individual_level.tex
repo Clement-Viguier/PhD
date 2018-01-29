@@ -201,7 +201,9 @@ Two climatic conditions. ... Watts per square metters and .. mm, days of 15h. Lo
 \includegraphics[width = \textwidth]{./2_PP/Figures/plot_BM_allocation.pdf}
 \caption{Effect of plasticity and resource availability on average biomass of living species.}
 \end{figure}
-Increase in average biomass. The biomass profile is not visualised, but following figures suppose fitness equivalence as less that 10\% under the maximum local biomass.
+Biomass is relative to best performing non plastic plant (to remove the general parameter set effect on growth) and compare (within each condition) the effect of allocation algorithm. Plasticity lead to an increase of average relative biomass, especially full plasticity. However, few values above 1, in fixed conditions there is real additional value of plasticity compare to fixed allocation.\\
+
+Then talk about convergence. To better subspace, but not the optimum.
 
 \subsection{Discussion}
 
@@ -209,7 +211,10 @@ Increase in average biomass. The biomass profile is not visualised, but followin
 
 Somehow I need to talk about the cost of being wrong. Can be observe in the delta heatmap on delta strat and delta w-ini: in this case there is less impact of being wrong of memory if you're good with strategy, because your not in different conditions...\\
 
-\textbf{The phenotypic plasticity implemented in \model improve the relative performance of multiple strategies by concentrating the plant toward a subspace of higher performance for most of plants. Convergence to a smaller subspace can be assimilated to reduction in phenotypic diversity, but it reduce performance heterogeneity and should favour local plant diversity. Meta-community diversity is however reduces by the reduction of potential axis for niche differentiation. Plasticity costs and limits should play major role in the balance between these mechanisms. Community level simulations are needed to further understand the cumulative role of competition, spatial and temporal variability and plasticity costs on phenotypic plasticity influence on plant community dynamics.}
+Potential effect on diversity: lower functional diversity, increase evenness. Leave highest fitness spot free. Why ? environmental cues or gain function ? Delta between projections ? \\
+
+Anyway, being good is stable conditions may useless if cannot survive or keep gain in other conditions. >> look along gradient if best species keep their rank.
+
 
 
 \section{Plasticity and variability of conditions}
@@ -227,6 +232,10 @@ Kichenin (different response to gradient) Doesn't work in this framework: Not so
 \item different ways to tackle changes on one dimensions;
 \item different weights between mechanisms impacting composite traits, because of the different traits.
 \end{itemize}
+
+
+
+\textbf{The phenotypic plasticity implemented in \model improve the relative performance of multiple strategies by concentrating the plant toward a subspace of higher performance for most of plants. Convergence to a smaller subspace can be assimilated to reduction in phenotypic diversity, but it reduce performance heterogeneity and should favour local plant diversity. .. a few words on dynamics... Meta-community diversity is however reduces by the reduction of potential axis for niche differentiation. Plasticity costs and limits should play major role in the balance between these mechanisms. Community level simulations are needed to further understand the cumulative role of competition, spatial and temporal variability and plasticity costs on phenotypic plasticity influence on plant community dynamics.}
 
 %\section{From individual response to community dynamics}
 
