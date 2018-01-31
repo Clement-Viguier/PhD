@@ -3191,16 +3191,356 @@
       \keyw{plant functional traits,specific leaf area (SLA),elevational gradient,interspecific and intraspecific variation,leaf nutrient content,plant community structure,Species Turnover,variance decomposition}
     \endentry
   \endsortlist
-  \missing{reich}
-  \missing{lohier}
-  \missing{wright_worlwide_2004}
-  \missing{kleidon}
-  \missing{soussana}
-  \missing{lagarigues}
   \missing{korner_alpine_2011}
-  \missing{westoby}
   \missing{tjoelker_linking_2015}
+  \missing{lohier}
   \missing{need-references}
+  \missing{soussana}
+  \missing{kleidon}
+  \missing{westoby}
+  \missing{reich}
+  \missing{wright_worlwide_2004}
+  \missing{lagarigues}
+\endrefsection
+
+\refsection{4}
+  \sortlist[entry]{none/global/}
+    \entry{grimm_pattern-oriented_2005}{article}{}
+      \name{author}{10}{}{%
+        {{hash=1afed3b8eacb2219efb8bbe1f6581962}{%
+           family={Grimm},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=940d77badaef186fae8534373f0e0ca7}{%
+           family={Revilla},
+           familyi={R\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9384d3112d3d8d7a6daa243142b7d01c}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod}}}%
+        {{hash=80656afc3aa7c3d6b7f2511938f58843}{%
+           family={Jeltsch},
+           familyi={J\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=63ffed67855b7d55581bd010320b132e}{%
+           family={Mooij},
+           familyi={M\bibinitperiod},
+           given={Wolf\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1a4a5fbc1d2de57aa175015405e94b2f}{%
+           family={Railsback},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d8ab59c88416f40590a7abcc10ce0daf}{%
+           family={Thulke},
+           familyi={T\bibinitperiod},
+           given={Hans-Hermann},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=30b1a84924d56ccda6aed35c5f732bde}{%
+           family={Weiner},
+           familyi={W\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc6d0b75ef26e66b7a3e177f167815ad}{%
+           family={Wiegand},
+           familyi={W\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e0bc35c411f29e4e8f49f6b38dd6c9ff}{%
+           family={DeAngelis},
+           familyi={D\bibinitperiod},
+           given={Donald\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{34a4de0c97c67c80ceb4801a22916c07}
+      \strng{fullhash}{a32644d459a46466aeb9d5f56debb400}
+      \strng{authornamehash}{34a4de0c97c67c80ceb4801a22916c07}
+      \strng{authorfullhash}{a32644d459a46466aeb9d5f56debb400}
+      \field{labelalpha}{Gri+05}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Agent-based complex systems are dynamic networks of many interacting agents; examples include ecosystems, financial markets, and cities. The search for general principles underlying the internal organization of such systems often uses bottom-up simulation models such as cellular automata and agent-based models. No general framework for designing, testing, and analyzing bottom-up models has yet been established, but recent advances in ecological modeling have come together in a general strategy we call pattern-oriented modeling. This strategy provides a unifying framework for decoding the internal organization of agent-based complex systems and may lead toward unifying algorithmic theories of the relation between adaptive behavior and system complexity.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{month}{11}
+      \field{number}{5750}
+      \field{series}{New {Series}}
+      \field{shorttitle}{Pattern-{Oriented} {Modeling} of {Agent}-{Based} {Complex} {Systems}}
+      \field{title}{Pattern-{Oriented} {Modeling} of {Agent}-{Based} {Complex} {Systems}: {Lessons} from {Ecology}}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{310}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{987\bibrangedash 991}
+      \range{pages}{5}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/clement/Zotero/storage/RHGJGHE2/Grimm et al. - 2005 - Pattern-Oriented Modeling of Agent-Based Complex S.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/3842807
+      \endverb
+    \endentry
+    \entry{peterson_growth_1982}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8cab2280ab182422f1391ed6cafb3293}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={K.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=51297a0fd0d9f60c65c0668c2cb9ff32}{%
+           family={Billings},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{93751ff7430d2661c21026c756f8d405}
+      \strng{fullhash}{93751ff7430d2661c21026c756f8d405}
+      \strng{authornamehash}{93751ff7430d2661c21026c756f8d405}
+      \strng{authorfullhash}{93751ff7430d2661c21026c756f8d405}
+      \field{labelalpha}{PB82}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plants of 11 alpine species (5 from the Rocky Mountains and 6 from the Sierra Nevada) were grown from seed under contrasting watering frequencies in controlled phytotron environments. Differences in the growth of these plants between treatments were compared to the presence or absence of meltwater in their respective habitats. In general, plants characteristic of habitats receiving meltwater from permanent or long-lasting snowbanks showed a greater reduction in growth under drought stress than plants from habitats with little meltwater moisture. Relative growth rate, net assimilation rate, leaf area duration and root-shoot ratios were calculated for each species. Plant dry weights were statistically greater in the daily water treatment than under the weekly water application for 7 of the 11 species. Total dry weight in Silene acaulis did not vary significantly between the two treatments, but its net assimilation rate was significantly higher under drought even though its leaf area duration was significantly lower. Drought had the most marked effect on Deschampsia caespitosa, a moistsite grass.}
+      \field{issn}{0004-0851}
+      \field{journaltitle}{Arctic and Alpine Research}
+      \field{number}{3}
+      \field{title}{Growth of {Alpine} {Plants} under {Controlled} {Drought}}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{volume}{14}
+      \field{year}{1982}
+      \field{urldateera}{ce}
+      \field{pages}{189\bibrangedash 194}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.2307/1551151
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/clement/Zotero/storage/Z87QH4C7/Peterson et Billings - 1982 - Growth of Alpine Plants under Controlled Drought.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/1551151
+      \endverb
+    \endentry
+    \entry{wright_worldwide_2004}{article}{}
+      \name{author}{33}{}{%
+        {{hash=774dc39f88a59406788266a8f4f1fa41}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef5903f7db819d2013433add3dc0f973}{%
+           family={Ackerly},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c602e32bfd2e1878c5e28b93d707423e}{%
+           family={Baruch},
+           familyi={B\bibinitperiod},
+           given={Zdravko},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=18ab3e8f947bd99f77a7fa2882cdd938}{%
+           family={Bongers},
+           familyi={B\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a90dd87c17cf666a967756ac228e2596}{%
+           family={Cavender-Bares},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Jeannine},
+           giveni={J\bibinitperiod}}}%
+        {{hash=002db4e2a97c70ed8b57c39ec641f552}{%
+           family={Chapin},
+           familyi={C\bibinitperiod},
+           given={Terry},
+           giveni={T\bibinitperiod}}}%
+        {{hash=59199cd41f1dcf2209b714a87daff5f9}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4bf8fece4b2c1ac1dcb3cde1e3c7d121}{%
+           family={Diemer},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=966acc5bc522bf9fa7e9fd3de8c4e5a2}{%
+           family={Flexas},
+           familyi={F\bibinitperiod},
+           given={Jaume},
+           giveni={J\bibinitperiod}}}%
+        {{hash=adce00945e25fd9866396dce1da9fb57}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=03db198e720dc772dc2c25e24262140f}{%
+           family={Groom},
+           familyi={G\bibinitperiod},
+           given={Philip\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=95b879db5f4309f032bd90ea4cf7ac51}{%
+           family={Gulias},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b37ef90307ccac34e3e3d1ffb4a20baf}{%
+           family={Hikosaka},
+           familyi={H\bibinitperiod},
+           given={Kouki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e92921d529ff1e0426d87b4b6aa26c2c}{%
+           family={Lamont},
+           familyi={L\bibinitperiod},
+           given={Byron\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e3aa947ccfe6bc49999b33a9453bcc33}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Tali},
+           giveni={T\bibinitperiod}}}%
+        {{hash=604f10696ef6e0ad0315289704f87bd6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=57f3eef13856b7a61a1c3af4d9d9c70c}{%
+           family={Lusk},
+           familyi={L\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=82ed655c88723cc641a0b8d47badd4d2}{%
+           family={Midgley},
+           familyi={M\bibinitperiod},
+           given={Jeremy\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=335c97b0d11aedf8e1f612f7c73d573f}{%
+           family={Navas},
+           familyi={N\bibinitperiod},
+           given={Marie-Laure},
+           giveni={M\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=5db084f5d3894b3621b086945c2e725b}{%
+           family={Niinemets},
+           familyi={N\bibinitperiod},
+           given={Ülo},
+           giveni={Ü\bibinitperiod}}}%
+        {{hash=bdb2b7d2559a5c19f0d6321af7da017e}{%
+           family={Oleksyn},
+           familyi={O\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+        {{hash=62ced274a51d1349bab7eca9771dd4b6}{%
+           family={Osada},
+           familyi={O\bibinitperiod},
+           given={Noriyuki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b0fe6414967317208445b7096f19e1a3}{%
+           family={Poot},
+           familyi={P\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=82f3f0c010c4ba9be9163d4f835f5b5c}{%
+           family={Prior},
+           familyi={P\bibinitperiod},
+           given={Lynda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=620262dedc8d100ce5a1e4699783d005}{%
+           family={Pyankov},
+           familyi={P\bibinitperiod},
+           given={Vladimir\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=5fd127d49aaa74f15c0d8e1c03eb8ad2}{%
+           family={Roumet},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4407e2d72f326c2893a3a24de34d247f}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Sean\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c0d2500fd2a1a2c078d98be0a3a8c865}{%
+           family={Tjoelker},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=99769b962950b9f84fe8263ad10baaeb}{%
+           family={Veneklaas},
+           familyi={V\bibinitperiod},
+           given={Erik\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2632650f1a99ff7322d26a87c62c4554}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9eec28f8526a30f38277d1f364777612}
+      \strng{fullhash}{ad230580115ef199fabc3627245af9f2}
+      \strng{authornamehash}{9eec28f8526a30f38277d1f364777612}
+      \strng{authorfullhash}{ad230580115ef199fabc3627245af9f2}
+      \field{labelalpha}{Wri+04}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bringing together leaf trait data spanning 2,548 species and 175 sites we describe, for the first time at global scale, a universal spectrum of leaf economics consisting of key chemical, structural and physiological properties. The spectrum runs from quick to slow return on investments of nutrients and dry mass in leaves, and operates largely independently of growth form, plant functional type or biome. Categories along the spectrum would, in general, describe leaf economic variation at the global scale better than plant functional types, because functional types overlap substantially in their leaf traits. Overall, modulation of leaf traits and trait relationships by climate is surprisingly modest, although some striking and significant patterns can be seen. Reliable quantification of the leaf economics spectrum and its interaction with climate will prove valuable for modelling nutrient fluxes and vegetation boundaries under changing land-use and climate.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{4}
+      \field{number}{6985}
+      \field{title}{The worldwide leaf economics spectrum}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{428}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{821\bibrangedash 827}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nature02403
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/QSCP4ZKT/Wright et al. - 2004 - The worldwide leaf economics spectrum.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/RRB2V9IN/nature02403.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v428/n6985/abs/nature02403.html
+      \endverb
+    \endentry
+  \endsortlist
+  \missing{hartig}
 \endrefsection
 \endinput
 

@@ -1,6 +1,7 @@
 \begin{theindex}
 
-  \item allocation rule, \hyperpage{22}
+  \item allocation rule, \hyperpage{21}
+  \item allocation rules, \hyperpage{57}
 
   \indexspace
 
@@ -13,7 +14,13 @@
 
   \indexspace
 
-  \item projection, \hyperpage{22}
+  \item memory, \hyperpage{57}
+
+  \indexspace
+
+  \item parameter filtering, \hyperpage{51}
+  \item parametrisation, \hyperpage{51}
+  \item projection, \hyperpage{21, 22}
 
   \indexspace
 
@@ -23,8 +30,9 @@
   \indexspace
 
   \item scale, \hyperpage{15}
+  \item sensitivity analysis, \hyperpage{52}
   \item shared, \hyperpage{22}
   \item stability, \hyperpage{23}
-  \item strategy, \hyperpage{23}
+  \item strategy, \hyperpage{22}
 
 \end{theindex}

@@ -2232,6 +2232,10 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
+    <bcf:citekey order="1">grimm_pattern-oriented_2005</bcf:citekey>
+    <bcf:citekey order="1">hartig</bcf:citekey>
+    <bcf:citekey order="2">peterson_growth_1982</bcf:citekey>
+    <bcf:citekey order="3">wright_worldwide_2004</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
