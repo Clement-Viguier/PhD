@@ -206,7 +206,7 @@ The model doesn't need particular initialisation if the state of the community s
 Vapour pressure deficit is then computed from temperature and relative humidity.\\
 \indent The climate data must explicitly differentiate the seasons (delimited by the first day of the year without snow and by the first day of the second semester with snow).
 
-\subsection{Submodels}
+\subsection{Submodels}\label{subsection:submodels}
 
 \paragraph{Germination} Individuals from the seed-bank randomly germinate according to their species specific germination rate. Germination consist of investing a percentage ($mob$ parameter) of the seed mass into shoot and root biomass according to default traits. This is coupled with a round of random seed death following uniform law of parameter $seed_{surv}$. Living non germinating seeds stay in the seed-bank until the next season.\\
 %
@@ -435,10 +435,10 @@ light_{est}(t+1) &= (1 - \tau).light_{exp}(t) + \tau . light_{memory} . daylengh
 water_{est}(t+1) &= (1 - \tau).water_{exp}(t) + \tau . water_{memory} . daylenght(t+1)
 \end{align}
 \indent Because these are supposed to be expected conditions for the future, other formulation can be used instead of an average that is likely to introduce a lag in estimations. For example the following equation allow for a more stable projection that better fits the slower process of plant physiology adjustments:
-\begin{align}
+\begin{align}\label{eq:projection_alt}
 light_{est}(t+1) &= ((1 - \tau_{react}).light_{exp}(t) + \tau_{react} . light_{est}(t))((1 - \tau_{amp}) + \tau_{amp} . light_{memory}) . daylenght(t+1)
 \end{align}
-with $\tau_{amp}$ and $\tau_{react}$ being respectively amplitude and reactivity where only $\tau_{amp}$ is used in the first equation. Such solution could limit sensitivity and phenotypic instability.\\
+with $\tau_{amp}$ and $\tau_{react}$ being respectively amplitude and reactivity where only $\tau_{amp}$ is used in the first equation. Such solution could limit sensitivity and phenotypic instability. IN addition, such formulation would also better capture the accumulation of stress signals and would lead to a softer and more stable phenotypic shift.\\
 \indent The estimation of external conditions as expressed here is then used to select the best allocation scheme during the allocation process. Limited here to levels of two resources (light and water), this estimation equation could be extended to other mechanisms such as herbivory risk, frost risk, humidity impact on water pressure deficit.\\
 
 \paragraph{Allocation} \label{par:allocation}

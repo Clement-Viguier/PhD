@@ -26,6 +26,8 @@
 \usepackage{pdfpages} % insert the papers pdf in the text.
 
 \usepackage{gensymb} %°C
+
+
  
 % get rid of page numbers in TOC
 %\usepackage{tocloft}
@@ -55,7 +57,16 @@
 
 
  \addbibresource{../Bibliography/bib_zotero20171106.bib}
+\includeonly{./2_PP/Individual_level}
 
+%\include{./0_Objectives/Objectives}
+%\include{./1_Introduction/Introduction}
+%\include{./2_PP/Generic_model}
+%\include{./2_PP/Individual_level}
+%\include{./2_PP/Community_dynamics}
+%\include{./3_Synthesis/synthesis}
+%\include{./3_Synthesis/outlook}
+%\include{./3_Synthesis/extensions}
 
 %% avoid page break before chapter:
 %\usepackage{etoolbox}
@@ -90,6 +101,59 @@
 
 \tcbset{enhanced,colframe=myGreen,colback=black!0,fonttitle=\sffamily\sffamily,breakable,attach boxed title to top right={xshift=-4mm,yshift*=-3.5mm},coltitle=myGreen,colbacktitle=black!0,boxed title style={colframe=myGreen!0},before skip=0.5cm} %Caractéristiques de la box
  
+ % Fix some caption problems
+\makeatletter
+\newif\if@tufte@margtab\@tufte@margtabfalse
+\AtBeginEnvironment{margintable}{\@tufte@margtabtrue}
+\AtEndEnvironment{margintable}{\@tufte@margtabfalse}
+\newcommand{\classiccaptionstyle}{%
+    \long\def\@caption##1[##2]##3{%
+        \par
+        \addcontentsline{\csname ext@##1\endcsname}{##1}%
+        {\protect\numberline{\csname the##1\endcsname}{\ignorespaces ##2}}%
+        \begingroup
+        \@parboxrestore
+        \if@minipage
+        \@setminipage
+        \fi
+        \normalsize
+        \@makecaption{\csname fnum@##1\endcsname}{\ignorespaces ##3}\par
+        \endgroup}
+    \long\def\@makecaption##1##2{%
+        \vskip\abovecaptionskip
+        \sbox\@tempboxa{\@tufte@caption@font##1: ##2}%
+        \ifdim \wd\@tempboxa >\hsize
+        \@tufte@caption@font\if@tufte@margtab\@tufte@caption@justification\fi##1: ##2\par
+        \else
+        \global \@minipagefalse
+        \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+        \fi
+        \vskip\belowcaptionskip}
+    %   \setcaptionfont{\normalfont}
+    \let\caption\@tufte@orig@caption%
+    \let\label\@tufte@orig@label}
+\makeatother
+
+\newenvironment{table2*}{%
+    \begin{table*}
+    \classiccaptionstyle
+  }{\end{table*}}
+% \let\origtable*=\table*
+%\def\table*{\origtable*\classiccaptionstyle}
+ 
+ % side by side caption
+ \newcommand{\sidebysidecaption}[4]{%
+\RaggedRight%
+  \begin{minipage}[t!]{#1}
+    \vspace*{0pt}
+    #3
+  \end{minipage}
+  \hfill%
+  \begin{minipage}[t!]{#2}
+    \vspace*{0pt}
+    #4
+\end{minipage}%
+}
 
 % to see the margins and page width
 % \geometry{showframe}
