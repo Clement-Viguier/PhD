@@ -353,6 +353,51 @@
       \verb http://www.nature.com/nature/journal/v428/n6985/abs/nature02403.html
       \endverb
     \endentry
+    \entry{reich_world-wide_2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \strng{fullhash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \strng{authornamehash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \strng{authorfullhash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \field{labelalpha}{Rei14}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* The leaf economics spectrum (LES) provides a useful framework for examining species strategies as shaped by their evolutionary history. However, that spectrum, as originally described, involved only two key resources (carbon and nutrients) and one of three economically important plant organs. Herein, I evaluate whether the economics spectrum idea can be broadly extended to water – the third key resource –stems, roots and entire plants and to individual, community and ecosystem scales. My overarching hypothesis is that strong selection along trait trade-off axes, in tandem with biophysical constraints, results in convergence for any taxon on a uniformly fast, medium or slow strategy (i.e. rates of resource acquisition and processing) for all organs and all resources. * Evidence for economic trait spectra exists for stems and roots as well as leaves, and for traits related to water as well as carbon and nutrients. These apply generally within and across scales (within and across communities, climate zones, biomes and lineages). * There are linkages across organs and coupling among resources, resulting in an integrated whole-plant economics spectrum. Species capable of moving water rapidly have low tissue density, short tissue life span and high rates of resource acquisition and flux at organ and individual scales. The reverse is true for species with the slow strategy. Different traits may be important in different conditions, but as being fast in one respect generally requires being fast in others, being fast or slow is a general feature of species. * Economic traits influence performance and fitness consistent with trait-based theory about underlying adaptive mechanisms. Traits help explain differences in growth and survival across resource gradients and thus help explain the distribution of species and the assembly of communities across light, water and nutrient gradients. Traits scale up – fast traits are associated with faster rates of ecosystem processes such as decomposition or primary productivity, and slow traits with slow process rates. * Synthesis. Traits matter. A single ‘fast–slow’ plant economics spectrum that integrates across leaves, stems and roots is a key feature of the plant universe and helps to explain individual ecological strategies, community assembly processes and the functioning of ecosystems.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{number}{2}
+      \field{shorttitle}{The world-wide ‘fast–slow’ plant economics spectrum}
+      \field{title}{The world-wide ‘fast–slow’ plant economics spectrum: a traits manifesto}
+      \field{urlday}{16}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{102}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{275\bibrangedash 301}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12211
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/QC5VP2HC/Reich - 2014 - The world-wide ‘fast–slow’ plant economics spectru.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/4I6AEJ52/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12211/abstract
+      \endverb
+      \keyw{light,Carbon,ecophysiology,strategy,Leaf,phylogeny,nutrient,root,stem,water}
+    \endentry
   \endsortlist
   \missing{hartig}
   \missing{need ref}

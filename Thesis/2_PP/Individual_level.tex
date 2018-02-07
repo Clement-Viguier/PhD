@@ -172,7 +172,7 @@ Indeed, the relatively high importance of parameters related to water shows the 
 
 \paragraph{More complex plasticity?}
 
-As mentioned earlier in this discussion, the model is not able to produce any shift in RSR in different water treatment. It is not a surprise for \textit{non plastic} algorithm, but the filter was still applied on this criterion to allow the comparison with plastic algorithm and to be able to measure the improvement in selection rate. However, even plastic algorithms do not show strong enough response to water treatment in term of RSR. A strong and good (in the sense it would have matched the data) is larger in amplitude and more stable in time. Such processes generally amplify with time, \textit{i.e.} when the number of drought event increases, the response (allocation to roots) increases (relative to default phenotype). Unlike natural systems, plants in \model fluctuates between two "states", or phenotypes associates to the dry and wet conditions. The RSR post drought event is reached after the first week without water. This can be explained by two main mechanisms that are related but have contrasting implications. The quickness in response to the changing conditions is allowed by relatively high assimilation rate. If the net growth rate is controlled by the total weight condition during the filtering process, the assimilation rate is not and can be compensated with relatively high turn-over rate. Net growth rate being equal, species with higher assimilation rate will have higher phenotypic flexibility (higher fraction of biomass to invest in carbon pool of choice) than species with lower assimilation rate. This flexibility, similar to reallocation, allows changes in RSR, but not the accumulation of biomass in roots. Unfortunately, both the constant turn-over rate impleminted in the model, and the selection toward "wide and high" gain functions limit control on this apsect.
+As mentioned earlier in this discussion, the model is not able to produce any shift in RSR in different water treatment. It is not a surprise for \textit{non plastic} algorithm, but the filter was still applied on this criterion to allow the comparison with plastic algorithm and to be able to measure the improvement in selection rate. However, even plastic algorithms do not show strong enough response to water treatment in term of RSR. A strong and good (in the sense it would have matched the data) is larger in amplitude and more stable in time. Such processes generally amplify with time, \textit{i.e.} when the number of drought event increases, the response (allocation to roots) increases (relative to default phenotype). Unlike natural systems, plants in \model fluctuates between two "states", or phenotypes associates to the dry and wet conditions. The RSR post drought event is reached after the first week without water. This can be explained by two main mechanisms that are related but have contrasting implications. The quickness in response to the changing conditions is allowed by relatively high assimilation rate. If the net growth rate is controlled by the total weight condition during the filtering process, the assimilation rate is not and can be compensated with relatively high turn-over rate. Net growth rate being equal, species with higher assimilation rate will have higher phenotypic flexibility (higher fraction of biomass to invest in carbon pool of choice) than species with lower assimilation rate. This flexibility, similar to reallocation, allows changes in RSR, but not the accumulation of biomass in roots. Unfortunately, both the constant turn-over rate implemented in the model, and the selection toward "wide and high" gain functions limit control on this aspect.
 
 Moreover, the fact that plants are more productive during periods where they may not want to invest in roots strengthen this effect. Indeed, a plant would drift to higher RSR if it was more productive when pursuing the high RSR phenotype than when pursuing the low RSR phenotype. This last point mentions the "will" of the plant, in the context of \model this target phenotype is encoded in the projection of external conditions. Because this projection is daily based by design, the accumulation of drought stress is not translated in the internal projection variables of the plant (like it can be with the accumulation of phyto-hormones \cite{need ref}). This limitation highlights a big difference between simulated plants in \model and natural plants. While solutions to overcome this problem can easily be imagined(see equation \ref{eq:projection_alt} in \ref{subsection:submodels}), they would require more parameters and introduce more complexity to the analysis. This model provides a first approach to phenotypic plasticity in grassland models and the formulation of the projection, key element of the phenotypic plasticity, is certainly a starting point for further development. Nevertheless, the differences in response to the parameters between the three allocation rules, despite shared plant functioning, demonstrate the importance of plasticity itself. And simplification of the processes should not be a reason to not explore its effects. The fact that the parameter \texttt{tau} has a relatively small impact on selection rates alos support the need to better understand all strategic axis before focusing on the effect of projection. While there are many ways of simulating the phenotypic plasticity, the parsimony is privileged. This simple representation is enough to understand the effects of active plastic allocation in association with the other strategic differences between species.
 
@@ -180,7 +180,8 @@ Moreover, the fact that plants are more productive during periods where they may
 %Exchange area per biomass and sensitivity to exchange rates : trade-off are important and structuring.
 
 %filtering on RSR to test if plasticity improved selection of parameters, = is an essential part of platn functioning.\\
-%Change in modelling paradigm. Bayesian paradigm where the information is contained in data and revealed by the structure of the model. Go for simulation experiment approaches where the model is used as a simulation tool and results as new data. The emerging patterns inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Model as an understanding tool.\\
+\paragraph{Modelling paradigm}
+Bayesian paradigm where the information is contained in data and revealed by the structure of the model. Go for simulation experiment approaches where the model is used as a simulation tool and results as new data. The emerging patterns inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Model as an understanding tool.\\
 %While many ways of simulating the phenotypic plasticity can be proposed, the parsimony is privileged and this representation is enough to understand the impact of related processes shared by any representation of phenotypic plasticity is the developed framework.
 
 \textbf{Root shoot ratio changes were not captured by the model. The structure of the plasticity mechanisms does not work with the given watering cycle. Needs to add one parameter for reactivity.}
@@ -203,15 +204,21 @@ The challenge of the framework presented in paragraph \ref{subsection:memory} un
 %To further reduce the number of parameter sets considered, we proceeded in an additional filtering step. Because the first filtering was conduced for only one strategy over the whole 4D strategy space (l\_ini,  w\_ini, as\_s\_d, as\_r\_d) it is necessary to verify that other strategies do not lead to potential Darwinian demon. This should be limited by the choice of priors, while at the same time promoted by the selection of parameters increasing growth to counter balance potential unfitted strategies\footnote{Better do that beforehand than after... But I guess it's too late now.}.
 
 \paragraph{Allocation algorithms}
-The effect of allocation on phenotypic development is investigated thanks to pot simulations (see Methods in \ref{section:calibration}) of 100 days in 3 watering treatment: 2mm, 8m and 16mm per day. To avoid drift in the phenotype due to allocation algorithm (see paragraph \ref{subsection:memory} on phenotypic determination), simulations where run a first time, then rerun with default specific traits matching traits at the end of the first simulation set. All four algorithms are simulated.
+The effect of allocation rule on phenotypic development is investigated thanks to pot simulations (see Methods in \ref{section:calibration}) of 100 days in 3 watering treatment: 2mm, 8m and 16mm per day. To avoid drift in the phenotype due to allocation algorithm (see paragraph \ref{subsection:memory} on phenotypic determination), simulations where run a first time, then rerun with default specific traits matching traits at the end of the first simulation set. All four algorithms are simulated.
 
 \paragraph{Memory \& phenotype}
-Memory plays a determining role in phenotypic development under "plastic" allocation rules. The effect of this memory alone (environmental cues ignored by setting \texttt{tau} to 1) on the default emerging phenotype is explored for diverse memories (9 values on the two axis from 0.1 to 1 later scaled to the maximum area exchange rates for model parameter set considered, or 81 values) for each accepted parameter set. The effect of the memory values on the final position of plants in the phenotypic space are visualised by fitting loess curves.
+Memory of external conditions plays a determining role in phenotypic development under \textit{plastic-optimisation} allocation rules. The effect of the memory alone (environmental cues ignored by setting \texttt{tau} to 1) on the default emerging phenotype is explored for diverse memories (9 values on the two axis from 0.1 to 1 later scaled to the maximum area exchange rates for model parameter set considered, or 81 values) for each accepted parameter set. The effect of the memory values on the final position of plants in the phenotypic space are visualised by fitting loess curves between memory values and individual trait values.
 
 \subsection{Results}
 
 \paragraph{Allocation rules}
-think of a "showtime" visualisation that shows how growth and traits are impacted by allocation rules and \texttt{tau}.
+think of a "showtime" visualisation that shows how growth and traits are impacted by allocation rules and \texttt{tau}.\\
+
+Have the proportion of tissues changing over time\\
+
+Show the respiration, assimilation and turn-over rates.\\ 
+
+Isn't it possible to show these along memory or active/str ratio axis ?
 
 
 \begin{figure}\label{fig:plastic_allocation_trajectory}
@@ -221,78 +228,162 @@ think of a "showtime" visualisation that shows how growth and traits are impacte
 
 \paragraph{Memory and phenotype}
 
-The kinetic of the phenotypic shift is first visualised for one parameter set on the two main phenotypic axis (proportion of active tissues in roots: PAR and proportion of active tissues in shoot: PAS). From the same starting point the five species show distinct rapid shift toward segregated subspace of the 2D strategy space. The equilibrium point is reached in 10 days.
+The kinetic of the phenotypic shift is first visualised for one parameter set on the two main phenotypic axis (proportion of active tissues in roots: PAR and proportion of active tissues in shoot: PAS). From the same starting point the five species show distinct rapid shift toward segregated subspace of the 2D strategy space. The equilibrium point is reached in approximately 10 days for all 5 species. Despite constant memory, variations are visible on both tissue allocation traits of roots and shoot. These variations lead to partial overlap but the five species are distinct on the 2D space.
 
-\begin{figure}\label{fig:memory_n_phenotype}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Individual/par_v_2D_points.pdf}
-\caption{Impact of species memory on final phenotype in case of fully plastic allocation. Each point corresponds to a plant phenotype for a memory syndrome for a given parameter set. Colours denote the memory syndromes.}
-\end{figure}
-
+The memory of resource availability is a strong enough driver to alter the default phenotype of a species. The effect of the two components of the memory (memory of water availability and memory of light availability) on the three main traits is explored through local regressions. The proportion of active tissues in roots increases to a plateau with increase in water availability memory (figure \ref{fig:w_ini_p_as_r}). This response pattern is consistent between all parameter sets, but the starting points and slopes may differ. The same pattern is observed between light availability memory and proportion of active tissues in roots (data not shown). The allocation convergence in the root is also influenced by the increase in light availability memory. An increase in the latter leads to a smooth increase in the former (see figure \ref{fig:l_ini_p_as_r}) with less drastic response than the water. This response is mirrored in shoot allocation response to increase in water availability memory (data not shown). Both organs react in symmetric ways to increases in resource availability. The RSR has a negative log response to water availability memory (positive in the case of light availability memory).
 
 \begin{figure}\label{fig:w_ini_p_as_r}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Individual/w_ini_p_as_r.pdf}
-\caption{Effect of memory of water availability on proportion of active tissues in root.}
+\caption{Effect of memory of water availability on proportion of active tissues in roots. \textit{Plastic-optimisation}. Each line correspond to a local regression fitted for all memory combinations for a given parameter set. Water availability memory is given in percentage of maximum exchange rate, absolute values may change between parameter sets.}
 \end{figure}
 
-Strong effect with saturation: optimum. 
 
-\begin{figure}\label{fig:w_ini_p_as_s}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Individual/w_ini_p_as_s.pdf}
-\caption{Effect of memory of water availability on proportion of active tissues in shoot.}
+\begin{figure}\label{fig:l_ini_p_as_r}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Individual/l_ini_p_as_r.pdf}
+\caption{Effect of memory of water availability on proportion of active tissues in shoot. \textit{Plastic-optimisation}. Each line correspond to a local regression fitted for all memory combinations for a given parameter set. Light availability memory is given in percentage of maximum exchange rate, absolute values may change between parameter sets.}
 \end{figure}
-There is also a positive effect, that is smoother and have lower values. Same pattern for light memory respectively with proportion of active tissues in shoot, and proportion of active tissues in roots.
+
+The combine effect of the two axis of plant resource availability memory is observed by plotting the phenotypes (on the 2D space of active tissue allocation) of four contrasting memories for all parameter sets (figure \ref{fig:memory_n_phenotype}). There is clear clustering of the four memory profiles, with some overlaps due to the fact that multiple parameter sets are plotted at the same time. The memory of low availability (\textcolor{myRed}{$\bullet$}) has a much larger distribution area than others, suggesting the relative instability of this profile within the "estimated net gain landscape". Memory of low availability for both resource drives plant toward very conservative strategies (need some values here) than other strategy. High expected availability of at least one resource increases allocation to active tissues to both organs. This confirms the positive effect of complementary resource (light for roots and water for shoot) of active tissue allocation in organs (see figure \ref{fig:l_ini_p_as_r}). Because of this, there is no highly unbalance phenotypes with high contrast between organ specific allocation emerging from the \textit{plastic-optimisation} allocation in \model. There is general coordination, but the balance between resource availability memories still impacts the position on the 2D, illustrated by the absence of overlap between low light - high water  (\textcolor{myBlue}{$\bullet$}) and high light - low water (\textcolor{myYellow}{$\bullet$}) phenotypes. In case of high resource availability and coordination, high investment in active tissues for both organ is achieved(\textcolor{myGreen}{$\bullet$}) and high light - high water), but the range of values is similar than for unbalanced memories(\textcolor{myBlue}{$\bullet$}) and high light - low water (\textcolor{myYellow}{$\bullet$}).
+
+\begin{figure}\label{fig:memory_n_phenotype}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Individual/par_v_2D_points.pdf}
+\caption{Impact of species memory on final phenotype in case of fully plastic allocation. \textit{Plastic-optimisation}. Each point corresponds to a plant phenotype for a memory syndrome for a given parameter set. Colours denote the memory syndromes.
+
+\textcolor{myRed}{$\bullet$ low light - low water}, 
+
+\textcolor{myYellow}{$\bullet$ HIGH light - low water},
+
+\textcolor{myBlue}{$\bullet$ low light - HIGH water},
+
+\textcolor{myGreen}{$\bullet$ HIGH light - HIGH water}.}
+\end{figure}
+
 
 
 \subsection{Discussion}
-\paragraph{Allocation rules, plasticity and performance}
+\paragraph{Allocation rules}
+
+rapid convergence.\\
+
+Cost and gains\\
+
+Diversity of phenotypes\\
+
+Crossed and symmetric influence: the respective efficiencies cannot be analysed independently.\\
 
 
 
 \textbf{Allocation rules are extremely important as they reduce the phenotypic space explore. Without even considering plasticity. Need a good understanding of the performance within the phneotypic landscape. Plus there is a need for alignment between starting phenotype and endpoint. Will also affect how plasticity is driven.}
 
-\paragraph{Fast slow strategy and allocation trade-off}
+\paragraph{Fast-slow strategies}
 
-... nothing here, the idea was to show that the "strategy" of the species conduce to slow and fast archetypes.
+... nothing here yet, the idea was to show that the "strategy" of the species conduce to slow and fast archetypes. Should be able to show that with some memory simulations.\\
+
+But not equal distribution along the axis probably.
+
 
 \textbf{Allocation trade-off allow for strategies from the fast-slow spectrum to arise, independently for shoot and root, in coherent framework. Potential effect of other strategy axis can be analysed alongside this trade-off, even if they affect composite traits like SLA or SRL.}
 
 \paragraph{Memory and phenotypes}
 
- The symmetry and the curves shapes suggest that resource related organ is more sensitive and that "apparent" increase in resource availability promote more exploitative strategy.\\
+ The symmetry and the curves shapes suggest that resource related organ is more sensitive and that "apparent" increase in resource availability promote more exploitative strategy. - what mechanism ?\\
+ 
+It seems that there is greater concentration around high values of active tissues. This is consequence of net gain curves. Is this verified in other allocation rules ? Or is this an artefact ?
+ 
+The role of memory highlight the expected problem of matching default phenotype with memory: little ontogeny effect (due to high growth and turn-over rates) and problem with distance based plasticity cost (would require a moving cost, instead of fixed reference cost).
 
-For each parameter set the alpha shape of the volume could be drawn to have an idea on how parameters impact potential functional diversity.
+For each parameter set the alpha shape of the volume could be drawn to have an idea on how parameters impact potential functional diversity. But no time here to test that.
 
 
 \textbf{Memory is a strong enough driver to control plant organ strategy. The effect of overall activity should be studied too and considered if memory is used to determine the default phenotype.)}
 
+Role of allocation rule and changes in traits, traits affect strategy and performance, memory lead to different phenotype/strategies (based on gain function), there is coordination, effect of complementary resource. Need to better understand allocation rule and optimum strategy, and convergence and diversity. 
+
+\textbf{I REALLY NEED TO EXTEND THE CONCLUSIONS AND GO BEYOND MY OWN WORK. REFER MORE TO OTHER PEOPLE WORK ! ! !}
+
 % ##################################################################################
 \chapter{Individual performance, plasticity and variable conditions}
+
+The previous section highlighted the ability of the model to model growth, but also the importance of species specific parameters. While the plasticity mechanism did not replicate to a full extend (stable and higher amplitude) the phenotypic changes between the  different conditions), there were some changes both in traits, and in growth leading to a higher selection rate. Considering the importance of species specific parameters and their potential impact on growth, these differences between plastic and non plastic allocation rules should be investigated in an extended manner. The specific roles of strategy and memory on the multiple components of plant growth need to be disentangled to draw better hypotheses on the role of phenotypic plastic on plant performance and coexistence. The role of resource availability on these mechanisms also needs to be interrogated. The effect of plasticity on coexistence can also be approached with respect to relative performances and contraction of the strategy space.
+
+This chapter tends to answer these questions with simulations of individual plants with diverse strategies and under multiple allocation rules. To simplify the approach and focus on the interaction between species strategies and allocation algorithm, the plasticity will be model as discrete mechanism (tau = 0 for all plastic allocation algorithms).
+
 \section{Individual performance: between strategy, memory and plasticity}
 
-Question I try to answer: (use of schematics ?)
+This first subsection focuses on the link between the phenotype and the plant performance. The plasticity and allocation mechanisms can affect both the link between phenotype and performance and the distribution of the existing phenotypes.
+
+
 
 \subsection{Method}
 
 \paragraph{Strategy space sampling}
-Idea, having an idea on how the 
+To better understand what make a plant perform in the model, a multitude of phenotype needed to be tested. Tested phenotypes are distributed regularly along the three axis of the strategy space (proportion of active tissues in root, proportion of active tissues in shoot, proportion of roots) between extreme values (respectively (0.1, 0.99), (0.1, 0.99) and (0.1, 0.9)) for a total of 3375 combinations ($15^{3}$).  Because the RSR is defined by the memory, and in this set of simulation experiments the RSR is defined before, the species memory needs to be computed afterwards. There is an infinite number of couple of memory values that can match a given RSR. Also, the projection of conditions is sensitive to both memory and experienced conditions, therefore the choice of memory can affect the relative sensitivity of species to changes in external conditions and alter the model behaviour. Because the role of memory is not the focus here, and because there is much more focus on the role of the plasticity as a mechanism (as opposed as a strategy with various values of \texttt{tau}), the parameter \texttt{tau} is set to 0. This ensures that only the starting phenotype and the experienced conditions play a role in plant performance.
 
 \paragraph{Simulation set-up}
-Two climatic conditions. ... Watts per square metters and .. mm, days of 15h. Low resource availability conditions correspond to a reduction by a factor 4 of resource influx, but the day length was conserved.
+
+For each phenotype a pot simulation is ran for 100 days of 15 hours under 4 millimetres rainfall and 120 Watt per square metres and per hour with the 4 main allocation algorithms (\textit{non plastic}, \textit{fixed-equilibrium}, \textit{fixed-optimisation} and \textit{plastic-optimisation}. Two resource levels are tested for each simulations. The low resource availability conditions correspond to a reduction by a factor 4 of resource influx, but the day length was conserved.
+
+\paragraph{Projections}
+
+To visualise the performance landscape (plant performance relative to biggest plant as function of its phenotype) the performance of best phenotypes are projected against the 3 plans that compose the phenotypic space. Such projections are preferred to 3D alternatives as they work better with static visualisation and when most of the space is occupied. Alternative axis are defined to facilitate the interpretation and description of the performance landscape. The organ strategy plane(PAR-PAS plane) can be transformed into strategy balance (difference between PAS and PAR) and "speed" (in sense of Reich \cite{reich_world-wide_2014})(mean allocation to active tissues).
 
 \subsection{Results}
+
+\paragraph{Performance landscape}
+ On the tissue allocation plan (proportion of active tissues in leaves and roots), the best performing phenotypes present a bean shape. This shape suggest that relative importance of organ efficiency is lower than other criterion such as equilibrium and overall performance (see section \ref{chapter:modelling_PP} paragraph \ref{subsection:match} for the discussion on the components of plant performance). On this plane, the lowest values of plant biomass are characterised by low values of active tissue allocation. 
+ 
+Phenotypes with high active tissue allocation values tend to have lower growth values than phenotypes with similar values for one of the organ and lower value for the other organ. 
+
+Projection of the best phenotypes over the three planes also gives information on the importance of the ignored variable on each plane. The greater the discrimination of the subset of best strategies on a given plane, the lower the importance of the ignored plane. The projection on PAR-RMF and PAS-RMF planes discriminate better phenotypes relatively to PAR-PAS plane, therefore the RMF is a more important variable than allocation to active tissues in organs.
+
+If equilibrium is a driving mechanisms in plant performance, for any given strategy (PAR-PAS plan projection) the best phenotypes has a RMF values that guarantee the functional equilibrium. However, for each strategy there is a notable difference between the RMF of best phenotypes  and the RMF of phenotypes the closest to the equilibrium. This disparity is positively related to the strategy balance: best phenotypes with higher active allocation in shoot than root have lower allocation to roots than required for functional equilibrium. 
+
+Higher resource: contraction of the landscape, toward faster species. Moving optimum and moving gravity center. Transition to optimum shifting and difference between allocation rules.
+
+\paragraph{Optimum shifting}
+
+Shift due to plasticity (toward higher RSR) -> timing only ?
++ shift (not fully significant in high resource availability) toward more exploit shoot and less exploit root. What does that mean ? higher tissue efficiency authorized by less limiting water ?
+
+Where is the optimum ?  what makes an optimum ? Why is it important ? -> beter understand how plasticity works and can improve plant performance.
+
+What are the sensitive dimensions ? and why ? 
+
+then moving optimum and why ?
+
+Moving optimum 2D: why ?
+
+What is the plastic-optimisation doing ? Wrong phenotype ? Wrong projection ? Wrong strategy or wrong RMF ? 
 
 
 \begin{figure}\label{fig:w_ini_p_as_r}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_BM_allocation.pdf}
 \caption{Effect of plasticity and resource availability on average biomass of living species.}
 \end{figure}
+
 Biomass is relative to best performing non plastic plant (to remove the general parameter set effect on growth) and compare (within each condition) the effect of allocation algorithm. Plasticity lead to an increase of average relative biomass, especially full plasticity. However, few values above 1, in fixed conditions there is real additional value of plasticity compare to fixed allocation.\\
 
-Then talk about convergence. To better subspace, but not the optimum.
+\paragraph{Phenotypic convergence}
+
+Convergence, relative species diversity and functional diversity.
+
+
+
 
 \subsection{Discussion}
 
+\paragraph{Components of performance}
+
+\textemph{equilibrium}, overall \textemph{speed} and overall \textemph{efficiency}.
+
+Better too fast than not fast enough.
+
+Explain the memory stuff in previous section: low-low compared to low-high, the second one lead to overall higher productivity (lack of one resource compensated by higher allocation to the related organ) that can support more active tissues. 
+
+
 \paragraph{Convergence to subspace}
+
+\textemph{Convergence}
 
 Somehow I need to talk about the cost of being wrong. Can be observe in the delta heatmap on delta strat and delta w-ini: in this case there is less impact of being wrong of memory if you're good with strategy, because your not in different conditions...\\
 
@@ -300,6 +391,9 @@ Potential effect on diversity: lower functional diversity, increase evenness. Le
 
 Anyway, being good is stable conditions may useless if cannot survive or keep gain in other conditions. >> look along gradient if best species keep their rank.\\
 
+\paragraph{Wrong proxy?}
+
+What happen to plastic plants ? Wrong phenotype ? Wrong \textemph{projection} ? Wrong strategy or wrong RMF ? 
 
 \paragraph{Nuances around plasticity}
 This analysis was conduced with drastic parameters of plasticity with plastic plants relying only on their perception of external conditions to develop their phenotype. The different results ... different directions and impact on potential diversity.\\
@@ -310,17 +404,31 @@ The contrasting responses of the different algorithms highlight the importance o
 results from this part\\
 Why we need to go for a gradient.
 
+\paragraph{Greater level discussion}
 
 
+\textbf{Subsection conclusion: bla bla bla}
 
 
 % ##################################################################################
 \section{Plasticity and variability of conditions}
 Question I try to answer: (use of schematics ?)
+The heterogeneity of conditions is an essential mechanism for plant coexistence. Plasticity is likely to alter the effect of this heterogeneity on plant interactions and relative performance. The impact of plasticity on this relationship between spatial and temporal \textemph{heterogeneity} of resources (here limited to water) and strategy dominance is explored with the model \model.
 
 \subsection{Method}
 
+Because little coordination, and importance of below-ground resource acquisition (in the results, and in the context) and computational cost - only root strategies.
+
+\paragraph{Spatial heterogeneity}
+
+\paragraph{Temporal heterogeneity}
+
 \subsection{Results}
+
+\paragraph{Optimum strategy}
+
+\paragraph{Diversity}
+
 
 \subsection{Discussion}
 
