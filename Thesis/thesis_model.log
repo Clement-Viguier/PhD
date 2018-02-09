@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  7 FEB 2018 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  9 FEB 2018 09:25
 entering extended mode
 **./thesis_model.tex
 (thesis_model.tex
@@ -1731,8 +1731,12 @@ LaTeX Warning: Label `fig:derivaives' multiply defined.
 
 LaTeX Warning: Label `fig:w_ini_p_as_r' multiply defined.
 
-) (2_PP/Community_dynamics.aux) (3_Synthesis/synthesis.aux)
-(3_Synthesis/outlook.aux) (3_Synthesis/extensions.aux))
+) (2_PP/Community_dynamics.aux
+
+LaTeX Warning: Label `33' multiply defined.
+
+) (3_Synthesis/synthesis.aux) (3_Synthesis/outlook.aux)
+(3_Synthesis/extensions.aux))
 \openout1 = `thesis_model.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 220.
@@ -1888,14 +1892,14 @@ Package biblatex Info: ... file 'thesis_model.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 4):
-(biblatex)                hartig
+(biblatex)                need ref
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 4):
-(biblatex)                need ref
+(biblatex)                hartig
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2275,6 +2279,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--148
  []
 
 
+Underfull \hbox (badness 1014) in paragraph at lines 148--148
+\T1/pplj/m/n/8 Figure 1.7: Com-par-i-son of sim-
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 148--148
+\T1/pplj/m/n/8 u-lated val-ues of RSR with real
+ []
+
+
 LaTeX Warning: Marginpar on page 54 moved.
 
 
@@ -2350,11 +2364,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--227
 
  []
 
-
-LaTeX Warning: Marginpar on page 57 moved.
-
 [57] [58 <./2_PP/Figures/Individual/memory_effect.pdf>]
-<./2_PP/Figures/Individual/w_ini_p_as_r.pdf, id=2566, pagebox=cropbox, 355.3275
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+<./2_PP/Figures/Individual/w_ini_p_as_r.pdf, id=2565, pagebox=cropbox, 355.3275
 pt x 226.8475pt>
 File: ./2_PP/Figures/Individual/w_ini_p_as_r.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/w_ini_p_as_r.pdf>
@@ -2372,7 +2386,7 @@ Underfull \hbox (badness 1515) in paragraph at lines 238--238
 \T1/pplj/m/n/8 ac-tive tis-sues in roots. \T1/pplj/m/it/8 Plastic-
  []
 
-<./2_PP/Figures/Individual/l_ini_p_as_r.pdf, id=2567, pagebox=cropbox, 355.3275
+<./2_PP/Figures/Individual/l_ini_p_as_r.pdf, id=2566, pagebox=cropbox, 355.3275
 pt x 226.8475pt>
 File: ./2_PP/Figures/Individual/l_ini_p_as_r.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/l_ini_p_as_r.pdf>
@@ -2437,16 +2451,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
+[60 <./2_PP/Figures/Individual/l_ini_p_as_r.pdf>] [61 <./2_PP/Figures/Individua
+l/par_v_2D_points.pdf>]
 
-LaTeX Warning: Marginpar on page 60 moved.
+LaTeX Warning: Marginpar on page 62 moved.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-[60 <./2_PP/Figures/Individual/l_ini_p_as_r.pdf>] [61 <./2_PP/Figures/Individua
-l/par_v_2D_points.pdf>]
 
 LaTeX Warning: Marginpar on page 62 moved.
 
@@ -2462,13 +2476,7 @@ Overfull \hbox (24.28905pt too wide) in paragraph at lines 305--305
  and vari-able con-
  []
 
-
-Underfull \vbox (badness 4205) has occurred while \output is active []
-
- [62]
-
-LaTeX Warning: Marginpar on page 63 moved.
-
+[62]
 
 LaTeX Warning: Marginpar on page 63 moved.
 
@@ -2480,15 +2488,21 @@ LaTeX Warning: Marginpar on page 63 moved.
 LaTeX Warning: Marginpar on page 64 moved.
 
 
+LaTeX Warning: Marginpar on page 64 moved.
+
+
+LaTeX Warning: Marginpar on page 64 moved.
+
+
 LaTeX Warning: Reference `chapter:modelling_PP' on page 64 undefined on input l
-ine 333.
+ine 336.
 
 
 LaTeX Warning: Reference `subsection:match' on page 64 undefined on input line 
-333.
+336.
 
 
-Overfull \hbox (1.42029pt too wide) in paragraph at lines 335--336
+Overfull \hbox (1.42029pt too wide) in paragraph at lines 338--339
 []\T1/pplj/m/n/10 Phenotypes with high ac-tive tis-sue al-lo-ca-tion val-ues te
 nd to have lower growth
  []
@@ -2496,35 +2510,38 @@ nd to have lower growth
 
 LaTeX Warning: Marginpar on page 64 moved.
 
-<./2_PP/Figures/Landscape/plot_BM_allocation.pdf, id=2626, pagebox=cropbox, 710
+
+Underfull \vbox (badness 4181) has occurred while \output is active []
+
+ [64]
+<./2_PP/Figures/Landscape/plot_BM_allocation.pdf, id=2634, pagebox=cropbox, 710
 .655pt x 341.275pt>
 File: ./2_PP/Figures/Landscape/plot_BM_allocation.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/plot_BM_allocation.pdf>
 Package pdftex.def Info: ./2_PP/Figures/Landscape/plot_BM_allocation.pdf  used 
-on input line 360. on input line 360.
+on input line 363. on input line 363.
 Package pdftex.def Info: Requested size: 355.66278pt x 170.7985pt on input line
- 360.
+ 363.
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--362
+Underfull \hbox (badness 10000) in paragraph at lines 363--365
 
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 362--362
+Underfull \hbox (badness 3078) in paragraph at lines 365--365
 \T1/pplj/m/n/8 Figure 2.1: Ef-fect of plas-tic-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
-[64]
 
 LaTeX Warning: Marginpar on page 65 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
 \T1/phv/m/sc/10 Components of per-for-
  []
 
@@ -2534,63 +2551,113 @@ LaTeX Warning: Marginpar on page 65 moved.
 
 LaTeX Warning: Marginpar on page 65 moved.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-
- []
-
-
-LaTeX Warning: Marginpar on page 65 moved.
-
-
-LaTeX Warning: Marginpar on page 65 moved.
-
 [65 <./2_PP/Figures/Landscape/plot_BM_allocation.pdf>]
+Underfull \hbox (badness 1616) in paragraph at lines 395--395
+\T1/pplj/m/n/8 present species, and com-mu-nity
+ []
+
+
+LaTeX Warning: Reference `fig:convergence' on page 66 undefined on input line 3
+95.
+
+
+LaTeX Warning: Reference `fig:plane_projections' on page 66 undefined on input 
+line 395.
+
 
 LaTeX Warning: Marginpar on page 66 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+[67]
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/phv/m/sc/10 Improvement in vari-able
  []
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--426
+LaTeX Warning: Marginpar on page 68 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
 \T1/phv/m/sc/10 Heterogeneity of re-
  []
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
+[68]
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 69 moved.
 
-[66]) [67]
+) [69]
 Package biblatex Info: Reference section=0 on input line 301.
- [68
+ [70
 
-] [69
+] [71
 
-] [70]
+] [72]
 \blx@maxsegment@5=\count377
 \blx@sectionciteorder@5=\count378
 Package biblatex Info: Reference section=5 on input line 306.
@@ -2600,9 +2667,19 @@ Package biblatex Info: Setting label 'refsection:5' on input line 306.
 LaTeX Warning: Empty bibliography on input line 312.
 
 Package biblatex Info: Reference section=0 on input line 314.
-[71
+pdfTeX warning (ext4): destination with the same identifier (name{page.71}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.317 \part{Synthesis \& Outlook}
+                                  [71
 
-] [72
+]pdfTeX warning (ext4): destination with the same identifier (name{page.72}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.317 \part{Synthesis \& Outlook}
+                                  [72
 
 ] [73] [74]
 \blx@maxsegment@6=\count379
@@ -2645,13 +2722,13 @@ Package logreq Info: Writing requests to 'thesis_model.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 384.
  ) 
 Here is how much of TeX's memory you used:
- 43289 strings out of 493314
- 942187 string characters out of 3138867
+ 43307 strings out of 493314
+ 942409 string characters out of 3138867
  1622049 words of memory out of 3000000
- 45835 multiletter control sequences out of 15000+200000
- 96457 words of font info for 115 fonts, out of 3000000 for 9000
+ 45841 multiletter control sequences out of 15000+200000
+ 103673 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,12n,128p,2481b,1704s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,12n,128p,2481b,1757s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{subsection.III.section.2.2.1} has been referenced
  but does not exist, replaced by a fixed one
 
@@ -2794,18 +2871,19 @@ pdfTeX warning (dest): name{chapter.I.chapter.1} has been referenced but does n
 ot exist, replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/fpl/fplbj8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/mathpazo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplr
-c8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmbo8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
-vr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis_model.pdf (49 pages, 10197471 bytes).
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/fpl/fplbj8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mathpa
+zo/fplmri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmbo8a.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ber
+a/fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis_model.pdf (51 pages, 10216524 bytes).
 PDF statistics:
- 2796 PDF objects out of 2984 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
+ 2823 PDF objects out of 2984 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
  2737 words of extra memory for PDF output out of 10000 (max. 10000000)
 

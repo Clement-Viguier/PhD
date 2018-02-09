@@ -144,18 +144,18 @@ Little to no difference in RSR is expected for \textit{non plastic} allocation r
 
 \begin{figure}\label{fig:comparison_RSR}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/RSR_full_sim_f-e.pdf}
-\caption[Comparison of simulated values of RSR with real species RSR]{ in two contrasting conditons. Because there is no plasticity or ontogeny, the simulated plant do not express any chagnes in RSR.\textit{Fixed-equilibrium}.}
+\caption{Comparison of simulated values of RSR with real species RSR in two contrasting conditons. Because there is no plasticity or ontogeny, the simulated plant do not express any chagnes in RSR.\textit{Fixed-equilibrium}.}
 \end{figure}
 
 \subsection{Discussion}
 
 \paragraph{Growth and strategy space}
 
-The relative low selection rates for all allocation rules highlight the complexity of fitting such complex model to empirical data, despite the relative simplicity of the data. This difficulty seems to lie in two factors: the high number of parameters and the lack of stable changes in RSR. This last point is further discussed in the following paragraphs. Nevertheless, plant growth is reproduced in two contrasting conditions for multiple species, and while plastic algorithms have a greater potential for growth (more high growth rate), this is not systematic and the absence of clear pattern for the most influencing parameters, such as maximum exchange rates and respiration rates, indicates that such high growth depends on a combination of parameter values. I believe that the shape of gain and cost functions along the functional trade-off between active and structural tissues plays a determining role in the growth. A trade-off function with a wider viable range is more likely to be selected as more strategies would grow (therefore reducing the relative sensitivity to species specific parameters). Considering the exponential shape of the turn-over function (one of the main cost with respiration), the width and height of the trade-off (or net gain function) is probably more strongly linked to the gain functions (exchange rates) and linear cost function (respiration), explaining little effect of parameters related to lifespan (already preselected otherwise). There is a strong dependency between viable strategies (and as a consequence functional potential diversity) and the main trade-off between resource  acquisition and efficiency.
+The relative low selection rates for all allocation rules highlight the complexity of fitting such complex model to empirical data, despite the relative simplicity of the data. This difficulty seems to lie in two factors: the high number of parameters and the lack of stable changes in RSR. This last point is further discussed in the following paragraphs. Nevertheless, plant growth is reproduced in two contrasting conditions for multiple species, and while plastic algorithms have a greater potential for growth (more high growth rate), this is not systematic and the absence of clear pattern for the most influencing parameters, such as maximum exchange rates and respiration rates, indicates that such high growth depends on a combination of parameter values. I believe that the shape of gain and cost functions along the functional trade-off between active and structural tissues plays a determining role in the growth. A trade-off function with a wider viable range is more likely to be selected as more strategies would grow (therefore reducing the relative sensitivity to species-specific parameters). Considering the exponential shape of the turn-over function (one of the main cost with respiration), the width and height of the trade-off (or net gain function) is probably more strongly linked to the gain functions (exchange rates) and linear cost function (respiration), explaining little effect of parameters related to lifespan (already preselected otherwise). There is a strong dependency between viable strategies (and as a consequence functional potential diversity) and the main trade-off between resource acquisition and efficiency.
 
-Filtering the parameter sets based on all species instead of individually would have been ideal to quantify this link and better calibrate the model. However, such approach would have required many more simulations, when the parameter filtering method was chosen for its low computational cost. Moreover, considering the number of species specific parameters, fitting the strategy subspace (at least default active tissue allocation parameters, memory of resources and stability) of 11 species to the data in combination with more than 20 models parameters is near impossible. Ones should have had first determined the relative positions of the species within the said strategy space before any global calibration routine. Nonetheless, species specific parameters have an influence on model main variables. Memory parameter affected the RSR in the context of \textit{non plastic} allocation rule (see figures \ref{fig:comparison_RSR} and \ref{ fig:importance}, while the default proportion of active tissues in roots was an influencing parameter in all algorithms (figure \ref{fig:importance}, \texttt{as\_r\_d}). Therefore, they should be analysed in further simulations within the same set of model parameters.
+Filtering the parameter sets based on all species instead of individually would have been ideal to quantify this link and better calibrate the model. However, such approach would have required many more simulations, when the parameter filtering method was chosen for its low computational cost. Moreover, considering the number of species-specific parameters, fitting the strategy subspace (at least default active tissue allocation parameters, the memory of resources and stability) of 11 species to the data in combination with more than 20 models parameters is near impossible. Ones should have had first determined the relative positions of the species within the said strategy space before any global calibration routine. Nonetheless, species-specific parameters have an influence on model main variables. Memory parameter affected the RSR in the context of \textit{non plastic} allocation rule (see figures \ref{fig:comparison_RSR} and \ref{ fig:importance}, while the default proportion of active tissues in roots was an influencing parameter in all algorithms (figure \ref{fig:importance}, \texttt{as\_r\_d}). Therefore, they should be analyzed in further simulations within the same set of model parameters.
 
-Change in modelling paradigm. Bayesian paradigm where the information is contained in data and revealed by the structure of the model. Go for simulation experiment approaches where the model is used as a simulation tool and results as new data. The emerging patterns inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Model as an understanding tool.\\
+Change in modelling paradigm. The Bayesian paradigm where the information is contained in data and revealed by the structure of the model. Go for simulation experiment approaches where the model is used as a simulation tool and results as new data. The emerging patterns inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Model as an understanding tool.\\
 
 
 \textbf{Growth is reproduced, but only for one species, not full strategy space.}
@@ -204,7 +204,7 @@ The challenge of the framework presented in paragraph \ref{subsection:memory} un
 %To further reduce the number of parameter sets considered, we proceeded in an additional filtering step. Because the first filtering was conduced for only one strategy over the whole 4D strategy space (l\_ini,  w\_ini, as\_s\_d, as\_r\_d) it is necessary to verify that other strategies do not lead to potential Darwinian demon. This should be limited by the choice of priors, while at the same time promoted by the selection of parameters increasing growth to counter balance potential unfitted strategies\footnote{Better do that beforehand than after... But I guess it's too late now.}.
 
 \paragraph{Allocation algorithms}
-The effect of allocation rule on phenotypic development is investigated thanks to pot simulations (see Methods in \ref{section:calibration}) of 100 days in 3 watering treatment: 2mm, 8m and 16mm per day. To avoid drift in the phenotype due to allocation algorithm (see paragraph \ref{subsection:memory} on phenotypic determination), simulations where run a first time, then rerun with default specific traits matching traits at the end of the first simulation set. All four algorithms are simulated.
+The effect of allocation rule on phenotypic development is investigated thanks to pot simulations (see Methods in \ref{section:calibration}) of 100 days in 3 watering treatment: 2mm, 8m and 16mm per day. To avoid drift in the phenotype due to allocation algorithm (see paragraph \ref{subsection:memory} on phenotypic determination), simulations where run a first time, then rerun with default specific traits matching traits at the end of the first simulation set. All four algorithms are simulated. To reduce the number of simulations 100 parameter sets are selected randomly within the accepted parameter sets for the \textit{non plastic algorithm}.
 
 \paragraph{Memory \& phenotype}
 Memory of external conditions plays a determining role in phenotypic development under \textit{plastic-optimisation} allocation rules. The effect of the memory alone (environmental cues ignored by setting \texttt{tau} to 1) on the default emerging phenotype is explored for diverse memories (9 values on the two axis from 0.1 to 1 later scaled to the maximum area exchange rates for model parameter set considered, or 81 values) for each accepted parameter set. The effect of the memory values on the final position of plants in the phenotypic space are visualised by fitting loess curves between memory values and individual trait values.
@@ -316,6 +316,9 @@ This first subsection focuses on the link between the phenotype and the plant pe
 
 \subsection{Method}
 
+\paragraph{Parameter sets}
+Because little differences are found between accepted parameter sets for the three main algorithms, parameter sets selected for the \textit{non plastic} algorithm are used for all algorithm. To reduce the number of simulations but have a measure of the genericity of the observed patterns, 20 parameter sets are selected among the accepted parameter sets for the \textit{non plastic} allocation algorithm. As mentioned in the previous section, the parameter sets have been selected for only one species-specific and therefore an additional step was used to filter out the parameter sets that could lead to high biomass values. For each parameter set, simulations of diverse phenotypes run for 100 days of 15 hours with favourable temperature conditions (20 \celsius) along resource availability gradient. The parameter sets are selected based on the maximum biomass of all simulated plants. One parameter set is randomly selected for each of the 20 brackets between 0 and 2 grams of total biomass.
+
 \paragraph{Strategy space sampling}
 To better understand what make a plant perform in the model, a multitude of phenotype needed to be tested. Tested phenotypes are distributed regularly along the three axis of the strategy space (proportion of active tissues in root, proportion of active tissues in shoot, proportion of roots) between extreme values (respectively (0.1, 0.99), (0.1, 0.99) and (0.1, 0.9)) for a total of 3375 combinations ($15^{3}$).  Because the RSR is defined by the memory, and in this set of simulation experiments the RSR is defined before, the species memory needs to be computed afterwards. There is an infinite number of couple of memory values that can match a given RSR. Also, the projection of conditions is sensitive to both memory and experienced conditions, therefore the choice of memory can affect the relative sensitivity of species to changes in external conditions and alter the model behaviour. Because the role of memory is not the focus here, and because there is much more focus on the role of the plasticity as a mechanism (as opposed as a strategy with various values of \texttt{tau}), the parameter \texttt{tau} is set to 0. This ensures that only the starting phenotype and the experienced conditions play a role in plant performance.
 
@@ -365,6 +368,8 @@ Biomass is relative to best performing non plastic plant (to remove the general 
 
 \paragraph{Phenotypic convergence}
 
+Shifts in optimum, is it because plasticity provide more efficient functioning supporting more exploitative strategies, or side result from convergence that do not contain the previous optimum ?
+
 Convergence, relative species diversity and functional diversity.
 
 
@@ -374,6 +379,8 @@ Convergence, relative species diversity and functional diversity.
 
 \paragraph{Components of performance}
 
+To understand how plasticity can play a role, it is important to understand what make a phenotype a good phenotype. In an other way it is important to understand what cost do a plant for being wrong.
+
 \textemph{equilibrium}, overall \textemph{speed} and overall \textemph{efficiency}.
 
 Better too fast than not fast enough.
@@ -382,6 +389,14 @@ Explain the memory stuff in previous section: low-low compared to low-high, the 
 
 
 \paragraph{Convergence to subspace}
+
+Phenotypic plasticity is often perceived with a species-centric perspective, that is to say, that plasticity is seen as variations in the species mean phenotype. However, in the context of community ecology, it is also interesting to try to see how it not only affect individual species but shape the community distribution in the strategy space. Plasticity relies on changes of default phenotypes toward "better" strategies in the context of the given conditions, therefore it implies that if it exists an optimum subspace (one strategy or an ensemble of strategies) species will converge toward this subspace, distorting the functional space. Environmental variations and plant interactions aside, in a constant environment the \textemph{performance landscape} is fixed. As a consequence the plasticity benefits to the plant in a static manner, that is to say, it is only a tool to reach a better phenotype where the plant stays in if conditions do not change. This can be related to spatial heterogeneity that would lead individuals from the same species to adopt different phenotype to acclimate to the particular conditions of their spatial situation. It is opposed to the perception of a more dynamic phenotypic plasticity as a tool for a given individual to cope with temporal variations in environmental conditions. These two aspects are further discussed in the following section, while the effects of the contraction of the phenotypic space are discussed now.
+
+As explained before, plasticity can be seen at the scale of the species assembly \sidenote{here I draw a distinction between species assembly that refers to all present species, and community that refers to the interacting individuals of the present species. However, some interpretations can be translated to communities.} as a contraction of the phenotypic space of the species assembly. This contraction has two main effects: the reduction of potential functional diversity and a reduction of growth rate differences. There is here an emerging trade-off between the species diversity, supported by lower fitness differences, and functional diversity, reduced by the contraction of the phenotypic space. However, if the plasticity reduces greatly the potential functional diversity (volume of the whole phenotypic space without considering filtering based on relative fitness), the realised diversity (expressed as the functional diversity of the species within the 90\%-100\% maximum biomass range) is much less impacted because a large part of the phenotypic space (explaining the large potential functional diversity) has low growth rate in the given conditions. Nevertheless, the reduction of the diversity of expressed phenotypes is greater than it could ideally be. Indeed, in this scenario of "extreme" plasticity ($\tau = 0$) the convergence is important on plastic dimensions where it is not needed to have a significant increase in fitness (see conceptual figure \ref{fig:convergence}). Lower convergence on plastic dimension should lead to less compact phenotypic subspace while keeping relative fitness evenness. In the case of \textit{fixed-equilibrium} and \textit{fixed-optimisation} plasticity mechanisms, this effect is reduced by the sensitivity of the growth rate to the unique plastic dimension (see figure \ref{fig:plane_projections}). ... About \textit{plastic-optimisation} convergence...
+
+Cost and distance, sensitivity to environmental cues as solutions to this problem. 
+
+Because of high convergence of \textit{plastic-optimisation}, no improvment of maximum biomass, but the \textit{fixed} alternative thanks to convergence limited to one phenotypic dimension (RMF) higher biomass: either higher resolution, or improvement due to \textemph{dynamic plasticity}. The role of dynamic plasticity benefit is explore in temporal variation simulations in the following section.
 
 \textemph{Convergence}
 
@@ -402,9 +417,14 @@ The contrasting responses of the different algorithms highlight the importance o
 \paragraph{Resource availability}
 
 results from this part\\
+As expected the resource availability and the resource balance are key components of the plant growth, to which the plant phenotype needs to match. Aside from the increase in biomass, an increase in "speed" of optimum phenotypes can result from higher resource availability. This observation is in agreement with empirical data that demonstrate higher SLA and faster physiology in favourable conditions. This aspect was less obvious in the response of species under \textit{plastic-optimisation} allocation that shifted more in term of balance and RMF. This may be due to a change in the relative balance between both resources as their availability (from the plant perspective) are linked to the global resource levels by non linear relationships.
+
+The fact that plastic plants (for \textit{fixed} allocation algorithms) show shifts of optimum strategies toward more exploitative phenotypes, in addition to the \textit{non plastic} optimum shifts, in conditions of higher productivity demonstrate the importance of these strategies for plant growth. However, the extend of this effect of conditions on optimum phenotype is succeptible to vary along a gradient. Indeed, because of the non linearity of relationships between resource levels and exchanges rates, and between exchange rates and growth rates, the link between the optimum phenotype and a resource gradient is likely to be non linear itself. In addition, phenotypic plasticity might also change the sensitivity of the phenotype to the resource level.
+
 Why we need to go for a gradient.
 
 \paragraph{Greater level discussion}
+? about what ? Community dynamics ? pp impact of these dynamics ? coexistence of species
 
 
 \textbf{Subsection conclusion: bla bla bla}
@@ -419,13 +439,20 @@ The heterogeneity of conditions is an essential mechanism for plant coexistence.
 
 Because little coordination, and importance of below-ground resource acquisition (in the results, and in the context) and computational cost - only root strategies.
 
+\paragraph{Simulation set-up}
+For each of the 20 selected parameter sets, growth of 400 plants (20 PAR values between 0.25 and 0.95, and 20 memory values between 0.1 and 1) is simulated for 100 days in square pots of 12 centimetres deep and 90 centimetres wide (to avoid quick self-competition) in a temperature of 20 degrees celsius during the day of 15 hours, and 10 degrees during the night. Irradiance is set to the high values of 122 Watt per hour and per square metre. 
+
 \paragraph{Spatial heterogeneity}
+Spatial heterogeneity of water level is mimicked by a gradient of water influx. The growth of all 400 species described above are simulated for \textit{non plastic} and \textit{fixed-equilibrium} algorithm independently in separated simulations where the water influx is regularly sampled between 0.05 and 7 mm per day (20 values).
 
 \paragraph{Temporal heterogeneity}
+Similar set-up is used for temporal heterogeneity simulations. Because the range of water influx used in the previosus simulation is too wide, a lower value is chosen as the mean water influx. This value of 1.3mm per day corresponds to a point around which there is vairations in the optimum strategies for most parameter sets. It is also relatively close to average rainfalls in the Alps during summer. 
 
 \subsection{Results}
 
 \paragraph{Optimum strategy}
+
+\paragraph{Survival}
 
 \paragraph{Diversity}
 
