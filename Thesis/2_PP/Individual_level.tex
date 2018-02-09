@@ -333,6 +333,12 @@ To visualise the performance landscape (plant performance relative to biggest pl
 \subsection{Results}
 
 \paragraph{Performance landscape}
+
+\begin{figure}\label{fig:gravity_shift_resource}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/ld_performance_PAR-PAS.pdf}
+\caption{Projection of best phenotypes (varying RMF) on the 2D PAR-PAS plane for each parameter set. Points identify the optimums. \textit{Non plastic}.}
+\end{figure}
+
  On the tissue allocation plan (proportion of active tissues in leaves and roots), the best performing phenotypes present a bean shape. This shape suggest that relative importance of organ efficiency is lower than other criterion such as equilibrium and overall performance (see section \ref{chapter:modelling_PP} paragraph \ref{subsection:match} for the discussion on the components of plant performance). On this plane, the lowest values of plant biomass are characterised by low values of active tissue allocation. 
  
 Phenotypes with high active tissue allocation values tend to have lower growth values than phenotypes with similar values for one of the organ and lower value for the other organ. 
@@ -345,10 +351,15 @@ Higher resource: contraction of the landscape, toward faster species. Moving opt
 
 \paragraph{Optimum shifting}
 
-Shift due to plasticity (toward higher RSR) -> timing only ?
+\begin{figure}\label{fig:gravity_shift_resource}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf}
+\caption{Shift on the 2D phenotypic space of the center of gravity as function of resource availability. The center of gravity is defined as the average phenotype weihted by the relative biomass, and characterises the performance landscape. \textit{Non plastic}.}
+\end{figure}
+
+Shift due to plasticity (toward $Proot = 0.5$ in both conditions) -- timing only ?
 + shift (not fully significant in high resource availability) toward more exploit shoot and less exploit root. What does that mean ? higher tissue efficiency authorized by less limiting water ?
 
-Where is the optimum ?  what makes an optimum ? Why is it important ? -> beter understand how plasticity works and can improve plant performance.
+Where is the optimum ?  what makes an optimum ? Why is it important ? -- beter understand how plasticity works and can improve plant performance.
 
 What are the sensitive dimensions ? and why ? 
 
@@ -359,18 +370,23 @@ Moving optimum 2D: why ?
 What is the plastic-optimisation doing ? Wrong phenotype ? Wrong projection ? Wrong strategy or wrong RMF ? 
 
 
-\begin{figure}\label{fig:w_ini_p_as_r}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_BM_allocation.pdf}
-\caption{Effect of plasticity and resource availability on average biomass of living species.}
-\end{figure}
-
 Biomass is relative to best performing non plastic plant (to remove the general parameter set effect on growth) and compare (within each condition) the effect of allocation algorithm. Plasticity lead to an increase of average relative biomass, especially full plasticity. However, few values above 1, in fixed conditions there is real additional value of plasticity compare to fixed allocation.\\
 
 \paragraph{Phenotypic convergence}
 
+\begin{figure}\label{fig:mean_BM_pl}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_BM_allocation.pdf}
+\caption{Mean relative biomass as function of allocation algorithm and resource level.}
+\end{figure}
+
 Shifts in optimum, is it because plasticity provide more efficient functioning supporting more exploitative strategies, or side result from convergence that do not contain the previous optimum ?
 
 Convergence, relative species diversity and functional diversity.
+
+\begin{figure}\label{fig:function_div}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_fdiv.pdf}
+\caption{Functional diversity as function of allocation algorithm and resource level.}
+\end{figure}
 
 
 
@@ -452,9 +468,20 @@ Similar set-up is used for temporal heterogeneity simulations. Because the range
 
 \paragraph{Optimum strategy}
 
+\begin{figure}\label{fig:gradient_ranking}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/optimum_shifting_median.pdf}
+\caption{Median relative performance of best phenotypes along a precipitation gradient for 20 parameter sets.}
+\end{figure}
+
+\begin{figure}\label{fig:variable_trajectories}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_2D_strat_dyn.pdf}
+\caption{Best phenotypes along watering variability gradient}
+\end{figure}
+
 \paragraph{Survival}
 
 \paragraph{Diversity}
+
 
 
 \subsection{Discussion}
