@@ -1,30 +1,30 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis_model.blg'
-[29] biber-MSWIN64:303> INFO - === 
-[51] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
+[28] biber-MSWIN64:303> INFO - === 
+[50] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 1
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 2
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 3
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[133] Biber.pm:835> INFO - Found 9 citekeys in bib section 4
+[133] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[134] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
 [134] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[134] Biber.pm:835> INFO - Found 0 citekeys in bib section 1
+[134] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
 [134] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[134] Biber.pm:835> INFO - Found 0 citekeys in bib section 2
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 3
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[135] Biber.pm:835> INFO - Found 6 citekeys in bib section 4
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
-[135] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[185] Biber.pm:3670> INFO - Processing section 4
-[204] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 4
-[395] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[650] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
-[760] Utils.pm:164> WARN - I didn't find a database entry for 'hartig' (section 4)
-[760] Utils.pm:164> WARN - I didn't find a database entry for 'need ref' (section 4)
-[771] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[771] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[771] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[771] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[775] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
-[777] bbl.pm:712> INFO - Output to thesis_model.bbl
-[777] Biber.pm:109> INFO - WARNINGS: 2
+[184] Biber.pm:3670> INFO - Processing section 4
+[202] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 4
+[353] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[608] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
+[724] Utils.pm:164> WARN - I didn't find a database entry for 'hartig' (section 4)
+[724] Utils.pm:164> WARN - I didn't find a database entry for 'need ref' (section 4)
+[736] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[737] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[737] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[737] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[742] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
+[746] bbl.pm:712> INFO - Output to thesis_model.bbl
+[746] Biber.pm:109> INFO - WARNINGS: 2
