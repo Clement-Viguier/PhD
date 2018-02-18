@@ -398,9 +398,151 @@
       \endverb
       \keyw{light,Carbon,ecophysiology,strategy,Leaf,phylogeny,nutrient,root,stem,water}
     \endentry
+    \entry{dewitt_costs_1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
+           family={DeWitt},
+           familyi={D\bibinitperiod},
+           given={Thomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7477fdcd044f160807357c75f72efc48}{%
+           family={Sih},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=be49cf2b85c58dfeb96ffd2ec9dcc574}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima Sloan},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{fullhash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authornamehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authorfullhash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \field{labelalpha}{DSW98}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The costs and limits of phenotypic plasticity are thought to have important ecological and evolutionary consequences, yet they are not as well understood as the benefits of plasticity. At least nine ideas exist regarding how plasticity may be costly or limited, but these have rarely been discussed together. The most commonly discussed cost is that of maintaining the sensory and regulatory machinery needed for plasticity, which may require energy and material expenses. A frequently considered limit to the benefit of plasticity is that the environmental cues guiding plastic development can be unreliable. Such costs and limits have recently been included in theoretical models and, perhaps more importantly, relevant empirical studies now have emerged. Despite the current interest in costs and limits of plasticity, several lines of reasoning suggest that they might be difficult to demonstrate.}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Costs and limits of phenotypic plasticity}
+      \field{urlday}{6}
+      \field{urlmonth}{1}
+      \field{urlyear}{2015}
+      \field{volume}{13}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{77\bibrangedash 81}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/S0169-5347(97)01274-3
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/3MA4G982/DeWitt et al. - 1998 - Costs and limits of phenotypic plasticity.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/G7S7SGC6/S0169534797012743.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169534797012743
+      \endverb
+      \keyw{adaptation,constraints,costs,genotype-by-environment interactions,phenotype plasticity}
+    \endentry
+    \entry{van_kleunen_constraints_2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=efedc5db13eea332e51f0699261972d2}{%
+           family={Van\bibnamedelima Kleunen},
+           familyi={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fffddacc9de8cb6a519b6ce51ebdcd7e}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4228cb198550b3d99625fac74e04db4e}
+      \strng{fullhash}{4228cb198550b3d99625fac74e04db4e}
+      \strng{authornamehash}{4228cb198550b3d99625fac74e04db4e}
+      \strng{authorfullhash}{4228cb198550b3d99625fac74e04db4e}
+      \field{labelalpha}{VF05}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The high potential fitness benefit of phenotypic plasticity tempts us to expect phenotypic plasticity as a frequent adaptation to environmental heterogeneity. Examples of proven adaptive plasticity in plants, however, are scarce and most plastic responses actually may be ‘passive’ rather than adaptive. This suggests that frequently requirements for the evolution of adaptive plasticity are not met or that such evolution is impeded by constraints. Here we outline requirements and potential constraints for the evolution of adaptive phenotypic plasticity, identify open questions, and propose new research approaches. Important open questions concern the genetic background of plasticity, genetic variation in plasticity, selection for plasticity in natural habitats, and the nature and occurrence of costs and limits of plasticity. Especially promising tools to address these questions are selection gradient analysis, meta-analysis of studies on genotype-by-environment interactions, QTL analysis, cDNA-microarray scanning and quantitative PCR to quantify gene expression, and two-dimensional gel electrophoresis to quantify protein expression. Studying plasticity along the pathway from gene expression to the phenotype and its relationship with fitness will help us to better understand why adaptive plasticity is not more universal, and to more realistically predict the evolution of plastic responses to environmental change.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytologist}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{Constraints on the evolution of adaptive phenotypic plasticity in plants}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{166}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{49\bibrangedash 60}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.1469-8137.2004.01296.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/KWS8Q2A7/Van Kleunen et Fischer - 2005 - Constraints on the evolution of adaptive phenotypi.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/CGMNII3T/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2004.01296.x/abstract
+      \endverb
+      \keyw{cost of plasticity,G × E interactions,genetic variation in plasticity,induced resistance,plasticity genes,shade avoidance}
+    \endentry
+    \entry{forsman_rethinking_2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0f4572dfabd62293f447606c56196545}{%
+           family={Forsman},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0f4572dfabd62293f447606c56196545}
+      \strng{fullhash}{0f4572dfabd62293f447606c56196545}
+      \strng{authornamehash}{0f4572dfabd62293f447606c56196545}
+      \strng{authorfullhash}{0f4572dfabd62293f447606c56196545}
+      \field{labelalpha}{For14}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Much research has been devoted to identify the conditions under which selection favours flexible individuals or genotypes that are able to modify their growth, development and behaviour in response to environmental cues, to unravel the mechanisms of plasticity and to explore its influence on patterns of diversity among individuals, populations and species. The consequences of developmental plasticity and phenotypic flexibility for the performance and ecological success of populations and species have attracted a comparatively limited but currently growing interest. Here, I re-emphasize that an increased understanding of the roles of plasticity in these contexts requires a ‘whole organism’ (rather than ‘single trait’) approach, taking into consideration that organisms are integrated complex phenotypes. I further argue that plasticity and genetic polymorphism should be analysed and discussed within a common framework. I summarize predictions from theory on how phenotypic variation stemming from developmental plasticity and phenotypic flexibility may affect different aspects of population-level performance. I argue that it is important to distinguish between effects associated with greater interindividual phenotypic variation resulting from plasticity, and effects mediated by variation among individuals in the capacity to express plasticity and flexibility as such. Finally, I claim that rigorous testing of predictions requires methods that allow for quantifying and comparing whole organism plasticity, as well as the ability to experimentally manipulate the level of and capacity for developmental plasticity and phenotypic flexibility independent of genetic variation.}
+      \field{issn}{0018-067X}
+      \field{journaltitle}{Heredity}
+      \field{month}{10}
+      \field{title}{Rethinking phenotypic plasticity and its consequences for individuals, populations and species}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/hdy.2014.92
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/T5ZDAMKH/Forsman - 2014 - Rethinking phenotypic plasticity and its consequen.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/EQ974RU8/hdy201492a.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/hdy/journal/vaop/ncurrent/full/hdy201492a.html
+      \endverb
+    \endentry
   \endsortlist
-  \missing{hartig}
   \missing{need ref}
+  \missing{hartig}
 \endrefsection
 \endinput
 
