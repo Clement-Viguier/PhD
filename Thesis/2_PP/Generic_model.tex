@@ -115,7 +115,7 @@ Composite traits are defined by the interaction of different, independent, drivi
 \subsection{Concept of active plasticity as a strategy}
 \paragraph{Decomposition of plastic response}
 The active plastic response is highly integrated and involve a lot of regulatory processes. It is impossible to represent all regulatory processes involved in an APR (because of our lack of knowledge and their complexity). Alternatively, the concept of \textit{integrated response} can be conceptualised. It supposes link, or coordination, between the experienced conditions and the phenotypic response. This can be translated, in the model framework, by the existence of an explicit link between a representation of external conditions and a phenotype matching this conditions: the \textemph{allocation rule}\sidenote{the use of the word \textit{allocation} is justified here since the phenotypic plasticity in \model is reduced to changes in allocation.}. Another key work is \textit{anticipatory}. It supposes that the plant knows, or at least have an idea of the future conditions. This is really the point of an active plastic response: change the phenotype to better match future conditions. A representation of future is also called a \textemph{projection}. The projection and the allocation rule together form the active plastic response.\\
-If allocation rule is not obvious and is discussed latter\sidenote{see paragraph \ref{section:allocation-rule}}, the idea of projection is fairly intuitive. The projection will correspond to a value for a given metric that represents the external conditions. It can be resource availability level, temperature, herbivory risk, etc... If such metrics can be given at the community scale, it makes sense to use a plant-centered measure of these variables for two reasons: (1) take into account the spatial heterogeneity, (2) plant experience of conditions is necessarily egocentric. The details on how experienced conditions are interpreted by plants in \model are described in section \ref{chapter:model-description}.
+If allocation rule is not obvious and is discussed latter(see paragraph \ref{section:allocation-rule}), the idea of projection is fairly intuitive. The projection will correspond to a value for a given metric that represents the external conditions. It can be resource availability level, temperature, herbivory risk, etc... If such metrics can be given at the community scale, it makes sense to use a plant-centered measure of these variables for two reasons: (1) take into account the spatial heterogeneity, (2) plant experience of conditions is necessarily egocentric. The details on how experienced conditions are interpreted by plants in \model are described in section \ref{chapter:model-description}.
 
 \paragraph{Control of plasticity}
 Active plasticity is now represented by a projection and allocation rule. However, how a species can control the whole process is unclear. In theory, both projection and allocation rule can species specific. In nature plants generally have structurally similar regulatory processes\sidenote{see box \ref{box:molecular-basis}.} and response to external stimuli is translated (and stored temporarily) thanks to the accumulation of chemical compounds\cite{need-references}. These mechanisms suggest that, while the allocation rules are mainly shared, individuals vary on the information level (i.e. the concentration of phytohormones), or in the context of the model: plant vary in projection. This control of active plasticity is supported by the model design. The number of rules that can drive the allocation is reduced and discrete, while the projection is multi-dimensional (one dimension per external variable considered), continuous and highly flexible with a reduced number of parameters\sidenote{details in paragraph \textit{estimation of conditions} in section \ref{chapter:model-description}.}.
@@ -138,36 +138,9 @@ The calculation of projected resource availability levels, or temperatures, are 
 
 % The species-specific memory of external condition has been described\sidenote{paragraph \ref{subsection:memory}} as a way to match certain traits (mainly root:shoot ratio) with external conditions. The memory is a metric of resource availability that is used to partly (potentially entirely) determine the phenotype of plants.
 
-\paragraph{The paradox of plasticity}
-
-While the representation of plasticity as a strategy increases both model species diversity and potential diversity of response \cite{ ryser_consequences_2000, kichenin_contrasting_2013}, plasticity itself may reduce plasticity. Indeed, plasticity lead to a change in phenotype in response to condition changes, while this phenotypic change is unlikely to be identical, its direction will probably be similar. Few mechanisms can prevent convergence of phenotype besides the diversity in memory and plasticity: (1) changes in competitive hierarchy may lead to differences in individual experience of conditions, (2) specificity of the external driver, e.g. selective herbivory of more digest species, (3) relative position of the optimum phenotype.\\
-
-
-
-Or can a plant be plastic and unique? The paradox of plasticity and diversity.\\
-Plastic will necessarily reduce the space (as there is convergence, unless different strategies of adaptation).\\
-
- Because the plasticity is a strategy and not a default behaviour, its effects on individual performance have to be tested. But it also opens a lot of interesting questions about the costs and benefits of plasticity, and the co-selection with the resource use strategy.\\
-Moreover, this particular implementation of plasticity limits risks of convergence while allowing plants to evolve in the strategy space defined earlier.
-
-\subsection{On the difficulty to match strategy and conditions.}\label{subsection:match}
-
-\paragraph{Efficiency and performance}
-
-Complexity between organ, overall efficiency, and equilibrium. Try to formalise each function and show the link between these elements.
-
-\paragraph{Is performance fitness?}
-
-The multi-dimensionality of fitness.
-
- 
- 
-%Take home message ####################################
-\textbf{The projection of external conditions, driving the plastic allocation of organic matter, lies on a balance between species memory and individual experience. Its design makes of plasticity an axis of strategic differentiation alongside the other strategy axis. Thanks to this innovative design, the model can be used to examine the ecological relevance of plasticity in different conditions and in association with different strategies. The effect of allocation rules and projection stability can be explored independently or conjointly for a better understanding of relative importance of allocation and plasticity.}
-% It is possible to explore independently or conjointly the effect of allocation rules and projection stability on individual and community dynamics.
-
 
 \section{Driving rules of allocation}\label{section:allocation-rule}
+
 
 Allocation rules are determinant in the model behaviour as it is shared by all species, and link the projection of conditions with the phenotype. Multiple options are possible to drive plasticity, but they can be divided into two main categories: (1) determining, (2) directive. Function from the first category fully determine the phenotype (within the plastic strategy space), while functions from the latter group direct the phenotype toward a sub-space and other parameters are needed to determine the exact new phenotype.\\
 The two type of rules have different strengths and weaknesses that are detailed in table \ref{table:allocation-rule}
@@ -189,9 +162,56 @@ Strong plasticity effect & \textcolor{myGreen}{$\bullet$} & $\circ$
 \vspace*{0.5cm}
 \end{table}
 
+
+One of the assumption made by the conception of plasticity developed in this document is the existence of a tight relationship between experienced condition and fitness, and a subsidiary assumption in the implementation of this plasticity is that this function can be captured, or modelled, by the same functions that drive plant growth. In other words, simulating individual growth, using the estimated/projected conditions as parameters, day by day, is enough to capture the link between environmental conditions (experienced by the focal plant) and plant growth\sidenote{that takes here the value of fitness proxy}.
+
+
+... How these rules fit into that ?
+
 %Take home message ####################################
 \textbf{
 The driving rule of plasticity defines whether or not the choice of the phenotype is fully determined by the projection of external conditions or also constrained by some species-specific parameters. The effect of this balance between projection and parameters has a large influence on the model behaviour. In any case, the projection is the main control on individual plastic response to change in conditions, offering possibilities to modulate individual plasticity despite an allocation rule shared by all species. The role of both projection and allocation rule will of particular interest during the analysis of the impact of phenotypic plasticity of plant growth and community dynamics.}
+
+\paragraph{The paradox of plasticity}
+
+While the representation of plasticity as a strategy increases both model potential species diversity and potential diversity of response \cite{ ryser_consequences_2000, kichenin_contrasting_2013}, plasticity itself may reduce diversity. Indeed, plasticity lead to changes in phenotype in response to condition changes, while these phenotypic changes are unlikely to be identical for all individuals, their general convergence points will probably be similar. Plasticity is a mechanism that is likely to contract the space of expressed values for plastic traits. Therefore, it is hard to analysed the effect of plasticity on functional diversity without disentangling the direct effect on the expressed trait values, and the indirect effect by changes in performance and interactions. Nonetheless, some external mechanisms \sidenote{impact the drivers of plastic response, not the response itself} can prevent convergence of phenotype: (1) changes in competitive hierarchy may lead to differences in individual experience of conditions, (2) specificity of the external driver, e.g. selective herbivory of more digest species, (3) relative position of the optimum phenotype. \\
+Asides from these external mechanisms, there are internal controls of active plastic response: the projection and the plastic allocation mechanisms. It is easy to imagine numerous projections and allocation mechanisms, however, they are susceptible of emerging only if they have a positive impact on fitness overall. Considering the diversity of plastic response is a research question in itself, and I will not try to answer it in this document. Nevertheless, the progress in the understanding of the effect of plasticity on performance and potential diversity this work provide will certainly help further work in that direction. In this context, the use of species-specific control over the projection of conditions is already a step forward and prevent total convergence \sidenote{in addition to directive allocation mechanisms, see below subsection \ref{section:allocation-rule}}. Indeed, without considering multiple allocation algorithm within a same community, having the plasticity as a strategy \cite{bradshaw_unravelling_2006} (controlled by a species-specific trait, as opposed to many existing individual-based-models) allows interesting questions to be addressed. The questions of cost of plasticity is central in the understanding of this mechanisms \cite{dewitt_costs_1998, auld_re-evaluating_2009}, and could lead to mechanisms of co-selection between resource use or reproductive strategies with plasticity strategies. A first step in this direction consists in looking at how plasticity can have different impacts on performance of species with different strategies (conservative versus exploitative).
+
+
+
+%Or can a plant be plastic and unique? The paradox of plasticity and diversity.\\
+%Plastic will necessarily reduce the space (as there is convergence, unless different strategies of adaptation).\\
+
+ %Because the plasticity is a strategy and not a default behaviour, its effects on individual performance have to be tested. But it also opens a lot of interesting questions about the costs and benefits of plasticity, and the co-selection with the resource use strategy.\\
+%Moreover, this particular implementation of plasticity limits risks of convergence while allowing plants to evolve in the strategy space defined earlier.
+
+\subsection{On the difficulty to match strategy and conditions.}\label{subsection:match}
+
+\paragraph{Why match phenotype to memory}
+
+As mentioned, the framework of plasticity developed in this document relies on a strong link between condition estimation and the phenotype, that is supported by the assumption that similar link exist between condition experienced by the focal plant and its fitness.   If this assumption is correct, then the initial phenotype (or default phenotype) should match the optimum phenotype defined by this link expressed by the allocation rules and the species-specific memory of conditions. One main difficult emerges here: because the processes involved in plant growth are numerous and complex, it is not possible to determine analytically what phenotype is the best (considering the memory of conditions). This point is discussed in the following paragraph as the understanding of the component of plant performance is a first step to understand the model's behaviour and plasticity mechanisms. Ones could compute the convergence phenotype for a given memory of external conditions for each possible memory combinations, and map the phenotype to the memory.
+This solution is a good alternative to analytical solution when the later is not possible, but it comes with the disadvantage of very high computational cost that is prohibitive for calibration procedures.
+When a model is only directive, the 
+
+Here lies a difficulty, indeed, the design of the model favours modularity and different allocation algorithms do not share the same constraints.
+2 things here:
+- why having default traits even if they do not match the optimum defined by the allocation rule.
+- the difficulty to determine an optimum phenotype with analytics.
+
+\paragraph{Efficiency and performance}
+Complexity between organ, overall efficiency, and equilibrium. Try to formalise each function and show the link between these elements.
+
+\paragraph{Is performance fitness?}
+
+The multi-dimensionality of fitness.\\
+
+Fitness and competition: where niche theory and coexistence theory coexist \cite{letten_linking_2017}
+
+ 
+ 
+%Take home message ####################################
+\textbf{The projection of external conditions, driving the plastic allocation of organic matter, lies on a balance between species memory and individual experience. Its design makes of plasticity an axis of strategic differentiation alongside the other strategy axis. Thanks to this innovative design, the model can be used to examine the ecological relevance of plasticity in different conditions and in association with different strategies. The effect of allocation rules and projection stability can be explored independently or conjointly for a better understanding of relative importance of allocation and plasticity.}
+% It is possible to explore independently or conjointly the effect of allocation rules and projection stability on individual and community dynamics.
 
 
 

@@ -20,6 +20,9 @@
 % The following package makes prettier tables.  We're all about the bling!
 \usepackage{booktabs}
 
+% Make glossary
+\usepackage[nonumberlist,toc,nopostdot,style=tree]{glossaries}
+
 \usepackage{lipsum}
 \usepackage{hyperref}
 
@@ -57,7 +60,7 @@
 
 
  \addbibresource{../Bibliography/bib_zotero20171106.bib}
-\includeonly{./2_PP/Individual_level}
+\includeonly{./2_PP/Generic_model,./2_PP/Individual_level}
 
 %\include{./0_Objectives/Objectives}
 %\include{./1_Introduction/Introduction}
@@ -204,6 +207,12 @@
 \input{../latex_settings/graph_settings}
 
 \input{../Model_description/parameters}
+
+% Glossary entries:
+\input{glossary}
+\makeglossaries
+\glsaddall 
+
 % Titles settings
 %\input{../latex_settings/titles_settings}
 
@@ -327,8 +336,10 @@ To answer both the need for a dynamic model of species rich communities and the 
 \end{fullwidth}
 \end{refsection}
 
-
+\begin{fullwidth}
+\printglossary[type=\acronymtype, nonumberlist]
 \printindex
+\end{fullwidth}
 %%
 %\part{Extend mountgrass}
 %
