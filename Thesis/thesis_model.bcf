@@ -2134,6 +2134,19 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
+    <bcf:citekey order="1">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="2">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="3">siefert_global_2015</bcf:citekey>
+    <bcf:citekey order="4">albert_importance_2012</bcf:citekey>
+    <bcf:citekey order="5">violle_return_2012</bcf:citekey>
+    <bcf:citekey order="6">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="7">courbaud_intra-specific_2010</bcf:citekey>
+    <bcf:citekey order="8">turcotte_phenotypic_2016</bcf:citekey>
+    <bcf:citekey order="9">roscher_contrasting_2015</bcf:citekey>
+    <bcf:citekey order="10">valladares_species_2015</bcf:citekey>
+    <bcf:citekey order="11">barabas_effect_2016</bcf:citekey>
+    <bcf:citekey order="12">jung_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="13">hart_how_2016</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2239,7 +2252,7 @@
     <bcf:citekey order="5">reich_world-wide_2014</bcf:citekey>
     <bcf:citekey order="6">dewitt_costs_1998</bcf:citekey>
     <bcf:citekey order="6">van_kleunen_constraints_2005</bcf:citekey>
-    <bcf:citekey order="7">forsman_rethinking_2014</bcf:citekey>
+    <bcf:citekey order="8">forsman_rethinking_2014</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2258,6 +2271,8 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
+    <bcf:citekey order="1">farrior_resource_2011</bcf:citekey>
+    <bcf:citekey order="1">dybzinski_evolutionarily_2011</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

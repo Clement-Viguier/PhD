@@ -18,16 +18,23 @@
 \section{Parameter filtering}
 \subsection{Method}
 
-\paragraph{Parameter filtering}
-New random parameters sets (with no species specific parameters) for population dynamics and competition specific parameters (see table ...). Shared parameters previously selected were used.
-Sequence of around 300 year for each site. Parameters were selected by...
-
-
-\paragraph{Field data}
-Field data has been collected between years 201 .. and 201 by Claire Deleglise and al. ().
+%\paragraph{Field data}
+%Field data has been collected between years 201 .. and 201 by Claire Deleglise and al. (). Not used here.
 
 \paragraph{Weather data}
-Weather data has be computed by the MeteoFrance model SAFRAN by ... using GPS coordinates and slope, azimuth and horizon computed from a "MNT". These parameters were also used by the model CROCUS to compute snow accumulation and melting. These high frequency data (resolution under 1h) have been average daily and used to compute input variables for \model.
+Weather data for the time period between 1959 and 2014 has be computed by the MeteoFrance model SAFRAN by ... using GPS coordinates, slope, azimuth and horizon computed from a digital elevation model. These parameters were also used by the model CROCUS to compute snow accumulation and snow melting. These high frequency data (resolution under 1h) have been averaged on a daily time-step and used to compute input variables for \model. The snow in particular defines the length of the growing season starting with the first snow melt of the year and finishing the day of the first snow fall of autumn or winter.
+
+The simulated years above 2014 are randomly sampled form the existing dataset between 1995 and 2014.
+
+\paragraph{Parameter filtering}
+Community level parameter filtering is conduced for a new table of parameter sets. These parameter sets are ... from accepted parameters and joined with LHS random sampling for five community level parameters: seed germination density, drought mortality, ageing mortality, plasticity cost for environmental sensing and plasticity cost for trait changes (see chapter \ref{chapter:model-description} for details).
+
+Few words on why plasticity cost parameters: time limits, distinguish the benefit of plasticity itself, not combined effect. Should have done simulations with no cost to have an idea of plasticity cost effect. 
+
+The simulations run over 300 hundreds years for 6 sites described in table \ref{table:sites} on squares of ... square centimetres. The simulation is stopped and the parameter set rejected if no individual persist and the seedbank is empty. The seedrain is composed of seeds contained in the seedbank and seeds from the metacommunity. The total of seeds is defined by the seed germination density and the area simulated. The seeds from the simulated community represent up to 80 \% of the seedrain, less if the seed production is limiting. The first ... years are not taken into account in the filtering process to let the community settle.
+
+
+\paragraph{Simulations}
 
 \subsection{Results}
 
@@ -54,7 +61,16 @@ Effects on productivity and coexistence. Difference in the correlation ?
 Effect of tau on persistence.
 
 \section{Plasticity and diversity}
+
+Now 
+
 \subsection{Method}
+
+\paragraph{Simulations}
+To test the effect of plasticity on coexistence and community dynamics, runs from the parameter filtering are used as starting points to limit the simulation time of the stabilisation phase. For each parameter set tested, 6 different sites were tested during the calibration phases, 77 parameter sets were accepted, resulting in 462 communities. Each of those is the starting point of three parallel runs that differ only by the allocation algorithm used: \textit{non plastic}, \textit{fixed-equilibrium} and \textit{plastic-optimisation}. The \textit{fixed-equilibrium} is favoured to \textit{fixed-optimisation} algorithm because previous part of the document focused on this algorithm and because it is simpler to analyse. The \textit{plastic-optimisation} algorithm is still simulated, despite the relatively poor performance results observed in constant conditions and the high convergence, because the introduction of plasticity cost, continuous species specific plasticity ($0 < \tau < 1$), and temporal and spatial heterogeneity should mitigate the negative sides of this allocation mechanism and give information of processes at stake.
+
+
+
 
 \subsection{Results}
 

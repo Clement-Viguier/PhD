@@ -42,7 +42,7 @@
 \defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {1.1}The question of coexistence}{7}{section.II.section.1.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {1.2}Abiotic and biotic factors: from potential to realised niche}{7}{section.II.section.1.2}
+\contentsline {section}{\numberline {1.2}Abiotic and biotic factors: from potential to realised niche}{8}{section.II.section.1.2}
 \defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {1.3}The complexity of community dynamics}{8}{section.II.section.1.3}
 \defcounter {refsection}{2}\relax 
@@ -52,15 +52,23 @@
 \defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {2.2}How trade-offs make strategy space}{8}{section.II.section.2.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {2.3}Modelling diverse plant community}{8}{section.II.section.2.3}
+\contentsline {section}{\numberline {2.3}Modelling diverse plant community}{9}{section.II.section.2.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {3}The importance of intra-specific variability}{8}{chapter.II.chapter.3}
+\contentsline {chapter}{\numberline {3}The importance of intra-specific variability}{9}{chapter.II.chapter.3}
 \defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {3.1}Intra-specific variability change the rules}{9}{section.II.section.3.1}
 \defcounter {refsection}{2}\relax 
+\contentsline {paragraph}{Rising interest...}{9}{paragraph*.5}
+\defcounter {refsection}{2}\relax 
+\contentsline {paragraph}{...and contrasting effects}{9}{paragraph*.6}
+\defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {3.2}Phenotypic plasticity: a specific case of intra-specific variability}{9}{section.II.section.3.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.3}Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}{9}{section.II.section.3.3}
+\contentsline {section}{\numberline {3.3}Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}{10}{section.II.section.3.3}
+\defcounter {refsection}{2}\relax 
+\contentsline {paragraph}{Why}{10}{paragraph*.7}
+\defcounter {refsection}{2}\relax 
+\contentsline {paragraph}{Consequences}{10}{paragraph*.8}
 \defcounter {refsection}{2}\relax 
 \contentsline {section}{\numberline {3.4}Toward an integrative framework of plant strategy and phenotypic plasticity}{10}{section.II.section.3.4}
 \defcounter {refsection}{0}\relax 
@@ -70,21 +78,21 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {1.1}The scales of alpine grasslands}{15}{section.III.section.1.1}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{The scale}{15}{paragraph*.3}
+\contentsline {paragraph}{The scale}{15}{paragraph*.10}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{The resolution}{15}{paragraph*.4}
+\contentsline {paragraph}{The resolution}{15}{paragraph*.11}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Complexity and performance}{16}{paragraph*.5}
+\contentsline {paragraph}{Complexity and performance}{16}{paragraph*.12}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {1.2}Resources: light and water}{16}{section.III.section.1.2}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {1.3}Perturbations: frost, grazing, and mowing}{16}{section.III.section.1.3}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Climate}{16}{paragraph*.6}
+\contentsline {paragraph}{Climate}{16}{paragraph*.13}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Management}{16}{paragraph*.7}
+\contentsline {paragraph}{Management}{16}{paragraph*.14}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Other form of herbivory}{17}{paragraph*.8}
+\contentsline {paragraph}{Other form of herbivory}{17}{paragraph*.15}
 \defcounter {refsection}{3}\relax 
 \contentsline {chapter}{\numberline {2}Multi-dimensional strategy space, carbon pools, and trade-offs}{17}{chapter.III.chapter.2}
 \defcounter {refsection}{3}\relax 
@@ -92,17 +100,17 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {2.1.1}The strategy space in \textit {\texttt {MountGrass }}}{17}{subsection.III.section.2.1.1}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{What is a strategy space}{17}{paragraph*.9}
+\contentsline {paragraph}{What is a strategy space}{17}{paragraph*.16}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {2.2}Craft a trade-off: active and structural tissues}{19}{section.III.section.2.2}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{gain as function of conditions}{20}{paragraph*.10}
+\contentsline {paragraph}{gain as function of conditions}{20}{paragraph*.17}
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Species memory and phenotype determination}{21}{subsection.III.section.2.2.1}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Memory of species: a driving trait}{21}{paragraph*.11}
+\contentsline {paragraph}{Memory of species: a driving trait}{21}{paragraph*.18}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Vegetative phenotype axis}{21}{paragraph*.12}
+\contentsline {paragraph}{Vegetative phenotype axis}{21}{paragraph*.19}
 \defcounter {refsection}{3}\relax 
 \contentsline {chapter}{\numberline {3}Modelling phenotypic plasticity}{21}{chapter.III.chapter.3}
 \defcounter {refsection}{3}\relax 
@@ -110,43 +118,45 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Concept of active plasticity as a strategy}{21}{subsection.III.section.3.1.1}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Decomposition of plastic response}{21}{paragraph*.13}
+\contentsline {paragraph}{Decomposition of plastic response}{21}{paragraph*.20}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Control of plasticity}{22}{paragraph*.14}
+\contentsline {paragraph}{Control of plasticity}{22}{paragraph*.21}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Species specific plasticity}{22}{paragraph*.15}
+\contentsline {paragraph}{Species specific plasticity}{22}{paragraph*.22}
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Projection of external conditions: between species memory and individual experience}{23}{subsection.III.section.3.1.2}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Build a projection}{23}{paragraph*.16}
+\contentsline {paragraph}{Build a projection}{23}{paragraph*.23}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {3.2}Driving rules of allocation}{23}{section.III.section.3.2}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{The paradox of plasticity}{24}{paragraph*.17}
+\contentsline {paragraph}{The paradox of plasticity}{24}{paragraph*.24}
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {3.2.1}On the difficulty to match strategy and conditions.}{25}{subsection.III.section.3.2.1}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Efficiency and performance}{25}{paragraph*.18}
+\contentsline {paragraph}{Why match phenotype to memory}{25}{paragraph*.25}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Is performance fitness?}{25}{paragraph*.19}
+\contentsline {paragraph}{Efficiency and performance}{25}{paragraph*.26}
 \defcounter {refsection}{3}\relax 
-\contentsline {chapter}{\numberline {4}ODD description of the model \textit {\texttt {MountGrass }}}{25}{chapter.III.chapter.4}
+\contentsline {paragraph}{Is performance fitness?}{25}{paragraph*.27}
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{\numberline {4}ODD description of the model \textit {\texttt {MountGrass }}}{26}{chapter.III.chapter.4}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {4.1}Model overview}{26}{section.III.section.4.1}
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {4.1.1}Model purpose}{26}{subsection.III.section.4.1.1}
 \defcounter {refsection}{3}\relax 
-\contentsline {subsection}{\numberline {4.1.2}State variables}{26}{subsection.III.section.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}State variables}{27}{subsection.III.section.4.1.2}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Scales}{26}{paragraph*.20}
+\contentsline {paragraph}{Scales}{27}{paragraph*.28}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Plants}{27}{paragraph*.21}
+\contentsline {paragraph}{Plants}{27}{paragraph*.29}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Species}{27}{paragraph*.22}
+\contentsline {paragraph}{Species}{28}{paragraph*.30}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Seed-bank}{29}{paragraph*.23}
+\contentsline {paragraph}{Seed-bank}{28}{paragraph*.31}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Soil}{29}{paragraph*.24}
+\contentsline {paragraph}{Soil}{29}{paragraph*.32}
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {4.1.3}Process overview and scheduling}{29}{subsection.III.section.4.1.3}
 \defcounter {refsection}{3}\relax 
@@ -154,13 +164,13 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Design concepts}{30}{subsection.III.section.4.2.1}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Emergence}{30}{paragraph*.25}
+\contentsline {paragraph}{Emergence}{30}{paragraph*.33}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Adaptation}{30}{paragraph*.26}
+\contentsline {paragraph}{Adaptation}{30}{paragraph*.34}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Fitness}{30}{paragraph*.27}
+\contentsline {paragraph}{Fitness}{30}{paragraph*.35}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Prediction}{31}{paragraph*.28}
+\contentsline {paragraph}{Prediction}{31}{paragraph*.36}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {4.3}Details}{31}{section.III.section.4.3}
 \defcounter {refsection}{3}\relax 
@@ -170,37 +180,37 @@
 \defcounter {refsection}{3}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Submodels}{32}{subsection.III.section.4.3.3}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Germination}{32}{paragraph*.29}
+\contentsline {paragraph}{Germination}{32}{paragraph*.37}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Light competition}{33}{paragraph*.30}
+\contentsline {paragraph}{Light competition}{33}{paragraph*.38}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Stomatal regulation}{34}{paragraph*.31}
+\contentsline {paragraph}{Stomatal regulation}{34}{paragraph*.39}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Evaporation}{34}{paragraph*.32}
+\contentsline {paragraph}{Evaporation}{34}{paragraph*.40}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Water competition}{34}{paragraph*.33}
+\contentsline {paragraph}{Water competition}{34}{paragraph*.41}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Production, and respiration}{35}{paragraph*.34}
+\contentsline {paragraph}{Production, and respiration}{35}{paragraph*.42}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Temperature effect}{35}{paragraph*.35}
+\contentsline {paragraph}{Temperature effect}{35}{paragraph*.43}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Condition estimation}{35}{paragraph*.36}
+\contentsline {paragraph}{Condition estimation}{35}{paragraph*.44}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Allocation}{36}{paragraph*.37}
+\contentsline {paragraph}{Allocation}{36}{paragraph*.45}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Plastic algorithm}{39}{paragraph*.38}
+\contentsline {paragraph}{Plastic algorithm}{39}{paragraph*.46}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Plasticity cost}{39}{paragraph*.39}
+\contentsline {paragraph}{Plasticity cost}{39}{paragraph*.47}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Trait update}{40}{paragraph*.40}
+\contentsline {paragraph}{Trait update}{40}{paragraph*.48}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Senescence}{40}{paragraph*.41}
+\contentsline {paragraph}{Senescence}{40}{paragraph*.49}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Death}{41}{paragraph*.42}
+\contentsline {paragraph}{Death}{41}{paragraph*.50}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Reproduction \& persistence}{41}{paragraph*.43}
+\contentsline {paragraph}{Reproduction \& persistence}{41}{paragraph*.51}
 \defcounter {refsection}{3}\relax 
-\contentsline {paragraph}{Grazing/cutting}{42}{paragraph*.44}
+\contentsline {paragraph}{Grazing/cutting}{42}{paragraph*.52}
 \defcounter {refsection}{3}\relax 
 \contentsline {section}{\numberline {4.4}Limitations and problems}{42}{section.III.section.4.4}
 \defcounter {refsection}{3}\relax 
@@ -216,55 +226,55 @@
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {1.1.1}Method}{52}{subsection.IV.section.1.1.1}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Pot data}{52}{paragraph*.46}
+\contentsline {paragraph}{Pot data}{52}{paragraph*.54}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Pot simulation}{52}{paragraph*.47}
+\contentsline {paragraph}{Pot simulation}{52}{paragraph*.55}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Parameter filtering process}{52}{paragraph*.48}
+\contentsline {paragraph}{Parameter filtering process}{52}{paragraph*.56}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Sensitivity analysis}{53}{paragraph*.49}
+\contentsline {paragraph}{Sensitivity analysis}{53}{paragraph*.57}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {1.1.2}Results}{53}{subsection.IV.section.1.1.2}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Selection rate}{53}{paragraph*.50}
+\contentsline {paragraph}{Selection rate}{53}{paragraph*.58}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Sensitivity analysis}{54}{paragraph*.51}
+\contentsline {paragraph}{Sensitivity analysis}{54}{paragraph*.59}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Variable responses}{56}{paragraph*.52}
+\contentsline {paragraph}{Variable responses}{56}{paragraph*.60}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Root shoot ratio and plasticity}{58}{paragraph*.53}
+\contentsline {paragraph}{Root shoot ratio and plasticity}{58}{paragraph*.61}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {1.1.3}Discussion}{58}{subsection.IV.section.1.1.3}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Growth and strategy space}{58}{paragraph*.54}
+\contentsline {paragraph}{Growth and strategy space}{58}{paragraph*.62}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{The role of water}{59}{paragraph*.55}
+\contentsline {paragraph}{The role of water}{59}{paragraph*.63}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{More complex plasticity?}{59}{paragraph*.56}
+\contentsline {paragraph}{More complex plasticity?}{59}{paragraph*.64}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Modelling paradigm}{60}{paragraph*.57}
+\contentsline {paragraph}{Modelling paradigm}{60}{paragraph*.65}
 \defcounter {refsection}{4}\relax 
 \contentsline {section}{\numberline {1.2}Individual level behaviour and properties}{61}{section.IV.section.1.2}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {1.2.1}Method}{61}{subsection.IV.section.1.2.1}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Allocation algorithms}{61}{paragraph*.58}
+\contentsline {paragraph}{Allocation algorithms}{61}{paragraph*.66}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Memory \& phenotype}{61}{paragraph*.59}
+\contentsline {paragraph}{Memory \& phenotype}{61}{paragraph*.67}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {1.2.2}Results}{61}{subsection.IV.section.1.2.2}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Allocation rules}{61}{paragraph*.60}
+\contentsline {paragraph}{Allocation rules}{61}{paragraph*.68}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Memory and phenotype}{63}{paragraph*.61}
+\contentsline {paragraph}{Memory and phenotype}{63}{paragraph*.69}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {1.2.3}Discussion}{64}{subsection.IV.section.1.2.3}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Allocation rules}{64}{paragraph*.62}
+\contentsline {paragraph}{Allocation rules}{64}{paragraph*.70}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Fast-slow strategies}{66}{paragraph*.63}
+\contentsline {paragraph}{Fast-slow strategies}{66}{paragraph*.71}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Memory and phenotypes}{66}{paragraph*.64}
+\contentsline {paragraph}{Memory and phenotypes}{66}{paragraph*.72}
 \defcounter {refsection}{4}\relax 
 \contentsline {chapter}{\numberline {2}Individual performance, plasticity and variable conditions}{66}{chapter.IV.chapter.2}
 \defcounter {refsection}{4}\relax 
@@ -272,119 +282,147 @@
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Method}{67}{subsection.IV.section.2.1.1}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Parameter sets}{67}{paragraph*.65}
+\contentsline {paragraph}{Parameter sets}{67}{paragraph*.73}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Strategy space sampling}{67}{paragraph*.66}
+\contentsline {paragraph}{Strategy space sampling}{67}{paragraph*.74}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Simulation set-up}{68}{paragraph*.67}
+\contentsline {paragraph}{Simulation set-up}{68}{paragraph*.75}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Projections}{68}{paragraph*.68}
+\contentsline {paragraph}{Projections}{68}{paragraph*.76}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Results}{68}{subsection.IV.section.2.1.2}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Performance landscape}{68}{paragraph*.69}
+\contentsline {paragraph}{Performance landscape}{68}{paragraph*.77}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Optimum shifting}{69}{paragraph*.70}
+\contentsline {paragraph}{Optimum shifting}{69}{paragraph*.78}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Phenotypic convergence}{71}{paragraph*.71}
+\contentsline {paragraph}{Phenotypic convergence}{71}{paragraph*.79}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {2.1.3}Discussion}{71}{subsection.IV.section.2.1.3}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Components of performance}{71}{paragraph*.72}
+\contentsline {paragraph}{Components of performance}{71}{paragraph*.80}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Convergence to subspace}{71}{paragraph*.73}
+\contentsline {paragraph}{Convergence to subspace}{71}{paragraph*.81}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Plastic exhaustion}{72}{paragraph*.74}
+\contentsline {paragraph}{Plastic exhaustion}{72}{paragraph*.82}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Nuances around plasticity}{73}{paragraph*.75}
+\contentsline {paragraph}{Nuances around plasticity}{73}{paragraph*.83}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{On diversity}{74}{paragraph*.76}
+\contentsline {paragraph}{Resource availability}{74}{paragraph*.84}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Resource availability}{74}{paragraph*.77}
-\defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Greater level discussion}{74}{paragraph*.78}
+\contentsline {paragraph}{Greater level discussion}{74}{paragraph*.85}
 \defcounter {refsection}{4}\relax 
 \contentsline {section}{\numberline {2.2}Plasticity and variability of conditions}{74}{section.IV.section.2.2}
 \defcounter {refsection}{4}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Method}{75}{subsection.IV.section.2.2.1}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Simulation set-up}{75}{paragraph*.79}
+\contentsline {paragraph}{Simulation set-up}{75}{paragraph*.86}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Spatial heterogeneity}{75}{paragraph*.80}
+\contentsline {paragraph}{Spatial heterogeneity}{75}{paragraph*.87}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Temporal heterogeneity}{75}{paragraph*.81}
+\contentsline {paragraph}{Temporal heterogeneity}{75}{paragraph*.88}
 \defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Results}{75}{subsection.IV.section.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Results: gradient of homogeneous precipitation conditions}{75}{subsection.IV.section.2.2.2}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Optimum strategy}{75}{paragraph*.82}
+\contentsline {paragraph}{Optimum strategy}{75}{paragraph*.89}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Diversity}{76}{paragraph*.83}
+\contentsline {paragraph}{Effect on potential niche}{75}{paragraph*.90}
 \defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Discussion}{76}{subsection.IV.section.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Results: gradient of heterogeneous precipitation conditions}{77}{subsection.IV.section.2.2.3}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Improvement in variable conditions}{76}{paragraph*.84}
+\contentsline {paragraph}{Diversity}{77}{paragraph*.91}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Heterogeneity of response}{78}{paragraph*.85}
+\contentsline {subsection}{\numberline {2.2.4}Discussion: gradient of homogeneous conditions}{79}{subsection.IV.section.2.2.4}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Plasticity as a strategy}{78}{paragraph*.86}
+\contentsline {paragraph}{Strategy shift}{79}{paragraph*.92}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Extended interpretations}{78}{paragraph*.87}
+\contentsline {paragraph}{Static and dynamic gain}{79}{paragraph*.93}
 \defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {2.3}From model behaviour to competition and coexistence in the real world}{79}{section.IV.section.2.3}
+\contentsline {paragraph}{Who benefit from plasticity}{79}{paragraph*.94}
 \defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Plasticity: new functional diversity}{79}{subsection.IV.section.2.3.1}
+\contentsline {paragraph}{Niche widening}{79}{paragraph*.95}
 \defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Plasticity as a strategy: cost and correlations}{79}{subsection.IV.section.2.3.2}
+\contentsline {paragraph}{Fitness evenness}{80}{paragraph*.96}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Who benefit from plasticity?}{79}{paragraph*.88}
+\contentsline {paragraph}{What strategies benefit from plasticity?}{80}{paragraph*.97}
 \defcounter {refsection}{4}\relax 
-\contentsline {paragraph}{Cost of plasticity}{79}{paragraph*.89}
+\contentsline {subsection}{\numberline {2.2.5}Discussion: gradient of temporal variations}{80}{subsection.IV.section.2.2.5}
 \defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Plasticity and competition: changes in interactions}{79}{subsection.IV.section.2.3.3}
+\contentsline {paragraph}{Improvement in variable conditions}{80}{paragraph*.98}
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {2.3}From model behaviour to competition and coexistence in the real world}{81}{section.IV.section.2.3}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Plasticity: new functional diversity}{81}{subsection.IV.section.2.3.1}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Plasticity as a strategy: cost and correlations}{81}{subsection.IV.section.2.3.2}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Who benefit from plasticity?}{81}{paragraph*.99}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Cost of plasticity}{81}{paragraph*.100}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Plasticity as a strategy}{81}{paragraph*.101}
+\defcounter {refsection}{4}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Plasticity and competition: changes in interactions}{81}{subsection.IV.section.2.3.3}
+\defcounter {refsection}{4}\relax 
+\contentsline {paragraph}{Extended interpretations}{81}{paragraph*.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{V\hspace {1em}Community dynamics}{81}{part.5}
+\contentsline {part}{V\hspace {1em}Community dynamics}{83}{part.5}
 \defcounter {refsection}{5}\relax 
-\contentsline {chapter}{\numberline {1}Community level parametrisation}{69}{chapter.V.chapter.1}
+\contentsline {chapter}{\numberline {1}Community level simulations: non plastic community}{85}{chapter.V.chapter.1}
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {1.1}Method}{69}{section.V.section.1.1}
+\contentsline {section}{\numberline {1.1}Parameter filtering}{85}{section.V.section.1.1}
 \defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Field calibration}{69}{paragraph*.72}
+\contentsline {subsection}{\numberline {1.1.1}Method}{85}{subsection.V.section.1.1.1}
 \defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Field data}{69}{paragraph*.73}
+\contentsline {paragraph}{Weather data}{85}{paragraph*.104}
 \defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Weather data}{69}{paragraph*.74}
+\contentsline {paragraph}{Parameter filtering}{85}{paragraph*.105}
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {1.2}Results}{69}{section.V.section.1.2}
+\contentsline {paragraph}{Simulations}{85}{paragraph*.106}
 \defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Effect of parameters}{69}{paragraph*.75}
+\contentsline {subsection}{\numberline {1.1.2}Results}{85}{subsection.V.section.1.1.2}
 \defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Ecological trade-off ?}{69}{paragraph*.76}
+\contentsline {paragraph}{Effect of parameters}{85}{paragraph*.107}
 \defcounter {refsection}{5}\relax 
-\contentsline {chapter}{\numberline {2}Plasticity: impact on species fitness and diversity}{69}{chapter.V.chapter.2}
+\contentsline {section}{\numberline {1.2}Non plastic communities}{86}{section.V.section.1.2}
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {2.1}Method}{69}{section.V.section.2.1}
+\contentsline {paragraph}{Ecological trade-off ?}{86}{paragraph*.108}
 \defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {2.2}Results}{70}{section.V.section.2.2}
+\contentsline {chapter}{\numberline {2}Plasticity: impact on species fitness and diversity}{86}{chapter.V.chapter.2}
 \defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{General behavior}{70}{paragraph*.77}
+\contentsline {section}{\numberline {2.1}Plasticity and diversity}{86}{section.V.section.2.1}
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Plasticity: a winning strategy ?}{70}{subsection.V.section.2.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Method}{86}{subsection.V.section.2.1.1}
 \defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Effect on coexistence}{70}{subsection.V.section.2.2.2}
+\contentsline {paragraph}{Simulations}{86}{paragraph*.109}
+\defcounter {refsection}{5}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Results}{86}{subsection.V.section.2.1.2}
+\defcounter {refsection}{5}\relax 
+\contentsline {paragraph}{General behavior}{86}{paragraph*.110}
+\defcounter {refsection}{5}\relax 
+\contentsline {paragraph}{Plasticity: a winning strategy ?}{86}{paragraph*.111}
+\defcounter {refsection}{5}\relax 
+\contentsline {paragraph}{Effect on coexistence}{86}{paragraph*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{VI\hspace {1em}Synthesis \& Outlook}{73}{part.6}
+\contentsline {part}{VI\hspace {1em}Synthesis \& Outlook}{89}{part.6}
 \defcounter {refsection}{6}\relax 
-\contentsline {chapter}{\numberline {1}Synthesis}{75}{chapter.VI.chapter.1}
+\contentsline {chapter}{\numberline {1}Synthesis}{91}{chapter.VI.chapter.1}
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {1.1}Competition and feedback}{75}{section.VI.section.1.1}
+\contentsline {section}{\numberline {1.1}Competition and feedback}{91}{section.VI.section.1.1}
 \defcounter {refsection}{6}\relax 
-\contentsline {chapter}{\numberline {2}Outlook}{76}{chapter.VI.chapter.2}
+\contentsline {subsection}{\numberline {1.1.1}On plasticity modelling}{91}{subsection.VI.section.1.1.1}
 \defcounter {refsection}{6}\relax 
-\contentsline {chapter}{\numberline {3}Extensions}{77}{chapter.VI.chapter.3}
+\contentsline {section}{\numberline {1.2}The limit of the species.}{92}{section.VI.section.1.2}
 \defcounter {refsection}{6}\relax 
-\contentsline {subsection}{\numberline {3.0.1}Resistance carbon pools}{77}{subsection.VI.section.3.0.1}
+\contentsline {chapter}{\numberline {2}Outlook}{93}{chapter.VI.chapter.2}
 \defcounter {refsection}{6}\relax 
-\contentsline {section}{\numberline {3.1}For more interaction}{78}{section.VI.section.3.1}
+\contentsline {chapter}{\numberline {3}Extensions}{94}{chapter.VI.chapter.3}
+\defcounter {refsection}{6}\relax 
+\contentsline {subsection}{\numberline {3.0.1}Resistance carbon pools}{94}{subsection.VI.section.3.0.1}
+\defcounter {refsection}{6}\relax 
+\contentsline {section}{\numberline {3.1}For more interaction}{95}{section.VI.section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Index}{81}{chapter.VI.chapter.4}
+\contentsline {chapter}{Glossary}{97}{section*.114}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Index}{97}{chapter.VI.chapter.4}
 \contentsfinish 
