@@ -54,7 +54,11 @@
 %\setcitestyle{authoryear}
 
 % for split bibliography
-\usepackage[sorting=none, style = alphabetic, backend=biber]{biblatex}
+\usepackage[sorting=nyt, style = authoryear,url = false, doi = false, isbn = false, backend=biber]{biblatex}
+
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+
 %\usepackage{natbib}
 %\setcitestyle{authoryear}
 
@@ -63,7 +67,7 @@
 %\includeonly{./2_PP/Generic_model,./2_PP/Individual_level}
 
 %\include{./0_Objectives/Objectives}
-%\include{./1_Introduction/Introduction}
+\includeonly{./1_Introduction/Introduction}
 %\include{./2_PP/Generic_model}
 %\include{./2_PP/Individual_level}
 %\include{./2_PP/Community_dynamics}
@@ -92,7 +96,7 @@
 \definecolor{myBlue}{HTML}{0C86BF}
 
 % Emphasis command that make the word green and sans serif, and create an index entry
-\newcommand{\textemph}[1]{\textcolor{myGreen}{\textsf{\index{#1}}}}
+\newcommand{\textemph}[1]{\textcolor{myGreen}{\textsf{#1}}\index{\MakeLowercase{#1}}}
 
 
 % colorbox

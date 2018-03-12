@@ -40,7 +40,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -66,7 +66,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labeldatespec</bcf:key>
@@ -131,15 +131,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortscheme</bcf:key>
-      <bcf:value>none</bcf:value>
+      <bcf:value>nyt</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -366,6 +366,8 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
+    <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">mergedate</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -709,7 +711,30 @@
   <bcf:sorting>
     <bcf:presort>mm</bcf:presort>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   <!-- DATA MODEL -->
@@ -2134,19 +2159,27 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
-    <bcf:citekey order="1">jung_intraspecific_2014</bcf:citekey>
-    <bcf:citekey order="2">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="3">siefert_global_2015</bcf:citekey>
-    <bcf:citekey order="4">albert_importance_2012</bcf:citekey>
-    <bcf:citekey order="5">violle_return_2012</bcf:citekey>
-    <bcf:citekey order="6">hart_how_2016</bcf:citekey>
-    <bcf:citekey order="7">courbaud_intra-specific_2010</bcf:citekey>
-    <bcf:citekey order="8">turcotte_phenotypic_2016</bcf:citekey>
-    <bcf:citekey order="9">roscher_contrasting_2015</bcf:citekey>
-    <bcf:citekey order="10">valladares_species_2015</bcf:citekey>
-    <bcf:citekey order="11">barabas_effect_2016</bcf:citekey>
-    <bcf:citekey order="12">jung_intraspecific_2010</bcf:citekey>
-    <bcf:citekey order="13">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="1">clark_resolving_2007</bcf:citekey>
+    <bcf:citekey order="2">TRY</bcf:citekey>
+    <bcf:citekey order="3">gallaway_2003</bcf:citekey>
+    <bcf:citekey order="4">kraft_functional_2008</bcf:citekey>
+    <bcf:citekey order="5">kraft_plant_2015</bcf:citekey>
+    <bcf:citekey order="6">kunstler</bcf:citekey>
+    <bcf:citekey order="7">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="8">poorter_biomass_2012</bcf:citekey>
+    <bcf:citekey order="9">poorter_leaf_2006</bcf:citekey>
+    <bcf:citekey order="10">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="11">siefert_global_2015</bcf:citekey>
+    <bcf:citekey order="12">albert_importance_2012</bcf:citekey>
+    <bcf:citekey order="13">violle_return_2012</bcf:citekey>
+    <bcf:citekey order="14">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="15">courbaud_intra-specific_2010</bcf:citekey>
+    <bcf:citekey order="16">turcotte_phenotypic_2016</bcf:citekey>
+    <bcf:citekey order="17">roscher_contrasting_2015</bcf:citekey>
+    <bcf:citekey order="18">valladares_species_2015</bcf:citekey>
+    <bcf:citekey order="19">barabas_effect_2016</bcf:citekey>
+    <bcf:citekey order="20">jung_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="21">hart_how_2016</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2156,85 +2189,6 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
-    <bcf:citekey order="1">grimm_standard_2006</bcf:citekey>
-    <bcf:citekey order="2">bello_hierarchical_2013</bcf:citekey>
-    <bcf:citekey order="3">kleidon_global_2000</bcf:citekey>
-    <bcf:citekey order="4">soussana_gemini:_2012</bcf:citekey>
-    <bcf:citekey order="4">maire_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="4">taubert_modelling_2014</bcf:citekey>
-    <bcf:citekey order="6">korner_alpine_2011</bcf:citekey>
-    <bcf:citekey order="8">lagarigues</bcf:citekey>
-    <bcf:citekey order="9">taubert_modelling_2014</bcf:citekey>
-    <bcf:citekey order="9">maire_traits_2009</bcf:citekey>
-    <bcf:citekey order="9">lohier_explaining_2014</bcf:citekey>
-    <bcf:citekey order="10">reineking_environmental_2006</bcf:citekey>
-    <bcf:citekey order="10">kleidon_global_2000</bcf:citekey>
-    <bcf:citekey order="11">westoby_leaf-height-seed_1998</bcf:citekey>
-    <bcf:citekey order="12">laughlin_intrinsic_2014</bcf:citekey>
-    <bcf:citekey order="13">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="13">diaz_global_2016</bcf:citekey>
-    <bcf:citekey order="13">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="14">laughlin_intrinsic_2014</bcf:citekey>
-    <bcf:citekey order="15">chesson_general_2000</bcf:citekey>
-    <bcf:citekey order="15">adler_climate_2006</bcf:citekey>
-    <bcf:citekey order="16">westoby_leaf-height-seed_1998</bcf:citekey>
-    <bcf:citekey order="17">reich_leaf_1992</bcf:citekey>
-    <bcf:citekey order="17">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="17">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="18">maire_disentangling_2013</bcf:citekey>
-    <bcf:citekey order="19">kleidon_global_2000</bcf:citekey>
-    <bcf:citekey order="19">reineking_environmental_2006</bcf:citekey>
-    <bcf:citekey order="20">kleidon_global_2000</bcf:citekey>
-    <bcf:citekey order="20">reineking_environmental_2006</bcf:citekey>
-    <bcf:citekey order="20">taubert_modelling_2014</bcf:citekey>
-    <bcf:citekey order="21">cai_changes_2004</bcf:citekey>
-    <bcf:citekey order="22">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="23">westoby_leaf-height-seed_1998</bcf:citekey>
-    <bcf:citekey order="24">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="25">grime_benefits_1998</bcf:citekey>
-    <bcf:citekey order="26">craine_functional_2002</bcf:citekey>
-    <bcf:citekey order="26">reich_variation_2003</bcf:citekey>
-    <bcf:citekey order="26">wright_worlwide_2004</bcf:citekey>
-    <bcf:citekey order="27">poorter_causes_2009</bcf:citekey>
-    <bcf:citekey order="27">dwyer_specific_2014</bcf:citekey>
-    <bcf:citekey order="27">deleglise_drought-induced_2015</bcf:citekey>
-    <bcf:citekey order="28">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="29">soussana_gemini:_2012</bcf:citekey>
-    <bcf:citekey order="29">lohier_explaining_2014</bcf:citekey>
-    <bcf:citekey order="30">ryser_importance_1996</bcf:citekey>
-    <bcf:citekey order="30">john_anatomical_2017</bcf:citekey>
-    <bcf:citekey order="31">shipley_fundamental_2006</bcf:citekey>
-    <bcf:citekey order="32">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="33">mediavilla_internal_2001</bcf:citekey>
-    <bcf:citekey order="33">ryser_importance_1996</bcf:citekey>
-    <bcf:citekey order="34">westoby_time_2000</bcf:citekey>
-    <bcf:citekey order="35">craine_functional_2002</bcf:citekey>
-    <bcf:citekey order="35">tjoelker_linking_2005</bcf:citekey>
-    <bcf:citekey order="35">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="36">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="36">tjoelker_linking_2015</bcf:citekey>
-    <bcf:citekey order="37">freschet_explaining_2015</bcf:citekey>
-    <bcf:citekey order="38">hu_novel_2015</bcf:citekey>
-    <bcf:citekey order="39">freschet_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="40">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="42">kleidon</bcf:citekey>
-    <bcf:citekey order="42">reich</bcf:citekey>
-    <bcf:citekey order="43">westoby</bcf:citekey>
-    <bcf:citekey order="44">lohier</bcf:citekey>
-    <bcf:citekey order="44">soussana</bcf:citekey>
-    <bcf:citekey order="45">need-references</bcf:citekey>
-    <bcf:citekey order="46">bradshaw_evolutionary_1965</bcf:citekey>
-    <bcf:citekey order="46">bradshaw_unravelling_2006</bcf:citekey>
-    <bcf:citekey order="47">ryser_consequences_2000</bcf:citekey>
-    <bcf:citekey order="47">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="48">bradshaw_unravelling_2006</bcf:citekey>
-    <bcf:citekey order="49">dewitt_costs_1998</bcf:citekey>
-    <bcf:citekey order="49">auld_re-evaluating_2009</bcf:citekey>
-    <bcf:citekey order="50">letten_linking_2017</bcf:citekey>
-    <bcf:citekey order="51">taubert_modelling_2014</bcf:citekey>
-    <bcf:citekey order="52">lohier_explaining_2014</bcf:citekey>
-    <bcf:citekey order="53">reineking_environmental_2006</bcf:citekey>
-    <bcf:citekey order="54">reineking_environmental_2006</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2244,15 +2198,6 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
-    <bcf:citekey order="1">grimm_pattern-oriented_2005</bcf:citekey>
-    <bcf:citekey order="1">hartig</bcf:citekey>
-    <bcf:citekey order="2">peterson_growth_1982</bcf:citekey>
-    <bcf:citekey order="3">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="4">need ref</bcf:citekey>
-    <bcf:citekey order="5">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="6">dewitt_costs_1998</bcf:citekey>
-    <bcf:citekey order="6">van_kleunen_constraints_2005</bcf:citekey>
-    <bcf:citekey order="8">forsman_rethinking_2014</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2271,51 +2216,187 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
-    <bcf:citekey order="1">farrior_resource_2011</bcf:citekey>
-    <bcf:citekey order="1">dybzinski_evolutionarily_2011</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
-  <bcf:sortlist section="1" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sortlist section="1" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
-  <bcf:sortlist section="2" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sortlist section="2" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
-  <bcf:sortlist section="3" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sortlist section="3" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
-  <bcf:sortlist section="4" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sortlist section="4" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
-  <bcf:sortlist section="5" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sortlist section="5" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>
-  <bcf:sortlist section="6" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sortlist section="6" name="nyt/global/" type="entry" sortscheme="nyt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sorting>
   </bcf:sortlist>

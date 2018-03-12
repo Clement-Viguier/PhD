@@ -3,7 +3,7 @@
 \begin{fullwidth}
 %\begin{abstract} 
 \noindent
-This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al. The model is inspired by multiple other forest and grassland models (for grassland models see particularly Taubert \cite{taubert_modelling_2014} and Lohier \cite{lohier_explaining_2014}). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
+This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al. The model is inspired by multiple other forest and grassland models (for grassland models see particularly Taubert \parencite{taubert_modelling_2014} and Lohier \parencite{lohier_explaining_2014}). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
 %\end{abstract}
 \end{fullwidth}
 
@@ -364,7 +364,7 @@ transp_{i}(p) &= transp . \frac{V_{i,p}}{V_{i}}\\
 Wpot_{i}(p) &= Root_{area}(p).U_{max}.U_{lim}\\
 Wdem_{i}(p) &= min(transp_{i}(p), Wpot_{i}(p))\\
 \end{align}
-where, the limitation function $U_{lim}$ is defined as in \cite{reineking_environmental_2006}:
+where, the limitation function $U_{lim}$ is defined as in \parencite{reineking_environmental_2006}:
 
 \begin{marginfigure}[-40pt]
 \begin{tikzpicture}
@@ -620,7 +620,7 @@ where $LLS$ and $RLS$ are respectively the leaf and the root lifespans calculate
 \indent Root senescent tissues disappear from the system. Information about senescent aboveground biomass is stored, but senescent biomass effect of light competition is ignored in this version because as it is implemented senescent tissues appear early in plant development and have large negative effect on light absorption.\\
 \indent To the natural senescence and artificial cost of having only active tissue, an additional component can be added to the turn-over rate: the negative NPP. In case of negative NPP, the biomass will be taken from the already allocated following the shoot:root ratio. This can lead to a lower overall productivity (negative growth during unproductive periods) but also changes in the equilibrium if tissue have different efficiencies.\\
 
-\paragraph{Death} Death is modelled as in Reineking \cite{reineking_environmental_2006}. Age and desiccation (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random lotteries following the following survival probabilities:
+\paragraph{Death} Death is modelled as in Reineking \parencite{reineking_environmental_2006}. Age and desiccation (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random lotteries following the following survival probabilities:
 
 \begin{marginfigure}[-10pt]
 \begin{tikzpicture}
