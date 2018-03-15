@@ -89,6 +89,97 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0706.2011.19672.x/abstract
       \endverb
     \endentry
+    \entry{chalmandrier_communities_2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=98eb058b72a09ea8e891b935c10f072d}{%
+           family={Chalmandrier},
+           familyi={C\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{fullhash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{authornamehash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{authorfullhash}{98eb058b72a09ea8e891b935c10f072d}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
+      \field{title}{From communities to meta-communities : decrypting diversity patterns}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+    \endentry
+    \entry{chave_towards_2009}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=9524a0bd4842ef651accf71ce31c294e}{%
+           family={Chave},
+           familyi={C\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=bbadbab9a9a9794d70f0da099decc7b9}{%
+           family={Coomes},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=d5a5874869ea4b9cbcc5fd35347b4d43}{%
+           family={Jansen},
+           familyi={J\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=e131d9dea743c9238196869a0c5a7cf2}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Simon\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=870c0df188eb410726efb33f27d3e70c}{%
+           family={Swenson},
+           familyi={S\bibinitperiod},
+           given={Nathan\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=3632cc01a5cfc4cb4980393786efb5f3}{%
+           family={Zanne},
+           familyi={Z\bibinitperiod},
+           given={Amy\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c88fd5a1f67e8decbb32b9565bf5716}
+      \strng{fullhash}{83158ee66d07b794558721fa4b43d34a}
+      \strng{authornamehash}{4c88fd5a1f67e8decbb32b9565bf5716}
+      \strng{authorfullhash}{83158ee66d07b794558721fa4b43d34a}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Wood performs several essential functions in plants, including mechanically supporting aboveground tissue, storing water and other resources, and transporting sap. Woody tissues are likely to face physiological, structural and defensive trade-offs. How a plant optimizes among these competing functions can have major ecological implications, which have been under-appreciated by ecologists compared to the focus they have given to leaf function. To draw together our current understanding of wood function, we identify and collate data on the major wood functional traits, including the largest wood density database to date (8412 taxa), mechanical strength measures and anatomical features, as well as clade-specific features such as secondary chemistry. We then show how wood traits are related to one another, highlighting functional trade-offs, and to ecological and demographic plant features (growth form, growth rate, latitude, ecological setting). We suggest that, similar to the manifold that tree species leaf traits cluster around the ‘leaf economics spectrum’, a similar ‘wood economics spectrum’ may be defined. We then discuss the biogeography, evolution and biogeochemistry of the spectrum, and conclude by pointing out the major gaps in our current knowledge of wood functional traits.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecology Letters}
+      \field{number}{4}
+      \field{title}{Towards a worldwide wood economics spectrum}
+      \field{urlday}{14}
+      \field{urlmonth}{1}
+      \field{urlyear}{2015}
+      \field{volume}{12}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{351\bibrangedash 366}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1461-0248.2009.01285.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/I8WXMJ29/Chave et al. - 2009 - Towards a worldwide wood economics spectrum.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/2BQBEEND/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2009.01285.x/abstract
+      \endverb
+      \keyw{trade-offs,Evolution,functional ecology,plant economics,wood}
+    \endentry
     \entry{clark_resolving_2007}{article}{}
       \name{author}{7}{}{%
         {{uniquename=0,hash=953e9df7fb87ccbf2955a538c29948ff}{%
@@ -188,6 +279,496 @@
       \verb Courbaud2010.pdf:/home/clement/Zotero/storage/TW4UK894/Courbaud2010.pdf:application/pdf
       \endverb
     \endentry
+    \entry{diaz_global_2016}{article}{}
+      \name{author}{35}{}{%
+        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
+           family={Díaz},
+           familyi={D\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=91470a33f0779997f5b5934a52abc273}{%
+           family={Kattge},
+           familyi={K\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=59199cd41f1dcf2209b714a87daff5f9}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=410c458dcf6233767a04242aefc8eac8}{%
+           family={Dray},
+           familyi={D\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=b8eb280435f5de6d0e10839247fbcfa3}{%
+           family={Reu},
+           familyi={R\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2f0415ad471857b18c349382d54e052b}{%
+           family={Kleyer},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=e2df0ceb9d44a443085af4bd5d1f0f0f}{%
+           family={Colin\bibnamedelima Prentice},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=adce00945e25fd9866396dce1da9fb57}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=238a8f7fc16402f342d501bd6901e52f}{%
+           family={Bönisch},
+           familyi={B\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=5aa4be167f185e23405818992680021b}{%
+           family={Moles},
+           familyi={M\bibinitperiod},
+           given={Angela\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=30034e5723af1d0c8862dfb6044003ea}{%
+           family={Dickie},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=1df1dd50ebea1d035f7584781d6d185e}{%
+           family={Gillison},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=3632cc01a5cfc4cb4980393786efb5f3}{%
+           family={Zanne},
+           familyi={Z\bibinitperiod},
+           given={Amy\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=96dcd1557addc8268aae043c16151e3e}{%
+           family={Chave},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=18d51eae5086a64ea595e3c8a268f213}{%
+           family={Joseph\bibnamedelima Wright},
+           familyi={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=cb34b00f5b370fbcafd0bf06d0693b93}{%
+           family={Sheremet’ev},
+           familyi={S\bibinitperiod},
+           given={Serge\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=a3d4ab3785694bcaed09c616b76fc157}{%
+           family={Jactel},
+           familyi={J\bibinitperiod},
+           given={Hervé},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=17a0f82760cffaae4575372a39430934}{%
+           family={Baraloto},
+           familyi={B\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=788a8a639d5aac4243d83f26d0843e86}{%
+           family={Cerabolini},
+           familyi={C\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=9344206fddea92b652e5b6d7617309f1}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=fe8693ba623b1a6061f0ed7dcab4e401}{%
+           family={Shipley},
+           familyi={S\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=032a26c18ac2e5ba06730db171bf3384}{%
+           family={Kirkup},
+           familyi={K\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=fd038167b3a44ad5bc0167ac9e3a9f6d}{%
+           family={Casanoves},
+           familyi={C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=6734f48a2da9b54dcb6f4f0425b7bf34}{%
+           family={Joswig},
+           familyi={J\bibinitperiod},
+           given={Julia\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=cad4fd6492ca0e36fbc1f7a5eca70d11}{%
+           family={Günther},
+           familyi={G\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=0df59b1ae56ea975b0f0872dbdbc374d}{%
+           family={Falczuk},
+           familyi={F\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=8b2a937c8166e066826d307b90e1bdcf}{%
+           family={Rüger},
+           familyi={R\bibinitperiod},
+           given={Nadja},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=6ce307070b4a36c84efb2f9dcfc3a421}{%
+           family={Mahecha},
+           familyi={M\bibinitperiod},
+           given={Miguel\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=58a6d03edcf8a7f24d13530edcfea6e7}{%
+           family={Gorné},
+           familyi={G\bibinitperiod},
+           given={Lucas\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4fbc03d537a6a41ed4e64fcd65a32233}
+      \strng{fullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
+      \strng{authornamehash}{4fbc03d537a6a41ed4e64fcd65a32233}
+      \strng{authorfullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Earth is home to a remarkable diversity of plant forms and life histories, yet comparatively few essential trait combinations have proved evolutionarily viable in today’s terrestrial biosphere. By analysing worldwide variation in six major traits critical to growth, survival and reproduction within the largest sample of vascular plant species ever compiled, we found that occupancy of six-dimensional trait space is strongly concentrated, indicating coordination and trade-offs. Three-quarters of trait variation is captured in a two-dimensional global spectrum of plant form and function. One major dimension within this plane reflects the size of whole plants and their parts; the other represents the leaf economics spectrum, which balances leaf construction costs against growth potential. The global plant trait spectrum provides a backdrop for elucidating constraints on evolution, for functionally qualifying species and ecosystems, and for improving models that predict future vegetation based on continuous variation in plant form and function.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{1}
+      \field{number}{7585}
+      \field{title}{The global spectrum of plant form and function}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{529}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{167\bibrangedash 171}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature16489
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/KHE4NQNS/Díaz et al. - 2016 - The global spectrum of plant form and function.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/DFKD4JF6/nature16489.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v529/n7585/full/nature16489.html
+      \endverb
+      \keyw{biodiversity,Climate-change ecology,ecophysiology,Ecosystem ecology,evolutionary ecology}
+    \endentry
+    \entry{diaz_plant_2004}{article}{}
+      \name{author}{39}{}{%
+        {{uniquename=0,hash=c79c1cb0417c8d4400809a767005cbfb}{%
+           family={Diaz},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=8026c8b0b3552c444f96273c83ae1fc3}{%
+           family={Hodgson},
+           familyi={H\bibinitperiod},
+           given={J.g.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=38a059efc9e4bb8921b6be908155b3eb}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=da40f9e285041e74f729ac5c63b17017}{%
+           family={Cabido},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=d7b1f15edbd9f7580593e3b26bc8918e}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={J.h.c.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=8cdc37578a9a9677b6cea46b0dd52caa}{%
+           family={Jalili},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=0443f31ddc750a9c08820cfaffa6377e}{%
+           family={Montserrat-Martí},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=bd08d8f887546ef080b92c1407637880}{%
+           family={Grime},
+           familyi={G\bibinitperiod},
+           given={J.p.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=bf5f2ca8b0fb9209cd1ac3743ae67eef}{%
+           family={Zarrinkamar},
+           familyi={Z\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=c406b593f9c37c85a4b2b25d33b0c613}{%
+           family={Asri},
+           familyi={A\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=9939c744b0fc1bb70e919205f5a79649}{%
+           family={Band},
+           familyi={B\bibinitperiod},
+           given={S.r.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=2c512b187022161387390fa00d0d15db}{%
+           family={Basconcelo},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=a72083b53f0d969386982a9ebd926821}{%
+           family={Castro-Díez},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=304b9813e39d73f67afb93ae9dd56231}{%
+           family={Funes},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=78e9b04e889be77887f99a135b3c6c09}{%
+           family={Hamzehee},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2ffad83087739173b5db61a9a3b0b424}{%
+           family={Khoshnevi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=56866a07041d054f6e389e2182220f85}{%
+           family={Pérez-Harguindeguy},
+           familyi={P\bibinithyphendelim H\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=8079ddadf66e35864e6e6449699a3eb6}{%
+           family={Pérez-Rontomé},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={M.c.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=0066ac2e8c06d949f5c50f93c270314e}{%
+           family={Shirvany},
+           familyi={S\bibinitperiod},
+           given={F.a.},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=f5a9c4a9375034b284a296b6d9bf32fc}{%
+           family={Vendramini},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=87aa65bf2e6a1cbfdbfab22a8d7b673d}{%
+           family={Yazdani},
+           familyi={Y\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=5868891daea616d9a8f19bc7e41b59bf}{%
+           family={Abbas-Azimi},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=db3f35fde999434efa064b550393d050}{%
+           family={Bogaard},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=30a28f59f7c8d5e57252b94094eeb0cd}{%
+           family={Boustani},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=e6eaa37e6c6e44ff63df764c8da981f8}{%
+           family={Charles},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=a86a8a8c0bc1d244515d8ea38cfa037f}{%
+           family={Dehghan},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=4335eb72a38d0e1c8a8f23c0f582ebf7}{%
+           family={Torres-Espuny},
+           familyi={T\bibinithyphendelim E\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=e1be89c2881c0e808dff546784ce7feb}{%
+           family={Falczuk},
+           familyi={F\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=9a7de7dd6ac1d20b54611b3220d0c793}{%
+           family={Guerrero-Campo},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=6ffb07afab347c14454ded1bdb5f9bdd}{%
+           family={Hynd},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5a634e50c39e62ba9be8579b26d956e1}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=9687fd39ac4b3aeec36f88badd1ee4b0}{%
+           family={Kowsary},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=60fc4f4d66c68f68e1179a9dbe000203}{%
+           family={Kazemi-Saeed},
+           familyi={K\bibinithyphendelim S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=03f7b51685123184c7ca2678831eb7df}{%
+           family={Maestro-Martínez},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b78fa6ca024fae2cb288b0cd7f16e3f6}{%
+           family={Romo-Díez},
+           familyi={R\bibinithyphendelim D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=f3f0f65132521053eed1c4c818f35caa}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=9ef99b68d84144c1302a995152458dc1}{%
+           family={Siavash},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=a40a7c0521b37a1ee0c26c87fb256784}{%
+           family={Villar-Salvador},
+           familyi={V\bibinithyphendelim S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=5e48912ab577fb63f6926c87fb96b4f1}{%
+           family={Zak},
+           familyi={Z\bibinitperiod},
+           given={M.r.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0b6e0095257827b4a96cc86253730ee7}
+      \strng{fullhash}{3e6e2929ce100ba05b321ac4c8f779e3}
+      \strng{authornamehash}{0b6e0095257827b4a96cc86253730ee7}
+      \strng{authorfullhash}{3e6e2929ce100ba05b321ac4c8f779e3}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Question: A set of easily-measured (‘soft’) plant traits has been identified as potentially useful predictors of ecosystem functioning in previous studies. Here we aimed to discover whether the screening techniques remain operational in widely contrasted circumstances, to test for the existence of axes of variation in the particular sets of traits, and to test for their links with ‘harder’ traits of proven importance to ecosystem functioning. Location: central-western Argentina, central England, northern upland Iran, and north-eastern Spain. Recurrent patterns of ecological specialization: Through ordination of a matrix of 640 vascular plant taxa by 12 standardized traits, we detected similar patterns of specialization in the four floras. The first PCA axis was identified as an axis of resource capture, usage and release. PCA axis 2 appeared to be a size-related axis. Individual PCA for each country showed that the same traits remained valuable as predictors of resource capture and utilization in all of them, despite their major differences in climate, biogeography and land-use. The results were not significantly driven by particular taxa: the main traits determining PCA axis 1 were very similar in eudicotyledons and monocotyledons and Asteraceae, Fabaceae and Poaceae. Links between recurrent suites of ‘soft’ traits and ‘hard’ traits: The validity of PCA axis 1 as a key predictor of resource capture and utilization was tested by comparisons between this axis and values of more rigorously established predictors (‘hard’ traits) for the floras of Argentina and England. PCA axis 1 was correlated with variation in relative growth rate, leaf nitrogen content, and litter decomposition rate. It also coincided with palatability to model generalist herbivores. Therefore, location on PCA axis 1 can be linked to major ecosystem processes in those habitats where the plants are dominant. Conclusion: We confirm the existence at the global scale of a major axis of evolutionary specialization, previously recognised in several local floras. This axis reflects a fundamental trade-off between rapid acquisition of resources and conservation of resources within well-protected tissues. These major trends of specialization were maintained across different environmental situations (including differences in the proximate causes of low productivity, i.e. drought or mineral nutrient deficiency). The trends were also consistent across floras and major phylogenetic groups, and were linked with traits directly relevant to ecosystem processes.}
+      \field{issn}{1654-1103}
+      \field{journaltitle}{Journal of Vegetation Science}
+      \field{number}{3}
+      \field{shorttitle}{The plant traits that drive ecosystems}
+      \field{title}{The plant traits that drive ecosystems: {Evidence} from three continents}
+      \field{urlday}{5}
+      \field{urlmonth}{1}
+      \field{urlyear}{2015}
+      \field{volume}{15}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{295\bibrangedash 304}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1654-1103.2004.tb02266.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/SZMI6S73/Diaz et al. - 2004 - The plant traits that drive ecosystems Evidence f.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/6WKKMUWK/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1654-1103.2004.tb02266.x/abstract
+      \endverb
+      \keyw{functional diversity,Spain,specific leaf area,Comparative ecology,Plant functional types,Argentina,England,Iran,Recurrent patterns of specialization}
+    \endentry
+    \entry{grime_evidence_1977}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a3e0beb729aa361dfee5e8212a94c3ba}{%
+           family={Grime},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{fullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{authornamehash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{authorfullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is suggested that evolution in plants may be associated with the emergence of three primary strategies, each of which may be identified by reference to a number of characteristics including morphological features, resource allocation, phenology, and response to stress. The competitive strategy prevails in productive, relatively undisturbed vegetation, the stress-tolerant strategy is associated with continuously unproductive conditions, and the ruderal strategy is characteristic of severely disturbed but potentially productive habitats. A triangular model based upon the three strategies may be reconciled with the theory of r- and K-selection, provides an insight into the processes of vegetation succession and dominance, and appears to be capable of extension to fungi and to animals.}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{11}
+      \field{number}{982}
+      \field{title}{Evidence for the {Existence} of {Three} {Primary} {Strategies} in {Plants} and {Its} {Relevance} to {Ecological} and {Evolutionary} {Theory}}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{111}
+      \field{year}{1977}
+      \field{urldateera}{ce}
+      \field{pages}{1169\bibrangedash 1194}
+      \range{pages}{26}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/clement/Zotero/storage/GSS6P4VG/Grime - 1977 - Evidence for the Existence of Three Primary Strate.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2460262
+      \endverb
+    \endentry
     \entry{hart_how_2016}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,hash=a9dfdb962ff67cb539179deaf69d6680}{%
@@ -242,6 +823,101 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/ele.12618/abstract
       \endverb
       \keyw{intraspecific variation,Competition,functional traits,Individual variation,community assembly,species coexistence,demographic heterogeneity,demographic stochasticity,genetic diversity,nonlinear averaging}
+    \endentry
+    \entry{hu_novel_2015}{article}{}
+      \name{author}{13}{}{%
+        {{uniquename=0,hash=8229df54d6130ba4fedff8073fd8837f}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yu-Kun},
+           giveni={Y\bibinithyphendelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=d98318030876573c4cdc96958fa21914}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{uniquename=0,hash=7bd842a6aa480786884f088419794a63}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Guo-Fang},
+           giveni={G\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=eb73680957a8caed3e7bb9cd0b8ef011}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wen-Bing},
+           giveni={W\bibinithyphendelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=257060d212212c022bcb27224ad07444}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Wen-Hong},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=b1e6bda175dbf36c020d0101a0587928}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Shuang-Li},
+           giveni={S\bibinithyphendelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=33bb81039f16c26fe7ac87753aa54981}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ya-Lin},
+           giveni={Y\bibinithyphendelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=17b59d4ceb91a916eff5329b6c953d9d}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=345597131f5a37c3b60f20252436aaaa}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ling-Yun},
+           giveni={L\bibinithyphendelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=a5a94e36625701b04b0f82e1d472fd69}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=e94413ba98c3c9d401a202591b1973b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Meng-Yao},
+           giveni={M\bibinithyphendelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=18efd3dea4f7c1e3b3e874b8316a3096}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yao-Bin},
+           giveni={Y\bibinithyphendelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=568cca5c35b88cfd0eaed2045485e665}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa7770e54a1e04d1daca2be7328bc2c8}
+      \strng{fullhash}{a24193158c3bee0f9619ba5bf0cea066}
+      \strng{authornamehash}{aa7770e54a1e04d1daca2be7328bc2c8}
+      \strng{authorfullhash}{a24193158c3bee0f9619ba5bf0cea066}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Leaf economics spectrum (LES), characterizing covariation among a suite of leaf traits relevant to carbon and nutrient economics, has been examined largely among species but hardly within species. In addition, very little attempt has been made to examine whether the existence of LES depends on spatial scales. To address these questions, we quantified the variation and covariation of four leaf economic traits (specific leaf area, leaf dry matter content, leaf nitrogen and phosphorus contents) in a cosmopolitan wetland species (Phragmites australis) at three spatial (inter-regional, regional, and site) scales across most of the species range in China. The species expressed large intraspecific variation in the leaf economic traits at all of the three spatial scales. It also showed strong covariation among the four leaf economic traits across the species range. The coordination among leaf economic traits resulted in LES at all three scales and the environmental variables determining variation in leaf economic traits were different among the spatial scales. Our results provide novel evidence for within-species LES at multiple spatial scales, indicating that resource trade-off could also constrain intraspecific trait variation mainly driven by climatic and/or edaphic differences.}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{Novel evidence for within-species leaf economics spectrum at multiple spatial scales}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2016}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{901}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fpls.2015.00901
+      \endverb
+      \verb{url}
+      \verb http://journal.frontiersin.org/article/10.3389/fpls.2015.00901/full
+      \endverb
+      \keyw{intraspecific variation,leaf economic traits,leaf economics spectrum (LES),spatial scales,trade-offs,trait relationships,wetland plant}
     \endentry
     \entry{jung_intraspecific_2014}{article}{}
       \name{author}{6}{uniquelist=2}{%
@@ -546,6 +1222,117 @@
       \verb http://www.jstor.org/stable/20145117
       \endverb
     \endentry
+    \entry{lavorel_predicting_2002}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=a62a2c0ade1761f353fe402bdd1a0242}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \strng{fullhash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \strng{authornamehash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \strng{authorfullhash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* 1The concept of plant functional type proposes that species can be grouped according to common responses to the environment and/or common effects on ecosystem processes. However, the knowledge of relationships between traits associated with the response of plants to environmental factors such as resources and disturbances (response traits), and traits that determine effects of plants on ecosystem functions (effect traits), such as biogeochemical cycling or propensity to disturbance, remains rudimentary. * 2We present a framework using concepts and results from community ecology, ecosystem ecology and evolutionary biology to provide this linkage. Ecosystem functioning is the end result of the operation of multiple environmental filters in a hierarchy of scales which, by selecting individuals with appropriate responses, result in assemblages with varying trait composition. Functional linkages and trade-offs among traits, each of which relates to one or several processes, determine whether or not filtering by different factors gives a match, and whether ecosystem effects can be easily deduced from the knowledge of the filters. * 3To illustrate this framework we analyse a set of key environmental factors and ecosystem processes. While traits associated with response to nutrient gradients strongly overlapped with those determining net primary production, little direct overlap was found between response to fire and flammability. * 4We hypothesize that these patterns reflect general trends. Responses to resource availability would be determined by traits that are also involved in biogeochemical cycling, because both these responses and effects are driven by the trade-off between acquisition and conservation. On the other hand, regeneration and demographic traits associated with response to disturbance, which are known to have little connection with adult traits involved in plant ecophysiology, would be of little relevance to ecosystem processes. * 5This framework is likely to be broadly applicable, although caution must be exercised to use trait linkages and trade-offs appropriate to the scale, environmental conditions and evolutionary context. It may direct the selection of plant functional types for vegetation models at a range of scales, and help with the design of experimental studies of relationships between plant diversity and ecosystem properties.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{Predicting changes in community composition and ecosystem functioning from plant traits}
+      \field{title}{Predicting changes in community composition and ecosystem functioning from plant traits: revisiting the {Holy} {Grail}}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{545\bibrangedash 556}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1046/j.1365-2435.2002.00664.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/BUFIMFTA/Lavorel et Garnier - 2002 - Predicting changes in community composition and ec.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/2QB3IAGP/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2435.2002.00664.x/abstract
+      \endverb
+      \keyw{trade-offs,Biogeochemical cycles,disturbance,effect traits,fire,resource gradient,response traits,scaling-up}
+    \endentry
+    \entry{levine_beyond_2017}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=b71c47fff97792c37706210243e23ae5}{%
+           family={Bascompte},
+           familyi={B\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=6ed16f4f98f35ae9a2268706bac19023}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=3b4c526ad3828396cf670adc9f4f608d}{%
+           family={Allesina},
+           familyi={A\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0ef3126a765ba95fd8d959175c0a30d3}
+      \strng{fullhash}{86a67ab7475e25d051d269f39cca9a6a}
+      \strng{authornamehash}{0ef3126a765ba95fd8d959175c0a30d3}
+      \strng{authorfullhash}{86a67ab7475e25d051d269f39cca9a6a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The tremendous diversity of species in ecological communities has motivated a century of research into the mechanisms that maintain biodiversity. However, much of this work examines the coexistence of just pairs of competitors. This approach ignores those mechanisms of coexistence that emerge only in diverse competitive networks. Despite the potential for these mechanisms to create conditions under which the loss of one competitor triggers the loss of others, we lack the knowledge needed to judge their importance for coexistence in nature. Progress requires borrowing insight from the study of multitrophic interaction networks, and coupling empirical data to models of competition.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{6}
+      \field{number}{7656}
+      \field{title}{Beyond pairwise mechanisms of species coexistence in complex communities}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{546}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{56\bibrangedash 64}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/nature22898
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/9RH2J7XX/Levine et al. - 2017 - Beyond pairwise mechanisms of species coexistence .pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/DSX4858A/nature22898.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v546/n7656/full/nature22898.html
+      \endverb
+      \keyw{Ecology}
+    \endentry
     \entry{poorter_biomass_2012}{article}{}
       \name{author}{6}{}{%
         {{uniquename=1,hash=ff7af752d0c98c463b93503dbb18ab47}{%
@@ -667,6 +1454,174 @@
       \endverb
       \keyw{Bolivia,Growth,leaf life span,light,light requirements,niche differentiation,photosynthesis,shade tolerance,survival,Tropical rain forest}
     \endentry
+    \entry{reich_leaf_1992}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=2,hash=dc830331a440ad1737f7f3dff6f7256b}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=7ac8d8295308d3e9237a78b6f30c3e70}{%
+           family={Walters},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=4252e35077966c4317fd65e131252eb6}{%
+           family={Ellsworth},
+           familyi={E\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \strng{fullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \strng{authornamehash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \strng{authorfullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Variation in leaf life-span has long been considered of ecological significance.Despite this, quantitative evaluation of the relationships between leaf life-span and other plant and ecosystem characteristics has been rare. In this paper we ask whether leaf life-span is related to other leaf, plant, and stand traits of species from diverse ecosystems and biomes. We also examine the interaction between leaf, plant, and stand traits and their relation to productivity and ecological patterns. Among all species, both mass- (A"m"a"s"s) and area-based (A"a"r"e"a) maximum net photosynthesis decreased with increasing leaf life-span, but the relationship was stronger on a mass (P {<}.001, r{^}2 = 0.70) than an area (P {<}.05, r{^}2 = 0.24) basis. Similarly, mass-based leaf nitrogen (leaf N"m"a"s"s) decreased (P {<}.001, r{^}2 = 0.52) with leaf life-span, but area-based leaf N (leaf N"a"r"e"a) did not (P {>}.25, r{^}2 = 0.01). Specific leaf area (SLA, leaf area/leaf dry mass) and leaf diffusive conductance also decreased with increasing leaf life-span. Decreasing A"m"a"s"s with increasing leaf life-span results from the impact of decreasing N"m"a"s"s and SLA on A"m"a"s"s. Variation in leaf traits as a function of leaf life-span was similar for broad-leaved and needle-leaved subsets of the data. These leaf-scale data from several biomes were compared to a data set from a single biome, Amazonia. For several leaf traits (e.g., SLA, N"m"a"s"s, and A"m"a"s"s) the quantitative relationship with leaf life-span was similar in the two independent data sets, suggesting that these are fundamental relations applicable to all species. A"m"a"s"s was a linear function of N"m"a"s"s (P .001, r{^}2 = 0.74) with a regression similar to previous analyses, while A"a"r"e"a was not significantly related to N"a"r"e"a. These results suggest that the photosynthesis-leaf N relationship among species should be considered universal when expressed on a mass, but not on a leaf area, basis. Relative growth rates (RGR) and leaf area ratio (LAR, the whole-plant ratio of leaf area to total dry mass) of seedlings decreased with increasing leaf life-span (P {<} .001, r{^}2 = 0.61 and 0.89, respectively). LAR was positively related to both RGR and A"m"a"s"s (r{^}2 = 0.68 and 0.84, respectively), and A"m"a"s"s and RGR were also positively related (r{^}2 = 0.55). Absolute height growth rates of young trees decreased with increasing leaf life-span (P {<} .001, r{^}2 = 0.72) and increased with A"m"a"s"s (P {<} .001, r{^}2 = 0.78). It appears that a suite of traits including short leaf life-span and high leaf N"m"a"s"s, SLA, LAR, and A"m"a"s"s interactively contribute to high growth rates in open-grown individuals. These traits interact similarly at the stand level, but stands differ from individuals in one key trait. In closed-canopy forests, species with longer lived foliage (and low LAR as seedlings) have greater foliage mass per unit ground area (P {<} .001, r{^}2 = 0.74) and a greater proportion of total mass in foliage. The aboveground production efficiency (ANPP/foliar biomass) of forest stands decreased markedly with increasing leaf life-span or total foliage mass (P {<} .001, r{^}2 = 0.78 and 0.72, respectively), probably as a result of decreasing A"m"a"s"s, N"m"a"s"s, and SLA, all of which were positively related with production efficiency and negatively related to total foliage mass. However, high foliage mass of species with extended leaf life-spans appears to compensate for low production per unit foliage, since aboveground net primary production (ANPP, in megagrams per hectare per year) of forest stands was not related to leaf life-span. Extended leaf life-span also appears to compensate for lower potential production per unit leaf N per unit time, with the result that stand-level N use efficiency is weakly positively related to leaf life-span. We hypothesize that co-variation among species in leaf life-span, SLA, leaf N"m"a"s"s, A"m"a"s"s, and growth rate reflects a set of mutually supporting traits that interact to determine plant behavior and production, and provide a useful conceptual link between processes at short-term leaf scales and longer term whole plant and stand-level scales. Although this paper has focused on leaf life-span, this trait is so closely interrelated with several others that this cohort of leaf traits should be viewed as casually interrelated. Generality in the relationships between leaf life-span and other plant traits across diverse communities and ecosystems suggests that they are universal in nature and thus can provide a quantitative link and/or common currency for ecological comparisons among diverse systems.}
+      \field{issn}{0012-9615}
+      \field{journaltitle}{Ecological Monographs}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Leaf {Life}-{Span} in {Relation} to {Leaf}, {Plant}, and {Stand} {Characteristics} among {Diverse} {Ecosystems}}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{62}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \field{pages}{365\bibrangedash 392}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.2307/2937116
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/clement/Zotero/storage/ZNNA5EU4/Reich et al. - 1992 - Leaf Life-Span in Relation to Leaf, Plant, and Sta.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2937116
+      \endverb
+    \endentry
+    \entry{reich_evolution_2003}{article}{}
+      \name{author}{7}{uniquelist=2}{%
+        {{uniquename=2,hash=dc830331a440ad1737f7f3dff6f7256b}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=2,hash=a1926f4f8e2d16a571b6caecf512d447}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={I.\bibnamedelimi J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=4385463c0a061adcae66efe7e9415f14}{%
+           family={Cavender‐Bares},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=4d9ec9c842f60f3d4897f38886f529f4}{%
+           family={Craine},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=007c64ac569d449c0c4b45473c3c526b}{%
+           family={Oleksyn},
+           familyi={O\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=352e33773c82265d64b309bc351557c3}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=7ac8d8295308d3e9237a78b6f30c3e70}{%
+           family={Walters},
+           familyi={W\bibinitperiod},
+           given={M.\bibnamedelimi B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a49228f8a48b8cc90676515c516d1de}
+      \strng{fullhash}{5492ddbaf553a6191e3e45a3f699cf25}
+      \strng{authornamehash}{1a49228f8a48b8cc90676515c516d1de}
+      \strng{authorfullhash}{5492ddbaf553a6191e3e45a3f699cf25}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Variation in plant functional traits results from evolutionary and environmental drivers that operate at a variety of different scales, which makes it a challenge to differentiate among them. In this article we describe patterns of functional trait variation and trait correlations within and among habitats in relation to several environmental and trade‐off axes. We then ask whether such patterns reflect natural selection and can be considered plant strategies. In so doing we highlight evidence that demonstrates that (1) patterns of trait variation across resource and environmental gradients (light, water, nutrients, and temperature) probably reflect adaptation, (2) plant trait variation typically involves multiple‐correlated traits that arise because of inevitable trade‐offs among traits and across levels of whole‐plant integration and that must be understood from a whole‐plant perspective, and (3) such adaptation may be globally generalizable for like conditions; i.e., the set of traits (collections of traits in syndromes) of taxa can be considered as “plant strategies.”}
+      \field{issn}{1058-5893}
+      \field{journaltitle}{International Journal of Plant Sciences}
+      \field{month}{5}
+      \field{number}{S3}
+      \field{shorttitle}{The {Evolution} of {Plant} {Functional} {Variation}}
+      \field{title}{The {Evolution} of {Plant} {Functional} {Variation}: {Traits}, {Spectra}, and {Strategies}}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{164}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{S143\bibrangedash S164}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1086/374368
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/clement/Zotero/storage/5TDAF5UB/Reich et al. - 2003 - The Evolution of Plant Functional Variation Trait.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/10.1086/374368
+      \endverb
+    \endentry
+    \entry{reich_world-wide_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \strng{fullhash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \strng{authornamehash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \strng{authorfullhash}{16a0c1d77d39baccb7cc82c42cd3699f}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* The leaf economics spectrum (LES) provides a useful framework for examining species strategies as shaped by their evolutionary history. However, that spectrum, as originally described, involved only two key resources (carbon and nutrients) and one of three economically important plant organs. Herein, I evaluate whether the economics spectrum idea can be broadly extended to water – the third key resource –stems, roots and entire plants and to individual, community and ecosystem scales. My overarching hypothesis is that strong selection along trait trade-off axes, in tandem with biophysical constraints, results in convergence for any taxon on a uniformly fast, medium or slow strategy (i.e. rates of resource acquisition and processing) for all organs and all resources. * Evidence for economic trait spectra exists for stems and roots as well as leaves, and for traits related to water as well as carbon and nutrients. These apply generally within and across scales (within and across communities, climate zones, biomes and lineages). * There are linkages across organs and coupling among resources, resulting in an integrated whole-plant economics spectrum. Species capable of moving water rapidly have low tissue density, short tissue life span and high rates of resource acquisition and flux at organ and individual scales. The reverse is true for species with the slow strategy. Different traits may be important in different conditions, but as being fast in one respect generally requires being fast in others, being fast or slow is a general feature of species. * Economic traits influence performance and fitness consistent with trait-based theory about underlying adaptive mechanisms. Traits help explain differences in growth and survival across resource gradients and thus help explain the distribution of species and the assembly of communities across light, water and nutrient gradients. Traits scale up – fast traits are associated with faster rates of ecosystem processes such as decomposition or primary productivity, and slow traits with slow process rates. * Synthesis. Traits matter. A single ‘fast–slow’ plant economics spectrum that integrates across leaves, stems and roots is a key feature of the plant universe and helps to explain individual ecological strategies, community assembly processes and the functioning of ecosystems.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{number}{2}
+      \field{shorttitle}{The world-wide ‘fast–slow’ plant economics spectrum}
+      \field{title}{The world-wide ‘fast–slow’ plant economics spectrum: a traits manifesto}
+      \field{urlday}{16}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{102}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{275\bibrangedash 301}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12211
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/QC5VP2HC/Reich - 2014 - The world-wide ‘fast–slow’ plant economics spectru.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/4I6AEJ52/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12211/abstract
+      \endverb
+      \keyw{light,Carbon,ecophysiology,strategy,Leaf,phylogeny,nutrient,root,stem,water}
+    \endentry
     \entry{roscher_contrasting_2015}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=8e6c28c3b29c51e3957b7c5231b43a72}{%
@@ -721,6 +1676,95 @@
       \verb{url}
       \verb http://dx.doi.org/10.1371/journal.pone.0119786
       \endverb
+    \endentry
+    \entry{ryser_importance_1996}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7ec0a2c6198def84bba4f499d1e7f005}{%
+           family={Ryser},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ec0a2c6198def84bba4f499d1e7f005}
+      \strng{fullhash}{7ec0a2c6198def84bba4f499d1e7f005}
+      \strng{authornamehash}{7ec0a2c6198def84bba4f499d1e7f005}
+      \strng{authorfullhash}{7ec0a2c6198def84bba4f499d1e7f005}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{1. Under nutrient-poor conditions initially fast-growing species will in the long term be competitively inferior to slow-growing species. Here, we ask whether this phenomenon can be explained by constraints caused by tissue density. The hypothesis is that low tissue density is necessary for fast growth but has as a consequence short organ life span. This leads to a rapid loss of nutrients that cannot be sustained under nutrient-poor conditions. 2. Biomass accumulation, turnover rate of leaves and roots, and tissue density were studied for five ecologically contrasting grass species. Plants were grown in a garden experiment over two growing seasons on sand with a low nutrient supply level. 3. Species that were characteristic of nutrient-rich sites had a low leaf and root tissue density and were larger after one growing season than species of nutrient-poor sites. However, after two growing seasons the species of nutrient-poor sites were larger. These species had a high tissue density. 4. Life span of both leaves and roots was also correlated with tissue density. Species with low tissue density had a faster turnover of leaves and roots. 5. It is concluded that tissue structure is an inherent constraint that prevents simultaneous maximization of both nutrient acquisition and nutrient conservation. The short life span of fast-growing organs explains the long-term disadvantage of a high growth rate for plants in low nutrient conditions.}
+      \field{issn}{0269-8463}
+      \field{journaltitle}{Functional Ecology}
+      \field{number}{6}
+      \field{shorttitle}{The {Importance} of {Tissue} {Density} for {Growth} and {Life} {Span} of {Leaves} and {Roots}}
+      \field{title}{The {Importance} of {Tissue} {Density} for {Growth} and {Life} {Span} of {Leaves} and {Roots}: {A} {Comparison} of {Five} {Ecologically} {Contrasting} {Grasses}}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2016}
+      \field{volume}{10}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \field{pages}{717\bibrangedash 723}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.2307/2390506
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2390506
+      \endverb
+    \endentry
+    \entry{scheiter_impacts_2009}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=dfc068ffd83af5c3e273ee8350fcdd77}{%
+           family={Scheiter},
+           familyi={S\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=64b2f84378749672263358e29f5b0f94}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={Steven\bibnamedelima I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c88382ea6eca6cf5197ad0467154447e}
+      \strng{fullhash}{c88382ea6eca6cf5197ad0467154447e}
+      \strng{authornamehash}{c88382ea6eca6cf5197ad0467154447e}
+      \strng{authorfullhash}{c88382ea6eca6cf5197ad0467154447e}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recent IPCC projections suggest that Africa will be subject to particularly severe changes in atmospheric conditions. How the vegetation of Africa and particularly the grassland–savanna–forest complex will respond to these changes has rarely been investigated. Most studies on global carbon cycles use vegetation models that do not adequately account for the complexity of the interactions that shape the distribution of tropical grasslands, savannas and forests. This casts doubt on their ability to reliably simulate the future vegetation of Africa. We present a new vegetation model, the adaptive dynamic global vegetation model (aDGVM) that was specifically developed for tropical vegetation. The aDGVM combines established components from existing DGVMs with novel process-based and adaptive modules for phenology, carbon allocation and fire within an individual-based framework. Thus, the model allows vegetation to adapt phenology, allocation and physiology to changing environmental conditions and disturbances in a way not possible in models based on fixed functional types. We used the model to simulate the current vegetation patterns of Africa and found good agreement between model projections and vegetation maps. We simulated vegetation in absence of fire and found that fire suppression strongly influences tree dominance at the regional scale while at a continental scale fire suppression increases biomass in vegetation by a more modest 13\%. Simulations under elevated temperature and atmospheric CO2 concentrations predicted longer growing periods, higher allocation to roots, higher fecundity, more biomass and a dramatic shift toward tree dominated biomes. Our analyses suggest that the CO2 fertilization effect is not saturated at ambient CO2 levels and will strongly increase in response to further increases in CO2 levels. The model provides a general and flexible framework for describing vegetation response to the interactive effects of climate and disturbances.}
+      \field{issn}{1365-2486}
+      \field{journaltitle}{Global Change Biology}
+      \field{month}{9}
+      \field{number}{9}
+      \field{shorttitle}{Impacts of climate change on the vegetation of {Africa}}
+      \field{title}{Impacts of climate change on the vegetation of {Africa}: an adaptive dynamic vegetation modelling approach}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{15}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{2224\bibrangedash 2246}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1111/j.1365-2486.2008.01838.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/V5239A6E/Scheiter et Higgins - 2009 - Impacts of climate change on the vegetation of Afr.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/DR4WWAJQ/full.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2008.01838.x/abstract
+      \endverb
+      \keyw{Climate change,fire,DGVM,adaptive vegetation modelling,aDGVM,Africa,demographic model,process-based model,Savanna,vegetation distribution}
     \endentry
     \entry{siefert_global_2015}{article}{}
       \name{author}{45}{}{%
@@ -1177,11 +2221,263 @@
       \endverb
       \keyw{intraspecific variation,functional trait,community assembly,species coexistence,species diversity,mean field approach,T-statistics,variance}
     \endentry
+    \entry{westoby_leaf-height-seed_1998}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b7f0fb86b43bc1563488fea1037940e5}
+      \strng{fullhash}{b7f0fb86b43bc1563488fea1037940e5}
+      \strng{authornamehash}{b7f0fb86b43bc1563488fea1037940e5}
+      \strng{authorfullhash}{b7f0fb86b43bc1563488fea1037940e5}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A leaf-height-seed (LHS) plant ecology strategy scheme is proposed. The axes would be specific leaf area SLA (light-capturing area deployed per dry mass allocated), height of the plant's canopy at maturity, and seed mass. All axes would be log-scaled. The strategy of a species would be described by its position in the volume formed by the three axes. The advantages of the LHS scheme can be understood by comparing it to Grime's CSR scheme, which has Competitors, Stress-tolerators and Ruderals at the corners of a triangle. The CSR triangle is widely cited as expressing important strategic variation between species. The C–S axis reflects variation in responsiveness to opportunities for rapid growth; in the LHS scheme, SLA reflects the same type of variation. The R axis reflects coping with disturbance; in the LHS scheme, height and seed mass reflect separate aspects of coping with disturbance. A plant ecology strategy scheme that permitted any species worldwide to be readily positioned within the scheme could bring substantial benefits for improved meta-analysis of experimental results, for placing detailed ecophysiology in context, and for coping with questions posed by global change. In the CSR triangle the axes are defined by reference to concepts, there is no simple protocol for positioning species beyond the reference datasets within the scheme, and consequently benefits of worldwide comparison have not materialized. LHS does permit any vascular land plant species to be positioned within the scheme, without time-consuming measurement of metabolic rates or of field performance relative to other species. The merits of the LHS scheme reside (it is argued) in this potential for worldwide comparison, more than in superior explanatory power within any particular vegetation region. The LHS scheme avoids also two other difficulties with the CSR scheme: (a) It does not prejudge that there are no viable strategies under high stress and high disturbance (the missing quadrant in the CSR triangle compared to a two-axis rectangle); (b) It separates out two distinct aspects of the response to disturbance, height at maturity expressing the amount of growth attempted between disturbances, and seed mass (inverse of seed output per unit reproductive effort) expressing the capacity to colonize growth opportunities at a distance. The advantage of LHS axes defined through a single readily-measured variable needs to be weighed against the disadvantage that single plant traits may not capture as much strategy variation as CSR's multi-trait axes. It is argued that the benefits of potential worldwide comparison do actually outweigh any decrease in the proportion of meaningful variation between species that is captured. Further, the LHS scheme opens the path to quantifying what proportion of variation in any other ecologically-relevant trait is correlated with the LHS axes. This quantification could help us to move forward from unprofitable debates of the past 30 years, where CSR opponents have emphasized patterns that were not accommodated within the scheme, while CSR proponents have emphasized patterns that the scheme did account for.}
+      \field{issn}{0032-079X, 1573-5036}
+      \field{journaltitle}{Plant and Soil}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{A leaf-height-seed ({LHS}) plant ecology strategy scheme}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{199}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{213\bibrangedash 227}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1023/A:1004327224729
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/J7Q9PS65/Westoby - 1998 - A leaf-height-seed (LHS) plant ecology strategy sc.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/3K2SWN3T/10.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/article/10.1023/A%3A1004327224729
+      \endverb
+      \keyw{Plant Sciences,specific leaf area,Ecology,Plant functional types,seed mass,plant physiology,Soil Science \& Conservation,height of species canopy,meta-analysis,plant ecological strategy}
+    \endentry
+    \entry{wright_worldwide_2004}{article}{}
+      \name{author}{33}{}{%
+        {{uniquename=2,hash=774dc39f88a59406788266a8f4f1fa41}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=ef5903f7db819d2013433add3dc0f973}{%
+           family={Ackerly},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=c602e32bfd2e1878c5e28b93d707423e}{%
+           family={Baruch},
+           familyi={B\bibinitperiod},
+           given={Zdravko},
+           giveni={Z\bibinitperiod}}}%
+        {{uniquename=0,hash=18ab3e8f947bd99f77a7fa2882cdd938}{%
+           family={Bongers},
+           familyi={B\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=a90dd87c17cf666a967756ac228e2596}{%
+           family={Cavender-Bares},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Jeannine},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=002db4e2a97c70ed8b57c39ec641f552}{%
+           family={Chapin},
+           familyi={C\bibinitperiod},
+           given={Terry},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=59199cd41f1dcf2209b714a87daff5f9}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=4bf8fece4b2c1ac1dcb3cde1e3c7d121}{%
+           family={Diemer},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=966acc5bc522bf9fa7e9fd3de8c4e5a2}{%
+           family={Flexas},
+           familyi={F\bibinitperiod},
+           given={Jaume},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=adce00945e25fd9866396dce1da9fb57}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=03db198e720dc772dc2c25e24262140f}{%
+           family={Groom},
+           familyi={G\bibinitperiod},
+           given={Philip\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=95b879db5f4309f032bd90ea4cf7ac51}{%
+           family={Gulias},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=b37ef90307ccac34e3e3d1ffb4a20baf}{%
+           family={Hikosaka},
+           familyi={H\bibinitperiod},
+           given={Kouki},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=e92921d529ff1e0426d87b4b6aa26c2c}{%
+           family={Lamont},
+           familyi={L\bibinitperiod},
+           given={Byron\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=e3aa947ccfe6bc49999b33a9453bcc33}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Tali},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=604f10696ef6e0ad0315289704f87bd6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=57f3eef13856b7a61a1c3af4d9d9c70c}{%
+           family={Lusk},
+           familyi={L\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=82ed655c88723cc641a0b8d47badd4d2}{%
+           family={Midgley},
+           familyi={M\bibinitperiod},
+           given={Jeremy\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=335c97b0d11aedf8e1f612f7c73d573f}{%
+           family={Navas},
+           familyi={N\bibinitperiod},
+           given={Marie-Laure},
+           giveni={M\bibinithyphendelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=5db084f5d3894b3621b086945c2e725b}{%
+           family={Niinemets},
+           familyi={N\bibinitperiod},
+           given={Ülo},
+           giveni={Ü\bibinitperiod}}}%
+        {{uniquename=0,hash=bdb2b7d2559a5c19f0d6321af7da017e}{%
+           family={Oleksyn},
+           familyi={O\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=62ced274a51d1349bab7eca9771dd4b6}{%
+           family={Osada},
+           familyi={O\bibinitperiod},
+           given={Noriyuki},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=b0fe6414967317208445b7096f19e1a3}{%
+           family={Poot},
+           familyi={P\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=82f3f0c010c4ba9be9163d4f835f5b5c}{%
+           family={Prior},
+           familyi={P\bibinitperiod},
+           given={Lynda},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=620262dedc8d100ce5a1e4699783d005}{%
+           family={Pyankov},
+           familyi={P\bibinitperiod},
+           given={Vladimir\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=5fd127d49aaa74f15c0d8e1c03eb8ad2}{%
+           family={Roumet},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=4407e2d72f326c2893a3a24de34d247f}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Sean\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=c0d2500fd2a1a2c078d98be0a3a8c865}{%
+           family={Tjoelker},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=99769b962950b9f84fe8263ad10baaeb}{%
+           family={Veneklaas},
+           familyi={V\bibinitperiod},
+           given={Erik\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=2632650f1a99ff7322d26a87c62c4554}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9eec28f8526a30f38277d1f364777612}
+      \strng{fullhash}{ad230580115ef199fabc3627245af9f2}
+      \strng{authornamehash}{9eec28f8526a30f38277d1f364777612}
+      \strng{authorfullhash}{ad230580115ef199fabc3627245af9f2}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bringing together leaf trait data spanning 2,548 species and 175 sites we describe, for the first time at global scale, a universal spectrum of leaf economics consisting of key chemical, structural and physiological properties. The spectrum runs from quick to slow return on investments of nutrients and dry mass in leaves, and operates largely independently of growth form, plant functional type or biome. Categories along the spectrum would, in general, describe leaf economic variation at the global scale better than plant functional types, because functional types overlap substantially in their leaf traits. Overall, modulation of leaf traits and trait relationships by climate is surprisingly modest, although some striking and significant patterns can be seen. Reliable quantification of the leaf economics spectrum and its interaction with climate will prove valuable for modelling nutrient fluxes and vegetation boundaries under changing land-use and climate.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{4}
+      \field{number}{6985}
+      \field{title}{The worldwide leaf economics spectrum}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{428}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{821\bibrangedash 827}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nature02403
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/QSCP4ZKT/Wright et al. - 2004 - The worldwide leaf economics spectrum.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/RRB2V9IN/nature02403.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v428/n6985/abs/nature02403.html
+      \endverb
+    \endentry
   \endsortlist
-  \missing{TRY}
+  \missing{de_bello_towards_2010}
+  \missing{cornelissen_handbook_2003}
+  \missing{reich_world-wilde_2013}
+  \missing{elton_1927}
   \missing{gallaway_2003}
-  \missing{kunstler}
   \missing{barabas_effect_2016}
+  \missing{TRY}
 \endrefsection
 \endinput
 
