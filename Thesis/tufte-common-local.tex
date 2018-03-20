@@ -1,16 +1,38 @@
 
 \titleformat{\part}%
   [display]% shape
-  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\RaggedRight \begin{fullwidth}}{}}% format applied to label+text
   {\Huge\thepart}% label
   {0pt}% horizontal separation between label and title body
   {\Huge\sffamily\scshape}% before the title body
   [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+
+%\renewcommand{\maketitlepage}{%
+%  \cleardoublepage
+%  \begin{fullwidth}%
+%    \sffamily
+%    \RaggedRight\sloppy% <-- added this line
+%    \fontsize{18}{20}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklessauthor}}%
+%    \vspace{11.5pc}%
+%    \fontsize{32}{36}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklesstitle}}%
+%    \vfill
+%    \fontsize{14}{16}\selectfont\par\noindent\allcaps{\thanklesspublisher}%
+%  \end{fullwidth}%
+%  \thispagestyle{empty}%
+%  \clearpage
+%}
+%\titleformat{\part}%
+%  [display]% shape
+%  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+%  {\Huge\thepart}% label
+%  {0pt}% horizontal separation between label and title body
+%  {\Huge\sffamily\scshape}% before the title body
+%  [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
  
  \titleclass{\chapter}{top}
 \titleformat{\chapter}%
   [block]% shape
-  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\relax\sffamily\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth} \RaggedRight}{}}% format applied to label+text
   {\Huge\thechapter}% label
   {1em}% horizontal separation between label and title body
   {\huge\sffamily\scshape}% before the title body

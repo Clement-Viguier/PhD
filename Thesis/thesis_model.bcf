@@ -2150,6 +2150,21 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20171106.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
+    <bcf:citekey order="1">costanza_value_1997</bcf:citekey>
+    <bcf:citekey order="2">koorner_alpine_2003</bcf:citekey>
+    <bcf:citekey order="3">diaz_plant_2007</bcf:citekey>
+    <bcf:citekey order="4">engler_21st_2011</bcf:citekey>
+    <bcf:citekey order="5">schirpke_multiple_2012</bcf:citekey>
+    <bcf:citekey order="6">gilman_framework_2010</bcf:citekey>
+    <bcf:citekey order="7">debouk_functional_2015</bcf:citekey>
+    <bcf:citekey order="8">rosbakh_elevation_2014</bcf:citekey>
+    <bcf:citekey order="9">merila_climate_2014</bcf:citekey>
+    <bcf:citekey order="10">schirpke_multiple_2012</bcf:citekey>
+    <bcf:citekey order="11">morin_comparing_2009</bcf:citekey>
+    <bcf:citekey order="12">rodriguez_lingra-cc:_1999</bcf:citekey>
+    <bcf:citekey order="13">morin_comparing_2009</bcf:citekey>
+    <bcf:citekey order="14">hanel_phenotypic_2015</bcf:citekey>
+    <bcf:citekey order="15">berger_competition_2008</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2183,24 +2198,28 @@
     <bcf:citekey order="18">reich_world-wilde_2013</bcf:citekey>
     <bcf:citekey order="19">lavorel_predicting_2002</bcf:citekey>
     <bcf:citekey order="20">chalmandrier_communities_2015</bcf:citekey>
-    <bcf:citekey order="21">grime_evidence_1977</bcf:citekey>
-    <bcf:citekey order="22">westoby_leaf-height-seed_1998</bcf:citekey>
-    <bcf:citekey order="23">scheiter_impacts_2009</bcf:citekey>
-    <bcf:citekey order="24">jung_intraspecific_2014</bcf:citekey>
-    <bcf:citekey order="25">poorter_biomass_2012</bcf:citekey>
-    <bcf:citekey order="26">poorter_leaf_2006</bcf:citekey>
-    <bcf:citekey order="27">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="28">siefert_global_2015</bcf:citekey>
-    <bcf:citekey order="29">albert_importance_2012</bcf:citekey>
-    <bcf:citekey order="30">violle_return_2012</bcf:citekey>
-    <bcf:citekey order="31">hart_how_2016</bcf:citekey>
-    <bcf:citekey order="32">courbaud_intra-specific_2010</bcf:citekey>
-    <bcf:citekey order="33">turcotte_phenotypic_2016</bcf:citekey>
-    <bcf:citekey order="34">roscher_contrasting_2015</bcf:citekey>
-    <bcf:citekey order="35">valladares_species_2015</bcf:citekey>
-    <bcf:citekey order="36">barabas_effect_2016</bcf:citekey>
-    <bcf:citekey order="37">jung_intraspecific_2010</bcf:citekey>
-    <bcf:citekey order="38">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="21">lavorel_how_2012</bcf:citekey>
+    <bcf:citekey order="22">lamarque_plant_2014</bcf:citekey>
+    <bcf:citekey order="23">grime_evidence_1977</bcf:citekey>
+    <bcf:citekey order="24">westoby_leaf-height-seed_1998</bcf:citekey>
+    <bcf:citekey order="25">scheiter_impacts_2009</bcf:citekey>
+    <bcf:citekey order="26">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="27">poorter_biomass_2012</bcf:citekey>
+    <bcf:citekey order="28">poorter_leaf_2006</bcf:citekey>
+    <bcf:citekey order="29">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="30">siefert_global_2015</bcf:citekey>
+    <bcf:citekey order="31">albert_importance_2012</bcf:citekey>
+    <bcf:citekey order="32">violle_return_2012</bcf:citekey>
+    <bcf:citekey order="33">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="34">courbaud_intra-specific_2010</bcf:citekey>
+    <bcf:citekey order="35">turcotte_phenotypic_2016</bcf:citekey>
+    <bcf:citekey order="36">roscher_contrasting_2015</bcf:citekey>
+    <bcf:citekey order="37">valladares_species_2015</bcf:citekey>
+    <bcf:citekey order="38">barabas_effect_2016</bcf:citekey>
+    <bcf:citekey order="39">jung_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="40">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="41">morin_comparing_2009</bcf:citekey>
+    <bcf:citekey order="42">richter_phenotypic_2012</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

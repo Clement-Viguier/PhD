@@ -1,35 +1,47 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis_model.blg'
-[28] biber-MSWIN64:303> INFO - === 
-[51] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
-[142] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[142] Biber.pm:835> INFO - Found 0 citekeys in bib section 1
-[142] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[142] Biber.pm:835> INFO - Found 38 citekeys in bib section 2
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 3
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 4
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
-[143] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[193] Biber.pm:3670> INFO - Processing section 2
-[211] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 2
-[362] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[614] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
-[799] Utils.pm:164> WARN - I didn't find a database entry for 'de_bello_towards_2010' (section 2)
-[799] Utils.pm:164> WARN - I didn't find a database entry for 'elton_1927' (section 2)
-[799] Utils.pm:164> WARN - I didn't find a database entry for 'TRY' (section 2)
-[799] Utils.pm:164> WARN - I didn't find a database entry for 'cornelissen_handbook_2003' (section 2)
-[799] Utils.pm:164> WARN - I didn't find a database entry for 'gallaway_2003' (section 2)
-[799] Utils.pm:164> WARN - I didn't find a database entry for 'reich_world-wilde_2013' (section 2)
-[799] Utils.pm:164> WARN - I didn't find a database entry for 'barabas_effect_2016' (section 2)
-[1102] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1102] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1102] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[1102] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1137] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
-[1150] bbl.pm:712> INFO - Output to thesis_model.bbl
-[1151] Biber.pm:109> INFO - WARNINGS: 7
+[90] biber-MSWIN64:303> INFO - === 
+[320] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
+[422] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[423] Biber.pm:835> INFO - Found 13 citekeys in bib section 1
+[423] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[423] Biber.pm:835> INFO - Found 42 citekeys in bib section 2
+[423] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[423] Biber.pm:835> INFO - Found 0 citekeys in bib section 3
+[423] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[424] Biber.pm:835> INFO - Found 0 citekeys in bib section 4
+[424] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[424] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
+[424] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[424] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
+[424] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[488] Biber.pm:3670> INFO - Processing section 1
+[608] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 1
+[798] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1088] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
+[1275] Utils.pm:164> WARN - I didn't find a database entry for 'costanza_value_1997' (section 1)
+[1276] Utils.pm:164> WARN - I didn't find a database entry for 'koorner_alpine_2003' (section 1)
+[1276] Utils.pm:164> WARN - I didn't find a database entry for 'schirpke_multiple_2012' (section 1)
+[1276] Utils.pm:164> WARN - I didn't find a database entry for 'debouk_functional_2015' (section 1)
+[1276] Utils.pm:164> WARN - I didn't find a database entry for 'morin_comparing_2009' (section 1)
+[1352] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1352] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1352] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[1352] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1362] Biber.pm:3670> INFO - Processing section 2
+[1363] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 2
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'de_bello_towards_2010' (section 2)
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'elton_1927' (section 2)
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'TRY' (section 2)
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'cornelissen_handbook_2003' (section 2)
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'gallaway_2003' (section 2)
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'reich_world-wilde_2013' (section 2)
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'barabas_effect_2016' (section 2)
+[1463] Utils.pm:164> WARN - I didn't find a database entry for 'morin_comparing_2009' (section 2)
+[1793] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1793] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1793] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[1793] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1833] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
+[1851] bbl.pm:712> INFO - Output to thesis_model.bbl
+[1851] Biber.pm:109> INFO - WARNINGS: 13

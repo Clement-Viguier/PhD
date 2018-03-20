@@ -65,9 +65,10 @@
 
  \addbibresource{../Bibliography/bib_zotero20171106.bib}
 %\includeonly{./2_PP/Generic_model,./2_PP/Individual_level}
+\includeonly{./0_Objectives/Objectives, ./1_Introduction/Introduction}
 
 %\include{./0_Objectives/Objectives}
-\includeonly{./1_Introduction/Introduction}
+%\includeonly{./1_Introduction/Introduction}
 %\include{./2_PP/Generic_model}
 %\include{./2_PP/Individual_level}
 %\include{./2_PP/Community_dynamics}
@@ -170,6 +171,22 @@
 % \listfiles
 
 
+% Title page correction:
+\renewcommand{\maketitlepage}{%
+  \cleardoublepage
+  \begin{fullwidth}%
+    \sffamily
+    \RaggedRight\sloppy% <-- added this line
+    \fontsize{18}{20}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklessauthor}}%
+    \vspace{11.5pc}%
+    \fontsize{32}{36}\selectfont\par\noindent\textcolor{darkgray}{\allcaps{\thanklesstitle}}%
+    \vfill
+    \fontsize{14}{16}\selectfont\par\noindent\allcaps{\thanklesspublisher}%
+  \end{fullwidth}%
+  \thispagestyle{empty}%
+  \clearpage
+}
+
 % Commands use to make the title page and page headers
 %\title{Effect of phenotypic plasticity on plant performance and community dynamics: a new agent-based model for mountain grasslands}
 
@@ -256,6 +273,9 @@ To answer both the need for a dynamic model of species rich communities and the 
 %Mountain grasslands, as many natural or semi-natural systems, provide numerous ecosystem services. Assessing the level of these services is crucial for better management of these systems, and relies on detailed characterisation of the community structure and processes.
 %The rise of functional ecology lead to improvement in the understanding and prediction of community assembly rules, response to driver and link to services. But, because the alpine grasslands are vulnerable to global change, and already experience new conditions, traditional patterns are not sufficient enough to predict future alpine community dynamics. There is an urgent need for now predictive and understanding tools to explore diverse scenarios of climate and mangement changes. Moreover, considering the complexity of the mechanisms driving alpine grasslands dynamics,  mechanistic modelling approaches constitute interesting alternative to this challenge. Mechanisstic agent-based models are great tools to explore diverse scenarios and build an understandting of main mechanisms at stake. Furthermore, recent litterature also highlighted the importance of individual variations for community response to external conditions, while the effects of such intraspecific variations on main coexistence mechanisms are not yet disentangled. New mechanistic approaches should focus on individual functioning, and particularly integrate mechanism of individual adaptation to varying conditions, and study its impact at the scale of the community.
 
+%theoretical work: I apologize to colleagues and mountain avicionados, but this work will be more centred around modelling challenges and phenotypic plasticity than around specific mountain processes and extraordianry species diversity.
+
+
 \tableofcontents
 
 
@@ -277,7 +297,7 @@ To answer both the need for a dynamic model of species rich communities and the 
 \begin{refsection}
 \setcounter{chapter}{0}
 
-\include{./1_Introduction/Introduction}
+\include{./1_Introduction/Introduction}\label{literature}
 
 \begin{fullwidth}
 \printbibliography[heading=bibliography] 
@@ -286,7 +306,7 @@ To answer both the need for a dynamic model of species rich communities and the 
 
 
 %____________________________________________________________
-\part{Modelling alpine grasslands with MountGrass, a generic framework integrating phenotypic plasticity}
+\part{Modelling alpine grasslands with MountGrass, a generic framework integrating phenotypic plasticity}\label{part:model}
 \setcounter{chapter}{0}
 \begin{refsection}
 
@@ -302,7 +322,7 @@ To answer both the need for a dynamic model of species rich communities and the 
 
 
 %____________________________________________________________
-\part{Individual performance: strategy and plasticity}
+\part{Individual performance: strategy and plasticity}\label{part:individuals}
 
 \begin{refsection}
 \setcounter{chapter}{0}
@@ -314,7 +334,7 @@ To answer both the need for a dynamic model of species rich communities and the 
 \end{refsection}
 
 %____________________________________________________________
-\part{Community dynamics}
+\part{Community dynamics}\label{part:community}
 
 \begin{refsection}
 \setcounter{chapter}{0}
