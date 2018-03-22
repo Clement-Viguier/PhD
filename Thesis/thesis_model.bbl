@@ -78,14 +78,84 @@
       \endverb
       \keyw{Individual-based model,Ecological field,Field-of-neighbourhood,Grid-based model,Tessellation,Zone-of-influence}
     \endentry
-    \entry{diaz_plant_2007}{article}{}
-      \name{author}{14}{}{%
+    \entry{diaz_incorporating_2007}{article}{}
+      \name{author}{6}{uniquelist=3}{%
         {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
            family={Díaz},
            familyi={D\bibinitperiod},
            given={Sandra},
            giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+        {{uniquename=2,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Francesco\bibnamedelima de},
+           giveni={F\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{uniquename=0,hash=b0ad98f5991cb415c688c3b19156dfdd}{%
+           family={Quétier},
+           familyi={Q\bibinitperiod},
+           given={Fabien},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=5af91d0b53639e8e2e3e8aef9f7ccddc}{%
+           family={Robson},
+           familyi={R\bibinitperiod},
+           given={T.\bibnamedelimi Matthew},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5b20c49a394723eea8f17ebdb26e9fd8}
+      \strng{fullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
+      \strng{authornamehash}{5b20c49a394723eea8f17ebdb26e9fd8}
+      \strng{authorfullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Global environmental change affects the sustained provision of a wide set of ecosystem services. Although the delivery of ecosystem services is strongly affected by abiotic drivers and direct land use effects, it is also modulated by the functional diversity of biological communities (the value, range, and relative abundance of functional traits in a given ecosystem). The focus of this article is on integrating the different possible mechanisms by which functional diversity affects ecosystem properties that are directly relevant to ecosystem services. We propose a systematic way for progressing in understanding how land cover change affects these ecosystem properties through functional diversity modifications. Models on links between ecosystem properties and the local mean, range, and distribution of plant trait values are numerous, but they have been scattered in the literature, with varying degrees of empirical support and varying functional diversity components analyzed. Here we articulate these different components in a single conceptual and methodological framework that allows testing them in combination. We illustrate our approach with examples from the literature and apply the proposed framework to a grassland system in the central French Alps in which functional diversity, by responding to land use change, alters the provision of ecosystem services important to local stakeholders. We claim that our framework contributes to opening a new area of research at the interface of land change science and fundamental ecology.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{PNAS}
+      \field{month}{12}
+      \field{number}{52}
+      \field{title}{Incorporating plant functional diversity effects in ecosystem service assessments}
+      \field{urlday}{6}
+      \field{urlmonth}{1}
+      \field{urlyear}{2015}
+      \field{volume}{104}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{20684\bibrangedash 20689}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0704716104
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/ZD6S3GIK/Díaz et al. - 2007 - Incorporating plant functional diversity effects i.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/H4X7BW6P/20684.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/104/52/20684
+      \endverb
+      \keyw{biodiversity,plant functional traits,land change,mass ratio hypothesis}
+    \endentry
+    \entry{diaz_plant_2007}{article}{}
+      \name{author}{14}{uniquelist=3}{%
+        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
+           family={Díaz},
+           familyi={D\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=2,hash=677db54ef11e52aff5462cb3e4de80a0}{%
            family={Lavorel},
            familyi={L\bibinitperiod},
            given={Sandra},
@@ -154,9 +224,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{4fbc03d537a6a41ed4e64fcd65a32233}
+      \strng{namehash}{d0fbb4bd47ce3cec69d2df3ccccf00ef}
       \strng{fullhash}{0577e584d4b30e2d5d1ea88733d9b56c}
-      \strng{authornamehash}{4fbc03d537a6a41ed4e64fcd65a32233}
+      \strng{authornamehash}{d0fbb4bd47ce3cec69d2df3ccccf00ef}
       \strng{authorfullhash}{0577e584d4b30e2d5d1ea88733d9b56c}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -479,6 +549,57 @@
       \endverb
       \keyw{Plant Sciences,plasticity,Phenology,Drought,Ecology,adaptation,Annual plants,Hydrology/Water Resources}
     \endentry
+    \entry{lavorel_predicting_2002}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=2,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=a62a2c0ade1761f353fe402bdd1a0242}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \strng{fullhash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \strng{authornamehash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \strng{authorfullhash}{fb95910ffd13cdb11bd0edb153aeee43}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* 1The concept of plant functional type proposes that species can be grouped according to common responses to the environment and/or common effects on ecosystem processes. However, the knowledge of relationships between traits associated with the response of plants to environmental factors such as resources and disturbances (response traits), and traits that determine effects of plants on ecosystem functions (effect traits), such as biogeochemical cycling or propensity to disturbance, remains rudimentary. * 2We present a framework using concepts and results from community ecology, ecosystem ecology and evolutionary biology to provide this linkage. Ecosystem functioning is the end result of the operation of multiple environmental filters in a hierarchy of scales which, by selecting individuals with appropriate responses, result in assemblages with varying trait composition. Functional linkages and trade-offs among traits, each of which relates to one or several processes, determine whether or not filtering by different factors gives a match, and whether ecosystem effects can be easily deduced from the knowledge of the filters. * 3To illustrate this framework we analyse a set of key environmental factors and ecosystem processes. While traits associated with response to nutrient gradients strongly overlapped with those determining net primary production, little direct overlap was found between response to fire and flammability. * 4We hypothesize that these patterns reflect general trends. Responses to resource availability would be determined by traits that are also involved in biogeochemical cycling, because both these responses and effects are driven by the trade-off between acquisition and conservation. On the other hand, regeneration and demographic traits associated with response to disturbance, which are known to have little connection with adult traits involved in plant ecophysiology, would be of little relevance to ecosystem processes. * 5This framework is likely to be broadly applicable, although caution must be exercised to use trait linkages and trade-offs appropriate to the scale, environmental conditions and evolutionary context. It may direct the selection of plant functional types for vegetation models at a range of scales, and help with the design of experimental studies of relationships between plant diversity and ecosystem properties.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{Predicting changes in community composition and ecosystem functioning from plant traits}
+      \field{title}{Predicting changes in community composition and ecosystem functioning from plant traits: revisiting the {Holy} {Grail}}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{545\bibrangedash 556}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1046/j.1365-2435.2002.00664.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/BUFIMFTA/Lavorel et Garnier - 2002 - Predicting changes in community composition and ec.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/2QB3IAGP/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2435.2002.00664.x/abstract
+      \endverb
+      \keyw{trade-offs,Biogeochemical cycles,disturbance,effect traits,fire,resource gradient,response traits,scaling-up}
+    \endentry
     \entry{merila_climate_2014}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=10dd34462709ae0f144a9acc365738b5}{%
@@ -524,6 +645,44 @@
       \endverb
       \verb{url}
       \verb http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894893/
+      \endverb
+    \endentry
+    \entry{mountain_research_initiative_edw_working_group_elevation-dependent_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8320363f7939258501228e934c6a4eaa}{%
+           family={{Mountain Research Initiative EDW Working Group}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8320363f7939258501228e934c6a4eaa}
+      \strng{fullhash}{8320363f7939258501228e934c6a4eaa}
+      \strng{authornamehash}{8320363f7939258501228e934c6a4eaa}
+      \strng{authorfullhash}{8320363f7939258501228e934c6a4eaa}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1758-678X, 1758-6798}
+      \field{journaltitle}{Nature Climate Change}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Elevation-dependent warming in mountain regions of the world}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{424\bibrangedash 430}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nclimate2563
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/articles/nclimate2563
       \endverb
     \endentry
     \entry{rodriguez_lingra-cc:_1999}{article}{}
@@ -639,17 +798,162 @@
     \endentry
   \endsortlist
   \missing{koorner_alpine_2003}
-  \missing{debouk_functional_2015}
-  \missing{morin_comparing_2009}
   \missing{schirpke_multiple_2012}
+  \missing{morin_comparing_2009}
+  \missing{debouk_functional_2015}
   \missing{costanza_value_1997}
+  \missing{de_bello_towards_2010}
 \endrefsection
 
 \refsection{2}
   \sortlist[entry]{nyt/global/}
+    \entry{albert_multi-trait_2010}{article}{}
+      \name{author}{6}{uniquelist=4}{%
+        {{uniquename=2,hash=0079f3101aba22dd13af09d4407eb7f5}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima Hélène},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=5b9a619b918b0e975d33953eef757321}{%
+           family={Yoccoz},
+           familyi={Y\bibinitperiod},
+           given={Nigel\bibnamedelima Gilles},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=9a328b78939f50583bdd8376d5527985}{%
+           family={Douzet},
+           familyi={D\bibinitperiod},
+           given={Rolland},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=6dbdaf06fcb74c6237936ba550532f12}{%
+           family={Aubert},
+           familyi={A\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c933e1cc5fa174e9820b49a2466b59fb}
+      \strng{fullhash}{f4bd9ceb600e4363bfe9064f62ea0b6f}
+      \strng{authornamehash}{c933e1cc5fa174e9820b49a2466b59fb}
+      \strng{authorfullhash}{f4bd9ceb600e4363bfe9064f62ea0b6f}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. Functional traits have been extensively used to describe, group and rank species according to their functions. There is now growing evidence that intraspecific functional variability, as well as interspecific variability, can have significant effects on community dynamics and ecosystem functioning. A core hypothesis for the use of functional traits expressed as species means, that their intraspecific variability is negligible compared with their interspecific variability, has however been too rarely tested empirically. We then addressed four questions: Is intraspecific functional variability across species ranges negligible compared with interspecific variability? Are the major resource economics trade-off and functional strategies robust to individual trait variability? Are species rankings or ordination robust across species ranges once considering intraspecific variability? Can species be discriminated by their leaf traits? 2. Using an environmentally stratified sampling design within an alpine catchment, we collected five functional traits for 13 common plant species with contrasting life histories and traits. Several populations from a range of environmental conditions were then sampled for each species across their ranges. 3. With an original combination of single-trait and multi-trait analyses, we highlighted a non-negligible contribution of intraspecific variability to overall functional trait variability (∼30\%). Although not affecting general and well-known functional trade-offs and strategies, intraspecific functional variability had the potential to alter species ordination and produced a functional continuum rather than a clear-cut species classification. 4. Deciding whether intraspecific functional variability can be considered as negligible – species being represented by mean trait values –, or not – species being represented by multivariate trait distributions –, is an essential question for multiple ecological issues. However, this decision cannot be generic, but will depend on the studied system and selected traits and species, as well as on study objectives.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{number}{6}
+      \field{title}{A multi-trait approach reveals the structure and the relative importance of intra- vs. interspecific variability in plant traits}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{24}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{1192\bibrangedash 1201}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1365-2435.2010.01727.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/4TBC62NV/Albert et al. - 2010 - A multi-trait approach reveals the structure and t.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/9GTXGAFX/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2435.2010.01727.x/abstract
+      \endverb
+      \keyw{plant functional traits,leaf economics spectrum,alpine ecosystems,environmental gradients,functional strategies,interspecific and intraspecific variability,linear mixed models,species ranking}
+    \endentry
+    \entry{albert_intraspecific_2010}{article}{}
+      \name{author}{7}{uniquelist=4}{%
+        {{uniquename=2,hash=0079f3101aba22dd13af09d4407eb7f5}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima Hélène},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=5b9a619b918b0e975d33953eef757321}{%
+           family={Yoccoz},
+           familyi={Y\bibinitperiod},
+           given={Nigel\bibnamedelima Gilles},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=9091a5ff351fdcd0b19e47b62dfb22d3}{%
+           family={Soudant},
+           familyi={S\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9ae70c66ac3a173d580f13ecbf361af4}{%
+           family={Boucher},
+           familyi={B\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=029d0ccd04c90bd5a8e1a087128c929b}{%
+           family={Saccone},
+           familyi={S\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{60ccaf184bcddbd3d20acd47637d63a4}
+      \strng{fullhash}{ec8eabaa4b2cbf7bc5629080f1dcac46}
+      \strng{authornamehash}{60ccaf184bcddbd3d20acd47637d63a4}
+      \strng{authorfullhash}{ec8eabaa4b2cbf7bc5629080f1dcac46}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{1. Functional traits are increasingly used to investigate community structure, ecosystem functioning or to classify species into functional groups. These functional traits are expected to be variable between and within species. Intraspecific functional variability is supposed to influence and modulate species responses to environmental changes and their effects on their environment. However, this hypothesis remains poorly tested and species are mostly described by mean trait values without any consideration of variability in individual trait values. 2. In this study, we quantify the extent of intraspecific plant functional trait variability, its spatial structure and its response to environmental factors. Using a sampling design structured along two direct and orthogonal climatic gradients in an alpine valley, we quantified and analysed the intraspecific variability for three functional traits (height, leaf dry matter content and leaf nitrogen content) measured on sixteen plant species with contrasting life histories. 3. Results showed a large variability of traits within species with large discrepancies between functional traits and species. This variability did not appear to be structured within populations. Between populations, the overall variability was partly explained by the selected gradients. Despite the strong effects of temperature and radiation on trait intraspecific variability, the response curves of traits along gradients were partly idiosyncratic. 4.Synthesis. Giving a comprehensive quantification of intraspecific functional variability through the analysis of an original data set, we report new evidence that using a single trait value to describe a given species can hide large functional variation for this species along environmental gradients. These findings suggest that intraspecific functional variability should be a concern for ecologists and its recognition opens new opportunities to better understand and predict ecological patterns in a changing environment. Further analyses are, however, required to compare inter- and intraspecific variability.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{Journal of Ecology}
+      \field{number}{3}
+      \field{shorttitle}{Intraspecific functional variability}
+      \field{title}{Intraspecific functional variability: extent, structure and sources of variation}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{98}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{604\bibrangedash 613}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1365-2745.2010.01651.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/WZKZKHVU/Albert et al. - 2010 - Intraspecific functional variability extent, stru.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/5BMBM2E3/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2010.01651.x/abstract
+      \endverb
+      \keyw{intraspecific variability,plant functional traits,temperature,alpine ecosystems,environmental gradients,linear mixed models,Leaf traits,life forms,radiation,response surface methodology}
+    \endentry
     \entry{albert_importance_2012}{article}{}
       \name{author}{6}{}{%
-        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
+        {{uniquename=2,hash=e8b2a05af229dec13260ee602ba35594}{%
            family={Albert},
            familyi={A\bibinitperiod},
            given={Cécile\bibnamedelima H.},
@@ -715,6 +1019,174 @@
       \endverb
       \verb{url}
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0706.2011.19672.x/abstract
+      \endverb
+    \endentry
+    \entry{de_bello_quantifying_2011}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,hash=4f541e029495cc4e5864a69760cbfb91}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=f433b1c0dcf9467735c719eba298afb3}{%
+           family={Dolezal},
+           familyi={D\bibinitperiod},
+           given={Jiři},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=8e2b887b58f6406e7c3c44902b89362e}{%
+           family={Janeček},
+           familyi={J\bibinitperiod},
+           given={Štepán},
+           giveni={Š\bibinitperiod}}}%
+        {{uniquename=0,hash=0e41f650a259125784dff8f4af8d6771}{%
+           family={Lepš},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{93d29e1eed8e3fd5dba6790c7b4b6ac7}
+      \strng{fullhash}{97ca86438e3538d3d050a83a04f0f3e8}
+      \strng{authornamehash}{93d29e1eed8e3fd5dba6790c7b4b6ac7}
+      \strng{authorfullhash}{97ca86438e3538d3d050a83a04f0f3e8}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. Intraspecific trait variability is a crucial, often neglected, component of functional diversity (FD) in ecological communities. In particular, uncertainty remains as to the importance of intraspecific variability in the quantification of FD. 2. To explore this uncertainty, we propose two methods addressing two critical and complementary, but largely unexplored, questions: (i) what is the extent of within- vs. between-species FD in different communities? and (ii) to what extent is the response of FD to environment because of compositional turnover vs. intraspecific trait variability across habitats? The methods proposed to address these questions are built on a variance partitioning approach and have the advantage of including species relative abundance, therefore taking into account species dominance and rarity. For each of the questions, we illustrate one dedicated case study in semi-natural grasslands with associated sampling strategies. 3. The decomposition of total community variance into within- vs. between-species effects can be implemented in a manner similar to the decomposition of quadratic entropy on pairwise individual dissimilarity. The approach can be applied with single and multiple traits, although it proves more informative for single traits. It can prove particularly useful when assessing the role of different sources of trait variability in the assembly of communities. 4. The assessment of the relative contribution of intraspecific trait variability and species turnover to the response of FD to environment is based on a variance partitioning comparing FD indices computed (i) either using individuals measured in a specific habitat alone (FDhabitat) or (ii) all individuals measured across different habitats (FDfixed). This approach provides a more complete understanding of the response of FD to environment. 5. We further propose a guide to apply these two methods and to choose the most suitable method for intraspecific trait measurements. Assessing the role of intraspecific trait variability should allow a more comprehensive understanding of the processes that link species and ecosystems.}
+      \field{issn}{2041-210X}
+      \field{journaltitle}{Methods in Ecology and Evolution}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Quantifying the relevance of intraspecific trait variability for functional diversity}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{163\bibrangedash 174}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.2041-210X.2010.00071.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/SXDZXXPA/de Bello et al. - 2011 - Quantifying the relevance of intraspecific trait v.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/RPNDHHBB/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.2041-210X.2010.00071.x/abstract
+      \endverb
+      \keyw{biodiversity,Community dynamics,Grassland management,mass-ratio hypothesis,repeated measures,trait convergence and divergence,trait intraspecific variability,variance partitioning}
+    \endentry
+    \entry{bolnick_why_2011}{article}{}
+      \name{author}{10}{}{%
+        {{uniquename=0,hash=9534fa72fa8df38626838207dcff8952}{%
+           family={Bolnick},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=ee00ad5feccd4e69554fccc1acfe12a3}{%
+           family={Amarasekare},
+           familyi={A\bibinitperiod},
+           given={Priyanga},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=4c6b8c2f9fdde216fde396e93677484c}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={Márcio\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=a6860075db38929a096d06be2241934a}{%
+           family={Bürger},
+           familyi={B\bibinitperiod},
+           given={Reinhard},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=f0349b6ecec405963c9d9112034a8608}{%
+           family={Novak},
+           familyi={N\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=84851d32a2f4938a5bcf08e7c68d9b06}{%
+           family={Rudolf},
+           familyi={R\bibinitperiod},
+           given={Volker\bibnamedelimb H.\bibnamedelimi W.},
+           giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=400bf6121dcc396f69c08f9793c933e3}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Sebastian\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=12bd5e59dacd3f5875d35c0d1adcc426}{%
+           family={Urban},
+           familyi={U\bibinitperiod},
+           given={Mark\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=21d0816a13418c16cad96beb8927544a}{%
+           family={Vasseur},
+           familyi={V\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1372a1b68d0fa7287dcc746b9d56ee6a}
+      \strng{fullhash}{5cb796dfa4b48f684c5da590b6f0b30a}
+      \strng{authornamehash}{1372a1b68d0fa7287dcc746b9d56ee6a}
+      \strng{authorfullhash}{5cb796dfa4b48f684c5da590b6f0b30a}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Natural populations consist of phenotypically diverse individuals that exhibit variation in their demographic parameters and intra- and inter-specific interactions. Recent experimental work indicates that such variation can have significant ecological effects. However, ecological models typically disregard this variation and focus instead on trait means and total population density. Under what situations is this simplification appropriate? Why might intraspecific variation alter ecological dynamics? In this review we synthesize recent theory and identify six general mechanisms by which trait variation changes the outcome of ecological interactions. These mechanisms include several direct effects of trait variation per se and indirect effects arising from the role of genetic variation in trait evolution.}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Why intraspecific trait variation matters in community ecology}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{26}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{183\bibrangedash 192}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.tree.2011.01.009
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/CUK7657T/Bolnick et al. - 2011 - Why intraspecific trait variation matters in commu.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/4AF7T5TB/S0169534711000243.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169534711000243
       \endverb
     \endentry
     \entry{chalmandrier_communities_2015}{thesis}{}
@@ -1359,6 +1831,58 @@
       \endverb
       \keyw{functional diversity,Spain,specific leaf area,Comparative ecology,Plant functional types,Argentina,England,Iran,Recurrent patterns of specialization}
     \endentry
+    \entry{frei_plastic_2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=253a94097b56e3f42636018a06d33d1c}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Esther\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=24c8fab018df3f9e88edf8a17665f7b9}{%
+           family={Ghazoul},
+           familyi={G\bibinitperiod},
+           given={Jaboury},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=9eba46c0a754270a55032ff0526ae322}{%
+           family={Pluess},
+           familyi={P\bibinitperiod},
+           given={Andrea\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{fullhash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authornamehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authorfullhash}{3974ba1beee343e76fb182b388d9a503}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Local persistence of plant species in the face of climate change is largely mediated by genetic adaptation and phenotypic plasticity. In species with a wide altitudinal range, population responses to global warming are likely to differ at contrasting elevations. In controlled climate chambers, we investigated the responses of low and high elevation populations (1200 and 1800 m a.s.l.) of three nutrient-poor grassland species, Trifolium montanum, Ranunculus bulbosus, and Briza media, to ambient and elevated temperature. We measured growth-related, reproductive and phenological traits, evaluated differences in trait plasticity and examined whether trait values or plasticities were positively related to approximate fitness and thus under selection. Elevated temperature induced plastic responses in several growth-related traits of all three species. Although flowering phenology was advanced in T. montanum and R. bulbosus, number of flowers and reproductive allocation were not increased under elevated temperature. Plasticity differed between low and high elevation populations only in leaf traits of T. montanum and B. media. Some growth-related and phenological traits were under selection. Moreover, plasticities were not correlated with approximate fitness indicating selectively neutral plastic responses to elevated temperature. The observed plasticity in growth-related and phenological traits, albeit variable among species, suggests that plasticity is an important mechanism in mediating plant responses to elevated temperature. However, the capacity of species to respond to climate change through phenotypic plasticity is limited suggesting that the species additionally need evolutionary adaptation to adjust to climate change. The observed selection on several growth-related and phenological traits indicates that the study species have the potential for future evolution in the context of a warming climate.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Plastic {Responses} to {Elevated} {Temperature} in {Low} and {High} {Elevation} {Populations} of {Three} {Grassland} {Species}}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{e98677}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0098677
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/J6WCD3VV/Frei et al. - 2014 - Plastic Responses to Elevated Temperature in Low a.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/JQDE5G9E/article.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098677
+      \endverb
+      \keyw{Climate change,natural selection,Evolutionary adaptation,Flowering plants,Flowers,Leaves,Phenotypes,Population genetics}
+    \endentry
     \entry{grime_evidence_1977}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=a3e0beb729aa361dfee5e8212a94c3ba}{%
@@ -1554,7 +2078,7 @@
            familyi={J\bibinitperiod},
            given={Vincent},
            giveni={V\bibinitperiod}}}%
-        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
+        {{uniquename=2,hash=e8b2a05af229dec13260ee602ba35594}{%
            family={Albert},
            familyi={A\bibinitperiod},
            given={Cécile\bibnamedelima H.},
@@ -2011,6 +2535,68 @@
       \endverb
       \keyw{biodiversity effects,ecological intensification of agriculture,fertility,leaf economics spectrum,mountain grassland,multifunctionality,plant size,plant–soil (below-ground) interactions,secondary succession,structural equation model}
     \endentry
+    \entry{leps_community_2011}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=0e41f650a259125784dff8f4af8d6771}{%
+           family={Lepš},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=4f541e029495cc4e5864a69760cbfb91}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=c56883afce1d8c748ccdb7f81878fa48}{%
+           family={Šmilauer},
+           familyi={Š\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=d36d825551182b77002c9bab83d9d415}{%
+           family={Doležal},
+           familyi={D\bibinitperiod},
+           given={Jiří},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f161f7fd1005e1fdbf370f798b0f1d7a}
+      \strng{fullhash}{9d3506b829a85512330989b4a6b7beba}
+      \strng{authornamehash}{f161f7fd1005e1fdbf370f798b0f1d7a}
+      \strng{authorfullhash}{9d3506b829a85512330989b4a6b7beba}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ecological communities and their response to environmental gradients are increasingly being described by various measures of trait composition. Aggregated trait averages (i.e. averages of trait values of constituent species, weighted by species proportions) are popular indices reflecting the functional characteristics of locally dominant species. Because the variation of these indices along environmental gradients can be caused by both species turnover and intraspecific trait variability, it is necessary to disentangle the role of both components to community variability. For quantitative traits, trait averages can be calculated from ‘fixed’ trait values (i.e. a single mean trait value for individual species used for all habitats where the species is found) or trait values for individual species specific to each plot, or habitat, where the species is found. Changes in fixed averages across environments reflect species turnover, while changes in specific traits reflect both species turnover and within-species variability in traits. Here we suggest a practical method (accompanied by a set of R functions) that, by combining ‘fixed’ and ‘specific averages’, disentangles the effect of species turnover, intraspecific trait variability, and their covariation. These effects can be further decomposed into parts ascribed to individual explanatory variables (i.e. treatments or environmental gradients considered). The method is illustrated with a case study from a factorial mowing and fertilization experiment in a meadow in South Bohemia. Results show that the variability decomposition differs markedly among traits studied (height, Specific Leaf Area, Leaf N, P, C concentrations, leaf and stem dry matter content), both according to the relative importance of species turnover and intraspecific variability, and also according to their response to experimental factors. Both the effect of intraspecific trait variability and species turnover must be taken into account when assessing the functional role of community trait structure. Neglecting intraspecific trait variability across habitats often results in underestimating the response of communities to environmental changes.}
+      \field{issn}{1600-0587}
+      \field{journaltitle}{Ecography}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{Community trait response to environment}
+      \field{title}{Community trait response to environment: disentangling species turnover vs intraspecific trait variability effects}
+      \field{urlday}{14}
+      \field{urlmonth}{4}
+      \field{urlyear}{2016}
+      \field{volume}{34}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{856\bibrangedash 863}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1600-0587.2010.06904.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/7QKIZGTW/Lepš et al. - 2011 - Community trait response to environment disentang.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/ZT4AU9CH/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0587.2010.06904.x/abstract
+      \endverb
+    \endentry
     \entry{levine_beyond_2017}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
@@ -2071,9 +2657,405 @@
       \endverb
       \keyw{Ecology}
     \endentry
-    \entry{poorter_biomass_2012}{article}{}
+    \entry{maire_plasticity_2013}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=1ecb3c0a8262af560d1c5fcef2827334}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=e2164a868a1325c3620341fa60a87e8d}{%
+           family={Soussana},
+           familyi={S\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=20bc47afa486108f8b1605d9414b8f4e}{%
+           family={Bachelet},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=261bcfcede26359224469323ef46e9fb}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=cb5fddc06ebefe93982aee016fd0446a}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=64dea7bf168c8dc3cbf52f2c68a4c3da}{%
+           family={Reinhold},
+           familyi={R\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=adb5797edad2975fdfafaaa7afcc19b3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{fullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \strng{authornamehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{authorfullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gemini, a mechanistic model linking plant functional traits, plant populations, community dynamics, and ecosystem scale fluxes in grasslands has been reported in a companion paper (Soussana et al., 2012). For monocultures and six species mixtures of perennial grass species, this model has been successfully evaluated against experimental data of above-ground net primary productivity (ANPP) and plant community structure across nitrogen and disturbance (cutting frequency) gradients. The Gemini model combines two categories of processes: (i) C and N fluxes, (ii) morphogenesis and architecture of roots and shoots and demography of clonal plant axes. These two process categories constrain the form and function of the simulated clonal plants within plastic limits. We show here that the plasticity of the simulated plant populations accounts for well-established empirical laws: (i) root:shoot ratio, (ii) self-thinning, (iii) critical shoot N content, and (iv) role of plant traits (specific leaf area and plant height) for population response to environmental gradients (nitrogen and disturbance). Moreover, we show that model versions for which plasticity simulation has been partly or fully suppressed have a reduced ANPP in monocultures and in binary mixtures and do not capture anymore productivity and dominance changes across environmental gradients. We conclude that, along environmental and competition gradients, the plasticity of plant form and function is required to maintain the coordination of multiple resource capture and, hence, to sustain productivity and dominance.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{4}
+      \field{title}{Plasticity of plant form and function sustains productivity and dominance along environment and competition gradients. {A} modeling experiment with {Gemini}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{254}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{80\bibrangedash 91}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2012.03.039
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/6M2NIXS7/Maire et al. - 2013 - Plasticity of plant form and function sustains pro.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/GB6MJWWT/S0304380012001664.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380012001664
+      \endverb
+      \keyw{Growth,Carbon,Nitrogen,Functional balance,partitioning,biodiversity,grassland,Coordination theory}
+    \endentry
+    \entry{merila_climate_2014}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=10dd34462709ae0f144a9acc365738b5}{%
+           family={Merilä},
+           familyi={M\bibinitperiod},
+           given={Juha},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=144faf3c16fdb000ed6d381dc1f57285}{%
+           family={Hendry},
+           familyi={H\bibinitperiod},
+           given={Andrew\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ba7a2f9af26db0b636ed3cd6e743ddc}
+      \strng{fullhash}{3ba7a2f9af26db0b636ed3cd6e743ddc}
+      \strng{authornamehash}{3ba7a2f9af26db0b636ed3cd6e743ddc}
+      \strng{authorfullhash}{3ba7a2f9af26db0b636ed3cd6e743ddc}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Many studies have recorded phenotypic changes in natural populations and attributed them to climate change. However, controversy and uncertainty has arisen around three levels of inference in such studies. First, it has proven difficult to conclusively distinguish whether phenotypic changes are genetically based or the result of phenotypic plasticity. Second, whether or not the change is adaptive is usually assumed rather than tested. Third, inferences that climate change is the specific causal agent have rarely involved the testing – and exclusion – of other potential drivers. We here review the various ways in which the above inferences have been attempted, and evaluate the strength of support that each approach can provide. This methodological assessment sets the stage for 11 accompanying review articles that attempt comprehensive syntheses of what is currently known – and not known – about responses to climate change in a variety of taxa and in theory. Summarizing and relying on the results of these reviews, we arrive at the conclusion that evidence for genetic adaptation to climate change has been found in some systems, but is still relatively scarce. Most importantly, it is clear that more studies are needed – and these must employ better inferential methods – before general conclusions can be drawn. Overall, we hope that the present paper and special issue provide inspiration for future research and guidelines on best practices for its execution.}
+      \field{issn}{1752-4571}
+      \field{journaltitle}{Evol Appl}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Climate change, adaptation, and phenotypic plasticity}
+      \field{title}{Climate change, adaptation, and phenotypic plasticity: the problem and the evidence}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{volume}{7}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/eva.12137
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:/home/clement/Zotero/storage/32UFCBFG/Merilä et Hendry - 2014 - Climate change, adaptation, and phenotypic plastic.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894893/
+      \endverb
+    \endentry
+    \entry{nicotra_plant_2010}{article}{}
+      \name{author}{11}{}{%
+        {{uniquename=2,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
+           family={Nicotra},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=6a3ac543c65dccbfd2ef9012c6021c11}{%
+           family={Atkin},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi K.},
+           giveni={O\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=3773b2d00ee3d9beca57ee7e186e78fa}{%
+           family={Bonser},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=1f8a27fbb080296e65fc104d55929107}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c438d4833cbf84f89b68dda1f5b79493}{%
+           family={Finnegan},
+           familyi={F\bibinitperiod},
+           given={E.\bibnamedelimi J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=694017826ff0ff52d638f1d420368888}{%
+           family={Mathesius},
+           familyi={M\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{uniquename=0,hash=ba8b650338638bb1fb948fc3152dba69}{%
+           family={Poot},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=013cb78d301d18344461457871e6ebca}{%
+           family={Purugganan},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=c935afd08cdbb7649486a9618a7659d9}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=09e16a9538c6d25cc495d5cc82f1a09a}{%
+           family={Valladares},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=24f6e625157c5253d1ed4546b70853bb}{%
+           family={Kleunen},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{fullhash}{2c084fb92673fff36b9f746ecf767e35}
+      \strng{authornamehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{authorfullhash}{2c084fb92673fff36b9f746ecf767e35}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change is altering the availability of resources and the conditions that are crucial to plant performance. One way plants will respond to these changes is through environmentally induced shifts in phenotype (phenotypic plasticity). Understanding plastic responses is crucial for predicting and managing the effects of climate change on native species as well as crop plants. Here, we provide a toolbox with definitions of key theoretical elements and a synthesis of the current understanding of the molecular and genetic mechanisms underlying plasticity relevant to climate change. By bringing ecological, evolutionary, physiological and molecular perspectives together, we hope to provide clear directives for future research and stimulate cross-disciplinary dialogue on the relevance of phenotypic plasticity under climate change.}
+      \field{issn}{1360-1385}
+      \field{journaltitle}{Trends in Plant Science}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Plant phenotypic plasticity in a changing climate}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{15}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{684\bibrangedash 692}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.tplants.2010.09.008
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/PA9AKDXT/Nicotra et al. - 2010 - Plant phenotypic plasticity in a changing climate.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/7CPN4P82/S1360138510001986.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1360138510001986
+      \endverb
+    \endentry
+    \entry{nicotra_adaptive_2015}{article}{}
       \name{author}{6}{}{%
-        {{uniquename=1,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+        {{uniquename=2,hash=c8ee58ff0a461a6e5f4b895e0efb73ae}{%
+           family={Nicotra},
+           familyi={N\bibinitperiod},
+           given={Adrienne\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=7b64fe8d09e9dac729ba8ff2e0cd7fed}{%
+           family={Segal},
+           familyi={S\bibinitperiod},
+           given={Deborah\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=bb83c735ebea05e63e81d6db373125da}{%
+           family={Hoyle},
+           familyi={H\bibinitperiod},
+           given={Gemma\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=4d835901735485d2e975055a3011a6d6}{%
+           family={Schrey},
+           familyi={S\bibinitperiod},
+           given={Aaron\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=f0d1abffd4207ed586081d045671ae42}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={Koen\bibnamedelimb J.\bibnamedelimi F.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=5b6fd28c97ce8591c1d0d0098399a8cf}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Christina\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{fullhash}{31098619250de14af172a06c276ec6f2}
+      \strng{authornamehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{authorfullhash}{31098619250de14af172a06c276ec6f2}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Environmentally induced phenotypic plasticity may be a critical component of response to changing environments. We examined local differentiation and adaptive phenotypic plasticity in response to elevated temperature in half-sib lines collected across an elevation gradient for the alpine herb, Wahlenbergia ceracea. Using Amplified Fragment Length Polymorphism (AFLP), we found low but significant genetic differentiation between low- and high-elevation seedlings, and seedlings originating from low elevations grew faster and showed stronger temperature responses (more plasticity) than those from medium and high elevations. Furthermore, plasticity was more often adaptive for plants of low-elevation origin and maladaptive for plants of high elevation. With methylation sensitive-AFLP (MS-AFLP), we revealed an increase in epigenetic variation in response to temperature in low-elevation seedlings. Although we did not find significant direct correlations between MS-AFLP loci and phenotypes, our results demonstrate that adaptive plasticity in temperature response to warming varies over fine spatial scales and suggest the involvement of epigenetic mechanisms in this response.}
+      \field{issn}{2045-7758}
+      \field{journaltitle}{Ecol Evol}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Adaptive plasticity and epigenetic variation in response to warming in an {Alpine} plant}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{634\bibrangedash 647}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/ece3.1329
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/SG7WESVJ/Nicotra et al. - 2015 - Adaptive plasticity and epigenetic variation in re.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/5WFR77RN/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/ece3.1329/abstract
+      \endverb
+      \keyw{global warming,epigenetics,Adaptive plasticity,DNA methylation,alpine plants,amplified fragment length polymorphism}
+    \endentry
+    \entry{niinemets_global-scale_2001}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5db084f5d3894b3621b086945c2e725b}{%
+           family={Niinemets},
+           familyi={N\bibinitperiod},
+           given={Ülo},
+           giveni={Ü\bibinitperiod}}}%
+      }
+      \strng{namehash}{5db084f5d3894b3621b086945c2e725b}
+      \strng{fullhash}{5db084f5d3894b3621b086945c2e725b}
+      \strng{authornamehash}{5db084f5d3894b3621b086945c2e725b}
+      \strng{authorfullhash}{5db084f5d3894b3621b086945c2e725b}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-9658}
+      \field{journaltitle}{Ecology}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Global-scale climatic controls of leaf dry mass per area, density, and thickness in trees and shrubs}
+      \field{urlday}{23}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{82}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{453\bibrangedash 469}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1890/0012-9658(2001)082[0453:GSCCOL]2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/E57BVUUB/Niinemets - 2001 - Global-scale climatic controls of leaf dry mass pe.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/IDR4SQX8/0012-9658(2001)082[0453GSCCOL]2.0.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.esajournals.org/doi/full/10.1890/0012-9658(2001)082%5B0453:GSCCOL%5D2.0.CO;2
+      \endverb
+      \keyw{aridity,elastic modulus,foliar water relations,leaf construction cost,leaf density,leaf thickness,solar radiation}
+    \endentry
+    \entry{poorter_causes_2009}{article}{}
+      \name{author}{5}{uniquelist=2}{%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=5db084f5d3894b3621b086945c2e725b}{%
+           family={Niinemets},
+           familyi={N\bibinitperiod},
+           given={Ülo},
+           giveni={Ü\bibinitperiod}}}%
+        {{uniquename=0,hash=cc9aeabc9f121eff68f24dfc985d75d8}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Lourens},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=2632650f1a99ff7322d26a87c62c4554}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{74604ed9b8b7ead0e4766e9460f26510}
+      \strng{fullhash}{bcc58e2d969e805240f88f4e16389c25}
+      \strng{authornamehash}{74604ed9b8b7ead0e4766e9460f26510}
+      \strng{authorfullhash}{bcc58e2d969e805240f88f4e16389c25}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytologist}
+      \field{number}{3}
+      \field{shorttitle}{Causes and consequences of variation in leaf mass per area ({LMA})}
+      \field{title}{Causes and consequences of variation in leaf mass per area ({LMA}): a meta-analysis}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{182}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{565\bibrangedash 588}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1111/j.1469-8137.2009.02830.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/UDD8B6K7/Poorter et al. - 2009 - Causes and consequences of variation in leaf mass .pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/N7UHHRVR/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2009.02830.x/abstract
+      \endverb
+      \keyw{plasticity,functional types,chemical composition,environment,growth rate,leaf anatomy,trait spectrum}
+    \endentry
+    \entry{poorter_biomass_2012}{article}{}
+      \name{author}{6}{uniquelist=2}{%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
            family={Poorter},
            familyi={P\bibinitperiod},
            given={Hendrik},
@@ -2107,9 +3089,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{13ecc15841e5641c3a414252ae9ae1e1}
+      \strng{namehash}{f2b36b91148b4814c8947e5de96330ec}
       \strng{fullhash}{8a1983206a1852189744ffbbc4a2059b}
-      \strng{authornamehash}{13ecc15841e5641c3a414252ae9ae1e1}
+      \strng{authornamehash}{f2b36b91148b4814c8947e5de96330ec}
       \strng{authorfullhash}{8a1983206a1852189744ffbbc4a2059b}
       \field{sortinit}{P}
       \field{sortinithash}{24100cef455d7974167575052c29146e}
@@ -2141,56 +3123,6 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2011.03952.x/abstract
       \endverb
       \keyw{allocation,partitioning,functional types,global change,allometry,environment,dose–response curve,meta-phenomics}
-    \endentry
-    \entry{poorter_leaf_2006}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=1,hash=cc9aeabc9f121eff68f24dfc985d75d8}{%
-           family={Poorter},
-           familyi={P\bibinitperiod},
-           given={Lourens},
-           giveni={L\bibinitperiod}}}%
-        {{uniquename=0,hash=18ab3e8f947bd99f77a7fa2882cdd938}{%
-           family={Bongers},
-           familyi={B\bibinitperiod},
-           given={Frans},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{cb007d2d117826427813f043a445de49}
-      \strng{fullhash}{cb007d2d117826427813f043a445de49}
-      \strng{authornamehash}{cb007d2d117826427813f043a445de49}
-      \strng{authorfullhash}{cb007d2d117826427813f043a445de49}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We compared the leaf traits and plant performance of 53 co-occurring tree species in a semi-evergreen tropical moist forest community. The species differed in all leaf traits analyzed: leaf life span varied 11-fold among species, specific leaf area 5-fold, mass-based nitrogen 3-fold, mass-based assimilation rate 13-fold, mass-based respiration rate 15-fold, stomatal conductance 8-fold, and photosynthetic water use efficiency 4-fold. Photosynthetic traits were strongly coordinated, and specific leaf area predicted mass-based rates of assimilation and respiration; leaf life span predicted many other leaf characteristics. Leaf traits were closely associated with growth, survival, and light requirement of the species. Leaf investment strategies varied on a continuum trading off short-term carbon gain against long-term leaf persistence that, in turn, is linked to variation in whole-plant growth and survival. Leaf traits were good predictors of plant performance, both in gaps and in the forest understory. High growth in gaps is promoted by cheap, short-lived, and physiologically active leaves. High survival in the forest understory is enhanced by the formation of long-lived well protected leaves that reduce biomass loss by herbivory, mechanical disturbance, or leaf turnover. Leaf traits underlay this growth–survival trade-off; species with short-lived, physiologically active leaves have high growth but low survival. This continuum in leaf traits, through its effect on plant performance, in turn gives rise to a continuum in species' light requirements.}
-      \field{issn}{1939-9170}
-      \field{journaltitle}{Ecology}
-      \field{month}{7}
-      \field{number}{7}
-      \field{title}{Leaf {Traits} {Are} {Good} {Predictors} of {Plant} {Performance} {Across} 53 {Rain} {Forest} {Species}}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2016}
-      \field{volume}{87}
-      \field{year}{2006}
-      \field{urldateera}{ce}
-      \field{pages}{1733\bibrangedash 1743}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1890/0012-9658(2006)87[1733:LTAGPO]2.0.CO;2
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/clement/Zotero/storage/56XNRQKX/Poorter et Bongers - 2006 - Leaf Traits Are Good Predictors of Plant Performan.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/WHTEG2ZK/abstract.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1890/0012-9658(2006)87[1733:LTAGPO]2.0.CO;2/abstract
-      \endverb
-      \keyw{Bolivia,Growth,leaf life span,light,light requirements,niche differentiation,photosynthesis,shade tolerance,survival,Tropical rain forest}
     \endentry
     \entry{reich_leaf_1992}{article}{}
       \name{author}{3}{}{%
@@ -3279,14 +4211,13 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{gallaway_2003}
-  \missing{elton_1927}
-  \missing{barabas_effect_2016}
-  \missing{reich_world-wilde_2013}
-  \missing{de_bello_towards_2010}
   \missing{morin_comparing_2009}
-  \missing{cornelissen_handbook_2003}
+  \missing{reich_world-wilde_2013}
+  \missing{barabas_effect_2016}
   \missing{TRY}
+  \missing{cornelissen_handbook_2003}
+  \missing{elton_1927}
+  \missing{gallaway_2003}
 \endrefsection
 \endinput
 

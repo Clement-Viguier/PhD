@@ -12,46 +12,6 @@ While this thesis is a modelling thesis, it is not a modelling textbook, and rat
 
 
 
-%-----------------------------------------------------------------------------------------
-\subsection{From community description to ecosystem services: the facets of the community}
-
-Ecosystem services are various. Some of them can be easily assess (e.g. fooder production and quality), while others are more subjective (cultural or recreational services) or hard to measure (carbon sequestration, water purification etc...). But all of them rely on a good description of the system, even though this description do not have to be complete as certain aspect of an ecosystem might not be relevant to all provided services. Linking ecosystem services to ecosystem properties is essential both for the understanding of processes controlling these services, and for an easier quantification of such services. This is particularly important for the prediction of services levels to plan management practices in the context of global change.
-
-In case of terrestrial ecosystems, vegetation cover is often central because of: it role of primary production, and the fact that vegetation community informs a lot on the properties of the abiotic and biotic conditions. Moreover, a most of studies on services from terrestrial ecosystem are interested in plants and soil invertebrate \cite{de_bello_towards_2010}. In addition, in alpine habitats plant communities are succeptible to be the first impacted by global change because they cannot escape changes in conditions and are the target of management practices linked to fodder productions. These reasons support the central role of vegetation in ecosystem services assessments. The question of the description and prediction of plant communities properties and dynamics will be addressed more in details in the following sections of this chapter, but it is important to establish the main components of a vegetation community link with provided services.
-
-
-\paragraph{Diversity}
-
-
-\paragraph{Identity}
-
-\paragraph{Productivity}
-The loss of species can impact services in two different ways: first loosing species may lead to the reduction, or disparition, of a service associated to a particular species; second, some services are directly related to the species diversity itself.
-
-Mountain grasslands provide numerous ecosystem services 
-
-ecosystem services depends on abiotic, but also biotic factors and properties. 
-
-%
-%%-----------------------------------------------------------------------------------------
-%\subsection{The facets of plant communities}
-
-\textbf{Plant communities are complex interconnected systems. In order to evaluate ecosystem services, they can be summarised by three main types of variables that capture different dimensions of such systems: the diversity, the productivity and the identity. These dimensions can be studied independently or jointly and give different information on secondary properties and provided services.}
-
-
-%-----------------------------------------------------------------------------------------
-\subsection{From processes to properties}
-
-The assessment of ecosystem services relies on a detailed characterisation of the community structure and properties. The knowledge of species characteristics and relative abundance allows the computation of summary variables that characterise the plant community. Long history of plant study and description gives us good knowledge of benefit provided by specific species. 
-²
-This structure is defined by the relative abundance of the different species of the community. Multiple drivers affect the relative abundance of a given species, from abiotic filtering processes to biotic interactions. 
-
-Need of mechanisms to produce dynamics and give properties.
-
-\textbf{The complexity of plant community dynamics requires mechanistic approaches to understand and predict system properties in new, extreme, and variable conditions. }
-
-
-\textbf{The evaluation of ecosystem services relies on a precise description of the ecosystem abiotic and biotic properties. The plant community is the most dynamic and complex driver of ecosystem services, but direct links can be drawn between the fine description of the community and the ecosystem services. Understanding and prediction the main variables dynamics that capture those links is necessary to efficiently predict changes in ecosystem services levels.}
 
 % _______________________________________________________________________________________
 \section{Community assembly and coexistence}
@@ -275,10 +235,12 @@ reich, wright, shipley, diaz.
 % _______________________________________________________________________________________
 \section{How traits link to ecosystem properties}
 
+The link between community properties and ecosystem services has been mentioned in chapter \ref{part:introduction}, this section develops processes involved and how functional traits are integrated into this link.
+
 %-----------------------------------------------------------------------------------------
 \subsection{Mass Ratio Hypothesis, Community Weighted Means, and functional identity}
 
-As explained at the beginning of this chapter, plant species, based on their identity, provide ecosystem services. Some of these services are direct consequences of the characteristic of the species and their functioning. The greater the abundance of a species that supply particular ...
+As explained, plant species, based on their identity, provide ecosystem services. Some of these services are direct consequences of the characteristic of the species and their functioning. The greater the abundance of a species that supply particular ...
 
 Because functional traits are quantitative variables, they can be manipulated more easily than factors. Therefore, while phytosociology describe vegetation communities with broad types and approximate abundances, trait-based ecology benefit from this continuity to characterise mean properties of community. The \textemph{Community Weighted Mean} of a functional trait is the average of species specific trait values weighted by the relative abundance of each species, and correspond to a mathematical application of the mass ratio hypothesis. These summary variables define the communities in a quantitative way similar as functional trait for species. In addition to be quantitative, it is functional and responses to disturbing factors can be predicted \parencite{lavorel_predicting_2002}.
 
@@ -337,7 +299,7 @@ traits - related to trade-off in ES bundles, mostly driven by climate change (ra
 % Section/chapter conclusion
 \textbf{The shift from species centred paradigm to trait approaches unlocked numerous discoveries in plant community ecology. In addition to facilitate the study of the effect of abiotic conditions and biotic interaction, traits can be used to describe the community and its main properties to evaluate ecosystem services.}
 
-\textbf{However, the accumulation of trait measurements useful for the study of gradient response patterns and community structure, also reveals the variable nature of traits.}
+%\textbf{However, the accumulation of trait measurements useful for the study of gradient response patterns and community structure, also reveals the variable nature of traits.}
 
 
 
@@ -393,13 +355,21 @@ specific trade-off related to the context \parencite{scheiter_impacts_2009}
 
 \paragraph{In IBMs}
 
-why not too much on IBMs (but Reineking, Marechaud ?, falster)
+why not too much on IBMs (but Reineking, Marechaud ?, falster, meh, I guess that Lohier's and Maire's are sort of strategy space) - because lower community models at this scale: gap to fill.
+
+But when it's used: break the growing function that links phenotype, genotype and environment ( see figure \ref{fig:paradigm_shift}). Same growing function: no need for specific parameters: smae rules for all, but different phenotypes. (the concept of genotype and phenoptype would merge for functional traits, if there was not other control on other aspects, phenotype defines itself). This is important as it allows for intra-specific variations that would necessite more complex function in the first paradigm. 
+
+The growing function, in a simulation model includes all steps from resource gathering and transformation, biomass allocation and phenotype alteration (\textit{e.g.} frost, graing \textit{etc}...), takes as inputs the phenotype and environment, and gives the new state of the phenotype (and environment). 
+
+ figure \ref{fig:paradigm_shift}
+
+This last paragraph is important to link with the plasticity in a later paragraph.
 
 
 %-----------------------------------------------------------------------------------------
 \subsection{How models inform us on properties and dynamics}
 
-\textbf{The use of strategy spaces in models allows the representation of high diversity in a common plant functioning framework requiring limited number of parameters. Such approaches are very useful to follow the dynamics of communities in a mechanistic framework. Individual models tends to ignore such simplifications procedure and relies on direct measure of traits of interest because they generally integrate a limited number of species. IBMS that can take advantage of trade-offs and simple strategy spaces to model diverse communities at small scales.}
+\textbf{The use of strategy spaces in models allows the representation of high diversity in a common plant functioning framework requiring limited number of parameters. Such approaches are very useful to follow the dynamics of communities in a mechanistic framework. Individual models tends to ignore such simplifications procedure and relies on direct measure of traits of interest because they generally integrate a limited number of species. IBMS can take advantage of trade-offs and simple strategy spaces to model diverse communities at small scales while keeping biological mechanisms at their core. However, model based of strategy space tend to consider mean individuals and ignore the individual variations.}
 
 
 % #######################################################################################
@@ -408,26 +378,85 @@ why not too much on IBMs (but Reineking, Marechaud ?, falster)
 % _______________________________________________________________________________________
 \section{Intra-specific variability change the rules}
 
+
 %-----------------------------------------------------------------------------------------
 \subsection{Increasing interest in intra-specific variations}
-\paragraph{Rising interest...}
-More interest in trait distribution, variability and diversity. $\rightarrow$ Get to look at intra-specific variability.\\
-Jung: not always in the same way \parencite{jung_intraspecific_2014}\\
 
-\parencite{poorter_biomass_2012}
-\parencite{poorter_leaf_2006}
-\parencite{kichenin_contrasting_2013}
-\parencite{siefert_global_2015}
-\parencite{albert_importance_2012}
-\parencite{violle_return_2012}
+Trait approaches emergences lead to a better understanding of general patterns of community responses to drivers and of trade-offs in plant functioning. But with the accumulation of large trait databases the importance of \textemph{intra-specific variability} could not be ignored.
 
-\textbf{After the emergence of trait-based ecology and its high potential, recent focus on intra-specific trait variability question the strength of such approaches. While it does not negate numerous conclusion from previous work, the effect of intra-specific variability on community dynamics processes must be interogated, and underlying mechanisms investigated.}
+\paragraph{Extend}
+
+The extend of the intra-specific variation is a big question as some ecologists point out because trait based approaches make sense only if inter-specific differences are greater than intra-specific differences. While this can be discussed, high functional variability within the species would weaken theories and generalisation based of mean traits. \cite{violle_return_2012} suggest that the extend of within population variability relatively to within community variability should be considered and avoid mistakes in the estimation of coexistence mechanisms. Ignoring intra-specific variability lead to underestimation of niche overlapping, plastic response to neighbours or the fraction of resource a species can used. Multiple studies focused on the extend of functional intra-specific variability \parencite{albert_intraspecific_2010, albert_multi-trait_2010} and how to disentangle this vairability from species turn-over \parencite{leps_community_2011} in community response. These studies show contrasting results between traits and levels. \cite{albert_multi-trait_2010} demonstrate a within species variability explaining between 20\% and 40\% of total trait variance, and \cite{siefert_global_2015} note similar levels, but this fraction tends to decrease with the increasing community diversity. They also show that the strategic differentiation between exploitative and conservative species is robust to these variations. It appears that all traits are not variable to the same degree and traits like SLA, height, LNC and LDMC are relatively variable while leaf morphology traits variability is lower\cite{siefert_global_2015}. 
+
+The variability of multiple traits certainly impacts the functional diversity \parencite{de_bello_quantifying_2011, albert_importance_2012}. All indexes are not sensitive to the same degree, with single trait measure being the most sensitive, but should be used carefully to draw interpretation of ecological pattern linked to functional diversity. To overcome this difficulty and disentangle the effects of the different forms of functional diversity specific indexes are developed \parencite{de_bello_quantifying_2011}.
+
+The relative extend of intra-specific variability depends on the trait, spatial extend and species richness, but not on climatic conditions \parencite{siefert_global_2015} suggesting general mechanisms 
+%
+%\parencite{violle_return_2012}
+%ISV is relatively large, ignored in numerous studies, butshould not. Viole argue that may alter our capacity to estimate and understand capacity of species to coexist \cite{jung_intraspecific_2010} suggest to use hierarchical measure of variance to define the source of variation and that would allow to better explain coexistence mechanisms (niche vs individual variation vs neutral theories)
+%
+%
+%\parencite{siefert_global_2015}
+%but intra-specific variation change between traits. Most variable traits being: ...
+
+%\cite{leps_community_2011}
+
+%More interest in trait distribution, variability and diversity. $\rightarrow$ Get to look at intra-specific variability.\\
+%\cite{albert_intraspecific_2010}
+
+
+\paragraph{Patterns}
+
+The fact that some traits are variable while others are not implies that some mechanisms structure this variability.
+%Intra-specific variability can affect species in multiple ways that are discussed later, 
+A way to identify such effects is to look if variability is structured along environmental gradients, suggesting adaptation mechanisms.
+
+Along such gradients trait variability for traits like SLA \parencite{poorter_causes_2009} of leaf mass fraction (LMF) \parencite{poorter_biomass_2012} follows similar patterns as inter-specidic response \parencite{niinemets_global-scale_2001}, with increasing SLA along precipitation and temperature gradient, and decreasing SLA along radiance gradient (leaf mass fraction shows similar responses). These responses suggest strong constraints (similar to the ones that shape inter-specific differences) shaping this variability. However, species may vary in their response \parencite{kichenin_contrasting_2013}. This contrast can be explained by differences in position around a bell-shape response curve around the optimum (see \cite{albert_intraspecific_2010} for more details). \cite{kichenin_contrasting_2013} argue that it is not the case because along a wide gradient not bell shape response curve is observed for any trait or species.
+
+This additional level of variability is not always in the same direction as community response driven by turn-over \parencite{albert_intraspecific_2010, kichenin_contrasting_2013, jung_intraspecific_2014} leading to difficulties to predict the response of the community. These levels must be disentangled, in order to do that, mechanisms underlying intra-specific variability must be understood. This is particularly important because they have multiple effects on how we model community dynamics and understand coexistence mechanisms \cite{bolnick_why_2011, violle_return_2012}.
+%
+%but if mechanisms are well identified, response patterns not so much.
+%
+%\parencite{poorter_biomass_2012}
+%\parencite{poorter_causes_2009} strong response to light (-), water (+) and temperature decrease (-)
+%- suggests selection or plasticity.
+%
+%\parencite{kichenin_contrasting_2013}
+%Jung: not always in the same way \parencite{jung_intraspecific_2014}\\
+%\parencite{wellstein_intraspecific_2013} local adaptation, clonal traits
+%
+
+\textbf{After the emergence of trait-based ecology and its high potential, recent focus on intra-specific trait variability question the strength of such approaches. While  intra-specific variability  does not negate numerous conclusions from previous work, because of its large extend and how it alters functional diversity, its effects on community dynamic processes must be interrogated, and underlying mechanisms investigated.}
 
 %-----------------------------------------------------------------------------------------
-\subsection{The effect of intra-specific variations}
+\subsection{Contrasting effects of intra-specific variations}
 
-\paragraph{...and contrasting effects}
+Intra-specific variability impacts coexistence mechanisms and community properties in multiple ways, the following paragraphs are not an exhaustive list of all ways ISV affect community properties or our understanding of coexistence mechanisms, but a few contrasting examples to emphasis the need for better identification and understanding of underlying mechanisms. 
 
+\paragraph{Jensen inequality}
+
+Jensen inequality ... 
+Intra-specific variability can affect 
+
+Hart: why it is not enough
+
+\paragraph{Niche}
+
+ISV also 
+effect of abiotic filtering
+
+affect on realised niche
+
+neighbours: avoid or increase competition
+
+
+\paragraph{Contrasting effects}
+
+specifically on diversity
+
+callaway 2003 from competition to facilitation.
+
+\cite{bolnick_why_2011}
 \parencite{hart_how_2016}
 \parencite{courbaud_intra-specific_2010}
 \parencite{turcotte_phenotypic_2016}
@@ -436,13 +465,16 @@ Jung: not always in the same way \parencite{jung_intraspecific_2014}\\
 \parencite{barabas_effect_2016}
 \parencite{jung_intraspecific_2010}
 
-
 \textbf{The intra-specific variability has been observed to be an important part of community functional diversity, but also a way the community respond to changes in conditions. In addition to the empirical evidence of this importance, theoretical approaches support contrasting effects of such variations on coexistence mechanisms, evolutionary processes and community responses to climate event or invasion. It is crucial to disentangle different sources of intra-specific variability in order to their understand potential effect on ecosystem dynamics.}
 
 %-----------------------------------------------------------------------------------------
 \subsection{Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}
 
 \paragraph{...}
+There is a difference between how we obsere ISV, and why it emerges. What is random? Therefore it is  ... not good ... to apply such simplification of random effect onto theoretical models to predict the effect of intraspecific variability with strong assumption (observed on functional trait in wide spatial range, applied to interactions in homogeneous context) on how they translate onto interactions (done in Halt, check Boltnick) 
+\cite{albert_intraspecific_2010} bell shape intra-specific response pattern along gradient, but doesn't stand according to \cite{kichenin_contrasting_2013}. Depends on trait and gradient... cannot assume that, need real quantification. ok if not a gradient response (or gradient is not known).
+Bell shape can emerge from non measure gradient with linear response. 
+
 Dewitt and Barabas.
 
 The same way the neutral theory is simplifying and brings little understanding to underlying processes and relies on strong hypothesis, considering intra-specificity as a purely random mechanism is insufficient.\\
@@ -469,8 +501,17 @@ Ecology shifted from species to traits syndromes with great success, but the int
 % _______________________________________________________________________________________
 \section{Phenotypic plasticity: a specific case of intra-specific variability}
 
+Until now, the processes at the origin of intra-specific variability has not been discussed, but to understand how it can alter community properties it is necessary to differentiate the different sources of intra-specific variations as they work in different ways.
+
 %-----------------------------------------------------------------------------------------
 \subsection{The different sources of intra-specific variability}
+
+Intra-specific variation can be caused by to two mechanisms: genetic variation and phenotypic plasticity. Genetic variation occurs when individuals from the same species have different genotypes, leading to different phneotype. On the other hand, phenotypic plasticity implies that a same genotype can lead to different phenotypes. Plasticity may involve epigenetic mechanisms \parencite{nicotra_adaptive_2015} that blur the frontier between the two forms of intra-specific variability as epigenetic is a inheritable form of plasticity. It is transmitted to descendants but unlike genetic mutation is reversible. To keep thing simple, epigenetic phenomenons will not be discussed here.
+
+Genetic variability (as well as epigenetic) can be detected in case of origin specific response, while if the variability is explain by the treatment, it is a plastic response \cite{frei_plastic_2014}, and a large fraction of the variability observed in grasslands species is plastic response rather than genetic variation alone \cite{frei_plastic_2014, merila_climate_2014}.
+
+\cite{nicotra_plant_2010} provide a good review of plasticity mechanisms and the importance for adaptation to climate change. They advocate plasticity in functional traits should be considered in mechanistic models as they may play a central role in the speed and adaptiveness of community response to climate change.
+%Nicotra : pl as a important mechanismfor plant to answer to climate change, shoud look at it.
 
 
 \textbf{Intra-specific variability can be decomposed in two main types: genetic variability that seems to be closer to random processes envisioned in simple models of intra-specific variability, and phenotypic plasticity that specifically links variations of phenotype to differences in external conditions. These mechanisms of variations are under the control of both evolutionary and molecular processes, that need to be better understood to be disentangled and to better predict their effects on community dynamics.}
@@ -478,8 +519,10 @@ Ecology shifted from species to traits syndromes with great success, but the int
 %-----------------------------------------------------------------------------------------
 \subsection{What is phenotypic plasticity?}
 
+Plasticity is a source of intra-specific variability, but biological processes leading to changes in phenotype can be complex. These paragraphs try to disentangle the different forms of plasticity and the underlying mechanisms.
+
 \paragraph{Forms of plasticity}
-phenotypic plasticity is the capacity of a species to produce individuals with the same genotype but different phenotypes. This difference in phenotype should be an active process, not the results of direct alteration of the phenotype by external factors without changes in internal functioning. This change in internal functioning process has the objective \sidenote{in the sense it has been selected because it provides this capacity} to match the phenotype with expected future conditions to maximise the individual fitness. The expression "expected future conditions" is key here, as it is this projection that drives the plasticity.
+Phenotypic plasticity is the capacity of a species to produce individuals with the same genotype but different phenotypes. This difference in phenotype should be an active process, not the results of direct alteration of the phenotype by external factors without changes in internal functioning. This change in internal functioning process has the objective \sidenote{in the sense it has been selected because it provides this capacity} to match the phenotype with expected future conditions to maximise the individual fitness. The expression "expected future conditions" is key here, as it is this projection that drives the plasticity.
 %Confusion, phenotypic plasticity is particular phenomenon, driven ...\\
 
 \textit{Active plasticity is used for predominantly anticipatory, and often highly integrated, phenotypic changes in response to some environmental cue or signal, and reflect modifications of developmental pathways and regulatory genes.} Forsman - 2014\\
@@ -491,23 +534,57 @@ Passive plasticity, on the other hand, may stem from direct environmental influe
 \begin{figure}
     \includegraphics[width=1\linewidth]{./2_PP/Figures/Concepts/genotype_to_phenotype.pdf}
   \caption[Decomposition of plastic response]{Decomposition of phenotypic plasticity as a step between the genotype and the fitness. Phenotypic plasticity is the effect of environment on the link between genotype and phenotype. Plasticity can itself be decomposed in active plastic response that change the internal status of the individual (under genetic control) and passive response that result from inevitable effect of environment of the traits on the individual.}
-  \label{fg:PCA_calibration}
+  \label{fig:plasticity_form}
 \end{figure}
 
-\paragraph{Molecular basis}
+%\paragraph{Biological process}
+% The details of the molecular changes that occur in a plastic response ). 
+Active and passive plastic response can be discriminated by the position of the control: internal for active plasticity, or external for passive response. In the case of active plastic response, the signal from environment must be integrated (from physical or chemical to information) then transferred to response organs. These organs respond to the integrated signal by changes in their expression levels (\textit{internal status} in figure \ref{fig:plasticity_form}) as summarised in figure \ref{fig:active_plasticity}.
 
-\textbf{Active phenotypic plasticity is an integrative process at the scale of the individual that aims for an improvement of plant fitness by the adjustment of its morphology according to environmental cues. Defining the extend and the rules of such mechanism is not an easy task that might depend on the context and the framework used.}
+Changes in phenotypes are controlled mainly by changes complex development processes. These processes involve numerous proetins and signaling pathways. Genes expression of proteins (transcription factors, enzymes, signalling proteins...) is controlled by specific mechanisms with various degrees of speed and duration (instantaneous regulation response, to inherited epigenetic adaptation). Some of these molecular processes are detailed in box \ref{box:molecular} in relationship with gene expression pathway (see also \cite{nicotra_plant_2010}).
+
+\begin{marginfigure}
+    \includegraphics[width=1\linewidth]{./Figures/active_plasticity_m.pdf}
+  \caption[Active plasticity]{Mechanism of active plasticity. Integration of a physical (or chemical) signal, transmission and regulation of phenotype through regulation of gene expression, or post-transcription regulations.}
+  \label{fig:active_plasticity}
+\end{marginfigure}
+
+\textbf{Active phenotypic plasticity is an integrative process at the scale of the individual that aims for an improvement of plant fitness by the adjustment of its morphology according to environmental cues. It often relies on multiple regulation processes. Modelling the extend and the rules of such mechanism is not an easy task that might depend on the context and the framework used.}
 
 %-----------------------------------------------------------------------------------------
 \subsection{How to model phenotypic plasticity}
 
+Plastic response can involve numerous genes interaction in networks of regulation pathways. The objective of an ecological model is not to reproduce this complexity, but the basic behaviours emerging from this biological complexity\sidenote{this biological complexity can be explained by the simplicity and limited number of basis biological units living organism are made of, and the emergence throuth simple mutation-selection operation. This complexity can be mimic by simpler and freer mathematical design.}. The basic components of the active plastic response are the perception of the external signal, its integration into meaningful information and the transformation into phenotype modification.
+
 \paragraph{Reference and plastic traits}
+
+%Modelling is compromise, a balance must be find between precision and consistency, between complexity and simplicity. This means that not all facets of a plant can be modelled, and simplifications must be adopted to have an efficient representation of a plant. The level o precision is defined by many aspects, but mostly the questions the modeller want to answer, and the main processes that drive the interrogated phenotmenon. In any case, the plant is represented by variables, that can be traits in ecology, that correspond to aggregates of a plant true characteristics. 
+Every growth model is plastic. Every growth model predict different phenotypes for plants sharing the  same phenotype (often just defined by the species affiliation) growing in different condition. But most of this plasticity is passive, and it could be encompassed in this personnal definition of the notion of \textemph{growing function} (see figure \ref{fig:growing_function}). However, amoung vegetation models only some of them claim to include phenotypic plasticity \parencite{maire_plasticity_2013}, why so? What criterion can be used to distinguish active from passive plasticity in the context of plant modelling?
+
+The use of information from environment to change the phenotype in order to have a better fitness is active plasticity. But in practice\sidenote{in models}, nothing really separates the two as local environmental variables are used to determine the phenotype of a plant in both cases. However, the justifications and the forms of the linking functions are different, and they may involve different traits. This idea is illustrated in figure \ref{fig:plasticity_function}, where the phenotype is defined by\sidenote{or merged with, see figure \ref{fig:growing_function}} then controlled by the growing function as a function of current phenotype and environment. In the paper of \cite{maire_plasticity_2013}, as it is often the case, plasticity is just an additional form of growing function. There is not differences between plasticity of two species, if two species have the same phenotype, then in similar environment they would express the same plastic response. I argue that plasticity, to be considered as an active process, should be under a genetic control (\textit{i.e.} species specific parameter). This mean that, despite a shared rule, and similar phenotype, the plastic would be different and would depend on a species specific parameter.
+
+Two questions emerge from this: if growting function and plastic response are different (conceptually), how to build each of these functions?
+How the genetic control affect the 
+
+However, the linking function used have different justifications and forms, and act of potentially different traits. In order to mimic active plasticity observed in nature the environmental variables should be integrated by plants, however this integration function is often ignored \cite{maire_plasticity_2013}. Therefore plasticity is mostly framed by the traits that are affected by the 
+
+
+%One definition could be \textit{any variation of traits that alter plant functioning}, but that would not be enough as grazzing modification of  ... information to change traits ... hum OK, but mostly jsut a change in frame of reference. Still affect the niche.
+
+
+every model plastic, but mostly passive
+
+we want active plasticity, what's distinguish plasticity types is not the frame of reference, but the strategy: it's a choice: determine by another trait that characterise the response.
 
 what make it plastic: find the invariance. Laughlin? (what's invariance anyway)
 
 \paragraph{Plasticity rules: a question of drivers}
 
-resources, but also risk (frost, grazzing): alter cost and gains.
+resources, but also risk (frost, grazing): alter cost and gains.
+
+not often prediction, but just reaction norms: in that sense it is close to nature functioning, but ignore evolutionary mechanisms that selected these reaction norms (can take an more deterministic perspective on the matter).
+
+Or perfect optimisation with perfect estimation of condition.
 
 
 
@@ -524,8 +601,12 @@ resources, but also risk (frost, grazzing): alter cost and gains.
 \subsection{Flexible strategies}
 
 \subsection{Plasticity as a strategy}
+
+
 Bradshaw?
 Dewitt\\
+
+frame of reference: does not allow the interrogation of plasticity as a strategy. All plant share the same plasticity.
 
 
 %rewrite this more positively with more content from the section ! 

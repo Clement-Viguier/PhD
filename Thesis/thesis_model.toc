@@ -1,188 +1,190 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{I\hspace {1em}Introduction}{V}{part.1}
+\contentsline {part}{I\hspace {1em}Introduction}{VII}{part.1}
 \defcounter {refsection}{1}\relax 
 \contentsline {chapter}{\numberline {1}Context}{1}{chapter.I.chapter.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1.1}Global change: how to describe the future of alpine ecosystems}{1}{section.I.section.1.1}
+\contentsline {section}{\numberline {1.1}Global change: how to describe the future of alpine ecosystems?}{1}{section.I.section.1.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.1.1}The value of ecosystems}{1}{subsection.I.section.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}The value of ecosystems: from properties to services}{1}{subsection.I.section.1.1.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{New logic}{1}{paragraph*.3}
+\contentsline {paragraph}{A new logic}{1}{paragraph*.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Services}{1}{paragraph*.4}
+\contentsline {paragraph}{Services}{1}{paragraph*.5}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Global change}{2}{subsection.I.section.1.1.2}
+\contentsline {paragraph}{Properties}{2}{paragraph*.6}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Climate change}{2}{paragraph*.5}
+\contentsline {paragraph}{Diversity}{3}{paragraph*.7}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Effect of management}{2}{paragraph*.6}
+\contentsline {paragraph}{Identity}{3}{paragraph*.8}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.1.3}The need for mechanistic models}{2}{subsection.I.section.1.1.3}
+\contentsline {paragraph}{Productivity}{3}{paragraph*.9}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{A new world}{2}{paragraph*.7}
+\contentsline {subsection}{\numberline {1.1.2}Global change: what changes and what consequences}{3}{subsection.I.section.1.1.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Complexity}{2}{paragraph*.8}
+\contentsline {paragraph}{Climate change}{3}{paragraph*.10}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1.2}Community dynamics: complexity emerging from parts and the role of phenotypic plasticity}{3}{section.I.section.1.2}
+\contentsline {paragraph}{Land-use mutations}{3}{paragraph*.11}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.2.1}The limit of classic patterns}{3}{subsection.I.section.1.2.1}
+\contentsline {section}{\numberline {1.2}Models: a solution to understand and predict complexity}{3}{section.I.section.1.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.2.2}The rise of individual-based approaches}{3}{subsection.I.section.1.2.2}
+\contentsline {subsection}{\numberline {1.2.1}The need for mechanistic models}{3}{subsection.I.section.1.2.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.2.3}When phenotypic plasticity makes things complicated}{3}{subsection.I.section.1.2.3}
+\contentsline {paragraph}{A new world}{3}{paragraph*.12}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Gaps to fill}{3}{subsection.I.section.1.2.4}
+\contentsline {paragraph}{Complexity}{4}{paragraph*.13}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {2}Aims, Objectives and Overview}{3}{chapter.I.chapter.2}
+\contentsline {subsection}{\numberline {1.2.2}The limit of classic patterns}{4}{subsection.I.section.1.2.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.1}Aims: understanding and prediction}{4}{section.I.section.2.1}
+\contentsline {subsection}{\numberline {1.2.3}The rise of individual-based approaches}{4}{subsection.I.section.1.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.2}Objectives: a new agent-based model for plant community dynamics}{4}{section.I.section.2.2}
+\contentsline {subsection}{\numberline {1.2.4}When phenotypic plasticity makes things complicated}{4}{subsection.I.section.1.2.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Generic framework for multi-species and plastic plant modelling}{4}{subsection.I.section.2.2.1}
+\contentsline {subsection}{\numberline {1.2.5}Gaps to fill}{5}{subsection.I.section.1.2.5}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Effect of phenotypic plasticity on plant growth and community dynamics}{4}{subsection.I.section.2.2.2}
+\contentsline {chapter}{\numberline {2}Aims, Objectives and Overview}{5}{chapter.I.chapter.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.3}Thesis overview}{5}{section.I.section.2.3}
+\contentsline {section}{\numberline {2.1}Aims: understanding and prediction}{5}{section.I.section.2.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {2.2}Objectives: a new agent-based model for plant community dynamics}{6}{section.I.section.2.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Generic framework for multi-species and plastic plant modelling}{6}{subsection.I.section.2.2.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Effect of phenotypic plasticity on plant growth and community dynamics}{6}{subsection.I.section.2.2.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {2.3}Thesis overview}{6}{section.I.section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Background: community dynamics, traits and phenotypic plasticity}{7}{part.2}
+\contentsline {part}{II\hspace {1em}Background: community dynamics, traits and phenotypic plasticity}{9}{part.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {1}Understanding community dynamics and properties: drivers and theories}{9}{chapter.II.chapter.1}
+\contentsline {chapter}{\numberline {1}Understanding community dynamics and properties: drivers and theories}{11}{chapter.II.chapter.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {1.1}The different facets of plant communities: from processes to services}{9}{section.II.section.1.1}
+\contentsline {section}{\numberline {1.1}The different facets of plant communities: from processes to services}{11}{section.II.section.1.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {1.1.1}From community description to ecosystem services: the facets of the community}{9}{subsection.II.section.1.1.1}
+\contentsline {section}{\numberline {1.2}Community assembly and coexistence}{11}{section.II.section.1.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Diversity}{10}{paragraph*.10}
+\contentsline {subsection}{\numberline {1.2.1}Filtering processes: from potential to realised niche}{11}{subsection.II.section.1.2.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Identity}{10}{paragraph*.11}
+\contentsline {paragraph}{Plant community}{11}{paragraph*.15}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Productivity}{10}{paragraph*.12}
+\contentsline {paragraph}{Abiotic filtering}{12}{paragraph*.16}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {1.1.2}From processes to properties}{10}{subsection.II.section.1.1.2}
+\contentsline {paragraph}{Biotic filtering}{12}{paragraph*.17}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {1.2}Community assembly and coexistence}{10}{section.II.section.1.2}
+\contentsline {subsection}{\numberline {1.2.2}The complexity of coexistence}{12}{subsection.II.section.1.2.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Filtering processes: from potential to realised niche}{10}{subsection.II.section.1.2.1}
+\contentsline {paragraph}{The question of coexistence}{12}{paragraph*.18}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Plant community}{10}{paragraph*.13}
+\contentsline {section}{\numberline {1.3}Variability and dynamics: driven by the resource}{13}{section.II.section.1.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Abiotic filtering}{11}{paragraph*.14}
+\contentsline {subsection}{\numberline {1.3.1}Community dynamics}{13}{subsection.II.section.1.3.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Biotic filtering}{11}{paragraph*.15}
+\contentsline {subsection}{\numberline {1.3.2}Heterogeneity: maintenance of diversity}{13}{subsection.II.section.1.3.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {1.2.2}The complexity of coexistence}{11}{subsection.II.section.1.2.2}
+\contentsline {chapter}{\numberline {2}How to represent plant community}{13}{chapter.II.chapter.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{The question of coexistence}{11}{paragraph*.16}
+\contentsline {section}{\numberline {2.1}The continuity of functional ecology}{14}{section.II.section.2.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {1.3}Variability and dynamics: driven by the resource}{12}{section.II.section.1.3}
+\contentsline {subsection}{\numberline {2.1.1}Shift in paradigm: traits and patterns}{14}{subsection.II.section.2.1.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Community dynamics}{12}{subsection.II.section.1.3.1}
+\contentsline {paragraph}{A shift needed}{14}{paragraph*.19}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Heterogeneity: maintenance of diversity}{12}{subsection.II.section.1.3.2}
+\contentsline {paragraph}{The rise of functional traits}{15}{paragraph*.20}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {2}How to represent plant community}{12}{chapter.II.chapter.2}
+\contentsline {paragraph}{Traits and gradients}{15}{paragraph*.21}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {2.1}The continuity of functional ecology}{13}{section.II.section.2.1}
+\contentsline {subsection}{\numberline {2.1.2}Understanding interaction and competition: a question of symmetry?}{15}{subsection.II.section.2.1.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Shift in paradigm: traits and patterns}{13}{subsection.II.section.2.1.1}
+\contentsline {section}{\numberline {2.2}How trade-offs make strategy space}{16}{section.II.section.2.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{A shift needed}{13}{paragraph*.17}
+\contentsline {subsection}{\numberline {2.2.1}Trade-offs: capture constraints on species differences}{16}{subsection.II.section.2.2.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{The rise of functional traits}{14}{paragraph*.18}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Traits and gradients}{14}{paragraph*.19}
-\defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Understanding interaction and competition: a question of symmetry?}{14}{subsection.II.section.2.1.2}
-\defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {2.2}How trade-offs make strategy space}{15}{section.II.section.2.2}
-\defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Trade-offs: capture constraints on species differences}{15}{subsection.II.section.2.2.1}
-\defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Leaf Economic Spectrum}{15}{paragraph*.20}
+\contentsline {paragraph}{Leaf Economic Spectrum}{16}{paragraph*.22}
 \defcounter {refsection}{2}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Strategy-spaces made of trade-offs}{16}{subsection.II.section.2.2.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {2.3}How traits link to ecosystem properties}{16}{section.II.section.2.3}
+\contentsline {section}{\numberline {2.3}How traits link to ecosystem properties}{17}{section.II.section.2.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Mass Ratio Hypothesis, Community Weighted Means, and functional identity}{16}{subsection.II.section.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Mass Ratio Hypothesis, Community Weighted Means, and functional identity}{17}{subsection.II.section.2.3.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Benefits of diversity}{17}{subsection.II.section.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Benefits of diversity}{18}{subsection.II.section.2.3.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Productivity: both community property and ecosystem services}{17}{subsection.II.section.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Productivity: both community property and ecosystem services}{18}{subsection.II.section.2.3.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Trade-offs in ecosystem properties}{17}{subsection.II.section.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}Trade-offs in ecosystem properties}{18}{subsection.II.section.2.3.4}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {2.4}Modelling diverse plant community}{18}{section.II.section.2.4}
+\contentsline {section}{\numberline {2.4}Modelling diverse plant community}{19}{section.II.section.2.4}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.4.1}How strategy space open vegetation modelling}{18}{subsection.II.section.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}How strategy space open vegetation modelling}{19}{subsection.II.section.2.4.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Theory to traits}{18}{paragraph*.21}
+\contentsline {paragraph}{Theory to traits}{19}{paragraph*.23}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{In DGVMs}{19}{paragraph*.22}
+\contentsline {paragraph}{In DGVMs}{20}{paragraph*.24}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{In IBMs}{19}{paragraph*.23}
+\contentsline {paragraph}{In IBMs}{20}{paragraph*.25}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {2.4.2}How models inform us on properties and dynamics}{19}{subsection.II.section.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}How models inform us on properties and dynamics}{20}{subsection.II.section.2.4.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {3}The importance of phenotypic plasticity as a specific case intra-specific variability}{19}{chapter.II.chapter.3}
+\contentsline {chapter}{\numberline {3}The importance of phenotypic plasticity as a specific case intra-specific variability}{21}{chapter.II.chapter.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.1}Intra-specific variability change the rules}{20}{section.II.section.3.1}
+\contentsline {section}{\numberline {3.1}Intra-specific variability change the rules}{21}{section.II.section.3.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Increasing interest in intra-specific variations}{20}{subsection.II.section.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Increasing interest in intra-specific variations}{21}{subsection.II.section.3.1.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Rising interest...}{20}{paragraph*.24}
+\contentsline {paragraph}{Extend}{21}{paragraph*.26}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.1.2}The effect of intra-specific variations}{20}{subsection.II.section.3.1.2}
+\contentsline {paragraph}{Patterns}{22}{paragraph*.27}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{...and contrasting effects}{20}{paragraph*.25}
+\contentsline {subsection}{\numberline {3.1.2}Contrasting effects of intra-specific variations}{22}{subsection.II.section.3.1.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}{20}{subsection.II.section.3.1.3}
+\contentsline {paragraph}{Jensen inequality}{22}{paragraph*.28}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{...}{20}{paragraph*.26}
+\contentsline {paragraph}{Niche}{22}{paragraph*.29}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{...}{20}{paragraph*.27}
+\contentsline {paragraph}{Contrasting effects}{22}{paragraph*.30}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.2}Phenotypic plasticity: a specific case of intra-specific variability}{21}{section.II.section.3.2}
+\contentsline {subsection}{\numberline {3.1.3}Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}{23}{subsection.II.section.3.1.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.2.1}The different sources of intra-specific variability}{21}{subsection.II.section.3.2.1}
+\contentsline {paragraph}{...}{23}{paragraph*.31}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.2.2}What is phenotypic plasticity?}{21}{subsection.II.section.3.2.2}
+\contentsline {paragraph}{...}{23}{paragraph*.32}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Forms of plasticity}{21}{paragraph*.28}
+\contentsline {section}{\numberline {3.2}Phenotypic plasticity: a specific case of intra-specific variability}{24}{section.II.section.3.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Molecular basis}{22}{paragraph*.29}
+\contentsline {subsection}{\numberline {3.2.1}The different sources of intra-specific variability}{24}{subsection.II.section.3.2.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.2.3}How to model phenotypic plasticity}{22}{subsection.II.section.3.2.3}
+\contentsline {subsection}{\numberline {3.2.2}What is phenotypic plasticity?}{25}{subsection.II.section.3.2.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Reference and plastic traits}{22}{paragraph*.30}
+\contentsline {paragraph}{Forms of plasticity}{25}{paragraph*.33}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Plasticity rules: a question of drivers}{22}{paragraph*.31}
+\contentsline {subsection}{\numberline {3.2.3}How to model phenotypic plasticity}{26}{subsection.II.section.3.2.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.3}Toward an integrative framework of plant strategy and phenotypic plasticity}{22}{section.II.section.3.3}
+\contentsline {paragraph}{Reference and plastic traits}{26}{paragraph*.34}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Flexible strategies}{22}{subsection.II.section.3.3.1}
+\contentsline {paragraph}{Plasticity rules: a question of drivers}{27}{paragraph*.35}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Plasticity as a strategy}{22}{subsection.II.section.3.3.2}
+\contentsline {section}{\numberline {3.3}Toward an integrative framework of plant strategy and phenotypic plasticity}{27}{section.II.section.3.3}
 \defcounter {refsection}{2}\relax 
-\contentsline {section}{\numberline {3.4}How phenotypic plasticity affect ecosystem properties and dynamics}{23}{section.II.section.3.4}
+\contentsline {subsection}{\numberline {3.3.1}Flexible strategies}{27}{subsection.II.section.3.3.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Contrasting effect on diversity}{23}{subsection.II.section.3.4.1}
+\contentsline {subsection}{\numberline {3.3.2}Plasticity as a strategy}{27}{subsection.II.section.3.3.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Productivity always improved?}{23}{subsection.II.section.3.4.2}
+\contentsline {section}{\numberline {3.4}How phenotypic plasticity affect ecosystem properties and dynamics}{27}{section.II.section.3.4}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Stability}{23}{paragraph*.32}
+\contentsline {subsection}{\numberline {3.4.1}Contrasting effect on diversity}{27}{subsection.II.section.3.4.1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Costs and limits}{23}{paragraph*.33}
+\contentsline {subsection}{\numberline {3.4.2}Productivity always improved?}{27}{subsection.II.section.3.4.2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Diversity and productivity}{23}{paragraph*.34}
+\contentsline {paragraph}{Stability}{27}{paragraph*.36}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Community identity shift}{23}{subsection.II.section.3.4.3}
+\contentsline {paragraph}{Costs and limits}{28}{paragraph*.37}
 \defcounter {refsection}{2}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Phenotypic plasticity effect on individuals and communities}{23}{subsection.II.section.3.4.4}
+\contentsline {paragraph}{Diversity and productivity}{28}{paragraph*.38}
+\defcounter {refsection}{2}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Community identity shift}{28}{subsection.II.section.3.4.3}
+\defcounter {refsection}{2}\relax 
+\contentsline {subsection}{\numberline {3.4.4}Phenotypic plasticity effect on individuals and communities}{28}{subsection.II.section.3.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Modelling alpine grasslands with MountGrass, a generic framework integrating phenotypic plasticity}{27}{part.3}
+\contentsline {part}{III\hspace {1em}Modelling alpine grasslands with MountGrass, a generic framework integrating phenotypic plasticity}{31}{part.3}
 \defcounter {refsection}{3}\relax 
 \contentsline {chapter}{\numberline {1}Alpine environment: conditions, resources, and perturbations}{19}{chapter.III.chapter.1}
 \defcounter {refsection}{3}\relax 
@@ -534,7 +536,7 @@
 \defcounter {refsection}{6}\relax 
 \contentsline {section}{\numberline {3.1}For more interaction}{99}{section.VI.section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossary}{101}{section*.36}
+\contentsline {chapter}{Glossary}{101}{section*.40}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Index}{101}{chapter.VI.chapter.4}
 \contentsfinish 
