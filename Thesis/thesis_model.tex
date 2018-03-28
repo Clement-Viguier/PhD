@@ -65,7 +65,7 @@
 
  \addbibresource{../Bibliography/bib_zotero20171106.bib}
 %\includeonly{./2_PP/Generic_model,./2_PP/Individual_level}
-\includeonly{./0_Objectives/Objectives, ./1_Introduction/Introduction}
+%\includeonly{./0_Objectives/Objectives, ./1_Introduction/Introduction}
 
 %\include{./0_Objectives/Objectives}
 %\includeonly{./1_Introduction/Introduction}
@@ -97,7 +97,7 @@
 \definecolor{myBlue}{HTML}{0C86BF}
 
 % Emphasis command that make the word green and sans serif, and create an index entry
-\newcommand{\textemph}[1]{\textcolor{myGreen}{\textsf{#1}}\index{\MakeLowercase{#1}}}
+\newcommand{\textemph}[1]{\textcolor{myGreen}{\textbf{#1}}\index{\MakeLowercase{#1}}}
 
 
 % colorbox
@@ -297,11 +297,11 @@ To answer both the need for a dynamic model of species rich communities and the 
 \end{refsection}
 
 %____________________________________________________________
-\part{Background: community dynamics, traits and phenotypic plasticity}
+\part{Background: community dynamics, traits and phenotypic plasticity}\label{part:literature}
 \begin{refsection}
 \setcounter{chapter}{0}
 
-\include{./1_Introduction/Introduction}\label{literature}
+\include{./1_Introduction/Introduction}
 
 \begin{fullwidth}
 \printbibliography[heading=bibliography] 
@@ -351,7 +351,7 @@ To answer both the need for a dynamic model of species rich communities and the 
 \end{refsection}
 
 %____________________________________________________________
-\part{Synthesis \& Outlook}
+\part{Synthesis \& Outlook}\label{part:synthesis}
 \setcounter{chapter}{0}
 \begin{refsection}
 

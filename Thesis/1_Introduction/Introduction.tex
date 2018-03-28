@@ -5,10 +5,10 @@ While this thesis is a modelling thesis, it is not a modelling textbook, and rat
 \end{fullwidth}
 
 % #######################################################################################
-\chapter{Understanding community dynamics and properties: drivers and theories}
+\chapter{Understanding community dynamics and properties: drivers and theories}\label{chapter:coexistence}
 
 % _______________________________________________________________________________________
-\section{The different facets of plant communities: from processes to services}
+%\section{The different facets of plant communities: from processes to services}
 
 
 
@@ -228,6 +228,10 @@ Same number of strategy axis than filtering processes. (avoidance vs resistance,
 
 reich, wright, shipley, diaz.
 
+\paragraph{Empirical evidence}
+
+support of CSR triangle \cite{frenette-dussault_functional_2012, pierce_allocating_2013}
+
 \textbf{The multiplicity of processes shaping vegetation systems leads to similar constrained diversity in plant strategies. These strategies are captured in a strategy space drawn by independent trade-offs tightly related to functional traits. These functional trade-offs have great potential in the representation of a functioning plant diversity, while parameter set allows easy characeterisation of species and communities.}
 
 
@@ -293,7 +297,7 @@ Productivity as a service itself: production (fodder in this case, but OM in for
 
 lavorel 2012 : trade-off  \parencite{lavorel_how_2012}
 traits - related to trade-off in ES bundles, mostly driven by climate change (rather than management) \parencite{lamarque_plant_2014} limits ?
-\textbf{}
+%\textbf{}
 
 
 % Section/chapter conclusion
@@ -357,9 +361,9 @@ specific trade-off related to the context \parencite{scheiter_impacts_2009}
 
 why not too much on IBMs (but Reineking, Marechaud ?, falster, meh, I guess that Lohier's and Maire's are sort of strategy space) - because lower community models at this scale: gap to fill.
 
-But when it's used: break the growing function that links phenotype, genotype and environment ( see figure \ref{fig:paradigm_shift}). Same growing function: no need for specific parameters: smae rules for all, but different phenotypes. (the concept of genotype and phenoptype would merge for functional traits, if there was not other control on other aspects, phenotype defines itself). This is important as it allows for intra-specific variations that would necessite more complex function in the first paradigm. 
+But when it's used: break the growth function that links phenotype, genotype and environment ( see figure \ref{fig:paradigm_shift}). Same growth function: no need for specific parameters: smae rules for all, but different phenotypes. (the concept of genotype and phenoptype would merge for functional traits, if there was not other control on other aspects, phenotype defines itself). This is important as it allows for intra-specific variations that would necessite more complex function in the first paradigm. 
 
-The growing function, in a simulation model includes all steps from resource gathering and transformation, biomass allocation and phenotype alteration (\textit{e.g.} frost, graing \textit{etc}...), takes as inputs the phenotype and environment, and gives the new state of the phenotype (and environment). 
+The growth function, in a simulation model includes all steps from resource gathering and transformation, biomass allocation and phenotype alteration (\textit{e.g.} frost, graing \textit{etc}...), takes as inputs the phenotype and environment, and gives the new state of the phenotype (and environment). 
 
  figure \ref{fig:paradigm_shift}
 
@@ -405,7 +409,7 @@ The relative extend of intra-specific variability depends on the trait, spatial 
 %\cite{albert_intraspecific_2010}
 
 
-\paragraph{Patterns}
+%\paragraph{}
 
 The fact that some traits are variable while others are not implies that some mechanisms structure this variability.
 %Intra-specific variability can affect species in multiple ways that are discussed later, 
@@ -468,7 +472,7 @@ callaway 2003 from competition to facilitation.
 \textbf{The intra-specific variability has been observed to be an important part of community functional diversity, but also a way the community respond to changes in conditions. In addition to the empirical evidence of this importance, theoretical approaches support contrasting effects of such variations on coexistence mechanisms, evolutionary processes and community responses to climate event or invasion. It is crucial to disentangle different sources of intra-specific variability in order to their understand potential effect on ecosystem dynamics.}
 
 %-----------------------------------------------------------------------------------------
-\subsection{Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}
+\subsection{Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}\label{subsection:bell-shape}
 
 \paragraph{...}
 There is a difference between how we obsere ISV, and why it emerges. What is random? Therefore it is  ... not good ... to apply such simplification of random effect onto theoretical models to predict the effect of intraspecific variability with strong assumption (observed on functional trait in wide spatial range, applied to interactions in homogeneous context) on how they translate onto interactions (done in Halt, check Boltnick) 
@@ -506,9 +510,10 @@ Until now, the processes at the origin of intra-specific variability has not bee
 %-----------------------------------------------------------------------------------------
 \subsection{The different sources of intra-specific variability}
 
-Intra-specific variation can be caused by to two mechanisms: genetic variation and phenotypic plasticity. Genetic variation occurs when individuals from the same species have different genotypes, leading to different phneotype. On the other hand, phenotypic plasticity implies that a same genotype can lead to different phenotypes. Plasticity may involve epigenetic mechanisms \parencite{nicotra_adaptive_2015} that blur the frontier between the two forms of intra-specific variability as epigenetic is a inheritable form of plasticity. It is transmitted to descendants but unlike genetic mutation is reversible. To keep thing simple, epigenetic phenomenons will not be discussed here.
+Intra-specific variation can be caused by to two mechanisms: genetic variation and phenotypic plasticity. Genetic variation occurs when individuals from the same species have different genotypes, leading to different phneotype. On the other hand, phenotypic plasticity implies that a same genotype can lead to different phenotypes. Plasticity can involve epigenetic mechanisms \parencite{
+zhang_epigenetic_2013, nicotra_adaptive_2015, beaman_evolution_2016} that blur the frontier between the two forms of intra-specific variability as epigenetic is a inheritable form of plasticity. It is transmitted to descendants but unlike genetic mutation is reversible. To keep thing simple, epigenetic phenomenons will not be discussed here.
 
-Genetic variability (as well as epigenetic) can be detected in case of origin specific response, while if the variability is explain by the treatment, it is a plastic response \cite{frei_plastic_2014}, and a large fraction of the variability observed in grasslands species is plastic response rather than genetic variation alone \cite{frei_plastic_2014, merila_climate_2014}.
+Genetic variability (as well as epigenetic) can be detected in case of origin specific response, while if the variability is explain by the treatment, it is a plastic response \parencite{frei_plastic_2014}, and a large fraction of the variability observed in grasslands species is plastic response rather than genetic variation alone \parencite{frei_plastic_2014, merila_climate_2014}.
 
 \cite{nicotra_plant_2010} provide a good review of plasticity mechanisms and the importance for adaptation to climate change. They advocate plasticity in functional traits should be considered in mechanistic models as they may play a central role in the speed and adaptiveness of community response to climate change.
 %Nicotra : pl as a important mechanismfor plant to answer to climate change, shoud look at it.
@@ -543,6 +548,7 @@ Active and passive plastic response can be discriminated by the position of the 
 
 Changes in phenotypes are controlled mainly by changes complex development processes. These processes involve numerous proetins and signaling pathways. Genes expression of proteins (transcription factors, enzymes, signalling proteins...) is controlled by specific mechanisms with various degrees of speed and duration (instantaneous regulation response, to inherited epigenetic adaptation). Some of these molecular processes are detailed in box \ref{box:molecular} in relationship with gene expression pathway (see also \cite{nicotra_plant_2010}).
 
+
 \begin{marginfigure}
     \includegraphics[width=1\linewidth]{./Figures/active_plasticity_m.pdf}
   \caption[Active plasticity]{Mechanism of active plasticity. Integration of a physical (or chemical) signal, transmission and regulation of phenotype through regulation of gene expression, or post-transcription regulations.}
@@ -558,21 +564,23 @@ Plastic response can involve numerous genes interaction in networks of regulatio
 
 \paragraph{Reference and plastic traits}
 
-%Modelling is compromise, a balance must be find between precision and consistency, between complexity and simplicity. This means that not all facets of a plant can be modelled, and simplifications must be adopted to have an efficient representation of a plant. The level o precision is defined by many aspects, but mostly the questions the modeller want to answer, and the main processes that drive the interrogated phenotmenon. In any case, the plant is represented by variables, that can be traits in ecology, that correspond to aggregates of a plant true characteristics. 
-Every growth model is plastic. Every growth model predict different phenotypes for plants sharing the  same phenotype (often just defined by the species affiliation) growing in different condition. But most of this plasticity is passive, and it could be encompassed in this personnal definition of the notion of \textemph{growing function} (see figure \ref{fig:growing_function}). However, amoung vegetation models only some of them claim to include phenotypic plasticity \parencite{maire_plasticity_2013}, why so? What criterion can be used to distinguish active from passive plasticity in the context of plant modelling?
+%Modelling is compromise, a balance must be find between precision and consistency, between complexity and simplicity. This means that not all facets of a plant can be modelled, and simplifications must be adopted to have an efficient representation of a plant. The level o precision is defined by many aspects, but mostly the questions the modeller want to answer, and the main processes that drive the interrogated phenotmenon. In any case, the plant is represented by variables, that can be traits in ecology, that correspond to aggregates of a plant true characteristics. \cite{lucas_plant_2011} 
+Every growth model is plastic. Every growth model predict different phenotypes for plants sharing the  same phenotype (often just defined by the species affiliation) growing in different condition. But most of this plasticity is passive, and it could be encompassed in this personnal definition of the notion of \textemph{growth function} (see figure \ref{fig:growth_function}). However, amoung vegetation models only some of them claim to include phenotypic plasticity \parencite{maire_plasticity_2013}, why so? What criterion can be used to distinguish active from passive plasticity in the context of plant modelling?
 
-The use of information from environment to change the phenotype in order to have a better fitness is active plasticity. But in practice\sidenote{in models}, nothing really separates the two as local environmental variables are used to determine the phenotype of a plant in both cases. However, the justifications and the forms of the linking functions are different, and they may involve different traits. This idea is illustrated in figure \ref{fig:plasticity_function}, where the phenotype is defined by\sidenote{or merged with, see figure \ref{fig:growing_function}} then controlled by the growing function as a function of current phenotype and environment. In the paper of \cite{maire_plasticity_2013}, as it is often the case, plasticity is just an additional form of growing function. There is not differences between plasticity of two species, if two species have the same phenotype, then in similar environment they would express the same plastic response. I argue that plasticity, to be considered as an active process, should be under a genetic control (\textit{i.e.} species specific parameter). This mean that, despite a shared rule, and similar phenotype, the plastic would be different and would depend on a species specific parameter.
+The use of information from environment to change the phenotype in order to have a better fitness is active plasticity. But in practice (in models)\parencite{maire_plasticity_2013}, often nothing really separates the two as plasticity is often modelled as a general mechanism shared by all species (but see \cite{jablonka_adaptive_1995} for discrete strategies in clonal plants) and local environmental variables are used to determine the phenotype of a plant in both cases. Only the justifications and the forms of the linking functions are different, and they may involve different traits. This idea is illustrated in figure \ref{fig:plasticity_function}, where the phenotype is first defined by the genotype then controlled by the growth function as a function of current phenotype and environment (see figure \ref{fig:growth_function}). There is not differences between plasticity of two species, if two species have the same phenotype, then in similar environment they would express the same plastic response. I argue that plasticity, to be considered as an active process, should be under a genetic control (\textit{i.e.} species specific parameter). This means that, despite a shared rule and similar phenotype, the plastic would be different and would depend on a species specific parameter.
 
-Two questions emerge from this: if growting function and plastic response are different (conceptually), how to build each of these functions?
-How the genetic control affect the 
+Moreover, no integration function, 
 
-However, the linking function used have different justifications and forms, and act of potentially different traits. In order to mimic active plasticity observed in nature the environmental variables should be integrated by plants, however this integration function is often ignored \cite{maire_plasticity_2013}. Therefore plasticity is mostly framed by the traits that are affected by the 
+Two questions emerge from this: if growth function and plastic response are different (conceptually), how to determine each of these functions?
+How the genetic control affect the phenotypic response? Or why would it be beneficial to have multiple rules - non discrete perspective on plasticity.
+
+%However, the linking function used have different justifications and forms, and act of potentially different traits. In order to mimic active plasticity observed in nature the environmental variables should be integrated by plants, however this integration function is often ignored \cite{maire_plasticity_2013}. Therefore plasticity is mostly framed by the traits that are affected by the 
 
 
 %One definition could be \textit{any variation of traits that alter plant functioning}, but that would not be enough as grazzing modification of  ... information to change traits ... hum OK, but mostly jsut a change in frame of reference. Still affect the niche.
 
 
-every model plastic, but mostly passive
+%every model plastic, but mostly passive
 
 we want active plasticity, what's distinguish plasticity types is not the frame of reference, but the strategy: it's a choice: determine by another trait that characterise the response.
 
@@ -580,9 +588,15 @@ what make it plastic: find the invariance. Laughlin? (what's invariance anyway)
 
 \paragraph{Plasticity rules: a question of drivers}
 
-resources, but also risk (frost, grazing): alter cost and gains.
+defined by variable (ref plasticity is good in vairable) and limiting variables (resource, temp, perturbation) = drivers
 
-not often prediction, but just reaction norms: in that sense it is close to nature functioning, but ignore evolutionary mechanisms that selected these reaction norms (can take an more deterministic perspective on the matter).
+functions: reaction norms \parencite{feller_mathematical_2015} thickness and light. Nice, but doesn't work with multiple drivers and composite traits
+
+Or general rules : give a optimum phenotype. More deterministic approach. But optimum = general rule. Conceptually, if there is an optimum: why do something else ? Empirical studies: can be maladaptive, plasticity is a bet, and often ignore 
+
+resources, but also risk (frost, grazing): alter cost and gains. Multi-process plasticity, with relative weights. see chapter \ref{part:synthesis}, section \ref{chapter:extension}.
+
+%not often prediction, but just reaction norms: in that sense it is close to nature functioning, but ignore evolutionary mechanisms that selected these reaction norms (can take an more deterministic perspective on the matter).
 
 Or perfect optimisation with perfect estimation of condition.
 
@@ -597,58 +611,188 @@ Or perfect optimisation with perfect estimation of condition.
 % _______________________________________________________________________________________
 \section{Toward an integrative framework of plant strategy and phenotypic plasticity}
 
+Adaptive plasticity in models is often a layer on top of the species strategy, it acts more like a new mechanism, rather than a strategy within the already existing growth process. To interrogate the plasticity as a dimension of plant growth and an evolutionary process \parencite{bradshaw_evolutionary_1965} (see also work of Scheiner \parencite{scheiner_genetics_1989, scheiner_genetics_2002 ,scheiner_genetics_2012}), or better understand the cost and limits of plasticity \cite{dewitt_costs_1998, callahan_phenotypic_2008, auld_re-evaluating_2009}, or the effect of plasticity on coexistence and community dynamics \cite{hart_how_2016}, plant strategies and plasticity need to be blended together in an integrative framework.
+%For models we talk about plastic models versus models that do not include plasticity. It makes sense to differentiate models based on the inclusion or not of plasticity, but if the plasticity is considered an important mechanism for the system, then we need to consider what's plastic and what's not. Traits 
 
-\subsection{Flexible strategies}
+\subsection{Plastic strategies}
+
+Resource-use and allocation strategies have been related to environmental conditions in both empirical \parencite{wright_leaves_2002, ackerly_functional_2004, poorter_leaf_2006}, conceptual \parencite{grime_evidence_1977, westoby_leaf-height-seed_1998} and modelling\parencite{kleidon_global_2000, scheiter_impacts_2009, reineking_environmental_2006} studies. Moreover, functional traits show evidence of intra-spacific changes along environmental gradient \parencite{kichenin_contrasting_2013} and intra-specific economic spectrum \parencite{hu_novel_2015}, and constraints that shape main ecological trade-offs are certain to also constrain individual traits. Therefore, if strategies vary between and within species along environmental gradients, it makes sense to imagine that plasticity as changes in strategic traits. This goes beyond changes in spatial allocation\parencite{schapendonk_lingra_1998}, or parameters non identify as strategic traits \cite{lohier_explaining_2014, feller_mathematical_2015}. Considering strategic traits is not common practice because it blurs the limits between species that are not well identified by these traits any more\sidenote{especially when a relatively low number of species specific traits are considered}.
+
+%Unlike the conception of plasticity in models \cite{ maire_plasticity_2013, lohier_explaining_2014}. Why? because blur the frontier between species, species specific traits are not thta specific anymore. But remember "species about trait than trait about species 
+However, while this interpretation makes sense, the species and the individuals do not have the same constraints, and plasticity cannot be as large as intra-specific diversity as there are limitations to plastic development \parencite{dewitt_costs_1998, auld_re-evaluating_2009}. Moreover it seems that rules that drive plastic may not be the same as the ones that drive intra-specific genetic variations  and inter-specific differences\parencite{ryser_consequences_2000}, explaining contrasting response along gradient or between experimental drought treatment \parencite{kichenin_contrasting_2013, jung_intraspecific_2014}. This difference is probably more important for grass species than trees \parencite{franklin_modeling_2012} because of a lower scale difference between growth and selection processes.
+
+%but attention, not also the same pattern  as certainly driven by different mechanisms 
+\begin{quotation}
+Phenotypic plasticity tends to maximize resource acquisition and growth rate in the short term, whereas the higher tissue-mass density and the longer leaf life-span of shade-tolerant species indicate reduced loss rates as a more advantageous species-specific adaptation to shade in the long term. - \cite{ryser_consequences_2000}
+\end{quotation}
+
+
+
+%strategies are adapted to conditions \cite{kleidon_global_2000, reineking_environmental_2006}, somehow it is logic that strategy should be adapted. Plasticity is in top, on some variables not specific. Is strategic, or plastic. Optimum concept: no need for specificity. 
 
 \subsection{Plasticity as a strategy}
 
+Most models consider plasticity in traits or carbon partitioning as a general behaviour that is present or absent for all considered species. While this discretisation of the phenomenon is not problematic, and rather informative for single plant or monoculture simulations \cite{maire_plasticity_2013}, it ignore the question of the adaptive value of plasticity and does not allow a continuous representation of plasticity.
+%it ignores the evolutionary discussions around plasticity.
 
-Bradshaw?
-Dewitt\\
+%true impact of plasticity 
+%Not all species are plastic
 
-frame of reference: does not allow the interrogation of plasticity as a strategy. All plant share the same plasticity.
+%frame of reference: does not allow the interrogation of plasticity as a strategy. All plant share the same plasticity.
+
+\paragraph{Cost and limits}
+
+Intuitively phenotypic plasticity is a mechanism that increase fitness and has a positive adaptive value (increases the change to be selected). However multiple \textemph{costs} and limits have been identified, both biological \parencite{ dewitt_cost_1998, auld_re-evaluating_2009, callahan_phenotypic_2008} and ecological \parencite{dewitt_cost_1998, auld_re-evaluating_2009, scheiner_genetics_1989, scheiner_genetics_2002 ,scheiner_genetics_2012, van_kleunen_constraints_2005}, limiting the extend of plasticity observed in nature and differences between species (in grasslands see \cite{ryser_consequences_2000}).
+
+...
+
+
+
+\paragraph{Continuous plasticity}
+These limitations, in addition to indicate the processes that should be included in dynamics models involving phenotypic plasticity, show that plasticity should be continuous. Indeed, costs of plasticity can increase with the amplitude of the plastic response and/or the complexity, therefore reducing the adaptive value of plasticity. Because non linearity can be expected between amplitude of plastic response and both fitness increase and cost, the adaptive value of plastic response can switch from positive to negative depending on its amplitude. Such behaviour would justify a non discrete plastic response (or variable sensitivity for polyphenism) to be captured in a model.
+%
+%Why is not always present: multiple arguements. auld dewitt murren
+%requirements \parencite{van_kleunen_constraints_2005, valladares_ecological_2007}
+%
+%\cite{callahan_phenotypic_2008} cost of phenotype, and cost of plasticity
+
+
+%
+%It is not always present, and there are differences between species: plasticity selection must be integrated in models, as other traits
+%
+%ecological: maladaptive in different environment than what it was selected in \cite{dewitt_costs_1998} - cue reliability: \cite{valladares_ecological_2007}
+
+
+\paragraph{From process to strategy}
+
+As mentioned, ecological processes can favour or limit the selection of plasticity as any other trait. The idea of plasticity as a trait under genetic control is not new. Anthony Braddshaw was probably the first to defend this idea of genes controlling the variability of phenotypes. 
+%\begin{quotation}
+%Genes must exist not only to determine character means, but also to determine character response, which adds interesting complexity to our ideas about evolution. - \cite{bradshaw_unravelling_2006}
+%\end{quotation}
+
+But it is rarely implemented in individual or community growth model. This can be explained by the fact that plasticity is often seen as a process, rather than a strategy (see previous paragraph). In individual based model, plasticity as a process is often considered because of the relatively low number of species, and scientific question not focusing on ecological aspects. In models that consider the dynamics of diverse communities under drastic changes, integrating the plasticity as a strategy is crucial. This can be done by the use of species specific traits that control the amplitude and/or direction of the response (see more details in chapter \ref{part:model}). In population models, plasticity is often considered as a source of variation equivalent to intra-specific genetic variations and is modelled by a distribution function. \cite{dewitt_expanding_2016} proposes approaches with higher moments and environment dependent distribution to integrate plasticity into such models. In development models, bayesian model offer an unifying framework to combine inherited information and environmental cues \parencite{stamps_bayesian_2016}.
+% To shift from plasticity as a process to plasticity as a strategy, the implementation of plasticity within model must change to integrate control over plastic response (amplitude and/or direction)\parencite{bradshaw_unravelling_2006}.
+%bradshaw and dewitt, stamps?
+
+%see paragraph \ref{subsection:bell-shape} 
+
+%two sides on the relationship:
+%- how pl affect evolution \cite{pfennig_phenotypic_2010} need to be investigated
+This shift is also important, because if genes control plasticity, plasticity can also alter evolutionary process and therefore the response to climate change\cite{pfennig_phenotypic_2010, matesanz_global_2010, nicotra_plant_2010}.
+
+
+%or community dynamics and properties: resistance and resilience. Plasticity of the 
+
+
+%- how ecology and evolutionary processes allow and impact pl:
+%evolution can impact plasticity as other traits
 
 
 %rewrite this more positively with more content from the section ! 
 
-\textbf{New simulations tools for understanding community dynamics should try to both include multiple coexistence mechanisms and plant strategies, and focus on individual level mechanisms of competition, growth and survival. This can only be achieved an a constraint high dimensional strategy space based on physical and biological trade-offs. Individual level modelling allows the integration of multiple sources of intra-specific variability: genetic diversity and phenotypic plasticity. Phenotypic plasticity being driven by the perception of environment, it cannot be simply described by normal random distribution and should receive more attention. This focus is particularly important considering both the lack of understanding of this phenomena and the consequences for plant communities.  }
+\textbf{Plasticity is a complex matter, together a growth process that alter strategies and a strategy itself. New simulations tools for understanding community dynamics should try to both include multiple coexistence mechanisms and plant strategies, and focus on individual level mechanisms of competition, growth and survival. This can only be achieved in a constraint high dimensional strategy space based on physical and biological trade-offs. Individual level modelling allows the integration of multiple sources of intra-specific variability: genetic diversity and phenotypic plasticity. Phenotypic plasticity being driven by the perception of environment, it cannot be simply described by normal random distribution and should receive more attention. This focus is particularly important considering both the lack of understanding of this phenomena and the consequences for plant communities.}
 
 
 \section{How phenotypic plasticity affect ecosystem properties and dynamics}
 
-reduce invasion and extinction because no local adaptation or pl \cite{morin_comparing_2009}
+The difficulty to model phenotypic plasticity, more precisely to integrate multiple aspects of the complexity of phenotypic plasticity in the context of community dynamics, is limiting the current knowledge of the impact of this mechanism on community composition, properties and dynamics under global change. In this paragraph, I try to identify the mechanisms by which pheotypic plasticity impacts plant communities, and to determine if there are unresolved questions or paradoxes, or incomplete conclusions. The focus will be given to the main properties of the grassland communities: diversity, productivity and identity.
+
+%The lack of representation of precise mechanism for pp - little idea how pl impact community, especially under changes in conditions (resistance, selection )
 
 
 \subsection{Contrasting effect on diversity}
 
-Convergence ?
+\textemph{Diversity} is a complex subject as discussed earlier in section \ref{chapter:coexistence}, resulting from various processes and measured by many indicators. Therefore, there are many ways the plasticity can affect diversity. Also the scope at which diversity is considered may change the effect of plasticity as the balance between may driving mechanism is shifted (see \cite{chalmandrier_communities_2015} for the importance of the scale on diversity). I will try to keep it simple and focus on measures of diversity at the scale of the community.
+%reduce invasion and extinction because no local adaptation or pl \cite{morin_comparing_2009}
+%Convergence ?
+\paragraph{Species diversity}
 
-biche filling versus competitive exclusion: assymetric gain and coexistence theory.
+Species diversity is driven on two levels, at large scales by abiotic conditions and filtering, and at lower scale, within this large potential niche defined by abiotic conditions, by competition and facilitation interactions. From this point of view, plasticity certainly increase the potential niche both along environmental conditions axis, but also along variation axis (species might be more or less sensitive to changes in conditions), therefore enlarging \textemph{niche} superposition \parencite{violle_return_2012}. This effect should in theory increase potential diversity as more species can potentially live in any given environment \parencite{lepik_high_2005, jung_intraspecific_2014}, but the effect of biotic interactions must be considered before drawing any conclusion of the effect of plasticity on realised diversity. The effect of plasticity on interactions is much harder to predict. According to \cite{adler_coexistence_2007} increase in niche difference and decrease in average fitness differences would increase stable coexistence.
+
+The impact of plasticity mechanism on stabilizing effect is also hard to anticipate. It will likely be negative because established species may better fill any potential gap and prevent low density positive effect and therefore invasion \parencite{berg_trait_2010}. At the contrary, reduction of fitness difference due to plasticity could lead to stronger coexistence between species. Yet, the reduction of fitness differences is not guaranteed and in case of asymmetric gain (relative to strategies), plasticity could reduce realised diversity by increasing competitive exclusion.
+There are here multiple effects (figure \ref{fig:effect_diversity} on species diversity that need to be disentangled. Recent review \parencite{turcotte_phenotypic_2016} of these effects show not consensus on the effect of phenotypic plasticity on stable coexistence.
+
+\begin{figure}
+    \includegraphics[width=1\linewidth]{./1_Introduction/graphics/filtering.pdf}
+  \caption[Effect of plasticity of filters]{Phenotypic plasticity can affect filtering processes in diverse ways, making difficult the understanding of the role of plasticity in diversity maintenance.}
+  \label{fig:plasticity_form}
+\end{figure}
+
+But plasticity responses not only depend on abiotic condition, but also on the neighbourhood that affects local environment \parencite{sultan_phenotypic_1995} at a fine scale. Because of platicity, these interactions can even shift from competition to facilitation \cite{callaway_phenotypic_2003}. A novel difficulty arises with the evidence that the identity of the competitor affect plastic response \parencite{callaway_phenotypic_2003, abakumova_plasticity_2016}, but it is likely that such interaction is related to traits and therefore impact on resource \parencite{callaway_phenotypic_2003}.
+
+\paragraph{Functional diversity}
+
+Species diversity often comes with functional diversity, however, phenotypic plasticity affect plant traits and is likely to affect functional diversity \parencite{albert_importance_2012}. Plasticity can lead to a convergence or a divergence of functional traits, decreasing or increasing functional diversity. In an experiment with legumes species \cite{roscher_contrasting_2015} observed these two phenomenons on different types of traits, between monoculture and mixture. The convergence of canopy filling and vertical growth traits suggests that competition stresses the different species on light competition, leading to a reduction of working strategies along these dimensions. Whereas, relatively, the other aspects of plant development are less constraint, or species experience diverse and contrasting conditions in mixture than in monoculture.
+
+
+
+%directional changes
+%Convergence vs non plastic trait diveristy.
+
+
+\textbf{Phenotypic plasticity is expected to increase the potential niche of species and reduce the filtering effect of abiotic conditions. However, the effect on biotic interaction makes no consensus, and is likely to vary depending on the identity of the competitors, and the relative effect on trait differences. The balance between stabilizing niche differences and average fitness differences is crucial to determine the final impact on stable coexistence. The effects on functional diversity are also diverse but mainly depends on the plastic rules leading to convergence or divergence of traits.}
+%But plasticity depends on neighbours: what does that change ?
+
+%niche filling versus competitive exclusion: assymetric gain and coexistence theory.
 
 \subsection{Productivity always improved?}
 
+There is still debate on the effect of phenotypic plasticity of mechanisms driving species diversity, but is the question of the effect on productivity solved?
+
 \paragraph{Stability}
 
-Species able to deal with variations: stay relatively (mor ethan withou PP) when conditions doesn't match.
+Plasticity is a mechanism that emerges in situation where the plants can increase their fitness in response to environmental conditions. This increase in fitness is often due to higher resource use or resource foraging efficiency and therefore better growth rate (observed in models \parencite{maire_plasticity_2013} and empirical studies \parencite{ hamann_evidence_2016}). This leads to higher individual productivity. It is especially true when resources are varying and these variations can be anticipated  \cite{richter_phenotypic_2012}.
 
-pinus sylvestris gretter pl better in variable environment \cite{richter_phenotypic_2012}
+%Species able to deal with variations: stay relatively (more than without PP) when conditions doesn't match.
+
+%pinus sylvestris gretter pl better in variable environment
+
 
 
 \paragraph{Costs and limits}
 
+However, has mentioned earlier, plasticity comes with inherent costs, related to the biological machinery needed to sense and process the signals and alter the phenotype. This costs, if the plant does not take advantage of the plasticity (no variability, in its niche) to increase (or maintain) growth rate will impact the productivity.
+
+The unreliability of environmental cues is a limit of plasticity, and it can lead to maladaptive changes in phenotypes, but this is a marginal behaviour, and maladaptive plasticity is expected to be eliminated by evolutionary process in fairly constant conditions. However, in the context of climate change, the reliability of these cues may decrease and leads to maladaptive responses. 
+
+If unnecessary costs and unreliable cues can impact overall plant efficiency, adaptive plasticity can also hurt productivity while increasing fitness. Indeed, as evolutionary models and game theory predict, competition can lead to lower efficiency than optimum arrangement. Competition leading to lower resource availability, plastic species may have an aggressive plastic response leading to stronger competitor but with less effective resource use.
+
+%Competition behaviour may lead to suboptimum phenotypes.
+
 \paragraph{Diversity and productivity}
-Maintain different species: may change the productivity pattern. better at low prod, lower prod by introducing less productive species.
+
+Biodiversity - productivity
+%
+%Effects on
+%
+%Maintain different species: may change the productivity pattern. better at low prod, lower prod by introducing less productive species.
 
 
 \subsection{Community identity shift}
 
-\textbf{}
+The third main property of grassland communities is the \textemph{identity} of the dominant species (or average species if CWMs are considered). Phenotypic plasticity can impact community identity in two ways: (1) by shifting the identity of present species, (2) by altering the output of filtering processes in favour of different traits.
+
+The first effect makes sense only in the context of a change in condition. Drought experiment in mountain grasslands show intra-specific shift toward higher LDMC and lower SLA \parencite{jung_intraspecific_2014}. Other empirical studies show uncoupled response between above- and below-ground organs, shifting the strategy of the species \parencite{freschett_plasticity_2014}.
+
+A modelling experiment show that the phenotypic plasticity is required to correctly model the dominance pattern along cutting frequency gradient \parencite{maire_plasticity_2013}, illustrating the second effect. 
+
+%selection of more or less resistant/digest/etc... species
+
+%\textbf{Plasticity affect community identity by two independent mechanisms that might have contrasting outcomes. Both should be considered, therefore models should include both plastic resposne and population dynamics processes.}
 
 
 \subsection{Phenotypic plasticity effect on individuals and communities}
 
 % section/chapter concluesion
-\textbf{Why we need this model: }
+\paragraph{Contrasting effects}
+
+\paragraph{Interacting mechanisms}
+
+% try to extract guidelines from the review of litterature.
+
+
+% begining on guide lines. Probably need high level of modification
+\textbf{Plasticity is a complex matter, together a growth process that alter strategies and a strategy itself. New simulations tools for understanding community dynamics should try to both include multiple coexistence mechanisms and plant strategies, and focus on individual level mechanisms of competition, growth and survival. This can only be achieved in a constraint high dimensional strategy space based on physical and biological trade-offs. Individual level modelling allows the integration of multiple sources of intra-specific variability: genetic diversity and phenotypic plasticity. Phenotypic plasticity being driven by the perception of environment, it cannot be simply described by normal random distribution and should receive more attention. This focus is particularly important considering both the lack of understanding of this phenomena and the consequences for plant communities.  }
 
 
 % _______________________________________________________________________________________
