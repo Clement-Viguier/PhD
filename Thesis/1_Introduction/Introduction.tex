@@ -16,7 +16,7 @@ While this thesis is a modelling thesis, it is not a modelling textbook, and rat
 % _______________________________________________________________________________________
 \section{Community assembly and coexistence}
 
-Community assembly, drivers, interaction and dynamics.
+%Community assembly, drivers, interaction and dynamics.
 
 
 %-----------------------------------------------------------------------------------------
@@ -30,38 +30,70 @@ A community is defined by the ensemble of species that coexist within the same s
 
 \paragraph{Abiotic filtering}
 
-Based on genetic and physiological properties, plant species may be able to grow and reproduce in different climatic conditions.
+The \textemph{abiotic filtering} designates the non biological variables that prevent the establishment of a species in a habitat. This term generally refers to climatic conditions and resource availability because temperature, water, nutrient and light availability are the main variables that constrain the plant development. Other abiotic factors can be considered, such as salinity \cite{poorter_leaf_2006} or soil properties (pH). These variables defines if a plant (depending on its specific properties) can establish a given habitat without any biotic interactions. These filters define, for a given habitat, the pool of species (or individuals if genetic variations are considered) that can grow and reproduce in this habitat without interaction. The ensemble of habitats a species can invade if only the abiotic factors are considered is called the \textemph{potential niche} (see figure \ref{fig:niche}). 
 
-Potential niche
+\paragraph{Dispersion filtering}
 
-Abiotic filtering 
+In addition to this large scale filters, another barrier may prevent a species to invade an habitat: its access. Indeed, dispersion plays a major role in the geographical extend of a distribution area of a species. Dispersion barriers such as mountains, seas or ocean prevent uniformisation of vegetation and reduction of global diversity. Such limits explain the existence of endemic species that grow only in a few locations, despite a larger potential distribution area (defined by potential niche).
+
+%Based on genetic and physiological properties, plant species may be able to grow and reproduce in different climatic conditions.
+
+%Potential niche
+
+%Abiotic filtering 
 
 \paragraph{Biotic filtering}
 
-Biotic filtering - realised niche.
+Finally, the main factor that can affect the ability of a plant species to establish, is living interactions. For plant species, herbivory and competition are the most important factors, but other forms of interaction can affect the potential niche. The resulting niche, after all filtering processes, is call the \textemph{realised niche}. Competition affects the growth of the focal plant indirectly by reducing the availability of resources, increasing the stress of the plant and reducing its niche (see interaction between species 1 and 3 in figure \ref{fig:niche}). Competition interactions are major factors shaping vegetation community and are extensively studied both with theoretical \parencite{chesson_general_2000, amarasekare_competitive_2003} and empirical approaches \parencite{kunstler_plant_2016}.
 
-Abiotic drivers main tnhing at global scale... Then interactions and competition.
+\begin{marginfigure}
+    \includegraphics{./1_Introduction/graphics/niches.pdf}
+  \caption[Different niches]{The potential niche of the \textcolor{myOrange}{focal} species is reduced by competition interaction with \textcolor{myRed}{species 2}, but extended by facilitation interaction with \textcolor{myGreen}{species 3}. This representation of the niche requires the knowledge of the effects of both abiotic factors and all pairwise interactions with other species. A more mechanistic approach of the niche should be considered in IMBs.}
+  \label{fig:niche}
+\end{marginfigure}
 
-\textbf{The concept of ecological niche serves as a great tool for theoretical research on coexistence. It encompasses in a convenient way both abiotic and biotic filters of one species distribution. The Hutchitonian view of the niche also captures the multidimensionality of persistence and reproduction. However, niche concept does not make explicit the mechanisms that maintain coexistence.}
+Similarly \textemph{facilitation} interactions also affect inderectly the levels of resources experienced by the focal plant, but in a way that is positive for the focal plant. So they widen realised niche outside the potential niche (see interaction between species 1 and 3 in figure \ref{fig:niche}). There are hypothesised to be larger along a stress gradient, where competition interactions are filtered out because they do not allow species maintenance and only positive interactions remain. Such relationships are dependent on the couple of species considered and may change depending on conditions \parencite{callaway_phenotypic_2003}.
+
+\paragraph{Fundamental niche}
+ From the point of view of the focal plant, these interactions only exist through the changes in resource availability (even if plants are able to identify their neighbours). In this sense, we can see potential and realised niches as displacements of the fundamental niche (niche defined in term experienced conditions, stresses and resources) within spaces defined by abiotic variables or biotic variables. From this framework, the fundamental niche, or conditions experienced by the focal plant, is the stronger representation of the species niche and the realised niche (abiotic and biotic filters on the niche) emerge from the effects of external factors on this experienced environment.
+
+This point of view should be adopted in models \parencite{berger_competition_2008} because it allows the representation of both abiotic and biotic factors in a shared and generic framework. This is an improvement in comparison to model requiring matrix of interaction coefficient between species. Such matrix, in addition to be hard to parametrise, cannot be used in a framework of dynamic strategies. Modelling effort should instead be on explicit temporal and spatial dynamics of resource dynamics. Plant interactions would be captures by the effects of plant functioning (reduction of resource levels in relation to plant growth and resource use) on these dynamics \parencite{berger_competition_2008, morin_comparing_2009}.
+%Biotic filtering - realised niche.
+
+%Abiotic drivers main tnhing at global scale... Then interactions and competition.
+
+\textbf{The concept of ecological niche serves as a great tool for theoretical research on coexistence. It encompasses in a convenient way both abiotic and biotic filters of one species distribution. While traditional view of the niche require to consider both abiotic filters and pairwise interaction, fundamental niches and resource dynamics modelling offer an alternative to model realised niche as an emergent property of the model.}
 
 
 %-----------------------------------------------------------------------------------------
 \subsection{The complexity of coexistence}
 
 \paragraph{The question of coexistence}
-If ones want to better understand and predict dynamics of complex systems, they first need to understand how such complex is assembled. If it is easy to observe diverse ecosystems (from bacteria, to plants, insects or algea), it is challenging to determine the processes that 1) group the entities together (in time and space), 2) maintain an apparent stability in the group composition (at least at a certain spatial and temporal scale). 
-We can image imagine biotic filtering as an physical filter, the same way abiotic filter is often illustrated, but this image does not translate the dynamic and complex nature of underlying processes. Biotic filtering emerge as the result of all the interactions between the entities that make it through the other filters. And how these interactions, direct or indirect, play together to see the stability of the diversity.\\
-Plankton paradox in homogeneous system, where abiotic and dispersion should have little role into maintenance of species diversity.\\
-																			
-Focus on interaction: chesson modern coexistence theory.\\
+If ones want to better understand and predict dynamics of complex systems, they first need to understand how such complex is assembled. Niches can be used to characterised a range of habitats a plant can live in, but because of complex inter-specific interactions, determining the final composition of a community from the list of species that can live in this habitat is not easy. If it is easy to observe diverse ecosystems (from bacteria, to plants, insects or algea), it is challenging to determine the processes that 1) group the entities together (in time and space), 2) maintain an apparent stability in the group composition (at least at a certain spatial and temporal scale). 
+We can image imagine biotic filtering as an physical filter, the same way abiotic filter is often illustrated, but this image does not translate the dynamic and complex nature of underlying processes. Biotic filtering emerge as the result of all the interactions between the entities that make it through the other filters. And how these interactions, direct or indirect, play together determines the stability of the diversity.\\
 
-Chesson vs Tilman. 
-Chesson focuses on interaction and 2 by species, give central idea of stabilizing vs fitness difference.\\
-Tilman focuses more on resources, how the use and impact on resources affect competition and can enable conexistence, but limited coexistence according to this criterion: plankton paradox. No heterogeneity, no temporal dynamics\\
+To predict the outcome of competition interactions multiple theories have been developed. Among these theories, we can cite two that have different perspective on the same question: how do species whering resources coexist in an homogeneous environment?
 
-Other things being equal hypothesis (in models at least) does not allow the full diversity to emerge.\\
+\cite{chesson_mechanisms_2000} tends to have a population dynamic view of the system and identifies two types of processes that promote coexistence: (1) stabilizing mechanisms, (2) equalizing mechanisms. The former are required to stable coexistence as it a condition of invasibility. In other words, plants can coexist only if one species can invade the other. The condition to such invasion is that the species at low density growth better that the species at high density. This is the case if intra-specific competition is higher than inter-specific competition. Equalizing mechanisms are processes that diminish the fitness differences between the species, without ensuring stable coexitence. This framework is extended by \cite{adler_niche_2007} in the modern coexistence theory. It states that niche differences and fitness differences are the two mains axis of species coexistence. They make the assumption that niche differences define the relative strength of inter-specific versus intra-specific competition. The larger the differences between niches, the thiner is the overlap, and the weaker the inter-specific interactions. Therefore, this can be related to stabilizing mechanisms in \cite{chesson_general_2000}. On the other end, fitness differences also impact coexistence. The lower the differences, larger are the chances species coexist. The importance of niche differences required for stable coexistence decrease with the decrease in fitness differences.
 
-\parencite{clark_resolving_2007}
+In the other hand, Tilman elaborates a theory \cite{tilman_resource_1982, tilman_plant_1988} around resource use more in line with the idea of fundamental niche expressed in previous paragraph, the contemporary niche theory. Species are characterised by the impact they have on the resource, and they use the resource for growth. Competition is in favour of the species with the lowest requirement for the resource because competition leads to resource deprivation it can survive. But coexistence if there is more than one limiting resource. In this case, coexistence can be achieve if species have a stronger impact on the resource from which they benefit the most (and intersecting zero net growth isoclines). 
+
+
+These two theories give strong conditions for stable coexistence, however they required simplifying hypotheses (all other things being equal, homogeneous environment) that are not met in natural environments. Despite their different appraoches, these theories can be united as demonstrated by  \cite{letten_linking_2017} if the impact and benefit coefficients from contemporary niche theory are transltaed into niche and fitness differences. Despite this unified theory, they applied to a too limited range of situation to be applicable in the context of diverse mountain grasslands.
+%
+%
+%
+%Focus on interaction: chesson modern coexistence theory.\\
+%
+%Chesson vs Tilman. 
+%Chesson focuses on interaction and 2 by species, give central idea of stabilizing vs fitness difference.\\
+%Tilman focuses more on resources, how the use and impact on resources affect competition and can enable conexistence, but limited coexistence according to this criterion: plankton paradox. No heterogeneity, no temporal dynamics\\
+%
+%Other things being equal hypothesis (in models at least) does not allow the full diversity to emerge.\
+
+
+%Plankton paradox in homogeneous system, where abiotic and dispersion should have little role into maintenance of species diversity.\\
+
 
 %\textbf{One mechanisms alone seems to not be enough to explain fantastic diversity observed in natural ecosystems. However there are multiple theoretical mechanisms that support species diversity and that should taken into account in community models: diversity of resources, spatial and temporal variability, frequency dependent effects, etc...}
 
@@ -72,39 +104,85 @@ Other things being equal hypothesis (in models at least) does not allow the full
 
 
 % _______________________________________________________________________________________
- \section{Variability and dynamics: driven by the resource}
+ \subsection{Variability and dynamics: driven by the resource}
 
 
 %-----------------------------------------------------------------------------------------
 %\subsection{The complexity of community dynamics} % not very informative title%
 
+Resource dynamics, even with constant influx, seems to be the key of understanding plant interactions and dynamics according to Tilman \cite{tilman_plant_1988}. Can the resource distribution is time and space explain coexistence?
 
-\subsection{Community dynamics}
+\paragraph{Community dynamics}
 
+In Tilman's perspective, resources are driven by two things, external influx and internal (to the system) consumption or cycle. The system strucutre and composition is responsible for resource dynamics as much as external influx. And these dynamics alter the structure of the community and change the hierarchy within the community. This cycle is well illustrated by the cycles we can observe in forest systems and gaps models. Mature forests produce big trees that fall down and create perturbation within the system. The resulting hole in the canopy allows for pioneer species to invade this space without competition. While they grow, other slower species are in shadows and must tolerate this competition, and grow enough to out-compete first established species. Because there is trade-of between potential growth and shade tolerance allowing this cycle to set up, there is a succession dynamic after each perturbation of the systems. These local events of perturbation support coexistence as a large scale, coexistence that can be captured by spatially explicit models \cite{chave_study_1999, falster_plant:_2016}.
 
-plant growth and life cycle
+\paragraph{Temporal heterogeneity}
 
+\begin{marginfigure}
+    \includegraphics{./1_Introduction/graphics/flowering_m.pdf}
+  \caption[Flowering periods of alpine species]{Diversity of flowering periods of alpine species. Evidence of succession in grassland ecosystems. From \cite{korner_alpine_2003}.}
+  \label{fig:flowering}
+\end{marginfigure}
 
+Such drastic dynamics do not exist in mountain grasslands communities. But the natural temporal variability of resources due to contrasted seasons, also drives diversity in growth strategies. Coexistence comes the existence of multiple climatic contexts at the same place (but not the same time). As plants cannot be the most competitive species for any given condition in the whole range of conditions experienced in mountain habitats, there is a succession of species at the top of competition hierarchy \parencite{adler_climate_2006} (see figure \ref{fig:storage_effect} for illustration). The diversity of flowering periods in figure \ref{fig:flowering} is an evidence of this succession dynamics.
 
- Succession coexistence and forest models. Dynamics of resources, influx versus impact. Storage effects. Heterogeneity. But how does it link to traits.
+\begin{figure}%[tb]
+    \classiccaptionstyle
+\sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
+    \includegraphics[width=1\linewidth]{./1_Introduction/graphics/succession.pdf}%
+}{%
+  \caption[Changes in dominance for 3 grassland species]{Changes in observed basal cover for 3 grassland species. This variation in hierarchy illustrate the succession in grassland communities and the storage effect due to the stabilizing effect of climatic variation promoting coexistence. See details in original study by \cite{adler_climate_2006}.}
+  \label{fig:storage_effect}
+  }
+\end{figure}
+
+This mechanism promoting coexistence because of succession dominance driven by temporal changes in environmental condition is called storage effect. The species grow when the conditions match their niche, and store the gains to wait until next favourable conditions. This term is generally applied to yearly variations, but the idea can be applied for variations within a growing season, allowing growth and storage until next season.
+
+%
+%from tilman: dynamics of resources
+%
+%gap model, succession in forest
+%
+%less structure in grasslands, but also diversity between early and late 
+%
+%
+%
+% Succession coexistence and forest models. Dynamics of resources, influx versus impact. Storage effects. Heterogeneity. But how does it link to traits.
 
 %\textbf{From the multiple first attends to explain coexistence with one particular mechanism, scientific community realised that indeed multiple mechanisms are at work to make species diversity in ecological community. 
-+ %multiple drivers that filter down. + temporal effect (metacommunity, invasion, equilibrium vs long transitions)
+%multiple drivers that filter down. + temporal effect (metacommunity, invasion, equilibrium vs long transitions)
  % This multiplicity highlight the need for unifying framework able to cover this diversity of mechanisms and dimensions.}
  
  
-\subsection{Heterogeneity: maintenance of diversity}
+\paragraph{Spatial heterogeneity}
+
+The temporal variations have a stabilizing effect on coexistence \cite{tilman_plant_1984}, but maybe more intuitively, spatial heterogeneity also promotes coexistence. Indeed, spatial variations of conditions at small scale create multiple niches that allows for diversity if measured at higher scale. This spatial heterogeneity can be overlooked, but in the context of mountain grasslands where plants are generally small due to high stress levels and very fine scale heterogeneity due to terrain texture it can play as a strong stabilizing mechanism.
+
+%
+%tilman 1982, spatial
+%chesson, 1994, temp, 
+%storage effect admer 2006
+%even if stochasticity can reduce coexistence. Fine scale heterogeneity is rarely taken into account, but can play an important role, especially with small individuals.
+
+\textbf{Spatial and temporal heterogeneity play a major role in coexistence maintenance by creating various opportunity, or niches, in a given ecosystem. Internal dynamic variation of conditions also support stable coexistence.}
+
+\subsection{The complexity of diversity}
+
+\paragraph{Larger scales dynamics}
+
+While resource use strategies and resource heterogeneity are important mechanisms for diversity, dispersal processes and meta-community dynamics should also be considered.
+
+Role of meta community and dispersion dynamcis, network effects
+
+\paragraph{Embrace complexity}
+
+\parencite{clark_resolving_2007}: coexistence is highly dimensional
 
 
-tilman 1982, spatial
-chesson, 1994, temp, 
-storage effect admer 2006
-even if stochasticity can reduce coexistence. Fine scale heterogeneity is rarely taken into account, but can play an important role, especially with small individuals.
-
-\textbf{Spatial and temporal heterogeneity play a major role in coexistence maintenance by creating various opportunity, or niches, in a given ecosystem. Other forms of temporal variations support stable coexistence.}
  
  % conclusion of the section/chapter:
  \textbf{The evaluation of services relies on a good representation of the plant community and its essential properties. To represent complex interacting systems like vegetation communities, descriptive approaches are not sufficient and driving processes must be considered. Explicit heterogeneity and dynamics of the resources is key to understand and model filtering processes, coexistence mechanisms and community dynamics. Modelling both community properties and resource dynamics require understanding of plant functioning and diverse growth strategies.}
+ 
  
 % #######################################################################################
 %\chapter{Considering strategies and functional traits}
@@ -526,6 +604,28 @@ Genetic variability (as well as epigenetic) can be detected in case of origin sp
 
 Plasticity is a source of intra-specific variability, but biological processes leading to changes in phenotype can be complex. These paragraphs try to disentangle the different forms of plasticity and the underlying mechanisms.
 
+\begin{fullwidth}
+\begin{tcolorbox}[title=Molecular basis of phenotypic plasticity] %Toutes les options définies dans le préambule peuvent être définies aussi ici. J’ai juste gardé la possibilité de changer le titre de la box dans ma thèse
+Phenotypic plasticity lies both in the perception of external conditions through sensor organ and signaling pathways (auxin pathway, root stones for gravity ...), and the integration of this information to alter the development plan. This integration must be coordinated at the scale of the plant according to rules or objectives, question partly explore in this work, but ultimately is applied at the cell levels.\\
+\indent Because of the complexity and our partial understanding of these mechanisms, we will not attempt to model them. However I hope that this little overview of molecular mechanisms at the scale of the cell will give the reader an idea of the processes behind the abstract concepts used in this manuscript.\\
+
+%\begin{figure}
+    \includegraphics[width=1\linewidth]{./1_Introduction/graphics/molecular_basis.pdf}
+  
+%   \captionof{figure}{Caption}
+   %\caption[Decomposition of plastic response]{Decomposition of phenotypic plasticity as a step between the genotype and the fitness. Phenotypic plasticity is the effect of environment on the link between genotype and phenotype. Plasticity can itself be decomposed in active plastic response that change the internal status of the individual (under genetic control) and passive response that result from inevitable effect of environment of the traits on the individual.}
+%  \label{fig:plasticity_form}
+%\end{figure}
+
+The diversity of mechanisms and scales (both spatial and temporal) these processes can act inside of plant gives an idea of the diversity of strategies a plant can deploy to face changes of its environment. Considering this complexity, only a small fraction can be explored in such model as \model, but hopefully it will help make progress in our understanding of the role of these molecular mechanisms at the scale of the community.
+\end{tcolorbox}
+\end{fullwidth}
+
+
+
+
+
+
 \paragraph{Forms of plasticity}
 Phenotypic plasticity is the capacity of a species to produce individuals with the same genotype but different phenotypes. This difference in phenotype should be an active process, not the results of direct alteration of the phenotype by external factors without changes in internal functioning. This change in internal functioning process has the objective \sidenote{in the sense it has been selected because it provides this capacity} to match the phenotype with expected future conditions to maximise the individual fitness. The expression "expected future conditions" is key here, as it is this projection that drives the plasticity.
 %Confusion, phenotypic plasticity is particular phenomenon, driven ...\\
@@ -788,12 +888,18 @@ A modelling experiment show that the phenotypic plasticity is required to correc
 %\textbf{Plasticity affect community identity by two independent mechanisms that might have contrasting outcomes. Both should be considered, therefore models should include both plastic resposne and population dynamics processes.}
 
 
+\begin{figure}
+    \includegraphics{./1_Introduction/graphics/effect_plasticity.pdf}
+  \caption[Phenotypic plasticity effect on community properties]{Effect of phenotypic plasticity on the three main community properties. Phenotypic plasticity can impact these properties through multiple processes that may have contrasting effects. To determine the overall effect of plasticity on community response to changes in drivers (climate and land-use) we need to integrate all these effects.}
+  \label{fig:plasticity-effect}
+\end{figure}
+
 \subsection{Phenotypic plasticity effect on individuals and communities}
 
 % section/chapter concluesion
-\paragraph{Contrasting effects}
-
-\paragraph{Interacting mechanisms}
+%\paragraph{Contrasting effects}
+%
+%\paragraph{Interacting mechanisms}
 
 % try to extract guidelines from the review of litterature.
 

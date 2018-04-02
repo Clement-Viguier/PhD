@@ -19,64 +19,260 @@
 
 \refsection{1}
   \sortlist[entry]{nyt/global/}
-    \entry{berger_competition_2008}{article}{}
-      \name{author}{4}{}{%
-        {{uniquename=0,hash=9384d3112d3d8d7a6daa243142b7d01c}{%
-           family={Berger},
-           familyi={B\bibinitperiod},
-           given={Uta},
-           giveni={U\bibinitperiod}}}%
-        {{uniquename=0,hash=48b136306136520c4e3efcf4beeecb12}{%
-           family={Piou},
-           familyi={P\bibinitperiod},
-           given={Cyril},
-           giveni={C\bibinitperiod}}}%
-        {{uniquename=0,hash=32606ef260496701357dbf6c8ac1826d}{%
-           family={Schiffers},
-           familyi={S\bibinitperiod},
-           given={Katja},
-           giveni={K\bibinitperiod}}}%
-        {{uniquename=0,hash=1afed3b8eacb2219efb8bbe1f6581962}{%
-           family={Grimm},
-           familyi={G\bibinitperiod},
-           given={Volker},
-           giveni={V\bibinitperiod}}}%
+    \entry{alexander_novel_2015}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4a5a4538548ae367f5059852b82e00b0}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Jake\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=71dfe06d80c6fe395739f9c40685185b}{%
+           family={Diez},
+           familyi={D\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{06beb24ff14108ad0c28f021244c1af8}
-      \strng{fullhash}{32bd450d1637033d7bdcd854b5b7df97}
-      \strng{authornamehash}{06beb24ff14108ad0c28f021244c1af8}
-      \strng{authorfullhash}{32bd450d1637033d7bdcd854b5b7df97}
-      \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{fullhash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authornamehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authorfullhash}{216112252dd56105ca5fe5d06655561e}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Competition is a key process in plant populations and communities. We thus need, if we are to predict the responses of ecological systems to environmental change, a comprehensive and mechanistic understanding of plant competition. Considering competition, however, only at the population level is not sufficient because plant individuals usually are different, interact locally, and can adapt their behaviour to the current state of themselves and of their biotic and abiotic environment. Therefore, simulation models that are individual-based and spatially explicit are increasingly used for studying competition in plant systems. Many different individual-based modelling approaches exist to represent competition, but it is not clear how good they are in reflecting essential aspects of plant competition. We therefore first summarize current concepts and theories addressing plant competition. Then, we review individual-based approaches for modelling competition among plants. We distinguish between approaches that are used for more than 10 years and more recent ones. We identify three major gaps that need to be addressed more in the future: the effects of plants on their local environment, adaptive behaviour, and below-ground competition. To fill these gaps, the representation of plants and their interactions have to be more mechanistic than most existing approaches. Developing such new approaches is a challenge because they are likely to be more complex and to require more detailed knowledge and data on individual-level processes underlying competition. We thus need a more integrated research strategy for the future, where empirical and theoretical ecologists as well as computer scientists work together on formulating, implementing, parameterization, testing, comparing, and selecting the new approaches.}
-      \field{issn}{1433-8319}
-      \field{journaltitle}{Perspectives in Plant Ecology, Evolution and Systematics}
-      \field{month}{3}
-      \field{number}{3–4}
-      \field{series}{Space matters - {Novel} developments in plant ecology through spatial modelling}
-      \field{shorttitle}{Competition among plants}
-      \field{title}{Competition among plants: {Concepts}, individual-based modelling approaches, and a proposal for a future research strategy}
-      \field{urlday}{6}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding how species respond to climate change is critical for forecasting the future dynamics and distribution of pests, diseases and biological diversity. Although ecologists have long acknowledged species/' direct physiological and demographic responses to climate, more recent work suggests that these direct responses can be overwhelmed by indirect effects mediated via other interacting community members. Theory suggests that some of the most dramatic impacts of community change will probably arise through the assembly of novel species combinations after asynchronous migrations with climate. Empirical tests of this prediction are rare, as existing work focuses on the effects of changing interactions between competitors that co-occur today. To explore how species/' responses to climate warming depend on how their competitors migrate to track climate, we transplanted alpine plant species and intact plant communities along a climate gradient in the Swiss Alps. Here we show that when alpine plants were transplanted to warmer climates to simulate a migration failure, their performance was strongly reduced by novel competitors that could migrate upwards from lower elevation; these effects generally exceeded the impact of warming on competition with current competitors. In contrast, when we grew the focal plants under their current climate to simulate climate tracking, a shift in the competitive environment to novel high-elevation competitors had little to no effect. This asymmetry in the importance of changing competitor identity at the leading versus trailing range edges is best explained by the degree of functional similarity between current and novel competitors. We conclude that accounting for novel competitive interactions may be essential to predict species/' responses to climate change accurately.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{number}{7570}
+      \field{title}{Novel competitors shape species/' responses to climate change}
+      \field{urlday}{2}
       \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{volume}{9}
-      \field{year}{2008}
+      \field{urlyear}{2015}
+      \field{volume}{525}
+      \field{year}{2015}
       \field{urldateera}{ce}
-      \field{pages}{121\bibrangedash 135}
-      \range{pages}{15}
+      \field{pages}{515\bibrangedash 518}
+      \range{pages}{4}
       \verb{doi}
-      \verb 10.1016/j.ppees.2007.11.002
+      \verb 10.1038/nature14952
       \endverb
       \verb{file}
-      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/26K235HM/Berger et al. - 2008 - Competition among plants Concepts, individual-bas.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/9KT5UF26/S1433831907000583.html:text/html
+      \verb Full Text PDF:/home/clement/Zotero/storage/ZQIEN7V6/Alexander et al. - 2015 - Novel competitors shape species' responses to cli.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/EW4PBWCH/nature14952.html:text/html
       \endverb
       \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S1433831907000583
+      \verb http://www.nature.com/nature/journal/v525/n7570/full/nature14952.html
       \endverb
-      \keyw{Individual-based model,Ecological field,Field-of-neighbourhood,Grid-based model,Tessellation,Zone-of-influence}
+      \keyw{Community ecology,Climate-change ecology}
+    \endentry
+    \entry{callaway_phenotypic_2003}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=54561e6e2b90f3b5a1369c996abd6c04}{%
+           family={Callaway},
+           familyi={C\bibinitperiod},
+           given={Ragan\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=47f54c030f3881505a2b65cd78da4216}{%
+           family={Pennings},
+           familyi={P\bibinitperiod},
+           given={Steven\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=5b6fd28c97ce8591c1d0d0098399a8cf}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Christina\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{04188c258c314611cac5520f512027b6}
+      \strng{fullhash}{04188c258c314611cac5520f512027b6}
+      \strng{authornamehash}{04188c258c314611cac5520f512027b6}
+      \strng{authorfullhash}{04188c258c314611cac5520f512027b6}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We know a great deal about the plastic responses of plant phenotypes to the abiotic and biotic environment, but very little about the consequences of phenotypic plasticity for plant communities. In other words, we know that plant traits can vary widely for a given genotype, but we know little about the importance of trait-mediated interactions (TMI) among plants. Here, we discuss three major factors that affect the expression of phenotypic plasticity: variation in the abiotic environment, variation in the presence or identity of neighbors, and variation in herbivory. We consider how plastic responses to these factors might affect interactions among plants. Plastic responses to the abiotic environment have important consequences for conditionality in competitive effects, to the point of causing shifts from competitive to facilitative interactions. Because plants show a high degree of plasticity in response to neighbors, and even to the specific identify of neighbors, phenotypic plasticity may allow species to adjust to the composition of their communities, promoting coexistence and community diversity. Likewise, plastic responses to consumers may have various and counterintuitive consequences: induction of plant resistance, compensatory growth, and increased resource uptake may affect interactions among plants in ways that cannot be predicted simply by considering biomass lost to consumers. What little we know about TMI among plants suggests that they should not be ignored in plant community theory. Although work to date on the community consequences of phenotypic plasticity has been hampered by experimental constraints, new approaches such as manipulating phenotypes by using signals instead of actual environmental conditions and the use of transgenic plants should allow us to rapidly expand our understanding of the community consequences of plant plasticity. Corresponding Editor: F. R. Adler. For reprints of this Special Feature, see footnote 1, p. 1081.}
+      \field{issn}{0012-9658}
+      \field{journaltitle}{Ecology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Phenotypic plasticity and interactions among plants}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{84}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{1115\bibrangedash 1128}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1890/0012-9658(2003)084[1115:PPAIAP]2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/P2JFIVIA/Callaway et al. - 2003 - Phenotypic plasticity and interactions among plant.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/4FWCFCQP/0012-9658(2003)084[1115PPAIAP]2.0.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.esajournals.org/doi/abs/10.1890/0012-9658(2003)084%5B1115:PPAIAP%5D2.0.CO%3B2
+      \endverb
+    \endentry
+    \entry{cotto_dynamic_2017}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,hash=56b7842298e71298fb841481b3ab5969}{%
+           family={Cotto},
+           familyi={C\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{uniquename=0,hash=12fe4044de755b1c40dace6c74fe2fdd}{%
+           family={Wessely},
+           familyi={W\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=e1ecd262e061f563f65e6df75586b47b}{%
+           family={Georges},
+           familyi={G\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=613d903634fde7a614d737f397d084f8}{%
+           family={Klonner},
+           familyi={K\bibinitperiod},
+           given={Günther},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=f02b1fc4afbdd49d46788e27fb62d762}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=84dc497434fb826a6086b90a8b8b4302}{%
+           family={Dullinger},
+           familyi={D\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=1c9bfe8568b7cd1a716c53e0a09bad2e}{%
+           family={Guillaume},
+           familyi={G\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{79cfeb066f12f425a5f0ca5a76dc1272}
+      \strng{fullhash}{21f4625cb335e5470e71f2a73827256e}
+      \strng{authornamehash}{79cfeb066f12f425a5f0ca5a76dc1272}
+      \strng{authorfullhash}{21f4625cb335e5470e71f2a73827256e}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{<}p{>}Environmental niche models are often used to predict species responses to climate change but they neglect the potential for evolutionary responses. Here, Cotto \textit{et al}. develop a model incorporating demographic processes and evolutionary dynamics and show that perenn\&hellip;{<}/p{>}}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{5}
+      \field{title}{A dynamic eco-evolutionary model predicts slow response of alpine plants to climate warming}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{ncomms15399}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1038/ncomms15399
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/clement/Zotero/storage/A8ZFQQSR/ncomms15399.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/ncomms15399
+      \endverb
+    \endentry
+    \entry{deleglise_drought-induced_2015}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=6461759f2a5824b3e753d27c4faffd0a}{%
+           family={Deléglise},
+           familyi={D\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=0d0d1d8d9ae7d40d69cf99513d81f183}{%
+           family={Meisser},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=36436318a9d083ed787c4b461b7eff5a}{%
+           family={Mosimann},
+           familyi={M\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=7d81da4e759edc1db5287a25366d37fd}{%
+           family={Spiegelberger},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=29cbab7bfe149ab7aff12a1ecdc43dd9}{%
+           family={Signarbieux},
+           familyi={S\bibinitperiod},
+           given={Constant},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=45f575df63ecaa843969f412be276cc1}{%
+           family={Jeangros},
+           familyi={J\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=3fb88c6eb551570791b15b4e0eba042e}{%
+           family={Buttler},
+           familyi={B\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{290c8d6c8e658b70bc02a2db3013dbe5}
+      \strng{fullhash}{f42f818c6f2e54901aa756bbd883d465}
+      \strng{authornamehash}{290c8d6c8e658b70bc02a2db3013dbe5}
+      \strng{authorfullhash}{f42f818c6f2e54901aa756bbd883d465}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Extreme drought events can dramatically impact grassland ecosystems, causing potential loss of forage production for livestock in temperate grasslands. However, knowledge of drought effects on forage production, nutritive value and plant community stability in the real context of farming management is scarce. For this purpose, the effect of a simulated summer drought was studied under two realistic management types on a semi-natural grassland in the Swiss Jura mountains. The first management (“grazing”) consisted in six consecutive utilizations by animals over the growing season, representing a rotational grazing system as regionally conducted. The second management (“mowing”) consisted of three harvests, corresponding to the usual mowing frequency of hay meadows. In both managements, drought caused minor short-term modifications of species composition and almost no persistent effects were observed. Besides, important short-term changes were observed in community weighted mean of several key functional traits, reflecting a strong decline in community growth during the drought followed by a partial recovery two months later. Forage yields, and to a lesser extent its nutritive value, thus declined during the drought period. Both were still affected in the following months, but had recovered in spring of the following year. Forage loss was twofold higher in the grazing management, but recovery as well as nutritive value was slightly improved in this management. The results suggest that rotational grazing can amplify negative drought impacts, compared to traditional mowing, and highlight the need to adapt such management in dry years. They also demonstrate that, even under a fairly intensive management, resilience of such mountain grasslands after one extreme drought event can be expected to be high, with no persistent changes in species and trait compositions.}
+      \field{issn}{0167-8809}
+      \field{journaltitle}{Agriculture, Ecosystems \& Environment}
+      \field{month}{12}
+      \field{title}{Drought-induced shifts in plants traits, yields and nutritive value under realistic grazing and mowing managements in a mountain grassland}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2015}
+      \field{volume}{213}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{94\bibrangedash 104}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.agee.2015.07.020
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/WQ5WEWGX/Deléglise et al. - 2015 - Drought-induced shifts in plants traits, yields an.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/ZQFXEMVZ/S0167880915300347.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0167880915300347
+      \endverb
+      \keyw{Grassland management,functional traits,Forage quality,Rain-shelter,Recovery}
     \endentry
     \entry{diaz_incorporating_2007}{article}{}
       \name{author}{6}{uniquelist=3}{%
@@ -437,6 +633,72 @@
       \endverb
       \keyw{global change,alpine plants,species distribution models,Europe vegetation,impact assessment}
     \endentry
+    \entry{falster_plant:_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=9f40bf74b1870ae8be8c704fc80b9006}{%
+           family={Falster},
+           familyi={F\bibinitperiod},
+           given={Daniel\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=4c27d8cef53f1a496154b12595e22392}{%
+           family={FitzJohn},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=f32d08a03245a59d0ad5a857be8a5401}{%
+           family={Brännström},
+           familyi={B\bibinitperiod},
+           given={Åke},
+           giveni={Å\bibinitperiod}}}%
+        {{uniquename=0,hash=874f15c525e51c2b786d5382c67156ea}{%
+           family={Dieckmann},
+           familyi={D\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod}}}%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e0df3fa4ee4acb15ca69e4e33957c3bc}
+      \strng{fullhash}{d14d5023c8e5b3bb04f0e3faadd5fb67}
+      \strng{authornamehash}{e0df3fa4ee4acb15ca69e4e33957c3bc}
+      \strng{authorfullhash}{d14d5023c8e5b3bb04f0e3faadd5fb67}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* Population dynamics in forests are strongly size-structured: larger plants shade smaller plants while also expending proportionately more energy on building and maintaining woody stems. Although the importance of size structure for demography is widely recognized, many models either omit it entirely or include only coarse approximations. * Here, we introduce the plant package, an extensible framework for modelling size- and trait-structured demography, ecology and evolution in simulated forests. At its core, plant is an individual-based model where plant physiology and demography are mediated by traits. Individual plants from multiple species can be grown in isolation, in patches of competing plants or in metapopulations under a disturbance regime. These dynamics can be integrated into metapopulation-level estimates of invasion fitness and vegetation structure. Because fitness emerges as a function of traits, plant provides a novel arena for exploring eco-evolutionary dynamics. * plant is an open source R package and is available at github.com/traitecoevo/plant. Accessed from R, the core routines in plant are written in C++. The package provides for alternative physiologies and for capturing trade-offs among parameters. A detailed test suite is provided to ensure correct behaviour of the code. * plant provides a transparent platform for investigating how physiological rules and functional trade-offs interact with competition and disturbance regimes to influence vegetation demography, structure and diversity.}
+      \field{issn}{2041-210X}
+      \field{journaltitle}{Methods Ecol Evol}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{plant}
+      \field{title}{plant: {A} package for modelling forest trait ecology and evolution}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{7}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{136\bibrangedash 146}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/2041-210X.12525
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/3Q66ZSK2/Falster et al. - 2016 - plant A package for modelling forest trait ecolog.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/VNQKMJ63/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12525/abstract
+      \endverb
+      \keyw{Growth,trade-off,fitness,demography,emergent,metapopulation,mortality,physiology,reproduction,size structure}
+    \endentry
     \entry{gilman_framework_2010}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=53758c9142788dd28ddcc6af234c4b60}{%
@@ -549,6 +811,172 @@
       \endverb
       \keyw{Plant Sciences,plasticity,Phenology,Drought,Ecology,adaptation,Annual plants,Hydrology/Water Resources}
     \endentry
+    \entry{intergovernmental_panel_on_climate_change_climate_2014}{book}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=642e38c7fe96dcab55c47e707ce4fff7}{%
+           family={{Intergovernmental Panel on Climate Change}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \strng{fullhash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \strng{editornamehash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \strng{editorfullhash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-107-41532-4}
+      \field{shorttitle}{Climate {Change} 2013 - {The} {Physical} {Science} {Basis}}
+      \field{title}{Climate {Change} 2013 - {The} {Physical} {Science} {Basis}: {Working} {Group} {I} {Contribution} to the {Fifth} {Assessment} {Report} of the {Intergovernmental} {Panel} on {Climate} {Change}}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324
+      \endverb
+      \verb{url}
+      \verb http://ebooks.cambridge.org/ref/id/CBO9781107415324
+      \endverb
+    \endentry
+    \entry{jung_intraspecific_2014}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=8ebed31ded78c47a084b88ac0d0b2ac3}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Cécile\bibnamedelima H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=8f524674b7870bae7bfbc772ee46b984}{%
+           family={Violle},
+           familyi={V\bibinitperiod},
+           given={Cyrille},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=1ad96402d9c897e77bdc8f6aa201304b}{%
+           family={Kunstler},
+           familyi={K\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=bf0bba63671e57013397183d2ea56348}{%
+           family={Loucougaray},
+           familyi={L\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=7d81da4e759edc1db5287a25366d37fd}{%
+           family={Spiegelberger},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5c4e114f8ae1b013d4ae751c81c7f4a9}
+      \strng{fullhash}{d71ca02425009214f7a06d147fecfaa4}
+      \strng{authornamehash}{5c4e114f8ae1b013d4ae751c81c7f4a9}
+      \strng{authorfullhash}{d71ca02425009214f7a06d147fecfaa4}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Climate change is expected to increase the magnitude and the frequency of extreme climatic events such as droughts. Better understanding how plant communities will respond to these droughts is a major challenge. We expect the response to be a shift in functional trait values resulting from both species turnover and intraspecific trait variability, but little research has addressed the relative contribution of both components. * We analysed the short-term functional response of subalpine grassland communities to a simulated drought by focusing on four leaf traits (LDMC: leaf dry matter content, SLA: specific leaf area, LNC: leaf nitrogen concentration and LCC: leaf carbon concentration). After evaluating species turnover and intraspecific variability separately, we determined their relative contribution in the community functional response to drought, reflected by changes in community-weighted mean traits. * We found significant species turnover and intraspecific variability, as well as significant changes in community-weighted mean for most of the traits. The relative contribution of intraspecific variability to the changes in community mean traits was more important (42–99\%) than the relative contribution of species turnover (1–58\%). Intraspecific variability either amplified (for LDMC, SLA and LCC) or dampened (for LNC) the community functional response mediated by species turnover. We demonstrated that the small contribution of species turnover to the changes in community mean LDMC and LCC was explained by a lack of covariation between species turnover and interspecific trait differences. * Synthesis. These results highlight the need for a better consideration of intraspecific variability to understand and predict the effect of climate change on plant communities. While both species turnover and intraspecific variability can be expected following an extreme drought, we report new evidence that intraspecific variability can be a more important driver of the short-term functional response of plant communities.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Intraspecific trait variability mediates the response of subalpine grassland communities to extreme drought events}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{102}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 53}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12177
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/Z32Z2SNG/Jung et al. - 2014 - Intraspecific trait variability mediates the respo.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/FM4HKTJJ/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12177/abstract
+      \endverb
+      \keyw{intraspecific variability,Drought,plant functional traits,climate change experiments,community-weighted mean traits,grasslands,plant–climate interactions}
+    \endentry
+    \entry{lamarque_plant_2014}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=82c45278c7bda5f5aa61adfb1417f744}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={Pénélope},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=eb88b61bd12ae5ac106d4f3c6291822c}{%
+           family={Mouchet},
+           familyi={M\bibinitperiod},
+           given={Maud},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b0ad98f5991cb415c688c3b19156dfdd}{%
+           family={Quétier},
+           familyi={Q\bibinitperiod},
+           given={Fabien},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e6cc225edff0d535c67f3fbab6d86a55}
+      \strng{fullhash}{12dd07a7bca7bea2e57c692ad9942ced}
+      \strng{authornamehash}{e6cc225edff0d535c67f3fbab6d86a55}
+      \strng{authorfullhash}{12dd07a7bca7bea2e57c692ad9942ced}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Land use and climate change are primary causes of changes in the supply of ecosystem services (ESs). Although the consequences of climate change on ecosystem properties and associated services are well documented, the cascading impacts of climate change on ESs through changes in land use are largely overlooked. We present a trait-based framework based on an empirical model to elucidate how climate change affects tradeoffs among ESs. Using alternative scenarios for mountain grasslands, we predicted how direct effects of climate change on ecosystems and indirect effects through farmers’ adaptations are likely to affect ES bundles through changes in plant functional properties. ES supply was overall more sensitive to climate than to induced management change, and ES bundles remained stable across scenarios. These responses largely reflected the restricted extent of management change in this constrained system, which was incorporated when scaling up plot level climate and management effects on ecosystem properties to the entire landscape. The trait-based approach revealed how the combination of common driving traits and common responses to changed fertility determined interactions and tradeoffs among ESs.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{PNAS}
+      \field{month}{9}
+      \field{number}{38}
+      \field{title}{Plant trait-based models identify direct and indirect effects of climate change on bundles of grassland ecosystem services}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{111}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{13751\bibrangedash 13756}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1216051111
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/VJC4B9MV/Lamarque et al. - 2014 - Plant trait-based models identify direct and indir.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/W7EFS753/13751.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/111/38/13751
+      \endverb
+      \keyw{trade-offs,plant functional traits,global change,mountain agriculture}
+    \endentry
     \entry{lavorel_predicting_2002}{article}{}
       \name{author}{2}{}{%
         {{uniquename=2,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
@@ -599,6 +1027,259 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2435.2002.00664.x/abstract
       \endverb
       \keyw{trade-offs,Biogeochemical cycles,disturbance,effect traits,fire,resource gradient,response traits,scaling-up}
+    \endentry
+    \entry{maire_trade-off_2009}{article}{}
+      \name{author}{5}{uniquelist=2}{%
+        {{uniquename=0,hash=1ecb3c0a8262af560d1c5fcef2827334}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=0e3b25e3fdfa4c84f2257888132ef654}{%
+           family={Da\bibnamedelima Silveira\bibnamedelima Pontes},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Laise},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=96a73018bad3115074bc124bded00428}{%
+           family={Picon-Cochard},
+           familyi={P\bibinithyphendelim C\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=e2164a868a1325c3620341fa60a87e8d}{%
+           family={Soussana},
+           familyi={S\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6f41540566edeafaa2a4f24290980c13}
+      \strng{fullhash}{0ee93761130bb505f4fd9b1afe6c9b12}
+      \strng{authornamehash}{6f41540566edeafaa2a4f24290980c13}
+      \strng{authorfullhash}{0ee93761130bb505f4fd9b1afe6c9b12}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* 1Although plant nitrogen (N) strategies may play an important role for community structure and ecosystem functioning, there is not a clear understanding of the link between N acquisition by roots and N utilization by shoots. Particularly, it is unclear how the co-variations between size- and physiology-related traits determine N acquisition and N utilization at the plant scale. * 2We used 13 co-occurring temperate pasture grasses to study inter-specific variations in above-ground N yield and in root N acquisition and shoot N utilization traits. N acquisition traits concerned root influx capacities for and , root mass and specific root area in ingrowth cores. N utilization traits concerned leaf life span, leaf N content, leaf N resorption, mean residence time of N and leaf N use efficiency. * 3We found evidence for three trade-offs across species concerning root N acquisition: (i) root mass increased when specific root area declined; (ii) an increase in root area was observed when total N influx capacity decreased; and (iii) root influx capacity increased when capacity declined. * 4High total root uptake capacity gave rise to high leaf N content and was associated across species to low leaf N use efficiency. Tall grasses were characterized by high shoot N yield, high root biomass and high leaf N use efficiency. Physiology-related traits and size-related traits were generally found independent. * 5Our study demonstrates how size and N uptake related root traits are associated to major axes of plant specialization ((i) plant size and (ii) conservation vs. exploitation of N) which were previously identified based on shoot traits. Contrasted N strategies were segregated across species according to four combinations along these two axes.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Trade-off between root nitrogen acquisition and shoot nitrogen utilization across 13 co-occurring pasture grass species}
+      \field{urlday}{12}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{23}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{668\bibrangedash 679}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.1365-2435.2009.01557.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/6DPDVNXE/Maire et al. - 2009 - Trade-off between root nitrogen acquisition and sh.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/6R5PUQMW/abstract\;jsessionid=92C85051084645D46A6D94318EDFF12C.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2435.2009.01557.x/abstract
+      \endverb
+      \keyw{plant functional trait,nitrogen use efficiency,ammonium,nitrate,plant N strategies,root ingrowth core,root uptake}
+    \endentry
+    \entry{maire_plasticity_2013}{article}{}
+      \name{author}{9}{uniquelist=2}{%
+        {{uniquename=0,hash=1ecb3c0a8262af560d1c5fcef2827334}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=e2164a868a1325c3620341fa60a87e8d}{%
+           family={Soussana},
+           familyi={S\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=20bc47afa486108f8b1605d9414b8f4e}{%
+           family={Bachelet},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=261bcfcede26359224469323ef46e9fb}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=cb5fddc06ebefe93982aee016fd0446a}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=64dea7bf168c8dc3cbf52f2c68a4c3da}{%
+           family={Reinhold},
+           familyi={R\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=adb5797edad2975fdfafaaa7afcc19b3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a199339a8a2d8f046550a18fb7341d56}
+      \strng{fullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \strng{authornamehash}{a199339a8a2d8f046550a18fb7341d56}
+      \strng{authorfullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gemini, a mechanistic model linking plant functional traits, plant populations, community dynamics, and ecosystem scale fluxes in grasslands has been reported in a companion paper (Soussana et al., 2012). For monocultures and six species mixtures of perennial grass species, this model has been successfully evaluated against experimental data of above-ground net primary productivity (ANPP) and plant community structure across nitrogen and disturbance (cutting frequency) gradients. The Gemini model combines two categories of processes: (i) C and N fluxes, (ii) morphogenesis and architecture of roots and shoots and demography of clonal plant axes. These two process categories constrain the form and function of the simulated clonal plants within plastic limits. We show here that the plasticity of the simulated plant populations accounts for well-established empirical laws: (i) root:shoot ratio, (ii) self-thinning, (iii) critical shoot N content, and (iv) role of plant traits (specific leaf area and plant height) for population response to environmental gradients (nitrogen and disturbance). Moreover, we show that model versions for which plasticity simulation has been partly or fully suppressed have a reduced ANPP in monocultures and in binary mixtures and do not capture anymore productivity and dominance changes across environmental gradients. We conclude that, along environmental and competition gradients, the plasticity of plant form and function is required to maintain the coordination of multiple resource capture and, hence, to sustain productivity and dominance.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{4}
+      \field{title}{Plasticity of plant form and function sustains productivity and dominance along environment and competition gradients. {A} modeling experiment with {Gemini}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{254}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{80\bibrangedash 91}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2012.03.039
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/6M2NIXS7/Maire et al. - 2013 - Plasticity of plant form and function sustains pro.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/GB6MJWWT/S0304380012001664.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380012001664
+      \endverb
+      \keyw{Growth,Carbon,Nitrogen,Functional balance,partitioning,biodiversity,grassland,Coordination theory}
+    \endentry
+    \entry{marechaux_individual-based_2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=eca412d88b5fa059a58345cc3e7019ba}{%
+           family={Maréchaux},
+           familyi={M\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=96dcd1557addc8268aae043c16151e3e}{%
+           family={Chave},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7234b87f7c7c2af5307ac10cd6484b85}
+      \strng{fullhash}{7234b87f7c7c2af5307ac10cd6484b85}
+      \strng{authornamehash}{7234b87f7c7c2af5307ac10cd6484b85}
+      \strng{authorfullhash}{7234b87f7c7c2af5307ac10cd6484b85}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Forest dynamic models predict the current and future states of ecosystems and are a nexus between physiological processes and empirical data, forest plot inventories and remote-sensing information. The problem of biodiversity representation in these models has long been an impediment to a detailed understanding of ecosystem processes. This challenge is amplified in species-rich and high-carbon tropical forests. Here we describe an individual-based and spatially explicit forest growth simulator, TROLL, that integrates recent advances in plant physiology. Processes (carbon assimilation, allocation, reproduction, and mortality) are linked to species-specific functional traits, and the model was parameterized for an Amazonian tropical rainforest. We simulated a forest regeneration experiment from bare soil, and we validated it against observations at our sites. Simulated forest regeneration compared well with observations for stem densities, gross primary productivity, aboveground biomass, and floristic composition. After 500 years of regrowth, the simulated forest displayed structural characteristics similar to observations (e.g., leaf area index and trunk diameter distribution). We then assessed the model's sensitivity to a number of key model parameters: light extinction coefficient and carbon quantum yield, and to a lesser extent mortality rate, and carbon allocation, all influenced ecosystem features. To illustrate the potential of the approach, we tested whether variation in species richness and composition influenced ecosystem properties. Overall, species richness had a positive effect on ecosystem processes, but this effect was controlled by the identity of species rather by richness per se. Also, functional trait community means had a stronger effect than functional diversity on ecosystem processes. TROLL should be applicable to many tropical forests sites, and data requirement is tailored to ongoing trait collection efforts. Such a model should foster the dialogue between ecology and the vegetation modeling community, help improve the predictive power of models, and eventually better inform policy choices.}
+      \field{issn}{1557-7015}
+      \field{journaltitle}{Ecol Monogr}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shorttitle}{An individual-based forest model to jointly simulate carbon and tree diversity in {Amazonia}}
+      \field{title}{An individual-based forest model to jointly simulate carbon and tree diversity in {Amazonia}: description and applications}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{volume}{87}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{632\bibrangedash 664}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1002/ecm.1271
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/EE2G4JHB/Maréchaux et Chave - 2017 - An individual-based forest model to jointly simula.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/MUMSMS93/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/ecm.1271/abstract
+      \endverb
+      \keyw{biodiversity,functional traits,productivity,Amazonia,biomass,individual-based model,negative density dependence,plant community dynamics,regeneration,sensitivity analysis,spatially explicit,tropical forest}
+    \endentry
+    \entry{martin_simulations_2012}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=a1c992e7494d5048c629e781fcf14cc1}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=f9a3b2d59c136a084e05e2d9846bc203}{%
+           family={Duru},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=243d144633b167850c91703aa7c990eb}{%
+           family={Schellberg},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=3150b09d7c0e89df950360dfb5dd1d56}{%
+           family={Ewert},
+           familyi={E\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c719f445cf7cdf2044545f9b6860c6a}
+      \strng{fullhash}{95372e8cd80203da6aab330a75f78867}
+      \strng{authornamehash}{7c719f445cf7cdf2044545f9b6860c6a}
+      \strng{authorfullhash}{95372e8cd80203da6aab330a75f78867}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite their wide range of applications, process-based plant (crop and grassland) growth models often fail to reproduce yields, particularly at farm, regional and larger scales. This is largely due to inadequate information about field management activities needed as input to these models. A promising approach to overcome this limitation is to link plant growth models with farm management models which allow the simulation of management activities considering farmers’ aims and constraints. Different approaches to model farm management are available, but tangible results to justify the choice for a specific approach are lacking. The objective of this work was to compare the effects of different approaches of modelling farm management on the simulation of grassland mechanized harvest dates and yields. Simulations were run with each approach for two grassland-based beef farms and 3 years and compared with available data over 156 harvest events. Our results show significant differences in the accuracy of simulated harvest dates depending on the approach to model farm management. Approaches using fixed dates or optimal phenological stages determined by expert knowledge performed less accurate than the one using calibrated phenological stages. Best results were achieved with a detailed farm management model. The accuracy of simulated yields was less affected by the chosen farm management modelling approach. However, this differed depending on the climate and the timing of harvest, allowing to rank approaches according to their ability to simulate harvest dates and yields. We conclude that further investigation is required to generalize these findings to other farm types including arable farming, and to support the analysis, modelling and calibration of farmers’ management decision processes.}
+      \field{issn}{0308-521X}
+      \field{journaltitle}{Agricultural Systems}
+      \field{month}{6}
+      \field{title}{Simulations of plant productivity are affected by modelling approaches of farm management}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{109}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{25\bibrangedash 34}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.agsy.2012.02.002
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/RQ5PWRC7/Martin et al. - 2012 - Simulations of plant productivity are affected by .pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/PJCFMB3U/S0308521X12000297.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0308521X12000297
+      \endverb
+      \keyw{Decision-making modelling,Farm model,Farmers’ decisions,Grassland-based beef farm,Model complexity}
     \endentry
     \entry{merila_climate_2014}{article}{}
       \name{author}{2}{}{%
@@ -683,6 +1364,126 @@
       \endverb
       \verb{url}
       \verb http://www.nature.com/articles/nclimate2563
+      \endverb
+    \endentry
+    \entry{pavlick_jena_2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=5b6664548c9bd55fb6fdd9452bb5c176}{%
+           family={Pavlick},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=1937af4e2093a1a68f06e23cb08879e7}{%
+           family={Drewry},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=ffc4558766f72d1c7aa15ab5d92f5a5c}{%
+           family={Bohn},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=3b1097c8837340077a1ad35e818002fc}{%
+           family={Reu},
+           familyi={R\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=389b98f8ba26134aebe6dbcd35f5288c}{%
+           family={Kleidon},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{48ef75645ebb088e70626efe4525da09}
+      \strng{fullhash}{b713419e9fee3bb09a7d8913c64dfac1}
+      \strng{authornamehash}{48ef75645ebb088e70626efe4525da09}
+      \strng{authorfullhash}{b713419e9fee3bb09a7d8913c64dfac1}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Terrestrial biosphere models typically abstract the immense diversity of vegetation forms and functioning into a relatively small set of predefined semi-empirical plant functional types (PFTs). There is growing evidence, however, from the field ecology community as well as from modelling studies that current PFT schemes may not adequately represent the observed variations in plant functional traits and their effect on ecosystem functioning. In this paper, we introduce the Jena Diversity-Dynamic Global Vegetation Model (JeDi-DGVM) as a new approach to terrestrial biosphere modelling with a richer representation of functional diversity than traditional modelling approaches based on a small number of fixed PFTs. JeDi-DGVM simulates the performance of a large number of randomly generated plant growth strategies, each defined by a set of 15 trait parameters which characterize various aspects of plant functioning including carbon allocation, ecophysiology and phenology. Each trait parameter is involved in one or more functional trade-offs. These trade-offs ultimately determine whether a strategy is able to survive under the climatic conditions in a given model grid cell and its performance relative to the other strategies. The biogeochemical fluxes and land surface properties of the individual strategies are aggregated to the grid-cell scale using a mass-based weighting scheme. We evaluate the simulated global biogeochemical patterns against a variety of field and satellite-based observations following a protocol established by the Carbon-Land Model Intercomparison Project. The land surface fluxes and vegetation structural properties are reasonably well simulated by JeDi-DGVM, and compare favourably with other state-of-the-art global vegetation models. We also evaluate the simulated patterns of functional diversity and the sensitivity of the JeDi-DGVM modelling approach to the number of sampled strategies. Altogether, the results demonstrate the parsimonious and flexible nature of a functional trade-off approach to global vegetation modelling, i.e. it can provide more types of testable outputs than standard PFT-based approaches and with fewer inputs. The approach implemented here in JeDi-DGVM sets the foundation for future applications that will explore the impacts of explicitly resolving diverse plant communities, allowing for a more flexible temporal and spatial representation of the structure and function of the terrestrial biosphere.}
+      \field{issn}{1726-4189}
+      \field{journaltitle}{Biogeosciences}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{The {Jena} {Diversity}-{Dynamic} {Global} {Vegetation} {Model} ({JeDi}-{DGVM})}
+      \field{title}{The {Jena} {Diversity}-{Dynamic} {Global} {Vegetation} {Model} ({JeDi}-{DGVM}): a diverse approach to representing terrestrial biogeography and biogeochemistry based on plant functional trade-offs}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{10}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{4137\bibrangedash 4177}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.5194/bg-10-4137-2013
+      \endverb
+      \verb{file}
+      \verb Biogeosciences PDF:/home/clement/Zotero/storage/6N7UMJPD/Pavlick et al. - 2013 - The Jena Diversity-Dynamic Global Vegetation Model.pdf:application/pdf;Biogeosciences Snapshot:/home/clement/Zotero/storage/KGHRXTD4/2013.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.biogeosciences.net/10/4137/2013/
+      \endverb
+    \endentry
+    \entry{reyes-fox_five_2016}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=63ce4dfd31eeb0ad653f0294f64678b1}{%
+           family={Reyes-Fox},
+           familyi={R\bibinithyphendelim F\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=cd32f0b95406af21284626b172be8e19}{%
+           family={Steltzer},
+           familyi={S\bibinitperiod},
+           given={Heidi},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=df1f99db7191b03b01d4f6d6ef1e0a85}{%
+           family={LeCain},
+           familyi={L\bibinitperiod},
+           given={Daniel\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=01c86a483b5683ebdc652b335e4e4d5e}{%
+           family={McMaster},
+           familyi={M\bibinitperiod},
+           given={Gregory\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6c5f76217d64905c01547768c233b573}
+      \strng{fullhash}{f1b3a0cf9254ba8df503b8ca85fdb51f}
+      \strng{authornamehash}{6c5f76217d64905c01547768c233b573}
+      \strng{authorfullhash}{f1b3a0cf9254ba8df503b8ca85fdb51f}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Atmospheric CO2 concentrations have been steadily increasing since the Industrial Era and contribute to concurrent increases in global temperatures. Many observational studies suggest climate warming alone contributes to a longer growing season.}
+      \field{issn}{2052-4463}
+      \field{journaltitle}{Scientific Data}
+      \field{month}{10}
+      \field{title}{Five years of phenology observations from a mixed-grass prairie exposed to warming and elevated {CO}2}
+      \field{urlday}{3}
+      \field{urlmonth}{1}
+      \field{urlyear}{2017}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{160088}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/sdata.2016.88
+      \endverb
+      \verb{file}
+      \verb Snapshot:/home/clement/Zotero/storage/GRWIIJSU/sdata201688.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/articles/sdata201688
       \endverb
     \endentry
     \entry{rodriguez_lingra-cc:_1999}{article}{}
@@ -850,13 +1651,221 @@
       \verb https://link.springer.com/article/10.1007/s00442-010-1650-0
       \endverb
     \endentry
+    \entry{solomon_climate_2007}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=ae77b8b37877d28723e2be1c2ad9f429}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=d9da19dd6d2fefb9dc5f2812064635a5}{%
+           family={Change},
+           familyi={C\bibinitperiod},
+           given={Intergovernmental\bibnamedelimb Panel\bibnamedelimb on\bibnamedelima Climate},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=0daffcb2560b62d25b3b20caf8ecb4e0}{%
+           family={I},
+           familyi={I\bibinitperiod},
+           given={Intergovernmental\bibnamedelimb Panel\bibnamedelimb on\bibnamedelimb Climate\bibnamedelimb Change\bibnamedelimb Working\bibnamedelima Group},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{420c1e1e8df5464a11a507e26050e929}
+      \strng{fullhash}{420c1e1e8df5464a11a507e26050e929}
+      \strng{authornamehash}{420c1e1e8df5464a11a507e26050e929}
+      \strng{authorfullhash}{420c1e1e8df5464a11a507e26050e929}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-521-70596-7}
+      \field{series}{Assessment report ({Intergovernmental} {Panel} on {Climate} {Change}).: {Working} {Group}}
+      \field{title}{Climate {Change} 2007 - {The} {Physical} {Science} {Basis}: {Working} {Group} {I} {Contribution} to the {Fourth} {Assessment} {Report} of the {IPCC}}
+      \field{year}{2007}
+      \verb{url}
+      \verb https://books.google.fr/books?id=8-m8nXB8GB4C
+      \endverb
+    \endentry
+    \entry{soussana_gemini:_2012}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,hash=e2164a868a1325c3620341fa60a87e8d}{%
+           family={Soussana},
+           familyi={S\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=1ecb3c0a8262af560d1c5fcef2827334}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=20bc47afa486108f8b1605d9414b8f4e}{%
+           family={Bachelet},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=a65ce3f132a1de4e44cd35dfbd359bea}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Loic},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=cb5fddc06ebefe93982aee016fd0446a}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=adb5797edad2975fdfafaaa7afcc19b3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{02b03acf8cedbc8fc75c213a20ddbd4f}
+      \strng{fullhash}{d7c1e2eed0eebfe0f40f3afa90f80120}
+      \strng{authornamehash}{02b03acf8cedbc8fc75c213a20ddbd4f}
+      \strng{authorfullhash}{d7c1e2eed0eebfe0f40f3afa90f80120}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A structure–function–diversity model of grassland ecosystems (Gemini) has been developed. For a potentially unlimited number of clonal plant populations, it explicitly simulates competition for two key resources (light and nitrogen) along vertical canopy and soil profiles. Population turnover, shoot and root morphogenesis, photosynthesis, respiration, transpiration, N acquisition by uptake, allocation of assimilates between structural compartments, and reserve storage and remobilization, are simulated for each plant population. The object-oriented structure of the modeling framework allows to couple, or not, the simulated plant populations to other sub-models describing climate variables, soil functioning, grazing behavior and grassland management. Partitioning of growth between shoot structures, leaf photosynthetic proteins and roots is based on two assumptions: (i) functional balance between root and shoot activity, (ii) coordination of leaf photosynthesis. The model was parameterized from plant functional trait measurements of 13 native perennial pasture grass species grown in monocultures at high N availability and low cutting frequency in a field trial. Predicted and measured annual dry-matter yields were highly correlated without bias across species, N supply and cutting frequency treatments in monocultures and in mixtures of six species. Results show the ability of this mechanistic model to simulate without bias nitrogen and disturbance responses of net primary productivity and of plant community structure.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{4}
+      \field{shorttitle}{Gemini}
+      \field{title}{Gemini: {A} grassland model simulating the role of plant traits for community dynamics and ecosystem functioning. {Parameterization} and evaluation}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{231}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{134\bibrangedash 145}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2012.02.002
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/GKUS4KX2/Soussana et al. - 2012 - Gemini A grassland model simulating the role of p.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/J3VBASZB/S0304380012000579.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380012000579
+      \endverb
+      \keyw{Growth,Carbon,Nitrogen,Functional balance,partitioning,Coordination theory,species diversity}
+    \endentry
+    \entry{taubert_modelling_2014}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=44aab02fe59417e078bb8f8a2bd840b2}{%
+           family={Taubert},
+           familyi={T\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Osnabrück}%
+      }
+      \strng{namehash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \strng{fullhash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \strng{authornamehash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \strng{authorfullhash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecosystems provide important functioning and servic es, like biomass for bioenergy production or storage of atmospheric carbon. Two ex amples of such ecosystems are temperate grasslands and tropical forests. Both vegetation ar e rich of various species, whereby each of the respective ecosystem benefits from its species- richness concerning their functioning, i.e. productivity. In this thesis both vegetation are in the focus of the investigations. In the first chapter, a review of existing grassland and vegetat ion models provides an overview of important aspects, which have to be considered for modelling temperate grasslands in the context of biomass production. Based on the review, new conceptual modelling approaches for temperate grasslands are proposed. In the third chapter, derived from the suggested concept, the process-oriented and individual-based grassland model Grassmind is presented. In the fourth chapter, the model Grassmind is used in order to parameterize and simulate the annual dynamics of a typical Central European grass species. Grassmind is able to reproduce the structure and dynamics of a temperate grass spe cies. With reference to the parameterized grass species, a simulation study using defined spe cies groups is performed in order to investigate on the effect of the richness of specie s groups on aboveground productivity. We do not observe a significant positive effect of specie s group richness on productivity, which is explained by limitations of using the parameterized grass species as a reference. In the fifth chapter, comprehensive investigations are carried o ut on the example of stem size distributions in forests concerning their statistic al analyses, i.e. by using maximum likelihood estimation. The effects of uncertainties, i.e. binn ing of measured stem sizes or random measurement errors, are examined in detail. Uncerta inties bias the analyses of maximum likelihood estimations. It is shown, that the use o f modified likelihood functions, which include either binning or measurement errors, reduc e these biases to a large extent. For both studies, i.e. modelling of temperate grasslands and analysing stem size distributions of forests, the presented investigations are discussed and poss ible examinations are suggested for future research in the last chapter.}
+      \field{month}{5}
+      \field{title}{Modelling and {Analysing} the {Structure} and {Dynamics} of {Species}-rich {Grasslands} and {Forests}}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{file}
+      \verb Taubert - 2014 - Modelling and Analysing the Structure and Dynamics.pdf:/home/clement/Zotero/storage/SVBB3IT2/Taubert - 2014 - Modelling and Analysing the Structure and Dynamics.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{taubert_review_2012}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=44aab02fe59417e078bb8f8a2bd840b2}{%
+           family={Taubert},
+           familyi={T\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=b80618cac40bf4cfcc0c259d1846ea6b}{%
+           family={Frank},
+           familyi={F\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=316c08a9f785779ecfe98cb04fd33fb1}{%
+           family={Huth},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{adf4ed265dff2a830dae1f560580b0be}
+      \strng{fullhash}{adf4ed265dff2a830dae1f560580b0be}
+      \strng{authornamehash}{adf4ed265dff2a830dae1f560580b0be}
+      \strng{authorfullhash}{adf4ed265dff2a830dae1f560580b0be}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Various studies have suggested that semi-natural grasslands could be a more ecologically beneficial source for biofuel production than intensively managed monocultures. In particular, it has been observed that the high level of species diversity in grasslands has a positive effect on several ecosystem functions (e.g. productivity). Ecological models are useful tools for analyzing the interactions of different processes in grasslands, which are assumed to be the underlying drivers of this positive effect. In this paper we present a review of the main processes included in existing grassland models and discuss the strength and limitations of existing approaches in the context of biofuel production. Most of the existing models (a) focus solely on one or a few single species, (b) do not consider competition processes adequately, or (c) do not follow the individual's development in the grassland community. This hinders a detailed analysis of the mechanisms and conditions that govern the ecosystem functions that are relevant for biofuel production such as productivity, stability, and carbon fixation. To bridge this gap, we propose a concept for a novel individual-based grassland model for temperate regions. Our approach covers a high number of species/functional groups, above- and below-ground intra- and inter-specific competition for different resources (light, water, nitrogen, space), and disturbances (due to management or climate change). Hence, it could facilitate comprehensive mechanistic analyses of the dynamics of semi-natural grasslands and their efficiency in biofuel production.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{10}
+      \field{series}{7th {European} {Conference} on {Ecological} {Modelling} ({ECEM})}
+      \field{title}{A review of grassland models in the biofuel context}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{245}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{84\bibrangedash 93}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2012.04.007
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/66FWE8GX/Taubert et al. - 2012 - A review of grassland models in the biofuel contex.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/HE2NJ2T2/S0304380012001731.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380012001731
+      \endverb
+      \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
+    \endentry
   \endsortlist
-  \missing{de_bello_towards_2010}
-  \missing{morin_comparing_2009}
-  \missing{costanza_value_1997}
-  \missing{schirpke_multiple_2012}
-  \missing{debouk_functional_2015}
+  \missing{carboni_simulating_2017}
+  \missing{lohier_analyse_2016}
+  \missing{boulangeat_fate-dh_2014}
+  \missing{beniston_climate_1997}
+  \missing{evans_toward_2016}
   \missing{koorner_alpine_2003}
+  \missing{hartig_statistical_2011}
+  \missing{schipe_multiple_2012}
+  \missing{schroter_ecosystem_2005}
+  \missing{schirpke_multiple_2012}
+  \missing{de_bello_towards_2010}
+  \missing{costanza_value_1997}
+  \missing{morin_comparing_2009}
+  \missing{kleidon_global_20000}
+  \missing{boulangeat_fate-hd_2014}
+  \missing{butchart_global_2010}
+  \missing{debouk_functional_2015}
+  \missing{korner_alpine_2003}
 \endrefsection
 
 \refsection{2}
@@ -962,6 +1971,71 @@
       \verb http://www.esajournals.org/doi/abs/10.1890/03-4022
       \endverb
       \keyw{leaf life span,photosynthesis,specific leaf area,drought tolerance,wood density,chaparral,drought avoidance,ecological strategy,ecosystem,mediterranean-type,fire ecology,leaf habit,water potential}
+    \endentry
+    \entry{adler_climate_2006}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=6ed16f4f98f35ae9a2268706bac19023}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=b12bed0831eb93636bcffebd5c07dc16}{%
+           family={HilleRisLambers},
+           familyi={H\bibinitperiod},
+           given={Janneke},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=49057445ab0c0771d7e5219d68b781b3}{%
+           family={Kyriakidis},
+           familyi={K\bibinitperiod},
+           given={Phaedon\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=db84c386cfb318a58d0669f471ae11f8}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Qingfeng},
+           giveni={Q\bibinitperiod}}}%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{198f511ce3684875fd7b8053773758a4}
+      \strng{fullhash}{12fbd6c8a2d33cb028c4408592643faa}
+      \strng{authornamehash}{198f511ce3684875fd7b8053773758a4}
+      \strng{authorfullhash}{12fbd6c8a2d33cb028c4408592643faa}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How expected increases in climate variability will affect species diversity depends on the role of such variability in regulating the coexistence of competing species. Despite theory linking temporal environmental fluctuations with the maintenance of diversity, the importance of climate variability for stabilizing coexistence remains unknown because of a lack of appropriate long-term observations. Here, we analyze three decades of demographic data from a Kansas prairie to demonstrate that interannual climate variability promotes the coexistence of three common grass species. Specifically, we show that (i) the dynamics of the three species satisfy all requirements of “storage effect” theory based on recruitment variability with overlapping generations, (ii) climate variables are correlated with interannual variation in species performance, and (iii) temporal variability increases low-density growth rates, buffering these species against competitive exclusion. Given that environmental fluctuations are ubiquitous in natural systems, our results suggest that coexistence based on the storage effect may be underappreciated and could provide an important alternative to recent neutral theories of diversity. Field evidence for positive effects of variability on coexistence also emphasizes the need to consider changes in both climate means and variances when forecasting the effects of global change on species diversity.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{PNAS}
+      \field{month}{8}
+      \field{number}{34}
+      \field{title}{Climate variability has a stabilizing effect on the coexistence of prairie grasses}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2017}
+      \field{volume}{103}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{12793\bibrangedash 12798}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0600599103
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/3I747SG7/Adler et al. - 2006 - Climate variability has a stabilizing effect on th.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/VKPW29EJ/12793.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/103/34/12793
+      \endverb
+      \keyw{Climate change,Competition,population dynamics,plant community,grassland}
     \endentry
     \entry{albert_multi-trait_2010}{article}{}
       \name{author}{6}{uniquelist=4}{%
@@ -1177,6 +2251,52 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0706.2011.19672.x/abstract
       \endverb
     \endentry
+    \entry{amarasekare_competitive_2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ee00ad5feccd4e69554fccc1acfe12a3}{%
+           family={Amarasekare},
+           familyi={A\bibinitperiod},
+           given={Priyanga},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ee00ad5feccd4e69554fccc1acfe12a3}
+      \strng{fullhash}{ee00ad5feccd4e69554fccc1acfe12a3}
+      \strng{authornamehash}{ee00ad5feccd4e69554fccc1acfe12a3}
+      \strng{authorfullhash}{ee00ad5feccd4e69554fccc1acfe12a3}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Theoretical developments in spatial competitive coexistence are far in advance of empirical investigations. A framework that makes comparative predictions for alternative hypotheses is a crucial element in narrowing this gap. This review attempts to synthesize spatial competition theory into such a framework, with the goal of motivating empirical investigations that adopt the comparative approach. The synthesis presented is based on a major axis, coexistence in spatially homogeneous vs. heterogeneous competitive environments, along which the theory can be organized. The resulting framework integrates such key concepts as niche theory, spatial heterogeneity and spatial scale(s) of coexistence. It yields comparative predictions that can guide empirical investigations.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecology Letters}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{Competitive coexistence in spatially structured environments}
+      \field{title}{Competitive coexistence in spatially structured environments: a synthesis}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{6}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{1109\bibrangedash 1122}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1046/j.1461-0248.2003.00530.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/F3QJ8UQG/Amarasekare - 2003 - Competitive coexistence in spatially structured en.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/2EV98KQP/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2003.00530.x/abstract
+      \endverb
+      \keyw{Competition,storage effect,life history trade-offs,source-sink dynamics,spatial coexistence,spatial heterogeneity}
+    \endentry
     \entry{auld_re-evaluating_2009}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,hash=304a16850a09bf401a17aacfcf97dbd1}{%
@@ -1361,6 +2481,65 @@
       \verb http://link.springer.com/article/10.1007/s10682-009-9347-8
       \endverb
       \keyw{Phenotypic plasticity,Evolutionary Biology,Human Genetics,Plant Sciences,functional traits,community assembly,Invasion ecology,Niche model,Resource acquisition trade-off}
+    \endentry
+    \entry{berger_competition_2008}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=9384d3112d3d8d7a6daa243142b7d01c}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod}}}%
+        {{uniquename=0,hash=48b136306136520c4e3efcf4beeecb12}{%
+           family={Piou},
+           familyi={P\bibinitperiod},
+           given={Cyril},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=32606ef260496701357dbf6c8ac1826d}{%
+           family={Schiffers},
+           familyi={S\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=1afed3b8eacb2219efb8bbe1f6581962}{%
+           family={Grimm},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{06beb24ff14108ad0c28f021244c1af8}
+      \strng{fullhash}{32bd450d1637033d7bdcd854b5b7df97}
+      \strng{authornamehash}{06beb24ff14108ad0c28f021244c1af8}
+      \strng{authorfullhash}{32bd450d1637033d7bdcd854b5b7df97}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Competition is a key process in plant populations and communities. We thus need, if we are to predict the responses of ecological systems to environmental change, a comprehensive and mechanistic understanding of plant competition. Considering competition, however, only at the population level is not sufficient because plant individuals usually are different, interact locally, and can adapt their behaviour to the current state of themselves and of their biotic and abiotic environment. Therefore, simulation models that are individual-based and spatially explicit are increasingly used for studying competition in plant systems. Many different individual-based modelling approaches exist to represent competition, but it is not clear how good they are in reflecting essential aspects of plant competition. We therefore first summarize current concepts and theories addressing plant competition. Then, we review individual-based approaches for modelling competition among plants. We distinguish between approaches that are used for more than 10 years and more recent ones. We identify three major gaps that need to be addressed more in the future: the effects of plants on their local environment, adaptive behaviour, and below-ground competition. To fill these gaps, the representation of plants and their interactions have to be more mechanistic than most existing approaches. Developing such new approaches is a challenge because they are likely to be more complex and to require more detailed knowledge and data on individual-level processes underlying competition. We thus need a more integrated research strategy for the future, where empirical and theoretical ecologists as well as computer scientists work together on formulating, implementing, parameterization, testing, comparing, and selecting the new approaches.}
+      \field{issn}{1433-8319}
+      \field{journaltitle}{Perspectives in Plant Ecology, Evolution and Systematics}
+      \field{month}{3}
+      \field{number}{3–4}
+      \field{series}{Space matters - {Novel} developments in plant ecology through spatial modelling}
+      \field{shorttitle}{Competition among plants}
+      \field{title}{Competition among plants: {Concepts}, individual-based modelling approaches, and a proposal for a future research strategy}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{121\bibrangedash 135}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.ppees.2007.11.002
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/26K235HM/Berger et al. - 2008 - Competition among plants Concepts, individual-bas.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/9KT5UF26/S1433831907000583.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1433831907000583
+      \endverb
+      \keyw{Individual-based model,Ecological field,Field-of-neighbourhood,Grid-based model,Tessellation,Zone-of-influence}
     \endentry
     \entry{bolnick_why_2011}{article}{}
       \name{author}{10}{}{%
@@ -1623,9 +2802,51 @@
       \field{type}{phdthesis}
       \field{year}{2015}
     \endentry
+    \entry{chave_study_1999}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,hash=96dcd1557addc8268aae043c16151e3e}{%
+           family={Chave},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{96dcd1557addc8268aae043c16151e3e}
+      \strng{fullhash}{96dcd1557addc8268aae043c16151e3e}
+      \strng{authornamehash}{96dcd1557addc8268aae043c16151e3e}
+      \strng{authorfullhash}{96dcd1557addc8268aae043c16151e3e}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Competition for light, treefall gap formation and recruitment are the critical phenomena in the genesis of tropical rain forests. These aspects are taken into account to build a new spatially explicit forest growth model called TROLL. Competition for light is modelled by calculating exactly the three-dimensional field of photosynthetically active radiation in the forest understorey. Typically, 106 light intensities are computed per hectare at each time step. This light field controls the growth of each tree and establishment/death events. Seed dispersal, dormancy and establishment success as well as a model of treefalls are also included. A special care is paid to the justification and to the validation of each of these modules. The TROLL model is parameterized for a Neotropical rain forest in French Guiana using 12 functional groups of species. Using this model the vertical canopy structure and the tree diametric distribution are investigated. The role of treefalls in maintaining pioneer species is also evidenced. A forest succession scenario is simulated and compared to field data. The model is then used to simulate the recolonization of a previously sterilized area by a rain forest plant community. This scenario is interpreted using information available from palaeorecords over the Holocene period and their validity is discussed. It is suggested that this model could be used to study mosaic-like patterns in rain forests, installation of slowly dispersing species, speciation hypotheses and landscape scale dynamics of rain forests.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{12}
+      \field{number}{2–3}
+      \field{title}{Study of structural, successional and spatial patterns in tropical rain forests using {TROLL}, a spatially explicit forest model}
+      \field{urlday}{22}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{124}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{233\bibrangedash 254}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/S0304-3800(99)00171-4
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/3MQPTUAD/Chave - 1999 - Study of structural, successional and spatial patt.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/5EQQ5SX3/S0304380099001714.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380099001714
+      \endverb
+      \keyw{Tropical rain forest,Individual-based model,simulation,Canopy gaps,Parallel processing,Spatial patterns}
+    \endentry
     \entry{chave_towards_2009}{article}{}
       \name{author}{6}{}{%
-        {{uniquename=0,hash=9524a0bd4842ef651accf71ce31c294e}{%
+        {{uniquename=2,hash=9524a0bd4842ef651accf71ce31c294e}{%
            family={Chave},
            familyi={C\bibinitperiod},
            given={Jerome},
@@ -1691,6 +2912,86 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2009.01285.x/abstract
       \endverb
       \keyw{trade-offs,Evolution,functional ecology,plant economics,wood}
+    \endentry
+    \entry{chesson_general_2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=db6b43699dc16ed26ca5592cbdebda43}{%
+           family={Chesson},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{fullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authornamehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authorfullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{extrayear}{1}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general model of competitive and apparent competitive interactions in a spatially-variable environment is developed and analyzed to extend findings on coexistence in a temporally-variable environment to the spatial case and to elucidate new principles. In particular, coexistence mechanisms are divided into variation-dependent and variation-independent mechanisms with variation-dependent mechanisms including spatial generalizations of relative nonlinearity and the storage effect. Although directly analogous to the corresponding temporal mechanisms, these spatial mechanisms involve different life history traits which suggest that the spatial storage effect should arise more commonly than the temporal storage effect and spatial relative nonlinearity should arise less commonly than temporal relative nonlinearity. Additional mechanisms occur in the spatial case due to spatial covariance between the finite rate of increase of a local population and its local abundance, which has no clear temporal analogue. A limited analysis of these additional mechanisms shows that they have similar properties to the storage effect and relative nonlinearity and potentially may be considered as enlargements of the earlier mechanisms. The rate of increase of a species perturbed to low density is used to quantify coexistence. A general quadratic approximation, which is exact in some important cases, divides this rate of increase into contributions from the various mechanisms above and admits no other mechanisms, suggesting that opportunities for coexistence in a spatially-variable environment are fully characterized by these mechanisms within this general model. Three spatially-implicit models are analyzed as illustrations of the general findings and of techniques using small variance approximations. The contributions to coexistence of the various mechanisms are expressed in terms of simple interpretable formulae. These spatially-implicit models include a model of an annual plant community, a spatial multispecies version of the lottery model, and a multispecies model of an insect community competing for spatially-patchy and ephemeral food.}
+      \field{issn}{0040-5809}
+      \field{journaltitle}{Theoretical Population Biology}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{General {Theory} of {Competitive} {Coexistence} in {Spatially}-{Varying} {Environments}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{58}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{211\bibrangedash 237}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1006/tpbi.2000.1486
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/R338N4F8/Chesson - 2000 - General Theory of Competitive Coexistence in Spati.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/R23BPFSA/S0040580900914862.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0040580900914862
+      \endverb
+    \endentry
+    \entry{chesson_mechanisms_2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=db6b43699dc16ed26ca5592cbdebda43}{%
+           family={Chesson},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{fullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authornamehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authorfullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{extrayear}{2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The focus of most ideas on diversity maintenance is species coexistence, which may be stable or unstable. Stable coexistence can be quantified by the long-term rates at which community members recover from low density. Quantification shows that coexistence mechanisms function in two major ways: They may be (a) equalizing because they tend to minimize average fitness differences between species, or (b) stabilizing because they tend to increase negative intraspecific interactions relative to negative interspecific interactions. Stabilizing mechanisms are essential for species coexistence and include traditional mechanisms such as resource partitioning and frequency-dependent predation, as well as mechanisms that depend on fluctuations in population densities and environmental factors in space and time. Equalizing mechanisms contribute to stable coexistence because they reduce large average fitness inequalities which might negate the effects of stabilizing mechanisms. Models of unstable coexitence, in which species diversity slowly decays over time, have focused almost exclusively on equalizing mechanisms. These models would be more robust if they also included stabilizing mechanisms, which arise in many and varied ways but need not be adequate for full stability of a system. Models of unstable coexistence invite a broader view of diversity maintenance incorporating species turnover.}
+      \field{journaltitle}{Annual Review of Ecology and Systematics}
+      \field{number}{1}
+      \field{title}{Mechanisms of {Maintenance} of {Species} {Diversity}}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{31}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{343\bibrangedash 366}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1146/annurev.ecolsys.31.1.343
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1146/annurev.ecolsys.31.1.343
+      \endverb
+      \keyw{Competition,niche,predation,coexistence,spatial and temporal variation.}
     \endentry
     \entry{clark_resolving_2007}{article}{}
       \name{author}{7}{}{%
@@ -2334,6 +3635,72 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1654-1103.2004.tb02266.x/abstract
       \endverb
       \keyw{functional diversity,Spain,specific leaf area,Comparative ecology,Plant functional types,Argentina,England,Iran,Recurrent patterns of specialization}
+    \endentry
+    \entry{falster_plant:_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=9f40bf74b1870ae8be8c704fc80b9006}{%
+           family={Falster},
+           familyi={F\bibinitperiod},
+           given={Daniel\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=4c27d8cef53f1a496154b12595e22392}{%
+           family={FitzJohn},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=f32d08a03245a59d0ad5a857be8a5401}{%
+           family={Brännström},
+           familyi={B\bibinitperiod},
+           given={Åke},
+           giveni={Å\bibinitperiod}}}%
+        {{uniquename=0,hash=874f15c525e51c2b786d5382c67156ea}{%
+           family={Dieckmann},
+           familyi={D\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod}}}%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e0df3fa4ee4acb15ca69e4e33957c3bc}
+      \strng{fullhash}{d14d5023c8e5b3bb04f0e3faadd5fb67}
+      \strng{authornamehash}{e0df3fa4ee4acb15ca69e4e33957c3bc}
+      \strng{authorfullhash}{d14d5023c8e5b3bb04f0e3faadd5fb67}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* Population dynamics in forests are strongly size-structured: larger plants shade smaller plants while also expending proportionately more energy on building and maintaining woody stems. Although the importance of size structure for demography is widely recognized, many models either omit it entirely or include only coarse approximations. * Here, we introduce the plant package, an extensible framework for modelling size- and trait-structured demography, ecology and evolution in simulated forests. At its core, plant is an individual-based model where plant physiology and demography are mediated by traits. Individual plants from multiple species can be grown in isolation, in patches of competing plants or in metapopulations under a disturbance regime. These dynamics can be integrated into metapopulation-level estimates of invasion fitness and vegetation structure. Because fitness emerges as a function of traits, plant provides a novel arena for exploring eco-evolutionary dynamics. * plant is an open source R package and is available at github.com/traitecoevo/plant. Accessed from R, the core routines in plant are written in C++. The package provides for alternative physiologies and for capturing trade-offs among parameters. A detailed test suite is provided to ensure correct behaviour of the code. * plant provides a transparent platform for investigating how physiological rules and functional trade-offs interact with competition and disturbance regimes to influence vegetation demography, structure and diversity.}
+      \field{issn}{2041-210X}
+      \field{journaltitle}{Methods Ecol Evol}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{plant}
+      \field{title}{plant: {A} package for modelling forest trait ecology and evolution}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{7}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{136\bibrangedash 146}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/2041-210X.12525
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/3Q66ZSK2/Falster et al. - 2016 - plant A package for modelling forest trait ecolog.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/VNQKMJ63/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12525/abstract
+      \endverb
+      \keyw{Growth,trade-off,fitness,demography,emergent,metapopulation,mortality,physiology,reproduction,size structure}
     \endentry
     \entry{feller_mathematical_2015}{article}{}
       \name{author}{6}{}{%
@@ -5936,17 +7303,25 @@
       \keyw{heritability,Arabidopsis thaliana,DNA methylation,drought tolerance,ecological epigenetics,epiRILs}
     \endentry
   \endsortlist
-  \missing{adler_coexistence_2007}
-  \missing{reich_world-wilde_2013}
   \missing{barabas_effect_2016}
-  \missing{freschett_plasticity_2014}
-  \missing{jablonka_adaptive_1995}
-  \missing{dewitt_cost_1998}
-  \missing{TRY}
-  \missing{elton_1927}
-  \missing{gallaway_2003}
   \missing{beaman_evolution_2016}
+  \missing{TRY}
+  \missing{adler_niche_2007}
+  \missing{letten_linking_2017}
+  \missing{adler_coexistence_2007}
+  \missing{tilman_resource_1982}
+  \missing{dewitt_cost_1998}
+  \missing{tilman_plant_1984}
+  \missing{freschett_plasticity_2014}
+  \missing{elton_1927}
+  \missing{tilman_plant_1988}
+  \missing{korner_alpine_2003}
   \missing{cornelissen_handbook_2003}
+  \missing{reich_world-wilde_2013}
+  \missing{jablonka_adaptive_1995}
+  \missing{morin_comparing_2009}
+  \missing{kunstler_plant_2016}
+  \missing{gallaway_2003}
 \endrefsection
 
 \refsection{3}
@@ -8737,17 +10112,17 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{soussana}
-  \missing{westoby}
-  \missing{letten_linking_2017}
-  \missing{lagarigues}
-  \missing{wright_worlwide_2004}
-  \missing{tjoelker_linking_2015}
-  \missing{kleidon}
-  \missing{lohier}
-  \missing{reich}
-  \missing{korner_alpine_2011}
   \missing{need-references}
+  \missing{reich}
+  \missing{lohier}
+  \missing{kleidon}
+  \missing{westoby}
+  \missing{lagarigues}
+  \missing{letten_linking_2017}
+  \missing{korner_alpine_2011}
+  \missing{tjoelker_linking_2015}
+  \missing{wright_worlwide_2004}
+  \missing{soussana}
 \endrefsection
 
 \refsection{4}
