@@ -1,6 +1,7 @@
 \begin{theindex}
 
   \item \MakeLowercase  {Community Weighted Mean}, \hyperpage{29}
+  \item \MakeLowercase  {Convergence}, \hyperpage{108}
   \item \MakeLowercase  {Diversity}, \hyperpage{30}, \hyperpage{43}
   \item \MakeLowercase  {Dynamics Global Vegetation Models}, 
 		\hyperpage{32}
@@ -10,23 +11,48 @@
   \item \MakeLowercase  {Mass Ratio Hypothesis}, \hyperpage{29}
   \item \MakeLowercase  {Productivity}, \hyperpage{30}
   \item \MakeLowercase  {abiotic filtering}, \hyperpage{18}
+  \item \MakeLowercase  {allocation rules}, \hyperpage{97}
+  \item \MakeLowercase  {allocation rule}, \hyperpage{62}
+  \item \MakeLowercase  {confidence in species memory}, \hyperpage{63}
+  \item \MakeLowercase  {controlling factor}, \hyperpage{62}
   \item \MakeLowercase  {costs}, \hyperpage{42}
   \item \MakeLowercase  {diversity}, \hyperpage{3}
+  \item \MakeLowercase  {dynamic plasticity}, \hyperpage{108}
   \item \MakeLowercase  {ecosystem properties}, \hyperpage{2}, 
 		\hyperpage{28}
   \item \MakeLowercase  {ecosystem services}, \hyperpage{1}
   \item \MakeLowercase  {ecosystems}, \hyperpage{1}
+  \item \MakeLowercase  {efficiency}, \hyperpage{107}
+  \item \MakeLowercase  {equilibrium}, \hyperpage{107}
   \item \MakeLowercase  {facilitation}, \hyperpage{18}
+  \item \MakeLowercase  {fixed}, \hyperpage{62}
   \item \MakeLowercase  {functional identity}, \hyperpage{29}
+  \item \MakeLowercase  {gravity center}, \hyperpage{103}
   \item \MakeLowercase  {growth function}, \hyperpage{39}
+  \item \MakeLowercase  {heterogeneity}, \hyperpage{111}
   \item \MakeLowercase  {identity}, \hyperpage{2}, \hyperpage{45}
   \item \MakeLowercase  {intra-specific variability}, \hyperpage{33}
+  \item \MakeLowercase  {memory}, \hyperpage{97}
   \item \MakeLowercase  {mountain grasslands}, \hyperpage{1}
   \item \MakeLowercase  {niche}, \hyperpage{17}, \hyperpage{43}
+  \item \MakeLowercase  {parameter filtering}, \hyperpage{87}
+  \item \MakeLowercase  {parametrisation}, \hyperpage{87}
+  \item \MakeLowercase  {performance landscape}, \hyperpage{107}
+  \item \MakeLowercase  {plastic exhaustion}, \hyperpage{109}
   \item \MakeLowercase  {potential niche}, \hyperpage{18}
   \item \MakeLowercase  {productivity}, \hyperpage{3}
+  \item \MakeLowercase  {projection}, \hyperpage{62}
   \item \MakeLowercase  {realised niche}, \hyperpage{18}
+  \item \MakeLowercase  {regulate}, \hyperpage{63}
+  \item \MakeLowercase  {resolution}, \hyperpage{55}
+  \item \MakeLowercase  {scale}, \hyperpage{55}
+  \item \MakeLowercase  {sensitivity analysis}, \hyperpage{87}
+  \item \MakeLowercase  {shared}, \hyperpage{62}
+  \item \MakeLowercase  {speed}, \hyperpage{107}
+  \item \MakeLowercase  {stability}, \hyperpage{63}
+  \item \MakeLowercase  {static gain}, \hyperpage{112}
   \item \MakeLowercase  {strategy space}, \hyperpage{28}
+  \item \MakeLowercase  {strategy}, \hyperpage{63}
   \item \MakeLowercase  {trade-off}, \hyperpage{26}
 
 \end{theindex}

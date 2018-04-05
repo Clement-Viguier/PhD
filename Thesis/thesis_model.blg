@@ -1,73 +1,112 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis_model.blg'
-[73] biber-MSWIN64:303> INFO - === 
-[296] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
-[407] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[408] Biber.pm:835> INFO - Found 47 citekeys in bib section 1
-[408] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[409] Biber.pm:835> INFO - Found 116 citekeys in bib section 2
-[409] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[409] Biber.pm:835> INFO - Found 0 citekeys in bib section 3
-[409] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[409] Biber.pm:835> INFO - Found 0 citekeys in bib section 4
-[410] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[410] Biber.pm:835> INFO - Found 0 citekeys in bib section 5
-[410] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[410] Biber.pm:835> INFO - Found 0 citekeys in bib section 6
-[410] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[463] Biber.pm:3670> INFO - Processing section 1
-[580] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 1
-[759] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1050] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
-[1499] Utils.pm:164> WARN - I didn't find a database entry for 'costanza_value_1997' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'de_bello_towards_2010' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'koorner_alpine_2003' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'schroter_ecosystem_2005' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'beniston_climate_1997' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'schirpke_multiple_2012' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'carboni_simulating_2017' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'butchart_global_2010' (section 1)
-[1500] Utils.pm:164> WARN - I didn't find a database entry for 'debouk_functional_2015' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'schipe_multiple_2012' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'morin_comparing_2009' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'evans_toward_2016' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'boulangeat_fate-hd_2014' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'lohier_analyse_2016' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'boulangeat_fate-dh_2014' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'hartig_statistical_2011' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'kleidon_global_20000' (section 1)
-[1501] Utils.pm:164> WARN - I didn't find a database entry for 'korner_alpine_2003' (section 1)
-[1786] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1786] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1786] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[1786] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1836] Biber.pm:3670> INFO - Processing section 2
-[1837] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 2
-[2120] Utils.pm:164> WARN - I didn't find a database entry for 'elton_1927' (section 2)
-[2120] Utils.pm:164> WARN - I didn't find a database entry for 'kunstler_plant_2016' (section 2)
-[2120] Utils.pm:164> WARN - I didn't find a database entry for 'morin_comparing_2009' (section 2)
-[2120] Utils.pm:164> WARN - I didn't find a database entry for 'adler_niche_2007' (section 2)
-[2120] Utils.pm:164> WARN - I didn't find a database entry for 'tilman_resource_1982' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'tilman_plant_1988' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'letten_linking_2017' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'korner_alpine_2003' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'tilman_plant_1984' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'TRY' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'cornelissen_handbook_2003' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'reich_world-wilde_2013' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'diaz_global_2014' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'lavorel_how_2014' (section 2)
-[2121] Utils.pm:164> WARN - I didn't find a database entry for 'lohier_analyse_2016' (section 2)
-[2122] Utils.pm:164> WARN - I didn't find a database entry for 'barabas_effect_2016' (section 2)
-[2122] Utils.pm:164> WARN - I didn't find a database entry for 'beaman_evolution_2016' (section 2)
-[2122] Utils.pm:164> WARN - I didn't find a database entry for 'jablonka_adaptive_1995' (section 2)
-[2122] Utils.pm:164> WARN - I didn't find a database entry for 'dewitt_cost_1998' (section 2)
-[2122] Utils.pm:164> WARN - I didn't find a database entry for 'adler_coexistence_2007' (section 2)
-[2122] Utils.pm:164> WARN - I didn't find a database entry for 'freschett_plasticity_2014' (section 2)
-[2882] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2883] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2883] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[2883] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[2989] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
-[3037] bbl.pm:712> INFO - Output to thesis_model.bbl
-[3038] Biber.pm:109> INFO - WARNINGS: 39
+[128] biber-MSWIN64:303> INFO - === 
+[263] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
+[386] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[387] Biber.pm:835> INFO - Found 47 citekeys in bib section 1
+[387] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[388] Biber.pm:835> INFO - Found 116 citekeys in bib section 2
+[388] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[389] Biber.pm:835> INFO - Found 52 citekeys in bib section 3
+[389] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[389] Biber.pm:835> INFO - Found 9 citekeys in bib section 4
+[389] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[389] Biber.pm:835> INFO - Found 1 citekeys in bib section 5
+[389] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[389] Biber.pm:835> INFO - Found 15 citekeys in bib section 6
+[389] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[457] Biber.pm:3670> INFO - Processing section 1
+[564] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 1
+[757] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1062] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20171106.bib'
+[1365] Utils.pm:164> WARN - I didn't find a database entry for 'costanza_value_1997' (section 1)
+[1365] Utils.pm:164> WARN - I didn't find a database entry for 'de_bello_towards_2010' (section 1)
+[1365] Utils.pm:164> WARN - I didn't find a database entry for 'koorner_alpine_2003' (section 1)
+[1365] Utils.pm:164> WARN - I didn't find a database entry for 'schroter_ecosystem_2005' (section 1)
+[1365] Utils.pm:164> WARN - I didn't find a database entry for 'beniston_climate_1997' (section 1)
+[1365] Utils.pm:164> WARN - I didn't find a database entry for 'schirpke_multiple_2012' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'carboni_simulating_2017' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'butchart_global_2010' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'debouk_functional_2015' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'schipe_multiple_2012' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'morin_comparing_2009' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'evans_toward_2016' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'boulangeat_fate-hd_2014' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'lohier_analyse_2016' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'boulangeat_fate-dh_2014' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'hartig_statistical_2011' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'kleidon_global_20000' (section 1)
+[1366] Utils.pm:164> WARN - I didn't find a database entry for 'korner_alpine_2003' (section 1)
+[1592] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1592] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1592] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[1592] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1627] Biber.pm:3670> INFO - Processing section 2
+[1627] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 2
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'elton_1927' (section 2)
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'kunstler_plant_2016' (section 2)
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'morin_comparing_2009' (section 2)
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'adler_niche_2007' (section 2)
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'tilman_resource_1982' (section 2)
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'tilman_plant_1988' (section 2)
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'letten_linking_2017' (section 2)
+[1856] Utils.pm:164> WARN - I didn't find a database entry for 'korner_alpine_2003' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'tilman_plant_1984' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'TRY' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'cornelissen_handbook_2003' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'reich_world-wilde_2013' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'diaz_global_2014' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'lavorel_how_2014' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'lohier_analyse_2016' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'barabas_effect_2016' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'beaman_evolution_2016' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'jablonka_adaptive_1995' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'dewitt_cost_1998' (section 2)
+[1857] Utils.pm:164> WARN - I didn't find a database entry for 'adler_coexistence_2007' (section 2)
+[1858] Utils.pm:164> WARN - I didn't find a database entry for 'freschett_plasticity_2014' (section 2)
+[2532] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2532] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2532] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[2532] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[2637] Biber.pm:3670> INFO - Processing section 3
+[2639] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 3
+[2745] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[2745] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[2746] Utils.pm:164> WARN - I didn't find a database entry for 'korner_alpine_2011' (section 3)
+[2746] Utils.pm:164> WARN - I didn't find a database entry for 'lagarigues' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'wright_worlwide_2004' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'tjoelker_linking_2015' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'kleidon' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'reich' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'westoby' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'lohier' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'soussana' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'need-references' (section 3)
+[2747] Utils.pm:164> WARN - I didn't find a database entry for 'letten_linking_2017' (section 3)
+[2967] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2967] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2967] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[2967] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[3014] Biber.pm:3670> INFO - Processing section 4
+[3014] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 4
+[3037] Utils.pm:164> WARN - I didn't find a database entry for 'hartig' (section 4)
+[3037] Utils.pm:164> WARN - I didn't find a database entry for 'need ref' (section 4)
+[3087] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3087] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3087] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[3087] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[3095] Biber.pm:3670> INFO - Processing section 5
+[3096] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 5
+[3113] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3113] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3114] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[3114] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[3116] Biber.pm:3670> INFO - Processing section 6
+[3116] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20171106.bib' for section 6
+[3286] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3286] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3286] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[3286] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[3303] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
+[3373] bbl.pm:712> INFO - Output to thesis_model.bbl
+[3374] Biber.pm:109> INFO - WARNINGS: 54
