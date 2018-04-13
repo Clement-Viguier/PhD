@@ -80,33 +80,91 @@ The differences of effects between the different types of plasticity on the vari
 
 \subsection{Results}
 
-Need to run the simulations. Script is almost ready, parameters are filtered from previous step.
+%Need to run the simulations. Script is almost ready, parameters are filtered from previous step.
+%
+%\paragraph{General behaviour} ?
+%gradient along climatic gradient ? did I save the climate ? Nope, can't really say anything about it.
 
-\paragraph{General behaviour} ?
-gradient along climatic gradient ? did I save the climate ? ...
+\paragraph{Effect on coexistence}
+
+
+\begin{marginfigure}\label{fig:species_richness}
+\includegraphics[]{./2_PP/Figures/Comm/comm_n_sp_differences.pdf}
+\caption[Relative species richness in plasticity treatments]{Relative species richness in the three plasticity treatment. To negate the variability due to the parameter sets, the realised number of species is divided by the median number of species in \textit{non plastic} treatment for each parameter set. The variability is due to random invasion and climatic variability (inter-sites and inter-seasons).}
+\end{marginfigure}
+
+Plasticity is responsible for high portion of vairability, but also parameters: plasticity cost parameters:
+
+\begin{figure}%[tb]
+    \classiccaptionstyle
+\sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_n_sp_pc_m.pdf}%
+}{%
+  \caption[Maintenance plasticity cost effect on species richness]{Effect of the cost of plasticity-maintenance on the absolute number of species in the three plasticity treatments. Individual season values (points) and site-specific trends (gam smoothing line) are represented.}
+  \label{fg:pl_cost}
+  }
+\end{figure}
+
+Consistent trends between sites. Inter-season variability (why didn't I save the weather?). Not super clean. Similar (but lower start for plastic distance diversity. Can be because of interactions %or because non variable enough.
+
+
+
+
+%\paragraph{Plasticity selection}
+
+%Not done yet. when is plasticity selected: is there a correlation between environment variables (or variations and plasticity selection). trade-off with other traits ?
+\paragraph{Productivity}
+
+
+\begin{marginfigure}\label{fig:total_BM_comm}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Comm/comm_BMtot_differences.pdf}
+\caption[Plasticity levels in exclusive groups]{Plasticity levels of species that are present in only one type of plastic treatment.}
+\end{marginfigure}
+
+\paragraph{Community structure}
+
+Becaue changes in community structure, no changes in density or productivity but, changes in structure, and competition evenness.
+
+\begin{figure}%[tb]
+    \classiccaptionstyle
+\sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_RAC_pl.pdf}%
+}{%
+  \caption[Rank-Abundance curves fits]{Rank-Abundance curves.}
+  \label{fg:PCA_calibration}
+  }
+\end{figure}
+
+
 
 \paragraph{Plasticity: a winning strategy ?}
 Are plastic species more selected than the other ? Probably a bell-shape curves
 
-\paragraph{Effect on coexistence}
 
-\paragraph{Plasticity selection}
+\begin{marginfigure}\label{fig:tau}
+\includegraphics[]{./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf}
+\caption[Plasticity levels in exclusive groups]{Plasticity levels of species that are present in only one type of plastic treatment.}
+\end{marginfigure}
 
-Not done yet. when is plasticity selected: is there a correlation between environment variables (or variations and plasticity selection). trade-off with other traits ?
 
-\section{Strategy}
+%\section{Strategy}
 
-\subsection{Results}
-\paragraph{Changes in strategy}
+%\subsection{Results}
+\paragraph{Variable strats}
 
-Select different strat?
+Select different strat? meh, from very site specific strats (one dominant species), to more variable within the site, but less differences between the strats. Shift from beta diversity to alpha diversity.
 
-Lead to changes in strats? If yes, is it directional, or is the direction depends on species?
-Do species change a lot there strategies?
+%Lead to changes in strats? If yes, is it direction\\
+%al, or is the direction depends on species?%
+%Do species change a lot there strategies?
 
-Is it always in the same direction for all species ? (reproduce Kichenin).
+%Is it always in the same direction for all species ? (reproduce Kichenin).
 
 \subsection{Discussion}
+\paragraph{Competition evenness}
+
+Plasticity allows the emergence of new phenotypes that are plastic. Leading to higher density in competitors, and greater evenness. Hard to detect because not the same number of species, or require other experiments. 
+
 \paragraph{shift in strategy}
 
 
