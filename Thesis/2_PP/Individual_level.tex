@@ -311,7 +311,7 @@ Role of allocation rule and changes in traits, traits affect strategy and perfor
 % ##################################################################################
 \chapter{Individual performance, plasticity and variable conditions}\label{chapter:individual}
 
-The previous section highlighted the ability of the model to model growth, but also the importance of species specific parameters. While the plasticity mechanism did not replicate to a full extend (stable and higher amplitude) the phenotypic changes between the  different conditions), there were some changes both in traits, and in growth leading to a higher selection rate. Considering the importance of species specific parameters and their potential impact on growth, these differences between plastic and non plastic allocation rules should be investigated in an extended manner. The specific roles of strategy and memory on the multiple components of plant growth need to be disentangled to draw better hypotheses on the role of phenotypic plastic on plant performance and coexistence. The role of resource availability on these mechanisms also needs to be interrogated. The effect of plasticity on coexistence can also be approached with respect to relative performances and contraction of the strategy space.
+The previous section highlighted the ability of the model to model growth, but also the importance of species specific parameters. While the plasticity mechanism did not replicate to a full extend (stable and higher amplitude) the phenotypic changes between the different conditions, there were some changes both in traits and in growth, leading to a higher selection rate. Considering the importance of species specific parameters and their potential impact on growth, these differences between plastic and non plastic allocation rules should be investigated in an extended manner. The specific roles of strategy and memory on the multiple components of plant growth need to be disentangled to draw better hypotheses on the role of phenotypic plastic on plant performance and coexistence. The role of resource availability on these mechanisms also needs to be interrogated. The effect of plasticity on coexistence can also be approached with respect to relative performances and contraction of the strategy space.
 
 This chapter tends to answer these questions with simulations of individual plants with diverse strategies and under multiple allocation rules. To simplify the approach and focus on the interaction between species strategies and allocation algorithm, the plasticity will be model as discrete mechanism (tau = 0 for all plastic allocation algorithms).
 
@@ -339,39 +339,44 @@ To visualise the performance landscape (plant performance relative to biggest pl
 
 To study the potential effect of resource availability and or allocation mechanism on the link between strategy and performance, an aggregated measure is designed: the \textemph{gravity center} of the phenotypic space is defined as the average phenotype weighted by the relative performance of each phenotype. It can be defined with respect to the initial strategy, or to take into account the plasticity, to the final position in the phenotypic space. Shift of this gravity center within the projection space inform of translation of the performance landscape.
 
+\paragraph{Normalisation}
+
+Biomass measures are relative to best performing non plastic plant (to remove the general parameter set effect on growth) and compare (within each condition) the effect of allocation algorithm. %Plasticity lead to an increase of average relative biomass, especially full plasticity. However, few values above 1, in fixed conditions there is real additional value of plasticity compare to fixed allocation.\\
+
+
 \subsection{Results}
 
 \paragraph{Performance landscape}
+The effect of species specific parameter on growth are first studied with the analysis of the performance landscape drawn by the growth of plants uniformly distributed in the strategy space.
 
-\begin{figure}\label{fig:gravity_shift_resource}
+%The allocation phenotypic space is three-dimensional, but only two dimensions are represented (proportion of active tissues in roots (PAR) and proportion of active tissues in shoot (PAS)), while the best value of the third (root mass fraction) is used for the projection of the biomass.
+
+\begin{figure}\label{fig:best_phenotypes}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/ld_performance_PAR-PAS.pdf}
 \caption{Projection of best phenotypes (varying RMF) on the 2D PAR-PAS plane for each parameter set. Points identify the optimums. \textit{Non plastic}.}
 \end{figure}
 
- On the tissue allocation plan (proportion of active tissues in leaves and roots), the best performing phenotypes present a bean shape. This shape suggest that relative importance of organ efficiency is lower than other criterion such as equilibrium and overall performance (see section \ref{chapter:modelling_PP} paragraph \ref{subsection:match} for the discussion on the components of plant performance). On this plane, the lowest values of plant biomass are characterised by low values of active tissue allocation. 
+ On the tissue allocation plan (proportion of active tissues in leaves and roots) (see figure \ref{fig:best_phenotypes}), the best performing phenotypes present a bean shape. This shape covers a good fraction of the space, in the center and sometimes top-right corner (high active tissue allocation) of the 2D space, while other corners are ignored. Too low values for any of the organs lead to a limited growth. For certain parameter sets, the top-right corner, corresponding to high resource acquisition strategies, has lower growth values than the center. They have lower growth values than phenotypes with similar values for one of the organ and lower value for the other organ.  %This shape suggest that relative importance of organ efficiency is lower than other criterion such as equilibrium and overall performance (see section \ref{chapter:modelling_PP} paragraph \ref{subsection:match} for the discussion on the components of plant performance). On this plane, the lowest values of plant biomass are characterised by low values of active tissue allocation. 
  
-Phenotypes with high active tissue allocation values tend to have lower growth values than phenotypes with similar values for one of the organ and lower value for the other organ. 
 
-Projection of the best phenotypes over the three planes also gives information on the importance of the ignored variable on each plane. The greater the discrimination of the subset of best strategies on a given plane, the lower the importance of the ignored plane. The projection on PAR-RMF and PAS-RMF planes discriminate better phenotypes relatively to PAR-PAS plane, therefore the RMF is a more sensitive variable than the allocation factors to active tissues in organs.
-
-If equilibrium is a driving mechanisms in plant performance, for any given strategy (PAR-PAS plan projection) the best phenotypes has a RMF values that guarantee the functional equilibrium. However, for each strategy there is a notable difference between the RMF of best phenotypes  and the RMF of phenotypes the closest to the equilibrium. This disparity is positively related to the strategy balance: best phenotypes with higher active allocation in shoot than root have lower allocation to roots than required for functional equilibrium. 
-
-Higher resource: contraction of the landscape, toward faster species. Moving optimum and moving gravity center. Transition to optimum shifting and difference between allocation rules.
+Projection of the best phenotypes over the three planes also gives information on the importance of the ignored variable on each plane. If the contrast between the growth projected phenotypes is high, at least on the main dimension is crucial for the growth. If the contrast is lower when the variable is ignored (\textit{i.e.} the best value is used) then the projected variable is likely to be important. The projection on PAR-RMF and PAS-RMF (see figure \ref{fig:projections}) planes show higher contrast between phenotypes relatively to PAR-PAS plane, therefore the RMF is a more sensitive variable than the allocation factors to active tissues in organs.
 
 
-Biomass is relative to best performing non plastic plant (to remove the general parameter set effect on growth) and compare (within each condition) the effect of allocation algorithm. Plasticity lead to an increase of average relative biomass, especially full plasticity. However, few values above 1, in fixed conditions there is real additional value of plasticity compare to fixed allocation.\\
+%Higher resource: contraction of the landscape, toward faster species. Moving optimum and moving gravity center. Transition to optimum shifting and difference between allocation rules.
 
 \paragraph{Optimum shifting}
 
+Introducing resource availability variations and plasticity can impact the shape of the performance landscape.
 
-A shift of gravity centres can be observed between the two resource levels in all plasticity algorithms. \textit{Non plastic} and \textit{fixed} algorithm show similar trends with an increase of proportion in active tissues in both organs. This change toward more exploitative tissues is consistent and is observable for all parameter sets but one. The \textit{plastic-optimisation} algorithm show drastically different responses of gravity center of phenotypes. There is little change in shoot proportion of active tissues, but a consistent reduction of active tissues in root system, and a reduction of root mass fraction (data not shown). These two responses indicates a net reduction of root activity in favour of shoot activity. Two things must be taken into consideration while looking at theese results: (1) the gravity center is computed from final position into the phenotypic space, not the starting position, (2) because \textit{plastic-optimisation} algorithm allows changes in traits that are represented (PAR and PAS), shifts along these axis can be driven by the plasticity mechanisms and not neceseraly only performance differences. Similar representation of the gravity center computed from the initial phenotype (not shown) shows similar response for the three first algorithms, and no apparent shift for the \textit{plastic-optimisation} plasticity.
-
-\textit{Non plastic} and \textit{fixed} plasticities respond the same way to a shift in resource availability. However, we can note that the gravity centers have lower proportion of active tissues for \textit{fixed} allocation algorithm compared to the \textit{non plastic} one.
+A shift of gravity centres can be observed between the two resource levels in all allocation algorithms (see figure \ref{fig:gravity_shift_resource}, the four panels). \textit{Non plastic} and \textit{fixed} algorithm show similar trends with an increase of proportion in active tissues in both organs. This change toward more exploitative tissues is consistent and is observable for all parameter sets but one. The \textit{plastic-optimisation} algorithm show drastically different responses of gravity center of phenotypes. There is little change in shoot proportion of active tissues, but a consistent reduction of active tissues in root system, and a reduction of root mass fraction (data not shown). These two responses indicates a net reduction of root activity in favour of shoot activity. Two things must be taken into consideration while looking at theese results: (1) the gravity center is computed from final position into the phenotypic space, not the starting position, (2) because \textit{plastic-optimisation} algorithm allows changes in traits that are represented (PAR and PAS), shifts along these axis can be driven by the plasticity mechanisms and not neceseraly only performance differences. Similar representation of the gravity center computed from the initial phenotype (not shown) shows similar response for the three first algorithms, and no apparent shift for the \textit{plastic-optimisation} plasticity.
 
 \begin{figure}\label{fig:gravity_shift_resource}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf}
 \caption{Shift on the 2D phenotypic space of the center of gravity as function of resource availability. The center of gravity is defined as the average phenotype weihted by the relative biomass, and characterises the performance landscape. \textit{Non plastic}.}
 \end{figure}
+
+\textit{Non plastic} and \textit{fixed} plasticities respond the same way to a shift in resource availability. However, we can note that the gravity centres have lower proportion of active tissues for \textit{fixed} allocation algorithm compared to the \textit{non plastic} one.
+
 %
 %Shift due to plasticity -- timing only ?
 %+ shift (not fully significant in high resource availability) toward more exploit shoot and less exploit root. What does that mean ? higher tissue efficiency authorized by less limiting water ?
@@ -386,24 +391,41 @@ A shift of gravity centres can be observed between the two resource levels in al
 %
 %What is the plastic-optimisation doing ? Wrong phenotype ? Wrong projection ? Wrong strategy or wrong RMF ? 
 
-
-\paragraph{Phenotypic convergence}
 %\paragraph{Phenotypic space contraction}
+\paragraph{Productivity changes}
+
+Plastic allocation lead to an improvement in mean biomass of all individuals for all three plastic allocation algorithms (see figure \ref{fig:mean_BM_pl}). The \textit{fixed-equilibrium} plants are 2.5 times bigger in average than \textit{non plastic} plants (in low resource conditions, and up to 7 times bigger for \textit{plastic-optimisation} plant. These ratios are relatively similar for high resource availability. 
 
 \begin{figure}\label{fig:mean_BM_pl}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_BM_allocation.pdf}
-\caption{Mean relative biomass as function of allocation algorithm and resource level.}
+\caption{Mean relative biomass as a function of allocation algorithm and resource level.}
 \end{figure}
 
-Shifts in optimum, is it because plasticity provide more efficient functioning supporting more exploitative strategies, or side result from convergence that do not contain the previous optimum ?
+However, the maximum biomass is only marginally improved with an increase of 6\% for \textit{fixed-equilibrium} and 8\% for \textit{fixed-optimisation} in low resource condition (see figure \ref{fig:max_BM_pl}). These percentages drop to less than 1\% in high resource availability conditions. The \textit{plastic-optimisation} algorithm even lead to a decrease in the maximum biomass averaging 10\% and 13\% respectively in low and high resource availability conditions.
 
-Convergence, relative species diversity and functional diversity.
+\begin{figure}\label{fig:max_BM_pl}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf}
+\caption{Maximum biomass relative to the \textit{non plastic} simulations, as a function of allocation algorithm and resource level.}
+\end{figure}
+
+\paragraph{Phenotypic convergence}
+
+The effect of plasticity on the potential diversity is estimated by looking at the species that reach the range of 90\% to 100\% of the maximum biomass within the specific conditions (for each parameter set, algorithm and condition separately).
+
+\begin{figure}\label{fig:species_richness}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_eveness.pdf}
+\caption{Number of species within the range of 90\% to 100\% of the maximum biomass, as a function of allocation algorithm and resource level.}
+\end{figure}
+NEED AN UPDATE OF RESULTS, BUT SAME TRENDS
+
+The number of species within this range is extremely low in \textit{non plastic} allocation algorithm simulations, with 1.4\% and 2.1\% respectively for low and high resource conditions. This percentage is greatly improved by plastic allocation algorithm and reach in average 9\% to 15\% of species in \textit{fixed-equilibrium} and \textit{fixed-optimisation} algorithm, while in can reach up to 100 \% for \textit{plastic-optimisation} algorithm, with a mean proportion of species with a top performance around 72\% in low availability condition, and up to 82\% in high resource availability condition.
 
 \begin{figure}\label{fig:function_div}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_fdiv.pdf}
-\caption{Functional diversity as function of allocation algorithm and resource level.}
+\caption{Functional volume occupied by the species within the range of 90\% to 100\% of the maximum biomass, as a function of allocation algorithm and resource level.}
 \end{figure}
 
+The functional diversity, estimated with the approximate volume of the top phenotypes, follows a opposite trend, with the highest value for the \textit{non plastic} allocation algorithm. \textit{Fixed} algorithms present half the functional volume of the \textit{non plastic} algorithm, and hte \textit{plastic-optimisation} algorithm has extremely low values five times lower than the \textit{non plastic} ones.
 
 
 
@@ -411,34 +433,63 @@ Convergence, relative species diversity and functional diversity.
 
 \paragraph{Components of performance}
 
-To understand how plasticity can play a role, it is important to understand what make a phenotype a good phenotype. In an other way it is important to understand what cost do a plant for being wrong.
+The study of the performance landscape puts in light the different components of \textemph{plant performance}. To understand how plasticity can play a role, it is important to understand what make a phenotype a good phenotype. 
+% the main axis: 
+On one hand, the extend of strategies (plan PAR-PAS in figure \ref{fig:best_phenotypes}) with high relative growth (green area) is high when the best  RMF is considered, while this is greatly reduced on plans that integrates RMF variability. This result suggest the high importance on this axis for the plants performance. This can be explained by a stronger effect of this dimension on the exchange area through changes in organ masses, instead of organ densities (affected by PAR and PAS). The RMF fraction impacts the plant performance in two ways: by changing the \textemph{equilibrium} between shoot and root exchange activities, and by changing the global carbon loss rate (respiration and tissue turn-over) if the organ differ on this aspect. These two components may have opposed directions, as the limiting organ may also be the least efficient. The effect on the equilibrium is likely be more important as a wide range of RMF values can be observed for numerous datasets (data not shown), and plant with uncoordinated (low-PAS \& high-PAR, or high-PAS \& low-PAR, \see figure \ref{fig:perf_decomposition}) organs present high biomass values. 
 
-\textemph{equilibrium}, overall \textemph{speed} and overall \textemph{efficiency}.\\
-The main thing with equilibrium is the total resource use.
+NEED THE DECOMPOSITION OF PLANT PERFORMANCE HERE
 
-Better too fast than not fast enough.
+On the other hand the organ specific strategies are also important as low values for any of the organs (leaves or roots) lead to very low growth. Extreme high values can also be limiting, suggesting the existence of an optimum of the proportion of active tissue for the tissue efficient. This \textemph{optimum tissue efficiency} results from trade-off between active and structural tissues, driven by the relative importance of carbon gain (increased exchange area with active tissues) and carbon loss (increased respiration and turn-over with proportion of active tissues) that depends on models parameters and resource availability (that change the exchange rate).
 
-Explain the memory stuff in previous section: low-low compared to low-high, the second one lead to overall higher productivity (lack of one resource compensated by higher allocation to the related organ) that can support more active tissues. 
+However, meeting these tissues specific optima might not be sufficient, as the bean shape of the best phenotypes suggests, another component is relevant. Low values of proportion of active tissue in one organ can be compensated by a high allocation of active tissues in the other organ that allows a higher allocation in the low exchange rate organ. This confirms the importance of the equilibrium over the tissue specific strategies. But the shape also reveals a last component of the plant performances. The fact that species with high values of proportion of active tissues in both organs have lower biomass, is certainly due to a limitation of both resources (equilibrium is assumed), reducing the overall efficiency. 
 
-The role of RMF: controlling variable, more sensitive than PAR and PAR but because bigger impact on balance: wide range on RMF values with similar performance: RMF value in itself is not that important: equilibrium is.
+From this visualisation of plant biomass as a function of the phenotypes, three main components play a role. The \textemph{equilibrium}, mostly driven by the changes in RMF is essential to the plant growth. This is explained by a reduction of the exchange rate of the non limiting organ that greatly reduces its organ specific efficiency (see figure \ref{fig:efficiency}). This \textemph{organ tissue efficiency}, driven by its effective exchange rate, respiration and turn-over, is also an important component of plant performance. Low values of allocation of active tissues greatly reduces this efficiency, but it can be compensated by bigger organs. However, such mechanisms can affect the overall efficiency defined as the average mean of organ realised efficiencies (taking into account resource limitations) weighted by the organ masses. Finally, the \textemph{speed} of the plant, or the overall resource acquisition rate, admits an optimum that is between an over-capacity leading to a co-limitation of resource on both organ reducing their individual efficiencies, and the under-capacity, leading to a sub-optimum use of resources and letting space for competition.
+
+NEED FIGURE OF EFFICIENCY: 
+
+% the coordination
+
+% the speed
+
+%If equilibrium is a driving mechanisms in plant performance, for any given strategy (PAR-PAS plan projection) the best phenotypes has a RMF values that guarantee the functional equilibrium. However, for each strategy there is a notable difference between the RMF of best phenotypes  and the RMF of phenotypes the closest to the equilibrium. This disparity is positively related to the strategy balance: best phenotypes with higher active allocation in shoot than root have lower allocation to roots than required for functional equilibrium. 
+
+
+%%\textemph{equilibrium}, overall \textemph{speed} and overall \textemph{efficiency}.\\
+%The main thing with equilibrium is the total resource use.
+%
+%Better too fast than not fast enough.
+%
+%Explain the memory stuff in previous section: low-low compared to low-high, the second one lead to overall higher productivity (lack of one resource compensated by higher allocation to the related organ) that can support more active tissues. 
+%
+%The role of RMF: controlling variable, more sensitive than PAR and PAR but because bigger impact on balance: wide range on RMF values with similar performance: RMF value in itself is not that important: equilibrium is.
+%
+%Shifts in optimum, is it because plasticity provide more efficient functioning supporting more exploitative strategies, or side result from convergence that do not contain the previous optimum ?
+%
+%Convergence, relative species diversity and functional diversity.
 
 \paragraph{Convergence to subspace}
 
-Phenotypic plasticity is often perceived with a species-centric perspective, that is to say, that plasticity is seen as variations in the species mean phenotype. However, in the context of community ecology, it is also interesting to try to see how it not only affect individual species but shape the community distribution in the strategy space. Plasticity relies on changes of default phenotypes toward "better" strategies in the context of the given conditions, therefore it implies that if it exists an optimum subspace (one strategy or an ensemble of strategies) species will converge toward this subspace, distorting the functional space. Environmental variations and plant interactions aside, in a constant environment the \textemph{performance landscape} is fixed. As a consequence the plasticity benefits to the plant in a static manner, that is to say, it is only a tool to reach a better phenotype where the plant stays in if conditions do not change. This can be related to spatial heterogeneity that would lead individuals from the same species to adopt different phenotype to acclimate to the particular conditions of their spatial situation. It is opposed to the perception of a more dynamic phenotypic plasticity as a tool for a given individual to cope with temporal variations in environmental conditions. These two aspects are further discussed in the following section, while the effects of the contraction of the phenotypic space are discussed now.
+The phenotypic plasticity allows species to move within this performance landscape along certain axis. It is is often perceived with a species-centric perspective, that is to say, that plasticity is seen as variations in the species mean phenotype. However, in the context of community ecology, it is also interesting to try to see how it not only affect individual species but shape the community distribution in the strategy space. The plasticity relies on changes of default phenotypes toward "better" strategies in the context of the given conditions, therefore it implies that if it exists an optimum subspace (one strategy or an ensemble of strategies) species will converge toward this subspace, distorting the functional space. Environmental variations and plant interactions aside, in a constant environment the \textemph{performance landscape} is fixed. As a consequence, the plasticity benefits to the plant in a static manner, that is to say, it is only a tool to reach a better phenotype where the plant stays in if conditions do not change. This can be related to spatial heterogeneity that would lead individuals from the same species to adopt different phenotype to acclimate to the particular conditions of their spatial situation. It is opposed to the perception of a more dynamic phenotypic plasticity as a tool for a given individual to cope with temporal variations in environmental conditions. These two aspects are further discussed in the following section, while the effects of the contraction of the phenotypic space are discussed now.
 
-As explained before, plasticity can be seen at the scale of the species assembly \sidenote{here I draw a distinction between species assembly that refers to all present species, and community that refers to the interacting individuals of the present species. However, some interpretations can be translated to communities.} as a contraction of the phenotypic space of the species assembly. This contraction has two main effects: the reduction of potential functional diversity and a reduction of growth rate differences. There is here an emerging trade-off between the species diversity, supported by lower fitness differences, and functional diversity, reduced by the contraction of the phenotypic space. However, if the plasticity reduces greatly the potential functional diversity (volume of the whole phenotypic space without considering filtering based on relative fitness), the realised diversity (expressed as the functional diversity of the species within the 90\%-100\% maximum biomass range) is much less impacted because a large part of the phenotypic space (explaining the large potential functional diversity) has low growth rate in the given conditions. Nevertheless, the reduction of the diversity of expressed phenotypes is greater than it could ideally be. Indeed, in this scenario of "extreme" plasticity ($\tau = 0$) the convergence is important on plastic dimensions where it is not needed to have a significant increase in fitness (see conceptual figure \ref{fig:convergence}). Lower convergence on plastic dimension should lead to less compact phenotypic subspace while keeping relative fitness evenness. In the case of \textit{fixed-equilibrium} and \textit{fixed-optimisation} plasticity mechanisms, this effect is reduced by the sensitivity of the growth rate to the unique plastic dimension (see figure \ref{fig:plane_projections}). ... About \textit{plastic-optimisation} convergence...
+As just mentioned, the plasticity can be seen at the scale of the species assembly \sidenote{here I draw a distinction between species assembly that refers to all present species, and community that refers to the interacting individuals of the present species. However, some interpretations can be translated to communities.} as a contraction of the phenotypic space of the species assembly. This contraction has two main effects: the reduction of potential functional diversity and a reduction of growth rate differences. There is here an emerging trade-off between the \textemph{species diversity}, supported by lower fitness differences, and \textemph{functional diversity}, reduced by the contraction of the phenotypic space. However, if the plasticity reduces greatly the potential functional diversity (volume of the whole phenotypic space without considering filtering based on relative fitness), the realised diversity (expressed as the functional diversity of the species within the 90\%-100\% maximum biomass range) is less impacted because a large parts of the phenotypic space have low growth rate in the given conditions. Nevertheless, there is a reduction of the diversity of expressed phenotypes. Indeed, in this scenario of "extreme" plasticity ($\tau = 0$) the convergence is important on plastic dimensions while partial convergence would be enough to have good fitness (see conceptual figure \ref{fig:convergence}). Lower convergence on plastic dimension should lead to less compact phenotypic subspace while keeping relative fitness evenness. In the case of \textit{fixed-equilibrium} and \textit{fixed-optimisation} allocation mechanisms, this reduction of diversity is lower because only one axis is plastic.
 
-Cost and distance, sensitivity to environmental cues as solutions to this problem. 
+Reduction of the phenotypic convergence can be achieved by other allocation mechanisms, differences in projection (different $\tau$ values leading to different projections) and plasticity costs. In heterogeneous system, this convergence is expected to be lower as heterogeneity will lead to different projections.
 
-Because of high convergence of \textit{plastic-optimisation}, no improvment of maximum biomass, but the \textit{fixed} alternative thanks to convergence limited to one phenotypic dimension (RMF) higher biomass: either higher resolution, or improvement due to \textemph{dynamic plasticity}. The role of dynamic plasticity benefit is explore in temporal variation simulations in the following section.
+%Cost and distance, sensitivity to environmental cues as solutions to this problem. 
+\paragraph{Limited dynamic gain}
 
-\textemph{Convergence}
+The convergence of the phenotypes to a sub-space of lower performance lead to an increase in the mean biomass (see figure \ref{fig:max_BM_pl}). However, the maximum biomass is only marginally improved in \textit{fixed} plastic allocation simulations, and reduced in \textit{plastic optimisation} allocation simulations. This two contrasted results, show different effects of plasticity. The light increase can be due to either a dynamic gain or a static gain. The \textemph{dynamic gain} can emerge because the plant growth affects the resource availability, changing the optimum phenotype, and allowing plastic plants to follow this chaanges during time. It could also result from a \textemph{static gain} because the phenotypic plasticity allow a better resolution in tested phenotypes (the plastic axis are continuous while the phenoytpic space sampling was discrete). The role of plasticity and dynamic gain is explored in the following sections with temporal resource heterogeneity.
 
-Somehow I need to talk about the cost of being wrong. Can be observe in the delta heatmap on delta strat and delta w-ini: in this case there is less impact of being wrong of memory if you're good with strategy, because your not in different conditions...\\
+The reduction of the maximum biomass highlight the difficulty to find the optimum phenotype. Because, the growth mechanisms are reproduced in an exact manner in the plasticity algorithm, this mismatch is certainly due to a difficulty to project the future of resource availability. Because of that, it is possible that the gain in maximum biomass, mentioned above, due to static or dynamic gain is greater than it appears. The particular case of mis-projection in \textit{plastic-optimisation} simulations is discussed in the following paragraph. 
 
-Potential effect on diversity: lower functional diversity, increase evenness. Leave highest fitness spot free. Why ? environmental cues or gain function ? Delta between projections ? \\
+%Because of high convergence of \textit{plastic-optimisation}, no improvment of maximum biomass, but the \textit{fixed} alternative thanks to convergence limited to one phenotypic dimension (RMF) higher biomass: either higher resolution, or improvement due to \textemph{dynamic plasticity}. The role of dynamic plasticity benefit is explore in temporal variation simulations in the following section.
 
-Anyway, being good is stable conditions may useless if cannot survive or keep gain in other conditions. >> look along gradient if best species keep their rank.\\
+
+%Somehow I need to talk about the cost of being wrong. Can be observe in the delta heatmap on delta strat and delta w-ini: in this case there is less impact of being wrong of memory if you're good with strategy, because your not in different conditions...\\
+
+%Potential effect on diversity: lower functional diversity, increase evenness. Leave highest fitness spot free. Why ? environmental cues or gain function ? Delta between projections ? \\
+
+%Anyway, being good is stable conditions may useless if cannot survive or keep gain in other conditions. >> look along gradient if best species keep their rank.\\
 
 
 \paragraph{Plastic exhaustion}
@@ -468,6 +519,25 @@ Despite this particular seemingly non-adaptive behaviour, the \textit{plastic-op
 
 \textbf{Plastic exhaustion is a specific limit of phenotypic plasticity as implemented in \model that relies on the assumption of constant exchange rate per exchange area. It has a large effect in the specific case of pot simulations. However, this phenomenon can be mitigated by plasticity cost linked to changes in traits, and can have adaptive value in a context of competition. Therefore, I argue that \textit{plastic-optimisation} algorithm  has low information value in the context of pot simulations with constant resource influx, but should still be studied in the context of community dynamics.}
 
+%
+%\paragraph{On diversity}
+%Effects on diversity.\\ I would put that aside for now
+%
+%The potential functional diversity is amplified by the fact that many phenotypes that are not viable in any condition but becomes viable thanks to static gain of plasticity. These species exist in the context of the simulation because there is no cost to plasticity. Because species are uniformly sampled in the 3D, a lot of them could not grow in a lot of conditions ?
+
+\paragraph{Resource availability}
+
+results from this part\\
+As expected the resource availability and the resource balance are key components of the plant growth, to which the plant phenotype needs to match. Aside from the increase in biomass, an increase in "speed" of optimum phenotypes can result from higher resource availability. This observation is in agreement with empirical data that demonstrate higher SLA and faster physiology in favourable conditions. This aspect was less obvious in the response of species under \textit{plastic-optimisation} allocation that shifted more in term of balance and RMF. This may be due to a change in the relative balance between both resources as their availability (from the plant perspective) are linked to the global resource levels by non linear relationships.
+
+The fact that plastic plants (for \textit{fixed} allocation algorithms) show shifts of optimum strategies toward more exploitative phenotypes, in addition to the \textit{non plastic} optimum shifts, in conditions of higher productivity demonstrate the importance of these strategies for plant growth. However, the extend of this effect of conditions on optimum phenotype is susceptible to vary along a gradient. Indeed, because of the non linearity of relationships between resource levels and exchanges rates, and between exchange rates and growth rates, the link between the optimum phenotype and a resource gradient is likely to be non linear itself. In addition, phenotypic plasticity might also change the sensitivity of the phenotype to the resource level.
+
+%Why we need to go for a gradient.
+
+\subsection{Extended discussion}
+% level discussion}
+%? about what ? Community dynamics ? pp impact of these dynamics ? coexistence of species
+
 \paragraph{Plasticity and information}
 
 Limits exposed in this section and the previous can be explained by default of phenotypic plasticity mechanisms. Relies on assumptions that link partial information and strategy. There is no perfect informaiton (that would not even garantee best strategy). 
@@ -485,24 +555,6 @@ This analysis was conduced with drastic parameters of plasticity with plastic pl
 Also, some species may not benefit from plasticity, especially if it has a cost, while others can benefit a lot from plasticity.
 
 The contrasting responses of the different algorithms highlight the importance of the allocation mechanism. However, the unique framework implemented in \model creates a variety of nuanced responses that are not all explored here. But, the continuous gradient of strategy between species relying on species memory only and species following their perception of external condition should be kept in mind during the interpretation of these results and following.
-%
-%\paragraph{On diversity}
-%Effects on diversity.\\ I would put that aside for now
-%
-%The potential functional diversity is amplified by the fact that many phenotypes that are not viable in any condition but becomes viable thanks to static gain of plasticity. These species exist in the context of the simulation because there is no cost to plasticity. Because species are uniformly sampled in the 3D, a lot of them could not grow in a lot of conditions ?
-
-\paragraph{Resource availability}
-
-results from this part\\
-As expected the resource availability and the resource balance are key components of the plant growth, to which the plant phenotype needs to match. Aside from the increase in biomass, an increase in "speed" of optimum phenotypes can result from higher resource availability. This observation is in agreement with empirical data that demonstrate higher SLA and faster physiology in favourable conditions. This aspect was less obvious in the response of species under \textit{plastic-optimisation} allocation that shifted more in term of balance and RMF. This may be due to a change in the relative balance between both resources as their availability (from the plant perspective) are linked to the global resource levels by non linear relationships.
-
-The fact that plastic plants (for \textit{fixed} allocation algorithms) show shifts of optimum strategies toward more exploitative phenotypes, in addition to the \textit{non plastic} optimum shifts, in conditions of higher productivity demonstrate the importance of these strategies for plant growth. However, the extend of this effect of conditions on optimum phenotype is susceptible to vary along a gradient. Indeed, because of the non linearity of relationships between resource levels and exchanges rates, and between exchange rates and growth rates, the link between the optimum phenotype and a resource gradient is likely to be non linear itself. In addition, phenotypic plasticity might also change the sensitivity of the phenotype to the resource level.
-
-Why we need to go for a gradient.
-
-\paragraph{Greater level discussion}
-? about what ? Community dynamics ? pp impact of these dynamics ? coexistence of species
-
 
 \textbf{Subsection conclusion: bla bla bla}
 
@@ -513,18 +565,21 @@ Why we need to go for a gradient.
 
 
 \section{Plasticity and variability of conditions}
-Question I try to answer: (use of schematics ?)
+%Question I try to answer: (use of schematics ?)
 The heterogeneity of conditions is an essential mechanism for plant coexistence. Plasticity is likely to alter the effect of this heterogeneity on plant coexistence and relative performance. The impact of plasticity on this relationship between spatial and temporal \textemph{heterogeneity} of resources (here limited to water) and strategy dominance is explored with the model \model.\\
 
-Effect on optimum strategy: from previous conclusions and hypothesis to simulation method.\\
-Then on diversity: how good strategies perform when it is plastic. Pool of species that exist in different conditions to get rid of the static effect.
+The phenotypic plasticity can impact the optimum strategy, but how does this effect impact the optimum phenotype along a resource availability gradient?
+%Effect on optimum strategy: from previous conclusions and hypothesis to simulation method.\\
+
+Is the contraction effect on species richness, functional diversity and productivity changing along such gradient?
+%Then on diversity: how good strategies perform when it is plastic. Pool of species that exist in different conditions to get rid of the static effect.
 
 \subsection{Method}
 
-Because little coordination, and importance of below-ground resource acquisition (in the results, and in the context) and computational cost - only root strategies.
+Because the coordination is shown to be less important than the equilibrium, the below-ground resource acquisition is expected to be important in mountain grassland under climate change scenarios, and extensive simulation plan come with high computational cost, only root strategies sampled in this part.
 
 \paragraph{Simulation set-up}
-For each of the 20 selected parameter sets, growth of 400 plants (20 PAR values between 0.25 and 0.95, and 20 memory values between 0.1 and 1) is simulated for 100 days in square pots of 12 centimetres deep and 90 centimetres wide (to avoid quick self-competition) in a temperature of 20 degrees celsius during the day of 15 hours, and 10 degrees during the night. Irradiance is set to the high values of 122 Watt per hour and per square metre. 
+For each of the 20 selected parameter sets, growth of 400 plants (20 PAR values between 0.25 and 0.95, and 20 memory values between 0.1 and 1) is simulated for 100 days in square pots of 12 centimetres deep and 90 centimetres wide (to avoid quick self-competition) in a temperature of 20 degrees celsius during the day of 15 hours, and 10 degrees during the night. The radiance is set to the high values of 122 Watt per hour and per square metre. Because \textit{fixed} algorithms showed similar results, and the \textit{plastic-optimisation} algorithm show strange results, only two allocation algorithms are simulated: \textit{non plastic} and \textit{fixed-equilibrium}.
 
 \paragraph{Spatial heterogeneity}
 Spatial heterogeneity of water level is mimicked by a gradient of water influx. The growth of all 400 species described above are simulated for \textit{non plastic} and \textit{fixed-equilibrium} algorithm independently in separated simulations where the water influx is regularly sampled between 0.05 and 7 mm per day (20 values).
@@ -536,17 +591,11 @@ Similar set-up is used for temporal heterogeneity simulations. Because the range
 
 \paragraph{Optimum strategy}
 
-Only look at the median of best strat. Gravity center lower for fixed-equilibrium, because of a few more species living.
+To study the effect of plasticity on community identity along a precipitation gradient, we can look at the position of the optimum strategy (PAR) along such gradient with different allocation algorithms.
 
-The effect of allocation algorithm is observed on all species by plotting the position of the \textit{center of gravity} along the watering gradient that translates what part of the strategy spectrum (from conservative to exploitative) benefit from the simulation conditions. Along the gradient, conservative species exhibit higher growth than exploitative species with a median gravity center around ... \% of active tissues in roots for the \textit{non plastic} allocation algorithm, and ... \% for the \textit{fixed-equilibrium} plastic allocation. In the other end of the spectrum, for watering values above ... mm, the \textit{center of gravity} reaches a high point (median around ... \% of active tissues for both algorithms) demonstrating better performance of exploitative species in high resource availability conditions. Plastic (\textit{fixed-equilibrium} simulations show lower \textit{gravity center} in low resource availability than \textit{non plastic} counter-part. 
-%
-%
-%\begin{figure}\label{fig:gradient_optimum_strat}
-%\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_strat_trend.pdf}
-%\caption{Median (dark line \textbf{-}) center of gravity of root strategy along the water treatment gradient for \textcolor{myOrange}{\textit{non plastic}} and \textcolor{myGreen}{\textit{fixed-equilibrium}} allocation algorithms. The color ribbons mark the band between the 25th and the 75th, and between 5th and 95th percentiles.} % Maybe I should change that so it is the 25th and 75th like for variable inputs.
-%\end{figure}
+%%Only look at the median of best strat. Gravity center lower for fixed-equilibrium, because of a few more species living.
 
-As seen in the previous part, the shift in optimum can be caused by \textemph{static gain} but do not necessarily represent a change in optimum strategy. The effect of plasticity on the optimum strategy is tested along a precipitation gradient. Both algorithms are characterised by rapid shift from more conservative strategies in low water influx conditions toward high proportion of active tissues in root along the increasing rain gradient (figure \ref{fig:gradient_optimum_strat}).  There is not apparent differences between algorithms and the optimum is conserved along the gradient. There is a similar shift with an increase of optimum water availability memory for \textit{non plastic} algorithm.
+The effect of allocation algorithm is observed on all species by plotting the position of the median \textit{optimum} along the watering gradient that translates what part of the strategy spectrum (from conservative to exploitative) benefit from the simulation conditions. At the low end of the gradient, conservative species exhibit higher growth than exploitative species with a median optimum around 25\% of active tissues in roots for both the \textit{non plastic}and the \textit{fixed-equilibrium} plastic allocation. In the other end of the spectrum, for watering values above 1 mm per day, the \textit{optimum} reaches a high point (median around 90\% of active tissues for both algorithms) demonstrating better performance of the exploitative species in high resource availability conditions.  There is not apparent differences between algorithms and the optimum is conserved along the gradient. There is a similar shift with an increase of optimum water availability memory for \textit{non plastic} algorithm.
 
 
 \begin{figure}\label{fig:gradient_strat_trend}
@@ -557,42 +606,45 @@ As seen in the previous part, the shift in optimum can be caused by \textemph{st
 
 \paragraph{Bigger productivity?}
 
-Strongly affect the potential overall productivity captured by cumulative biomass.
+The total cumulative biomass of all plants increases along the precipitation gradients. The plastic simulations have a cumulative biomass that is twice the biomass of \textit{non plastic} simulations.
+%Strongly affect the potential overall productivity captured by cumulative biomass.
 
 
-\begin{figure}\label{fig:total_BM}
+\begin{marginfigure}\label{fig:total_BM}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_cumBM.pdf}
-\caption[Total biomass along a precipitation gradient]{Total biomass of all individual along a precipitation gradient for all tested parameter sets. Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.} \end{figure}
+\caption[Total biomass along a precipitation gradient]{Total biomass of all individual along a precipitation gradient for all tested parameter sets. Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.} \end{marginfigure}
 
- But, only marginaly (for a few parameter sets) increases the biomass of best species.
+The effect on the maximum biomass is also investigated. For most simulation the maximum biomass is unchanged, and the median of the maximum biomass follow the same path for both conditions. However, the 75th and the 95th percentiles of plastic simulations shows a high increase in maximum biomass.
+% But, only marginaly (for a few parameter sets) increases the biomass of best species.
 
 \begin{figure}\label{fig:maximum_BM}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf}
 \caption[Maximum biomass relative along a precipitation gradient]{Maximum biomass relative to the best performing plant in the most favourable condition for each parameter set, along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.}
 \end{figure}
 
-That probably means more species reaching high performance levels.
+%That probably means more species reaching high performance levels.
 
 \paragraph{What about diversity?}
-Increase potential diversity as there is a contraction of the strategy space.
+
+Similarly to the previous results, the potential diversity is estimated with the number of species, or the functional volume, of the species within the 90\%-100\% range of the maximum biomass for the given conditions.
 
 \begin{figure}\label{fig:species_richness_grad}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf}
 \caption[Species richness of the best performing species along a precipitation gradient]{Species richness of the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.} \end{figure}
 
-
-But does not change the functional diversity. 
+The species richness decreases along the gradient for the two plasticity treatments. The medians of species richness reach the low point for the same precipitation values than the medians of the optimum reach the highest values. The \textit{fixed-equilibrium} simulations show highest species richness along the whole gradient (except for one parameter set).
 
 \begin{figure}\label{fig:functional_div_grad}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf}
 \caption[Functional diversity of the best performing species along a precipitation gradient]{Estimation of the functional volume occupied by the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.} \end{figure}
 
+The functional volume occupied by the top species, also decreases for both plasticity when the precipitations increase. For low watering values, the functional volume of \textit{non plastic} simulation is higher, however this difference disappear when both group of simulations reach low functional diversity.
 
 \paragraph{Wider potential niches}
 
-A lot of effects discussed here emerge because a lot of different memories (equivalently RMF values) are associated to each resource use strategy for roots (shoot active tissue allocation being fixed and shared by all species). Another way of looking at the effect of plasticity focuses on only species identified as the best in at least one of the rain conditions. This focus reduces the number of species to species selected along such gradient and allow to ignore species that would not be present anyway. This selection does not take into account any competitive mechanisms that could change the identity of the dominant species in a given condition. Nevertheless, information on how the relative performance of theses species can still be collected.
+%A lot of effects discussed here emerge because a lot of different memories (equivalently RMF values) are associated to each resource use strategy for roots (shoot active tissue allocation being fixed and shared by all species). Another way of looking at the effect of plasticity focuses on only species identified as the best in at least one of the rain conditions. This focus reduces the number of species to species selected along such gradient and allow to ignore species that would not be present anyway. This selection does not take into account any competitive mechanisms that could change the identity of the dominant species in a given condition. Nevertheless, information on how the relative performance of theses species can still be collected.
 
-
+The potential effect of plasticity on niche breadth is visualised here for one representative parameter set. The best performing phenotypes 
 
 \begin{figure}\label{fig:gradient_ranking}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/optimum_shifting_median.pdf}
@@ -603,10 +655,10 @@ Changes in the niche ... but see:
 
 
 
-\begin{figure*}\label{fig:gradient_ranges}
+\begin{figure}\label{fig:gradient_ranges}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_range_nb_sp.pdf}
 \caption[Changes the dominance structure]{Changes in the dominance structure for the evaluated parameter sets. The dominance structure is illustrated by the cumulative number of species along diminnishing number of conditions where they are within the top 90\%-100\% range of highest biomass for any given condition. }
-\end{figure*}
+\end{figure}
 
 
 
