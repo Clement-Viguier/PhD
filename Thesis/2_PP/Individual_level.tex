@@ -508,6 +508,10 @@ Why we need to go for a gradient.
 
 
 % ##################################################################################
+% ##################################################################################
+% ##################################################################################
+
+
 \section{Plasticity and variability of conditions}
 Question I try to answer: (use of schematics ?)
 The heterogeneity of conditions is an essential mechanism for plant coexistence. Plasticity is likely to alter the effect of this heterogeneity on plant coexistence and relative performance. The impact of plasticity on this relationship between spatial and temporal \textemph{heterogeneity} of resources (here limited to water) and strategy dominance is explored with the model \model.\\
@@ -532,23 +536,59 @@ Similar set-up is used for temporal heterogeneity simulations. Because the range
 
 \paragraph{Optimum strategy}
 
+Only look at the median of best strat. Gravity center lower for fixed-equilibrium, because of a few more species living.
+
 The effect of allocation algorithm is observed on all species by plotting the position of the \textit{center of gravity} along the watering gradient that translates what part of the strategy spectrum (from conservative to exploitative) benefit from the simulation conditions. Along the gradient, conservative species exhibit higher growth than exploitative species with a median gravity center around ... \% of active tissues in roots for the \textit{non plastic} allocation algorithm, and ... \% for the \textit{fixed-equilibrium} plastic allocation. In the other end of the spectrum, for watering values above ... mm, the \textit{center of gravity} reaches a high point (median around ... \% of active tissues for both algorithms) demonstrating better performance of exploitative species in high resource availability conditions. Plastic (\textit{fixed-equilibrium} simulations show lower \textit{gravity center} in low resource availability than \textit{non plastic} counter-part. 
-
-
-\begin{figure}\label{fig:gradient_optimum_strat}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/best_strat_pl_rain_grad_alt.pdf}
-\caption{Median (dark line \textbf{-}) center of gravity of root strategy along the water treatment gradient for \textcolor{myOrange}{\textit{non plastic}} and \textcolor{myGreen}{\textit{fixed-equilibrium}} allocation algorithms. The color ribbons mark the band between the 25th and the 75th, and between 5th and 95th percentiles.} % Maybe I should change that so it is the 25th and 75th like for variable inputs.
-\end{figure}
+%
+%
+%\begin{figure}\label{fig:gradient_optimum_strat}
+%\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_strat_trend.pdf}
+%\caption{Median (dark line \textbf{-}) center of gravity of root strategy along the water treatment gradient for \textcolor{myOrange}{\textit{non plastic}} and \textcolor{myGreen}{\textit{fixed-equilibrium}} allocation algorithms. The color ribbons mark the band between the 25th and the 75th, and between 5th and 95th percentiles.} % Maybe I should change that so it is the 25th and 75th like for variable inputs.
+%\end{figure}
 
 As seen in the previous part, the shift in optimum can be caused by \textemph{static gain} but do not necessarily represent a change in optimum strategy. The effect of plasticity on the optimum strategy is tested along a precipitation gradient. Both algorithms are characterised by rapid shift from more conservative strategies in low water influx conditions toward high proportion of active tissues in root along the increasing rain gradient (figure \ref{fig:gradient_optimum_strat}).  There is not apparent differences between algorithms and the optimum is conserved along the gradient. There is a similar shift with an increase of optimum water availability memory for \textit{non plastic} algorithm.
 
 
-\begin{figure}\label{fig:gradient_optimum_strat}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/best_strat_pl_rain_grad_alt.pdf}
+\begin{figure}\label{fig:gradient_strat_trend}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_strat_trend.pdf}
 \caption{Median (dark line \textbf{-}) optimum root strategy along the water treatment gradient for \textit{non plastic} and \textit{fixed-equilibrium} allocation algorithms. The light lines (-) correspond to the 20 independent parameter sets. The color ribbon marks the band between the 5th and 95th percentiles.} % Maybe I should change that so it is the 25th and 75th like for variable inputs.
 \end{figure}
 
-\paragraph{Effect on potential niche}
+
+\paragraph{Bigger productivity?}
+
+Strongly affect the potential overall productivity captured by cumulative biomass.
+
+
+\begin{figure}\label{fig:total_BM}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_cumBM.pdf}
+\caption[Total biomass along a precipitation gradient]{Total biomass of all individual along a precipitation gradient for all tested parameter sets. Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.} \end{figure}
+
+ But, only marginaly (for a few parameter sets) increases the biomass of best species.
+
+\begin{figure}\label{fig:maximum_BM}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf}
+\caption[Maximum biomass relative along a precipitation gradient]{Maximum biomass relative to the best performing plant in the most favourable condition for each parameter set, along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.}
+\end{figure}
+
+That probably means more species reaching high performance levels.
+
+\paragraph{What about diversity?}
+Increase potential diversity as there is a contraction of the strategy space.
+
+\begin{figure}\label{fig:species_richness_grad}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf}
+\caption[Species richness of the best performing species along a precipitation gradient]{Species richness of the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.} \end{figure}
+
+
+But does not change the functional diversity. 
+
+\begin{figure}\label{fig:functional_div_grad}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf}
+\caption[Functional diversity of the best performing species along a precipitation gradient]{Estimation of the functional volume occupied by the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.} \end{figure}
+
+
+\paragraph{Wider potential niches}
 
 A lot of effects discussed here emerge because a lot of different memories (equivalently RMF values) are associated to each resource use strategy for roots (shoot active tissue allocation being fixed and shared by all species). Another way of looking at the effect of plasticity focuses on only species identified as the best in at least one of the rain conditions. This focus reduces the number of species to species selected along such gradient and allow to ignore species that would not be present anyway. This selection does not take into account any competitive mechanisms that could change the identity of the dominant species in a given condition. Nevertheless, information on how the relative performance of theses species can still be collected.
 
@@ -559,26 +599,15 @@ A lot of effects discussed here emerge because a lot of different memories (equi
 \caption{Median relative performance of best phenotypes along a precipitation gradient for 20 parameter sets.}
 \end{figure}
 
-
-\subsection{Results: gradient of heterogeneous precipitation conditions}
-
-Along the temporal heterogeneity (increasing negative slope of water influx) gradient the median biomass of the optimum phenotypes decreases under all allocation algorithms when the variability increases despite the same mean water influx. The amplitude of reduction varies with the allocation mechanism: \textit{non plastic} algorithm shows the largest decrease while \textit{fixed traits} algorithms show slower decrease. \textit{Plastic- optimisation} simulations have more constant performances with low initial performances in constant condition (between 5\% and 55\% on the \textit{non plastic} simulation), but they end with slightly better performances than \textit{non plastic} simulation for the extreme case of variation (two extreme regimes).
-
-In addition to a reduction of biomass, the increasing slope of the water influx reduction lead to a shift of the optimum strategy in \textit{non plastic} simulations. This reduction of optimum toward more conservative strategies is offset in most of \textit{fixed-equilibrium} and \textit{fixed-optimisation} simulations. A reduction	(around 25\%) of the 5th and 25th percentiles of the optimum root strategy can be observed between the extreme conditions (constant flux and two distinct regimes) for these two algorithm. This shift in optimum strategy can better be observed on the plan of the proportion of active tissues in root (PAR) and root mass fraction (RMF) in figure \ref{fig:variable_trajectories} where all trajectories\sidenote{trajectory of the optimum, not of the species.} along the variability gradient are plotted. \textit{Non plastic} allocation trajectories by a linear shift toward more conservative strategies with higher allocation to roots, while \textit{fixed-equilibrium} and \textit{fixed-optimisation} trajectories are non linear and can be divided into two phases: (1) increase in RMF, (2) reduction of PAR. \textit{Plastic-optimisation} algorithm shows no consistent pattern in trajectories.
-
-
-\begin{figure}\label{fig:variable_trajectories}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_2D_strat_dyn.pdf}
-\caption{Best phenotypes along watering variability gradient. Thinner lighter lines indicate low water variability, while the thicker lines indicate strong temporal heterogeneity.}
-\end{figure}
-
-\paragraph{Diversity}
-
-As previously seen, plasticity can affect diveristy in a drastic way, reducing the functional diversity by contracting the phenotypic space, but also increasing the potential species diversity by the same mechanism. The effect of static gain\sidenote{refers to the gain due to convergence toward a good static phenotype and no temporal changes.} and dynamic gain must be disentangle. The 
+Changes in the niche ... but see:
 
 
 
-Changes in optimum, but does it affect eveness ? Same pattern as before with tehe trade-off between species and functional diversity. What happen if you filter down stuff ?
+\begin{figure*}\label{fig:gradient_ranges}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_range_nb_sp.pdf}
+\caption[Changes the dominance structure]{Changes in the dominance structure for the evaluated parameter sets. The dominance structure is illustrated by the cumulative number of species along diminnishing number of conditions where they are within the top 90\%-100\% range of highest biomass for any given condition. }
+\end{figure*}
+
 
 
 
@@ -618,6 +647,42 @@ Who cares. The ones that are close to the optimum, unless there
 
 \textbf{Mostly static gain, but even if there is gain, increases the potential niche of species that are settled. Bigger niche: favourable for conservative species of rare habitats.\\
 Hard to tell anything on coexistence, except wider niches}
+
+
+
+\subsection{Results: gradient of heterogeneous precipitation conditions}
+
+Along the temporal heterogeneity (increasing negative slope of water influx) gradient the median biomass of the optimum phenotypes decreases under all allocation algorithms when the variability increases despite the same mean water influx. The amplitude of reduction varies with the allocation mechanism: \textit{non plastic} algorithm shows the largest decrease while \textit{fixed traits} algorithms show slower decrease. \textit{Plastic- optimisation} simulations have more constant performances with low initial performances in constant condition (between 5\% and 55\% on the \textit{non plastic} simulation), but they end with slightly better performances than \textit{non plastic} simulation for the extreme case of variation (two extreme regimes).
+
+
+\begin{figure}\label{fig:variable_strategy}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_strat_trend.pdf}
+\caption[Strategy shift along a gradient of resource variability]{Strategy shift of the best performing species along a gradient of resource variability for four plasticity treatment.}
+\end{figure}
+
+In addition to a reduction of biomass, the increasing slope of the water influx reduction lead to a shift of the optimum strategy in \textit{non plastic} simulations. This reduction of optimum toward more conservative strategies is offset in most of \textit{fixed-equilibrium} and \textit{fixed-optimisation} simulations. A reduction	(around 25\%) of the 5th and 25th percentiles of the optimum root strategy can be observed between the extreme conditions (constant flux and two distinct regimes) for these two algorithm. This shift in optimum strategy can better be observed on the plan of the proportion of active tissues in root (PAR) and root mass fraction (RMF) in figure \ref{fig:variable_trajectories} where all trajectories\sidenote{trajectory of the optimum, not of the species.} along the variability gradient are plotted. \textit{Non plastic} allocation trajectories by a linear shift toward more conservative strategies with higher allocation to roots, while \textit{fixed-equilibrium} and \textit{fixed-optimisation} trajectories are non linear and can be divided into two phases: (1) increase in RMF, (2) reduction of PAR. \textit{Plastic-optimisation} algorithm shows no consistent pattern in trajectories.
+
+
+\begin{figure}\label{fig:variable_trajectories}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_2D_strat_dyn.pdf}
+\caption{Best phenotypes along water resource variability gradient. Thinner lighter lines indicate low water variability, while the thicker lines indicate strong temporal heterogeneity.}
+\end{figure}
+
+\paragraph{Diversity}
+
+As previously seen, plasticity can affect diveristy in a drastic way, reducing the functional diversity by contracting the phenotypic space, but also increasing the potential species diversity by the same mechanism. The effect of static gain\sidenote{refers to the gain due to convergence toward a good static phenotype and no temporal changes.} and dynamic gain must be disentangle. The 
+
+
+\begin{figure}\label{fig:variable}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_spdiv_trend.pdf}
+\caption[Species richness of the best performing species along a water resource variability gradient]{Species richness of the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a water resource variability gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.}
+\end{figure}
+
+
+Changes in optimum, but does it affect eveness ? Same pattern as before with tehe trade-off between species and functional diversity. What happen if you filter down stuff ?
+
+
+
 
 
 \subsection{Discussion: gradient of temporal variations}
