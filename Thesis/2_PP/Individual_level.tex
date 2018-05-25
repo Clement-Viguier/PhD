@@ -151,7 +151,7 @@ Little to no difference in RSR is expected for \textit{non plastic} allocation r
 
 \begin{figure}\label{fig:comparison_RSR}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/RSR_full_sim_f-e.pdf}
-\caption{Comparison of simulated values of RSR with real species RSR in two contrasting conditons. Because there is no plasticity or ontogeny, the simulated plant do not express any chagnes in RSR.\textit{Fixed-equilibrium}.}
+\caption{Comparison of simulated values of RSR with real species RSR in two contrasting conditons. Because there is no plasticity or ontogeny, the simulated plant do not express any chagnes in RSR. \textit{Fixed-equilibrium}.}
 \end{figure}
 
 \subsection{Discussion}
@@ -160,12 +160,12 @@ Little to no difference in RSR is expected for \textit{non plastic} allocation r
 
 The relative low selection rates for all allocation rules highlight the complexity of fitting such complex model to empirical data, despite the relative simplicity of the data. This difficulty seems to lie in two factors: the high number of parameters and the lack of stable changes in RSR. This last point is further discussed in the following paragraphs. Nevertheless, plant growth is reproduced in two contrasting conditions for multiple species, and while plastic algorithms have a greater potential for growth (more high growth rate), this is not systematic and the absence of clear pattern for the most influencing parameters, such as maximum exchange rates and respiration rates, indicates that such high growth depends on a combination of parameter values. I believe that the shape of gain and cost functions along the functional trade-off between active and structural tissues plays a determining role in the growth. A trade-off function with a wider viable range is more likely to be selected as more strategies would grow (therefore reducing the relative sensitivity to species-specific parameters). Considering the exponential shape of the turn-over function (one of the main cost with respiration), the width and height of the trade-off (or net gain function) is probably more strongly linked to the gain functions (exchange rates) and linear cost function (respiration), explaining little effect of parameters related to lifespan (already preselected otherwise). There is a strong dependency between viable strategies (and as a consequence functional potential diversity) and the main trade-off between resource acquisition and efficiency.
 
-Filtering the parameter sets based on all species instead of individually would have been ideal to quantify this link and better calibrate the model. However, such approach would have required many more simulations, when the parameter filtering method was chosen for its low computational cost. Moreover, considering the number of species-specific parameters, fitting the strategy subspace (at least default active tissue allocation parameters, the memory of resources and stability) of 11 species to the data in combination with more than 20 models parameters is near impossible. Ones should have had first determined the relative positions of the species within the said strategy space before any global calibration routine. Nonetheless, species-specific parameters have an influence on model main variables. Memory parameter affected the RSR in the context of \textit{non plastic} allocation rule (see figures \ref{fig:comparison_RSR} and \ref{ fig:importance}, while the default proportion of active tissues in roots was an influencing parameter in all algorithms (figure \ref{fig:importance}, \texttt{as\_r\_d}). Therefore, they should be analyzed in further simulations within the same set of model parameters.
+Filtering the parameter sets based on all species instead of individually would have been ideal to quantify this link and better calibrate the model. However, such approach would have required many more simulations, when the parameter filtering method was chosen for its low computational cost. Moreover, considering the number of species-specific parameters, fitting the strategy subspace (at least default active tissue allocation parameters, the memory of resources and stability) of 11 species to the data in combination with more than 20 models parameters is near impossible. Ones should have had first determined the relative positions of the species within the said strategy space before any global calibration routine. Nonetheless, species-specific parameters have an influence on model main variables. Memory parameter affected the RSR in the context of \textit{non plastic} allocation rule (see figures \ref{fig:comparison_RSR} and \ref{ fig:importance}, while the default proportion of active tissues in roots was an influencing parameter in all algorithms (figure \ref{fig:importance}, \texttt{as\_r\_d}). Therefore, they should be analysed in further simulations within the same set of model parameters.
 
-Change in modelling paradigm. The Bayesian paradigm where the information is contained in data and revealed by the structure of the model. Go for simulation experiment approaches where the model is used as a simulation tool and results as new data. The emerging patterns inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Model as an understanding tool.\\
+Because of the model complexity and the number of species specific parameters, in addition to long simulation time, Bayesian calibration could not be performed. In the Bayesian paradigm the information is contained in the data and revealed by the structure of the model. An alternative modelling approach is to used the parametrisation phase to accept certain parameter sets, and learn about the system through simulation experiments. The simulated data is analysed rather than empirical data. The patterns emerging from the simulation experiments inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Therefore the model is still an understanding tool and can inform the effect of plasticity on ecological processes.\\
 
 
-\textbf{Growth is reproduced, but only for one species, not full strategy space.}
+\textbf{The growth is reproduced in contrasted conditions, but only partially as one per parameter set is tested. The number of species and dimensions in the strategy space would not allow for a calibration of all species for one parameter set. The plastic response of the root:shoot ratio is not correctly reproduced and would require a different implementation (stress based). However the plasticity as implemented improved the acceptance rate because of a better growth. Therefore the effects of plasticity can still be investigated with simulation experiments.}
 
 \paragraph{The role of water}
 
@@ -175,7 +175,7 @@ Indeed, the relatively high importance of parameters related to water shows the 
 
 %Differences between algorithms that make sense: more biomass, sensitive parameters are related to how plasticity work...
 
-\textbf{Sensitivity of different variable to the parameters make sense and align with the two criterion of selection (that work with the independence of trade-off).}
+\textbf{The sensitivity of the different variables to the parameters align with the two criterion of selection (that work with the independence of trade-off). In contrast with forest, the light is not the most important factor and water plays a more limiting role. A particular focus on below-ground resources should drive the simulation experiments with this model.}
 
 \paragraph{More complex plasticity?}
 
@@ -187,21 +187,21 @@ Moreover, the fact that plants are more productive during periods where they may
 %Exchange area per biomass and sensitivity to exchange rates : trade-off are important and structuring.
 
 %filtering on RSR to test if plasticity improved selection of parameters, = is an essential part of platn functioning.\\
-\paragraph{Modelling paradigm}
-Bayesian paradigm where the information is contained in data and revealed by the structure of the model. Go for simulation experiment approaches where the model is used as a simulation tool and results as new data. The emerging patterns inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Model as an understanding tool.\\
+%\paragraph{Modelling paradigm}
+%Bayesian paradigm where the information is contained in data and revealed by the structure of the model. Go for simulation experiment approaches where the model is used as a simulation tool and results as new data. The emerging patterns inform us on the impact of the modelled mechanisms (even if they do not totally match the data). Model as an understanding tool.\\
 %While many ways of simulating the phenotypic plasticity can be proposed, the parsimony is privileged and this representation is enough to understand the impact of related processes shared by any representation of phenotypic plasticity is the developed framework.
 
-\textbf{Root shoot ratio changes were not captured by the model. The structure of the plasticity mechanisms does not work with the given watering cycle. Needs to add one parameter for reactivity.}
+%\textbf{Root shoot ratio changes were not captured by the model. The structure of the plasticity mechanisms does not work with the given watering cycle. Needs to add one parameter for reactivity.}
 
 
 
 % ##################################################################################
-\section{Individual level behaviour and properties}
+\section{Individual level behaviour and properties of plastic allocation algorithm driven by the plant memory}
 
 
-Calibration and sensitivity analysis give information on the main processes of plant growth, but the general effects of the allocation rules on plant growth are not fully identified. In addition, because the parameter filtering processes was limited to individual plants, and the response of species specific parameters dependent on other parameters of the model, the effects of these species specific parameters should further be investigated. The objective of this part is to set better understanding on the role of \textemph{allocation rules} and species \textemph{memory} on plant development as basis for interpretation of plasticity effects in following chapters.
+Calibration and sensitivity analysis give information on the main processes of plant growth, but the general effects of the allocation rules on plant growth are not fully identified. Moreover, because the parameter filtering processes was limited to individual plants and the effects of the species specific parameters are depending on the other parameters of the model, the effects of these species specific parameters should further be investigated. The objective of this part is to set better understanding on the role of the \textemph{allocation rules} and species \textemph{memory} on plant development as basis for interpretation of plasticity effects in following chapters.
 
-The challenge of the framework presented in paragraph \ref{subsection:memory} under \textit{plastic-optimisation} is to control the phenotype with the values of the memory. The risk of this approach is to have too tight estimation function of the fitness (or driving function) and to see the convergence of all species (with different memory values) toward the same phenotype (same allocation of active and structural tissues in roots and shoot). The extend to which different species memory lead to different phenotypes under full genetic control (non influence of external conditions) is explored through simulation experiment under \textit{plastic optimisation} allocation algorithm.
+The challenge of the framework presented in the paragraph \ref{subsection:memory} under \textit{plastic-optimisation} is to control the phenotype with the values of the memory. The risk of this approach is to have too tight estimation function of the fitness (or driving function) and to see the convergence of all species (with different memory values) toward the same phenotype (same allocation of active and structural tissues in roots and shoot). The extend to which different species memory lead to different phenotypes under full genetic control (not influenced by the external conditions) is explored through simulation experiment under \textit{plastic optimisation} allocation algorithm with no effect of conditions on traits ($\tau = 1$), only on growth.
 
 %Proof of concept
 \subsection{Method}
@@ -218,14 +218,43 @@ Memory of external conditions plays a determining role in phenotypic development
 
 \subsection{Results}
 
-\paragraph{Allocation rules}
-think of a "showtime" visualisation that shows how growth and traits are impacted by allocation rules and \texttt{tau}.\\
+\paragraph{Allocation algorithms}
 
-Have the proportion of tissues changing over time\\
+\begin{figure}\label{fig:allocation}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Individual/allocation_rules.pdf}
+\caption[Effect of the different allocation algorithms on the different biomass compartments]{Effect of the different allocation algorithms on the different biomass compartments of the plant. The fraction of organic matter allocated to the stem (ensemble of supporting tissues for shoot and roots) are increasing over time for all algorithms. The \textit{non plastic} algorithm show constant allocation coefficients between above-ground and below-ground compartments and between active and structural tissues. All others show different coefficients for the above-ground - below-ground partitioning, and the \textit{plastic-optimisation} algorithm have changing proportion of active and structural tissues. The bottom-right panel show the total biomass for the four allocation algorithms after 100 days. }
+\end{figure}
 
-Show the respiration, assimilation and turn-over rates.\\ 
 
-Isn't it possible to show these along memory or active/str ratio axis ?
+%think of a "showtime" visualisation that shows how growth and traits are impacted by allocation rules and \texttt{tau}.\\
+
+The allocation algorithm affect the way the organic matter in distributed between the different tissues of the plant. With partitioning coefficient pre-established for the given conditions, the algorithm show very similar performances (see figure \ref{fig:allocation}). The difference in allocation algorithm is mostly noticeable in figure \ref{fig:allocation} mostly on the shift toward root allocation at the end of the simulation when the water becomes to be limiting. The plant under \textit{plastic-optimisation} allocation benefit from a light improvement in performance (mean: +10\%, median: +3.4\% relative to \textit{non plastic}).
+
+The \textit{plastic-optimisation} algorithm allows changes in the proportion of active tissues in organs. This may have repercussions on the allocation between shoot and root, but also can lead to non specific variability within plants with no perception of resource fluctuations ($tau = 1$). The median variability of the RMF (root mass fraction) along the 100 simulated days is 0.015, that is five times higher than the variability of the other plastic algorithms (\textit{fixed-optimisation} and \textit{fixed-equilibrium})(see table \ref{table:variability-rmf}). This variability is much higher (around 0.028) for the plastic plants in all three plastic algorithm, while it is null for the \textit{non plastic} allocation rule. The range of the RMF follows similar trend, with higher value for the \textit{plasti-optimisation} than the other algorithms when plant do not perceive the resource fluctuations, and wide range for all plastic allocation algorithms when plants take into account the changes in light and water resources.
+
+\begin{table}[h]
+\centering
+\caption{Median of variability and range of the RMF for simulations of 100 days, for 100 different parameter sets and three different water treatments (2, 4 and 8 mm per day), in the four different allocation algorithms. sd: standard deviation.}
+\label{table:variability-rmf}
+\begin{tabular}{l|ll|ll}
+            & \multicolumn{2}{c}{\textbf{sd}}              & \multicolumn{2}{c}{\textbf{range}}           \\
+\hline
+\textbf{algorithm}                     & tau = 0          & tau = 1          & tau = 0          & tau = 1          \\
+\hline
+none                 & $<10^{-12}$ & $<10^{-12}$ & $<10^{-12}$ & $<10^{-12}$ \\
+fixed-equilibrium    & 0.0278           & 0.00212          & 0.173            & 0.0155           \\
+fixed-optimisation   & 0.0279           & 0.00221          & 0.173            & 0.0161           \\
+plastic-optimisation & 0.0283           & 0.0150           & 0.174            & 0.0839          
+\end{tabular}
+\end{table}
+
+The plastic algorithms show similar levels of variation and range, while the \textit{non plastic} one is stable as expected. The \textit{plastic-optimisation} allocation show more instability for non plastic plants ($tau = 1$) but that is lower than the variability observed in plastic plants ($tau = 0$). The allocation (and therefore phenotype) is controlled by the allocation rules (plastic dimensions and objective functions) and the estimation of conditions. Before investigating the effects of varying conditions, it is important to understand the effect of memory on plant strategy and phenotype.
+
+%Have the proportion of tissues changing over time\\
+
+%Show the respiration, assimilation and turn-over rates.\\ 
+
+%Isn't it possible to show these along memory or active/str ratio axis ?
 
 
 \begin{figure}\label{fig:plastic_allocation_trajectory}
@@ -268,21 +297,44 @@ The combine effect of the two axis of plant resource availability memory is obse
 
 
 \subsection{Discussion}
-\paragraph{Allocation rules}
 
-rapid convergence.\\
+\paragraph{Allocation algorithms}
 
-Cost and gains\\
+The pre-calculation of phenotypes, avoiding any phenotypic drift, allows for all allocation rules to grow plants with close performances. Nevertheless, the plastic algorithms show changes in RMF at the end of the simulation when the light:water balance starts to shift. This consistent shift in RMF for all three plastic allocation rules (with low variation of the other plastic dimensions) suggests the sensitivity and importance of this phenotypic axis. On the other hand, the other plastic dimensions benefit the plant growth suggesting that they also play a role in the tissue efficiency. While both the RMF and the proportion of active tissues can change the exchange area, only the proportion of active tissues can change the tissue efficiencies. Because the RMF shows similar levels of variation and range in both \textit{fixed} algorithms (RMF is the only plastic dimension) and \textit{plastic-optimisation} algorithm (see table \ref{table:variability-rmf}) the allocation of active tissue in the latter algorithm does not compensate for change in root:shoot allocation and is not used to increase the area of the limiting organ. This is confirmed by the fact that memory of low-light conditions (\textcolor{myBlue}{$\bullet$} in figure \ref{fig:memory_n_phenotype}) lead to lower allocation to active tissues than high light conditions (\textcolor{myYellow}{$\bullet$}). In the case of fully plastic plant trying to optimise their growth, the vegetative phenotypic dimensions do not fulfil the same functions: the RMF is used to adjust the balance between the resource exchanges while the change in active tissue proportions are related to the tissue and whole plant efficiency. This contrast in functions looks opposed to what is often observed in empirical studies wher eshoot:root ratio and SLA (here controled by the porportion of active tissues) respond in the same direction to increase the leaf area and compensate lo indident light \parencite{ryser_consequences_2000, poorter_causes_2009, poorte2_biomass_2012}. This discrepency reveals a limitation within the plastic-allocation algorithm: the balance function is mostly supported by changes in root:shott ratio while the proportion of active tissues (controlling SLA and SRL) controls the tissues efficiency. The low proportion of active tissues in low resource (\textcolor{myRed}{$\bullet$} in figure \ref{fig:memory_n_phenotype}) indicates a selection of more conservative phenotypes when the resource is scarer. This is in agreement with the Grime's triangle \parencite{grime_evidence_1977} and large scale empirical studies \parencite{wright_worldwide_2004}. In contrast with the conclusions of \cite{ryser_consequences_2000}, here the full phenotypic plasticity of the \textit{plastic-optimisation} algorithm is driven by similar constraints than the long term selection processes. This can be explained by the design of the trade-ofs that drive the gain function (see chapter \ref{part:model}). Therefore there are strong constraints on the tissue allocation, but low constrains on the root-shoot allocation. Additional constraint of this dimension can be added by considering other functions of each organs (such as nitrogen absorption by roots). In addition to this imbalance in constraints, the mean organ approach can also explain this behaviour. Approximating the properties of the canaopy by considering one mean organ leads to: a low impact of the plastic allocation on the SLA and SRL if the already existing compartments are large relative to the growth, a high importance of old tissues, while most of the exchange activity is generally produced by freshly grown tissues. Also, the rapid growth and turn-over in numerous parameter sets also authorises rapid plastic response on the RMF dimension (see also the rapid oscillations in the figure \ref{fig:comparison_RSR} top left panel)), diminushing the need for tissue specific adjustments. A stronger calibration of gross production and turn-over rates should reduce this effect. Finally the optimisation function may be too strong and plants may not always go for the optimum allocation but for the fastest and most competitive choice (see \cite{farrior_resource_2011,dybzinski_evolutionarily_2011, farrior_competitive_2014}).
+%
+%Why ? trade-off too strong of tissues, but not enough of root:shoot ratio ? Why ? mean organ appraoch: effect on already produced tissues, lack reactivity and amplitude,
+%+ rapid growth allowing rapid changes of RSR ratio
+%+ lack of constraint on roots:shoot ratio
+%+ optimisation may not be the best function (despite similar approaches: optimisation over time)
 
-Diversity of phenotypes\\
+%The roles of PA and RMF ? balance versus efficiency. Because same variability of RMF.
 
-Crossed and symmetric influence: the respective efficiencies cannot be analysed independently.\\
+%Different functions.
+
+
+% YET TO BE EXPLORED
+%rapid convergence.\\
+%
+%Cost and gains\\
+%
+%Diversity of phenotypes\\
+%
+%Crossed and symmetric influence: the respective efficiencies cannot be analysed independently.\\
 
 
 
-\textbf{Allocation rules are extremely important as they reduce the phenotypic space explore. Without even considering plasticity. Need a good understanding of the performance within the phneotypic landscape. Plus there is a need for alignment between starting phenotype and endpoint. Will also affect how plasticity is driven.}
+\textbf{The different allocation algorithms impact the vegetative phenotype in different ways, but with similar performance when any phenotypic drift is avoided. But, the plasticity along the three main dimension of plant vegetative phenotypes (PAR, PAS \& RMF) seems to have different objectives. While the RMF is the main adjustment variable to respond to changes in equilibrium, the proportion of active tissues is more closely related to the amount of resources and tissue efficiency. Multiple factors can explain this partial discrepancy with empirical results. The model still can be used to better understand the role of the memory as a driver for the phenotypic development, and the effects of the plasticity (particularly the RMF dimension) on plant performances.}
 
-\paragraph{Fast-slow strategies}
+\paragraph{Strategies and coordination}
+
+The \textit{plastic-optimisation} allocation algorithm allows for interesting insight on how the different resources on the theoretical optimum phenotype. The increase in resource lead to an increase in the allocation of organic matter to the active tissues. While this is commonly demonstrated, the indirect effect of one resource on an organ that is not limiting for this resource is less often studied.
+
+fast-slow
+
+coordination, not only the limiting organ that is impacted \cite{wahl_phenotypic_2001}
+
+grassein (similar response: lowerleaf density when water treatment 
++ Liu
 
 ... nothing here yet, the idea was to show that the "strategy" of the species conduce to slow and fast archetypes. Should be able to show that with some memory simulations.\\
 
@@ -307,6 +359,11 @@ For each parameter set the alpha shape of the volume could be drawn to have an i
 Role of allocation rule and changes in traits, traits affect strategy and performance, memory lead to different phenotype/strategies (based on gain function), there is coordination, effect of complementary resource. Need to better understand allocation rule and optimum strategy, and convergence and diversity. 
 
 \textbf{I REALLY NEED TO EXTEND THE CONCLUSIONS AND GO BEYOND MY OWN WORK. REFER MORE TO OTHER PEOPLE WORK ! ! !}
+
+\paragraph{Testing the memory concept}
+toward epigenetic.
+
+\
 
 % ##################################################################################
 \chapter{Individual performance, plasticity and variable conditions}\label{chapter:individual}
