@@ -1848,24 +1848,24 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{evans_toward_2016}
-  \missing{koorner_alpine_2003}
-  \missing{costanza_value_1997}
-  \missing{morin_comparing_2009}
-  \missing{korner_alpine_2003}
-  \missing{butchart_global_2010}
-  \missing{boulangeat_fate-hd_2014}
-  \missing{kleidon_global_20000}
-  \missing{boulangeat_fate-dh_2014}
-  \missing{beniston_climate_1997}
-  \missing{de_bello_towards_2010}
-  \missing{schirpke_multiple_2012}
-  \missing{hartig_statistical_2011}
-  \missing{schroter_ecosystem_2005}
-  \missing{schipe_multiple_2012}
   \missing{debouk_functional_2015}
-  \missing{lohier_analyse_2016}
+  \missing{schroter_ecosystem_2005}
+  \missing{korner_alpine_2003}
+  \missing{hartig_statistical_2011}
+  \missing{koorner_alpine_2003}
+  \missing{morin_comparing_2009}
   \missing{carboni_simulating_2017}
+  \missing{boulangeat_fate-hd_2014}
+  \missing{costanza_value_1997}
+  \missing{beniston_climate_1997}
+  \missing{kleidon_global_20000}
+  \missing{de_bello_towards_2010}
+  \missing{butchart_global_2010}
+  \missing{schipe_multiple_2012}
+  \missing{lohier_analyse_2016}
+  \missing{schirpke_multiple_2012}
+  \missing{boulangeat_fate-dh_2014}
+  \missing{evans_toward_2016}
 \endrefsection
 
 \refsection{2}
@@ -8002,27 +8002,27 @@
       \keyw{heritability,Arabidopsis thaliana,DNA methylation,drought tolerance,ecological epigenetics,epiRILs}
     \endentry
   \endsortlist
-  \missing{lavorel_how_2014}
-  \missing{korner_alpine_2003}
   \missing{morin_comparing_2009}
-  \missing{letten_linking_2017}
-  \missing{tilman_plant_1988}
-  \missing{elton_1927}
-  \missing{tilman_plant_1984}
-  \missing{TRY}
-  \missing{barabas_effect_2016}
   \missing{beaman_evolution_2016}
-  \missing{tilman_resource_1982}
+  \missing{korner_alpine_2003}
   \missing{kunstler_plant_2016}
-  \missing{lohier_analyse_2016}
+  \missing{diaz_global_2014}
+  \missing{barabas_effect_2016}
+  \missing{lavorel_how_2014}
   \missing{reich_world-wilde_2013}
-  \missing{adler_niche_2007}
-  \missing{jablonka_adaptive_1995}
-  \missing{dewitt_cost_1998}
   \missing{adler_coexistence_2007}
   \missing{freschett_plasticity_2014}
+  \missing{tilman_resource_1982}
+  \missing{jablonka_adaptive_1995}
+  \missing{letten_linking_2017}
+  \missing{adler_niche_2007}
+  \missing{TRY}
+  \missing{tilman_plant_1988}
   \missing{cornelissen_handbook_2003}
-  \missing{diaz_global_2014}
+  \missing{tilman_plant_1984}
+  \missing{lohier_analyse_2016}
+  \missing{dewitt_cost_1998}
+  \missing{elton_1927}
 \endrefsection
 
 \refsection{3}
@@ -10813,21 +10813,141 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{westoby}
-  \missing{need-references}
-  \missing{wright_worlwide_2004}
-  \missing{letten_linking_2017}
-  \missing{korner_alpine_2011}
-  \missing{lohier}
-  \missing{lagarigues}
   \missing{kleidon}
+  \missing{wright_worlwide_2004}
+  \missing{westoby}
   \missing{reich}
-  \missing{tjoelker_linking_2015}
   \missing{soussana}
+  \missing{korner_alpine_2011}
+  \missing{letten_linking_2017}
+  \missing{need-references}
+  \missing{lagarigues}
+  \missing{lohier}
+  \missing{tjoelker_linking_2015}
 \endrefsection
 
 \refsection{4}
   \sortlist[entry]{nyt/global/}
+    \entry{alexander_novel_2015}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4a5a4538548ae367f5059852b82e00b0}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Jake\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=71dfe06d80c6fe395739f9c40685185b}{%
+           family={Diez},
+           familyi={D\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{fullhash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authornamehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authorfullhash}{216112252dd56105ca5fe5d06655561e}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding how species respond to climate change is critical for forecasting the future dynamics and distribution of pests, diseases and biological diversity. Although ecologists have long acknowledged species/' direct physiological and demographic responses to climate, more recent work suggests that these direct responses can be overwhelmed by indirect effects mediated via other interacting community members. Theory suggests that some of the most dramatic impacts of community change will probably arise through the assembly of novel species combinations after asynchronous migrations with climate. Empirical tests of this prediction are rare, as existing work focuses on the effects of changing interactions between competitors that co-occur today. To explore how species/' responses to climate warming depend on how their competitors migrate to track climate, we transplanted alpine plant species and intact plant communities along a climate gradient in the Swiss Alps. Here we show that when alpine plants were transplanted to warmer climates to simulate a migration failure, their performance was strongly reduced by novel competitors that could migrate upwards from lower elevation; these effects generally exceeded the impact of warming on competition with current competitors. In contrast, when we grew the focal plants under their current climate to simulate climate tracking, a shift in the competitive environment to novel high-elevation competitors had little to no effect. This asymmetry in the importance of changing competitor identity at the leading versus trailing range edges is best explained by the degree of functional similarity between current and novel competitors. We conclude that accounting for novel competitive interactions may be essential to predict species/' responses to climate change accurately.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{number}{7570}
+      \field{title}{Novel competitors shape species/' responses to climate change}
+      \field{urlday}{2}
+      \field{urlmonth}{10}
+      \field{urlyear}{2015}
+      \field{volume}{525}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{515\bibrangedash 518}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature14952
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/ZQIEN7V6/Alexander et al. - 2015 - Novel competitors shape species' responses to cli.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/EW4PBWCH/nature14952.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v525/n7570/full/nature14952.html
+      \endverb
+      \keyw{Community ecology,Climate-change ecology}
+    \endentry
+    \entry{crisp_reconsidering_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=f1392077f6f1418708f5cccf07242d98}{%
+           family={Crisp},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=e971868c05ca71920706fbcf4f0ba234}{%
+           family={Ganguly},
+           familyi={G\bibinitperiod},
+           given={Diep},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=fccb3574e69e337f47eb7d3286f69486}{%
+           family={Eichten},
+           familyi={E\bibinitperiod},
+           given={Steven\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=4d41b74319f22b7aed527acec63f3202}{%
+           family={Borevitz},
+           familyi={B\bibinitperiod},
+           given={Justin\bibnamedelima O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{uniquename=0,hash=67411468b1337915d100c23969f8a669}{%
+           family={Pogson},
+           familyi={P\bibinitperiod},
+           given={Barry\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dadb4202bca028604de337a3efd1b032}
+      \strng{fullhash}{1ea23f708dc257f151339422c27e465e}
+      \strng{authornamehash}{dadb4202bca028604de337a3efd1b032}
+      \strng{authorfullhash}{1ea23f708dc257f151339422c27e465e}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Plants grow in dynamic environments where they can be exposed to a multitude of stressful factors, all of which affect their development, yield, and, ultimately, reproductive success. Plants are adept at rapidly acclimating to stressful conditions and are able to further fortify their defenses by retaining memories of stress to enable stronger or more rapid responses should an environmental perturbation recur. Indeed, one mechanism that is often evoked regarding environmental memories is epigenetics. Yet, there are relatively few examples of such memories; neither is there a clear understanding of their duration, considering the plethora of stresses in nature. We propose that this field would benefit from investigations into the processes and mechanisms enabling recovery from stress. An understanding of stress recovery could provide fresh insights into when, how, and why environmental memories are created and regulated. Stress memories may be maladaptive, hindering recovery and affecting development and potential yield. In some circumstances, it may be advantageous for plants to learn to forget. Accordingly, the recovery process entails a balancing act between resetting and memory formation. During recovery, RNA metabolism, posttranscriptional gene silencing, and RNA-directed DNA methylation have the potential to play key roles in resetting the epigenome and transcriptome and in altering memory. Exploration of this emerging area of research is becoming ever more tractable with advances in genomics, phenomics, and high-throughput sequencing methodology that will enable unprecedented profiling of high-resolution stress recovery time series experiments and sampling of large natural populations. Have plants learned to forget stress? This review proposes benefits to forgetfulness and finds key roles for RNA turnover. Have plants learned to forget stress? This review proposes benefits to forgetfulness and finds key roles for RNA turnover.}
+      \field{issn}{2375-2548}
+      \field{journaltitle}{Science Advances}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Reconsidering plant memory}
+      \field{title}{Reconsidering plant memory: {Intersections} between stress recovery, {RNA} turnover, and epigenetics}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2017}
+      \field{volume}{2}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{e1501340}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciadv.1501340
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/38KCXD6E/Crisp et al. - 2016 - Reconsidering plant memory Intersections between .pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/CDCI8AND/e1501340.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://advances.sciencemag.org/content/2/2/e1501340
+      \endverb
+    \endentry
     \entry{dewitt_costs_1998}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
@@ -11122,6 +11242,62 @@
       \endverb
       \keyw{biomass allocation,Functional equilibrium hypothesis,leaf mass fraction (LMF),light and nutrient treatments,plant phenotypic plasticity,root mass fraction (RMF),specific leaf area (SLA),specific root length (SRL)}
     \endentry
+    \entry{grassein_plant_2010}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=d0240a0392003ca5bc423324ebaa9ce7}{%
+           family={Grassein},
+           familyi={G\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=df2fd6ab6023f5af12f978493b3f5022}{%
+           family={Till-Bottraud},
+           familyi={T\bibinithyphendelim B\bibinitperiod},
+           given={Irène},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
+      \strng{fullhash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
+      \strng{authornamehash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
+      \strng{authorfullhash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background and Aims Functional traits are indicators of plant interactions with their environment and the resource-use strategies of species can be defined through some key functional traits. The importance of genetic variability and phenotypic plasticity in trait variations in response to a common environmental change was investigated in two subalpine species. Methods Two species with contrasted resource-use strategies, Dactylis glomerata and Festuca paniculata, were grown along a productivity gradient in a greenhouse experiment. Functional traits of different genotypes were measured to estimate the relative roles of phenotypic plasticity and genetic variability, and to compare their levels of phenotypic plasticity. Key Results Trait variability in the field for the two species is more likely to be the result of phenotypic plasticity rather than of genetic differentiation between populations. The exploitative species D. glomerata expressed an overall higher level of phenotypic plasticity compared with the conservative species F. paniculata. In addition to different amplitudes of phenotypic plasticity, the two species differed in their pattern of response for three functional traits relevant to resource use (specific leaf area, leaf dry matter content and leaf nitrogen content). Conclusions Functional trait variability was mainly the result of phenotypic plasticity, with the exploitative species showing greater variability. In addition to average trait values, two species with different resource-use strategies differed in their plastic responses to productivity.}
+      \field{issn}{0305-7364, 1095-8290}
+      \field{journaltitle}{Ann Bot}
+      \field{month}{1}
+      \field{number}{4}
+      \field{shorttitle}{Plant resource-use strategies}
+      \field{title}{Plant resource-use strategies: the importance of phenotypic plasticity in response to a productivity gradient for two subalpine species}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{106}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{637\bibrangedash 645}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/aob/mcq154
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/ITHGM82H/Grassein et al. - 2010 - Plant resource-use strategies the importance of p.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/IGT9XB5T/637.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://aob.oxfordjournals.org/content/106/4/637
+      \endverb
+      \keyw{plant functional traits,subalpine grasslands,Dactylis glomerata,Festuca paniculata,genetic variability}
+    \endentry
     \entry{grime_evidence_1977}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=a3e0beb729aa361dfee5e8212a94c3ba}{%
@@ -11244,6 +11420,104 @@
       \verb{url}
       \verb http://www.jstor.org/stable/3842807
       \endverb
+    \endentry
+    \entry{guisan_predicting_2005}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=fd0180b461eae6ddbff6a39790e0bb5e}{%
+           family={Guisan},
+           familyi={G\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{82ab1d87ea0a3ef4e03e95b85b6d0e3f}
+      \strng{fullhash}{82ab1d87ea0a3ef4e03e95b85b6d0e3f}
+      \strng{authornamehash}{82ab1d87ea0a3ef4e03e95b85b6d0e3f}
+      \strng{authorfullhash}{82ab1d87ea0a3ef4e03e95b85b6d0e3f}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In the last two decades, interest in species distribution models (SDMs) of plants and animals has grown dramatically. Recent advances in SDMs allow us to potentially forecast anthropogenic effects on patterns of biodiversity at different spatial scales. However, some limitations still preclude the use of SDMs in many theoretical and practical applications. Here, we provide an overview of recent advances in this field, discuss the ecological principles and assumptions underpinning SDMs, and highlight critical limitations and decisions inherent in the construction and evaluation of SDMs. Particular emphasis is given to the use of SDMs for the assessment of climate change impacts and conservation management issues. We suggest new avenues for incorporating species migration, population dynamics, biotic interactions and community ecology into SDMs at multiple spatial scales. Addressing all these issues requires a better integration of SDMs with ecological theory.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecology Letters}
+      \field{month}{9}
+      \field{number}{9}
+      \field{shorttitle}{Predicting species distribution}
+      \field{title}{Predicting species distribution: offering more than simple habitat models}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{8}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{993\bibrangedash 1009}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/j.1461-0248.2005.00792.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/3KF35V9B/Guisan et Thuiller - 2005 - Predicting species distribution offering more tha.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/JJ82KHZW/full.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2005.00792.x/abstract
+      \endverb
+      \keyw{spatial scales,Dispersal,ecological niche theory,future projections,habitat suitability maps,population dynamics,prediction errors,predictive biogeography,species distribution models}
+    \endentry
+    \entry{liu_biomass_2004}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=8dd6e919be04182ecfe59f583666261b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=2ea081af83321e3b7c10da16d1f68c8e}{%
+           family={Stützel},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e174044a31090be925aa1168b626c5a}
+      \strng{fullhash}{1e174044a31090be925aa1168b626c5a}
+      \strng{authornamehash}{1e174044a31090be925aa1168b626c5a}
+      \strng{authorfullhash}{1e174044a31090be925aa1168b626c5a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vegetable amaranth (Amaranthus spp.) is a promising C4 crop for semi-arid regions due to its high nutritive value and an ability to adapt to drought stress. A pot experiment in a temperature-controlled greenhouse was conducted to investigate the effects of drought stress on biomass production, partitioning, and water use efficiency (WUE) of four genotypes of vegetable amaranth, viz. ‘Hin Choi’ (A. tricolor), ‘Co.2’ (A. tricolor), ‘WS80-192’ (A. blitum), and ‘RRC 1027’ (A. cruentus). Drought stress significantly decreased plant total dry mass, but the proportion of changes differed among root, stem, and leaf. Under drought, root dry mass ratio was increased in Co.2, WS80-192, and RRC 1027, whereas leaf dry mass ratio was decreased in Hin Choi, Co.2, and RRC 1027. Leaf area per root dry mass was decreased by drought stress in all genotypes examined. These results indicate that drought induced a more conservative balance between water-losing and water-obtaining organs. Specific leaf area (SLA) was decreased by drought stress and differed between genotypes. WUE of the four genotypes of vegetable amaranth was unaffected by drought stress, and ranged from 2.9 to 3.8 g DM kg−1 H2O, being the highest in RRC 1027 and the lowest in WS80-192. A negative relationship between SLA and WUE was observed over the four genotypes of vegetable amaranth under well-watered conditions.}
+      \field{issn}{0304-4238}
+      \field{journaltitle}{Scientia Horticulturae}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{Biomass partitioning, specific leaf area, and water use efficiency of vegetable amaranth ({Amaranthus} spp.) in response to drought stress}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{102}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{15\bibrangedash 27}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.scienta.2003.11.014
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/T7UQ4UEB/Liu et Stützel - 2004 - Biomass partitioning, specific leaf area, and wate.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/73MM627G/S0304423804000202.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304423804000202
+      \endverb
+      \keyw{specific leaf area,biomass partitioning,water use efficiency,Amaranthus spp.,Drought stress}
     \endentry
     \entry{peterson_growth_1982}{article}{}
       \name{author}{2}{}{%
@@ -11445,6 +11719,53 @@
       \verb http://www.jstor.org/stable/2656636
       \endverb
     \endentry
+    \entry{turcotte_phenotypic_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=130f7876eb0ce82152f35906736fa102}{%
+           family={Turcotte},
+           familyi={T\bibinitperiod},
+           given={Martin\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9673cc978d8e821ee57fb58b4108e518}
+      \strng{fullhash}{9673cc978d8e821ee57fb58b4108e518}
+      \strng{authornamehash}{9673cc978d8e821ee57fb58b4108e518}
+      \strng{authorfullhash}{9673cc978d8e821ee57fb58b4108e518}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecologists are increasingly interested in predicting how intraspecific variation and changing trait values impact species interactions and community composition. For many traits, much of this variation is caused by phenotypic plasticity, and thus the impact of plasticity on species coexistence deserves robust quantification. Partly due to a lack of sound theoretical expectations, empirical studies make contradictory claims regarding plasticity effects on coexistence. Our critical review of this literature, framed in modern coexistence theory, reveals that plasticity affects species interactions in ways that could impact stabilizing niche differences and competitive asymmetries. However, almost no study integrates these measures to quantify the net effect of plasticity on species coexistence. To address this challenge, we outline novel empirical approaches grounded in modern theory.}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Phenotypic {Plasticity} and {Species} {Coexistence}}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{31}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{803\bibrangedash 813}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.tree.2016.07.013
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/ZS28RTM9/Turcotte et Levine - 2016 - Phenotypic Plasticity and Species Coexistence.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/BXIIEJUZ/S0169534716301215.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169534716301215
+      \endverb
+      \keyw{intraspecific variation,character displacement,competitive asymmetry,niche shift,resource polymorphism.}
+    \endentry
     \entry{van_kleunen_constraints_2005}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=efedc5db13eea332e51f0699261972d2}{%
@@ -11494,61 +11815,6 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2004.01296.x/abstract
       \endverb
       \keyw{cost of plasticity,G × E interactions,genetic variation in plasticity,induced resistance,plasticity genes,shade avoidance}
-    \endentry
-    \entry{wahl_phenotypic_2001}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,hash=21ac4a94eedccf619cbe76a2db6ad62f}{%
-           family={Wahl},
-           familyi={W\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
-           family={Ryser},
-           familyi={R\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{uniquename=0,hash=52899c7379a92708746a58ecf9d84479}{%
-           family={Edwards},
-           familyi={E\bibinitperiod},
-           given={Peter\bibnamedelima J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{0eba6de4b3b5aec78470cfacd8f322da}
-      \strng{fullhash}{0eba6de4b3b5aec78470cfacd8f322da}
-      \strng{authornamehash}{0eba6de4b3b5aec78470cfacd8f322da}
-      \strng{authorfullhash}{0eba6de4b3b5aec78470cfacd8f322da}
-      \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The phenotypic plasticity of axial root anatomy was investigated in response to the availability of above- and below-ground resources using eight grass species of the genera Bromus and Poa. In a 7-week garden experiment nutrients were varied by a factor of five and light treatments of 100, 30 and 5·5\% daylight were applied. Both nutrients and light influenced root structure. The effect of nutrients was largely explained by plant size, but this was not the case for light. Shading to 30\% daylight led to a higher proportion of stele, larger stelar cells and larger xylem vessels. This can be understood either as an increased need for high transport capacity in the shade, where leaf area is larger but root mass lower than in full daylight, or as an increased resistance against desiccation, which is more of a hazard in open sites. Under 5·5\% daylight, tissue mass density was reduced due to a lower proportion of stele, though xylem characteristics were not influenced when a correction for the effect of root cross-sectional area was applied. This response may be interpreted as a mechanism to maintain root function with a lower investment in biomass when growth is limited by low irradiance. The results show that the response of a plant to resource limitation is not restricted to those organs responsible for the acquisition of that resource. Furthermore, the qualitative response to shading depends on the absolute level of irradiance. For this reason, care is needed when comparing the results of shading experiments conducted under different irradiances. Copyright 2001 Annals of Botany Company}
-      \field{issn}{0305-7364, 1095-8290}
-      \field{journaltitle}{Ann Bot}
-      \field{month}{1}
-      \field{number}{6}
-      \field{title}{Phenotypic {Plasticity} of {Grass} {Root} {Anatomy} in {Response} to {Light} {Intensity} and {Nutrient} {Supply}}
-      \field{urlday}{23}
-      \field{urlmonth}{7}
-      \field{urlyear}{2015}
-      \field{volume}{88}
-      \field{year}{2001}
-      \field{urldateera}{ce}
-      \field{pages}{1071\bibrangedash 1078}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1006/anbo.2001.1551
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/home/clement/Zotero/storage/57JNPT56/Wahl et al. - 2001 - Phenotypic Plasticity of Grass Root Anatomy in Res.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/FXXS2NEW/1071.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://aob.oxfordjournals.org/content/88/6/1071
-      \endverb
-      \keyw{Bromus,hydraulic conductivity,light,nutrients,phenotypic plasticity,Poa,Poaceae,root anatomy,stele}
     \endentry
     \entry{wright_worldwide_2004}{article}{}
       \name{author}{33}{}{%
@@ -11755,9 +12021,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{need ref}
-  \missing{hartig}
   \missing{poorte2_biomass_2012}
+  \missing{schroder_modelling_2014}
+  \missing{hartig}
+  \missing{wright_worldwide_2006}
 \endrefsection
 
 \refsection{5}
