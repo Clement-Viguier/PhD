@@ -775,7 +775,8 @@ The phenotypic plasticity of the RMF leads to an important widening of the poten
 This niche widening has for consequence a higher niche overlapping. This overlapping can be translated into lower niche differences, as the niche are now discrimated only on one dimension, and into lower fitness differences as the species with similar strategies but different memories have close performances under plastic allocation. According to \cite{turcotte_phenotypic_2016} these two processes have opposed effects (see figure \ref{fig:plasticity-effect} in chapter \ref{part:literature}). The reduction of the niche differences diminishes the positive effect of heterogeneity on diversity, while the reduction of fitness differences reduces the competitive exclusion of the non dominant species. The current simulations do not allow to tell which effect will be the strongest at the community scale. The cost of plasticity should nevertheless ensure some degree of niche differentiation. However, in addition to these two effects, the widening of the potential niche corresponds to a reduction of the abiotic filtering pressure, and should promote the diversity as more species can potentially invade an habitat. 
 
 \paragraph{Competition effect}
-The reduction of the abiotic filtering suggests an increase in the biotic filtering due to the limited carrying capacity of the habitat. This could increase the competition intensity at the beginning of the growing season, and eventually change the dominant species if this increase is strong enough to alter the competition outcome toward more competitive species. Unless the eventual new dominant species has a dramatic effect of the overall productivity or diversity, the effect of the phenotypic plasticity should be positive or null on these properties. The phenotypic plasticity does not alter directly the optimum phenotype in temporally fixed conditions, therefore the impact of the competition outcome should be limited.
+
+The reduction of the abiotic filtering suggests an increase in the biotic filtering due to the limited carrying capacity of the habitat. This could increase the competition intensity at the beginning of the growing season, and eventually change the dominant species if this increase is strong enough to alter the competition outcome toward more competitive species. Unless the eventual new dominant species has a dramatic effect of the overall productivity or diversity, the effect of the phenotypic plasticity should be positive or null on these properties. The phenotypic plasticity does not alter directly the optimum phenotype in temporally fixed conditions, therefore the impact on the competition outcome should be limited.
 
 \paragraph{Meta-community dynamics}
 
@@ -798,6 +799,16 @@ In the context of the global change, to survive two options are possible: (1) mi
 %
 % 
 % However, what is the effect on coexistence mechanisms. The widdening of the potential niche of numerous species, Probably negative: so hard to tell effect on coexistence.
+
+
+\begin{figure}\label{fig:rain_pl_effect}
+    \classiccaptionstyle
+\sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/rain_pl_effects.pdf}
+}{
+\caption[Effect of plasticity in constant conditions]{Effect of the phenotypic plasticity on the main properties of the grassland communities in constant conditions.}
+}
+\end{figure}
 
 \textbf{In constant environmental conditions, the phenotypic plasticity already has an impact on species performances and interactions through the static gain it provides to species wit the good resource-use strategy. It increases the fitness evenness of species by reducing the abiotic filtering dimensionality. This leads to a convergence of the phenotypes and a widening of the potential niche. The effects at the community level are hard to anticipate, but they will be largely dependent on the competitive interactions and how they are affected by the plasticity. The reduction of the abiotic filtering will likely increase the species diversity, but the functional diversity might not follow this trend due to functional convergence. The effects on the other component of the ecosystem properties cannot be fully determined and greatly depend on the outcome of the competitive interactions. In temporally heterogeneous conditions, the phenotypic plasticity may play a larger role and greatly mediate the inter-specific interactions. }
 
@@ -838,7 +849,7 @@ In addition to a reduction of biomass, the increasing slope of the water influx 
 
 \begin{figure}\label{fig:variable_trajectories}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_2D_strat_dyn.pdf}
-\caption{Best phenotypes along water resource variability gradient. Thinner lighter lines indicate low water variability, while the thicker lines indicate strong temporal heterogeneity.}
+\caption[Best phenotypes along water resource variability gradient]{Best phenotypes along water resource variability gradient. Thinner lighter lines indicate low water variability, while the thicker lines indicate strong temporal heterogeneity.}
 \end{figure}
 
 \paragraph{Diversity}
@@ -863,20 +874,39 @@ Along the gradient, the performance and the identity of the bet phenotype were g
 
 \paragraph{Resistance to variability}
 
-Before analysing the effect of the different plastic algorithm, the \textit{non plastic} simulations show interesting patterns. The first thing inform us on the relative importance of growing versus surviving. Because the mean water influx over the simulated period is conserved, an increase in hte influx negative slope means that during the first half the plants have more available water, while they have less during the second half (relative to constant influx. The decreasing biomass along the gradient suggests that this additional water (and therefore potential growth) does not compensate for a reduction in growth during the drought period. Therefore, it is more important for the plant fitness to limit losses during scarce period instead of maximizing growth during favourable periods. \begin{marginfigure}
+Before analysing the effect of the different plastic algorithm, the \textit{non plastic} simulations show interesting patterns. The first thing inform us on the relative importance of growing versus surviving. Because the mean water influx over the simulated period is conserved, an increase in the influx negative slope means that during the first half the plants have more available water, while they have less during the second half (relative to constant influx. The decreasing biomass along the gradient suggests that this additional water (and therefore potential growth) does not compensate for a reduction in growth during the drought period. Therefore, it is more important for the plant fitness to limit losses during scarce period instead of maximizing growth during favourable periods. 
+
+\begin{marginfigure}
 \includegraphics[scale=1]{./2_PP/Figures/Variable/GalanthusNivalis.png}
 \caption[\textit{Galanthus nivalis}]{\textit{Galanthus nivalis} is an example of species that develop early in the season to avoid competition and benefit from the high resource availability.}
 \end{marginfigure}
 
-However, this conclusion should be mitigated by the fact that some reproduction strategy still can benefit from early exploitative strategies and there are not considered here because the success is measure by the biomass afeter 100 days. This effect is greatly explained by the fact that even the most exploitative species are not fully developed when the resources are the most available. But this is the case in the context of mountain grasslands, and some specific life cycle strategies take advantage of this particularity like the \textit{galanthus} species (see figure \ref{fig:galanthus})\parencite{schroder_modelling_2014}. The selection of more conservative strategy at the end of the gradient confirms the importance of maintaining growth (or reducing losses) during the period of lower water availability, and demonstrates the higher resistance of the conservative strategy to the resource fluctuations.
+However, this conclusion should be mitigated by the fact that some reproduction strategy still can benefit from early exploitative strategies and there are not considered here because the success is measure by the biomass afeter 100 days. This effect can be explained by the fact that even the most exploitative species are not fully developed when the resources are the most available, therefore the potential compensation by an early growth is limited. This is the case in the context of mountain grasslands, and some specific life cycle strategies take advantage of this particularity like the \textit{galanthus} species (see figure \ref{fig:galanthus}) with early development\parencite{schroder_modelling_2014}, or development from bulb that allows for an early and rapid growth.
+
+% selection of more conservative species, plus reduction of prod that show non compensation mech. -> best strategy during the bad period, but no
+%The selection of more conservative strategy at the end of the gradient confirms the importance of maintaining growth (or reducing losses) during the period of lower water availability, and demonstrates the higher resistance of the conservative strategy to the resource fluctuations.
+The reduction of biomass along the gradient, even in plastic conditions, supports the idea of a lack of compensation mechanisms between favourable and unfavourable drought periods. In addition to this conclusion, the better performances of the conservative species in low water conditions relative to exploitive species (see figure \ref{fig:gradient_strat_trend}), suggests that the best strategy is determined by the optimum resource-use strategy of the most important growth period (the drought period). However, another mechanism can be involved and is relative to the capacity of the species to perform well both in conditions that suit its phenotypes, and in conditions that do not suit its phenotype. In a variable environment, the phenotype does not match conditions different from its niche center because of the optimum resource-use strategy may change, or because the balance between root and shoot activity changes. Both can be important. As said, the former is suggested by previous results, however under plastic allocation the optimum resource-use strategy is maintained at high values of proportion of active tissues. Therefore, the difference in optimum resource-use strategy along the gradient cannot explain alone why conservative strategy are better in contrasted environment. The other explaining mechanism is a better resistance to variability from conservative species, relative to exploitative. The variability in water conditions while the light conditions are fairly constant leads to a shift in the balance in the availability of the two resources. If the phenotype is fixed, a shift from balanced conditions (equilibrium between shoot and root is respected for the given phenotype in these conditions) to unbalanced conditions (no more equilibrium for the same given phenotype) can be seen from the plant perspective as a reduction of the overall gain function stronger than the actual decrease in resource, because the non limiting organ is in over-capacity. Therefore, to the given plant, the decrease in resource is stronger than the actual decrease in resource, and the resource-use strategy shift towards a more conservative strategy than a balanced phenotype would require.
+
+% message: it is not because the optimum change, it is because the conservative species are more resistant to variability.
+
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/explain_assymetry.pdf}
+\caption[Assymetric gain from gains and costs perspective]{Gain and lost curves along the allocation strategy axis for one organ. Left panel corresponds to the gain and cost in a situation where the equilibrium is maintained, the right panel illustrates the effect of a 30\% loss of gain due to unbalanced exchanges between organs. The botton bar plots represent the net gain of two distinct phenotype in the two conditions.}\label{fig:assymetric_gain}
+\end{figure}
 
 \paragraph{Who benefit from the plasticity?}
 % who wins -> assymetric and impact of the identity
-While the phenotypic plasticity does not provide any clear advantage to a type of species in constant conditions, in changing conditions the phenotypic plasticity benefit to the exploitative species that invest more in active tissues. There is a assy metric gain that benefit more to the exploitative. Because this gain is assymetric, the phenotypic plasticity alter the identity of the community and promote exploititive species in variable conditions. It modifies the strength of the stress in the Grime's triangle.
-
-% What is that and what consequences for the productivity (cite maire)
+While the phenotypic plasticity does not provide any clear advantage to a type of species in constant conditions, in changing conditions the phenotypic plasticity benefit to the exploitative species that are able to maintain good performances in contrasted conditions (see figure \ref{fig:variable_strategy}). Because the plasticity gain is assymetric, the phenotypic plasticity alters the identity of the community and promotes exploitative species in variable conditions while conservative species are favoured under \textit{non plastic} allocation. In a more theoretical view, the plasticity can be seen as an alteration of the strength of the stress as shapping factor of community \parencite{grime_evidence_1977}. If the plasticity allows the exploitative species to better support stress, in modelling studies that do not take into account such plasticity, the amplitude of the stress needed to see a shift in the community identity may under-estimated.
 
 % Why is that ? absolute and relative, the role of the euilibrium
+
+%Because the shift in non plastic condition is due to vulnerability, and not optimum strat during the most growing period. (there could be some compensation, leading to best exploit phen,, even if conservative are indeed more perf in drought period).
+
+% What what consequences for the productivity (cite maire)
+
+
+
 
 \paragraph{About diversity}
 
@@ -897,6 +927,8 @@ Shift of RMF then strategy explain quite well that the equilibrium is more impor
 
 \textbf{Phenotypic plasticity give exploitative species an advantage in variable conditions because their growth rate rely more on productivity and therefore equilibrium than conservative species. }
 
+% Indirect effect of identity on diversity, mention it but more a perspective.
+
 %\paragraph{Heterogeneity of response}
 %
 %Kichenin (different response to gradient) Doesn't work in this framework: Not so sure about that: depending on your initial memory plants show directional changes toward one phenotype. Yeah, but they should have converged for other conditions too... So, it doesn't work. Might be explained by:
@@ -907,6 +939,14 @@ Shift of RMF then strategy explain quite well that the equilibrium is more impor
 %\end{itemize}
 
 
+\begin{figure}\label{fig:variable_pl_effect}
+    \classiccaptionstyle
+\sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/variable_pl_effects.pdf}
+}{
+\caption[Effect of plasticity in variable conditions]{Effect of the phenotypic plasticity on the main properties of the grassland communities in variable conditions.}
+}
+\end{figure}
 
 
 \textbf{The phenotypic plasticity implemented in \model improve the relative performance of multiple strategies by concentrating the plant toward a subspace of higher performance for most of plants. Convergence to a smaller subspace can be assimilated to reduction in phenotypic diversity, but it reduce performance heterogeneity and should favour local plant diversity. However, this effect should be limited by plasticity cost. Indeed, if the growth gain due to plasticity is only static, any species with a fixed phenotype closer to the optimum than the focus species has a better growth rate and exclude the focus species.
