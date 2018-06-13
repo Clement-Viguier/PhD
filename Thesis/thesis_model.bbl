@@ -1848,24 +1848,24 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{evans_toward_2016}
+  \missing{boulangeat_fate-hd_2014}
+  \missing{morin_comparing_2009}
+  \missing{hartig_statistical_2011}
+  \missing{debouk_functional_2015}
+  \missing{kleidon_global_20000}
+  \missing{schroter_ecosystem_2005}
+  \missing{de_bello_towards_2010}
   \missing{schipe_multiple_2012}
   \missing{carboni_simulating_2017}
-  \missing{beniston_climate_1997}
-  \missing{lohier_analyse_2016}
-  \missing{boulangeat_fate-hd_2014}
   \missing{koorner_alpine_2003}
-  \missing{schroter_ecosystem_2005}
-  \missing{butchart_global_2010}
-  \missing{morin_comparing_2009}
-  \missing{boulangeat_fate-dh_2014}
-  \missing{debouk_functional_2015}
-  \missing{de_bello_towards_2010}
   \missing{schirpke_multiple_2012}
+  \missing{butchart_global_2010}
+  \missing{evans_toward_2016}
+  \missing{beniston_climate_1997}
   \missing{korner_alpine_2003}
-  \missing{kleidon_global_20000}
-  \missing{hartig_statistical_2011}
+  \missing{lohier_analyse_2016}
   \missing{costanza_value_1997}
+  \missing{boulangeat_fate-dh_2014}
 \endrefsection
 
 \refsection{2}
@@ -8002,27 +8002,27 @@
       \keyw{heritability,Arabidopsis thaliana,DNA methylation,drought tolerance,ecological epigenetics,epiRILs}
     \endentry
   \endsortlist
-  \missing{freschett_plasticity_2014}
-  \missing{dewitt_cost_1998}
-  \missing{tilman_plant_1984}
-  \missing{jablonka_adaptive_1995}
   \missing{cornelissen_handbook_2003}
-  \missing{elton_1927}
-  \missing{diaz_global_2014}
-  \missing{kunstler_plant_2016}
   \missing{letten_linking_2017}
-  \missing{lohier_analyse_2016}
-  \missing{TRY}
-  \missing{tilman_resource_1982}
+  \missing{dewitt_cost_1998}
+  \missing{freschett_plasticity_2014}
   \missing{beaman_evolution_2016}
+  \missing{tilman_plant_1984}
+  \missing{TRY}
+  \missing{korner_alpine_2003}
+  \missing{tilman_resource_1982}
+  \missing{lohier_analyse_2016}
+  \missing{adler_coexistence_2007}
+  \missing{diaz_global_2014}
+  \missing{elton_1927}
+  \missing{kunstler_plant_2016}
+  \missing{morin_comparing_2009}
   \missing{lavorel_how_2014}
+  \missing{barabas_effect_2016}
+  \missing{adler_niche_2007}
   \missing{tilman_plant_1988}
   \missing{reich_world-wilde_2013}
-  \missing{morin_comparing_2009}
-  \missing{barabas_effect_2016}
-  \missing{adler_coexistence_2007}
-  \missing{korner_alpine_2003}
-  \missing{adler_niche_2007}
+  \missing{jablonka_adaptive_1995}
 \endrefsection
 
 \refsection{3}
@@ -10813,17 +10813,17 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{wright_worlwide_2004}
-  \missing{kleidon}
-  \missing{reich}
-  \missing{lagarigues}
-  \missing{lohier}
-  \missing{korner_alpine_2011}
-  \missing{tjoelker_linking_2015}
-  \missing{westoby}
   \missing{soussana}
+  \missing{korner_alpine_2011}
+  \missing{westoby}
+  \missing{reich}
+  \missing{tjoelker_linking_2015}
   \missing{need-references}
+  \missing{lohier}
+  \missing{wright_worlwide_2004}
   \missing{letten_linking_2017}
+  \missing{kleidon}
+  \missing{lagarigues}
 \endrefsection
 
 \refsection{4}
@@ -11472,6 +11472,57 @@
       \endverb
       \keyw{spatial scales,Dispersal,ecological niche theory,future projections,habitat suitability maps,population dynamics,prediction errors,predictive biogeography,species distribution models}
     \endentry
+    \entry{kleidon_global_2000}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=83f9dba7984fde3bdf77fdebb85717e9}{%
+           family={Kleidon},
+           familyi={K\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=4bba07233dd1b307706c38739fc54a84}{%
+           family={Mooney},
+           familyi={M\bibinitperiod},
+           given={Harold\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{335836b2e59d8074945d684b53be6038}
+      \strng{fullhash}{335836b2e59d8074945d684b53be6038}
+      \strng{authornamehash}{335836b2e59d8074945d684b53be6038}
+      \strng{authorfullhash}{335836b2e59d8074945d684b53be6038}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We investigated the connection between plant species diversity and climate by using a process-based, generic plant model. Different ‘species' were simulated by different values for certain growth-related model parameters. Subsequently, a wide range of values were tested in the framework of a ‘Monte Carlo' simulation for success; that is, the capability of each plant with these parameter combinations to reproduce itself during its lifetime. The range of successful parameter combinations approximated species diversity. This method was applied to a global grid, using daily atmospheric forcing from a climate model simulation. The computed distribution of plant ‘species' diversity compares very well with the observed, global-scale distribution of species diversity, reproducing the majority of ‘hot spot' areas of biodiversity. A sensitivity analysis revealed that the predicted pattern is very robust against changes of fixed model parameters. Analysis of the climatic forcing and of two additional sensitivity simulations demonstrated that the crucial factor leading to this distribution of diversity is the early stage of a plant's life when water availability is highly coupled to the variability in precipitation because in this stage root-zone storage of water is small. We used cluster analysis in order to extract common sets of species parameters, mean plant properties and biogeographic regions (biomes) from the model output. The successful ‘species' cannot be grouped into typical parameter combinations, which define the plant's functioning. However, the mean simulated plant properties, such as lifetime and growth, can be grouped into a few characteristic plant ‘prototypes', ranging from short-lived, fast growing plants, similar to grasses, to long-lived, slow growing plants, similar to trees. The classification of regions with respect to similar combinations of successful ‘species' yields a distribution of biomes similar to the observed distribution. Each biome has typical levels of climatic constraints, expressed for instance by the number of ‘rainy days' and ‘warm days'. The less the number of days favourable for growth, the greater the level of constraints and the less the ‘species' diversity. These results suggest that climate as a fundamental constraint can explain much of the global scale, observed distribution of plant species diversity.}
+      \field{issn}{1365-2486}
+      \field{journaltitle}{Global Change Biology}
+      \field{month}{6}
+      \field{number}{5}
+      \field{shorttitle}{A global distribution of biodiversity inferred from climatic constraints}
+      \field{title}{A global distribution of biodiversity inferred from climatic constraints: results from a process-based modelling study}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{6}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{507\bibrangedash 523}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1046/j.1365-2486.2000.00332.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/V6IDU5XJ/Kleidon et Mooney - 2000 - A global distribution of biodiversity inferred fro.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/PK4U9GAQ/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00332.x/abstract
+      \endverb
+      \keyw{allocation,biodiversity,climate,Plant functional types,biome distribution,generic plant model}
+    \endentry
     \entry{liu_biomass_2004}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=8dd6e919be04182ecfe59f583666261b}{%
@@ -11519,6 +11570,66 @@
       \endverb
       \keyw{specific leaf area,biomass partitioning,water use efficiency,Amaranthus spp.,Drought stress}
     \endentry
+    \entry{luke_mccormack_predicting_2012}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=44ba948221a63d575545c4f2ea47cf37}{%
+           family={Luke\bibnamedelima McCormack},
+           familyi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=f304a9eaa6f47769a71870fd69711abc}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Thomas\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=b4cd67453dca7b89fc8de75832f9586b}{%
+           family={Smithwick},
+           familyi={S\bibinitperiod},
+           given={Erica\bibnamedelimb A.\bibnamedelimi H.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=4703c4835a964d1e9111f349fb9d1ac3}{%
+           family={Eissenstat},
+           familyi={E\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{76a0bc4cf366141035a5c4b5f5b30614}
+      \strng{fullhash}{c39b3ee9d24c54a83699864da88fcc4e}
+      \strng{authornamehash}{76a0bc4cf366141035a5c4b5f5b30614}
+      \strng{authorfullhash}{c39b3ee9d24c54a83699864da88fcc4e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* • Although linkages of leaf and whole-plant traits to leaf lifespan have been rigorously investigated, there is a limited understanding of similar linkages of whole-plant and fine root traits to root lifespan. In comparisons across species, do suites of traits found in leaves also exist for roots, and can these traits be used to predict root lifespan? * • We observed the fine root lifespan of 12 temperate tree species using minirhizotrons in a common garden and compared their median lifespans with fine-root and whole-plant traits. We then determined which set of combined traits would be most useful in predicting patterns of root lifespan. * • Median root lifespan ranged widely among species (95–336 d). Root diameter, calcium content, and tree wood density were positively related to root lifespan, whereas specific root length, nitrogen (N) : carbon (C) ratio, and plant growth rate were negatively related to root lifespan. Root diameter and plant growth rate, together (R2 = 0.62) or in combination with root N : C ratio (R2 = 0.76), were useful predictors of root lifespan across the 12 species. * • Our results highlight linkages between fine root lifespan in temperate trees and plant functional traits that may reduce uncertainty in predictions of root lifespan or turnover across species at broader spatial scales.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytologist}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{Predicting fine root lifespan from plant functional traits in temperate trees}
+      \field{urlday}{3}
+      \field{urlmonth}{7}
+      \field{urlyear}{2015}
+      \field{volume}{195}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{823\bibrangedash 831}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/j.1469-8137.2012.04198.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/8RNCV643/Luke McCormack et al. - 2012 - Predicting fine root lifespan from plant functiona.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/SNBZSR2E/abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2012.04198.x/abstract
+      \endverb
+      \keyw{functional traits,ecosystem modeling,minirhizotron,root turnover,scaling,temperate forest}
+    \endentry
     \entry{peterson_growth_1982}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=8cab2280ab182422f1391ed6cafb3293}{%
@@ -11565,7 +11676,7 @@
       \endverb
     \endentry
     \entry{poorter_causes_2009}{article}{}
-      \name{author}{5}{}{%
+      \name{author}{5}{uniquelist=2}{%
         {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
            family={Poorter},
            familyi={P\bibinitperiod},
@@ -11595,9 +11706,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{13ecc15841e5641c3a414252ae9ae1e1}
+      \strng{namehash}{74604ed9b8b7ead0e4766e9460f26510}
       \strng{fullhash}{bcc58e2d969e805240f88f4e16389c25}
-      \strng{authornamehash}{13ecc15841e5641c3a414252ae9ae1e1}
+      \strng{authornamehash}{74604ed9b8b7ead0e4766e9460f26510}
       \strng{authorfullhash}{bcc58e2d969e805240f88f4e16389c25}
       \field{sortinit}{P}
       \field{sortinithash}{24100cef455d7974167575052c29146e}
@@ -11627,6 +11738,77 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2009.02830.x/abstract
       \endverb
       \keyw{plasticity,functional types,chemical composition,environment,growth rate,leaf anatomy,trait spectrum}
+    \endentry
+    \entry{poorter_biomass_2012}{article}{}
+      \name{author}{6}{uniquelist=2}{%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=728ba508f4f67e768f02ce7d7e855e09}{%
+           family={Niklas},
+           familyi={N\bibinitperiod},
+           given={Karl\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=bdb2b7d2559a5c19f0d6321af7da017e}{%
+           family={Oleksyn},
+           familyi={O\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=b0fe6414967317208445b7096f19e1a3}{%
+           family={Poot},
+           familyi={P\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=bfdc90be4946714cb99dd0498dea7c2c}{%
+           family={Mommer},
+           familyi={M\bibinitperiod},
+           given={Liesje},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f2b36b91148b4814c8947e5de96330ec}
+      \strng{fullhash}{8a1983206a1852189744ffbbc4a2059b}
+      \strng{authornamehash}{f2b36b91148b4814c8947e5de96330ec}
+      \strng{authorfullhash}{8a1983206a1852189744ffbbc4a2059b}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Contents Summary30I.Allocation in perspective31II.Topics of this review32III.Methodology32IV.Environmental effects33V.Ontogeny36VI.Differences between species40VII.Physiology and molecular regulation41VIII.Ecological aspects42IX.Perspectives45Acknowledgements45References45Appendices A1–A449 Summary We quantified the biomass allocation patterns to leaves, stems and roots in vegetative plants, and how this is influenced by the growth environment, plant size, evolutionary history and competition. Dose–response curves of allocation were constructed by means of a meta-analysis from a wide array of experimental data. They show that the fraction of whole-plant mass represented by leaves (LMF) increases most strongly with nutrients and decreases most strongly with light. Correction for size-induced allocation patterns diminishes the LMF-response to light, but makes the effect of temperature on LMF more apparent. There is a clear phylogenetic effect on allocation, as eudicots invest relatively more than monocots in leaves, as do gymnosperms compared with woody angiosperms. Plants grown at high densities show a clear increase in the stem fraction. However, in most comparisons across species groups or environmental factors, the variation in LMF is smaller than the variation in one of the other components of the growth analysis equation: the leaf area : leaf mass ratio (SLA). In competitive situations, the stem mass fraction increases to a smaller extent than the specific stem length (stem length : stem mass). Thus, we conclude that plants generally are less able to adjust allocation than to alter organ morphology.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytologist}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Biomass allocation to leaves, stems and roots}
+      \field{title}{Biomass allocation to leaves, stems and roots: meta-analyses of interspecific variation and environmental control}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{193}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{30\bibrangedash 50}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1111/j.1469-8137.2011.03952.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/clement/Zotero/storage/UTZTPM2D/Poorter et al. - 2012 - Biomass allocation to leaves, stems and roots met.pdf:application/pdf;Snapshot:/home/clement/Zotero/storage/IFRP2V7F/abstract\;jsessionid=2A05B2A34D58FF063399276903FCB052.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2011.03952.x/abstract
+      \endverb
+      \keyw{allocation,partitioning,functional types,global change,allometry,environment,dose–response curve,meta-phenomics}
     \endentry
     \entry{reich_world-wide_2014}{article}{}
       \name{author}{1}{}{%
@@ -11673,6 +11855,64 @@
       \endverb
       \keyw{light,Carbon,ecophysiology,strategy,Leaf,phylogeny,nutrient,root,stem,water}
     \endentry
+    \entry{reineking_environmental_2006}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=b2b5fe6047e1c5ee7ff053818a17f3bc}{%
+           family={Reineking},
+           familyi={R\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2e77bec672536c6d47ae7c36a512a4e2}{%
+           family={Veste},
+           familyi={V\bibinitperiod},
+           given={Maik},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=a0b48a6b856f216c11884d7c1738b21f}{%
+           family={Wissel},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=316c08a9f785779ecfe98cb04fd33fb1}{%
+           family={Huth},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{97108e57ed8ea169c482b5e611765319}
+      \strng{fullhash}{ea3290a05c1e8e9135cdb2e2d34babde}
+      \strng{authornamehash}{97108e57ed8ea169c482b5e611765319}
+      \strng{authorfullhash}{ea3290a05c1e8e9135cdb2e2d34babde}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecological theory suggests that environmental variability can promote coexistence, provided that species occupy differential niches. In this study, we focus on two questions: (1) Do allocation trade-offs provide a sufficient basis for niche differentiation in succulent plant communities? (2) What is the relative importance of different forms of environmental variability on species diversity and community composition? We approach these questions with a generic, individual-based simulation model. In our model, plants compete for water in a spatially explicit environment. Species differ in their size at maturity and in the allocation of carbon to roots, leaves and storage tissue. The model was fully specified with independent literature data. Model output was compared to characteristics of a species-rich community in the semi-arid Richtersveld (South Africa). The model reproduced the coexistence of plants with different sizes at maturity, the dominance of succulent shrubs, and the level of vegetation cover. We analyzed the effects of three forms of environmental variability: (a) temporal fluctuations in precipitation (rain and fog), (b) spatial heterogeneity of water supply due to run-on and run-off processes and (c) ‘rock pockets’ that limit root competition in space. The three types of variability had differential effects on diversity: diversity exhibited a strong hump-shaped response to temporal variation. Spatial variability increased diversity, with the strongest increase occurring at intermediate levels of temporal variability. Finally, rock pockets had the weakest effect, but contributed to diversity by providing refuges for small species, particularly at low temporal variability. The model thus shows that spatio-temporal variation of resource supply can maintain diversity over long time scales even in small systems, as is the case in the Richtersveld succulent communities. Trade-offs in allocation provide the basis for necessary niche differentiation. By describing resource competition between individual plants, our model provides a mechanistic basis for the link from species traits to community composition at given environmental conditions. It thereby contributes to an understanding of the forces shaping plant communities. Such an understanding is critical to reduce the threats environmental change poses to biodiversity and ecosystem services.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{12}
+      \field{number}{4}
+      \field{series}{Pattern and {Processes} of {Dynamic} {Mosaic} {Landscapes} -- {Modelling}, {Simulation}, and {Implications}}
+      \field{title}{Environmental variability and allocation trade-offs maintain species diversity in a process-based model of succulent plant communities}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{199}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{486\bibrangedash 504}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2006.03.038
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/home/clement/Zotero/storage/SACI8I8J/Reineking et al. - 2006 - Environmental variability and allocation trade-off.pdf:application/pdf;ScienceDirect Snapshot:/home/clement/Zotero/storage/NDGNM3RE/S0304380006002924.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380006002924
+      \endverb
+      \keyw{trade-offs,biodiversity,Individual-based model,Plant functional types,community assembly,Environmental variability,species traits,Succulence}
+    \endentry
     \entry{ryser_consequences_2000}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
@@ -11717,6 +11957,132 @@
       \endverb
       \verb{url}
       \verb http://www.jstor.org/stable/2656636
+      \endverb
+    \endentry
+    \entry{ryser_ecological_2000}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
+           family={Ryser},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=4b44686a15dbfd3509f2afcea3ed4f11}{%
+           family={Urbas},
+           familyi={U\bibinitperiod},
+           given={Pille},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dd891d9c778a233cacbde8aaca94984}
+      \strng{fullhash}{5dd891d9c778a233cacbde8aaca94984}
+      \strng{authornamehash}{5dd891d9c778a233cacbde8aaca94984}
+      \strng{authorfullhash}{5dd891d9c778a233cacbde8aaca94984}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Interspecific variation in leaf life span reflects the variation in nutrient conservation ability among different plant species and is considered to be associated with nutrient availability in the characteristic habitat. As defoliation interferes with nutrient conservation by the long-lived leaves, we hypothesized that disturbance rate is another important environmental factor working as a selective force on interspecific variation in leaf life span. In order to investigate this, we measured leaf life span of 32 grass species in mature garden-grown individuals. Variation in leaf life span was compared to measured leaf traits, to available data on species occurrence along gradients of nutrient availability and disturbance, and to published relative growth rates of the species. Leaf life span was associated positively with leaf tissue mass density and negatively with specific leaf area. Leaf life span correlated negatively with the disturbance rate in the characteristic habitat of a species, but not with nutrient availability. The latter relationship did not come about due to the long leaf life spans of species from nutrient-rich habitats with a relatively low disturbance rate, and to some extent also due to the short leaf life spans of annual species from relatively nutrient-poor sites. We conclude that although leaf longevity is an important means of reducing nutrient losses, this is a selective advantage only if the plant is not subjected to frequent defoliation. The frequently postulated association between leaf life span of a species and nutrient availability in its characteristic habitat may occur among species of habitats with positively correlated nutrient availability and disturbance rate. Leaf life span is negatively associated with seedling RGR, but there may be deviations in this relationship due to species with contrasting characteristics at seedling stage and at maturity.}
+      \field{issn}{0030-1299}
+      \field{journaltitle}{Oikos}
+      \field{number}{1}
+      \field{title}{Ecological {Significance} of {Leaf} {Life} {Span} among {Central} {European} {Grass} {Species}}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2016}
+      \field{volume}{91}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{41\bibrangedash 50}
+      \range{pages}{10}
+      \verb{url}
+      \verb http://www.jstor.org/stable/3547472
+      \endverb
+    \endentry
+    \entry{taubert_modelling_2014}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=44aab02fe59417e078bb8f8a2bd840b2}{%
+           family={Taubert},
+           familyi={T\bibinitperiod},
+           given={Franziska},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Osnabrück}%
+      }
+      \strng{namehash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \strng{fullhash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \strng{authornamehash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \strng{authorfullhash}{44aab02fe59417e078bb8f8a2bd840b2}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecosystems provide important functioning and servic es, like biomass for bioenergy production or storage of atmospheric carbon. Two ex amples of such ecosystems are temperate grasslands and tropical forests. Both vegetation ar e rich of various species, whereby each of the respective ecosystem benefits from its species- richness concerning their functioning, i.e. productivity. In this thesis both vegetation are in the focus of the investigations. In the first chapter, a review of existing grassland and vegetat ion models provides an overview of important aspects, which have to be considered for modelling temperate grasslands in the context of biomass production. Based on the review, new conceptual modelling approaches for temperate grasslands are proposed. In the third chapter, derived from the suggested concept, the process-oriented and individual-based grassland model Grassmind is presented. In the fourth chapter, the model Grassmind is used in order to parameterize and simulate the annual dynamics of a typical Central European grass species. Grassmind is able to reproduce the structure and dynamics of a temperate grass spe cies. With reference to the parameterized grass species, a simulation study using defined spe cies groups is performed in order to investigate on the effect of the richness of specie s groups on aboveground productivity. We do not observe a significant positive effect of specie s group richness on productivity, which is explained by limitations of using the parameterized grass species as a reference. In the fifth chapter, comprehensive investigations are carried o ut on the example of stem size distributions in forests concerning their statistic al analyses, i.e. by using maximum likelihood estimation. The effects of uncertainties, i.e. binn ing of measured stem sizes or random measurement errors, are examined in detail. Uncerta inties bias the analyses of maximum likelihood estimations. It is shown, that the use o f modified likelihood functions, which include either binning or measurement errors, reduc e these biases to a large extent. For both studies, i.e. modelling of temperate grasslands and analysing stem size distributions of forests, the presented investigations are discussed and poss ible examinations are suggested for future research in the last chapter.}
+      \field{month}{5}
+      \field{title}{Modelling and {Analysing} the {Structure} and {Dynamics} of {Species}-rich {Grasslands} and {Forests}}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \verb{file}
+      \verb Taubert - 2014 - Modelling and Analysing the Structure and Dynamics.pdf:/home/clement/Zotero/storage/SVBB3IT2/Taubert - 2014 - Modelling and Analysing the Structure and Dynamics.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{tjoelker_linking_2005}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=a80a02f20b74d4edbbd383c4d7295946}{%
+           family={Tjoelker},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=4d9ec9c842f60f3d4897f38886f529f4}{%
+           family={Craine},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=7b048fbb170818298d924aa7d8a30cbb}{%
+           family={Wedin},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=dc830331a440ad1737f7f3dff6f7256b}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=f5dcb6beb0d4c400c211633ed64b856b}{%
+           family={Tilman},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{904ced53600cdcc966eac093b7503f90}
+      \strng{fullhash}{3674dc20b109567fc50b4e8c40dcd3ed}
+      \strng{authornamehash}{904ced53600cdcc966eac093b7503f90}
+      \strng{authorfullhash}{3674dc20b109567fc50b4e8c40dcd3ed}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{<}tex-math{>}\${\textbackslash}bullet\${<}/tex-math{>} Here, we tested hypothesized relationships among leaf and fine root traits of grass, forb, legume, and woody plant species of a savannah community. {<}tex-math{>}\${\textbackslash}bullet\${<}/tex-math{>} CO$_{\textrm{2}}$ exchange rates, structural traits, chemistry, and longevity were measured in tissues of 39 species grown in long-term monocultures. {<}tex-math{>}\${\textbackslash}bullet\${<}/tex-math{>} Across species, respiration rates of leaves and fine roots exhibited a common regression relationship with tissue nitrogen (N) concentration, although legumes had lower rates at comparable N concentrations. Respiration rates and N concentration declined with increasing longevity of leaves and roots. Species rankings of leaf and fine-root N and longevity were correlated, but not specific leaf area and specific root length. The C$_{\textrm{3}}$ and C$_{\textrm{4}}$ grasses had lower N concentrations than forbs and legumes, but higher photosynthesis rates across a similar range of leaf N. {<}tex-math{>}\${\textbackslash}bullet\${<}/tex-math{>} Despite contrasting photosynthetic pathways and N$_{\textrm{2}}$-fixing ability among these species, concordance in above- and below-ground traits was evident in comparable rankings in leaf and root longevity, N and respiration rates, which is evidence of a common leaf and root trait syndrome linking traits to effects on plant and ecosystem processes.}
+      \field{issn}{0028-646X}
+      \field{journaltitle}{New Phytologist}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{Linking {Leaf} and {Root} {Trait} {Syndromes} among 39 {Grassland} and {Savannah} {Species}}
+      \field{urlday}{3}
+      \field{urlmonth}{7}
+      \field{urlyear}{2015}
+      \field{volume}{167}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{493\bibrangedash 508}
+      \range{pages}{16}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/home/clement/Zotero/storage/F7ATMN57/Tjoelker et al. - 2005 - Linking Leaf and Root Trait Syndromes among 39 Gra.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/3694516
       \endverb
     \endentry
     \entry{turcotte_phenotypic_2016}{article}{}
@@ -12021,9 +12387,8 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{hartig}
-  \missing{poorte2_biomass_2012}
   \missing{wright_worldwide_2006}
+  \missing{hartig}
   \missing{schroder_modelling_2014}
 \endrefsection
 

@@ -36,7 +36,7 @@ In mountain grasslands individuals (tillers) generally do not grow big and inter
 \indent In addition to classic variables (age, position, height, diameter, shoot and root biomasses) the plants are described by traits, that can be species-specific or non-specific, others are variable (SLA, SRL) and depend on particular traits that are unique to this model: the \textbf{ratio between active tissue and structural tissue} (in shoot and root) (variables $\frac{act}{str}_{ag}$ and $\frac{act}{str}_{bg}$ in table \ref{table:state_var_plant}). This couple of traits come from the evidence that numerous trade-off observed in leaves can be explained (at least partially) by this allocation trade-off between active tissue producing organic matter, but increasing respiration, and structural tissue that increase tissue lifespan.
 
 %TAble of plant state variables
-\begin{table*}
+\begin{table2*}
 \caption{State variables of individual plants} 
 \label{table:state_var_plant}
 %\begin{center}%
@@ -62,7 +62,7 @@ $water_{exp}$ & below-ground potential resource availability & gH2O.root area\\
 \end{tabular} 
 %\end{center}
 \vspace*{0.5cm}
-\end{table*}
+\end{table2*}
 
 %little scheme to show what it looks like
 
@@ -70,7 +70,7 @@ $water_{exp}$ & below-ground potential resource availability & gH2O.root area\\
 
 
 %TAble of plant state variables
-\begin{table*}
+\begin{table2*}
 \caption{Species traits}
 \label{table:state_var_species}
 \begin{center}
@@ -92,8 +92,8 @@ germination rate & 0-1 (0.5 - 1) & - & good season bet-hedging\\
 thickness & 	(0.012 - 0.05) & cm & WUE vs light efficiency (not in this version)\\
 \end{tabular} 
 \end{center}
-\vspace*{0.5cm}
-\end{table*}
+%\vspace*{0.5cm}
+\end{table2*}
 %table of species traits. trait, range, distribution, trade-off or strategy associated.
 
 \paragraph{Seed-bank} The seed-bank is the transition state between the different seasons. Individuals may persist thanks to stored resources, but they can also reproduce by the production of new individuals. A lot of grasses use clonal reproduction, in addition, or replacement of sexual reproduction. This type of reproduction is characterised by a persistent link between the newly produced individuals and the parent one that allows the two to communicate and exchange resources. Such dynamics are complex and costly to represent as the link between ramets must be stored and strategies defined for the resource distribution (see Oborny 2012) for more details on clonal growth modelling). To avoid too much complexity, it is possible to approximate the representation of clones to big seeds with little dispersion around the parent plant\footnote{This would take advantage of dispersion kernels. Not implemented in the current version. Dispersion is uniformly random within the simulation plan}. For this reason, reproduction mechanism is reduced to sexual reproduction mechanism with the production of "seeds". Seeds are stored in the seed-bank and only defined by their species and positions. 
