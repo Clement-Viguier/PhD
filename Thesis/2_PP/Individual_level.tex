@@ -605,14 +605,21 @@ The phenotypic plasticity allows species to move within this performance landsca
 
 As just mentioned, the plasticity can be seen at the scale of the species assembly \sidenote{here I draw a distinction between species assembly that refers to all present species, and community that refers to the interacting individuals of the present species. However, some interpretations can be translated to communities.} as a contraction of the phenotypic space of the species assembly. This contraction has two main effects: the reduction of potential functional diversity and a reduction of growth rate differences. There is here an emerging trade-off between the \textemph{species diversity}, supported by lower fitness differences, and \textemph{functional diversity}, reduced by the contraction of the phenotypic space. However, if the plasticity reduces greatly the potential functional diversity (volume of the whole phenotypic space without considering filtering based on relative fitness), the realised diversity (expressed as the functional diversity of the species within the 90\%-100\% maximum biomass range) is less impacted because a large parts of the phenotypic space have low growth rate in the given conditions. Nevertheless, there is a reduction of the diversity of expressed phenotypes. Indeed, in this scenario of "extreme" plasticity ($\tau = 0$) the convergence is important on plastic dimensions while partial convergence would be enough to have good fitness (see conceptual figure \ref{fig:convergence}). Lower convergence on plastic dimension should lead to less compact phenotypic subspace while keeping relative fitness evenness. In the case of \textit{fixed-equilibrium} and \textit{fixed-optimisation} allocation mechanisms, this reduction of diversity is lower because only one axis is plastic.
 
-Reduction of the phenotypic convergence can be achieved by other allocation mechanisms, differences in projection (different $\tau$ values leading to different projections) and plasticity costs. In heterogeneous system, this convergence is expected to be lower as heterogeneity will lead to different projections.
+A reduction of the phenotypic convergence can be achieved by other allocation mechanisms, differences in projection (different $\tau$ values leading to different projections) and plasticity costs. In heterogeneous system, this convergence is expected to be lower as heterogeneity will lead to different projections. The constraints imposed by fixed traits also reduce the risk of convergence (lower convergence in panel A than in panel C in figure \ref{fig:convergence}), and other dimensions than the 3 studied here can be involved in the definition of the optimum (chemical traits for example) lead to larger optimum sub-space.
+
+
+\paragraph{On diversity}
+
+The question of diversity is essential in ecology, it often refers to species richness, or different indexes to measure this richness. In the context of the ecosystem functioning and service, the functional diversity is often preferred to qualify the community. To measure the functional diversity, the selection of the measured traits has an importance then algorithms can be used, considering the relative species abundances or distances between measures \parencite{laliberte_distance-based_2010}. Here, in the context of simulations with species diverging only of the 3 vegetative phenotypic axes, the functional diversity is expressed an estimation of the functional volume occupied by the species with top performance within this 3D space. But, because under certain allocation algorithms, some dimensions are plastic, it is difficult to study how plasticity impacts the functional diversity. The plasticity of an axis can lead to convergence and certainly reduce the potential functional diversity as only a subspace is considered. This is problematic in this context because there is a high convergence due to the specific implementation of the plasticity based on a shared gain function (equilibrium or growth-optimisation), but is certainly reduced if the algorithm allow contrasted responses (with response curves for example), or optimum phenotypes depending on the other traits as it is the case for \textit{fixed} algorithms (as opposed as the \textit{plastic-optimisation} algorithm). Because of this phenomenon of convergence, that cannot be totally avoided and is inherent in plasticity, the functional diversity should be considered in relation with the species diversity. The functional volume is reduced by a factor between 1 and 2, while the species richness is increased by a factor from 5 to 10 (see figures \ref{fig:function_div}, \& \ref{fig:species_richness}). While the ratio between functional and species diversity decreases in plastic conditions, the overall effect o ndiversity could be positive, especially if there are other traits (non considered here) correlated to the initial phenotype. 
 
 %Cost and distance, sensitivity to environmental cues as solutions to this problem. 
-\paragraph{Limited dynamic gain}
+\paragraph{Limited gain}
 
 The convergence of the phenotypes to a sub-space of lower performance lead to an increase in the mean biomass (see figure \ref{fig:max_BM_pl}). However, the maximum biomass is only marginally improved in \textit{fixed} plastic allocation simulations, and reduced in \textit{plastic optimisation} allocation simulations. This two contrasted results, show different effects of plasticity. The light increase can be due to either a dynamic gain or a static gain. The \textemph{dynamic gain} can emerge because the plant growth affects the resource availability, changing the optimum phenotype, and allowing plastic plants to follow this chaanges during time. It could also result from a \textemph{static gain} because the phenotypic plasticity allow a better resolution in tested phenotypes (the plastic axis are continuous while the phenoytpic space sampling was discrete). The role of plasticity and dynamic gain is explored in the following sections with temporal resource heterogeneity.
 
 The reduction of the maximum biomass highlight the difficulty to find the optimum phenotype. Because, the growth mechanisms are reproduced in an exact manner in the plasticity algorithm, this mismatch is certainly due to a difficulty to project the future of resource availability. Because of that, it is possible that the gain in maximum biomass, mentioned above, due to static or dynamic gain is greater than it appears. The particular case of mis-projection in \textit{plastic-optimisation} simulations is discussed in the following paragraph. 
+
+\textbf{The phenotypic plasticity can lead to a certain degree of convergence, especially if the target phenotypes defined by the implementation of the plasticity are more condition-specific than species specific. While it can have strong effects on the functional diversity for the plastic traits, it also leads to high species richness due to a convergence toward a more performing subspace, and can potentially increase the total functional diversity if other traits are considered and the phenotypes more constrained. }
 
 %Because of high convergence of \textit{plastic-optimisation}, no improvment of maximum biomass, but the \textit{fixed} alternative thanks to convergence limited to one phenotypic dimension (RMF) higher biomass: either higher resolution, or improvement due to \textemph{dynamic plasticity}. The role of dynamic plasticity benefit is explore in temporal variation simulations in the following section.
 
@@ -661,10 +668,10 @@ The plastic exhaustion mechanism seems to be contradictory with the previous obs
 
 \paragraph{Resource availability}
 
-results from this part\\
+%results from this part\\
 As expected the resource availability and the resource balance are key components of the plant growth, to which the plant phenotype needs to match. Aside from the increase in biomass, an increase in "speed" of optimum phenotypes can result from higher resource availability. This observation is in agreement with empirical data that demonstrate higher SLA and faster physiology in favourable conditions. This aspect was less obvious in the response of species under \textit{plastic-optimisation} allocation that shifted more in term of balance and RMF. This may be due to a change in the relative balance between both resources as their availability (from the plant perspective) are linked to the global resource levels by non linear relationships.
 
-The fact that plastic plants (for \textit{fixed} allocation algorithms) show shifts of optimum strategies toward more exploitative phenotypes, in addition to the \textit{non plastic} optimum shifts, in conditions of higher productivity demonstrate the importance of these strategies for plant growth. However, the extend of this effect of conditions on optimum phenotype is susceptible to vary along a gradient. Indeed, because of the non linearity of relationships between resource levels and exchanges rates, and between exchange rates and growth rates, the link between the optimum phenotype and a resource gradient is likely to be non linear itself. In addition, phenotypic plasticity might also change the sensitivity of the phenotype to the resource level.
+The fact that plastic plants (for \textit{fixed} allocation algorithms) show shifts of optimum strategies toward more exploitative phenotypes, in addition to the \textit{non plastic} optimum shifts, in conditions of higher productivity demonstrate the importance of these strategies for the plant growth. However, the extend of this effect of conditions on optimum phenotype is susceptible to vary along a gradient. Indeed, because of the non linearity of relationships between resource levels and exchanges rates, and between exchange rates and growth rates, the link between the optimum phenotype and a resource gradient is likely to be non linear itself. In addition, phenotypic plasticity might also change the sensitivity of the phenotype to the resource level.
 
 %Why we need to go for a gradient.
 
@@ -672,10 +679,9 @@ The fact that plastic plants (for \textit{fixed} allocation algorithms) show shi
 % level discussion}
 %? about what ? Community dynamics ? pp impact of these dynamics ? coexistence of species
 
+ 
 
-\paragraph{On functional diversity}
-
-Can functional diversity be measured for plastic tratis: different effects on plastic and non plastic traits ?
+%Can functional diversity be measured for plastic tratis: different effects on plastic and non plastic traits ?
 
 
 %\paragraph{Nuances around plasticity}
@@ -687,6 +693,7 @@ Can functional diversity be measured for plastic tratis: different effects on pl
 %
 %\textbf{Subsection conclusion: bla bla bla}
 
+\textbf{The study of the performance landscape highlight the importance of the RMF phenotypic dimension to regulate the balance between shoot and root. In the other hand, the proportion of active tissues in the two compartments impacts the performance in a more subtle way with possibility of balance between the two organs thanks to the RMF. It also highlights the existence of a tight sub-space with higher performances, leading to high convergence under plastic allocation. This convergence can be problematic if the plasticity fails to be adaptive under specific circumstances. It can lead to a reduction of the functional diversity, but also increases the species diversity, altering the species-functional diversity relationship with potential consequences on the community functioning. The performance landscape is sensitive to the global resource availability, altering the relative fitness of species and their competitive relationships. This effect must be further studied to understand the link between the optimum phenotypes and the resource availability heterogeneity, and how plasticity can impact this link. }
 
 % ##################################################################################
 % ##################################################################################
@@ -697,18 +704,20 @@ Can functional diversity be measured for plastic tratis: different effects on pl
 %Question I try to answer: (use of schematics ?)
 The heterogeneity of conditions is an essential mechanism for plant coexistence. Plasticity is likely to alter the effect of this heterogeneity on plant coexistence and relative performance. The impact of plasticity on this relationship between spatial and temporal \textemph{heterogeneity} of resources (here limited to water) and strategy dominance is explored with the model \model.\\
 
-The phenotypic plasticity can impact the optimum strategy, but how does this effect impact the optimum phenotype along a resource availability gradient?
+How does plasticity impact the performance of the different phenotype along a resource gradient? How can these potential changes affect the identity, diversity and productivity of mountain grassland communities?
+
+%The phenotypic plasticity can impact the optimum strategy, but how does this effect impact the optimum phenotype along a resource availability gradient?
 %Effect on optimum strategy: from previous conclusions and hypothesis to simulation method.\\
 
-Is the contraction effect on species richness, functional diversity and productivity changing along such gradient?
+%Is the contraction effect on species richness, functional diversity and productivity changing along such gradient?
 %Then on diversity: how good strategies perform when it is plastic. Pool of species that exist in different conditions to get rid of the static effect.
 
 \subsection{Method}
 
-Because the coordination is shown to be less important than the equilibrium, the below-ground resource acquisition is expected to be important in mountain grassland under climate change scenarios, and extensive simulation plan come with high computational cost, only root strategies sampled in this part.
+Because the coordination is shown to be less important than the equilibrium, the below-ground resource acquisition is expected to be important in mountain grassland under climate change scenarios, and an extensive simulation plan comes with high computational cost, only root strategies are sampled and studied in this part. Considering the structure of the model, the conclusions about the root compartment can certainly be extended to the shoot compartment.
 
 \paragraph{Simulation set-up}
-For each of the 20 selected parameter sets, growth of 400 plants (20 PAR values between 0.25 and 0.95, and 20 memory values between 0.1 and 1) is simulated for 100 days in square pots of 12 centimetres deep and 90 centimetres wide (to avoid quick self-competition) in a temperature of 20 degrees celsius during the day of 15 hours, and 10 degrees during the night. The radiance is set to the high values of 122 Watt per hour and per square metre. Because \textit{fixed} algorithms showed similar results, and the \textit{plastic-optimisation} algorithm show strange results, only two allocation algorithms are simulated: \textit{non plastic} and \textit{fixed-equilibrium}.
+For each of the 20 selected parameter sets, the growth of 400 plants (20 PAR values between 0.25 and 0.95, and 20 memory values between 0.1 and 1) is simulated for 100 days in square pots of 12 centimetres deep and 90 centimetres wide (to avoid quick self-competition) in a temperature of 20 degrees celsius during the day of 15 hours, and 10 degrees during the night. The radiance is set to the high values of 122 Watt per hour and per square metre. Because \textit{fixed} algorithms showed similar results, and the \textit{plastic-optimisation} algorithm show strange results, only two allocation algorithms are simulated: \textit{non plastic} and \textit{fixed-equilibrium}.
 
 \paragraph{Spatial heterogeneity}
 Spatial heterogeneity of water level is mimicked by a gradient of water influx. The growth of all 400 species described above are simulated for \textit{non plastic} and \textit{fixed-equilibrium} algorithm independently in separated simulations where the water influx is regularly sampled between 0.05 and 7 mm per day (20 values).
@@ -782,7 +791,7 @@ The species richness decreases along the gradient for the two plasticity treatme
 
 The functional volume occupied by the top species, also decreases for both plasticity when the precipitations increase. For low watering values, the functional volume of \textit{non plastic} simulation is higher, however this difference disappear when both group of simulations reach low functional diversity.
 
-\paragraph{Wider potential niches}
+\paragraph{Potential niches}
 
 %A lot of effects discussed here emerge because a lot of different memories (equivalently RMF values) are associated to each resource use strategy for roots (shoot active tissue allocation being fixed and shared by all species). Another way of looking at the effect of plasticity focuses on only species identified as the best in at least one of the rain conditions. This focus reduces the number of species to species selected along such gradient and allow to ignore species that would not be present anyway. This selection does not take into account any competitive mechanisms that could change the identity of the dominant species in a given condition. Nevertheless, information on how the relative performance of theses species can still be collected.
 
@@ -808,7 +817,21 @@ The median performance of the best performing phenotypes for each conditions of 
 \subsection{Discussion: gradient of homogeneous conditions}
 
 \paragraph{Strategy shift}
-Along the watering gradient, the optimum strategy (active tissue allocation in roots) changes from conservative toward exploitative. This shift demonstrates that the trade-off between active and structural tissues allocation allows different strategy to dominate in constrasting conditions \parencite{wright_worldwide_2006}. This shift occurs for low values of the gradient and exploitative strategies are dominant over a large part of this gradient. This can be explained by high precipitation values disconnected from the precipitation values observed in nature. Also, the low resolution of the strategies (15 values for the proportion of active tissues in roots) limits the possible number of different dominant strategies along such gradient. 
+Along the watering gradient, the \textemph{optimum strategy} (active tissue allocation in roots) changes from conservative toward exploitative. This shift demonstrates that the trade-off between active and structural tissues allocation allows different strategy to dominate in constrasting conditions \parencite{wright_worldwide_2006}. This shift occurs for low values of the gradient and exploitative strategies are dominant over a large part of this gradient. The shape of the relationship results from the gradient including high precipitation values. Also, the low resolution of the strategies (15 values for the proportion of active tissues in roots) limits the possible number of different dominant strategies along such gradient. Because we can see a wide range of optimum of resource-use strategies, and the relationship between this variable and the resource availability is certainly continuous, we can be confident in the pattern observed and a positive relationship between these two variables.
+
+% a few words on the memory
+The optimum memory also shows a shift, from low water availability memory in low water conditions, to high values in high water availability conditions. This response is less strong than for the optimum strategy certainly because the relationship is more linear. The fact that the plasticity negates this relationship confirms the role of this variable as a control on the RMF, control that is not longer useful under plastic allocation with no cost.
+%Explain why there is shift
+
+\begin{figure}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/explain_assymetry.pdf}
+\caption[Optimum strategy and resource availability]{\textcolor{myGreen}{Gain} and \textcolor{myOrange}{losses} curves along the allocation strategy axis for one organ. Left panel corresponds to a high resource availability, the right panel illustrates the effect of a 30\% loss of gain due to a reduction of the resource availability. The botton bar plots represent the net gain of two distinct phenotype in the two conditions.}\label{fig:assymetric_gain}
+\end{figure}
+
+% why plasticity does not help.
+
+% no consequences on the community identity.
+
 
 %\paragraph{Static and dynamic gain}
 %\paragraph{Who benefit from plasticity}
@@ -822,30 +845,40 @@ Along the watering gradient, the optimum strategy (active tissue allocation in r
 \paragraph{Static gain}
 
 % static gain idea
-While the cumulative productivity of all species combined is largely improved by the plasticity for all parameter sets (see figure \ref{fig:total_BM}). However, the best total biomass is only improved for a fraction of these parameter sets (see figure \ref{fig:maximum_BM}). This observation supports the idea that the total biomass is mostly increased due to an improvement of plants with a non optimum phenotype. These 
+The cumulative productivity of all species combined is largely improved by the plasticity for all parameter sets (see figure \ref{fig:total_BM}). However, the best total biomass is only improved for a fraction of these parameter sets (see figure \ref{fig:maximum_BM}), while it remains similar in most of others parameter sets between \textit{non plastic} and \textit{fixed-equilibrium} simulations. This observation supports the idea that the total biomass is mostly increased due to an improvement of plants with a non optimum phenotype, and not an improvement of the best phenotypes. Moreover, while the number of species reaching high performance levels increases with plasticity (corroborating the previous conclusion), the functional diversity does not increases. We can conclude that the phenotypic plasticity leads to a convergence of the plants toward good performance phenotypes. Therefore, the productivity gain provided by the plasticity comes mainly from the convergence toward the best fixed phenotype, and cumulative static gain.
 
-% convergence idea
-Moreover, while the number of species reaching high performance levels increases with plasticity (corroborating the previous conclusion), the functional diversity does not increases. We can conclude that the phenotypic plasticity leads to a convergence of the plants toward good performance phenotypes. Therefore, the productivity gain provided by the plasticity comes mainly from the convergence toward the best fixed phenotype, and cumulative static gain. This mechanisms does not consistently support functional diversity of the vegetative traits, but it can increase functional redundancy. The species diversity can be increased by this form of gain, and it may limit the the vulnerability of the community if multiple species have the function.
+This form of gain provided by the phenotypic plasticity can be called \textemph{static gain}, as it is caped by the best performing constant phenotype. It is illustrated in the figure \ref{fig:filter}. The gain only comes from the transition from a sub-optimum phenotype toward the best one (see  \textcolor{myOrange}{starting phenotype A}  shifting toward the green one). The gain can be quantify as the total biomass difference between the non plastic species (- - dashed line) and the plastic one (- continuous line).  In constant condition, the best phenotype cannot benefit from the plasticity because it has the highest growth rate along time and has no static gain (\textcolor{myGreen}{starting phenotype B}). 
+
+
+\begin{figure}\label{fig:filter}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Rain/filtering.pdf}
+\caption[Abiotic filtering in constant conditions]{Conceptual representation of the abiotic filtering in constant conditions and the illustration of the static gain. The top panel represent the abiotic filtering landscape with a central valley, and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines. }
+\end{figure}
+
+% abiotic filtering, constant filter
+The static gain allows species to persist in environmental conditions that do not fit their initial phenotype (\textcolor{myOrange}{A -- continuous line}), and go through the \textemph{abiotic filter} while the non plastic equivalents \textcolor{myOrange}{A - - dashed line}) cannot. This reduction of the impact of the abiotic filter can have large impacts on the community properties.
+
+% convergence idea This mechanisms does not consistently support functional diversity of the vegetative traits, but it can increase functional redundancy. The species diversity can be increased by this form of gain, and it may limit the the vulnerability of the community if multiple species have the function.
 
 % other dimensions diveristy
-The functional convergence is obvious when only the vegetative dimensions are observed. But the functional diversity may be considered for other traits, therefore the promotion of species richness by the reduction of fitness differences can promote the functional diversity of the community. 
+%The functional convergence is obvious when only the vegetative dimensions are observed. But the functional diversity may be considered for other traits, therefore the promotion of species richness by the reduction of fitness differences can promote the functional diversity of the community. 
 
 
 \paragraph{Niche widening}
 
 The phenotypic plasticity of the RMF leads to an important widening of the potential niche. This is explained by the removal of one constraint of the niche. Indeed, with cost-free plasticity in RMF, the equilibrium is almost guaranteed for all species and the resource-use strategy is the only limitation of a species niche. Because the best proportion of active tissues is the same for a long portion of the gradient (high water availability)(see figure \ref{fig:gradient_strat_trend}), along the gradient most of best phenotypes share this resource-use strategy. Therefore, along this same gradient, if the RMF axis is ignored, the different species have equivalent phenotypes (except for a few first growing  days).
 
-This niche widening has for consequence a higher niche overlapping. This overlapping can be translated into lower niche differences, as the niche are now discrimated only on one dimension, and into lower fitness differences as the species with similar strategies but different memories have close performances under plastic allocation. According to \cite{turcotte_phenotypic_2016} these two processes have opposed effects (see figure \ref{fig:plasticity-effect} in chapter \ref{part:literature}). The reduction of the niche differences diminishes the positive effect of heterogeneity on diversity, while the reduction of fitness differences reduces the competitive exclusion of the non dominant species. The current simulations do not allow to tell which effect will be the strongest at the community scale. The cost of plasticity should nevertheless ensure some degree of niche differentiation. However, in addition to these two effects, the widening of the potential niche corresponds to a reduction of the abiotic filtering pressure, and should promote the diversity as more species can potentially invade an habitat. 
+This niche widening has for consequence a higher niche overlapping. This overlapping can be translated into lower niche differences, as the niche are now discrimated only on one dimension, and into lower fitness differences as the species with similar strategies but different memories have close performances under plastic allocation. According to \cite{turcotte_phenotypic_2016} these two processes have opposed effects (see figure \ref{fig:plasticity-effect} in chapter \ref{part:literature}). On one hand the reduction of the niche differences diminishes the positive effect of the spatial heterogeneity on diversity. On the other hand, the reduction of fitness differences reduces the competitive exclusion of the non dominant species and limits the aboitic filtering. The current simulations do not allow to tell which effect will be the strongest at the community scale. The cost of plasticity should nevertheless ensure some degree of niche differentiation. In addition to these two effects, the widening of the potential niche corresponds to a reduction of the abiotic filtering pressure, and should promote the diversity as more species can potentially invade an habitat. 
 
 \paragraph{Competition effect}
 
-The reduction of the abiotic filtering suggests an increase in the biotic filtering due to the limited carrying capacity of the habitat. This could increase the competition intensity at the beginning of the growing season, and eventually change the dominant species if this increase is strong enough to alter the competition outcome toward more competitive species. Unless the eventual new dominant species has a dramatic effect of the overall productivity or diversity, the effect of the phenotypic plasticity should be positive or null on these properties. The phenotypic plasticity does not alter directly the optimum phenotype in temporally fixed conditions, therefore the impact on the competition outcome should be limited.
+The reduction of the abiotic filtering implies a potential increase in the biotic filtering due to the limited carrying capacity of the habitat. This could raise the competition intensity, especially at the beginning of the growing season, and eventually change the dominant species if this increase is strong enough to alter the competition outcome toward more competitive species. Unless the eventual new dominant species has a dramatic effect of the overall productivity or diversity, the effect of the phenotypic plasticity through the competition should be positive or null on these properties. But because the phenotypic plasticity does not alter directly the optimum phenotype in temporally fixed conditions, the impact on the dominant resource-use strategy should be rather limited.
 
 \paragraph{Meta-community dynamics}
 
 While the effects at the community level are still hard to defined, the phenotypic plasticity can alter the dynamic at the meta-community scale. Phenotypic plasticity, by reducing the abiotic filtering effect, allows for stronger link between the communities as the chance to transfer from one community to another are higher. Therefore this mechanism has a positive effect on the stability of the ecosystem as species from unperturbed communities can invade, and partly sustain the properties and services of the perturbed community.
 
-In the context of the global change, to survive two options are possible: (1) migrate to new habitat with suited conditions, (2) adapt to new condition in the same habitat. In this context, the phenotypic plasticity facilitates both the adaptation to new conditions in the same spatial habitat and the adaptation to a new habitat that match the ideal conditions only to a certain degree. By facilitating the adaptation to new conditions or habitat, the phenotypic plasticity reduces the relative importance of climatic variables compared to the competition as already suggested by empirical results \parencite{alexander_novel_2015}.
+In a context of global change, to survive two options are possible: (1) migrate to new habitat with suited conditions, (2) adapt to new condition in the same habitat. In this context, the phenotypic plasticity facilitates both the adaptation to new conditions in the same spatial habitat and the adaptation to a new habitat that match the ideal conditions only to a certain degree. By facilitating the adaptation to new conditions or habitat, the phenotypic plasticity reduces the relative importance of climatic variables compared to the competition as already suggested by empirical results \parencite{alexander_novel_2015}.
 
 %
 %This widening is, however, asymmetric because there is a transition of the limitations that define a species niche. Without plasticity, in a given homogeneous environment, the optimum phenotype is defined by both the adequate resource-use strategy and the balance between organs. With costless  Conservative species are less efficient in high resource availability conditions, while exploitative species are more efficient. 
@@ -952,17 +985,24 @@ The reduction of biomass along the gradient, even in plastic conditions, support
 
 % message: it is not because the optimum change, it is because the conservative species are more resistant to variability.
 
-
-\begin{figure}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/explain_assymetry.pdf}
-\caption[Assymetric gain from gains and costs perspective]{Gain and lost curves along the allocation strategy axis for one organ. Left panel corresponds to the gain and cost in a situation where the equilibrium is maintained, the right panel illustrates the effect of a 30\% loss of gain due to unbalanced exchanges between organs. The botton bar plots represent the net gain of two distinct phenotype in the two conditions.}\label{fig:assymetric_gain}
-\end{figure}
+%
+%\begin{figure}
+%\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/explain_assymetry.pdf}
+%\caption[Assymetric gain from gains and costs perspective]{Gain and lost curves along the allocation strategy axis for one organ. Left panel corresponds to the gain and cost in a situation where the equilibrium is maintained, the right panel illustrates the effect of a 30\% loss of gain due to unbalanced exchanges between organs. The botton bar plots represent the net gain of two distinct phenotype in the two conditions.}\label{fig:assymetric_gain}
+%\end{figure}
 
 \paragraph{Who benefit from the plasticity?}
 % who wins -> assymetric and impact of the identity
 While the phenotypic plasticity does not provide any clear advantage to a type of species in constant conditions, in changing conditions the phenotypic plasticity benefit to the exploitative species that are able to maintain good performances in contrasted conditions (see figure \ref{fig:variable_strategy}). Because the plasticity gain is assymetric, the phenotypic plasticity alters the identity of the community and promotes exploitative species in variable conditions while conservative species are favoured under \textit{non plastic} allocation. In a more theoretical view, the plasticity can be seen as an alteration of the strength of the stress as shapping factor of community \parencite{grime_evidence_1977}. If the plasticity allows the exploitative species to better support stress, in modelling studies that do not take into account such plasticity, the amplitude of the stress needed to see a shift in the community identity may under-estimated.
 
 % Why is that ? absolute and relative, the role of the euilibrium
+
+
+
+\begin{figure}\label{fig:variable_filter}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Variable/variable_filter.pdf}
+\caption[Abiotic filtering in temporally variable conditions]{Conceptual representation of the abiotic filtering in variable conditions and the illustration of the dynamic gain. The top panel represent the abiotic filtering landscape with a sinuous valley, and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines. }
+\end{figure}
 
 %Because the shift in non plastic condition is due to vulnerability, and not optimum strat during the most growing period. (there could be some compensation, leading to best exploit phen,, even if conservative are indeed more perf in drought period).
 

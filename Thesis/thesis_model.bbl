@@ -1848,24 +1848,24 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{boulangeat_fate-hd_2014}
-  \missing{morin_comparing_2009}
-  \missing{hartig_statistical_2011}
-  \missing{debouk_functional_2015}
-  \missing{kleidon_global_20000}
-  \missing{schroter_ecosystem_2005}
-  \missing{de_bello_towards_2010}
-  \missing{schipe_multiple_2012}
-  \missing{carboni_simulating_2017}
-  \missing{koorner_alpine_2003}
-  \missing{schirpke_multiple_2012}
-  \missing{butchart_global_2010}
   \missing{evans_toward_2016}
+  \missing{schroter_ecosystem_2005}
+  \missing{debouk_functional_2015}
+  \missing{carboni_simulating_2017}
   \missing{beniston_climate_1997}
-  \missing{korner_alpine_2003}
+  \missing{schipe_multiple_2012}
+  \missing{boulangeat_fate-dh_2014}
+  \missing{kleidon_global_20000}
+  \missing{butchart_global_2010}
+  \missing{morin_comparing_2009}
+  \missing{boulangeat_fate-hd_2014}
   \missing{lohier_analyse_2016}
   \missing{costanza_value_1997}
-  \missing{boulangeat_fate-dh_2014}
+  \missing{koorner_alpine_2003}
+  \missing{hartig_statistical_2011}
+  \missing{de_bello_towards_2010}
+  \missing{schirpke_multiple_2012}
+  \missing{korner_alpine_2003}
 \endrefsection
 
 \refsection{2}
@@ -8002,27 +8002,27 @@
       \keyw{heritability,Arabidopsis thaliana,DNA methylation,drought tolerance,ecological epigenetics,epiRILs}
     \endentry
   \endsortlist
-  \missing{cornelissen_handbook_2003}
-  \missing{letten_linking_2017}
-  \missing{dewitt_cost_1998}
-  \missing{freschett_plasticity_2014}
-  \missing{beaman_evolution_2016}
-  \missing{tilman_plant_1984}
-  \missing{TRY}
-  \missing{korner_alpine_2003}
-  \missing{tilman_resource_1982}
-  \missing{lohier_analyse_2016}
-  \missing{adler_coexistence_2007}
-  \missing{diaz_global_2014}
-  \missing{elton_1927}
   \missing{kunstler_plant_2016}
   \missing{morin_comparing_2009}
+  \missing{tilman_plant_1984}
+  \missing{diaz_global_2014}
+  \missing{letten_linking_2017}
+  \missing{lohier_analyse_2016}
+  \missing{elton_1927}
   \missing{lavorel_how_2014}
-  \missing{barabas_effect_2016}
   \missing{adler_niche_2007}
-  \missing{tilman_plant_1988}
-  \missing{reich_world-wilde_2013}
   \missing{jablonka_adaptive_1995}
+  \missing{barabas_effect_2016}
+  \missing{tilman_resource_1982}
+  \missing{reich_world-wilde_2013}
+  \missing{tilman_plant_1988}
+  \missing{TRY}
+  \missing{beaman_evolution_2016}
+  \missing{cornelissen_handbook_2003}
+  \missing{korner_alpine_2003}
+  \missing{dewitt_cost_1998}
+  \missing{adler_coexistence_2007}
+  \missing{freschett_plasticity_2014}
 \endrefsection
 
 \refsection{3}
@@ -10813,17 +10813,17 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{soussana}
-  \missing{korner_alpine_2011}
-  \missing{westoby}
-  \missing{reich}
-  \missing{tjoelker_linking_2015}
   \missing{need-references}
-  \missing{lohier}
-  \missing{wright_worlwide_2004}
+  \missing{korner_alpine_2011}
   \missing{letten_linking_2017}
   \missing{kleidon}
+  \missing{soussana}
+  \missing{reich}
+  \missing{wright_worlwide_2004}
+  \missing{lohier}
   \missing{lagarigues}
+  \missing{westoby}
+  \missing{tjoelker_linking_2015}
 \endrefsection
 
 \refsection{4}
@@ -12389,6 +12389,7 @@
   \endsortlist
   \missing{wright_worldwide_2006}
   \missing{hartig}
+  \missing{laliberte_distance-based_2010}
   \missing{schroder_modelling_2014}
 \endrefsection
 
