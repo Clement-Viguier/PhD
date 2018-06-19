@@ -2141,13 +2141,13 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615 .bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615 .bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="1">costanza_value_1997</bcf:citekey>
@@ -2212,7 +2212,7 @@
   </bcf:section>
   <!-- SECTION 2 -->
   <bcf:bibdata section="2">
-    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615 .bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
     <bcf:citekey order="1">elton_1927</bcf:citekey>
@@ -2303,124 +2303,125 @@
     <bcf:citekey order="70">lohier_analyse_2016</bcf:citekey>
     <bcf:citekey order="71">reineking_environmental_2006</bcf:citekey>
     <bcf:citekey order="72">falster_plant:_2016</bcf:citekey>
-    <bcf:citekey order="73">violle_return_2012</bcf:citekey>
-    <bcf:citekey order="74">albert_intraspecific_2010</bcf:citekey>
-    <bcf:citekey order="74">albert_multi-trait_2010</bcf:citekey>
-    <bcf:citekey order="75">leps_community_2011</bcf:citekey>
-    <bcf:citekey order="76">albert_multi-trait_2010</bcf:citekey>
-    <bcf:citekey order="77">siefert_global_2015</bcf:citekey>
+    <bcf:citekey order="73">nippert_challenging_2015</bcf:citekey>
+    <bcf:citekey order="74">violle_return_2012</bcf:citekey>
+    <bcf:citekey order="75">albert_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="75">albert_multi-trait_2010</bcf:citekey>
+    <bcf:citekey order="76">leps_community_2011</bcf:citekey>
+    <bcf:citekey order="77">albert_multi-trait_2010</bcf:citekey>
     <bcf:citekey order="78">siefert_global_2015</bcf:citekey>
-    <bcf:citekey order="79">de_bello_quantifying_2011</bcf:citekey>
-    <bcf:citekey order="79">albert_importance_2012</bcf:citekey>
+    <bcf:citekey order="79">siefert_global_2015</bcf:citekey>
     <bcf:citekey order="80">de_bello_quantifying_2011</bcf:citekey>
-    <bcf:citekey order="81">siefert_global_2015</bcf:citekey>
-    <bcf:citekey order="82">poorter_causes_2009</bcf:citekey>
-    <bcf:citekey order="83">poorter_biomass_2012</bcf:citekey>
-    <bcf:citekey order="84">niinemets_global-scale_2001</bcf:citekey>
-    <bcf:citekey order="85">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="86">albert_intraspecific_2010</bcf:citekey>
-    <bcf:citekey order="87">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="88">albert_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="80">albert_importance_2012</bcf:citekey>
+    <bcf:citekey order="81">de_bello_quantifying_2011</bcf:citekey>
+    <bcf:citekey order="82">siefert_global_2015</bcf:citekey>
+    <bcf:citekey order="83">poorter_causes_2009</bcf:citekey>
+    <bcf:citekey order="84">poorter_biomass_2012</bcf:citekey>
+    <bcf:citekey order="85">niinemets_global-scale_2001</bcf:citekey>
+    <bcf:citekey order="86">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="87">albert_intraspecific_2010</bcf:citekey>
     <bcf:citekey order="88">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="88">jung_intraspecific_2014</bcf:citekey>
-    <bcf:citekey order="89">bolnick_why_2011</bcf:citekey>
-    <bcf:citekey order="89">violle_return_2012</bcf:citekey>
-    <bcf:citekey order="90">hart_how_2016</bcf:citekey>
-    <bcf:citekey order="91">bolnick_why_2011</bcf:citekey>
-    <bcf:citekey order="92">hart_how_2016</bcf:citekey>
-    <bcf:citekey order="93">courbaud_intra-specific_2010</bcf:citekey>
-    <bcf:citekey order="94">turcotte_phenotypic_2016</bcf:citekey>
-    <bcf:citekey order="95">roscher_contrasting_2015</bcf:citekey>
-    <bcf:citekey order="96">valladares_species_2015</bcf:citekey>
-    <bcf:citekey order="97">barabas_effect_2016</bcf:citekey>
-    <bcf:citekey order="98">jung_intraspecific_2010</bcf:citekey>
-    <bcf:citekey order="99">albert_intraspecific_2010</bcf:citekey>
-    <bcf:citekey order="100">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="101">hart_how_2016</bcf:citekey>
-    <bcf:citekey order="102">zhang_epigenetic_2013</bcf:citekey>
-    <bcf:citekey order="102">nicotra_adaptive_2015</bcf:citekey>
-    <bcf:citekey order="102">beaman_evolution_2016</bcf:citekey>
-    <bcf:citekey order="103">frei_plastic_2014</bcf:citekey>
+    <bcf:citekey order="89">albert_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="89">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="89">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="90">bolnick_why_2011</bcf:citekey>
+    <bcf:citekey order="90">violle_return_2012</bcf:citekey>
+    <bcf:citekey order="91">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="92">bolnick_why_2011</bcf:citekey>
+    <bcf:citekey order="93">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="94">courbaud_intra-specific_2010</bcf:citekey>
+    <bcf:citekey order="95">turcotte_phenotypic_2016</bcf:citekey>
+    <bcf:citekey order="96">roscher_contrasting_2015</bcf:citekey>
+    <bcf:citekey order="97">valladares_species_2015</bcf:citekey>
+    <bcf:citekey order="98">barabas_effect_2016</bcf:citekey>
+    <bcf:citekey order="99">jung_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="100">albert_intraspecific_2010</bcf:citekey>
+    <bcf:citekey order="101">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="102">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="103">zhang_epigenetic_2013</bcf:citekey>
+    <bcf:citekey order="103">nicotra_adaptive_2015</bcf:citekey>
+    <bcf:citekey order="103">beaman_evolution_2016</bcf:citekey>
     <bcf:citekey order="104">frei_plastic_2014</bcf:citekey>
-    <bcf:citekey order="104">merila_climate_2014</bcf:citekey>
-    <bcf:citekey order="105">nicotra_plant_2010</bcf:citekey>
+    <bcf:citekey order="105">frei_plastic_2014</bcf:citekey>
+    <bcf:citekey order="105">merila_climate_2014</bcf:citekey>
     <bcf:citekey order="106">nicotra_plant_2010</bcf:citekey>
-    <bcf:citekey order="107">maire_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="107">nicotra_plant_2010</bcf:citekey>
     <bcf:citekey order="108">maire_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="109">jablonka_adaptive_1995</bcf:citekey>
-    <bcf:citekey order="110">feller_mathematical_2015</bcf:citekey>
-    <bcf:citekey order="111">bradshaw_evolutionary_1965</bcf:citekey>
-    <bcf:citekey order="112">scheiner_genetics_1989</bcf:citekey>
-    <bcf:citekey order="112">scheiner_genetics_2002</bcf:citekey>
-    <bcf:citekey order="112">scheiner_genetics_2012</bcf:citekey>
-    <bcf:citekey order="113">dewitt_costs_1998</bcf:citekey>
-    <bcf:citekey order="113">callahan_phenotypic_2008</bcf:citekey>
-    <bcf:citekey order="113">auld_re-evaluating_2009</bcf:citekey>
-    <bcf:citekey order="114">hart_how_2016</bcf:citekey>
-    <bcf:citekey order="115">wright_leaves_2002</bcf:citekey>
-    <bcf:citekey order="115">ackerly_functional_2004</bcf:citekey>
-    <bcf:citekey order="115">poorter_leaf_2006</bcf:citekey>
-    <bcf:citekey order="116">grime_evidence_1977</bcf:citekey>
-    <bcf:citekey order="116">westoby_leaf-height-seed_1998</bcf:citekey>
-    <bcf:citekey order="117">kleidon_global_2000</bcf:citekey>
-    <bcf:citekey order="117">scheiter_impacts_2009</bcf:citekey>
-    <bcf:citekey order="117">reineking_environmental_2006</bcf:citekey>
-    <bcf:citekey order="118">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="119">hu_novel_2015</bcf:citekey>
-    <bcf:citekey order="120">schapendonk_lingra_1998</bcf:citekey>
-    <bcf:citekey order="121">lohier_explaining_2014</bcf:citekey>
-    <bcf:citekey order="121">feller_mathematical_2015</bcf:citekey>
-    <bcf:citekey order="122">dewitt_costs_1998</bcf:citekey>
-    <bcf:citekey order="122">auld_re-evaluating_2009</bcf:citekey>
-    <bcf:citekey order="123">ryser_consequences_2000</bcf:citekey>
-    <bcf:citekey order="124">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="124">jung_intraspecific_2014</bcf:citekey>
-    <bcf:citekey order="125">franklin_modeling_2012</bcf:citekey>
-    <bcf:citekey order="126">ryser_consequences_2000</bcf:citekey>
-    <bcf:citekey order="127">maire_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="128">dewitt_cost_1998</bcf:citekey>
-    <bcf:citekey order="128">auld_re-evaluating_2009</bcf:citekey>
-    <bcf:citekey order="128">callahan_phenotypic_2008</bcf:citekey>
+    <bcf:citekey order="109">maire_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="110">jablonka_adaptive_1995</bcf:citekey>
+    <bcf:citekey order="111">feller_mathematical_2015</bcf:citekey>
+    <bcf:citekey order="112">bradshaw_evolutionary_1965</bcf:citekey>
+    <bcf:citekey order="113">scheiner_genetics_1989</bcf:citekey>
+    <bcf:citekey order="113">scheiner_genetics_2002</bcf:citekey>
+    <bcf:citekey order="113">scheiner_genetics_2012</bcf:citekey>
+    <bcf:citekey order="114">dewitt_costs_1998</bcf:citekey>
+    <bcf:citekey order="114">callahan_phenotypic_2008</bcf:citekey>
+    <bcf:citekey order="114">auld_re-evaluating_2009</bcf:citekey>
+    <bcf:citekey order="115">hart_how_2016</bcf:citekey>
+    <bcf:citekey order="116">wright_leaves_2002</bcf:citekey>
+    <bcf:citekey order="116">ackerly_functional_2004</bcf:citekey>
+    <bcf:citekey order="116">poorter_leaf_2006</bcf:citekey>
+    <bcf:citekey order="117">grime_evidence_1977</bcf:citekey>
+    <bcf:citekey order="117">westoby_leaf-height-seed_1998</bcf:citekey>
+    <bcf:citekey order="118">kleidon_global_2000</bcf:citekey>
+    <bcf:citekey order="118">scheiter_impacts_2009</bcf:citekey>
+    <bcf:citekey order="118">reineking_environmental_2006</bcf:citekey>
+    <bcf:citekey order="119">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="120">hu_novel_2015</bcf:citekey>
+    <bcf:citekey order="121">schapendonk_lingra_1998</bcf:citekey>
+    <bcf:citekey order="122">lohier_explaining_2014</bcf:citekey>
+    <bcf:citekey order="122">feller_mathematical_2015</bcf:citekey>
+    <bcf:citekey order="123">dewitt_costs_1998</bcf:citekey>
+    <bcf:citekey order="123">auld_re-evaluating_2009</bcf:citekey>
+    <bcf:citekey order="124">ryser_consequences_2000</bcf:citekey>
+    <bcf:citekey order="125">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="125">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="126">franklin_modeling_2012</bcf:citekey>
+    <bcf:citekey order="127">ryser_consequences_2000</bcf:citekey>
+    <bcf:citekey order="128">maire_plasticity_2013</bcf:citekey>
     <bcf:citekey order="129">dewitt_cost_1998</bcf:citekey>
     <bcf:citekey order="129">auld_re-evaluating_2009</bcf:citekey>
-    <bcf:citekey order="129">scheiner_genetics_1989</bcf:citekey>
-    <bcf:citekey order="129">scheiner_genetics_2002</bcf:citekey>
-    <bcf:citekey order="129">scheiner_genetics_2012</bcf:citekey>
-    <bcf:citekey order="129">van_kleunen_constraints_2005</bcf:citekey>
-    <bcf:citekey order="130">ryser_consequences_2000</bcf:citekey>
-    <bcf:citekey order="131">dewitt_expanding_2016</bcf:citekey>
-    <bcf:citekey order="132">stamps_bayesian_2016</bcf:citekey>
-    <bcf:citekey order="133">pfennig_phenotypic_2010</bcf:citekey>
-    <bcf:citekey order="133">matesanz_global_2010</bcf:citekey>
-    <bcf:citekey order="133">nicotra_plant_2010</bcf:citekey>
-    <bcf:citekey order="134">chalmandrier_communities_2015</bcf:citekey>
-    <bcf:citekey order="135">violle_return_2012</bcf:citekey>
-    <bcf:citekey order="136">lepik_high_2005</bcf:citekey>
-    <bcf:citekey order="136">jung_intraspecific_2014</bcf:citekey>
-    <bcf:citekey order="137">adler_coexistence_2007</bcf:citekey>
-    <bcf:citekey order="138">berg_trait_2010</bcf:citekey>
-    <bcf:citekey order="139">turcotte_phenotypic_2016</bcf:citekey>
-    <bcf:citekey order="140">sultan_phenotypic_1995</bcf:citekey>
-    <bcf:citekey order="141">callaway_phenotypic_2003</bcf:citekey>
+    <bcf:citekey order="129">callahan_phenotypic_2008</bcf:citekey>
+    <bcf:citekey order="130">dewitt_cost_1998</bcf:citekey>
+    <bcf:citekey order="130">auld_re-evaluating_2009</bcf:citekey>
+    <bcf:citekey order="130">scheiner_genetics_1989</bcf:citekey>
+    <bcf:citekey order="130">scheiner_genetics_2002</bcf:citekey>
+    <bcf:citekey order="130">scheiner_genetics_2012</bcf:citekey>
+    <bcf:citekey order="130">van_kleunen_constraints_2005</bcf:citekey>
+    <bcf:citekey order="131">ryser_consequences_2000</bcf:citekey>
+    <bcf:citekey order="132">dewitt_expanding_2016</bcf:citekey>
+    <bcf:citekey order="133">stamps_bayesian_2016</bcf:citekey>
+    <bcf:citekey order="134">pfennig_phenotypic_2010</bcf:citekey>
+    <bcf:citekey order="134">matesanz_global_2010</bcf:citekey>
+    <bcf:citekey order="134">nicotra_plant_2010</bcf:citekey>
+    <bcf:citekey order="135">chalmandrier_communities_2015</bcf:citekey>
+    <bcf:citekey order="136">violle_return_2012</bcf:citekey>
+    <bcf:citekey order="137">lepik_high_2005</bcf:citekey>
+    <bcf:citekey order="137">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="138">adler_coexistence_2007</bcf:citekey>
+    <bcf:citekey order="139">berg_trait_2010</bcf:citekey>
+    <bcf:citekey order="140">turcotte_phenotypic_2016</bcf:citekey>
+    <bcf:citekey order="141">sultan_phenotypic_1995</bcf:citekey>
     <bcf:citekey order="142">callaway_phenotypic_2003</bcf:citekey>
-    <bcf:citekey order="142">abakumova_plasticity_2016</bcf:citekey>
     <bcf:citekey order="143">callaway_phenotypic_2003</bcf:citekey>
-    <bcf:citekey order="144">albert_importance_2012</bcf:citekey>
-    <bcf:citekey order="145">roscher_contrasting_2015</bcf:citekey>
-    <bcf:citekey order="146">maire_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="147">hamann_evidence_2016</bcf:citekey>
-    <bcf:citekey order="148">richter_phenotypic_2012</bcf:citekey>
-    <bcf:citekey order="149">dwyer_specific_2014</bcf:citekey>
-    <bcf:citekey order="150">jung_intraspecific_2014</bcf:citekey>
-    <bcf:citekey order="151">freschett_plasticity_2014</bcf:citekey>
-    <bcf:citekey order="152">maire_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="143">abakumova_plasticity_2016</bcf:citekey>
+    <bcf:citekey order="144">callaway_phenotypic_2003</bcf:citekey>
+    <bcf:citekey order="145">albert_importance_2012</bcf:citekey>
+    <bcf:citekey order="146">roscher_contrasting_2015</bcf:citekey>
+    <bcf:citekey order="147">maire_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="148">hamann_evidence_2016</bcf:citekey>
+    <bcf:citekey order="149">richter_phenotypic_2012</bcf:citekey>
+    <bcf:citekey order="150">dwyer_specific_2014</bcf:citekey>
+    <bcf:citekey order="151">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="152">freschett_plasticity_2014</bcf:citekey>
+    <bcf:citekey order="153">maire_plasticity_2013</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
   <!-- SECTION 3 -->
   <bcf:bibdata section="3">
-    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615 .bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="1">grimm_standard_2006</bcf:citekey>
@@ -2510,7 +2511,7 @@
   </bcf:section>
   <!-- SECTION 4 -->
   <bcf:bibdata section="4">
-    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615 .bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
     <bcf:citekey order="1">grimm_pattern-oriented_2005</bcf:citekey>
@@ -2533,33 +2534,55 @@
     <bcf:citekey order="10">grime_evidence_1977</bcf:citekey>
     <bcf:citekey order="11">wright_worldwide_2004</bcf:citekey>
     <bcf:citekey order="12">ryser_consequences_2000</bcf:citekey>
-    <bcf:citekey order="13">farrior_resource_2011</bcf:citekey>
-    <bcf:citekey order="13">dybzinski_evolutionarily_2011</bcf:citekey>
-    <bcf:citekey order="13">farrior_competitive_2014</bcf:citekey>
-    <bcf:citekey order="14">liu_biomass_2004</bcf:citekey>
-    <bcf:citekey order="15">grassein_plant_2010</bcf:citekey>
-    <bcf:citekey order="16">guisan_predicting_2005</bcf:citekey>
-    <bcf:citekey order="17">crisp_reconsidering_2016</bcf:citekey>
-    <bcf:citekey order="18">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="19">reich_world-wide_2014</bcf:citekey>
-    <bcf:citekey order="20">freschet_integrated_2015</bcf:citekey>
-    <bcf:citekey order="21">laliberte_distance-based_2010</bcf:citekey>
-    <bcf:citekey order="22">dewitt_costs_1998</bcf:citekey>
-    <bcf:citekey order="22">van_kleunen_constraints_2005</bcf:citekey>
-    <bcf:citekey order="23">wright_worldwide_2006</bcf:citekey>
-    <bcf:citekey order="24">lohier_analyse_2016</bcf:citekey>
-    <bcf:citekey order="25">turcotte_phenotypic_2016</bcf:citekey>
-    <bcf:citekey order="26">alexander_novel_2015</bcf:citekey>
-    <bcf:citekey order="27">schroder_modelling_2014</bcf:citekey>
-    <bcf:citekey order="28">grime_evidence_1977</bcf:citekey>
-    <bcf:citekey order="29">forsman_rethinking_2014</bcf:citekey>
+    <bcf:citekey order="13">freschet_integrated_2015</bcf:citekey>
+    <bcf:citekey order="14">poorter_limits_2015</bcf:citekey>
+    <bcf:citekey order="15">farrior_resource_2011</bcf:citekey>
+    <bcf:citekey order="15">dybzinski_evolutionarily_2011</bcf:citekey>
+    <bcf:citekey order="15">farrior_competitive_2014</bcf:citekey>
+    <bcf:citekey order="16">liu_biomass_2004</bcf:citekey>
+    <bcf:citekey order="17">grassein_plant_2010</bcf:citekey>
+    <bcf:citekey order="18">guisan_predicting_2005</bcf:citekey>
+    <bcf:citekey order="19">crisp_reconsidering_2016</bcf:citekey>
+    <bcf:citekey order="20">reich_world-wide_2014</bcf:citekey>
+    <bcf:citekey order="21">reich_world-wide_2014</bcf:citekey>
+    <bcf:citekey order="22">freschet_integrated_2015</bcf:citekey>
+    <bcf:citekey order="23">laliberte_distance-based_2010</bcf:citekey>
+    <bcf:citekey order="24">dewitt_costs_1998</bcf:citekey>
+    <bcf:citekey order="24">van_kleunen_constraints_2005</bcf:citekey>
+    <bcf:citekey order="25">wright_worldwide_2006</bcf:citekey>
+    <bcf:citekey order="26">lohier_analyse_2016</bcf:citekey>
+    <bcf:citekey order="27">turcotte_phenotypic_2016</bcf:citekey>
+    <bcf:citekey order="28">alexander_novel_2015</bcf:citekey>
+    <bcf:citekey order="29">schroder_modelling_2014</bcf:citekey>
+    <bcf:citekey order="30">grime_evidence_1977</bcf:citekey>
+    <bcf:citekey order="31">berger_competition_2008</bcf:citekey>
+    <bcf:citekey order="32">whippo_phototropism:_2006</bcf:citekey>
+    <bcf:citekey order="33">mitchell_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="34">whippo_phototropism:_2006</bcf:citekey>
+    <bcf:citekey order="35">nippert_challenging_2015</bcf:citekey>
+    <bcf:citekey order="36">maire_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="37">mitchell_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="38">reineking_environmental_2006</bcf:citekey>
+    <bcf:citekey order="39">vos_functionalstructural_2010</bcf:citekey>
+    <bcf:citekey order="40">reineking_environmental_2006</bcf:citekey>
+    <bcf:citekey order="40">deleglise_heterogeneite_2011</bcf:citekey>
+    <bcf:citekey order="41">crisp_reconsidering_2016</bcf:citekey>
+    <bcf:citekey order="42">crisp_reconsidering_2016</bcf:citekey>
+    <bcf:citekey order="43">liu_biomass_2004</bcf:citekey>
+    <bcf:citekey order="44">peterson_growth_1982</bcf:citekey>
+    <bcf:citekey order="45">crisp_reconsidering_2016</bcf:citekey>
+    <bcf:citekey order="46">fort_root_2015</bcf:citekey>
+    <bcf:citekey order="47">grassein_plant_2010</bcf:citekey>
+    <bcf:citekey order="47">freschet_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="48">frei_plastic_2014</bcf:citekey>
+    <bcf:citekey order="49">kichenin_contrasting_2013</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
   </bcf:section>
   <!-- SECTION 5 -->
   <bcf:bibdata section="5">
-    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615 .bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="5">
     <bcf:citekey order="1">lepik_high_2005</bcf:citekey>
@@ -2570,7 +2593,7 @@
   </bcf:section>
   <!-- SECTION 6 -->
   <bcf:bibdata section="6">
-    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615 .bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
     <bcf:citekey order="1">berger_competition_2008</bcf:citekey>
@@ -2587,7 +2610,12 @@
     <bcf:citekey order="8">farrior_competitive_2014</bcf:citekey>
     <bcf:citekey order="9">kooyers_evolution_2015</bcf:citekey>
     <bcf:citekey order="10">van_loon_how_2014</bcf:citekey>
-    <bcf:citekey order="11">pierik_art_2014</bcf:citekey>
+    <bcf:citekey order="11">levine_beyond_2017</bcf:citekey>
+    <bcf:citekey order="12">scheiner_genetics_1989</bcf:citekey>
+    <bcf:citekey order="13">stamps_bayesian_2016</bcf:citekey>
+    <bcf:citekey order="14">zhang_epigenetic_2013</bcf:citekey>
+    <bcf:citekey order="15">dewitt_expanding_2016</bcf:citekey>
+    <bcf:citekey order="16">pierik_art_2014</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

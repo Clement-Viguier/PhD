@@ -1072,60 +1072,82 @@ This asymmetric gain should favour already established species as it lowers the 
 . a few words on dynamics... Meta-community diversity is however reduces by the reduction of potential axis for niche differentiation. Plasticity costs and limits should play major role in the balance between these mechanisms. Community level simulations are needed to further understand the cumulative role of competition, spatial and temporal variability and plasticity costs on phenotypic plasticity influence on plant community dynamics.}
 
 
-\section{Other plasticity patterns, alternative implementation and stability of results}
+\section{Other plasticity patterns, alternative implementations and stability of results}
 
-% ! ! ! 
-% Talk about how the model informs on the effect of plasticity:
-% do not really mimic the reality since the plasticity can be turn on and off, but when there is an effect, it tells us how to modulates the other effects (stronger if opposite, or less strong if in the same direction), and help us identify the real sources and amplitude of effect.
-% Nevertheless, could it not tell us how real plasticity impact communities when there are evidences of plastic vs non plastic plants... ?
+% one type of plasticity, imagine other implementation based on plastic response pattern. 
+
+The phenotypic plasticity implemented in the model \model is only way of modelling plant plastic responses, inspired by the tested hypothesis of the functional equilibrium, adapted to the light and water resources. Other patterns of plastic responses can be observed, and numerous alternative implementations can be imagine to reproduce these patterns. This section puts in parallel such plastic response pattern with alternative ways of modelling the phenotypic plasticity, and conjecture on the robustness of the results described above in these new modelling approaches.
+
 
 \subsection{Resource foraging and architecture plasticity}
 
+Phenotypic plasticity in the context of plant ecology is often related to resources gathering and use-strategies. While other forms of stress can be integrated, such as the grazing or frost events, the immobile aspect of the plant life and the inherent variability of resources lead to a focus on the resources needed to the production and maintain of organic matter. The model \model present a simplistic form to answer the changes in resource availability, relying on the hypothesis that the exchange rate is homogeneous and can be integrated at the individual scale. In case of heterogeneous resources, other modelling strategies may have better results.
+
 \paragraph{Resource foraging}
 
+In habitats where the abiotic stresses are limited but the competition limiting, the resource foraging is a crucial mechanism to model. For example, in the context of forests, the observation of closed canopy reveals a relatively high crown plasticity leading to the incorporation of this phenomenon with techniques such as the tessellation \parencite{berger_competition_2008}. Such technique has a limited cost, and suits well tree canopies with constant resource-use strategies, especially when only one resource is spatially-modelled explicitly, as it is often the case in forest models. 
 % shoot, forest
 
 % etiolement
+Nonetheless, such architectural plasticity is also observed within herbaceous species. In case of limiting light resource, the plants may adopt an etiolation strategy that aims to explore the 3D-space to find light \parencite{whippo_phototropism:_2006}. This is an extreme case of morphological plasticity when the plant is bereaved of light, that leads to extreme changes in the shoot morphology - increase of the stem and leaf lengths, decrease of the leaf area - but also in the shoot chemistry -decrease in the tissue density, reduction of the chlorophyll content. Such response of increased SLA, reduction of the RMF and of the reduction of the chlorphyll content can be observed in less extreme cases of light reduction \parencite{mitchell_intraspecific_2014}. But the noticeable aspect of the plastic response to the reduction in light availability is the strong photo-tropism of leaves \parencite{whippo_phototropism:_2006}, strongly altering the architecture of the plants.
 
 % roots
+Such architectural plasticity is also observed for roots, senstitive to nutrients and water levels. Multiple aspect of root architecture can be modelled as plastic, while the root depth is often used, the vertical root distribution can also vary \parencite{nippert_challenging_2015} as well as the horizontal distribution \cite{maire_plasticity_2013}, with beneficial impacts on the individual and community efficiency and productivity.
 
 
 \paragraph{Architecture plasticity}
 
-% how 
+% how
+Despite a form of plasticity that answer changes in resource availability, the current implementation of \model is not able to reproduce such patterns. Indeed, these foraging behaviours are incompatible with \model on two major aspects. First, the morphology and chemistry axes are independent \parencite{mitchell_intraspecific_2014} while the design of \model tries to encapsulate multiple dimensions along the LES with simple allocation trade-offs. The drastic contrast in function between functional enlighten leaves that balance light capture and gaz exchanges to maximise the production of organic matter, and the etiolation leaves that explore the 3D-space at low cost to find resource cannot be capture by the simple representation of the shoot, neither the objective functions that drive the plastic allocation. Second, a such exploration of the space requires a spatial awareness and an architectural plasticity that cannot work with a cylinder representation of individuals. Voxel-based approaches can be used to model such plasticity \parencite{reineking_environmental_2006}, as well as the explicit representation of individual organs \parencite{vos_functionalstructural_2010}. The resource availability gradient can be easily represented as attraction field constraining the development of new organs. To balance the foraging and the exchange functions of the organ, and translate this function into a organ specific phenotype, a reference point (delimiting the two functions based on the resource availability in the organ-local-environment) can be defined either as a function of the "niche" of the species, or relatively to the other compartment activity to ensure equilibrium. This change in function must be translated into chemical and morphological function to fully reproduce the pattern, but this step is certainly challenging won't be discussed here.
 
 % benefits: it's cool
+This kind of implementation has the ability to capture foraging behaviour in environments where the resource can be scarce and highly heterogeneous, such has the shallow soils of mountain grasslands, with high fine grain heterogeneity \parencite{reineking_environmental_2006, deleglise_heterogeneite_2011}. This spatially should allow the emerge of competition patterns that cannot emerge from the current implementation of the model, but it is probably necessary yet not sufficient. In addition to this emerging pattern, an organ-based plasticity should limit the phenotypic flexibility (see discussion in the subsection \ref{section:calibration}) and increase the phenotypic inertia, leading to stronger and more stable responses.
 
-% drawbacks
+In the other hand, the implementation represents a technical challenge as it greatly increases the complexity of the agent, the decision rules and the overall computation cost of simulations. In the context of community dynamics it seems such complexity would be more detrimental than beneficial. This complexity is also increase by the increase in species specific parameters to drive this architectural plasticity. It seems that progress need to be done before considering such development at the community scale. However, imagining such an implementation lets us conjecture the effects of an alternative plasticity of the system and estimate the relative robustness of the results described above. This stability of the pattern emerging from the current implementation is discussed in a following paragraph of this subsection.
 
-
-
-\subsection{Temperature gradient, phenology and ontogeny}
-
-\paragraph{Temperature and altered phenology}
-
-% increased biomass
-
-% change leaves, but mainly phenoloty and reproduction
-
-% often goes with other variables: integrative response.
-
-\paragraph{A matter of reference}
-
-% plasticity is relative
-
-% facility to measure, external rather than internal
-
-\paragraph{Ontogeny}
-
-% respond to BM, need to understand why to model?
+% drawbacks: difficulty to integrated resource-use and resource foraging strategies
 
 
-\subsection{Alternative implementation and robust observations}
+
+%\subsection{Temperature gradient, phenology and ontogeny}
+%
+%\paragraph{Temperature and altered phenology}
+%
+%% increased biomass
+%
+%% change leaves, but mainly phenoloty and reproduction
+%
+%% often goes with other variables: integrative response.
+%
+%\paragraph{A matter of reference}
+%
+%% plasticity is relative
+%
+%% facility to measure, external rather than internal
+%
+%\paragraph{Ontogeny}
+%
+%% respond to BM, need to understand why to model?
+
+
+\subsection{The stress-based alternative implementation and robust observations}
 
 \paragraph{Stress-based plasticity}
 
+Aside from the way plant alter their phenotype to respond to estimated heterogeneity (spatial and temporal) in resource availability, the plasticity can also differ on how the estimation is built and modified during time, and how it affects the plastic response. The results relative to the parameter filtering process (subsection \ref{section:calibration}) did not presented the expected results in term of the amplitude of the response of the RSR to the watering treatment. Multiple factors can explain this behaviour, and multiple solutions have been mentioned. One of them is the stress-based plasticity that consist to model plastic behaviour as responses to stress, and to change the idea of memory into a sensitivity variable. This idea develops the concepts established by the biological understanding of the plastcitiy in the article from \cite{crisp_reconsidering_2016}. \cite{crisp_reconsidering_2016} present the molecular mechanisms that can be involved in a the memory or recovery of a stress event, \textit{i.e.} how the plant capture the change in condition and how this information is stored (or not). As illustrated in the figure \ref{fig:stress_memory}, after a stress the plant can recover and return to the pre-stress expression (return to the default phenotype)\parencite{liu_biomass_2004}, or maintain the level of expression (stress response phenotype)\parencite{peterson_growth_1982}. If it recovers, it can maintain the memory of the stress and have an amplified response or reset and ignore the event, leading to a similar response during the second stress.
 % what? and how? stress, response, reset, memory, recovery
+
+
+
+\begin{figure}\label{fig:stress_memory}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Concepts/stress_memory.pdf}
+\caption[Stress memroy and recovery]{Stress memroy and recovery. A theoretical example of memory formation, where up to thousands of stress-inducible transcripts (blue lines) respond to the initial stress, concurrently with accumulation of signaling molecules and the release of repressive chromatin (red lines). Upon reexposure to a second stress, persistent signaling molecules and a retained accessible conformation of chromatin (solid lines) allow an enhanced stress response. The recovery period is a critical window where plant memory can be consolidated or resetting (dashed lines) can occur. \textit{Modified from \cite{crisp_reconsidering_2016}}.}
+\end{figure}
+
+Such mechanism would stabilise the plastic responses in case of non recovery, or increase the inertia and the amplitude of the response with the transcriptional memory. The stress can be quantified easily, leading to a proportional response of the phenotype to compensate the stress. In the context of the functional equilibrium the deficit in the activity in one organ can be compensated by its increase in exchange area. Because the response is related to the stress and not a gain function, it does not have to follow the same constraints as the initial strategy as it is in \model, offering a response decorrelated from the resource-use strategies. When the response can be achieved in multiple ways (increase in allocation or morphological change), decision must be developed. It seems that this functioning allows for the integration of multiple stress factors, independently, however, difficulties may emerge if they alter the same organ. Cases of additive stress (water and nutrient) can be observed in empirical studies \parencite{fort_root_2015}, suggesting that an additional approach to this problem could work. Multiple stress integration was one of the objectives of the model \model and it was integrated but not tested.
+
+The implementation of the stress-based plasticity seems to have the potential to better mimic the plastic behaviour of plant, with recovery and amplified responses, reduced constraints on the axes of the plastic response and greater response variability. However it comes with an additional level of complexity with more required species and stress specific traits, and stress specific decision rules.
+
 
 % benefits stable phens, take into account vulnerability, not only optimum
 % multiple stresses, different sterss level (already posible, even if only 1 tau value in this implementation of MG
@@ -1135,15 +1157,20 @@ This asymmetric gain should favour already established species as it lowers the 
 \paragraph{Reaction norms}
 
 % what and how ?
+As mentioned, the implementation of stress-based plasticity requires new decision rules to drive the trait response to specific stress as their are no longer controlled by an integrative gain function. Reaction norms, used to characterised the plastic response of traits along a gradient constitute the perfect tool to drive such plasticity. Ambitious implementation that would distinguish the plastic responses of different species could maintain a general pattern with a shared formula of the reaction norm, but with different parameters between species.
 
 % benefits
+Because the reaction norm approach does not give an optimum phenotype, but a variation of the current one, default phenotypes must be defined. Considering that these default phenotypes are viable, they should benefit from a more stable plasticity. Indeed, the plasticity based on a gain function targets one optimum phenotype considering the estimation of conditions at a given time. Therefore, it does not consider, neither the probability of having wrong information and as a consequence a non adapted phenotype nor the temporal variability that would require changes in phenotype not possible in a given context or time-frame. In the other hand, reaction norms are able (because they are less constrained) to produce plastic response that are more stable (even if less performing in stable estimated conditions).
 
 % drawbacks
 
 \paragraph{Heterogeneity of responses}
 
-% consistent 
+% observed in many cases
+The reaction norms, as opposed to the integrative shared gain function, allows a great heterogeneity in plasticity. This plasticity seems necessary when the plastic responses of multiple species along multiple gradient are observed. Indeed, different species may respond differently to specific treatments \parencite{ grassein_plant_2010, freschet_plasticity_2013}, or even different populations \parencite{frei_plastic_2014}, or along a large gradient \parencite{kichenin_contrasting_2013}.
 
+% resistance vs avoidance: the stress degree and initial strategies
+While the implementation of species specific reaction norms allows contrasted responses, these plastic responses need to make sense in an ecological perspective. In other word, the alternative changes in phenotype need to lead to a greater (or more stable) fitness.
 
 \paragraph{Robust observations?}
 % static and dynamic gain

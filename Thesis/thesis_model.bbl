@@ -2677,15 +2677,15 @@
     \endentry
   \endsortlist
   \missing{isabelle_fate-hd_2014}
-  \missing{schipe_multiple_2012}
-  \missing{boulangeat_fate-dh_2014}
   \missing{evans_toward_2016}
-  \missing{de_bello_towards_2011}
-  \missing{carboni_simulating_2017}
   \missing{beniston_climate_1997}
-  \missing{kleidon_global_20000}
   \missing{koorner_alpine_2003}
+  \missing{schipe_multiple_2012}
+  \missing{de_bello_towards_2011}
   \missing{schirpke_multiple_2012}
+  \missing{carboni_simulating_2017}
+  \missing{boulangeat_fate-dh_2014}
+  \missing{kleidon_global_20000}
 \endrefsection
 
 \refsection{2}
@@ -7152,6 +7152,47 @@
       \endverb
       \keyw{leaf thickness,leaf density,aridity,elastic modulus,foliar water relations,leaf construction cost,solar radiation}
     \endentry
+    \entry{nippert_challenging_2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b27bfe7d10c20612425c705222a15a2d}{%
+           family={Nippert},
+           familyi={N\bibinitperiod},
+           given={Jesse\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=0df9ddb3b113f01816c06a8c4678e97e}{%
+           family={Holdo},
+           familyi={H\bibinitperiod},
+           given={Ricardo\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{752e6d1af608292d8f263be5a144877a}
+      \strng{fullhash}{752e6d1af608292d8f263be5a144877a}
+      \strng{authornamehash}{752e6d1af608292d8f263be5a144877a}
+      \strng{authorfullhash}{752e6d1af608292d8f263be5a144877a}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. For many grassland and savanna ecosystems, water limitation is a key regulator of individual plant, community and ecosystem processes. Maximum rooting depth is commonly used to characterize the susceptibility of plant species to drought. This rests on the assumption that deep-rooted plant species would have a greater total volume of soil water to exploit and should be less susceptible to episodic changes in water availability. 2. Independent of maximum rooting depth, rooting strategies based on differences in biomass allocation with depth, uptake plasticity in relation to water availability and variation in water transport capability may all influence growth responses and susceptibility to drought. Many examples from grasslands and savannas reflect these rooting strategies among coexisting grass, forb and woody species. 3. Here, we use a dynamic model of plant water uptake and growth to show how changes in root distribution, functional plasticity and root hydraulic conductivity have the potential to influence aboveground biomass and competitive outcomes, even when maximum rooting depth remains constant. We also show theoretically that shifts in root distribution to surface soils without changes in maximum depth can potentially outweigh the benefits of increased maximum rooting depth. 4. Combining our current reliance on biogeographic descriptions of maximum rooting depth with insights about other, more subtle aspects of root structure and function are likely to improve our understanding of ecosystem responses to dynamic water limitation.}
+      \field{issn}{0269-8463}
+      \field{journaltitle}{Funct. Ecol.}
+      \field{month}{6}
+      \field{note}{WOS:000357737500002}
+      \field{number}{6}
+      \field{title}{Challenging the maximum rooting depth paradigm in grasslands and savannas}
+      \field{volume}{29}
+      \field{year}{2015}
+      \field{pages}{739\bibrangedash 745}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12390
+      \endverb
+      \keyw{2-layer hypothesis,climate,drought,dynamics,hydraulic conductivity,niche differentiation,nitrogen mineralization,patterns,plant-roots,plasticity,prairie,root function,root distribution,root length,soil,soil depth,water-uptake}
+    \endentry
     \entry{pavlick_jena_2013}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=5b6664548c9bd55fb6fdd9452bb5c176}{%
@@ -9541,16 +9582,16 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{TRY}
   \missing{freschett_plasticity_2014}
   \missing{barabas_effect_2016}
-  \missing{reich_world-wilde_2013}
-  \missing{adler_coexistence_2007}
+  \missing{chalmandrier_communities_2015}
+  \missing{lavorel_how_2014}
+  \missing{dewitt_cost_1998}
   \missing{elton_1927}
   \missing{diaz_global_2014}
-  \missing{chalmandrier_communities_2015}
-  \missing{dewitt_cost_1998}
-  \missing{lavorel_how_2014}
+  \missing{adler_coexistence_2007}
+  \missing{TRY}
+  \missing{reich_world-wilde_2013}
 \endrefsection
 
 \refsection{3}
@@ -12396,16 +12437,16 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{kleidon}
-  \missing{need-references}
-  \missing{westoby}
-  \missing{lagarigues}
   \missing{lohier}
-  \missing{reich}
-  \missing{soussana}
-  \missing{korner_alpine_2011}
-  \missing{wright_worlwide_2004}
   \missing{tjoelker_linking_2015}
+  \missing{lagarigues}
+  \missing{kleidon}
+  \missing{soussana}
+  \missing{reich}
+  \missing{need-references}
+  \missing{korner_alpine_2011}
+  \missing{westoby}
+  \missing{wright_worlwide_2004}
 \endrefsection
 
 \refsection{4}
@@ -12464,6 +12505,65 @@
       \verb http://www.nature.com/nature/journal/v525/n7570/full/nature14952.html
       \endverb
       \keyw{Climate-change ecology,Community ecology}
+    \endentry
+    \entry{berger_competition_2008}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=9384d3112d3d8d7a6daa243142b7d01c}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod}}}%
+        {{uniquename=0,hash=48b136306136520c4e3efcf4beeecb12}{%
+           family={Piou},
+           familyi={P\bibinitperiod},
+           given={Cyril},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=32606ef260496701357dbf6c8ac1826d}{%
+           family={Schiffers},
+           familyi={S\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=1afed3b8eacb2219efb8bbe1f6581962}{%
+           family={Grimm},
+           familyi={G\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{06beb24ff14108ad0c28f021244c1af8}
+      \strng{fullhash}{32bd450d1637033d7bdcd854b5b7df97}
+      \strng{authornamehash}{06beb24ff14108ad0c28f021244c1af8}
+      \strng{authorfullhash}{32bd450d1637033d7bdcd854b5b7df97}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Competition is a key process in plant populations and communities. We thus need, if we are to predict the responses of ecological systems to environmental change, a comprehensive and mechanistic understanding of plant competition. Considering competition, however, only at the population level is not sufficient because plant individuals usually are different, interact locally, and can adapt their behaviour to the current state of themselves and of their biotic and abiotic environment. Therefore, simulation models that are individual-based and spatially explicit are increasingly used for studying competition in plant systems. Many different individual-based modelling approaches exist to represent competition, but it is not clear how good they are in reflecting essential aspects of plant competition. We therefore first summarize current concepts and theories addressing plant competition. Then, we review individual-based approaches for modelling competition among plants. We distinguish between approaches that are used for more than 10 years and more recent ones. We identify three major gaps that need to be addressed more in the future: the effects of plants on their local environment, adaptive behaviour, and below-ground competition. To fill these gaps, the representation of plants and their interactions have to be more mechanistic than most existing approaches. Developing such new approaches is a challenge because they are likely to be more complex and to require more detailed knowledge and data on individual-level processes underlying competition. We thus need a more integrated research strategy for the future, where empirical and theoretical ecologists as well as computer scientists work together on formulating, implementing, parameterization, testing, comparing, and selecting the new approaches.}
+      \field{issn}{1433-8319}
+      \field{journaltitle}{Perspectives in Plant Ecology, Evolution and Systematics}
+      \field{month}{3}
+      \field{number}{3–4}
+      \field{series}{Space matters - {Novel} developments in plant ecology through spatial modelling}
+      \field{shorttitle}{Competition among plants}
+      \field{title}{Competition among plants: {Concepts}, individual-based modelling approaches, and a proposal for a future research strategy}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{121\bibrangedash 135}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.ppees.2007.11.002
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\26K235HM\\Berger et al. - 2008 - Competition among plants Concepts, individual-bas.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9KT5UF26\\S1433831907000583.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1433831907000583
+      \endverb
+      \keyw{Individual-based model,Ecological field,Field-of-neighbourhood,Grid-based model,Tessellation,Zone-of-influence}
     \endentry
     \entry{crisp_reconsidering_2016}{article}{}
       \name{author}{5}{}{%
@@ -12528,6 +12628,45 @@
       \endverb
       \verb{url}
       \verb http://advances.sciencemag.org/content/2/2/e1501340
+      \endverb
+    \endentry
+    \entry{deleglise_heterogeneite_2011}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fda4919dccb42aedc80a632a927f57d8}{%
+           family={Deleglise},
+           familyi={D\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Université Grenoble Alpes}%
+      }
+      \list{language}{1}{%
+        {fr}%
+      }
+      \strng{namehash}{fda4919dccb42aedc80a632a927f57d8}
+      \strng{fullhash}{fda4919dccb42aedc80a632a927f57d8}
+      \strng{authornamehash}{fda4919dccb42aedc80a632a927f57d8}
+      \strng{authorfullhash}{fda4919dccb42aedc80a632a927f57d8}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L'hétérogénéité spatiale est aujourd'hui reconnue comme un facteur primordial pour la diversité et le fonctionnement des écosystèmes prairiaux, mais reste souvent négligée dans l'analyse de l'impact de différents modes d'utilisation pastorale. Les communautés prairiales subalpines sont des milieux hautement diversifiés, au cœur d'enjeux écologiques, socio-économiques et culturels. Depuis plusieurs décennies, des changements d'usage, notamment l'extensification conduisant parfois à l'abandon du pâturage, affectent ces prairies dans de vastes régions des Alpes. Connaitre la réponse spatiale de ces communautés à ces changements d'usage peut constituer un enjeu important pour mieux prédire les conséquences en termes de valeurs écologiques et agronomiques. L'objectif général de ce travail est d'identifier l'organisation spatiale de composantes spécifiques et fonctionnelles de communautés prairiales subalpines dans des situations contrastées d'usage : pâturage traditionnel et abandon sur le moyen terme ({~}20 ans), de comprendre les mécanismes liés au pâturage influençant cette organisation spatiale et d'explorer les conséquences potentielles de l'organisation spatiale des composantes spécifiques et fonctionnelles sur les valeurs d'usage de ces milieux. Ce travail révèle que l'arrêt du pâturage conduit à des modifications importantes de l'organisation spatiale à la fois des espèces et de traits fonctionnels aériens. La variabilité spatiale de ces composantes est systématiquement augmentée à différentes échelles spatiales en situation d'abandon révélant un grain plus grossier d'hétérogénéité spatiale, lié à une plus faible coexistence locale des espèces et des traits et à une convergence fonctionnelle plus forte que sous l'effet diversificateur à échelle fine du pâturage traditionnel. D'autres part, même si une réponse en termes de patrons spatiaux est également observée, celle-ci n'est pas systématique, indiquant l'absence d'une action structurante forte du pâturage qui agit donc surtout sur la variabilité. Une expérimentation in situ montre en effet que la formation de patrons spatiaux marqués en réponse à une action de défoliation sélective semble limitée dans ces prairies relativement peu productives. De plus, une faible structuration spatiale du couvert en termes de valeurs d'usage fourragère a été observée, pilotée dès des échelles très fines par la variabilité spatiale à un grain fin des assemblages d'espèces et de traits dans les zones pâturées. Ces résultats suggèrent ainsi l'expression d'un pâturage peu sélectif exprimé par les troupeaux ovins dans ces milieux peu productifs, et la prépondérance du filtre abiotique dans la détermination des assemblages spatiaux des espèces et des traits. La formation de patchs très contrastés et très structurés spatialement en réponse au pâturage est plus probable dans des milieux très productifs où la compétition est plus intense et la repousse de la végétation favorisée. La prise en compte de la variabilité autour de la réponse moyenne des communautés se révèle donc un élément essentiel pour analyser l'évolution des prairies subalpines en réponse au changement d'usages pastoraux. Une des perspectives fortes suite à ce travail est l'analyse de la synergie entre la réponse de l'hétérogénéité spatiale du couvert et celle du compartiment souterrain (traits racinaires, mycorhization, diversité microbienne…).}
+      \field{month}{5}
+      \field{title}{Hétérogénéité spatiale des composantes spécifiques et fonctionnelles des communautés prairiales subalpines dans un contexte de déprise pastorale}
+      \field{type}{phdthesis}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\NKRMB7R3\\Deleglise - 2011 - Hétérogénéité spatiale des composantes spécifiques.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\IDBC23Z5\\tel-00609989.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-00609989/document
       \endverb
     \endentry
     \entry{dewitt_costs_1998}{article}{}
@@ -12728,45 +12867,193 @@
       \endverb
       \keyw{adaptive dynamics,plant competition,resource limitation,responses to climate change,tragedy of the commons}
     \endentry
-    \entry{forsman_rethinking_2014}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=0f4572dfabd62293f447606c56196545}{%
-           family={Forsman},
+    \entry{fort_root_2015}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=6f1dde1b1118ac734a87ce7b95812226}{%
+           family={Fort},
            familyi={F\bibinitperiod},
-           given={A.},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=025615df4ac35d3991a86702b1f49222}{%
+           family={Cruz},
+           familyi={C\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=cbbe6e4523a0764ddcf4443494554f10}{%
+           family={Catrice},
+           familyi={C\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{uniquename=0,hash=0bea2faf6aee683c51d05f08664ab4e3}{%
+           family={Delbrut},
+           familyi={D\bibinitperiod},
+           given={Antoine},
            giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=be0d24b5b9625de484b5a7caa5a85c67}{%
+           family={Luzarreta},
+           familyi={L\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=990f87d214702ea56d256aef0ecdac9e}{%
+           family={Stroia},
+           familyi={S\bibinitperiod},
+           given={Ciprian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=0e059004e81b94687a01bb9677438532}{%
+           family={Jouany},
+           familyi={J\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{0f4572dfabd62293f447606c56196545}
-      \strng{fullhash}{0f4572dfabd62293f447606c56196545}
-      \strng{authornamehash}{0f4572dfabd62293f447606c56196545}
-      \strng{authorfullhash}{0f4572dfabd62293f447606c56196545}
+      \strng{namehash}{64abb76d6ff141fbe9bfffddb8031f7f}
+      \strng{fullhash}{32ac577b73d9f4c3efe6aba489f11349}
+      \strng{authornamehash}{64abb76d6ff141fbe9bfffddb8031f7f}
+      \strng{authorfullhash}{32ac577b73d9f4c3efe6aba489f11349}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Much research has been devoted to identify the conditions under which selection favours flexible individuals or genotypes that are able to modify their growth, development and behaviour in response to environmental cues, to unravel the mechanisms of plasticity and to explore its influence on patterns of diversity among individuals, populations and species. The consequences of developmental plasticity and phenotypic flexibility for the performance and ecological success of populations and species have attracted a comparatively limited but currently growing interest. Here, I re-emphasize that an increased understanding of the roles of plasticity in these contexts requires a ‘whole organism’ (rather than ‘single trait’) approach, taking into consideration that organisms are integrated complex phenotypes. I further argue that plasticity and genetic polymorphism should be analysed and discussed within a common framework. I summarize predictions from theory on how phenotypic variation stemming from developmental plasticity and phenotypic flexibility may affect different aspects of population-level performance. I argue that it is important to distinguish between effects associated with greater interindividual phenotypic variation resulting from plasticity, and effects mediated by variation among individuals in the capacity to express plasticity and flexibility as such. Finally, I claim that rigorous testing of predictions requires methods that allow for quantifying and comparing whole organism plasticity, as well as the ability to experimentally manipulate the level of and capacity for developmental plasticity and phenotypic flexibility independent of genetic variation.}
-      \field{issn}{0018-067X}
-      \field{journaltitle}{Heredity}
-      \field{month}{10}
-      \field{title}{Rethinking phenotypic plasticity and its consequences for individuals, populations and species}
-      \field{urlday}{1}
-      \field{urlmonth}{6}
+      \field{abstract}{Water, N and P shortages are three major factors that limit plant development worldwide. Understanding which plant strategies allow them to cope with these stresses may encourage the selection of species or genotypes better able to make the most of non-optimal growth conditions in grassland agrosystems. To test which strategies allowed species to be more efficient under P and water shortages, we grew 13 Fabaceae species under four growth conditions in a greenhouse experiment that resulted from crossing two levels of both P and water availability. Ten root functional traits were measured under the four growth conditions, including cross-sectional area occupied by aerenchyma, mycorrhizal rate, root hair length, and specific root length (SRL). We determined relations between species’ root trait values and their plasticity and response to P and/or water stress in terms of total biomass production and stress intensity. Results showed that mycorrhizal rates were negatively related to biomass production in the four growth conditions. Long root hairs and high aerenchyma production were associated with high biomass production in growth conditions without and with P stress, respectively. Species with acquisitive strategies (high SRL) were less impacted by P and water stress than those with conservative ones (low SRL). Additionally, increased SRL and root hair length decreased the impact of P stress on species’ performances. Results showed that grassland Fabaceae display a wide range of root functional strategies (i.e. root functional trait attributes and plasticity), which explain their performances under P and/or water shortage.}
+      \field{issn}{0098-8472}
+      \field{journaltitle}{Environmental and Experimental Botany}
+      \field{month}{2}
+      \field{title}{Root functional trait syndromes and plasticity drive the ability of grassland {Fabaceae} to tolerate water and phosphorus shortage}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
       \field{urlyear}{2015}
-      \field{year}{2014}
+      \field{volume}{110}
+      \field{year}{2015}
       \field{urldateera}{ce}
+      \field{pages}{62\bibrangedash 72}
+      \range{pages}{11}
       \verb{doi}
-      \verb 10.1038/hdy.2014.92
+      \verb 10.1016/j.envexpbot.2014.09.007
       \endverb
       \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\T5ZDAMKH\\Forsman - 2014 - Rethinking phenotypic plasticity and its consequen.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\EQ974RU8\\hdy201492a.html:text/html
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\DH3TAZW8\\Fort et al. - 2015 - Root functional trait syndromes and plasticity dri.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\IGG4TUZG\\S0098847214002329.html:text/html
       \endverb
       \verb{url}
-      \verb http://www.nature.com/hdy/journal/vaop/ncurrent/full/hdy201492a.html
+      \verb http://www.sciencedirect.com/science/article/pii/S0098847214002329
       \endverb
+      \keyw{Drought,Fabaceae,GLM,PCA,Phosphorus,Root functional trait}
+    \endentry
+    \entry{frei_plastic_2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=253a94097b56e3f42636018a06d33d1c}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Esther\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=24c8fab018df3f9e88edf8a17665f7b9}{%
+           family={Ghazoul},
+           familyi={G\bibinitperiod},
+           given={Jaboury},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=9eba46c0a754270a55032ff0526ae322}{%
+           family={Pluess},
+           familyi={P\bibinitperiod},
+           given={Andrea\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{fullhash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authornamehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authorfullhash}{3974ba1beee343e76fb182b388d9a503}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Local persistence of plant species in the face of climate change is largely mediated by genetic adaptation and phenotypic plasticity. In species with a wide altitudinal range, population responses to global warming are likely to differ at contrasting elevations. In controlled climate chambers, we investigated the responses of low and high elevation populations (1200 and 1800 m a.s.l.) of three nutrient-poor grassland species, Trifolium montanum, Ranunculus bulbosus, and Briza media, to ambient and elevated temperature. We measured growth-related, reproductive and phenological traits, evaluated differences in trait plasticity and examined whether trait values or plasticities were positively related to approximate fitness and thus under selection. Elevated temperature induced plastic responses in several growth-related traits of all three species. Although flowering phenology was advanced in T. montanum and R. bulbosus, number of flowers and reproductive allocation were not increased under elevated temperature. Plasticity differed between low and high elevation populations only in leaf traits of T. montanum and B. media. Some growth-related and phenological traits were under selection. Moreover, plasticities were not correlated with approximate fitness indicating selectively neutral plastic responses to elevated temperature. The observed plasticity in growth-related and phenological traits, albeit variable among species, suggests that plasticity is an important mechanism in mediating plant responses to elevated temperature. However, the capacity of species to respond to climate change through phenotypic plasticity is limited suggesting that the species additionally need evolutionary adaptation to adjust to climate change. The observed selection on several growth-related and phenological traits indicates that the study species have the potential for future evolution in the context of a warming climate.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Plastic {Responses} to {Elevated} {Temperature} in {Low} and {High} {Elevation} {Populations} of {Three} {Grassland} {Species}}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{e98677}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0098677
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\J6WCD3VV\\Frei et al. - 2014 - Plastic Responses to Elevated Temperature in Low a.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\JQDE5G9E\\article.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098677
+      \endverb
+      \keyw{Flowering plants,Climate change,Evolutionary adaptation,Flowers,Leaves,natural selection,Phenotypes,Population genetics}
+    \endentry
+    \entry{freschet_plasticity_2013}{article}{}
+      \name{author}{5}{uniquelist=2}{%
+        {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
+           family={Freschet},
+           familyi={F\bibinitperiod},
+           given={Grégoire\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=f06f9ac8e734e8afc8317c7ed4b6dd97}{%
+           family={Bellingham},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=33b9ebab819380c4ef913d0e324b3854}{%
+           family={Lyver},
+           familyi={L\bibinitperiod},
+           given={Philip\bibnamedelima O'B.},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{uniquename=0,hash=56c59a33be77d9c91d4125f6d97b12db}{%
+           family={Bonner},
+           familyi={B\bibinitperiod},
+           given={Karen\bibnamedelima I.},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=2a36cd6a6a37d4a5ab6dbc29193dea60}{%
+           family={Wardle},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{664913c87e15e38f88a9e0b8fd5aa496}
+      \strng{fullhash}{aea886c1f7eb1e0314c394903a17830f}
+      \strng{authornamehash}{664913c87e15e38f88a9e0b8fd5aa496}
+      \strng{authorfullhash}{aea886c1f7eb1e0314c394903a17830f}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Functional trait plasticity is a major component of plant adjustment to environmental stresses. Here, we explore how multiple local environmental gradients in resources required by plants (light, water, and nutrients) and soil disturbance together influence the direction and amplitude of intraspecific changes in leaf and fine root traits that facilitate capture of these resources. We measured population-level analogous above- and belowground traits related to resource acquisition, i.e. “specific leaf area”–“specific root length” (SLA–SRL), and leaf and root N, P, and dry matter content (DMC), on three dominant understory tree species with contrasting carbon and nutrient economics across 15 plots in a temperate forest influenced by burrowing seabirds. We observed similar responses of the three species to the same single environmental influences, but partially species-specific responses to combinations of influences. The strength of intraspecific above- and belowground trait responses appeared unrelated to species resource acquisition strategy. Finally, most analogous leaf and root traits (SLA vs. SRL, and leaf versus root P and DMC) were controlled by contrasting environmental influences. The decoupled responses of above- and belowground traits to these multiple environmental factors together with partially species-specific adjustments suggest complex responses of plant communities to environmental changes, and potentially contrasting feedbacks of plant traits with ecosystem properties. We demonstrate that despite the growing evidence for broadly consistent resource-acquisition strategies at the whole plant level among species, plants also show partially decoupled, finely tuned strategies between above- and belowground parts at the intraspecific level in response to their environment. This decoupling within species suggests a need for many species-centred ecological theories on how plants respond to their environments (e.g. competitive/stress-tolerant/ruderal and response-effect trait frameworks) to be adapted to account for distinct plant-environment interactions among distinct individuals of the same species and parts of the same individual.}
+      \field{issn}{2045-7758}
+      \field{journaltitle}{Ecol Evol}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Plasticity in above- and belowground resource acquisition traits in response to single and multiple environmental factors in three tree species}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1065\bibrangedash 1078}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/ece3.520
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\DIWCVH7A\\Freschet et al. - 2013 - Plasticity in above- and belowground resource acqu.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\VJC4P94Q\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/ece3.520/abstract
+      \endverb
+      \keyw{specific leaf area,specific root length,intraspecific variation,plant functional traits,Light availability,plant physiological ecology,seabird burrowing,soil nutrients}
     \endentry
     \entry{freschet_integrated_2015}{article}{}
       \name{author}{3}{}{%
@@ -13054,6 +13341,71 @@
       \endverb
       \keyw{species distribution models,population dynamics,spatial scales,Dispersal,ecological niche theory,future projections,habitat suitability maps,prediction errors,predictive biogeography}
     \endentry
+    \entry{kichenin_contrasting_2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=4af912481f39f09ec65c4ed146b69fb5}{%
+           family={Kichenin},
+           familyi={K\bibinitperiod},
+           given={Emilie},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=2a36cd6a6a37d4a5ab6dbc29193dea60}{%
+           family={Wardle},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=0a53338028da78dd75b6677e742f1c1b}{%
+           family={Peltzer},
+           familyi={P\bibinitperiod},
+           given={Duane\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=dd9f84dedc82b5249f0a201bbe7fcf96}{%
+           family={Morse},
+           familyi={M\bibinitperiod},
+           given={Chris\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
+           family={Freschet},
+           familyi={F\bibinitperiod},
+           given={Grégoire\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ec3e5253613ce88f6bb164e8c968d82d}
+      \strng{fullhash}{71fc4551962060dc86530a5ff7f2c599}
+      \strng{authornamehash}{ec3e5253613ce88f6bb164e8c968d82d}
+      \strng{authorfullhash}{71fc4551962060dc86530a5ff7f2c599}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Despite widespread focus on interspecific variation in trait-based ecology, there is growing evidence that intraspecific trait variability can play a fundamental role in plant community responses to environmental change and community assembly. * Here, we quantify the strength and direction of inter- and intraspecific plant community trait responses along a 900 m elevation gradient spanning alpine and subalpine plant communities in southern New Zealand. We measured five commonly used leaf traits (i.e. dry matter content, N and P concentrations, leaf area and specific leaf area) on all 31 dominant and subordinate species recorded along the gradient, and examined their species-specific and community-level responses to elevation using both abundance-weighted and nonweighted averages of trait values. * By decomposing the variance of community-level measures of these traits across the gradient, we showed that the contribution of interspecific variation to the response of plant assemblages to elevation was stronger than that of intraspecific variation, for all traits except specific leaf area. Further, the relative contributions of interspecific effects were greater when abundance-weighted rather than nonweighted measures were used. We also observed contrasting intraspecific trait responses to the gradient among species (particularly for leaf N and P concentrations), and found both positive and negative covariation between inter- and intraspecific effects on community-level trait values. * The weak community-average trait responses to elevation, as found for specific leaf area (SLA) and leaf N and P concentrations, resulted from strong but opposing responses among vs. within species, which are not typically accounted for in species-based measures of plant community responses. For instance, increasing elevation (and associated factors such as a decrease in soil nutrient availability) favoured the dominance of species with relatively high leaf nutrient concentrations while simultaneously triggering an intraspecific decrease in the leaf nutrient concentrations of these species. * The context dependency of positive and negative covariation between inter- and intraspecific trait variability, and the species-specific nature of intraspecific shifts in functional trait values, reveal highly complex plastic responses of plants to environmental changes, and highlights the need for greater consideration of the role that intraspecific variation plays in community-level processes.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Funct Ecol}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Contrasting effects of plant inter- and intraspecific variation on community-level trait measures along an environmental gradient}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{27}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1254\bibrangedash 1261}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12116
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\JHM29BDM\\Kichenin et al. - 2013 - Contrasting effects of plant inter- and intraspeci.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\PTGT6PUZ\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2435.12116/abstract
+      \endverb
+      \keyw{Species Turnover,specific leaf area (SLA),plant functional traits,elevational gradient,interspecific and intraspecific variation,leaf nutrient content,plant community structure,variance decomposition}
+    \endentry
     \entry{kleidon_global_2000}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=83f9dba7984fde3bdf77fdebb85717e9}{%
@@ -13243,6 +13595,173 @@
       \endverb
       \keyw{functional traits,scaling,ecosystem modeling,minirhizotron,root turnover,temperate forest}
     \endentry
+    \entry{maire_plasticity_2013}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=1ecb3c0a8262af560d1c5fcef2827334}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=e2164a868a1325c3620341fa60a87e8d}{%
+           family={Soussana},
+           familyi={S\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=20bc47afa486108f8b1605d9414b8f4e}{%
+           family={Bachelet},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=261bcfcede26359224469323ef46e9fb}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=cb5fddc06ebefe93982aee016fd0446a}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=64dea7bf168c8dc3cbf52f2c68a4c3da}{%
+           family={Reinhold},
+           familyi={R\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=adb5797edad2975fdfafaaa7afcc19b3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{fullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \strng{authornamehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{authorfullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gemini, a mechanistic model linking plant functional traits, plant populations, community dynamics, and ecosystem scale fluxes in grasslands has been reported in a companion paper (Soussana et al., 2012). For monocultures and six species mixtures of perennial grass species, this model has been successfully evaluated against experimental data of above-ground net primary productivity (ANPP) and plant community structure across nitrogen and disturbance (cutting frequency) gradients. The Gemini model combines two categories of processes: (i) C and N fluxes, (ii) morphogenesis and architecture of roots and shoots and demography of clonal plant axes. These two process categories constrain the form and function of the simulated clonal plants within plastic limits. We show here that the plasticity of the simulated plant populations accounts for well-established empirical laws: (i) root:shoot ratio, (ii) self-thinning, (iii) critical shoot N content, and (iv) role of plant traits (specific leaf area and plant height) for population response to environmental gradients (nitrogen and disturbance). Moreover, we show that model versions for which plasticity simulation has been partly or fully suppressed have a reduced ANPP in monocultures and in binary mixtures and do not capture anymore productivity and dominance changes across environmental gradients. We conclude that, along environmental and competition gradients, the plasticity of plant form and function is required to maintain the coordination of multiple resource capture and, hence, to sustain productivity and dominance.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{4}
+      \field{title}{Plasticity of plant form and function sustains productivity and dominance along environment and competition gradients. {A} modeling experiment with {Gemini}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{254}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{80\bibrangedash 91}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2012.03.039
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6M2NIXS7\\Maire et al. - 2013 - Plasticity of plant form and function sustains pro.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\GB6MJWWT\\S0304380012001664.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380012001664
+      \endverb
+      \keyw{biodiversity,Nitrogen,grassland,Carbon,Coordination theory,Functional balance,Growth,partitioning}
+    \endentry
+    \entry{mitchell_intraspecific_2014}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=8ab9aee603bba073cddce606a3b62c9a}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Rachel\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=fee3c7064dc3ade1abf1778be5546fbf}{%
+           family={Bakker},
+           familyi={B\bibinitperiod},
+           given={Jonathan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{012dd20472b19f0b62852d50b3198e2f}
+      \strng{fullhash}{012dd20472b19f0b62852d50b3198e2f}
+      \strng{authornamehash}{012dd20472b19f0b62852d50b3198e2f}
+      \strng{authorfullhash}{012dd20472b19f0b62852d50b3198e2f}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The importance of intraspecific variation in plant functional traits for structuring communities and driving ecosystem processes is increasingly recognized, but mechanisms governing this variation are less studied. Variation could be due to adaptation to local conditions, plasticity in observed traits, or ontogeny. We investigated 1) whether abiotic stress caused individuals, maternal lines, and populations to exhibit trait convergence, 2) whether trait variation was primarily due to ecotypic differences or trait plasticity, and 3) whether traits varied with ontogeny. We sampled three populations of Hypochaeris radicata that differed significantly in rosette diameter and specific leaf area (SLA). We grew nine maternal lines from each population (27 lines total) under three greenhouse conditions: ambient conditions (control), 50\% drought, or 80\% shade. Plant diameter and relative chlorophyll content were measured throughout the experiment, and leaf shape, root∶shoot ratio, and SLA were measured after five weeks. We used hierarchical mixed-models and variance component analysis to quantify differences in treatment effects and the contributions of population of origin and maternal line to observed variation. Observed variation in plant traits was driven primarily by plasticity. Shade significantly influenced all measured traits. Plant diameter was the only trait that had a sizable proportion of trait variation (30\%) explained by population of origin. There were significant ontogenetic differences for both plant diameter and relative chlorophyll content. When subjected to abiotic stress in the form of light or water limitation, Hypochaeris radicata exhibited significant trait variability. This variation was due primarily to trait plasticity, rather than to adaptation to local conditions, and also differed with ontogeny.}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Intraspecific {Trait} {Variation} {Driven} by {Plasticity} and {Ontogeny} in {Hypochaeris} radicata}
+      \field{urlday}{26}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{e109870}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0109870
+      \endverb
+      \verb{file}
+      \verb PLoS Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\EMBST4VT\\Mitchell et Bakker - 2014 - Intraspecific Trait Variation Driven by Plasticity.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1371/journal.pone.0109870
+      \endverb
+    \endentry
+    \entry{nippert_challenging_2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b27bfe7d10c20612425c705222a15a2d}{%
+           family={Nippert},
+           familyi={N\bibinitperiod},
+           given={Jesse\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=0df9ddb3b113f01816c06a8c4678e97e}{%
+           family={Holdo},
+           familyi={H\bibinitperiod},
+           given={Ricardo\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{752e6d1af608292d8f263be5a144877a}
+      \strng{fullhash}{752e6d1af608292d8f263be5a144877a}
+      \strng{authornamehash}{752e6d1af608292d8f263be5a144877a}
+      \strng{authorfullhash}{752e6d1af608292d8f263be5a144877a}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. For many grassland and savanna ecosystems, water limitation is a key regulator of individual plant, community and ecosystem processes. Maximum rooting depth is commonly used to characterize the susceptibility of plant species to drought. This rests on the assumption that deep-rooted plant species would have a greater total volume of soil water to exploit and should be less susceptible to episodic changes in water availability. 2. Independent of maximum rooting depth, rooting strategies based on differences in biomass allocation with depth, uptake plasticity in relation to water availability and variation in water transport capability may all influence growth responses and susceptibility to drought. Many examples from grasslands and savannas reflect these rooting strategies among coexisting grass, forb and woody species. 3. Here, we use a dynamic model of plant water uptake and growth to show how changes in root distribution, functional plasticity and root hydraulic conductivity have the potential to influence aboveground biomass and competitive outcomes, even when maximum rooting depth remains constant. We also show theoretically that shifts in root distribution to surface soils without changes in maximum depth can potentially outweigh the benefits of increased maximum rooting depth. 4. Combining our current reliance on biogeographic descriptions of maximum rooting depth with insights about other, more subtle aspects of root structure and function are likely to improve our understanding of ecosystem responses to dynamic water limitation.}
+      \field{issn}{0269-8463}
+      \field{journaltitle}{Funct. Ecol.}
+      \field{month}{6}
+      \field{note}{WOS:000357737500002}
+      \field{number}{6}
+      \field{title}{Challenging the maximum rooting depth paradigm in grasslands and savannas}
+      \field{volume}{29}
+      \field{year}{2015}
+      \field{pages}{739\bibrangedash 745}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12390
+      \endverb
+      \keyw{2-layer hypothesis,climate,drought,dynamics,hydraulic conductivity,niche differentiation,nitrogen mineralization,patterns,plant-roots,plasticity,prairie,root function,root distribution,root length,soil,soil depth,water-uptake}
+    \endentry
     \entry{peterson_growth_1982}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=8cab2280ab182422f1391ed6cafb3293}{%
@@ -13422,6 +13941,56 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2011.03952.x/abstract
       \endverb
       \keyw{global change,allometry,functional types,environment,partitioning,allocation,dose–response curve,meta-phenomics}
+    \endentry
+    \entry{poorter_limits_2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
+           family={Ryser},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bc2391ea7e7856d3e18ce6beb036d00f}
+      \strng{fullhash}{bc2391ea7e7856d3e18ce6beb036d00f}
+      \strng{authornamehash}{bc2391ea7e7856d3e18ce6beb036d00f}
+      \strng{authorfullhash}{bc2391ea7e7856d3e18ce6beb036d00f}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytol}
+      \field{month}{6}
+      \field{number}{4}
+      \field{shorttitle}{The limits to leaf and root plasticity}
+      \field{title}{The limits to leaf and root plasticity: what is so special about specific root length?}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{volume}{206}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{1188\bibrangedash 1190}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1111/nph.13438
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\PWUVWPNY\\Poorter et Ryser - 2015 - The limits to leaf and root plasticity what is so.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\JT2WNPYS\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.13438/abstract
+      \endverb
+      \keyw{biomass allocation,light,plasticity,specific leaf area,acclimation,nutrients,specific root length,whole-plant approach}
     \endentry
     \entry{reich_world-wide_2014}{article}{}
       \name{author}{1}{}{%
@@ -13844,6 +14413,77 @@
       \endverb
       \keyw{shade avoidance,cost of plasticity,G × E interactions,genetic variation in plasticity,induced resistance,plasticity genes}
     \endentry
+    \entry{vos_functionalstructural_2010}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=b10f4e767f25f218e5a515868a8ceb17}{%
+           family={Vos},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=331795b8067b8c8f87e44dcf9eaedd82}{%
+           family={Evers},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=5f140cc6bd092b4ee90579ab979d1c77}{%
+           family={Buck-Sorlin},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={G.\bibnamedelimi H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=21c2a8244b3556e404e3ac36f76be80a}{%
+           family={Andrieu},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=d78ff25e65236ccce5b09c4a2201a288}{%
+           family={Chelle},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=d3aba5afa4dc179c05e40609619d9b8f}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={P.\bibnamedelimi H.\bibnamedelimi B.\bibnamedelimi de},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{addeb941e95bc0d54dbd75713afb96aa}
+      \strng{fullhash}{2e13dca736805c984253819215255ac2}
+      \strng{authornamehash}{addeb941e95bc0d54dbd75713afb96aa}
+      \strng{authorfullhash}{2e13dca736805c984253819215255ac2}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Plants react to their environment and to management interventions by adjusting physiological functions and structure. Functional–structural plant models (FSPM), combine the representation of three-dimensional (3D) plant structure with selected physiological functions. An FSPM consists of an architectural part (plant structure) and a process part (plant functioning). The first deals with (i) the types of organs that are initiated and the way these are connected (topology), (ii) co-ordination in organ expansion dynamics, and (iii) geometrical variables (e.g. leaf angles, leaf curvature). The process part may include any physiological or physical process that affects plant growth and development (e.g. photosynthesis, carbon allocation). This paper addresses the following questions: (i) how are FSPM constructed, and (ii) for what purposes are they useful? Static, architectural models are distinguished from dynamic models. Static models are useful in order to study the significance of plant structure, such as light distribution in the canopy, gas exchange, remote sensing, pesticide spraying studies, and interactions between plants and biotic agents. Dynamic models serve quantitatively to integrate knowledge on plant functions and morphology as modulated by environment. Applications are in the domain of plant sciences, for example the study of plant plasticity as related to changes in the red:far red ratio of light in the canopy. With increasing availability of genetic information, FSPM will play a role in the assessment of the significance towards plant performance of variation in genetic traits across environments. In many crops, growers actively manipulate plant structure. FSPM is a promising tool to explore divergent management strategies.}
+      \field{issn}{0022-0957, 1460-2431}
+      \field{journaltitle}{J. Exp. Bot.}
+      \field{month}{1}
+      \field{number}{8}
+      \field{shorttitle}{Functional–structural plant modelling}
+      \field{title}{Functional–structural plant modelling: a new versatile tool in crop science}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{61}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{2101\bibrangedash 2115}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1093/jxb/erp345
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\WDU2PKUI\\Vos et al. - 2010 - Functional–structural plant modelling a new versa.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\6RJMI9T7\\2101.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://jxb.oxfordjournals.org/content/61/8/2101
+      \endverb
+      \keyw{photosynthesis,Genetic variation,plant physiology,plant architecture,light distribution,plant morphology,source–sink relations,transport}
+    \endentry
     \entry{wright_worldwide_2004}{article}{}
       \name{author}{33}{}{%
         {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
@@ -14051,6 +14691,7 @@
   \endsortlist
   \missing{hartig}
   \missing{wright_worldwide_2006}
+  \missing{whippo_phototropism:_2006}
   \missing{laliberte_distance-based_2010}
 \endrefsection
 
@@ -14307,6 +14948,46 @@
       \endverb
       \verb{url}
       \verb http://advances.sciencemag.org/content/2/2/e1501340
+      \endverb
+    \endentry
+    \entry{dewitt_expanding_2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
+           family={DeWitt},
+           familyi={D\bibinitperiod},
+           given={Thomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e6f95d86d6d2caa9fc0fd9429102aec}
+      \strng{fullhash}{8e6f95d86d6d2caa9fc0fd9429102aec}
+      \strng{authornamehash}{8e6f95d86d6d2caa9fc0fd9429102aec}
+      \strng{authorfullhash}{8e6f95d86d6d2caa9fc0fd9429102aec}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1674-5507}
+      \field{journaltitle}{Curr Zool}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Expanding the phenotypic plasticity paradigm to broader views of trait space and ecological function}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2017}
+      \field{volume}{62}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{463\bibrangedash 473}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/cz/zow085
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\UPDH3Z4X\\DeWitt - 2016 - Expanding the phenotypic plasticity paradigm to br.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\C74XBIES\\zow085.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/cz/article/62/5/463/2197015/Expanding-the-phenotypic-plasticity-paradigm-to
       \endverb
     \endentry
     \entry{dybzinski_evolutionarily_2011}{article}{}
@@ -14571,6 +15252,66 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0168945215000564
       \endverb
       \keyw{plasticity,adaptation,flowering time,water-use efficiency,Drought resistance,Gene by environment interactions}
+    \endentry
+    \entry{levine_beyond_2017}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=b71c47fff97792c37706210243e23ae5}{%
+           family={Bascompte},
+           familyi={B\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=6ed16f4f98f35ae9a2268706bac19023}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=3b4c526ad3828396cf670adc9f4f608d}{%
+           family={Allesina},
+           familyi={A\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0ef3126a765ba95fd8d959175c0a30d3}
+      \strng{fullhash}{86a67ab7475e25d051d269f39cca9a6a}
+      \strng{authornamehash}{0ef3126a765ba95fd8d959175c0a30d3}
+      \strng{authorfullhash}{86a67ab7475e25d051d269f39cca9a6a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The tremendous diversity of species in ecological communities has motivated a century of research into the mechanisms that maintain biodiversity. However, much of this work examines the coexistence of just pairs of competitors. This approach ignores those mechanisms of coexistence that emerge only in diverse competitive networks. Despite the potential for these mechanisms to create conditions under which the loss of one competitor triggers the loss of others, we lack the knowledge needed to judge their importance for coexistence in nature. Progress requires borrowing insight from the study of multitrophic interaction networks, and coupling empirical data to models of competition.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{6}
+      \field{number}{7656}
+      \field{title}{Beyond pairwise mechanisms of species coexistence in complex communities}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{546}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{56\bibrangedash 64}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/nature22898
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\9RH2J7XX\\Levine et al. - 2017 - Beyond pairwise mechanisms of species coexistence .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\DSX4858A\\nature22898.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v546/n7656/full/nature22898.html
+      \endverb
+      \keyw{Ecology}
     \endentry
     \entry{van_loon_how_2014}{article}{}
       \name{author}{6}{}{%
@@ -14962,6 +15703,112 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/jeb.12378/abstract
       \endverb
       \keyw{Phenotypic plasticity,bet hedging,developmental reaction norms,diversification,dormancy,geometric mean fitness,life-history evolution,Lobelia,seed germination,thermal performance curves}
+    \endentry
+    \entry{stamps_bayesian_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e0a9ec658e899b49e54ce0d1d9bdd6ba}{%
+           family={Stamps},
+           familyi={S\bibinitperiod},
+           given={Judy\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=b0d5bc5125b5ba450ce2c1a94711a038}{%
+           family={Frankenhuis},
+           familyi={F\bibinitperiod},
+           given={Willem\bibnamedelima E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd2e81a4bca2ae7eb2a5de9df1314732}
+      \strng{fullhash}{fd2e81a4bca2ae7eb2a5de9df1314732}
+      \strng{authornamehash}{fd2e81a4bca2ae7eb2a5de9df1314732}
+      \strng{authorfullhash}{fd2e81a4bca2ae7eb2a5de9df1314732}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Until recently, biology lacked a framework for studying how information from genes, parental effects, and different personal experiences is combined across the lifetime to affect phenotypic development. Over the past few years, researchers have begun to build such a framework, using models that incorporate Bayesian updating to study the evolution of developmental plasticity and developmental trajectories. Here, we describe the merits of a Bayesian approach to development, review the main findings and implications of the current set of models, and describe predictions that can be tested using protocols already used by empiricists. We suggest that a Bayesian perspective affords a simple and tractable way to conceptualize, explain, and predict how information combines across the lifetime to affect development.}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Bayesian {Models} of {Development}}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2017}
+      \field{volume}{31}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{260\bibrangedash 268}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.tree.2016.01.012
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\D348HUD7\\Stamps et Frankenhuis - 2016 - Bayesian Models of Development.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\WC7FB2ZE\\S0169534716000276.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169534716000276
+      \endverb
+    \endentry
+    \entry{zhang_epigenetic_2013}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=b3bdc5b4da4b4a54601aed4d87dfbca2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yuan-Ye},
+           giveni={Y\bibinithyphendelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=fffddacc9de8cb6a519b6ce51ebdcd7e}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=11ae56a2936dc7ee1224c9fa0389e8cb}{%
+           family={Colot},
+           familyi={C\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=23eacb7c91d8345fd0c318137b4634f3}{%
+           family={Bossdorf},
+           familyi={B\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{177c8d095b6322488b16f0f191dee9d6}
+      \strng{fullhash}{559d4e540434f8a03a9605f96dc6bfc1}
+      \strng{authornamehash}{177c8d095b6322488b16f0f191dee9d6}
+      \strng{authorfullhash}{559d4e540434f8a03a9605f96dc6bfc1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Heritable variation in plant phenotypes, and thus potential for evolutionary change, can in principle not only be caused by variation in DNA sequence, but also by underlying epigenetic variation. However, the potential scope of such phenotypic effects and their evolutionary significance are largely unexplored. * Here, we conducted a glasshouse experiment in which we tested the response of a large number of epigenetic recombinant inbred lines (epiRILs) of Arabidopsis thaliana – lines that are nearly isogenic but highly variable at the level of DNA methylation – to drought and increased nutrient conditions. * We found significant heritable variation among epiRILs both in the means of several ecologically important plant traits and in their plasticities to drought and nutrients. Significant selection gradients, that is, fitness correlations, of several mean traits and plasticities suggest that selection could act on this epigenetically based phenotypic variation. * Our study provides evidence that variation in DNA methylation can cause substantial heritable variation of ecologically important plant traits, including root allocation, drought tolerance and nutrient plasticity, and that rapid evolution based on epigenetic variation alone should thus be possible.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytol}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Epigenetic variation creates potential for evolution of plant phenotypic plasticity}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{197}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{314\bibrangedash 322}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/nph.12010
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\C3V7WJF9\\Zhang et al. - 2013 - Epigenetic variation creates potential for evoluti.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\K8EXU84M\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.12010/abstract
+      \endverb
+      \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
 \endrefsection
