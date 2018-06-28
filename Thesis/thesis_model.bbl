@@ -2676,16 +2676,16 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{isabelle_fate-hd_2014}
-  \missing{evans_toward_2016}
-  \missing{beniston_climate_1997}
-  \missing{koorner_alpine_2003}
   \missing{schipe_multiple_2012}
-  \missing{de_bello_towards_2011}
-  \missing{schirpke_multiple_2012}
-  \missing{carboni_simulating_2017}
-  \missing{boulangeat_fate-dh_2014}
   \missing{kleidon_global_20000}
+  \missing{carboni_simulating_2017}
+  \missing{de_bello_towards_2011}
+  \missing{evans_toward_2016}
+  \missing{schirpke_multiple_2012}
+  \missing{boulangeat_fate-dh_2014}
+  \missing{koorner_alpine_2003}
+  \missing{isabelle_fate-hd_2014}
+  \missing{beniston_climate_1997}
 \endrefsection
 
 \refsection{2}
@@ -9582,16 +9582,16 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{freschett_plasticity_2014}
-  \missing{barabas_effect_2016}
-  \missing{chalmandrier_communities_2015}
-  \missing{lavorel_how_2014}
-  \missing{dewitt_cost_1998}
-  \missing{elton_1927}
-  \missing{diaz_global_2014}
   \missing{adler_coexistence_2007}
   \missing{TRY}
+  \missing{lavorel_how_2014}
+  \missing{freschett_plasticity_2014}
+  \missing{elton_1927}
+  \missing{dewitt_cost_1998}
+  \missing{diaz_global_2014}
+  \missing{chalmandrier_communities_2015}
   \missing{reich_world-wilde_2013}
+  \missing{barabas_effect_2016}
 \endrefsection
 
 \refsection{3}
@@ -12437,16 +12437,16 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{lohier}
-  \missing{tjoelker_linking_2015}
-  \missing{lagarigues}
-  \missing{kleidon}
-  \missing{soussana}
-  \missing{reich}
   \missing{need-references}
+  \missing{lagarigues}
+  \missing{reich}
   \missing{korner_alpine_2011}
-  \missing{westoby}
+  \missing{soussana}
   \missing{wright_worlwide_2004}
+  \missing{lohier}
+  \missing{kleidon}
+  \missing{tjoelker_linking_2015}
+  \missing{westoby}
 \endrefsection
 
 \refsection{4}
@@ -13341,6 +13341,51 @@
       \endverb
       \keyw{species distribution models,population dynamics,spatial scales,Dispersal,ecological niche theory,future projections,habitat suitability maps,prediction errors,predictive biogeography}
     \endentry
+    \entry{heger_light_2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bde70a6f2105ed43a5b46388c5bb58dd}{%
+           family={Heger},
+           familyi={H\bibinitperiod},
+           given={Tina},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \strng{fullhash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \strng{authornamehash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \strng{authorfullhash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* For plants competing for light, grasslands represent complex environments. Grassland microhabitats vary in the amount of available light and in the spatial distribution of patches with full sunlight, light shade and deep shade. Plant populations have been shown to adapt to specific competitors and shading conditions, but it is an open question how tightly the responses of populations to different shading situations are linked to the light availability previously experienced in the field. * Using maternal families collected in grasslands ranging from open to closed canopies, I tested the effects of no shading, homogeneous and heterogeneous shade created in the glasshouse on trait expression in the annual Erodium cicutarium. Heterogeneous shading was simulated by a patchwork of single and double layers of light filters lowering the R:FR ratio of transmitted light and clear filters simulating gaps. * Heterogeneous shading induced a stronger shade avoidance response than homogeneous shading, with larger leaf length, greater vegetative height and larger specific leaf area. Time to first flowering was longer under heterogeneous shading, and plants produced less fruits. * Populations differed in their time to first flowering under the shading treatments, and these differences could be traced back to light availability measured in the field. Plants from populations with lower light availability showed a postponed date of first flowering even if they were not shaded. These differences were attributable to plasticity of the maternal families. Across shading treatments, plants from low-light environments produced more above-ground biomass. * Synthesis. This study indicates that there is a close linkage between the light availability experienced in the field and the ability of following generations to respond to shading. Low average light availability experienced in the past seems to induce a trade-off of vegetative growth against early flowering, providing the following generations with the capacity to overtop neighbours. This capacity is utilized especially if plants experience a mixture of gaps and deep shade.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Light availability experienced in the field affects ability of following generations to respond to shading in an annual grassland plant}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{volume}{104}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1432\bibrangedash 1440}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12607
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\T3V8U5BS\\Heger - 2016 - Light availability experienced in the field affect.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\78FJ7JVG\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12607/abstract
+      \endverb
+      \keyw{Phenotypic plasticity,plant–plant interactions,above-ground competition,Environmental heterogeneity,Erodium cicutarium,first flowering date,light gaps,R:FR,shade avoidance,trade-off growth reproduction}
+    \endentry
     \entry{kichenin_contrasting_2013}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=4af912481f39f09ec65c4ed146b69fb5}{%
@@ -13762,6 +13807,67 @@
       \endverb
       \keyw{2-layer hypothesis,climate,drought,dynamics,hydraulic conductivity,niche differentiation,nitrogen mineralization,patterns,plant-roots,plasticity,prairie,root function,root distribution,root length,soil,soil depth,water-uptake}
     \endentry
+    \entry{perez-ramos_tradeoffs_2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=1401c5b5a4d28a9cfbc08de0860cffbd}{%
+           family={Pérez-Ramos},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Ignacio\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=ea9945bcf6d4de6e5d537136754f41f4}{%
+           family={Volaire},
+           familyi={V\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=a6b6abcce67ba3eaa862795c96e0ba6a}{%
+           family={Fattet},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=9f3b26e60fc1b11dc30568282f25ba86}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5fd127d49aaa74f15c0d8e1c03eb8ad2}{%
+           family={Roumet},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e20179903ff88c78481c3926f05efe8f}
+      \strng{fullhash}{dec35f31694252f03f0698a13c2b88d1}
+      \strng{authornamehash}{e20179903ff88c78481c3926f05efe8f}
+      \strng{authorfullhash}{dec35f31694252f03f0698a13c2b88d1}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In environments where light is not a limiting resource such as rangelands and grasslands, there is much disagreement regarding the benefits provided by rapid light capture during the growing season and the species’ ability to withstand drought during the dry period. In this study, we selected four perennial herbaceous species with contrasting resource-use strategies (acquisitive versus conservative), which were transplanted as monocultures into PVC pots to evaluate their species-specific responses to drought. The two main strategies of drought-survival (avoidance versus tolerance) were driven by distinct underlying mechanisms that allow the plant to delay or tolerate water deficit in leaves. On the one hand, plants that produced reduced leaves with lower surface area:mass ratio (lower SLA) exhibited higher values of leaf water potential (LWP) and leaf relative water content (LRWC), which could be associated to a higher ability to delay tissue dehydration in enlarged leaves. Regarding the below-ground compartment, dehydration avoidance was promoted by prolonged elongation rates of thinner roots that allow the plant to increase water uptake and accessibility during the dry period. On the other hand, dehydration tolerance was positively related with progressive foliage senescence under water deficit, which probably favored a longer survival of meristematic basal tissues. The results presented in this study suggest the existence of a trade-off between the traits favoring rapid light-acquisition and those enhancing the ability to delay leaf dehydration. Thus, the species related most closely with a resource-acquisition strategy (Bromus erectus and Potentilla neumanniana) could be considered less efficient to delay leaf dehydration than the others (Carex humilis and Festuca christiani-bernardii), as indicated by their lower values of leaf water potential (LWP) and leaf relative water content (LRWC) under identical conditions of water deficit. Our findings support evidence that there is not a single strategy to effectively cope with drought and reveal the diversity of adaptive mechanisms among coexisting species.}
+      \field{issn}{0098-8472}
+      \field{journaltitle}{Environmental and Experimental Botany}
+      \field{month}{3}
+      \field{title}{Tradeoffs between functional strategies for resource-use and drought-survival in {Mediterranean} rangeland species}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{87}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{126\bibrangedash 136}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.envexpbot.2012.09.004
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6EGRHP2T\\Pérez-Ramos et al. - 2013 - Tradeoffs between functional strategies for resour.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\USGETACK\\S0098847212001876.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0098847212001876
+      \endverb
+      \keyw{functional traits,Aerial senescence,Dehydration avoidance,Dehydration tolerance,Root elongation}
+    \endentry
     \entry{peterson_growth_1982}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=8cab2280ab182422f1391ed6cafb3293}{%
@@ -13805,6 +13911,56 @@
       \endverb
       \verb{url}
       \verb http://www.jstor.org/stable/1551151
+      \endverb
+    \endentry
+    \entry{pierik_art_2014}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=f7fd6c46319305f6c325c1e41037290d}{%
+           family={Pierik},
+           familyi={P\bibinitperiod},
+           given={Ronald},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=b1b45b62e055a99fcb76b9d71c953f3c}{%
+           family={Testerink},
+           familyi={T\bibinitperiod},
+           given={Christa},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{977eadf4a984ac856c50e96d362e0949}
+      \strng{fullhash}{977eadf4a984ac856c50e96d362e0949}
+      \strng{authornamehash}{977eadf4a984ac856c50e96d362e0949}
+      \strng{authorfullhash}{977eadf4a984ac856c50e96d362e0949}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Environmental stresses, such as shading of the shoot, drought, and soil salinity, threaten plant growth, yield, and survival. Plants can alleviate the impact of these stresses through various modes of phenotypic plasticity, such as shade avoidance and halotropism. Here, we review the current state of knowledge regarding the mechanisms that control plant developmental responses to shade, salt, and drought stress. We discuss plant hormones and cellular signaling pathways that control shoot branching and elongation responses to shade and root architecture modulation in response to drought and salinity. Because belowground stresses also result in aboveground changes and vice versa, we then outline how a wider palette of plant phenotypic traits is affected by the individual stresses. Consequently, we argue for a research agenda that integrates multiple plant organs, responses, and stresses. This will generate the scientific understanding needed for future crop improvement programs aiming at crops that can maintain yields under variable and suboptimal conditions.}
+      \field{issn}{0032-0889, 1532-2548}
+      \field{journaltitle}{Plant Physiol.}
+      \field{month}{9}
+      \field{number}{1}
+      \field{shorttitle}{The {Art} of {Being} {Flexible}}
+      \field{title}{The {Art} of {Being} {Flexible}: {How} to {Escape} from {Shade}, {Salt}, and {Drought}}
+      \field{urlday}{16}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{166}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 22}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1104/pp.114.239160
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\KXJ4373K\\Pierik et Testerink - 2014 - The Art of Being Flexible How to Escape from Shad.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\Q3NGX64P\\5.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.plantphysiol.org/content/166/1/5
       \endverb
     \endentry
     \entry{poorter_causes_2009}{article}{}
@@ -14689,83 +14845,50 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{hartig}
-  \missing{wright_worldwide_2006}
   \missing{whippo_phototropism:_2006}
   \missing{laliberte_distance-based_2010}
+  \missing{hartig}
+  \missing{wright_worldwide_2006}
 \endrefsection
 
 \refsection{5}
   \sortlist[entry]{nyt/global/}
-    \entry{jung_intraspecific_2014}{article}{}
-      \name{author}{6}{}{%
-        {{uniquename=0,hash=8ebed31ded78c47a084b88ac0d0b2ac3}{%
-           family={Jung},
-           familyi={J\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
-           family={Albert},
-           familyi={A\bibinitperiod},
-           given={Cécile\bibnamedelima H.},
-           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{uniquename=0,hash=8f524674b7870bae7bfbc772ee46b984}{%
-           family={Violle},
-           familyi={V\bibinitperiod},
-           given={Cyrille},
-           giveni={C\bibinitperiod}}}%
-        {{uniquename=0,hash=1ad96402d9c897e77bdc8f6aa201304b}{%
-           family={Kunstler},
-           familyi={K\bibinitperiod},
-           given={Georges},
-           giveni={G\bibinitperiod}}}%
-        {{uniquename=0,hash=bf0bba63671e57013397183d2ea56348}{%
-           family={Loucougaray},
-           familyi={L\bibinitperiod},
-           given={Grégory},
-           giveni={G\bibinitperiod}}}%
-        {{uniquename=0,hash=7d81da4e759edc1db5287a25366d37fd}{%
-           family={Spiegelberger},
-           familyi={S\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod}}}%
+    \entry{chesson_mechanisms_2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=db6b43699dc16ed26ca5592cbdebda43}{%
+           family={Chesson},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{5c4e114f8ae1b013d4ae751c81c7f4a9}
-      \strng{fullhash}{d71ca02425009214f7a06d147fecfaa4}
-      \strng{authornamehash}{5c4e114f8ae1b013d4ae751c81c7f4a9}
-      \strng{authorfullhash}{d71ca02425009214f7a06d147fecfaa4}
-      \field{sortinit}{J}
-      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \strng{namehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{fullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authornamehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authorfullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{* Climate change is expected to increase the magnitude and the frequency of extreme climatic events such as droughts. Better understanding how plant communities will respond to these droughts is a major challenge. We expect the response to be a shift in functional trait values resulting from both species turnover and intraspecific trait variability, but little research has addressed the relative contribution of both components. * We analysed the short-term functional response of subalpine grassland communities to a simulated drought by focusing on four leaf traits (LDMC: leaf dry matter content, SLA: specific leaf area, LNC: leaf nitrogen concentration and LCC: leaf carbon concentration). After evaluating species turnover and intraspecific variability separately, we determined their relative contribution in the community functional response to drought, reflected by changes in community-weighted mean traits. * We found significant species turnover and intraspecific variability, as well as significant changes in community-weighted mean for most of the traits. The relative contribution of intraspecific variability to the changes in community mean traits was more important (42–99\%) than the relative contribution of species turnover (1–58\%). Intraspecific variability either amplified (for LDMC, SLA and LCC) or dampened (for LNC) the community functional response mediated by species turnover. We demonstrated that the small contribution of species turnover to the changes in community mean LDMC and LCC was explained by a lack of covariation between species turnover and interspecific trait differences. * Synthesis. These results highlight the need for a better consideration of intraspecific variability to understand and predict the effect of climate change on plant communities. While both species turnover and intraspecific variability can be expected following an extreme drought, we report new evidence that intraspecific variability can be a more important driver of the short-term functional response of plant communities.}
-      \field{issn}{1365-2745}
-      \field{journaltitle}{J Ecol}
-      \field{month}{1}
+      \field{abstract}{The focus of most ideas on diversity maintenance is species coexistence, which may be stable or unstable. Stable coexistence can be quantified by the long-term rates at which community members recover from low density. Quantification shows that coexistence mechanisms function in two major ways: They may be (a) equalizing because they tend to minimize average fitness differences between species, or (b) stabilizing because they tend to increase negative intraspecific interactions relative to negative interspecific interactions. Stabilizing mechanisms are essential for species coexistence and include traditional mechanisms such as resource partitioning and frequency-dependent predation, as well as mechanisms that depend on fluctuations in population densities and environmental factors in space and time. Equalizing mechanisms contribute to stable coexistence because they reduce large average fitness inequalities which might negate the effects of stabilizing mechanisms. Models of unstable coexitence, in which species diversity slowly decays over time, have focused almost exclusively on equalizing mechanisms. These models would be more robust if they also included stabilizing mechanisms, which arise in many and varied ways but need not be adequate for full stability of a system. Models of unstable coexistence invite a broader view of diversity maintenance incorporating species turnover.}
+      \field{journaltitle}{Annual Review of Ecology and Systematics}
       \field{number}{1}
-      \field{title}{Intraspecific trait variability mediates the response of subalpine grassland communities to extreme drought events}
-      \field{urlday}{5}
-      \field{urlmonth}{11}
+      \field{title}{Mechanisms of {Maintenance} of {Species} {Diversity}}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
       \field{urlyear}{2014}
-      \field{volume}{102}
-      \field{year}{2014}
+      \field{volume}{31}
+      \field{year}{2000}
       \field{urldateera}{ce}
-      \field{pages}{45\bibrangedash 53}
-      \range{pages}{9}
+      \field{pages}{343\bibrangedash 366}
+      \range{pages}{24}
       \verb{doi}
-      \verb 10.1111/1365-2745.12177
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\Z32Z2SNG\\Jung et al. - 2014 - Intraspecific trait variability mediates the respo.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\FM4HKTJJ\\abstract.html:text/html
+      \verb 10.1146/annurev.ecolsys.31.1.343
       \endverb
       \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12177/abstract
+      \verb http://dx.doi.org/10.1146/annurev.ecolsys.31.1.343
       \endverb
-      \keyw{intraspecific variability,plant–climate interactions,Drought,plant functional traits,climate change experiments,community-weighted mean traits,grasslands}
+      \keyw{coexistence,Competition,niche,predation,spatial and temporal variation.}
     \endentry
     \entry{lepik_high_2005}{article}{}
       \name{author}{3}{}{%
@@ -14821,7 +14944,68 @@
       \verb http://link.springer.com/article/10.1007/s00442-005-0142-0
       \endverb
     \endentry
+    \entry{levine_beyond_2017}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=b71c47fff97792c37706210243e23ae5}{%
+           family={Bascompte},
+           familyi={B\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=6ed16f4f98f35ae9a2268706bac19023}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=3b4c526ad3828396cf670adc9f4f608d}{%
+           family={Allesina},
+           familyi={A\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0ef3126a765ba95fd8d959175c0a30d3}
+      \strng{fullhash}{86a67ab7475e25d051d269f39cca9a6a}
+      \strng{authornamehash}{0ef3126a765ba95fd8d959175c0a30d3}
+      \strng{authorfullhash}{86a67ab7475e25d051d269f39cca9a6a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The tremendous diversity of species in ecological communities has motivated a century of research into the mechanisms that maintain biodiversity. However, much of this work examines the coexistence of just pairs of competitors. This approach ignores those mechanisms of coexistence that emerge only in diverse competitive networks. Despite the potential for these mechanisms to create conditions under which the loss of one competitor triggers the loss of others, we lack the knowledge needed to judge their importance for coexistence in nature. Progress requires borrowing insight from the study of multitrophic interaction networks, and coupling empirical data to models of competition.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{6}
+      \field{number}{7656}
+      \field{title}{Beyond pairwise mechanisms of species coexistence in complex communities}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{546}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{56\bibrangedash 64}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/nature22898
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\9RH2J7XX\\Levine et al. - 2017 - Beyond pairwise mechanisms of species coexistence .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\DSX4858A\\nature22898.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v546/n7656/full/nature22898.html
+      \endverb
+      \keyw{Ecology}
+    \endentry
   \endsortlist
+  \missing{white_ecologists_2014}
 \endrefsection
 
 \refsection{6}

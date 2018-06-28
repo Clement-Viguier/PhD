@@ -13,7 +13,7 @@
 %
 
 \begin{fullwidth}
-This second result chapter examines the effects of phenotypic plasticity at the scale of the community. Another parameter filtering processes is performed and described in the first section of this chapter. The second part focuses of the effects of plasticity of the main properties of the community. The impact of plasticity on species diversity is particularly investigated. This chapter gives a glimpse of the potential of the model to answer various questions around the role of intraspecific variations on diverse community properties.
+This second result chapter examines the effects of the phenotypic plasticity at the scale of the community. Another parameter filtering processes is performed and described in the first section of this chapter. The second part focuses on the effects of the plasticity on the main properties of the community. The impact of the plasticity on species diversity is particularly investigated. This chapter gives a glimpse of the potential of the model to answer various questions around the role of intraspecific variations on diverse community properties.
 \end{fullwidth}
 
 \chapter{Community level simulations: non plastic community}
@@ -26,59 +26,93 @@ This second result chapter examines the effects of phenotypic plasticity at the 
 %Field data has been collected between years 201 .. and 201 by Claire Deleglise and al. (). Not used here.
 
 \paragraph{Weather data}
-Weather data for the time period between 1959 and 2014 has be computed by the MeteoFrance model SAFRAN by ... using GPS coordinates, slope, azimuth and horizon computed from a digital elevation model. These parameters were also used by the model CROCUS to compute snow accumulation and snow melting. These high frequency data (resolution under 1h) have been averaged on a daily time-step and used to compute input variables for \model. The snow in particular defines the length of the growing season starting with the first snow melt of the year and finishing the day of the first snow fall of autumn or winter.
+Weather data for the time period between 1959 and 2014 has be computed by the MeteoFrance model SAFRAN by Verfaille Déborah using GPS coordinates, slope, azimuth and horizon computed from a digital elevation model. These parameters were also used by the model CROCUS to compute the snow accumulation and the snow melting. These high frequency data (resolution under 1h) have been averaged on a daily time-step and used to compute input variables for \model. The snow in particular defines the length of the growing season starting with the first snow melt of the year and finishing the day of the first snow fall during the autumn or winter.
 
-The simulated years above 2014 are randomly sampled form the existing dataset between 1995 and 2014.
+Historical data is available between 1958 and 2014. The simulated years above 2014 are randomly sampled form the existing dataset between 1995 and 2014.
+
+The six sites have been chosen to test the consistency of the parameters, and open the door to the exploration of the effect of the climatic variable. This last aspect is not developed in this manuscript.
 
 \paragraph{Parameter filtering}
-Community level parameter filtering is conduced for a new table of parameter sets. These parameter sets are ... from accepted parameters and joined with LHS random sampling for five community level parameters: seed germination density, drought mortality, ageing mortality, plasticity cost for environmental sensing and plasticity cost for trait changes (see chapter \ref{chapter:model-description} for details).
-
-Few words on why plasticity cost parameters: time limits, distinguish the benefit of plasticity itself, not combined effect. Should have done simulations with no cost to have an idea of plasticity cost effect. 
-
-The simulations run over 300 hundreds years for 6 sites described in table \ref{table:sites} on squares of ... square centimetres. The simulation is stopped and the parameter set rejected if no individual persist and the seedbank is empty. The seedrain is composed of seeds contained in the seedbank and seeds from the metacommunity. The total of seeds is defined by the seed germination density and the area simulated. The seeds from the simulated community represent up to 80 \% of the seedrain, less if the seed production is limiting. The first ... years are not taken into account in the filtering process to let the community settle.
-
+A community level parameter filtering is conduced for a new table of parameter sets. These parameter sets are all the from accepted parameters with 50 randomly sampled non accepted parameter sets, joined with a LHS random sampling for five community level parameters: seed germination density, drought mortality, ageing mortality, plasticity cost for environmental sensing and plasticity cost for trait changes (see chapter \ref{chapter:model-description} for details).
 
 \paragraph{Simulations}
+The simulations run over 300 hundreds years for 6 sites with similar soil depth, but contrasted climate, on squares of 2,500 square centimetres, under \textit{non plastic} allocation algorithm. After a stabilising phase of 50 years, the simulation is stopped and the parameter set rejected if no individual persist and the seedbank is empty. The seedrain is composed of seeds contained in the seedbank and seeds from the metacommunity. The total of seeds is defined by the seed germination density and the area simulated. The seeds from the simulated community represent up to 80 \% of the seedrain, less if the seed production is limiting. 400 species compose the meta-community with traits randomly sample from distributions estimated from the accepted parameter sets at the individual scale. This method can be discussed, but because only one species is evaluated for each parameter set at the individual level no parameter set specific distribution could be used and a shared distribution was preferred. This method still allows to avoid traits values that make no sense in any of the parameter set and reduces, even marginally, the number of potential non-viable species.
+
+
 
 \subsection{Results}
 
-Simulations done. Need to illustrate the results.\\
 
-\paragraph{Effect of parameters}
-On stability and on diversity (functional and species)\\
-Random forest approaches like sensitivity analysis at individual scale.
+\paragraph{Parameter filtering}
 
+Among the  tested parameter sets, only 77 were selected after the parameter filtering process. 
 
-\section{Non plastic communities}
-Trade-off, diversity, stability ...
+Because too few parameter sets are selected with contrasted parameter values, no sensitivity analysis could be conduced to determined the key parameters of the model. For the same reason, the parameter effects are not detailed.
 
+\paragraph{General behaviour}
 
-\paragraph{Ecological trade-off ?}
-Is there a selection of some parameters ? Are there ecological trade-off (resource use strategy and reproduction) emerging from the model ?
+While the main properties of the simulated communities are explored in the following subsection, the general community growth can be observed for these simulations. The individual profiles show a relatively high variability within the season, that is coupled with high inter-site and/or inter-seasonal variability for any given parameter set.
+Despite variable growing-season starting dates, and some variability within parameter sets, the smoothed-profile show a consistent behaviour. This pattern is characterised by two distinct growth periods: (1) the initial growth  corresponding to the use of the stored resources, then followed by the growth promoted by the favourable conditions of the spring and early summer, and (2) another growth period at the end of the summer/autumn, following the growth reduction of the mid-summer. Two peaks can be observed during the first phase, but the first one is only noticeable for a few conditions where the season started early.  
+
+\begin{figure}%[tb]
+%    \classiccaptionstyle
+%\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/biomass_season_non_plastic2.png}%
+%}{%
+  \caption[Total biomass profile during the season]{Total biomass over time during the season. The small lines illustrate the individual seasons profiles (n = 20) for different sites (n=6) and parameter sets (colour). The growth profile of the different parameter sets are estimated with GAM models. The marks at the bottom indicate the beginning and the end of the seasons. \textit{Non plastic}.}
+  \label{fg:species_per_plant}
+%  }
+\end{figure}
+
+\subsection{Discussion}
+
+\paragraph{Parameter filtering}
+
+The parameter filtering process deployed here is sufiscient to select viable parameter sets allowing stable simulations. Ones could develop extended calibration plans to stabilise the behaviour of the model and ensure more realistic output. However, such approaches are mostly interesting when the model is it to infer information about specific, well described systems, instead of qualifying the general effect of freshly modelled mechanisms. The non reduction of the analysis of the model to one parameter set also increase the confidence in the observed pattern, and the conviction that they emerge from its structure rather than specific parameter interactions. Moreover, ambitious calibration procedure should rather be reserved to mature models, from which the general responses are well described and understood.
+
+\paragraph{Driven by the weather}
+
+The biomass profiles of the simulated communities show both consistency in the growth pattern, and high daily variability. The variability observed highlights the great the sensitivity to the weather variables. This sensitivity certainly favours positive effects of the phenotypic plasticity, if the changes in phenotype are responsive enough and do not suffer from a lag.
+
+The consistent growth patter with two distinct growth period correspond to field observations where plants are generally divided between early flowering, matching the first biomass peak, and late flowering corresponding to an autumn growth and reproduction. This coherent behaviour, driven by the climate gives confidence in the integration of the climatic variables as drivers of the community. Further work could be done to confirm the respective role of the temperature and precipitation, but this work focuses on the effect of phenotypic plasticity and both the relative sensitivity to the daily variations in the conditions and the importance of the climatic variables as driving forces supposes that the plasticity has the potential to affect the mountain communities.
+% sensitivity to the weather
+% general climate driven response.
+
+\textbf{The parameter filtering at the community scale ensure stability of the simulations at the community level. It also gives confidence in the global behaviour of the model, and in the driving role of the climatic variables.}
+%\section{Non plastic communities}
+%Trade-off, diversity, stability ...
+%
+%
+%\paragraph{Ecological trade-off ?}
+%Is there a selection of some parameters ? Are there ecological trade-off (resource use strategy and reproduction) emerging from the model ?
 
 \chapter{Plasticity: impact on species fitness and diversity}
 
-Plasticity in integrated framework and full community simulations. Plasticity mechanisms, but also plasticity as a strategy (look at the cost and tau). 
-
-Effects on productivity and coexistence. Difference in the correlation ?
-
-Effect of tau on persistence.
+After a rudimentary parameter filtering, guaranteeing the stability of the communities, the effect of the plastic allocation algorithms can be investigated as the community level. As for the for the previous section, the focus is given to the main properties of the community: the diversity, the productivity and the identity. 
+%
+%Plasticity in integrated framework and full community simulations. Plasticity mechanisms, but also plasticity as a strategy (look at the cost and tau). 
+%
+%Effects on productivity and coexistence. Difference in the correlation ?
+%
+%Effect of tau on persistence.
 
 \section{Plasticity and diversity}
 
-Now 
 
 \subsection{Method}
 
 \paragraph{Simulations}
-To test the effect of plasticity on coexistence and community dynamics, runs from the parameter filtering are used as starting points to limit the simulation time of the stabilisation phase. For each parameter set tested, 6 different sites were tested during the calibration phases, 77 parameter sets were accepted and a sample of ... were tested, resulting in ... communities. Each of those is the starting point of three parallel runs that differ only by the allocation algorithm used: \textit{non plastic}, \textit{fixed-equilibrium} and \textit{plastic-optimisation}. The \textit{fixed-equilibrium} is favoured to \textit{fixed-optimisation} algorithm because previous part of the document focused on this algorithm and because it is simpler to analyse. The \textit{plastic-optimisation} algorithm is still simulated, despite the relatively poor performance results observed in constant conditions and the high convergence, because the introduction of plasticity cost, continuous species specific plasticity ($0 < \tau < 1$), and temporal and spatial heterogeneity should mitigate the negative sides of this allocation mechanism and give information of processes at stake.
+To test the effect of plasticity on coexistence and community dynamics, runs from the parameter filtering are used as starting points to limit the simulation time of the stabilisation phase. For each parameter set tested, 6 different sites were tested during the calibration phases, 77 parameter sets were accepted and a sample of 18 were tested, resulting in 108 communities. Each of those is the starting point of three parallel runs that differ only by the allocation algorithm used: \textit{non plastic}, \textit{fixed-equilibrium} and \textit{plastic-optimisation}. The \textit{fixed-equilibrium} is favoured to \textit{fixed-optimisation} algorithm because previous part of the document focused on this algorithm and because it is simpler to analyse. The \textit{plastic-optimisation} algorithm is still simulated, despite the relatively poor performance results observed in constant conditions and the high convergence, because the introduction of plasticity cost, continuous species specific plasticity ($0 < \tau < 1$), and temporal and spatial heterogeneity should mitigate the negative sides of this allocation mechanism and give information of processes at stake.
 
-The plasticity costs (maintenance: related to the value of $\tau$, and displacement: relative to changes in phenotypes) defined in the parameter sets are applied to all algorithms. In \textit{non plastic} simulations, this results in artificial additional costs to species with low values of $\tau$ but with no potential gain from plasticity as the allocation is non plastic. 
+The plasticity costs (maintenance: related to the value of $\tau$, and displacement: relative to changes in phenotypes) defined in the parameter sets are applied to all algorithms. In the \textit{non plastic} simulations, this results in an artificial additional cost to all species, especially those with a low value for $\tau$, but with no potential gain from plasticity as the allocation is non plastic. This choice was made to ensure that the differences between the simulations are the results of the allocation algorithm only, and not a cumulative effect of the algorithm and the plasticity costs that could not be disentangled. This artificial cost can be seen as an artificial abiotic filtering process. Because 400 species are present in the meta-community, enough species with high values of tau should be able to invade the habitats, limiting behaviour emerging from low sampling.
 
 
-\paragraph{Statistical tests}
+%\paragraph{Statistical tests}
 
-The differences of effects between the different types of plasticity on the variables of interest are computed unpaired Wilcoxon tests assuming an independence of the the different data points. This assumption of statistical independence is justified by the normalisation for each parameter set of the variables relative to the mean of the \textit{non plastic} group. This normalisation allows to compare the simulations between the parameters sets. The interactions and other level (site, and autocorrelations) are discussed later in this section. 
+%The differences of effects between the different types of plasticity on the variables of interest are computed unpaired Wilcoxon tests assuming an independence of the the different data points. This assumption of statistical independence is justified by the normalisation for each parameter set of the variables relative to the mean of the \textit{non plastic} group. This normalisation allows to compare the simulations between the parameters sets. The interactions and other level (site, and autocorrelations) are discussed later in this section.
+
+\paragraph{Normalisation}
+To allow comparison between the datasets, the variables are normalised over the mean value of the variable under \textit{non plastic} allocation. So the \textit{non plastic} algorithm is the reference, but the variability caused by sites and seasons is still visible.
 
 The normalisation $Vn_{a, p, t, s}$ of the variable $V$ for the allocation algorithm $a$, the parameter set $p$, the time $t$ and the site $s$ is given by the following formula:
 
@@ -89,6 +123,16 @@ Vn_{a, p, t, s} &= \frac{V_{a, p, t, s}}{ \bar{V} }\\
 
 where $n$ is the number of observations for the \textit{non plastic} algorithm.
 
+\paragraph{Species \& trait values}
+
+For practical reasons the entire composition during the season are not store during the simulation process. The trait values are estimated \textit{a posteriori} from the reproduction pool composed of living individuals and seed produced. The species default values are use to compute the community weighted mean of traits with the living biomass or the cumulative seed biomass. Therefore, even if under \textit{plastic-optimisation} allocation the plants can change their trait values, these changes are not measured.
+
+\paragraph{Diversity measures}
+
+The diversity indexes are computed from the reproduction pool (defined above). The alpha diversity is simple expressed as the mean number of species per site and per year. The beta diversity is defined as the total number of species divided by the alpha diversity minus one. 
+
+The abundance ranking is computed from the reproduction output, under the hypothesis that the reproductive output is proportional to the realised abundance and constitute a good proxy for the fitness.
+
 \subsection{Results}
 
 %Need to run the simulations. Script is almost ready, parameters are filtered from previous step.
@@ -98,7 +142,7 @@ where $n$ is the number of observations for the \textit{non plastic} algorithm.
 
 \paragraph{Effect on coexistence}
 
-The level of coexistence is evaluated by the number of distinct species that manage to maintain at least one individual or produce at least one seed at the end of the season. This criterion allow to ignore the potential non stable diversity introduced by the "meta-community invasion" (sampling of species in the meta-community pool) and to consider species that can be filtered out sue to seed mortality. The number of species increases in almost all simulated years and sites for both plastic allocation algorithms, with a median of 1.5 times the number of species in \textit{non plastic} simulations (see figure \ref{fig:species_richness}). This factor can go up to 6 for \textit{fixed-equilibrium} and 9 for \textit{plastic optimisation}.
+The level of coexistence is evaluated by the number of distinct species that manage to maintain at least one individual or produce at least one seed at the end of the season. This criterion allows to ignore the potential non stable diversity introduced by the meta-community invasion (sampling of species in the meta-community pool) and to consider species that can be filtered out due to seed mortality. The number of species increases in almost all simulated years and sites for both plastic allocation algorithms, with a median of 1.5 times the number of species in \textit{non plastic} simulations (see figure \ref{fig:species_richness}). This factor can go up to 6 for \textit{fixed-equilibrium} and 9 for \textit{plastic optimisation}.
 
 
 \begin{marginfigure}\label{fig:species_richness}
@@ -106,21 +150,22 @@ The level of coexistence is evaluated by the number of distinct species that man
 \caption[Relative species richness in plasticity treatments]{Relative species richness in the three plasticity treatment. To negate the variability due to the parameter sets, the realised number of species is divided by the median number of species in \textit{non plastic} treatment for each parameter set. The variability is due to random invasion and climatic variability (inter-sites and inter-seasons).}
 \end{marginfigure}
 
-The effect of plasticity on coexistence is driven by the benefits of plasticity at the individual scale. These benefits are mitigated by the cost of plasticity, particularly the maintenance cost that affect all species relatively to their potential plasticity.
+The effect of plasticity on coexistence is driven by the benefits of plasticity at the individual scale. These benefits are mitigated by the cost of plasticity, particularly the maintenance cost that affect all species relatively to their potential plasticity (proportional to $ 1- \tau$).
 
 %Plasticity is responsible for high portion of variability, but also parameters: plasticity cost parameters:
+
+
+Low values of plasticity maintenance cost (see figure \ref{fig:pl_cost}) show higher diversity for both plastic allocation algorithms. This trend is consistent across sites despites some inter-annual variability in the diversity. The effect is a bit less stronger for \textit{fixed-equilibrium} than for \textit{plastic-optimisation} (as already observed in figure \ref{fig:species_richness}). It is also important to notice that the cost of the plasticity has no negative impact on the coexistence levels for \textit{non plastic} simulations.
 
 \begin{figure}%[tb]
 %    \classiccaptionstyle
 %\sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
-    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_n_sp_pc_m.pdf}%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf}%
 %}{%
-  \caption[Maintenance plasticity cost effect on species richness]{Effect of the cost of plasticity-maintenance on the absolute number of species in the three plasticity treatments. Individual season values (points) and site-specific trends (gam smoothing line) are represented.}
-  \label{fg:pl_cost}
+  \caption[Maintenance plasticity cost effect on species richness]{Effect of the cost of plasticity-maintenance on the absolute number of species in the three plasticity treatments. Individual season values (points) and site-specific trends (gam smoothing line) are represented. }
+  \label{fig:pl_cost}
 %  }
 \end{figure}
-
-Low values of plasticity maintenance cost (see figure \ref{fig:pl_cost}) show higher diversity for both plastic allocation algorithms. This trend is consistent across sites despites some inter-annual variability in the diversity. The effect is a bit less stronger for \textit{fixed-equilibrium} than for \textit{plastic-optimisation} (as already observed in figure \ref{fig:species_richness}).
 
 %Consistent trends between sites. Inter-season variability (why didn't I save the weather?). Not super clean. Similar (but lower start) for plastic distance diversity. Can be because of interactions %or because non variable enough.
 
@@ -129,25 +174,31 @@ Low values of plasticity maintenance cost (see figure \ref{fig:pl_cost}) show hi
 
 The mechanisms through which the phenotypic plasticity impacts species richness are multiple (refer to the figure \ref{fig:plasticity-effect} in chapter \ref{part:literature}). However it is hard to disentangle them all.
 
-The density can be affected by the phenotypic plasticity leading to higher species diversity\cite{lepik_high_2005}, higher density leading to the sampling of more species. The density, estimated by the number of individual after the reproduction phase (persisting individuals and produced seeds), is consistently higher in \textit{plastic} simulations, but the difference is relatively low (around 3\% higher than the \textit{non plastic} median density) and an order of magnitude lower than inter-annual and inter-site variations that can go up to 40\% difference relative to the median density (for any given parameter set).
+The density can be affected by the phenotypic plasticity leading to higher species diversity\cite{lepik_high_2005}, leading to the sampling of more numerous species. The density, estimated by the number of individual after the reproduction phase (persisting individuals and produced seeds), is consistently higher in \textit{plastic} simulations (data not shown, but see figure \ref{fig:species_per_plant}). But the difference is relatively low (around 3\% higher than the \textit{non plastic} median density) and an order of magnitude lower than inter-annual and inter-site variations that can go up to 40\% difference relative to the median density (for any given parameter set).
 
 
-\begin{marginfigure}\label{fig:tiller_density}
-\includegraphics[]{./2_PP/Figures/Comm/comm_n_sp_differences.pdf}
-\caption[Relative plant density in plasticity treatments]{Relative plant density in the three plasticity treatment. To negate the variability due to the parameter sets, the realised number of plant is divided by the mean number of plant in \textit{non plastic} treatment for each parameter set. The plant density is estimated with the output of the reproduction process.}
-\end{marginfigure}
+%\begin{figure}\label{fig:tiller_density}
+%    \classiccaptionstyle
+%\sidebysidecaption{0.3\textwidth}{0.6\textwidth}{%
+%\includegraphics[]{./2_PP/Figures/Comm/comm_n_indiv_differences.pdf}
+%}{%
+%\caption[Relative plant density in plasticity treatments]{Relative plant density in the three plasticity treatment. To negate the variability due to the parameter sets, the realised number of plant is divided by the mean number of plant in \textit{non plastic} treatment for each parameter set. The plant density is estimated with the output of the reproduction process.}
+% }
+%\end{figure}
 
-If the plant estimated density increases, the number of species relative to the plant density ... with plasticity.
+%The increase in plant density could impact the species diversity by an increase sampling \cite{lepik_high_2005}, or a increase competition intensity.
 
 \begin{figure}%[tb]
-    \classiccaptionstyle
-\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
-%    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_species_density.pdf}%
-}{%
-  \caption[Species richness relative to plant density]{Species richness relative to plant density for the three plasticity treatments.}
-  \label{fg:species_per_plant}
-  }
+%    \classiccaptionstyle
+%\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf}%
+%}{%
+  \caption[The species richness relative to the plant density]{The species richness against the plant density for the three plasticity treatments. To negate the variability due to the parameter sets, the variables are divided by the mean value for the\textit{non plastic} treatment for each parameter set.}
+  \label{fig:species_per_plant}
+%  }
 \end{figure}
+
+Moreover, the species richness shows no evident relationship with the density of plants in any of the algorithms (see figure \ref{fig:species_per_plant}). In addition, the number of individuals is greatly depending on the seed input parameter (strong linear correlation), but this parameter has no consistent effect on the species richness (data not shown).
 
 
 %\paragraph{Plasticity selection}
@@ -155,14 +206,14 @@ If the plant estimated density increases, the number of species relative to the 
 %Not done yet. when is plasticity selected: is there a correlation between environment variables (or variations and plasticity selection). trade-off with other traits ?
 \paragraph{Productivity}
 
-Productivity is also susceptible to be impacted by the phenotypic plasticity at the community level. Multiple mechanisms can be involved, but in any case higher productivity is achieved by high efficiency in the resources given, and plasticity can affect this efficiency at individual level (with positive effects as observed in section \ref{chapter:individual}) or at the community scale with changes in the dominant species and competition intensity.
+The productivity is also susceptible to be impacted by the phenotypic plasticity at the community level. Multiple mechanisms can be involved, but in any case a higher productivity is achieved by a higher efficiency in the use of the resources given. The plasticity can affect this efficiency at the individual level (with positive effects as observed in section \ref{chapter:individual}) or at the community scale with changes in the dominant species, plant density and competition intensity.
 
 \begin{marginfigure}\label{fig:total_BM_comm}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Comm/comm_BMtot_differences.pdf}
-\caption[Average total biomass in plasticity treatments]{Average total biomass relative to \textit{non plastic} simulations, in the three plasticity treatments.}
+\caption[Average total biomass in plasticity treatments]{Average total biomass relative to \textit{non plastic} simulations, in the three plasticity treatments.  To negate the variability due to the parameter sets, the variable is divided by the mean value for the\textit{non plastic} treatment for each parameter set.}
 \end{marginfigure}
 
-The productivity of the \textit{non plastic}, \textit{fixed-equilibrium} and \textit{plastic-optimisation} allocation algorithm show little differences. The \textit{non plastic} simulations average biomass tend to be a bit higher in certain cases. Like the diversity and density, the normalised yearly average biomass does not show great variations between plasticity, but higher variability between sites and seasons. \textit{Non plastic} and \textit{fixed-equilibrium} median are quite similar, and the \textit{plastic-optimisation} show lower productivity than the other two algorithms.
+The productivity of the \textit{non plastic}, \textit{fixed-equilibrium} and \textit{plastic-optimisation} allocation algorithm show little differences. The \textit{non plastic} simulations average biomass tend to be a bit higher in certain cases. Like the diversity and density, the normalised yearly average are used to do the comparison, but the average biomass does not show great variations between plasticity, with a higher variability between sites and seasons. \textit{Non plastic} and \textit{fixed-equilibrium} median are quite similar, and the \textit{plastic-optimisation} show lower productivity than the other two algorithms. Both the conserved average plant biomass and the constant plant density lead to a constant community net productivity.
 
 %\paragraph{Community structure}
 %
@@ -182,67 +233,193 @@ The productivity of the \textit{non plastic}, \textit{fixed-equilibrium} and \te
 
 \paragraph{Plasticity: a winning strategy ?}
 
-The allocation algorithm is expected to alter the fitness of potentially plastic plants. The selective effect of the allocation algorithms is investigated by plotting the $\tau$ value of species that are maintained in only one of the algorithms. Because of the plasticity cost, the selection of species with low values of $\tau$ signifies an improvement of the fitness due to plasticity. The distribution of $\tau$ is fairly high for \textit{non plastic} species and almost 75\% of the species have a value above 0.8, whereas \textit{fixed-equilibrium} specific species have lower values ranging from 0.2 to 1 with the median arond 0.7 and the \textit{plastic-optimisation} species have even lower values with a median around 0.55.
+\begin{marginfigure}\label{fig:tau}
+\includegraphics[]{./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf}
+\caption[Plasticity levels in exclusive groups]{Plasticity levels of species that are present in only one type of plastic treatment. Each point represent one distinct species.}
+\end{marginfigure}
+
+The allocation algorithm is expected to alter the fitness of potentially plastic plants. The selective effect of the allocation algorithms is investigated by plotting the $\tau$ value of species that are maintained in only one of the algorithms (in figure \ref{fig:tau}). Because of the plasticity cost, the selection of species with low values of $\tau$ signifies an improvement of the fitness due to plasticity. The distribution of $\tau$ is fairly high for \textit{non plastic} species and almost 75\% of the species have a value above 0.8, whereas \textit{fixed-equilibrium} specific species have lower values ranging from 0.2 to 1 with the median arond 0.7 and the \textit{plastic-optimisation} species have even lower values with a median around 0.55.
 %Are plastic species more selected than the other ? Probably a bell-shape curves
 
 
-\begin{marginfigure}\label{fig:tau}
-\includegraphics[]{./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf}
-\caption[Plasticity levels in exclusive groups]{Plasticity levels of species that are present in only one type of plastic treatment.}
-\end{marginfigure}
 
+There is a selective effect of the allocation algorithm on the axis related to the plastic strategy, but the resource-use strategies could also be impacted.
 
 %\section{Strategy}
 
 %\subsection{Results}
-\paragraph{Variable strats}
+\paragraph{Variable strategies}
 
-Select different strat? meh, from very site specific strats (one dominant species), to more variable within the site, but less differences between the strats. Shift from beta diversity to alpha diversity.
+After the productivity and the diversity, the identity of the communities is investigated.
 
+Unlike the diversity, the identity of the community, defined by the dominating species, does not show a clear shift under plastic allocation. The great variability observed for each algorithm can be easily decomposed and explained because it is linked to the community structure and the dominant species. To decompose this variability in the identity, the community weighted mean 
+%Select different strat? meh, from very site specific strats (one dominant species), to more variable within the site, but less differences between the strats. Shift from beta diversity to alpha diversity.
+To analyse this variability, the community weighted means (CWMs) for the proportion of active tissues in roots (PAR) is visualised along time for the 6 sites, for 5 representative parameter sets (see figure \ref{fig:comm_strat}. The variability is decomposed between the spatial and the seasonal variability. Under \textit{non plastic} allocation, the CWM values for PAR are stable during time, but contrasted between sites. In contrast, under \textit{fixed-equilibrium} and \textit{plastic-optimisation} allocation, the temporal variability is greater, but the site specific means are closer. This pattern is reproduced for the shoot resource-use strategy (data not shown).
+
+
+The differences in community structure certainly explain these contrasted source of variability of the community identity. The structure is altered by the increased species richness under plastic allocation (see figure \ref{fg:comm_str}, leading to a reduction of the abundance of the most dominant species, in addition of a long tail of the rank-abundance curves due to numerous species with low abundances.
+
+\begin{marginfigure}%[tb]
+%    \classiccaptionstyle
+%\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/mean_com_str2.pdf}%
+%}{%
+  \caption[]{}
+  \label{fg:comm_str}
+%  }
+\end{marginfigure}
+
+This shift in structure at the community scale, but also at the meta-community scale suggest a strong effect of the allocation on the overall structure of the ecosystem.
 %Lead to changes in strats? If yes, is it direction\\
 %al, or is the direction depends on species?%
 %Do species change a lot there strategies?
 
 %Is it always in the same direction for all species ? (reproduce Kichenin).
 
+
+\begin{figure*}%[tb]
+%    \classiccaptionstyle
+%\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_variability_lines.pdf}%
+%}{%
+  \caption[Spatial and temporal variability of the CWMs of the PAR]{Community weighted means of the proportion of active tissues in roots for each site, as a function of time and the allocation algorithm, for 5 representative parameter sets.}
+  \label{fg:comm_strat}
+%  }
+\end{figure*}
+
+
 \paragraph{Different diversities}
 
+% shift from beta to alpha diversity
+Introducing plasticity in allocation lead to a shift in diversity types. \textit{Non plastic} simulation tend to have more differenciated sites, capture in high values of beta diversity, but with low alpha diversity as previously discussed (see figure \ref{fig:diversities}). 
 
 \begin{figure}\label{fig:diversities}
 \includegraphics[]{./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf}
 \caption[Alpha and beta diversities as function of the allocation mechanism.]{Alpha and beta diversities as function of the allocation mechanism.}
 \end{figure}
 
+% what about functional diversity?
+
 \subsection{Discussion}
-\paragraph{Competition evenness}
 
-Plasticity allows the emergence of new phenotypes that are plastic. Leading to higher density in competitors, and greater evenness. Hard to detect because not the same number of species, or require other experiments. 
+%\paragraph{Competition evenness}
 
-\paragraph{shift in strategy}
+%The plasticity allows the emergence of new phenotypes that are plastic. Leading to higher density in competitors, and greater evenness. Hard to detect because not the same number of species, or require other experiments. 
+
+\paragraph{Filtering} 
+The great increase in the species richness observed under plastic allocation, for both the \textit{fixed-equilibrium} and \textit{plastic-optimisation} algorithms,  
+results from a reduction of the strength of the filters. The results at the individual level suggest a weakening of the abiotic filter (1) as the importance of the plastic dimensions is reduced (static gain) and (2) variability in conditions can be overcome creating new habitat possibilities (dynamic gain). In the other hand, the reduction of the abiotic filtering was anticipated to increase the competition intensity as more plants can settle in a given habitat.
+The overall reduction of filtering suggest a greater importance of the abiotic variables compared to competition as a filtering process. But it is difficult to distinguish the two process in this simulation model as they both are expressed by variations in the water and light availability and are perceived in a similar way by the plants. 
+
+%Specific simulation experiment designs varying the dispersion of the strategies of the invading species could help disentangle these effects.  Detail these experiment and results interpretations
+
+The absence of changes in the plant density, together with the stability of the community productivity, support the idea that if the abiotic filtering is reduced, it goes with an increase in competition. Therefore, the increase in species diversity is explained by a shift from a non uniform abiotic filter, to a more uniform biotic filter. Better understanding of the interactions between species strategies, and how they are modulated by plasticity could help building such interpretations at a higher level based on existing theories \parencite{chesson_mechanisms_2000}. The current implementation of \model contains specific functions dedicated to paired simulations to evaluated these interactions. Determining the transitivity properties of these interaction is also crucial to understand the capacity of the model to maintain stable coexistence \parencite{levine_beyond_2017}.
 
 
-also, Jung \cite{jung_intraspecific_2014} show contrasting response between species and within species - might not be the best 
+Alternatively, the plasticity allows species that suffer from changes in resource availability to maintain a positive growth rate during stress periods. Because these plants are maintained, they keep the competition intensity level while this intensity would decrease under \textit{non plastic} allocation where these species disappear. 
+
+With a perspective from coexistence theory could explain the high diversity by the effect of the plasticity as a equalizing mechanism. Allowing species to converge toward better phenotype, or to resist stresses, maintain a certain fitness evenness. While these species are maintain, stabilizing mechanisms such as asymmetric competition can play a bigger role. Indeed, the differences in resource-use strategies suggest a greater intra-specific competition that inter-specific.
+
+Finally, the fact that the species richness is not altered by the cost of the plasticity for \textit{non plastic} simulations (making certain phenotypes non viable), but is altered under plastic allocation, support teh fact that the species richness effect results from the allocation algorithm rather than the plasticity cost.
+
+
+\paragraph{Productivity \& density}
+
+% same level of prod, low increase in pl: probably sub-opitmum convergence
+As mentioned, the productivity is mostly conserved between the allocation algorithms, as the plant density. I hypothesise that the increase in competition compensate the static and dynamic gains provided by the plasticity. It suggests that under \textit{non plastic} allocation, the carrying capacity of the sites is reached. In the other hand, it could be that the increase in competition leads to a decrease in resource-use efficiency as explained by the game theory.
+
+The density of plant is also unchanged. This is consistent with the stability in productivity. This stability in the plant density eliminates any sampling effect that could explain an increase in the observed species number for a given plot area as observed in \cite{lepik_high_2005}.
+
+
+\paragraph{Community structure}
+
+The increase in the species richness necessarily comes with a change in the community structure under plastic allocation. This shift consist in the reduction of the dominance of the most abundant species, an increase in the second and third dominant species, as well as a longer "tail" with many species of low abundance. While the presence of numerous low abundance species could suggest marginal effects  of the plasticity allowing the maintenance of rare species at the border of their niche, the reduction of the relative abundance differences between the species dominating the community demonstrates a stronger effect. 
+%Shift in community structure
+
+This strong effect of the plasticity on the community structure explains the differences in identity variability under the two types of allocation algorithms. In on hand, under the \textit{non plastic} allocation, the identity varies mostly between sites, but stay fairly stable between seasons. In the other hand, the variability in temporal rather than spatial under \textit{fixed-equilibrium} or \textit{plastic-optimisation} allocation. Because the niches are narrow without plasticity, the small climatic differences between the sites lead to different compositions and high spatial heterogeneity in the community identity. The strong filtering force that constitute the changes in conditions does not allow species at low density to establish. These species release the competition intensity when they do not survive climatic stress, offering more resources for the dominating species that translates into a large reproduction effort. Because of storage effect, and strong abiotic filtering, the dominant species is favoured even in bad years. The combination of the sensitity of the fixed phenotypes to changes in conditions with population dynamics favours stable low diversity communities. Under plastic allocation, the niches are wider, allowing more species to invade and survive a given habitat, despite changes in conditions. Because they have wider niches, and the climatic conditions between sites are not that different, the chance that they invade multiple sites are higher than in \textit{non plastic} allocation. Because more species are present, and the competition is more even, the seasonal variations in conditions allow changes in the relative abundance of the species while the community composition is stable. These changes alter the community weighted means and therefore the identity of the community. The differences in species composition and the effects on the CWM of PAR for the three allocation algorithms are illustrated in the figure \ref{fig:explain_strat}.
+
+\begin{figure}\label{fig:explain_strat}
+\includegraphics[]{./2_PP/Figures/Comm/explain_par_variability.png}
+\caption[Effect of the community structure on the inter-site variability of the community identity.]{Inter-site and inter-season variability of the community identity (A) explained by the effect of the plasticity on the community structure (B).}
+\end{figure}
+
+%The allocation algorithm, by impacting the niches and the importance of the abiotic filtering, controls the mechanism driving the community structure.
+
+%also, Jung \cite{jung_intraspecific_2014} show contrasting response between species and within species - might not be the best 
 
 \paragraph{Different mechanisms for different diversities}
 
-%why higher alpha div
 
-Plasticity allows for bigger niche (variability dimension), more chance to build enough "growth potential" to persist. Otherwise, other species that are dominant, because other species can settle, take advantage of it.
-Should look at the growth rates hierarchy for a couple of simulations.
+While many diversity indexes could be used to decompose and analyse the diversity of such communities, these simple indexes (alpha and beta diversity indexes) are sufficient for the level of analysis and they express the differences in the structure of the ecosystem caused by the allocation algorithms.
+
+%why higher alpha div
+The increase in alpha diversity has already been discussed and results from a niche widening (or a reduction of the abiotic filtering). The beneficial value of the plasticity to explain this increase in alpha diversity is demonstrated by the significantly lower value of $\tau$ for the species unique to one of the two plastic algorithms for each parameter set. 
+% Talk about species TO and tau.
+
+The decrease in beta diversity is explained by the larger overlap between community, caused by a larger overlap between species niches. Such effect could even be reinforced by a different implementation of the link with the meta-community. In this set of simulations, the meta-community is composed of the initial set of species, evenly abundant, where invading seeds are randomly sampled. A different approach could be to consider all sites connected, and sample the invading species from the seeds produced in the other sites. In the case of the \textit{non plastic } allocation, because the sites are highly dominated by one species and the site specific conditions generally do not match the narrow niches of the species, a low number of non adapted seeds would not be able to invade the other sites, and reduce the possibility of coexistence relative to a sampling from a much richer meta-community. This would accentuate the contrast between the alpha and the beta diversity. Under plastic allocation, the community share multiple species, if the seed dispersion is limited to the seed produced within the sites, there would be a large redundancy and a low turn-over in the incoming species (relative to a random sampling from a large meta-community) leading to a very low beta diversity. By affecting the niches and therefore the relative distance between sites in the "niche space", the phenotypic plasticity greatly alters the structure, not only of the communities, but also the meta-community.
+%Plasticity allows for bigger niche (variability dimension), more chance to build enough "growth potential" to persist. Otherwise, other species that are dominant, because other species can settle, take advantage of it.
+%Should look at the growth rates hierarchy for a couple of simulations.
 
 % but also lower beta
 
+
+% diversity indexes
 
 % What does it mean to modelling and to community properties ?
 
 
 
-\paragraph{Independence of points}
+\paragraph{Statistics}
 
-Interaction between plasticity effects and parameter sets, but the interest here, even if  it is interesting. Higher variance due to site and weather. The almost perfect knowledge of models allows an extremely precise decomposition of the effects, but at the risks of loosing broad effects. The difficulty is to measure the relative strength of these effects, and generalise. But, by essence, the parameters are suspected to have a significant effect that can be identified, otherwise it would not have been included in the model.
+The allocation algorithm is only one of factors that impact the response variables that are analysed in the previous sections. The parameter sets and climatic variables (year and sites for community-level simulations) also greatly impact the outcome of the simulation. While the perfect knowledge of the model and the total control over the simulations allow us to decompose and disentangle all these effect, the focus has been on the effects of the allocation algorithm, relative to the other effects. As mentioned in the method, the normalisation relative to the mean of each parameter set eliminates partially the complex effect of the numerous parameters on the scale of the variables, while keeping the overall behaviour (reduction, increase or stability). It also allow to compare the effect of the algorithm relative to the other factors source of variations (season and site). Maybe another normalisation could have been performed (standardisation), but this methods seems to provide already consistent information.
+
+Ones could regret the lack of statistical analysis to estimate the significance of the effects. But, as mentioned the total control and knowledge of the model would allow to ensure significance results for any test, and therefore is not informative (see \cite{white_ecologists_2014} for extended arguments). While the effect size could have been calculated, the graphical representation produced provide enough information to estimate these effect size and compare the effect of the explicative variable of interest (allocation algorithm) to the variability caused by the other factors. 
+
+I believe the representation of the model outputs through specific visualisations gives a better understanding of the general behaviour of the model, as well as an intuition of the unique differences between the different conditions, than large tables and statistical test could do in this context. 
+%Interaction between plasticity effects and parameter sets, but the interest here, even if  it is interesting. Higher variance due to site and weather. The almost perfect knowledge of models allows an extremely precise decomposition of the effects, but at the risks of loosing broad effects. The difficulty is to measure the relative strength of these effects, and generalise. But, by essence, the parameters are suspected to have a significant effect that can be identified, otherwise it would not have been included in the model.
+
+% need to reread that, but decomposed when possible, needed, or to show consistency. Not always, to make the description and message clearer.  white_ecologists_2014 : no statistical tests
+
+
+
+\paragraph{Plasticity \& community properties}
+
+
+\paragraph{Robustness}
+
+Is it robust ?
+
+
 
 \subsection{Phenotypic plasticity and global change}
 
-climate 
+2 perspective: differences between with and wtihout pl. Effect on plastic and on non plastic sp.
 
-management
+% critical transition in non plastic communities
+
+% more stable because more diverse, closer communities
+
+% plasticity : more even competition : larger niche -> smoother transitions
+
+% resistance to stress amplitude and frequency : more heterogeneous comm, either more resistant, or more plastic. until only resistance  less rapid shift in identity because asymmetric dynamic gain
+
+
+
+% what about management : abandunment or fertilisation: 
+% - abandonnement: less plastic species,  plasticity itself predict smoother transition
+% - fertilisation : more exploitative, more plastic, could work better than expected if plasticity is considered.
+
+\paragraph{Measures and rules}
+
+intra-specific variation : jensen inequality : with negative effects on coexistence. 
+
+Jensen's inequality: question of measure.
+
+pl = source of variation: driven. There are causes to this variability. Supposing variability under constant rule does not make sense to me. Variability because non constant rules. Under non constant rules (climate, interaction coeeficients, stochasticity) pl has non linear effect (static gain benefit to non fitting species, or asymmetry in dynamic gain) but mostly favour the diversity.
+
+More genetic approaches for the genetic intra-specific var. effect (not just pl), but I on't think it is negative... at least more lickely to alter the source of vairability or the for mof diversity, as observed here from beta to alpha.
+
+measures and rules
+
+\paragraph{Intra-specific variability}
+

@@ -94,7 +94,7 @@ The results from the finished simulations (i.e. the plant lives until the end an
 The parameter filtering procedure is applied on the three main allocation algorithms: \textit{non plastic}, \textit{fixed-equilibrium} and \textit{plastic-optimisation}.
 
 \begin{figure*}\label{fig:comparison_BM}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/weight_full_sim.pdf}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/weight_full_sim.png}
 \caption{Comparison of simulated weights with distribution of weights of real alpine species for contrasting conditions.}
 \end{figure*}
 
@@ -155,7 +155,7 @@ A total of 12 parameters show a relative influence on selection rate for at leas
 \begin{figure}%[tb]
     \classiccaptionstyle
 \sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
-    \includegraphics[width=1\linewidth]{./2_PP/Figures/Calibration/PCA_none.pdf}%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Calibration/PCA_none.png}%
 }{%
   \caption[PCA calibration]{Representation of the PCA of parameter sets selected in parameter filtering process on the first principal components. \textit{Non plastic}.}
   \label{fg:PCA_calibration}
@@ -176,7 +176,7 @@ The total biomass is particularly sensitive to the tissue respiration cost (\tex
 The species specific parameter \texttt{tau} controlling the balance between genetic and environmental control does not emerge as a influencing parameter at the global scale for any of the two flexible allocation rules.
 
 \begin{figure}\label{fig:sensitivity_BM}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/par_effect_none_BM.pdf}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/par_effect_none_BM.png}
 \caption{Main parameters effect on the total plant biomass. \textit{Non plastic}. One dot represents a parameter set. Not all parameter set are represented as the y axis is limited around the smooth function (loess). Coloured points represent selected parameter sets in the two treatments (\textcolor{myOrange}{dry} and \textcolor{myGreen}{wet}).}
 \end{figure}
 
@@ -185,7 +185,7 @@ Root:Shoot Ratio (or RMF in figure \ref{fig:sensitivity_RSR}) strongly responds 
 
 
 \begin{figure}\label{fig:sensitivity_RSR}
-\includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/par_effect_none_RSR.pdf}
+\includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/par_effect_none_RSR.png}
 \caption{Main parameters effect on the total plant Root Mass Fraction (RMF). \textit{Non plastic}}
 \end{figure}
 
@@ -987,7 +987,7 @@ However, this conclusion should be mitigated by the fact that some reproduction 
 % selection of more conservative species, plus reduction of prod that show non compensation mech. -> best strategy during the bad period, but no
 %The selection of more conservative strategy at the end of the gradient confirms the importance of maintaining growth (or reducing losses) during the period of lower water availability, and demonstrates the higher resistance of the conservative strategy to the resource fluctuations.
 
-The reduction of biomass along the gradient, even in plastic conditions, supports the idea of a lack of compensation mechanisms between favourable and unfavourable drought periods. In addition to this conclusion, the better performances of the conservative species in low water conditions relative to exploitive species (see figure \ref{fig:gradient_strat_trend}), suggests that the best strategy is determined by the optimum resource-use strategy of the most important growth period (the drought period). However, another mechanism can be involved and is relative to the capacity of the species to perform well both in conditions that suit its phenotypes, and in conditions that do not suit its phenotype. In a variable environment, the phenotype does not match conditions different from its niche center because of the optimum resource-use strategy may change, or because the balance between root and shoot activity changes. Both can be important. As said, the former is suggested by previous results, however under plastic allocation the optimum resource-use strategy is maintained at high values of proportion of active tissues. Therefore, the difference in optimum resource-use strategy along the gradient cannot explain alone why conservative strategy are better in contrasted environment. The other explaining mechanism is a better resistance to variability from conservative species, relative to exploitative. The variability in water conditions while the light conditions are fairly constant leads to a shift in the balance in the availability of the two resources. If the phenotype is fixed, a shift from balanced conditions (equilibrium between shoot and root is respected for the given phenotype in these conditions) to unbalanced conditions (no more equilibrium for the same given phenotype) can be seen from the plant perspective leading to a reduction of the overall gain function stronger than the actual decrease in resource, because the non limiting organ is in over-capacity. Because they have a higher resource-use efficiency (see figure \ref{fig:asymmetry}), conservative species can cope with this reduction in gain due to unbalanced organ activities. Therefore, in variable conditions, the optimum strategy shifts toward conservative strategies that have the capacity to support greater exchange rate reductions. Under plastic allocation, the equilibrium is maintained, reducing the need for a strategy resistant to resource fluctuations. This illustrated by the figure \ref{fig:variable_trajectories} that shows along the variability gradient a direct shift toward more conservative root strategies and greater root allocation, while under plastic allocation, the shift toward conservative strategies is delay for stronger availability gradient, but the RMF shows larger values (they are measured at the end of the simulation, when the water availability is reduced).
+The reduction of biomass along the gradient, even in plastic conditions, supports the idea of a lack of compensation mechanisms between favourable and unfavourable drought periods. In addition to this conclusion, the better performances of the conservative species in low water conditions relative to exploitive species (see figure \ref{fig:gradient_strat_trend}), suggests that the best strategy is determined by the optimum resource-use strategy of the most important growth period (the drought period). However, another mechanism can be involved and is relative to the capacity of the species to perform well both in conditions that suit its phenotypes, and in conditions that do not suit its phenotype. In a variable environment, the phenotype does not match conditions different from its niche center because of the optimum resource-use strategy may change, or because the balance between root and shoot activity changes. Both can be important. As said, the former is suggested by previous results, however under plastic allocation the optimum resource-use strategy is maintained at high values of proportion of active tissues. Therefore, the difference in optimum resource-use strategy along the gradient cannot explain alone why conservative strategy are better in contrasted environment. The other explaining mechanism is a better resistance to variability from conservative species, relative to exploitative. The variability in water conditions while the light conditions are fairly constant leads to a shift in the balance in the availability of the two resources. If the phenotype is fixed, a shift from balanced conditions (equilibrium between shoot and root is respected for the given phenotype in these conditions) to unbalanced conditions (no more equilibrium for the same given phenotype) can be seen from the plant perspective leading to a reduction of the overall gain function stronger than the actual decrease in resource, because the non limiting organ is in over-capacity. Because they have a higher resource-use efficiency (see figure \ref{fig:asymmetry}), conservative species can cope with this reduction in gain due to unbalanced organ activities. Therefore, in variable conditions, the optimum strategy shifts toward conservative strategies that have the capacity to support greater exchange rate reductions and have a greater \textemph{resistance to variability}. Under plastic allocation, the equilibrium is maintained, reducing the need for a strategy resistant to resource fluctuations. This illustrated by the figure \ref{fig:variable_trajectories} that shows along the variability gradient a direct shift toward more conservative root strategies and greater root allocation, while under plastic allocation, the shift toward conservative strategies is delay for stronger availability gradient, but the RMF shows larger values (they are measured at the end of the simulation, when the water availability is reduced).
 
 \textbf{The plasticity of the RMF axis allows plants to cope with resource availability and maintain exploitative strategies. These strategies are more sensitive to changes in resource levels under \textit{non plastic} allocation than the conservative species that benefit from a rgeater resource-use efficiency.}
 
@@ -1007,19 +1007,23 @@ The reduction of biomass along the gradient, even in plastic conditions, support
 While the phenotypic plasticity does not provide any clear advantage to a type of species in constant conditions, in changing conditions the phenotypic plasticity benefit to the exploitative species that are able to maintain good performances in contrasted conditions (see figure \ref{fig:variable_strategy}). Because the plasticity gain is assymetric, the phenotypic plasticity alters the identity of the community and promotes exploitative species in variable conditions while conservative species are favoured under \textit{non plastic} allocation. In a more theoretical view, the plasticity can be seen as an alteration of the strength of the stress as shapping factor of community \parencite{grime_evidence_1977}. If the plasticity allows the exploitative species to better support stress, in modelling studies that do not take into account such plasticity, the amplitude of the stress needed to see a shift in the community identity may under-estimated.
 
 % effect on the stability of the community
-This asymmetric gain should favour already established species as it lowers the perturbation effect of climatic fluctuations. This stability is interesting for the maintenance of the ecosystem properties and services provided by the mountain communities. It also support the idea of a greater resistance to climatic event that are expected to be more frequent under the climate change. 
+This \textemph{asymmetric gain} should favour already established species as it lowers the perturbation effect of climatic fluctuations. This stability is interesting for the maintenance of the ecosystem properties and services provided by the mountain communities. It also support the idea of a greater resistance to climatic event that are expected to be more frequent under the climate change. 
 
 % Why is that ? absolute and relative, the role of the euilibrium
 
 \paragraph{Dynamic gain and stability}
 
-
+The plasticity has also an effect on the maximum biomass as observed in the figure \ref{fig:variable_BM}. This effect is almost null in constant condition, as expected from the previous simulations, but increases with the resource variability. There is no evidence of improvement for all resource-use strategy, but because the unbalance caused by the temporal variability in resource greatly reduce the productivity, we can assume improvement of the biomass for all strategies. Therefore, the productivity between non plastic and plastic community under variable conditions should increase.
 
 \begin{figure}\label{fig:variable_filter}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/variable_filter.pdf}
-\caption[Abiotic filtering in temporally variable conditions]{Conceptual representation of the abiotic filtering in variable conditions and the illustration of the dynamic gain. The top panel represent the abiotic filtering landscape with a sinuous valley, and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines. }
+\caption[Abiotic filtering in temporally variable conditions]{Conceptual representation of the abiotic filtering in variable conditions and the illustration of the dynamic gain. The top panel represent the abiotic filtering landscape with a sinuous valley, and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines.}
 \end{figure}
 
+This is explained by the trajectories within the fitness landscape that can follow the changes in the optimum phenotype, and so present a total biomass superior to the best \textit{non plastic phenotype} (see figure \ref{fig:variable_filter}). The difference of biomass between a \textit{non plastic} phenotype and its plastic counter-part (\textit{fixed-equilibrium} or \textit{fixed-optimisation}) is call the \textemph{dynamic gain}.  This gain is not caped by the best \textit{non plastic} performance.
+
+
+The overall increase in productivity, in addition to the reduction of the abiotic filtering effect, should greatly increase the competition
 %Because the shift in non plastic condition is due to vulnerability, and not optimum strat during the most growing period. (there could be some compensation, leading to best exploit phen,, even if conservative are indeed more perf in drought period).
 
 % What what consequences for the productivity (cite maire)
@@ -1028,6 +1032,12 @@ This asymmetric gain should favour already established species as it lowers the 
 
 
 \paragraph{About diversity}
+
+The dynamic gain observed in temporally variable conditions has a similar effect on the abiotic filtering process than the static gain as the species are able to converge toward a moving phenotype and maintain positive growth, despite not having the best starting phenotype (see figure \ref{fig:variable}). However, in this context this effect is even more important as it can allow species to establish in local conditions that not \textit{non plastic} species could invade. In other words in makes some habitats viable that would not be if there was not any plasticity. This effect can only be positive of species diversity because it is a net gain with not direct effect on competition.
+
+% Could be confirmed by the plot of the number of parameter set that maintain at least one species until the end.
+
+
 
 %
 %\paragraph{Improvement in variable conditions}
@@ -1057,6 +1067,8 @@ This asymmetric gain should favour already established species as it lowers the 
 %\item different weights between mechanisms impacting composite traits, because of the different traits.
 %\end{itemize}
 
+\textbf{The phenotypic plasticity in variable conditions show similar processes that in fixed conditions. The convergence of the species toward a optimum sub-space lead to a reduction of the functional diversity but an increase of the species diversity. This reduction of the abiotic filtering should also increase the importance of the competition as a regulating process. However, it differs by a asymmetric gain that favours exploitative species that are the most vulnerable to changes in resource availability under \textit{non plastic} allocation. In addition to this alteration of the community identity under plastic allocation, the productivity/competition intensity at a community level vould be increased by a dynamic gain that improves the performance of the best phenotypes where the static gain does not (in stable conditions). }
+
 
 \begin{figure}\label{fig:variable_pl_effect}
     \classiccaptionstyle
@@ -1068,8 +1080,9 @@ This asymmetric gain should favour already established species as it lowers the 
 \end{figure}
 
 
-\textbf{The phenotypic plasticity implemented in \model improve the relative performance of multiple strategies by concentrating the plant toward a subspace of higher performance for most of plants. Convergence to a smaller subspace can be assimilated to reduction in phenotypic diversity, but it reduce performance heterogeneity and should favour local plant diversity. However, this effect should be limited by plasticity cost. Indeed, if the growth gain due to plasticity is only static, any species with a fixed phenotype closer to the optimum than the focus species has a better growth rate and exclude the focus species.
-. a few words on dynamics... Meta-community diversity is however reduces by the reduction of potential axis for niche differentiation. Plasticity costs and limits should play major role in the balance between these mechanisms. Community level simulations are needed to further understand the cumulative role of competition, spatial and temporal variability and plasticity costs on phenotypic plasticity influence on plant community dynamics.}
+\textbf{The phenotypic plasticity implemented in \model improves the relative performance of multiple strategies by concentrating the plant toward a subspace of higher performance for most of plants. Convergence to a smaller subspace can be assimilated to reduction in phenotypic diversity, but it reduce performance heterogeneity and should favour local plant diversity. However, this effect should be limited by plasticity cost. Indeed, if the growth gain due to plasticity is only static, any species with a fixed phenotype closer to the optimum than the focus species has a better growth rate and exclude the focus species.
+%Meta-community diversity should however reduces by the reduction of potential axis for niche differentiation. Plasticity costs and limits should play major role in the balance between these mechanisms.
+ Community level simulations are needed to further understand the cumulative role of competition, spatial and temporal variability and plasticity costs on phenotypic plasticity influence on plant community dynamics.}
 
 
 \section{Other plasticity patterns, alternative implementations and stability of results}
@@ -1144,7 +1157,7 @@ Aside from the way plant alter their phenotype to respond to estimated heterogen
 \caption[Stress memroy and recovery]{Stress memroy and recovery. A theoretical example of memory formation, where up to thousands of stress-inducible transcripts (blue lines) respond to the initial stress, concurrently with accumulation of signaling molecules and the release of repressive chromatin (red lines). Upon reexposure to a second stress, persistent signaling molecules and a retained accessible conformation of chromatin (solid lines) allow an enhanced stress response. The recovery period is a critical window where plant memory can be consolidated or resetting (dashed lines) can occur. \textit{Modified from \cite{crisp_reconsidering_2016}}.}
 \end{figure}
 
-Such mechanism would stabilise the plastic responses in case of non recovery, or increase the inertia and the amplitude of the response with the transcriptional memory. The stress can be quantified easily, leading to a proportional response of the phenotype to compensate the stress. In the context of the functional equilibrium the deficit in the activity in one organ can be compensated by its increase in exchange area. Because the response is related to the stress and not a gain function, it does not have to follow the same constraints as the initial strategy as it is in \model, offering a response decorrelated from the resource-use strategies. When the response can be achieved in multiple ways (increase in allocation or morphological change), decision must be developed. It seems that this functioning allows for the integration of multiple stress factors, independently, however, difficulties may emerge if they alter the same organ. Cases of additive stress (water and nutrient) can be observed in empirical studies \parencite{fort_root_2015}, suggesting that an additional approach to this problem could work. Multiple stress integration was one of the objectives of the model \model and it was integrated but not tested.
+Such mechanism would stabilise the plastic responses in case of non recovery, or increase the inertia and the amplitude of the response with the transcriptional memory. The stress can be quantified easily, leading to a proportional response of the phenotype to compensate the stress. In the context of the functional equilibrium the deficit in the activity in one organ can be compensated by its increase in exchange area. Because the response is related to the stress and not a gain function, it does not have to follow the same constraints as the initial strategy as it is in \model, offering a response decorrelated from the resource-use strategies. When the response can be achieved in multiple ways (increase in allocation or morphological change), decision must be developed. It seems that this functioning allows for the integration of multiple stress factors , however, difficulties may emerge if they alter the same organ. Cases of additive stress (water and nutrient) can be observed in empirical studies \parencite{fort_root_2015}, suggesting that an additional approach to this problem could work. Multiple stresses integration \cite{pierik_art_2014} was one of the objectives of the model \model and it was integrated but not tested.
 
 The implementation of the stress-based plasticity seems to have the potential to better mimic the plastic behaviour of plant, with recovery and amplified responses, reduced constraints on the axes of the plastic response and greater response variability. However it comes with an additional level of complexity with more required species and stress specific traits, and stress specific decision rules.
 
@@ -1164,15 +1177,23 @@ Because the reaction norm approach does not give an optimum phenotype, but a var
 
 % drawbacks
 
-\paragraph{Heterogeneity of responses}
+\paragraph{Resistance or avoidance}
 
 % observed in many cases
 The reaction norms, as opposed to the integrative shared gain function, allows a great heterogeneity in plasticity. This plasticity seems necessary when the plastic responses of multiple species along multiple gradient are observed. Indeed, different species may respond differently to specific treatments \parencite{ grassein_plant_2010, freschet_plasticity_2013}, or even different populations \parencite{frei_plastic_2014}, or along a large gradient \parencite{kichenin_contrasting_2013}.
 
 % resistance vs avoidance: the stress degree and initial strategies
-While the implementation of species specific reaction norms allows contrasted responses, these plastic responses need to make sense in an ecological perspective. In other word, the alternative changes in phenotype need to lead to a greater (or more stable) fitness.
+While the implementation of species specific reaction norms allows contrasted responses, these plastic responses need to make sense in an ecological perspective. In other word, the alternative changes in phenotypes need to lead to a greater (or more stable) fitness. Therefore, in face of a stress, to maintain positive fitness ones can either try to avoid the stress or try to resist to the stress. It is often hard to tell which strategy is the best (and it may depend on the overall resource-use strategy of the species), therefore they coexist and be observed between different species in the same conditions \cite{perez-ramos_tradeoffs_2013}, or alternate if the conditions offer sufficient information  to determine which strategy is the better \cite{heger_light_2016}. Under stress-based plasticity, the form and parameters of the reaction norms can control the balance between the two. Under architectural plasticity, the direction of the response to the stress can also allow these contrasting responses to coexist (reduction of the non-limiting-organ exchange area, or increase of the limiting-organ exchange area).
 
 \paragraph{Robust observations?}
+
+Having described roughly two alternative/extended implementations of the phenotypic plasticity, we can try to estimate if the results observed with the current implementation would be reproduced under these alternative models. This should give us an idea of how these pattern can generalise.
+
+To summary, two alternative implementations are proposed:
+\begin{itemize}
+\item I1: the architectural plasticity, exchange area regulation based on measure difference in activity;
+\item I2: the stress-based plasticity with species specific additive reaction norms.
+\end{itemize}
 % static and dynamic gain
 
 % asymmetry for exploitative
