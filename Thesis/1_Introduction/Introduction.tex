@@ -242,17 +242,26 @@ This trait-based approach, demanding in data collection effort, benefit from the
 
 \paragraph{Are there patterns?}
 
-some interspecific patterns:
 
-along climatic \parencite{niinemets_global-scale_2001, wright_worldwide_2004}
-,on nitrogen (Dwyer)
+The use of large data sets unlocks the study of large scale patterns that could be studied before in ecology. For example, \cite{niinemets_global-scale_2001} show strong global patterns along climatic variables for shrubs and trees all over the plant. The mean monthly precipitation of the three driest month and the incidcent daily mean global solar radiation are correlated to leaf structural traits. Such patterns are also observed for leaf structural and chemical traits in \cite{wright_worldwide_2004}.
+%some interspecific patterns:
 
-but also correlations and intra-specific
-change of traits along gradients. Is it interesting?
+\begin{figure}
+    \includegraphics[width=1\linewidth]{./1_Introduction/graphics/map_niinemets.png}
+  \caption[Site distribution for the paper \cite{niinemets_global-scale_2001}]{Distribution of the sample locations around the globe. The full set of data compiled from 121 studies consisted of 39 needle-leaved and 558 broad-leaved C3 and C4 trees and shrubs from 182 geographical locations. Example of large dataset compiled from widely distributed sites. From \cite{niinemets_global-scale_2001}.}
+  \label{fig:paradigm_shift}
+\end{figure}
+
+But the functional traits can be used at a more local scale to disentangle the species and the community responses \cite{kichenin_contrasting_2013, jung_intraspecific_2014}.
+%along climatic \parencite{niinemets_global-scale_2001, wright_worldwide_2004}
+%,on nitrogen (Dwyer)
+%
+%but also correlations and intra-specific
+%change of traits along gradients. Is it interesting?
 
 
 
-\textbf{The complexity of coexistence and community dynamics processes could not be captured with traditional species centred ecology. The last two decades saw the rise of functional ecology and its ability to capture quantitatively the relationship between vegetation and abiotic gradients. The capacity to }
+\textbf{The complexity of coexistence and community dynamics processes could not be captured with traditional species centred ecology. The last two decades saw the rise of functional ecology and its ability to capture quantitatively the relationship between vegetation and abiotic gradients. The capacity to generalise ecological patterns thanks to easily measurable traits open the door for generalised theories on the plant functioning.}
 
 %\subsection{Understanding interaction and competition: a question of symmetry?}
 \subsection{Traits and competition}
@@ -548,17 +557,35 @@ Higher diversity can be achieved in these models, but numerous species can be di
 %-----------------------------------------------------------------------------------------
 \subsection{How models inform us on properties and dynamics}
 
-reineking: the shift in dominance along a gradient
-maire : trade-offs
+The term \textemph{model} represent a large class of simplified representations of real systems, or conceptual ideas. These are always tools to better understand our world, it can be more by their design and their construction or more by their use (simulations). Here the focus in on simulation models, and particularly agent-based models (of grassland systems). How can these models inform us on the real systems?
 
-better understanding of mech. and their effects: \cite{nippert_challenging_2015} root vertical distribution.
+\paragraph{Hypothesis testing}
 
-reu ?
+One way the use of models can help us understanding a system is the simulation experiment. This approach is very similar to empirical experiments. The experimenters put the system, here the model, in different conditions and confront the results with the hypothetical results predicted by the theory they are testing. In this case, the model is treated as a functional representation of the reality providing the necessary properties to test the hypothesis. And the model shines here in contrast with the real system by its capacity to test large numerous conditions for a very low cost, both in money and time. This is for example the case of the model developed by \cite{taubert_modelling_2014} to test the richness-productivity hypothesis. These simulation models also allows prediction/exploration of the system behaviour under alternative climate scenarios \parencite{rodriguez_lingra-cc:_1999, scheiter_impacts_2009}. This is particularly interesting to explore global change scenarios.
 
-schaiter: value of a trait context dependant.
+But, this requires a certain level in confidence toward the model. This confidence is acquired during the building and calibration process, that can also give insight on the systems modelled.
+
+\paragraph{Minimal reproduction}
+
+One model, as it is a simplification of a given system, has often one perspective, driven by the questions the scientist tries to answer. Because of that, the modeller tries to reproduce only a fraction of the properties/behaviours of the real system. In this case, the models inform us by their capacity to reproduce these essential properties with a minimum number of features and the minimal complexity. This is helpful to identify and understand the core mechanisms that allows the emergence of a particular behaviour of the system. \cite{reineking_environmental_2006} show the capacity of simple allocation trade-offs to let emerge diverse communities, in addition to show the importance of the water (temporal and spatial distribution) as a driver of the community structure. The complexity of the studied systems or organism often limits the identification of the causes of a given pattern. Models are valuable when they have the capacity to reproduce these patterns with a minimal complexity, identifying the necessary and sufficient components required for the behaviour to emerge. See the work of \cite{lohier_explaining_2014} on the ontogenetic shift in Root:Shoot ratio for different species.
+
+The calibration process can be necessary to gain confidence in the model, but itself provide new insights. In particular, Bayesian techniques rely on specific data to inform on the value of the model's parameters. These specific parameters can have a value to understand the biology or specificity of the species relatively to other species or the mean behaviour of the model.
+
+\paragraph{On/Off buttons}
+
+A mix of these two forms of insights come from the unique feature of simulation models: their capacity 	to turn on or off they mechanisms, or rather to switch between different representations of the system. This capacity offers a great flexibility and allows to understand the role of the different compartment of the model, and the likelihood of alternative mechanisms. This particular method was used for example in the work of \cite{maire_plasticity_2013} to explore the effects of plasticity on grassland communities.
+
+%reineking: the shift in dominance along a gradient
+%maire : trade-offs
+%
+%better understanding of mech. and their effects: \cite{nippert_challenging_2015} root vertical distribution.
+%
+%reu ?
+
+%schaiter: value of a trait context dependant.
 
 
-\textbf{The use of strategy spaces in models allows the representation of high diversity in a common plant functioning framework requiring a limited number of parameters. Such approaches are very useful to follow the dynamics of communities in a mechanistic framework. Individual models tend to ignore such simplifications procedure and relies on the direct measure of traits of interest because they generally integrate a limited number of species. IBMS can take advantage of trade-offs and simple strategy spaces to model diverse communities at small scales while keeping biological mechanisms at their core. However, model-based of strategy space tend to consider mean individuals and ignore the individual variations.}
+\textbf{The use of strategy spaces in models allows the representation of high diversity in a common plant functioning framework requiring a limited number of parameters. Such approaches are very useful to follow the dynamics of communities in a mechanistic framework. Individual models tend to ignore such simplifications procedure and relies on the direct measure of traits of interest because they generally integrate a limited number of species. IBMS can take advantage of trade-offs and simple strategy spaces to model diverse communities at small scales while keeping biological mechanisms at their core. These models can then be used in different ways to build better understanding of the modelled systems. However, model-based of strategy space tend to consider mean individuals and ignore the individual variations.}
 
 
 % #######################################################################################
@@ -625,7 +652,9 @@ Intra-specific variability impacts coexistence mechanisms and community properti
 \paragraph{Jensen inequality}
 
 \cite{hart_how_2016} use a mathematical model to investigate the impact of intra-specific variations on coexistence. They demonstrate the negative effect of intra-specific variations by the intermediate of Jensen inequality effects, that leads to an under-estimation of competitive dominance because of the non-linearity. I argue that this problem is partially solved if the estimation of the mean parameter is empirical, in this case, the variability is taken into account.
-Moreover, this certainly applies to genetic variations. Indeed, the plastic response would emerge if there are changes in conditions, changes that certainly affect the competitive interactions. Such change (justifying a change in phenotype), is likely to alter the competition relationship as modelled. This supposition is supported by the fact that variations away from the mean are generally due to a distance from the optimum of the niche, and therefore, certainly a lower fitness and lower competitive ability. 
+Moreover, this certainly applies to genetic variations. Indeed, the plastic response would emerge if there are changes in conditions, changes that certainly affect the competitive interactions. Such change (justifying a change in phenotype), is likely to alter the competition relationship as modelled. This supposition is supported by the fact that variations away from the mean are generally due to a distance from the optimum of the niche, and therefore, certainly a lower fitness and lower competitive ability.
+
+The Jensen's inequality is one of the many mechanism through which the intra-specific variability can impact the dynamics of communities \parencite{bolnick_why_2011}.
 %Jensen inequality ... 
 %Intra-specific variability can affect 
 
@@ -633,52 +662,67 @@ Moreover, this certainly applies to genetic variations. Indeed, the plastic resp
 
 \paragraph{Niche}
 
+Intra-specific variations (ISVs) can also greatly affect the niche, as any new phenotype is likely to be better adapted to an alternative environment. Therefore, this variability widden the potential niche of the species. In addition to have a potential large impact on the community structure and dynamics, the comparison of the different levels of variance give insights on the driving forces shaping the communities \parencite{violle_return_2012}.
 
-ISV also 
-effect of abiotic filtering
-
-effect on realised niche
-
-neighbours: avoid or increase competition
+The flexibility offered by a wider niche also impact the mechanisms shaping the community and the relative importance of the habitat filtering and niche differentiation \cite{jung_intraspecific_2010}, with potential positive impact on the species diversity.
+%
+%ISV also 
+%effect of abiotic filtering
+%
+%effect on realised niche
+%
+%neighbours: avoid or increase competition
 
 
 \paragraph{Contrasting effects}
 
-specifically on diversity
+The previous paragraphs illustrate the contrasted effects the intra-specific variability can have on a community, especially its diversity. Numerous other studies highlight the potential for positive and negative impacts of the intra-specific variability. In additiion to already mentioned studies, the work by \cite{courbaud_intra-specific_2010} highlight that "intra-specific variability allows flexible patterns of community dynamics and could explain discrepancies between observations and classical theories.". More specific work on the phenotypic plasticity, a specific case of ISV, strong effect of this source of variability. It can lead to a shift from competitve interaction to facilitation interactions \parencite{callaway_phenotypic_2003}, or, by impacting the niches, affect negatively the niche separation while at the same time supporting stronger niche differentiation \parencite{roscher_contrasting_2015}. The difficulty to understand and predict the effect of this plasticity is highlighted in the context of the modern theory by the study of \cite{turcotte_phenotypic_2016}. 
 
-callaway 2003 from competition to facilitation.
+Facing this ensemble of contrasted, sometimes conflicting, results, many suggest and support that more work is required to better understand the effect of this variability of the community dynamics \parencite{ bolnick_why_2011, violle_return_2012, valladares_species_2015}, but also try to determine when it should be considered \parencite{albert_when_2011}.
 
-\cite{bolnick_why_2011}
-\parencite{hart_how_2016}
-\parencite{courbaud_intra-specific_2010}
-\parencite{turcotte_phenotypic_2016}
-\parencite{roscher_contrasting_2015}
-\parencite{valladares_species_2015}
-\parencite{barabas_effect_2016}
-\parencite{jung_intraspecific_2010}
+%callaway 2003 from competition to facilitation.
+%
+%\cite{bolnick_why_2011}
+%\parencite{hart_how_2016}
+%\parencite{courbaud_intra-specific_2010}
+%\parencite{turcotte_phenotypic_2016}
+%\parencite{roscher_contrasting_2015}
+%\parencite{valladares_species_2015}
+%\parencite{barabas_effect_2016}
+%\parencite{jung_intraspecific_2010}
 
-\textbf{The intra-specific variability has been observed to be an important part of community functional diversity, but also a way the community responds to changes in conditions. In addition to the empirical evidence of this importance, theoretical approaches support contrasting effects of such variations on coexistence mechanisms, evolutionary processes and community responses to climate event or invasion. It is crucial to disentangle different sources of intra-specific variability in order to their understand potential effect on ecosystem dynamics.}
+\textbf{The intra-specific variability has been observed to be an important part of community functional diversity, but also a way the community responds to changes in conditions. In addition to the empirical evidence of this importance, theoretical approaches support contrasting effects of such variations on coexistence mechanisms, evolutionary processes and community responses to climate event or invasion. It is crucial to disentangle different sources of intra-specific variability in order to understand their potential effects on the dynamics and properties of the communities, and ecosystems.}
 
 %-----------------------------------------------------------------------------------------
 \subsection{Beyond the mean and the bell-shape: towards more mechanisms in representing intra-specific variability}\label{subsection:bell-shape}
 
-\paragraph{...}
-There is a difference between how we observe ISV, and why it emerges. What is random? Therefore it is  ... not good ... to apply such simplification of random effect onto theoretical models to predict the effect of intraspecific variability with strong assumptions (observed on the functional trait in wide spatial range, applied to interactions in homogeneous context) on how they translate onto interactions (done in Halt, check Boltnick) 
-\cite{albert_intraspecific_2010} bell shape intra-specific response pattern along gradient, but doesn't stand according to \cite{kichenin_contrasting_2013}. Depends on trait and gradient... cannot assume that, need real quantification. ok if not a gradient response (or gradient is not known).
-Bell shape can emerge from non-measured gradient with linear response. 
+\paragraph{Where is it from?}
+Before the increasing interest in ISV during the last decade, this variability was treated as a random effect, partly explaining why it was ignored. But, without discussing too much the philosophy of what is random, we could agree that often the random character of an event is attached to the level of knowledge we have of the conditions leading to this event. That means that intra-specific variability is considered random because we do not have enough information (either too complex, unreachable, or both) do understand/predict the distribution of the different outcomes. But ignoring the mechanisms that lead to this variability causes two simplifications that can alter our interpretations and our understanding of its effects.
 
-Dewitt and Barabas.
+First, because it is considered random, ones can overlook the available information about this random event, \textit{i.e.} its distribution. But simply ignoring it, or just apply the same normal normal distribution to all levels of variability. New modelling approaches tend to consider a more precise description of the ISV distribution by looking at its different moments \cite{dewitt_expanding_2016}(see also \cite{barabas_effect_2016}, to a certain degree). This can lead to errors due to non linearity \parencite{bolnick_why_2011, hart_how_2016}, or non perceived continuous behaviours \parencite{courbaud_intra-specific_2010}.
 
-The same way the neutral theory is simplifying and brings little understanding to underlying processes and relies on strong hypothesis, considering intra-specificity as a purely random mechanism is insufficient.\\
-Bell shape does not appear in altitude gradient... inconsistencies between theory and empirical data\\
-Strong theoretical hypothesis\\
-refer to asymmetric and symmetric competition\\
+Second, considering this variability as random, makes you ignore the underlying mechanisms and therefore implicitly formulate a strong hypothesis on the absence of driving mechanism. This can have strong effect on how ones can interpret fundamental theories \parencite{turcotte_phenotypic_2016}. This is somehow similar to the default hypothesis of the competition linked to the distance in the trait-space, that ignore hierarchical competition \parencite{kunstler_plant_2016} or non transitivity \parencite{levine_beyond_2017}. But establishing coherent hypothesis that explain this variability may not be that easy, and is often biased by a "bell-shape" view of the "random" phenomenons leading to hypothesis  that may not explain empirical observations (see the discusion in \cite{kichenin_contrasting_2013} around the hypothesis developed in \cite{albert_intraspecific_2010}).
 
-\paragraph{...}
-If most of the changes are plasticity or selection: it changes the effects on interactions and niche.\\
-What are the possible effects? probably it does not affect interaction like \parencite{hart_how_2016} supposes (even if they talk about variations, their conclusions may not be extendable to plastic variations). May change a lot the balance between abiotic filtering and biotic filtering. 
 
--- go to individual mechanisms, evolution could tackle genetic variations, physiology and ecology on ontogeny, and evolution and ecology on phenotypic plasticity
+%There is a difference between how we observe ISV, and why it emerges. What is random? Therefore it is  ... not good ... to apply such simplification of random effect onto theoretical models to predict the effect of intraspecific variability with strong assumptions (observed on the functional trait in wide spatial range, applied to interactions in homogeneous context) on how they translate onto interactions (done in Halt, check Boltnick) 
+%\cite{albert_intraspecific_2010} bell shape intra-specific response pattern along gradient, but doesn't stand according to \cite{kichenin_contrasting_2013}. Depends on trait and gradient... cannot assume that, need real quantification. ok if not a gradient response (or gradient is not known).
+%Bell shape can emerge from non-measured gradient with linear response. 
+%
+%Dewitt and Barabas.
+%
+%The same way the neutral theory is simplifying and brings little understanding to underlying processes and relies on strong hypothesis, considering intra-specificity as a purely random mechanism is insufficient.\\
+%Bell shape does not appear in altitude gradient... inconsistencies between theory and empirical data\\
+%Strong theoretical hypothesis\\
+%refer to asymmetric and symmetric competition\\
+
+\paragraph{Why changing?}
+
+Considering the underlying process of a phenotypic variability is crucial. This is particularly the case for theoretical models that study the coexistence. In such studies, the conditions are often homogeneous, and therefore the fitness or interactions are solely depending on the traits for the given mean conditions. However, under the hypothesis that the variability has an evolutionary value, some sort of variability in conditions is required to see the emergence of phenotypic variability. Either the phenotypes are stable within individuals but diverse for a given species, and this genetic variability provide gain at the level of the population dynamic. Or it the individuals can adapt to contrasted conditions, and the heterogeneity in conditions explain the vairability. In any case, the alternative phenotypes have a better fitness than the phenotype of reference, otherwise these forms of intra-specific variability would have been excluded. Therefore, it suggests that the rules of interaction analysed in these models for the "mean" conditions are not maintained (in term of sign or amplitude) for the specific conditions of the alternative phenotypes. 
+
+%If most of the changes are plasticity or selection: it changes the effects on interactions and niche.\\
+%What are the possible effects? probably it does not affect interaction like \parencite{hart_how_2016} supposes (even if they talk about variations, their conclusions may not be extendable to plastic variations). May change a lot the balance between abiotic filtering and biotic filtering. 
+%
+%-- go to individual mechanisms, evolution could tackle genetic variations, physiology and ecology on ontogeny, and evolution and ecology on phenotypic plasticity
 
 
 \textbf{Simple approaches to intra-specific variation constitute an improvement over mean approaches as they highlight processes ignored until now. However such approaches overlook the structure of the variability and underlying processes, leading to simplistic representations and potentially misinterpret the role and effect of this variability.}
@@ -686,7 +730,7 @@ What are the possible effects? probably it does not affect interaction like \par
 % section/chapter conclusion
 
 \textbf{%As ecology shifted from species to traits syndromes, it seems that it needs to go from syndromes to distributions and drivers.
-Ecology shifted from species to traits syndromes with great success, but the intra-specific variability constitutes a great challenge for generalisation of observed patterns. By overlooking the processes that structure intra-specific variations, we might lose the capacity to properly interpret the role of variability and refine our understanding of community functioning. The complexity of living communities requires to go further down and consider the individual scale. This is made possible by the accumulation of more and more numerous and detailed data, the improvement of statistical and new simulation tools. The question of the sources and drivers of intra-specific functional variability seems crucial to rise to the challenge it issues.}
+Ecology shifted from species to traits syndromes with great success, but the intra-specific variability constitutes a great challenge for generalisation of observed patterns. By overlooking the processes that structure intra-specific variations, we might lose the capacity to properly interpret the role of variability and refine our understanding of community functioning. The complexity of living communities requires to go further down and consider the individual scale. This is made possible by the accumulation of more and more numerous and detailed data, the emergence of new statistical and simulation tools. The question of the sources and drivers of intra-specific functional variability seems crucial to rise to the challenge it issues.}
 
 
 
@@ -789,21 +833,24 @@ A plastic response can involve numerous genes interaction in networks of regulat
 \paragraph{Reference and plastic traits}
 
 %Modelling is a compromise, a balance must be found between precision and consistency, between complexity and simplicity. This means that not all facets of a plant can be modelled, and simplifications must be adapted to have an efficient representation of a plant. The level o precision is defined by many aspects, but mostly the questions the modeller want to answer, and the main processes that drive the interrogated phenomenon. In any case, the plant is represented by variables, that can be traits in ecology, that correspond to aggregates of a plant true characteristics. \cite{lucas_plant_2011} 
-Every growth model is plastic. Every growth model predicts different phenotypes for plants sharing the same phenotype (often just defined by the species affiliation) growing in different condition. But most of this plasticity is passive, and it could be encompassed in this personal definition of the notion of \textemph{growth function} (see figure \ref{fig:growth_function}). However, among vegetation models only some of them claim to include phenotypic plasticity \parencite{maire_plasticity_2013}, why so? What criterion can be used to distinguish active from passive plasticity in the context of plant modelling?
+Every growth model is plastic. Every growth model predicts different phenotypes for plants sharing the same phenotype (often just defined by the species affiliation) growing in different conditions. But most of this plasticity is passive, and it could be encompassed in this personal definition of the notion of \textemph{growth function} (see figure \ref{fig:plastic_function}). However, among vegetation models only some of them claim to include phenotypic plasticity \parencite{maire_plasticity_2013}. What criterion can be used to distinguish active from passive plasticity in the context of plant modelling?
 
-The use of information from the environment to change the phenotype in order to have a better fitness is active plasticity. But in practice (in models)\parencite{maire_plasticity_2013}, often nothing really separates the two as plasticity is often modelled as a general mechanism shared by all species (but see \cite{jablonka_adaptive_1995} for discrete strategies in clonal plants) and local environmental variables are used to determine the phenotype of a plant in both cases. Only the justifications and the forms of the linking functions are different, and they may involve different traits. This idea is illustrated in figure \ref{fig:plastic_function}, where the phenotype is first defined by the genotype then controlled by the growth function as a function of current phenotype and environment (see figure \ref{fig:plastic_function}, left column). There are no differences between plasticity of two species if two species have the same phenotype, then in a similar environment, they would express the same plastic response. I argue that plasticity, to be considered as an active process, should be under a genetic control (\textit{i.e.} species-specific parameter). This means that, despite a shared rule and similar phenotype, the plastic would be different and would depend on a species-specific parameter.
+The use of information from the environment to change the phenotype in order to have a better fitness is active plasticity see \cite{forsman_rethinking_2014} for a discussion of the form of plasticity). But in practice (in models)\parencite{maire_plasticity_2013}, often nothing really separates the two as plasticity is often modelled as a general mechanism shared by all species (but see \cite{jablonka_adaptive_1995} for discrete strategies in clonal plants) and local environmental variables are used to determine the phenotype of a plant in both cases. Only the justifications and the forms of the linking functions are different, and they may involve different traits. This idea is illustrated in figure \ref{fig:plastic_function}, where the phenotype is first defined by the genotype then controlled by the growth function as a function of current phenotype and environment (see figure \ref{fig:plastic_function}, left column). There are no differences between plasticity of two species if two species have the same phenotype, then in a similar environment, they would express the same plastic response (middle column). I argue that plasticity, to be considered as an active process, should be under a genetic control (\textit{i.e.} species-specific parameter). This means that, despite a shared rule and similar phenotypes, the plastic would be different and would depend on a species-specific parameter (right column). Phenotypic plasticity should be a form of \textemph{strategic plasticity} to be analysed differently from a growth function.
 
 
 \begin{figure}
     \includegraphics[width=1\linewidth]{./1_Introduction/graphics/plastic_function.pdf}
-  \caption[Forms of plasticity in models]{Three forms of plasticity in models. }
+  \caption[Forms of plasticity in models]{Three forms of plasticity in models. \textit{No plasticity}, the differences in trait (passive trait such as total biomass) are explained by the growth function. \textit{Plasticity as a process}, the active plastic traits change in the same way in both condition: the process is not just growth, but it is shared between all species. \textit{Plasticity as strategy}, the species respond in different ways despite sharing the same starting phenotype and environments. The plasticity is a strategy determined by a genetic trait.}
   \label{fig:plastic_function}
 \end{figure}
 
-Moreover, no integration function, 
+Only the plasticity as a strategy differentiates conceptually the plastic response with the growth response. Paradoxicaly, this difference is better embodied in models with reaction norms (that generally differ between species), than mechanistic models that share a same mechanisms for all plastic responses. Plasticity as a strategy is possible within models with a shared plastic response mechanism, but they require additional species specific parameters to control this plastic response. The share plastic response mechanisms in a mechanistic model \cite{lohier_explaining_2014}, because these models are based on the assumption that the general plant functioning can be captured by shared processes and the differences are captured between the species-specific parameters. So, it is logic in this context, if we consider the plasticity as a process different from the "growth function" only, to attribute species-specific parameters that control the plastic response. The adaptive value of this traits, and therefore of the plasticity, can now be dependent on the other traits, and the plasticity can be exposed to mutation and selection processes. While this a mid to long-term objective, it is first important to define strong plasticity mechanisms.
 
-Two questions emerge from this: if growth function and plastic response are different (conceptually), how to determine each of these functions?
-How the genetic control affect the phenotypic response? Or why would it be beneficial to have multiple rules - non-discrete perspective on plasticity?
+%
+%Moreover, no integration function, 
+%
+%Two questions emerge from this: if growth function and plastic response are different (conceptually), how to determine each of these functions?
+%How the genetic control affect the phenotypic response? Or why would it be beneficial to have multiple rules - non-discrete perspective on plasticity?
 
 %However, the linking function used have different justifications and forms, and acts on potentially different traits. In order to mimic active plasticity observed in nature the environmental variables should be integrated by plants, however, this integration function is often ignored \cite{maire_plasticity_2013}. Therefore plasticity is mostly framed by the traits that are affected by the 
 
@@ -813,23 +860,32 @@ How the genetic control affect the phenotypic response? Or why would it be benef
 
 %every model plastic, but mostly passive
 
-we want active plasticity, what's distinguish plasticity types is not the frame of reference, but the strategy: it's a choice: determine by another trait that characterises the response.
-
-what makes it plastic: find the invariance. Laughlin? (what's invariance anyway)
+%we want active plasticity, what's distinguish plasticity types is not the frame of reference, but the strategy: it's a choice: determine by another trait that characterises the response.
+%
+%what makes it plastic: find the invariance. Laughlin? (what's invariance anyway)
 
 \paragraph{Plasticity rules: a question of drivers}
 
-defined by variable (ref plasticity is good in variable) and limiting variables (resource, temp, perturbation) = drivers
+As mentioned, the plasticity needs a \textemph{drivring rule}. In a physiological perspective, it a set of signalling cascades triggered by external stimuli. In an evolutionary perspective, it would be a sort of optimisation function. It is the work of the modeller to translate the shaping effect of the evolutionary forces, into responses that can be coded into chemical reactions and make sense in the context of the model (a plant can create an estimation of future condition, but cannot determine precisely these conditions). From this, ones can have a more practical approach, and mimic the chemical cascades, and their effects of the physiology and morphology of the plant. The \textemph{reaction norm}, that determine the new target phenotype as a mathematical function of an explicit external variable (\textit{e.g.} the leaf thickness as response of the received light energy \parencite{feller_mathematical_2015}) is a good example of such approaches. But there are an infinity of functions, and the shape and the parameters of these functions, the rules, are extracted from the empirical knowledge, data or from a theory. In this case the plasticity is defined by a set of rules, linking one variable with one particular traits.
 
-functions: reaction norms \parencite{feller_mathematical_2015} thickness and light. Nice, but doesn't work with multiple drivers and composite traits
+But our understanding of plant physiology et ecology can also help us modelling plasticity with a more conceptual approach. The evolutionary objectives can be translated in general rules, under the assumption that the biology and chemistry of plant allow the coding of these rules. This could be seen as finalist, but make sense in an evolutionary perspective. The plant try to respect the established rules by modifying all the plastic traits. In this case, all traits follow an explicit general objective, such as the functional equilibrium \cite{hirose_vegetative_1987, lohier_explaining_2014} or a net return optimisation \cite{mcmurtrie_leaf-trait_2011}. In this case, the link between the phenotype and the objective must be clearly establish in order to determine what is the best phenotype.
 
-Or general rules : give an optimum phenotype. More deterministic approach. But optimum = general rule. Conceptually, if there is an optimum: why do something else ? Empirical studies: can be maladaptive, plasticity is a bet, and often ignore 
+Defining the rules driving plasticity is complex. It requires to consider the plastic dimensions (traits), the available information of the external conditions (external sources of stress) and the general objective. Moreover, there is an apparent contraction between the idea of the driving rules with the plasticity as a strategy. If the the plasticity is driven by a general rule given by strong evolutionary principles, how can species express diversity in plasticity? To have different strategy, plant can follow this general to a different extend. This could be seen as a "trust level" in the rule. Alternatively, multiple rules could compete in a same model, the species parameter determining the rule to follow would be the plastic strategy mentioned in the previous paragraph. Using a general principle to drive plasticity 
 
-resources, but also risks (frost, grazing): alter cost and gains. Multi-process plasticity, with relative weights. see chapter \ref{part:synthesis}, section \ref{chapter:extension}.
+
+% link the rules with the strategies, strategies can play within the rules, or with a set of rules
+%
+%defined by variable (ref plasticity is good in variable) and limiting variables (resource, temp, perturbation) = drivers
+%
+%functions: reaction norms  thickness and light. Nice, but doesn't work with multiple drivers and composite traits
+%
+%Or general rules : give an optimum phenotype. More deterministic approach. But optimum = general rule. Conceptually, if there is an optimum: why do something else ? Empirical studies: can be maladaptive, plasticity is a bet, and often ignore 
+%
+%resources, but also risks (frost, grazing): alter cost and gains. Multi-process plasticity, with relative weights. see chapter \ref{part:synthesis}, section \ref{chapter:extension}.
 
 %not often prediction, but just reaction norms: in that sense, it is close to nature functioning, but ignore evolutionary mechanisms that selected these reaction norms (can take a more deterministic perspective on the matter).
-
-Or perfect optimisation with perfect estimation of conditions.
+%
+%Or perfect optimisation with perfect estimation of conditions.
 
 
 
