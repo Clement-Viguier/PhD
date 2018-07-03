@@ -252,6 +252,24 @@ There is a selective effect of the allocation algorithm on the axis related to t
 
 After the productivity and the diversity, the identity of the communities is investigated.
 
+The mean and median values of the CWM of the resource-use strategies (PAR and PAS) do not show any shift between non plastic and fixed-equilibrium algorithms. The strategy variability is lower for the root strategy, than for the shoot strategy. The variability is relatively high compared to the differences between the two algorithms. The plastic algorithm show low values for the mean and median, with high variability.
+
+Root strategies show high values (around 0.8) of active tissue allocation is all algorithms, in contrast with lower values of the shoot allocation of active tissues (around 0.6).
+
+\begin{table}[]
+\centering
+\caption[Tissue resource-use strategy at the community level]{Summary statistics (mean, median and standard deviation (SD)) of the community weighted-mean of resource-use strategies in root (PAR) and shoot (PAS) for the three main allocation algorithms.}
+\label{table:comm_strat}
+\begin{tabular}{l|ccc|ccc}
+                      & \multicolumn{3}{c}{PAR} & \multicolumn{3}{c}{PAS} \\
+Variable              & Mean  & Median & SD     & Mean   & Median  & SD    \\ \hline
+Non plastic           & 0.801 & 0.823  & 0.0733 & 0.644  & 0.657   & 0.152 \\
+Fixed-equilibrium     & 0.804 & 0.823  & 0.0714 & 0.653  & 0.657   & 0.143 \\
+Plastic\_optimisation & 0.749 & 0.778  & 0.133  & 0.589  & 0.600   & 0.200
+\end{tabular}
+\end{table}
+
+
 Unlike the diversity, the identity of the community, defined by the dominating species, does not show a clear shift under plastic allocation. The great variability observed for each algorithm can be easily decomposed and explained because it is linked to the community structure and the dominant species. To decompose this variability in the identity, the community weighted mean 
 %Select different strat? meh, from very site specific strats (one dominant species), to more variable within the site, but less differences between the strats. Shift from beta diversity to alpha diversity.
 To analyse this variability, the community weighted means (CWMs) for the proportion of active tissues in roots (PAR) is visualised along time for the 6 sites, for 5 representative parameter sets (see figure \ref{fig:comm_strat}. The variability is decomposed between the spatial and the seasonal variability. Under \textit{non plastic} allocation, the CWM values for PAR are stable during time, but contrasted between sites. In contrast, under \textit{fixed-equilibrium} and \textit{plastic-optimisation} allocation, the temporal variability is greater, but the site specific means are closer. This pattern is reproduced for the shoot resource-use strategy (data not shown).
@@ -277,7 +295,7 @@ This shift in structure at the community scale, but also at the meta-community s
 %Is it always in the same direction for all species ? (reproduce Kichenin).
 
 
-\begin{figure*}%[tb]
+\begin{figure}%[tb]
 %    \classiccaptionstyle
 %\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
     \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_variability_lines.pdf}%
@@ -285,7 +303,7 @@ This shift in structure at the community scale, but also at the meta-community s
   \caption[Spatial and temporal variability of the CWMs of the PAR]{Community weighted means of the proportion of active tissues in roots for each site, as a function of time and the allocation algorithm, for 5 representative parameter sets.}
   \label{fg:comm_strat}
 %  }
-\end{figure*}
+\end{figure}
 
 
 \paragraph{Different diversities}
@@ -338,10 +356,10 @@ The increase in the species richness necessarily comes with a change in the comm
 
 This strong effect of the plasticity on the community structure explains the differences in identity variability under the two types of allocation algorithms. In on hand, under the \textit{non plastic} allocation, the identity varies mostly between sites, but stay fairly stable between seasons. In the other hand, the variability in temporal rather than spatial under \textit{fixed-equilibrium} or \textit{plastic-optimisation} allocation. Because the niches are narrow without plasticity, the small climatic differences between the sites lead to different compositions and high spatial heterogeneity in the community identity. The strong filtering force that constitute the changes in conditions does not allow species at low density to establish. These species release the competition intensity when they do not survive climatic stress, offering more resources for the dominating species that translates into a large reproduction effort. Because of storage effect, and strong abiotic filtering, the dominant species is favoured even in bad years. The combination of the sensitity of the fixed phenotypes to changes in conditions with population dynamics favours stable low diversity communities. Under plastic allocation, the niches are wider, allowing more species to invade and survive a given habitat, despite changes in conditions. Because they have wider niches, and the climatic conditions between sites are not that different, the chance that they invade multiple sites are higher than in \textit{non plastic} allocation. Because more species are present, and the competition is more even, the seasonal variations in conditions allow changes in the relative abundance of the species while the community composition is stable. These changes alter the community weighted means and therefore the identity of the community. The differences in species composition and the effects on the CWM of PAR for the three allocation algorithms are illustrated in the figure \ref{fig:explain_strat}.
 
-\begin{figure}\label{fig:explain_strat}
+\begin{figure*}\label{fig:explain_strat}
 \includegraphics[]{./2_PP/Figures/Comm/explain_par_variability.png}
 \caption[Effect of the community structure on the inter-site variability of the community identity.]{Inter-site and inter-season variability of the community identity (A) explained by the effect of the plasticity on the community structure (B).}
-\end{figure}
+\end{figure*}
 
 %The allocation algorithm, by impacting the niches and the importance of the abiotic filtering, controls the mechanism driving the community structure.
 
@@ -388,9 +406,13 @@ I believe the representation of the model outputs through specific visualisation
 \paragraph{Robustness}
 
 Is it robust ?
-\cite{roscher_contrasting_2015}
+
+
+Among the \cite{roscher_contrasting_2015} + jena and diversity (grime ?)
 
 \paragraph{Strategic plasticity}
+
+
 
 
 

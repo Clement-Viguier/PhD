@@ -1,7 +1,8 @@
 \begin{theindex}
 
+  \item \MakeLowercase  {Allocation rules}, \hyperpage{69}
   \item \MakeLowercase  {Community Weighted Mean}, \hyperpage{30}
-  \item \MakeLowercase  {Diversity}, \hyperpage{30}, \hyperpage{46}
+  \item \MakeLowercase  {Diversity}, \hyperpage{30}, \hyperpage{47}
   \item \MakeLowercase  {Dynamics Global Vegetation Models}, 
 		\hyperpage{32}
   \item \MakeLowercase  {Individual-Based Models}, \hyperpage{33}
@@ -10,62 +11,65 @@
   \item \MakeLowercase  {Mass Ratio Hypothesis}, \hyperpage{29}
   \item \MakeLowercase  {Productivity}, \hyperpage{31}
   \item \MakeLowercase  {abiotic filtering}, \hyperpage{18}
-  \item \MakeLowercase  {abiotic filter}, \hyperpage{133}
-  \item \MakeLowercase  {allocation rules}, \hyperpage{105}
-  \item \MakeLowercase  {allocation rule}, \hyperpage{66}
-  \item \MakeLowercase  {asymmetric gain}, \hyperpage{140}
-  \item \MakeLowercase  {confidence in species memory}, \hyperpage{67}
-  \item \MakeLowercase  {controlling factor}, \hyperpage{66}
+  \item \MakeLowercase  {abiotic filter}, \hyperpage{134}
+  \item \MakeLowercase  {allocation rules}, \hyperpage{107}
+  \item \MakeLowercase  {allocation rule}, \hyperpage{67}
+  \item \MakeLowercase  {asymmetric gain}, \hyperpage{142}
+  \item \MakeLowercase  {confidence in species memory}, \hyperpage{68}
+  \item \MakeLowercase  {controlling factor}, \hyperpage{67}
   \item \MakeLowercase  {costs}, \hyperpage{45}
   \item \MakeLowercase  {diversity}, \hyperpage{3}
   \item \MakeLowercase  {drivring rule}, \hyperpage{43}
-  \item \MakeLowercase  {dynamic gain}, \hyperpage{123}, 
-		\hyperpage{140}
+  \item \MakeLowercase  {dynamic gain}, \hyperpage{125}, 
+		\hyperpage{142}
   \item \MakeLowercase  {ecosystem properties}, \hyperpage{2}, 
 		\hyperpage{29}
   \item \MakeLowercase  {ecosystem services}, \hyperpage{1}
   \item \MakeLowercase  {ecosystems}, \hyperpage{1}
-  \item \MakeLowercase  {equilibrium}, \hyperpage{120, 121}
+  \item \MakeLowercase  {equilibrium}, \hyperpage{122, 123}
+  \item \MakeLowercase  {estimation}, \hyperpage{66}
+  \item \MakeLowercase  {experience}, \hyperpage{66}
   \item \MakeLowercase  {facilitation}, \hyperpage{18}
-  \item \MakeLowercase  {fixed}, \hyperpage{66}
-  \item \MakeLowercase  {functional diversity}, \hyperpage{122}
+  \item \MakeLowercase  {functional diversity}, \hyperpage{124}
   \item \MakeLowercase  {functional identity}, \hyperpage{30}
-  \item \MakeLowercase  {gravity center}, \hyperpage{115}
+  \item \MakeLowercase  {gravity centre}, \hyperpage{117}
   \item \MakeLowercase  {growth function}, \hyperpage{42}
-  \item \MakeLowercase  {heterogeneity}, \hyperpage{126}
-  \item \MakeLowercase  {identity}, \hyperpage{3}, \hyperpage{48}
+  \item \MakeLowercase  {heterogeneity}, \hyperpage{128}
+  \item \MakeLowercase  {identity}, \hyperpage{3}, \hyperpage{49}
   \item \MakeLowercase  {intra-specific variability}, \hyperpage{35}
-  \item \MakeLowercase  {memory}, \hyperpage{105}
+  \item \MakeLowercase  {limits}, \hyperpage{45}
+  \item \MakeLowercase  {memory}, \hyperpage{65, 66}, \hyperpage{107}
   \item \MakeLowercase  {model}, \hyperpage{33}
   \item \MakeLowercase  {mountain grasslands}, \hyperpage{1}
   \item \MakeLowercase  {niche}, \hyperpage{17}, \hyperpage{47}
-  \item \MakeLowercase  {optimum strategy}, \hyperpage{131}
-  \item \MakeLowercase  {optimum tissue efficiency}, \hyperpage{120}
-  \item \MakeLowercase  {organ tissue efficiency}, \hyperpage{121}
-  \item \MakeLowercase  {parameter filtering}, \hyperpage{93}
-  \item \MakeLowercase  {parametrisation}, \hyperpage{93}
-  \item \MakeLowercase  {performance landscape}, \hyperpage{121}
-  \item \MakeLowercase  {phenotypic flexibility}, \hyperpage{103}
-  \item \MakeLowercase  {plant performance}, \hyperpage{120}
-  \item \MakeLowercase  {plastic exhaustion}, \hyperpage{125}
+  \item \MakeLowercase  {optimum strategy}, \hyperpage{132}
+  \item \MakeLowercase  {optimum tissue efficiency}, \hyperpage{122}
+  \item \MakeLowercase  {organ tissue efficiency}, \hyperpage{123}
+  \item \MakeLowercase  {parameter filtering}, \hyperpage{95}
+  \item \MakeLowercase  {parametrisation}, \hyperpage{95}
+  \item \MakeLowercase  {performance landscape}, \hyperpage{123}
+  \item \MakeLowercase  {phenotypic axis}, \hyperpage{65}
+  \item \MakeLowercase  {phenotypic flexibility}, \hyperpage{105}
+  \item \MakeLowercase  {plant performance}, \hyperpage{122}
+  \item \MakeLowercase  {plastic exhaustion}, \hyperpage{127}
   \item \MakeLowercase  {potential niche}, \hyperpage{18}
   \item \MakeLowercase  {productivity}, \hyperpage{3}
-  \item \MakeLowercase  {projection}, \hyperpage{66}
+  \item \MakeLowercase  {projection}, \hyperpage{67}
   \item \MakeLowercase  {reaction norm}, \hyperpage{43}
   \item \MakeLowercase  {realised niche}, \hyperpage{18}
-  \item \MakeLowercase  {regulate}, \hyperpage{67}
-  \item \MakeLowercase  {resistance to variability}, \hyperpage{139}
+  \item \MakeLowercase  {regulate}, \hyperpage{68}
+  \item \MakeLowercase  {resistance to variability}, \hyperpage{141}
   \item \MakeLowercase  {resolution}, \hyperpage{59}
   \item \MakeLowercase  {scale}, \hyperpage{59}
-  \item \MakeLowercase  {sensitivity analysis}, \hyperpage{93}
-  \item \MakeLowercase  {shared}, \hyperpage{66}
-  \item \MakeLowercase  {species diversity}, \hyperpage{121}
-  \item \MakeLowercase  {speed}, \hyperpage{121}
-  \item \MakeLowercase  {stability}, \hyperpage{67}
-  \item \MakeLowercase  {static gain}, \hyperpage{123}, \hyperpage{132}
-  \item \MakeLowercase  {strategic plasticity}, \hyperpage{42}
+  \item \MakeLowercase  {sensitivity analysis}, \hyperpage{95}
+  \item \MakeLowercase  {species diversity}, \hyperpage{124}
+  \item \MakeLowercase  {speed}, \hyperpage{123}
+  \item \MakeLowercase  {stability}, \hyperpage{68}
+  \item \MakeLowercase  {static gain}, \hyperpage{125}, \hyperpage{134}
+  \item \MakeLowercase  {strategic plasticity}, \hyperpage{42}, 
+		\hyperpage{68}
   \item \MakeLowercase  {strategy space}, \hyperpage{28}
-  \item \MakeLowercase  {strategy}, \hyperpage{67}
+  \item \MakeLowercase  {strategy}, \hyperpage{68}
   \item \MakeLowercase  {trade-off}, \hyperpage{26}
 
 \end{theindex}

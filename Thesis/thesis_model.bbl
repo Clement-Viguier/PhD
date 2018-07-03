@@ -2676,16 +2676,16 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
+  \missing{beniston_climate_1997}
+  \missing{evans_toward_2016}
   \missing{koorner_alpine_2003}
-  \missing{isabelle_fate-hd_2014}
-  \missing{boulangeat_fate-dh_2014}
+  \missing{schirpke_multiple_2012}
   \missing{de_bello_towards_2011}
   \missing{schipe_multiple_2012}
+  \missing{boulangeat_fate-dh_2014}
+  \missing{isabelle_fate-hd_2014}
   \missing{kleidon_global_20000}
-  \missing{beniston_climate_1997}
   \missing{carboni_simulating_2017}
-  \missing{schirpke_multiple_2012}
-  \missing{evans_toward_2016}
 \endrefsection
 
 \refsection{2}
@@ -9727,17 +9727,17 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{adler_coexistence_2007}
-  \missing{chalmandrier_communities_2015}
   \missing{TRY}
   \missing{elton_1927}
-  \missing{diaz_global_2014}
-  \missing{reich_world-wilde_2013}
-  \missing{albert_when_2011}
-  \missing{barabas_effect_2016}
-  \missing{dewitt_cost_1998}
-  \missing{lavorel_how_2014}
   \missing{freschett_plasticity_2014}
+  \missing{adler_coexistence_2007}
+  \missing{barabas_effect_2016}
+  \missing{lavorel_how_2014}
+  \missing{dewitt_cost_1998}
+  \missing{reich_world-wilde_2013}
+  \missing{diaz_global_2014}
+  \missing{albert_when_2011}
+  \missing{chalmandrier_communities_2015}
 \endrefsection
 
 \refsection{3}
@@ -10587,6 +10587,67 @@
       \endverb
       \keyw{specific leaf area,community assembly,intraspecific variation,Acacia acuminata,Australia,Eucalyptus loxophleba,multilevel models,York gum woodlands}
     \endentry
+    \entry{feller_mathematical_2015}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=2c054baf68b547eed73ff4878679590c}{%
+           family={Feller},
+           familyi={F\bibinitperiod},
+           given={Chrystel},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=92af18ea0e651991c519d9647851edbb}{%
+           family={Favre},
+           familyi={F\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=4cf6cb671da9a302a80099ceb4deb55e}{%
+           family={Janka},
+           familyi={J\bibinitperiod},
+           given={Ales},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=87141ac196165b3c95d9da941dcfa735}{%
+           family={Zeeman},
+           familyi={Z\bibinitperiod},
+           given={Samuel\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=0c220d89fa7eed8615ca307fc41bc8a4}{%
+           family={Gabriel},
+           familyi={G\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=9d0f8ecd7fa54f9545f472120929513a}{%
+           family={Reinhardt},
+           familyi={R\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{0305933838ad2d12444b07ff16157c57}
+      \strng{fullhash}{03f781d324e8b3da6140724ca052e19c}
+      \strng{authornamehash}{0305933838ad2d12444b07ff16157c57}
+      \strng{authorfullhash}{03f781d324e8b3da6140724ca052e19c}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plants are highly plastic in their potential to adapt to changing environmental conditions. For example, they can selectively promote the relative growth of the root and the shoot in response to limiting supply of mineral nutrients and light, respectively, a phenomenon that is referred to as balanced growth or functional equilibrium. To gain insight into the regulatory network that controls this phenomenon, we took a systems biology approach that combines experimental work with mathematical modeling. We developed a mathematical model representing the activities of the root (nutrient and water uptake) and the shoot (photosynthesis), and their interactions through the exchange of the substrates sugar and phosphate (Pi). The model has been calibrated and validated with two independent experimental data sets obtained with Petunia hybrida. It involves a realistic environment with a day-and-night cycle, which necessitated the introduction of a transitory carbohydrate storage pool and an endogenous clock for coordination of metabolism with the environment. Our main goal was to grasp the dynamic adaptation of shoot: root ratio as a result of changes in light and Pi supply. The results of our study are in agreement with balanced growth hypothesis, suggesting that plants maintain a functional equilibrium between shoot and root activity based on differential growth of these two compartments. Furthermore, our results indicate that resource partitioning can be understood as the emergent property of many local physiological processes in the shoot and the root without explicit partitioning functions. Based on its encouraging predictive power, the model will be further developed as a tool to analyze resource partitioning in shoot and root crops.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLoS One}
+      \field{month}{7}
+      \field{note}{WOS:000358159700007}
+      \field{number}{7}
+      \field{title}{Mathematical {Modeling} of the {Dynamics} of {Shoot}-{Root} {Interactions} and {Resource} {Partitioning} in {Plant} {Growth}}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{pages}{e0127905}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0127905
+      \endverb
+      \keyw{adp-glucose pyrophosphorylase,arabidopsis roots,biomass allocation,carbon allocation,circadian clocks,leaf structure,light,phloem transport,phosphate-starvation,starch degradation}
+    \endentry
     \entry{freschet_plasticity_2013}{article}{}
       \name{author}{5}{uniquelist=2}{%
         {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
@@ -11252,56 +11313,6 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12187/abstract
       \endverb
       \keyw{ecosystem processes,community assembly,determinants of plant community diversity and structure,curse of dimensionality,intrinsic dimension,isomap,nonlinear data reduction,plant spectrums,plant strategies,plant traits}
-    \endentry
-    \entry{letten_linking_2017}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,hash=6748ad4e253de1984c27c814c07e2390}{%
-           family={Letten},
-           familyi={L\bibinitperiod},
-           given={Andrew\bibnamedelima D.},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{uniquename=0,hash=d338938f0d886e826f5ef6bcab83166e}{%
-           family={Ke},
-           familyi={K\bibinitperiod},
-           given={Po-Ju},
-           giveni={P\bibinithyphendelim J\bibinitperiod}}}%
-        {{uniquename=0,hash=9721bbb0dfdbe7e6d9fa8eb7812ab0e7}{%
-           family={Fukami},
-           familyi={F\bibinitperiod},
-           given={Tadashi},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
-      \strng{fullhash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
-      \strng{authornamehash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
-      \strng{authorfullhash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
-      \field{sortinit}{L}
-      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{00129615}
-      \field{journaltitle}{Ecological Monographs}
-      \field{month}{5}
-      \field{number}{2}
-      \field{title}{Linking modern coexistence theory and contemporary niche theory}
-      \field{urlday}{2}
-      \field{urlmonth}{4}
-      \field{urlyear}{2018}
-      \field{volume}{87}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{161\bibrangedash 177}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1002/ecm.1242
-      \endverb
-      \verb{url}
-      \verb http://doi.wiley.com/10.1002/ecm.1242
-      \endverb
     \endentry
     \entry{lohier_explaining_2014}{article}{}
       \name{author}{6}{}{%
@@ -12583,16 +12594,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{reich}
-  \missing{westoby}
-  \missing{lohier}
-  \missing{lagarigues}
-  \missing{soussana}
-  \missing{need-references}
-  \missing{kleidon}
+  \missing{lagarrigues_approximate_2015}
   \missing{wright_worlwide_2004}
-  \missing{korner_alpine_2011}
   \missing{tjoelker_linking_2015}
+  \missing{korner_alpine_2011}
 \endrefsection
 
 \refsection{4}
@@ -14397,6 +14402,61 @@
       \endverb
       \keyw{biodiversity,community assembly,Individual-based model,trade-offs,Environmental variability,Plant functional types,species traits,Succulence}
     \endentry
+    \entry{roscher_contrasting_2015}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=8e6c28c3b29c51e3957b7c5231b43a72}{%
+           family={Roscher},
+           familyi={R\bibinitperiod},
+           given={Christiane},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=c3063d4dab3688a1d97e064b99b8585d}{%
+           family={Schumacher},
+           familyi={S\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=38a7ad6248a763abd6041327170d012a}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2c513dab4477ccf2de521f2dd4770c84}{%
+           family={Schulze},
+           familyi={S\bibinitperiod},
+           given={Ernst-Detlef},
+           giveni={E\bibinithyphendelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3384f6f3aedf38d2b6f1351ae754586b}
+      \strng{fullhash}{9070a5e37b9592c8373e04498e8f57c3}
+      \strng{authornamehash}{3384f6f3aedf38d2b6f1351ae754586b}
+      \strng{authorfullhash}{9070a5e37b9592c8373e04498e8f57c3}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Niche differentiation, assumed to be a key mechanism of species coexistence, requires that species differ in their functional traits. So far it remains unclear to which extent trait plasticity leads to niche shifts of species at higher plant diversity, thereby increasing or decreasing niche overlap between species. To analyse this question it is convenient to measure niches indirectly via the variation in resource-uptake traits rather than directly via the resources used. We provisionally call these indirectly measured niches trait-based niches. We studied shoot- and leaf-morphological characteristics in seven legume species in monoculture and multi-species mixture in experimental grassland. Legume species varied in the extent of trait variation in response to plant diversity. Trait plasticity led to significant shifts in species niches in multiple dimensions. Single-species niches in several traits associated with height growth and filling of canopy space were expanded, while other niche dimensions were compressed or did not change with plant diversity. Niche separation among legumes decreased in dimensions related to height growth and space filling, but increased in dimensions related to leaf size and morphology. The total extent of occupied niche space was larger in mixture than in the combined monocultures for dimensions related to leaf morphology and smaller for dimensions related to whole-plant architecture. Taller growth, greater space filling and greater plasticity in shoot height were positively, while larger values and greater plasticity in specific leaf area were negatively related with increased performance of species in mixture. Our study shows that trait variation in response to plant diversity shifts species niches along trait axes. Plastically increased niche differentiation is restricted to niche dimensions that are apparently not related to size-dependent differences between species, but functional equivalence (convergence in height growth) rather than complementarity (divergence in traits associated with light acquisition) explains increased performance of legumes in mixture.}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Contrasting {Effects} of {Intraspecific} {Trait} {Variation} on {Trait}-{Based} {Niches} and {Performance} of {Legumes} in {Plant} {Mixtures}}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{e0119786}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0119786
+      \endverb
+      \verb{file}
+      \verb PLoS Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\4TE34DP4\\Roscher et al. - 2015 - Contrasting Effects of Intraspecific Trait Variati.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1371/journal.pone.0119786
+      \endverb
+    \endentry
     \entry{ryser_consequences_2000}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
@@ -14991,9 +15051,9 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{hartig}
   \missing{wright_worldwide_2006}
   \missing{laliberte_distance-based_2010}
+  \missing{hartig}
   \missing{whippo_phototropism:_2006}
 \endrefsection
 
