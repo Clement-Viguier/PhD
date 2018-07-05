@@ -1,67 +1,120 @@
 
+\begin{fullwidth}
+This short final chapter summarises the main results and advances produced during this PhD. It is also the opportunity to look ahead and trace future directions to extend upon this work. While researchers are prone to imagine many developments and follow exiting ideas, I try here to be succinct and to consider only a few of the many paths we could follow to extend the model and progress in the field of community ecology.
+\end{fullwidth}
 
 %_________________________________________________________________________________
 \chapter{Synthesis}
-
-Point out the novelty, acheived work 
-
-begin to fill the gaps of community dynamics: \parencite{berger_competition_2008}: effect on local environment, adaptive behaviour and below-ground.
-
-Pllus: lack of diversity.
-
-%\section{Phenotypic plasticity: the individual response alter}
-\section{Modelling diverse community}
-
-It grows.
-
-It's diverse.
-
-It's stable.
-
-It's driver dependant? (at least at individual level.
-
-
-\section{Effect of plasticity of mountain grasslands properties}
-
-Did a bit what I accused other model to do: have a discrete conception of plasticity. However, the results at the community scale are encouraging and demonstrate the interest of such approach.
 %
-%\paragraph{Interpretation}
-%In modelling studies it is necessary to realised that we are not looking at the real system, but rather comparing models. Therefore, when we look at the results of model including or not plasticity, if we are looking at the direct effect on the model, outcome change, while there do not change in reality. So the interpretations of the effects on the model behaviour must be translated, not as effects on real the community, but as effects on how we understand the processes shape this community. An increase in individual growth rate due to plasticity is consequently translated in "we overestimate growth parameters in non palstic growth models". <<-- Not sure it is that interesting. Maybe talk about the weight between processes, rather than parameters that are calibrated and are less linked to the understanding of the system.
+%Point out the novelty, acheived work 
+%
+%begin to fill the gaps of community dynamics: \parencite{berger_competition_2008}: effect on local environment, adaptive behaviour and below-ground.
+%
+%Pllus: lack of diversity.
+\section{A new agent-based model of mountain grasslands}
 
-\subsection{Identity}
-\subsection{Productivity}
-\subsection{Diversity}
+The implementation of the model \model was the opportunity to develop a new framework from scratch to tackle unresolved scientific questions. Thanks to the freedom that was given to me, I could approach the project in a personal way, developing concepts, accumulating ideas, and developing a (too) complex model of grassland communities.
 
-\section{On plasticity modelling}
-One strong assumption this modelling relied on was the existence of a strong link between fitness and environnemental condition. This is has been proven to be partially true as \model was able to express improvements in fitness thanks to plasticity. However, in some situations, the plasticity leads to reduction in fitness, or eventually to complete phenotypic dead-end. The temporal dimension of plant growth, and the difficulty to capture that makes this assumption hard to maintain in such complex systems with strong dyunamics. Moreover, such assumption do not necesserally take into account competitive behaviours better capture by game theory and other modelling approaches \cite{farrior_resource_2011, dybzinski_evolutionarily_2011}.
+\paragraph{Filling the gap}
 
+The model developed had the ambition to fill the gap between fine-scale agent-based models, integrating physiological processes, fine-scale resource dynamics and phenotypic plasticity with large-scale community dynamics model, long-term dynamics of numerous species in a heterogeneous environment. Filling this gap is necessary to better understand and predict the dynamics of natural (and semi-natural) systems in the context of the global change, affecting both the climatic conditions and the management scenarios. On one hand, fine-scale models were not capable to be deployed at large scales to integrate the effects at the local-scale to the global system. On the other hand, the large-scale community dynamic models overlooked some fine-scale processes such as the intra-specific variability, and in particular the phenotypic plasticity. Better integrating these two levels can help us better predict changes in the main properties of the grassland communities, and the effect on the ecosystem services.
 
-\subsection{How to make it work better, with what consequences} 
-\paragraph{On memory}
-
-Despite talking about molecular basis of the plasticity, did not really make use of this knowledge. Should better use biological idea (even if a bit more complex). Especially for memory and recovery: idea of stress, memory and loss of memory (recover) to avoid maladaptive responses \parencite{crisp_reconsidering_2016} ! ! ! 
-seee also cues reliability \parencite{simons_playing_2014} and \parencite{scheiner_genetics_1989, scheiner_genetics_2002, scheiner_genetics_2012, scheiner_genetics_2013}
-
-\paragraph{On plastic traits}
-
-Non composite traits (here SLA plastic only because of density, but does not consider thickness plasticity).
-
-\paragraph{On drivers}
-
-Fitness proxy ? yeah \cite{ryser_consequences_2000} resource use optim by pl, but \cite{franklin_modeling_2012} too variable ... stess response oriented. 
+\model manages to fill this gap by integrating the plant functioning and the phenotypic plasticity into a framework based on the leaf economic spectrum and developed around strategic allocation trade-offs. The partitioned allocation to the active and structural tissues regulates the balance between resource exchanges and respiration and tissue turn-over costs. These trade-offs allow a coherent representation of the plant functioning while drawing a closed strategy space where the diversity of plant species can be modelled. This strategy space, at the core of the model, is also at the centre of the phenotypic plasticity conceptual framework developed in this work. The phenotypic axes drawn by the trade-off offers a space in which plant can evolve \sidenote{not in an evolutionary perspective, yet.} based on their projection of the external conditions. This projection is the engine that drives the phenotypic plasticity and allows the modelling of a strategic plasticity, that contrasts with ubiquitous plasticity. The implementation of multiple rules to drive this plasticity allows to better understand this mechanism of phenotypic plasticity and to test the robustness of the observed patterns.
 
 
-Nitrogen instead of water, leaves do not respond to water changes (unless low nitrogen becaue water limitation is more nitrogen limitation really \parencite{farrior_competitive_2014}), does not work well with integrative vision to ignore nitrogen.
+\paragraph{Consistency}
+
+While the steps of parametrisation highlight some progress to make in the implementation of the phenotypic plasticity, the current version of \model offers stable growth, both at the individual level and the community level, and a strong tool to start exploring the effect of the phenotypic plasticity. This stability is supported by the consistency of the results between the numerous observed parameter sets. Despite the difficulty to reproduce some specific empirical patterns, the plasticity improves the performance of the model and impacts its behaviour, encouraging us to further explore its effects at the individual scale first, then at the community scale.
+
+\paragraph{Strategies and performances}
+
+The strategy space build with independent strategy axes allows the modelling of a multitude of species. While the diversity offered by this new framework is not fully explored and used, the vegetative dimensions are extensively analysed. Because there are based on strong) empirical trade-off, these dimensions draw a wide performance landscape that (1) have the potential for high functional richness, (2) evolve as a function of the resource levels. Better integrate this landscape in the plasticity mechanisms will be key to better represent the phenotypic plasticity. This analysis also identifies the root mass fraction (RMF) dimension as a key trait to control the plants' performances, and therefore support the investigation of this axis as a plastic dimension.
 
 
-It's not only about optimum, but also vulnerability and error. 
+\section{A better understanding of the effects of plasticity}
 
-\subsection{Genericity and extensions}
+The multiple plastic allocation algorithms, with varying plastic dimensions (RMF only, or in combination with the proportion of active tissues) and two alternative driving rules (maintenance of the equilibrium or growth optimisation), let us explore the potential effects of the plasticity on the individual growth and surviving, but also at the community level when rich communities are simulated.
 
-About extensions, but the process, despite failing completly capture real growth dynamics (but we already disccused why), built the fundations for resistance-risk plasticity with accumulation of risk cues, extend risk avoidance - resistance trade-off (similar than droudgt see \cite{kooyers_evolution_2015}?) for herbivory.
+\paragraph{Niches and gains}
 
-\section{The limit of the species.}
+At the individual level, the main effects of the plasticity are captured by the widening of the potential niche and the reduction of the fitness differences. These modifications of the niche are explained by two main mechanisms: (1) the static gain in fixed conditions allows the convergence of plant individual phenotype to an optimum phenotype, this levels the competition but does not affect the maximum growth. This convergence reveals a trade-off between the species and functional diversities. (2) the dynamic gain, in variable conditions, allows the plastic plants to adapt their phenotypes over time, and increase the maximum growth rate relative to the non plastic allocation maximum growth. This type of plasticity mostly favours exploitative species that would suffer more from resource variability under non plastic allocation. This effect could greatly affect our prediction of the dominant species under climate change scenarios. While this gain also induces some convergence, and therefore a similar trade-off between the species and the functional diversity, it offers more potential for higher functional diversity, especially if the plasticity has a physiological cost.
 
-Refer to the litterature review part.
+The contradictory effects of the plasticity can have on the coexistence mechanisms, by the reduction of the fitness differences on one hand and the reduction of the niche differences, on the other hand, can be resolved by community-level simulation experiments. These experiments are also the opportunity to test the strength of the plasticity effect on the productivity and the community identity.
 
-In this work, but also because of the improvement of molecular biology, and the deeper and deeper dive ecology is doing within individual, the limits of species are fuzzy (started with trait and the introduction of continuity). At some point, there will be a need for a way to go back from the a space of numerous continuous dimensions to the species. Also, understanding species as evolving 3D objects, where the different aspects of intra-specific variations play different shaping roles.
+\paragraph{To another level}
+
+A simple parameter filtering step ensures the stability of the community level simulations but does not offer enough information to disentangle the intricate effects of the multiple parameters. 
+
+The community-scale simulation experiments, over multiple seasons and sites, reveal a strong driving influence of the daily weather on the productivity. Despite a strong potential effect of the plasticity on the individual growth, the cumulative growth is not strongly improved under plastic allocation. These results suggest a limitation by the carrying capacity of the conditions, and an increase in the competition intensity to compensate for the reduction of the abiotic filtering. Indeed, the niche widening allows more species to potentially invade a habitat by reducing the abiotic filtering. But the expected stronger biotic filtering effect of an increased competition is negated by the reduction of the fitness differences between the coexisting species. The positive effect of the plasticity is demonstrated by the invasion of species with higher plasticity ability.
+
+
+\paragraph{Different diversities structures}
+This cumulative effect of the reduction of the abiotic filtering and the reduction of the fitness differences lead to changes in the community and meta-community structure. Under plastic allocation, the abundance of the most dominant species is reduced, and numerous species are able to reproduce at low abundance. This shift in the community structure, from a mono-specific or highly dominated community to a diverse community, goes with an increase in alpha diversity. But, the larger number of species within one site also translates to a greater overlap in species distribution between sites that show more distinct communities under non plastic allocation. The plasticity favours the alpha diversity, while non plastic allocation better distinguishes the different sites because of more narrow and distinct niches.
+
+The alteration of the community and meta-community structures also affect the identity of the system and lead to less distinct community strategies and more variable identity over time. This effect can greatly affect the overall dynamics under climate change, with progressive changes in the abundance and the dominating strategy under plastic allocation, but rapid shifts in dominance under non plastic allocation, disturbing the meta-community dynamics.
+
+
+\paragraph{Further exploration}
+
+The identification of clear mechanisms due to the phenotypic plasticity that affects the community dynamics pushes to explore more in details the questions around these dynamics, especially in the context of the climate change. Moreover, the framework developed, based on the projection of external conditions and multiple allocation rules does not completely solve the question of the mechanism of the phenotypic plasticity. Further work needs to be done, but this model offers a great basis and a reference point for future implementations. It also opens the door to approaches that link the community dynamics with an epigenetic and genetic transmission of the information. These questions are further developed and discussed in the following section.
+
+% and new questions
+
+
+%
+%%\section{Phenotypic plasticity: the individual response alter}
+%\section{Modelling diverse community}
+%
+%It grows.
+%
+%It's diverse.
+%
+%It's stable.
+%
+%It's driver dependant? (at least at individual level.
+%
+%
+%\section{Effect of plasticity of mountain grasslands properties}
+%
+%Did a bit what I accused other model to do: have a discrete conception of plasticity. However, the results at the community scale are encouraging and demonstrate the interest of such approach.
+%%
+%%\paragraph{Interpretation}
+%%In modelling studies it is necessary to realised that we are not looking at the real system, but rather comparing models. Therefore, when we look at the results of model including or not plasticity, if we are looking at the direct effect on the model, outcome change, while there do not change in reality. So the interpretations of the effects on the model behaviour must be translated, not as effects on real the community, but as effects on how we understand the processes shape this community. An increase in individual growth rate due to plasticity is consequently translated in "we overestimate growth parameters in non palstic growth models". <<-- Not sure it is that interesting. Maybe talk about the weight between processes, rather than parameters that are calibrated and are less linked to the understanding of the system.
+%
+%\subsection{Identity}
+%\subsection{Productivity}
+%\subsection{Diversity}
+%
+%\section{On plasticity modelling}
+%One strong assumption this modelling relied on was the existence of a strong link between fitness and environnemental condition. This is has been proven to be partially true as \model was able to express improvements in fitness thanks to plasticity. However, in some situations, the plasticity leads to reduction in fitness, or eventually to complete phenotypic dead-end. The temporal dimension of plant growth, and the difficulty to capture that makes this assumption hard to maintain in such complex systems with strong dyunamics. Moreover, such assumption do not necesserally take into account competitive behaviours better capture by game theory and other modelling approaches \cite{farrior_resource_2011, dybzinski_evolutionarily_2011}.
+%
+%
+%\subsection{How to make it work better, with what consequences} 
+%\paragraph{On memory}
+%
+%Despite talking about molecular basis of the plasticity, did not really make use of this knowledge. Should better use biological idea (even if a bit more complex). Especially for memory and recovery: idea of stress, memory and loss of memory (recover) to avoid maladaptive responses \parencite{crisp_reconsidering_2016} ! ! ! 
+%seee also cues reliability \parencite{simons_playing_2014} and \parencite{scheiner_genetics_1989, scheiner_genetics_2002, scheiner_genetics_2012, scheiner_genetics_2013}
+%
+%\paragraph{On plastic traits}
+%
+%Non composite traits (here SLA plastic only because of density, but does not consider thickness plasticity).
+%
+%\paragraph{On drivers}
+%
+%Fitness proxy ? yeah \cite{ryser_consequences_2000} resource use optim by pl, but \cite{franklin_modeling_2012} too variable ... stess response oriented. 
+%
+%
+%Nitrogen instead of water, leaves do not respond to water changes (unless low nitrogen becaue water limitation is more nitrogen limitation really \parencite{farrior_competitive_2014}), does not work well with integrative vision to ignore nitrogen.
+%
+%
+%It's not only about optimum, but also vulnerability and error. 
+%
+%\subsection{Genericity and extensions}
+%
+%About extensions, but the process, despite failing completly capture real growth dynamics (but we already disccused why), built the fundations for resistance-risk plasticity with accumulation of risk cues, extend risk avoidance - resistance trade-off (similar than droudgt see \cite{kooyers_evolution_2015}?) for herbivory.
+%
+%\section{The limit of the species.}
+%
+%Refer to the litterature review part.
+%
+%In this work, but also because of the improvement of molecular biology, and the deeper and deeper dive ecology is doing within individual, the limits of species are fuzzy (started with trait and the introduction of continuity). At some point, there will be a need for a way to go back from the a space of numerous continuous dimensions to the species. Also, understanding species as evolving 3D objects, where the different aspects of intra-specific variations play different shaping roles.

@@ -2629,26 +2629,13 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
-    <bcf:citekey order="1">berger_competition_2008</bcf:citekey>
-    <bcf:citekey order="2">farrior_resource_2011</bcf:citekey>
-    <bcf:citekey order="2">dybzinski_evolutionarily_2011</bcf:citekey>
-    <bcf:citekey order="3">crisp_reconsidering_2016</bcf:citekey>
-    <bcf:citekey order="4">simons_playing_2014</bcf:citekey>
-    <bcf:citekey order="5">scheiner_genetics_1989</bcf:citekey>
-    <bcf:citekey order="5">scheiner_genetics_2002</bcf:citekey>
-    <bcf:citekey order="5">scheiner_genetics_2012</bcf:citekey>
-    <bcf:citekey order="5">scheiner_genetics_2013</bcf:citekey>
-    <bcf:citekey order="6">ryser_consequences_2000</bcf:citekey>
-    <bcf:citekey order="7">franklin_modeling_2012</bcf:citekey>
-    <bcf:citekey order="8">farrior_competitive_2014</bcf:citekey>
-    <bcf:citekey order="9">kooyers_evolution_2015</bcf:citekey>
-    <bcf:citekey order="10">van_loon_how_2014</bcf:citekey>
-    <bcf:citekey order="11">levine_beyond_2017</bcf:citekey>
-    <bcf:citekey order="12">scheiner_genetics_1989</bcf:citekey>
-    <bcf:citekey order="13">stamps_bayesian_2016</bcf:citekey>
-    <bcf:citekey order="14">zhang_epigenetic_2013</bcf:citekey>
-    <bcf:citekey order="15">dewitt_expanding_2016</bcf:citekey>
-    <bcf:citekey order="16">pierik_art_2014</bcf:citekey>
+    <bcf:citekey order="1">van_loon_how_2014</bcf:citekey>
+    <bcf:citekey order="2">levine_beyond_2017</bcf:citekey>
+    <bcf:citekey order="3">scheiner_genetics_1989</bcf:citekey>
+    <bcf:citekey order="4">stamps_bayesian_2016</bcf:citekey>
+    <bcf:citekey order="5">zhang_epigenetic_2013</bcf:citekey>
+    <bcf:citekey order="6">dewitt_expanding_2016</bcf:citekey>
+    <bcf:citekey order="7">pierik_art_2014</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

@@ -2676,16 +2676,16 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{beniston_climate_1997}
+  \missing{de_bello_towards_2011}
   \missing{evans_toward_2016}
   \missing{koorner_alpine_2003}
-  \missing{schirpke_multiple_2012}
-  \missing{de_bello_towards_2011}
   \missing{schipe_multiple_2012}
-  \missing{boulangeat_fate-dh_2014}
+  \missing{beniston_climate_1997}
+  \missing{carboni_simulating_2017}
   \missing{isabelle_fate-hd_2014}
   \missing{kleidon_global_20000}
-  \missing{carboni_simulating_2017}
+  \missing{schirpke_multiple_2012}
+  \missing{boulangeat_fate-dh_2014}
 \endrefsection
 
 \refsection{2}
@@ -9727,16 +9727,16 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{TRY}
-  \missing{elton_1927}
-  \missing{freschett_plasticity_2014}
-  \missing{adler_coexistence_2007}
-  \missing{barabas_effect_2016}
-  \missing{lavorel_how_2014}
-  \missing{dewitt_cost_1998}
-  \missing{reich_world-wilde_2013}
   \missing{diaz_global_2014}
+  \missing{adler_coexistence_2007}
+  \missing{TRY}
+  \missing{freschett_plasticity_2014}
+  \missing{lavorel_how_2014}
+  \missing{elton_1927}
+  \missing{dewitt_cost_1998}
   \missing{albert_when_2011}
+  \missing{reich_world-wilde_2013}
+  \missing{barabas_effect_2016}
   \missing{chalmandrier_communities_2015}
 \endrefsection
 
@@ -12594,10 +12594,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{lagarrigues_approximate_2015}
   \missing{wright_worlwide_2004}
-  \missing{tjoelker_linking_2015}
+  \missing{lagarrigues_approximate_2015}
   \missing{korner_alpine_2011}
+  \missing{tjoelker_linking_2015}
 \endrefsection
 
 \refsection{4}
@@ -15051,10 +15051,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{wright_worldwide_2006}
-  \missing{laliberte_distance-based_2010}
   \missing{hartig}
+  \missing{laliberte_distance-based_2010}
   \missing{whippo_phototropism:_2006}
+  \missing{wright_worldwide_2006}
 \endrefsection
 
 \refsection{5}
@@ -15271,130 +15271,6 @@
 
 \refsection{6}
   \sortlist[entry]{nyt/global/}
-    \entry{berger_competition_2008}{article}{}
-      \name{author}{4}{}{%
-        {{uniquename=0,hash=9384d3112d3d8d7a6daa243142b7d01c}{%
-           family={Berger},
-           familyi={B\bibinitperiod},
-           given={Uta},
-           giveni={U\bibinitperiod}}}%
-        {{uniquename=0,hash=48b136306136520c4e3efcf4beeecb12}{%
-           family={Piou},
-           familyi={P\bibinitperiod},
-           given={Cyril},
-           giveni={C\bibinitperiod}}}%
-        {{uniquename=0,hash=32606ef260496701357dbf6c8ac1826d}{%
-           family={Schiffers},
-           familyi={S\bibinitperiod},
-           given={Katja},
-           giveni={K\bibinitperiod}}}%
-        {{uniquename=0,hash=1afed3b8eacb2219efb8bbe1f6581962}{%
-           family={Grimm},
-           familyi={G\bibinitperiod},
-           given={Volker},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{06beb24ff14108ad0c28f021244c1af8}
-      \strng{fullhash}{32bd450d1637033d7bdcd854b5b7df97}
-      \strng{authornamehash}{06beb24ff14108ad0c28f021244c1af8}
-      \strng{authorfullhash}{32bd450d1637033d7bdcd854b5b7df97}
-      \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Competition is a key process in plant populations and communities. We thus need, if we are to predict the responses of ecological systems to environmental change, a comprehensive and mechanistic understanding of plant competition. Considering competition, however, only at the population level is not sufficient because plant individuals usually are different, interact locally, and can adapt their behaviour to the current state of themselves and of their biotic and abiotic environment. Therefore, simulation models that are individual-based and spatially explicit are increasingly used for studying competition in plant systems. Many different individual-based modelling approaches exist to represent competition, but it is not clear how good they are in reflecting essential aspects of plant competition. We therefore first summarize current concepts and theories addressing plant competition. Then, we review individual-based approaches for modelling competition among plants. We distinguish between approaches that are used for more than 10 years and more recent ones. We identify three major gaps that need to be addressed more in the future: the effects of plants on their local environment, adaptive behaviour, and below-ground competition. To fill these gaps, the representation of plants and their interactions have to be more mechanistic than most existing approaches. Developing such new approaches is a challenge because they are likely to be more complex and to require more detailed knowledge and data on individual-level processes underlying competition. We thus need a more integrated research strategy for the future, where empirical and theoretical ecologists as well as computer scientists work together on formulating, implementing, parameterization, testing, comparing, and selecting the new approaches.}
-      \field{issn}{1433-8319}
-      \field{journaltitle}{Perspectives in Plant Ecology, Evolution and Systematics}
-      \field{month}{3}
-      \field{number}{3–4}
-      \field{series}{Space matters - {Novel} developments in plant ecology through spatial modelling}
-      \field{shorttitle}{Competition among plants}
-      \field{title}{Competition among plants: {Concepts}, individual-based modelling approaches, and a proposal for a future research strategy}
-      \field{urlday}{6}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{volume}{9}
-      \field{year}{2008}
-      \field{urldateera}{ce}
-      \field{pages}{121\bibrangedash 135}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1016/j.ppees.2007.11.002
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\26K235HM\\Berger et al. - 2008 - Competition among plants Concepts, individual-bas.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9KT5UF26\\S1433831907000583.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S1433831907000583
-      \endverb
-      \keyw{Individual-based model,Ecological field,Field-of-neighbourhood,Grid-based model,Tessellation,Zone-of-influence}
-    \endentry
-    \entry{crisp_reconsidering_2016}{article}{}
-      \name{author}{5}{}{%
-        {{uniquename=0,hash=f1392077f6f1418708f5cccf07242d98}{%
-           family={Crisp},
-           familyi={C\bibinitperiod},
-           given={Peter\bibnamedelima A.},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{uniquename=0,hash=e971868c05ca71920706fbcf4f0ba234}{%
-           family={Ganguly},
-           familyi={G\bibinitperiod},
-           given={Diep},
-           giveni={D\bibinitperiod}}}%
-        {{uniquename=0,hash=fccb3574e69e337f47eb7d3286f69486}{%
-           family={Eichten},
-           familyi={E\bibinitperiod},
-           given={Steven\bibnamedelima R.},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{uniquename=0,hash=4d41b74319f22b7aed527acec63f3202}{%
-           family={Borevitz},
-           familyi={B\bibinitperiod},
-           given={Justin\bibnamedelima O.},
-           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{uniquename=0,hash=67411468b1337915d100c23969f8a669}{%
-           family={Pogson},
-           familyi={P\bibinitperiod},
-           given={Barry\bibnamedelima J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{dadb4202bca028604de337a3efd1b032}
-      \strng{fullhash}{1ea23f708dc257f151339422c27e465e}
-      \strng{authornamehash}{dadb4202bca028604de337a3efd1b032}
-      \strng{authorfullhash}{1ea23f708dc257f151339422c27e465e}
-      \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Plants grow in dynamic environments where they can be exposed to a multitude of stressful factors, all of which affect their development, yield, and, ultimately, reproductive success. Plants are adept at rapidly acclimating to stressful conditions and are able to further fortify their defenses by retaining memories of stress to enable stronger or more rapid responses should an environmental perturbation recur. Indeed, one mechanism that is often evoked regarding environmental memories is epigenetics. Yet, there are relatively few examples of such memories; neither is there a clear understanding of their duration, considering the plethora of stresses in nature. We propose that this field would benefit from investigations into the processes and mechanisms enabling recovery from stress. An understanding of stress recovery could provide fresh insights into when, how, and why environmental memories are created and regulated. Stress memories may be maladaptive, hindering recovery and affecting development and potential yield. In some circumstances, it may be advantageous for plants to learn to forget. Accordingly, the recovery process entails a balancing act between resetting and memory formation. During recovery, RNA metabolism, posttranscriptional gene silencing, and RNA-directed DNA methylation have the potential to play key roles in resetting the epigenome and transcriptome and in altering memory. Exploration of this emerging area of research is becoming ever more tractable with advances in genomics, phenomics, and high-throughput sequencing methodology that will enable unprecedented profiling of high-resolution stress recovery time series experiments and sampling of large natural populations. Have plants learned to forget stress? This review proposes benefits to forgetfulness and finds key roles for RNA turnover. Have plants learned to forget stress? This review proposes benefits to forgetfulness and finds key roles for RNA turnover.}
-      \field{issn}{2375-2548}
-      \field{journaltitle}{Science Advances}
-      \field{month}{2}
-      \field{number}{2}
-      \field{shorttitle}{Reconsidering plant memory}
-      \field{title}{Reconsidering plant memory: {Intersections} between stress recovery, {RNA} turnover, and epigenetics}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2017}
-      \field{volume}{2}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{e1501340}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1126/sciadv.1501340
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\38KCXD6E\\Crisp et al. - 2016 - Reconsidering plant memory Intersections between .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\CDCI8AND\\e1501340.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://advances.sciencemag.org/content/2/2/e1501340
-      \endverb
-    \endentry
     \entry{dewitt_expanding_2016}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
@@ -15434,269 +15310,6 @@
       \verb{url}
       \verb https://academic.oup.com/cz/article/62/5/463/2197015/Expanding-the-phenotypic-plasticity-paradigm-to
       \endverb
-    \endentry
-    \entry{dybzinski_evolutionarily_2011}{article}{}
-      \name{author}{7}{}{%
-        {{uniquename=0,hash=decc142334ec566f86533aaea14a1faf}{%
-           family={Dybzinski},
-           familyi={D\bibinitperiod},
-           given={Ray},
-           giveni={R\bibinitperiod}}}%
-        {{uniquename=0,hash=6db2b9922a07e01779173a55b6a15c17}{%
-           family={Farrior},
-           familyi={F\bibinitperiod},
-           given={Caroline},
-           giveni={C\bibinitperiod}}}%
-        {{uniquename=0,hash=d531625c186b8578f84fe6f24416e194}{%
-           family={Wolf},
-           familyi={W\bibinitperiod},
-           given={Adam},
-           giveni={A\bibinitperiod}}}%
-        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
-           family={Reich},
-           familyi={R\bibinitperiod},
-           given={Peter\bibnamedelima B.},
-           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{uniquename=0,hash=06440615e3776e394df1304f3b347d3e}{%
-           family={Pacala},
-           familyi={P\bibinitperiod},
-           given={Stephen\bibnamedelima W.},
-           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{uniquename=0,hash=e6082a3c448b6be0d975a66f6580bc1a}{%
-           family={Klausmeier},
-           familyi={K\bibinitperiod},
-           given={Associate\bibnamedelimb Editor:\bibnamedelimb Christopher\bibnamedelima A.},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{uniquename=0,hash=816f22de5eb666989acfd617cae4a14c}{%
-           family={McPeek},
-           familyi={M\bibinitperiod},
-           given={Editor:\bibnamedelimb Mark\bibnamedelima A.},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{28f01c55a05cdad6ea87d898157b51bd}
-      \strng{fullhash}{c77bccfeaece3bf6eafef24c523b84c0}
-      \strng{authornamehash}{28f01c55a05cdad6ea87d898157b51bd}
-      \strng{authorfullhash}{c77bccfeaece3bf6eafef24c523b84c0}
-      \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{AbstractWe present a model that scales from the physiological and structural traits of individual trees competing for light and nitrogen across a gradient of soil nitrogen to their community-level consequences. The model predicts the most competitive (i.e., the evolutionarily stable strategy [ESS]) allocations to foliage, wood, and fine roots for canopy and understory stages of trees growing in old-growth forests. The ESS allocations, revealed as analytical functions of commonly measured physiological parameters, depend not on simple root-shoot relations but rather on diminishing returns of carbon investment that ensure any alternate strategy will underperform an ESS in monoculture because of the competitive environment that the ESS creates. As such, ESS allocations do not maximize nitrogen-limited growth rates in monoculture, highlighting the underappreciated idea that the most competitive strategy is not necessarily the “best,” but rather that which creates conditions in which all others are “worse.” Data from 152 stands support the model’s surprising prediction that the dominant structural trade-off is between fine roots and wood, not foliage, suggesting the “root-shoot” trade-off is more precisely a “root-stem” trade-off for long-lived trees. Assuming other resources are abundant, the model predicts that forests are limited by both nitrogen and light, or nearly so.}
-      \field{issn}{0003-0147}
-      \field{journaltitle}{The American Naturalist}
-      \field{number}{2}
-      \field{shorttitle}{Evolutionarily {Stable} {Strategy} {Carbon} {Allocation} to {Foliage}, {Wood}, and {Fine} {Roots} in {Trees} {Competing} for {Light} and {Nitrogen}}
-      \field{title}{Evolutionarily {Stable} {Strategy} {Carbon} {Allocation} to {Foliage}, {Wood}, and {Fine} {Roots} in {Trees} {Competing} for {Light} and {Nitrogen}: {An} {Analytically} {Tractable}, {Individual}-{Based} {Model} and {Quantitative} {Comparisons} to {Data}}
-      \field{urlday}{18}
-      \field{urlmonth}{2}
-      \field{urlyear}{2016}
-      \field{volume}{177}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \field{pages}{153\bibrangedash 166}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1086/657992
-      \endverb
-      \verb{file}
-      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\XNSN2KGW\\Dybzinski et al. - 2011 - Evolutionarily Stable Strategy Carbon Allocation t.pdf:
-      \endverb
-      \verb{url}
-      \verb http://www.jstor.org/stable/10.1086/657992
-      \endverb
-    \endentry
-    \entry{farrior_resource_2011}{misc}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=a7109522c77ee45fd52c24bebe55718b}{%
-           family={Farrior},
-           familyi={F\bibinitperiod},
-           given={Caroline\bibnamedelima E.},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{a7109522c77ee45fd52c24bebe55718b}
-      \strng{fullhash}{a7109522c77ee45fd52c24bebe55718b}
-      \strng{authornamehash}{a7109522c77ee45fd52c24bebe55718b}
-      \strng{authorfullhash}{a7109522c77ee45fd52c24bebe55718b}
-      \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{lmost all models of plant resource limitation are grounded in either one or both of two simple conceptual models: Liebig’s Minimum Hypothesis (LMH), the idea that plants are limited by the resource in shortest supply, and the Multiple Limitation Hypothesis (MLH), the idea that plants should adjust to their environment so that all essential resources are equally limiting. Despite the differences in their predictions, experiments have so far failed to discriminate between them. In a simple factorial nitrogen and water addition experiment in a Minnesota grassland, we observed shifts in allocation that, as in previous studies, are not all explained by a single theory. We found that leaf biomass responded positively to nitrogen additions but did not respond to water additions. We found that fine-root biomass increased in response to water additions, but only at low nitrogen levels, and that fine-root biomass decreased in response to nitrogen additions, but only at high water levels. To understand these responses we built a physiologically based model of plant competition for water, nitrogen, and space to predict plant allocation to fine roots and leaves. Critically, we include in our model the inherent variability of soil moisture and treat light, water, and nitrogen as resources with distinct mechanistic roles. Experimental results showed that plants were nitrogen and water limited. The model explains the experimental results, under conditions of co-limitation, as follows. Foliage increases with nitrogen additions but not water additions because leaf construction is constrained by nitrogen uptake. When water is added, plants spend a larger fraction of the growing season limited by light (and effectively nitrogen) than by water. Thus, water additions cause fine-root biomass to increase because of the increased importance of nitrogen limitation. The response of fine-root biomass to water additions decreases with nitrogen additions because these additions reduce nitrogen limitation. In general, our results are explained by sequential resource limitation. The rate of carbon assimilation may be limited by a single resource at any one moment, but the identity of the limiting resource(s) changes throughout the growing season.}
-      \field{title}{Resource limitation in a competitive context determines complex plant responses to experimental resource additions}
-      \field{urlday}{20}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{year}{2011}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb ecol-94-11-12 2505..2517 - Farrior et al. - 2013 - Resource limitation in a competitive context deter.pdf:C\:\\Users\\Clemt\\Zotero\\storage\\M7VFIR69\\Farrior et al. - 2013 - Resource limitation in a competitive context deter.pdf:application/pdf
-      \endverb
-      \verb{url}
-      \verb file:///C:/Users/clement.viguier/Dropbox/Literature/Farrior%20et%20al.%20-%202013%20-%20Resource%20limitation%20in%20a%20competitive%20context%20deter.pdf
-      \endverb
-    \endentry
-    \entry{farrior_competitive_2014}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=a7109522c77ee45fd52c24bebe55718b}{%
-           family={Farrior},
-           familyi={F\bibinitperiod},
-           given={Caroline\bibnamedelima E.},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{a7109522c77ee45fd52c24bebe55718b}
-      \strng{fullhash}{a7109522c77ee45fd52c24bebe55718b}
-      \strng{authornamehash}{a7109522c77ee45fd52c24bebe55718b}
-      \strng{authorfullhash}{a7109522c77ee45fd52c24bebe55718b}
-      \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1469-8137}
-      \field{journaltitle}{New Phytol}
-      \field{month}{9}
-      \field{number}{4}
-      \field{title}{Competitive optimization models, attempting to understand the diversity of life}
-      \field{urlday}{6}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{volume}{203}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \field{pages}{1025\bibrangedash 1027}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1111/nph.12940
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\F6B9KTFG\\Farrior - 2014 - Competitive optimization models, attempting to und.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\V4R4D7WG\\abstract.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.12940/abstract
-      \endverb
-      \keyw{adaptive dynamics,plant competition,resource limitation,responses to climate change,tragedy of the commons}
-    \endentry
-    \entry{franklin_modeling_2012}{article}{}
-      \name{author}{7}{}{%
-        {{uniquename=0,hash=7cc6a6ba37bb9e6754f0b50d12e562d0}{%
-           family={Franklin},
-           familyi={F\bibinitperiod},
-           given={Oskar},
-           giveni={O\bibinitperiod}}}%
-        {{uniquename=0,hash=0fb6378e332aff0d45d57875467ec1ed}{%
-           family={Johansson},
-           familyi={J\bibinitperiod},
-           given={Jacob},
-           giveni={J\bibinitperiod}}}%
-        {{uniquename=0,hash=fdc0a9b449456e7b1080e02c415e7d1a}{%
-           family={Dewar},
-           familyi={D\bibinitperiod},
-           given={Roderick\bibnamedelima C.},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{uniquename=0,hash=874f15c525e51c2b786d5382c67156ea}{%
-           family={Dieckmann},
-           familyi={D\bibinitperiod},
-           given={Ulf},
-           giveni={U\bibinitperiod}}}%
-        {{uniquename=0,hash=b71e2959ba5255401c6b7ff7deb5ddad}{%
-           family={McMurtrie},
-           familyi={M\bibinitperiod},
-           given={Ross\bibnamedelima E.},
-           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{uniquename=0,hash=f32d08a03245a59d0ad5a857be8a5401}{%
-           family={Brännström},
-           familyi={B\bibinitperiod},
-           given={Åke},
-           giveni={Å\bibinitperiod}}}%
-        {{uniquename=0,hash=decc142334ec566f86533aaea14a1faf}{%
-           family={Dybzinski},
-           familyi={D\bibinitperiod},
-           given={Ray},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{33dc131d0089cc72fca2d0c93bde3679}
-      \strng{fullhash}{0e50a06061e95f5843d4f93469c88c96}
-      \strng{authornamehash}{33dc131d0089cc72fca2d0c93bde3679}
-      \strng{authorfullhash}{0e50a06061e95f5843d4f93469c88c96}
-      \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{We review approaches to predicting carbon and nitrogen allocation in forest models in terms of their underlying assumptions and their resulting strengths and limitations. Empirical and allometric methods are easily developed and computationally efficient, but lack the power of evolution-based approaches to explain and predict multifaceted effects of environmental variability and climate change. In evolution-based methods, allocation is usually determined by maximization of a fitness proxy, either in a fixed environment, which we call optimal response (OR) models, or including the feedback of an individual's strategy on its environment (game-theoretical optimization, GTO). Optimal response models can predict allocation in single trees and stands when there is significant competition only for one resource. Game-theoretical optimization can be used to account for additional dimensions of competition, e.g., when strong root competition boosts root allocation at the expense of wood production. However, we demonstrate that an OR model predicts similar allocation to a GTO model under the root-competitive conditions reported in free-air carbon dioxide enrichment (FACE) experiments. The most evolutionarily realistic approach is adaptive dynamics (AD) where the allocation strategy arises from eco-evolutionary dynamics of populations instead of a fitness proxy. We also discuss emerging entropy-based approaches that offer an alternative thermodynamic perspective on allocation, in which fitness proxies are replaced by entropy or entropy production. To help develop allocation models further, the value of wide-ranging datasets, such as FLUXNET, could be greatly enhanced by ancillary measurements of driving variables, such as water and soil nitrogen availability.}
-      \field{issn}{0829-318X, 1758-4469}
-      \field{journaltitle}{Tree Physiol}
-      \field{month}{1}
-      \field{number}{6}
-      \field{shorttitle}{Modeling carbon allocation in trees}
-      \field{title}{Modeling carbon allocation in trees: a search for principles}
-      \field{urlday}{11}
-      \field{urlmonth}{2}
-      \field{urlyear}{2016}
-      \field{volume}{32}
-      \field{year}{2012}
-      \field{urldateera}{ce}
-      \field{pages}{648\bibrangedash 666}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1093/treephys/tpr138
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\PAHAPSFC\\Franklin et al. - 2012 - Modeling carbon allocation in trees a search for .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\6972DFVX\\648.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://treephys.oxfordjournals.org/content/32/6/648
-      \endverb
-      \keyw{plasticity,soil depth,acclimation,Functional balance,partitioning,evolutionarily stable strategy,theory,game theory,tree growth}
-    \endentry
-    \entry{kooyers_evolution_2015}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=f636119ace7bd5949d2a92582c0398c8}{%
-           family={Kooyers},
-           familyi={K\bibinitperiod},
-           given={Nicholas\bibnamedelima J.},
-           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{f636119ace7bd5949d2a92582c0398c8}
-      \strng{fullhash}{f636119ace7bd5949d2a92582c0398c8}
-      \strng{authornamehash}{f636119ace7bd5949d2a92582c0398c8}
-      \strng{authorfullhash}{f636119ace7bd5949d2a92582c0398c8}
-      \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{While the functional genetics and physiological mechanisms controlling drought resistance in crop plants have been intensely studied, less research has examined the genetic basis of adaptation to drought stress in natural populations. Drought resistance adaptations in nature reflect natural rather than human-mediated selection and may identify novel mechanisms for stress tolerance. Adaptations conferring drought resistance have historically been divided into alternative strategies including drought escape (rapid development to complete a life cycle before drought) and drought avoidance (reducing water loss to prevent dehydration). Recent studies in genetic model systems such as Arabidopsis, Mimulus, and Panicum have begun to elucidate the genes, expression profiles, and physiological changes responsible for ecologically important variation in drought resistance. Similar to most crop plants, variation in drought escape and avoidance is complex, underlain by many QTL of small effect, and pervasive gene by environment interactions. Recently identified major-effect alleles point to a significant role for genetic constraints in limiting the concurrent evolution of both drought escape and avoidance strategies, although these constraints are not universally found. This progress suggests that understanding the mechanistic basic and fitness consequences of gene by environment interactions will be critical for crop improvement and forecasting population persistence in unpredictable environments.}
-      \field{issn}{0168-9452}
-      \field{journaltitle}{Plant Science}
-      \field{month}{5}
-      \field{title}{The evolution of drought escape and avoidance in natural herbaceous populations}
-      \field{urlday}{19}
-      \field{urlmonth}{5}
-      \field{urlyear}{2015}
-      \field{volume}{234}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{155\bibrangedash 162}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.plantsci.2015.02.012
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\TNSZQKIA\\Kooyers - 2015 - The evolution of drought escape and avoidance in n.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\FHSASUJP\\S0168945215000564.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0168945215000564
-      \endverb
-      \keyw{plasticity,adaptation,flowering time,water-use efficiency,Drought resistance,Gene by environment interactions}
     \endentry
     \entry{levine_beyond_2017}{article}{}
       \name{author}{4}{}{%
@@ -15880,179 +15493,6 @@
       \verb http://www.plantphysiol.org/content/166/1/5
       \endverb
     \endentry
-    \entry{ryser_consequences_2000}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
-           family={Ryser},
-           familyi={R\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{uniquename=0,hash=41d22694a89756118c39ec88c90328c3}{%
-           family={Eek},
-           familyi={E\bibinitperiod},
-           given={Liina},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{65525e5c4ca5709686ec8763b8ca9719}
-      \strng{fullhash}{65525e5c4ca5709686ec8763b8ca9719}
-      \strng{authornamehash}{65525e5c4ca5709686ec8763b8ca9719}
-      \strng{authorfullhash}{65525e5c4ca5709686ec8763b8ca9719}
-      \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Trade-offs between acquisition capacities for aboveground and belowground resources were investigated by studying the phenotypic plasticity of leaf and root traits in response to different irradiance levels at low nutrient supply. Two congeneric grasses with contrasting light requirements, Dactylis glomerata and D. polygama, were used. The aim was to analyze phenotypic covariation in components of leaf area and root length in response to above- and belowground resource limitation and the consequences of this variation for resource acquisition and plant growth. At intermediate shading (30 and 20\% of full sunlight) the plants were able to maintain their total root length, despite a strongly increased total leaf area and a reduced biomass allocation to roots. This was associated with an unaltered or slightly increased nutrient uptake and growth. At 5.5\% relative irradiance, growth was severely reduced, especially in the shade-tolerant D. polygama. The results show that constraints on acquisition capacities for aboveground and belowground resources, caused by biomass allocation, may be alleviated by plasticity in other traits such as tissue-mass density and thickness of roots and leaves. The results also suggest different adaptive constraints for phenotypic plasticity and for genetically determined interspecific variation. Phenotypic plasticity tends to maximize resource acquisition and growth rate in the short term, whereas the higher tissue-mass density and the longer leaf life-span of shade-tolerant species indicate reduced loss rates as a more advantageous species-specific adaptation to shade in the long term.}
-      \field{issn}{0002-9122}
-      \field{journaltitle}{American Journal of Botany}
-      \field{month}{3}
-      \field{number}{3}
-      \field{title}{Consequences of {Phenotypic} {Plasticity} vs. {Interspecific} {Differences} in {Leaf} and {Root} {Traits} for {Acquisition} of {Aboveground} and {Belowground} {Resources}}
-      \field{urlday}{15}
-      \field{urlmonth}{1}
-      \field{urlyear}{2015}
-      \field{volume}{87}
-      \field{year}{2000}
-      \field{urldateera}{ce}
-      \field{pages}{402\bibrangedash 411}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.2307/2656636
-      \endverb
-      \verb{file}
-      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\DBKKGCWH\\Ryser et Eek - 2000 - Consequences of Phenotypic Plasticity vs. Interspe.pdf:application/pdf
-      \endverb
-      \verb{url}
-      \verb http://www.jstor.org/stable/2656636
-      \endverb
-    \endentry
-    \entry{scheiner_genetics_2002}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=64110be118c914fa01d218bbe78f7211}{%
-           family={Scheiner},
-           familyi={S\bibinitperiod},
-           given={Samuel\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{64110be118c914fa01d218bbe78f7211}
-      \strng{fullhash}{64110be118c914fa01d218bbe78f7211}
-      \strng{authornamehash}{64110be118c914fa01d218bbe78f7211}
-      \strng{authorfullhash}{64110be118c914fa01d218bbe78f7211}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1420-9101}
-      \field{journaltitle}{Journal of Evolutionary Biology}
-      \field{number}{3}
-      \field{title}{The genetics of phenotypic plasticity. {VII}. {Evolution} in a spatially‐structured environment}
-      \field{volume}{11}
-      \field{year}{2002}
-      \field{pages}{303\bibrangedash 320}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1046/j.1420-9101.1998.11030303.x
-      \endverb
-      \verb{file}
-      \verb The genetics of phenotypic plasticity. VII. Evolution in a spatially‐structured environment (PDF Download Available):C\:\\Users\\Clemt\\Zotero\\storage\\5JDB9CW2\\229719400_The_genetics_of_phenotypic_plasticity._VII.html:text/html
-      \endverb
-    \endentry
-    \entry{scheiner_genetics_2013}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=64110be118c914fa01d218bbe78f7211}{%
-           family={Scheiner},
-           familyi={S\bibinitperiod},
-           given={Samuel\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{64110be118c914fa01d218bbe78f7211}
-      \strng{fullhash}{64110be118c914fa01d218bbe78f7211}
-      \strng{authornamehash}{64110be118c914fa01d218bbe78f7211}
-      \strng{authorfullhash}{64110be118c914fa01d218bbe78f7211}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{To understand empirical patterns of phenotypic plasticity, we need to explore the complexities of environmental heterogeneity and how it interacts with cue reliability. I consider both temporal and spatial variation separately and in combination, the timing of temporal variation relative to development, the timing of movement relative to selection, and two different patterns of movement: stepping-stone and island. Among-generation temporal heterogeneity favors plasticity, while within-generation heterogeneity can result in cue unreliability. In general, spatial variation more strongly favors plasticity than temporal variation, and island migration more strongly favors plasticity than stepping-stone migration. Negative correlations among environments between the time of development and selection can result in seemingly maladaptive reaction norms. The effects of higher dispersal rates depend on the life history stage when dispersal occurs and the pattern of environmental heterogeneity. Thus, patterns of environmental heterogeneity can be complex and can interact in unforeseen ways to affect cue reliability. Proper interpretation of patterns of trait plasticity requires consideration of the ecology and biology of the organism. More information on actual cue reliability and the ecological and developmental context of trait plasticity is needed.}
-      \field{issn}{2045-7758}
-      \field{journaltitle}{Ecol Evol}
-      \field{month}{11}
-      \field{number}{13}
-      \field{title}{The genetics of phenotypic plasticity. {XII}. {Temporal} and spatial heterogeneity}
-      \field{urlday}{17}
-      \field{urlmonth}{8}
-      \field{urlyear}{2015}
-      \field{volume}{3}
-      \field{year}{2013}
-      \field{urldateera}{ce}
-      \field{pages}{4596\bibrangedash 4609}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1002/ece3.792
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\EUJ954JM\\Scheiner - 2013 - The genetics of phenotypic plasticity. XII. Tempor.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\SQ7UZAZE\\abstract.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1002/ece3.792/abstract
-      \endverb
-      \keyw{model,theory,Developmental constraint,island migration,stepping-stone migration}
-    \endentry
-    \entry{scheiner_genetics_2012}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=64110be118c914fa01d218bbe78f7211}{%
-           family={Scheiner},
-           familyi={S\bibinitperiod},
-           given={Samuel\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{uniquename=0,hash=24cce2a43c2d9e49719c23f036679475}{%
-           family={Holt},
-           familyi={H\bibinitperiod},
-           given={Robert\bibnamedelima D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{23174d9a42d21c83282093ae9049f3c0}
-      \strng{fullhash}{23174d9a42d21c83282093ae9049f3c0}
-      \strng{authornamehash}{23174d9a42d21c83282093ae9049f3c0}
-      \strng{authorfullhash}{23174d9a42d21c83282093ae9049f3c0}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Despite the apparent advantages of adaptive plasticity, it is not common. We examined the effects of variation and uncertainty on selection for plasticity using an individual-based computer simulation model. In the model, the environment consisted of a linear gradient of 50 demes with dispersal occurring either before or after selection. Individuals consisted of multiple loci whose phenotypic expression either are affected (plastic) or are not affected (nonplastic) by the environment. Typically, evolution occurred first as genetic differentiation, which was then replaced by the evolution of adaptive plasticity, opposite to the evolutionary trend that is often assumed. Increasing dispersal rates selected for plasticity, if selection occurred before dispersal. If selection occurred after dispersal, the highest plasticity was at intermediate dispersal rates. Temporal variation in the environment occurring after development, but before selection, favored the evolution of plasticity. With dispersal before selection, such temporal variation resulted in hyperplasticity, with a reaction norm much steeper than the optimum. This effect was enhanced with negative temporal autocorrelation and can be interpreted as representing a form of bet hedging. As the number of nonplastic loci increased, plasticity was disfavored due to an increase in the uncertainty of the genomic environment. This effect was reversed with temporal variation. Thus, variation and uncertainty affect whether or not plasticity is favored with different sources of variation—arising from the amount and timing of dispersal, from temporal variation, and even from the genetic architecture underlying the phenotype—having contrasting, interacting, and at times unexpected effects.}
-      \field{issn}{2045-7758}
-      \field{journaltitle}{Ecology and Evolution}
-      \field{month}{4}
-      \field{number}{4}
-      \field{title}{The genetics of phenotypic plasticity. {X}. {Variation} versus uncertainty}
-      \field{urlday}{17}
-      \field{urlmonth}{8}
-      \field{urlyear}{2015}
-      \field{volume}{2}
-      \field{year}{2012}
-      \field{urldateera}{ce}
-      \field{pages}{751\bibrangedash 767}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1002/ece3.217
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\2WSRVG3B\\Scheiner et Holt - 2012 - The genetics of phenotypic plasticity. X. Variatio.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\UNETA3HS\\abstract.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1002/ece3.217/abstract
-      \endverb
-      \keyw{model,bet hedging,Baldwin effect,genetic architecture,limitations,theory}
-    \endentry
     \entry{scheiner_genetics_1989}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=64110be118c914fa01d218bbe78f7211}{%
@@ -16102,52 +15542,6 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1420-9101.1989.2020095.x/abstract
       \endverb
       \keyw{Phenotypic plasticity,variance components,heritability,Drosphila melanogaster,thorax size}
-    \endentry
-    \entry{simons_playing_2014}{article}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=fd0917937bbb5764378389fe5b9287e9}{%
-           family={Simons},
-           familyi={S\bibinitperiod},
-           given={A.\bibnamedelimi M.},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{fd0917937bbb5764378389fe5b9287e9}
-      \strng{fullhash}{fd0917937bbb5764378389fe5b9287e9}
-      \strng{authornamehash}{fd0917937bbb5764378389fe5b9287e9}
-      \strng{authorfullhash}{fd0917937bbb5764378389fe5b9287e9}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Adaptive phenotypic plasticity evolves when cues reliably predict fitness consequences of life-history decisions, whereas bet hedging evolves when environments are unpredictable. These modes of response should be jointly expressed, because environmental variance is composed of both predictable and unpredictable components. However, little attention has been paid to the joint expression of plasticity and bet hedging. Here, I examine the simultaneous expression of plasticity in germination rate and two potential bet-hedging traits – germination fraction and within-season diversification in timing of germination – in seeds from multiple seed families of five geographically distant populations of Lobelia inflata (L.) subjected to a thermal gradient. Populations differ in germination plasticity to temperature, in total germination fraction and in the expression of potential diversification in the timing of germination. The observation of a negative partial correlation between the expression of plasticity and germination variance (potential diversification), and a positive correlation between plasticity and germination fraction is suggestive of a trade-off between modes of response to environmental variance. If the observed correlations are indicative of those between adaptive plasticity and bet hedging, we expect an optimal balance to exist and differ among populations. I discuss the challenges involved in testing whether the balance between plasticity and bet hedging depends on the relative predictability of environmental variance.}
-      \field{issn}{1420-9101}
-      \field{journaltitle}{J. Evol. Biol.}
-      \field{month}{6}
-      \field{number}{6}
-      \field{shorttitle}{Playing smart vs. playing safe}
-      \field{title}{Playing smart vs. playing safe: the joint expression of phenotypic plasticity and potential bet hedging across and within thermal environments}
-      \field{urlday}{19}
-      \field{urlmonth}{3}
-      \field{urlyear}{2015}
-      \field{volume}{27}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \field{pages}{1047\bibrangedash 1056}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1111/jeb.12378
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\GM6PFE9A\\Simons - 2014 - Playing smart vs. playing safe the joint expressi.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\BFIW2B6Q\\abstract.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1111/jeb.12378/abstract
-      \endverb
-      \keyw{Phenotypic plasticity,bet hedging,developmental reaction norms,diversification,dormancy,geometric mean fitness,life-history evolution,Lobelia,seed germination,thermal performance curves}
     \endentry
     \entry{stamps_bayesian_2016}{article}{}
       \name{author}{2}{}{%
