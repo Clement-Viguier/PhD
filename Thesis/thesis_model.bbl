@@ -2676,16 +2676,16 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{de_bello_towards_2011}
-  \missing{evans_toward_2016}
-  \missing{koorner_alpine_2003}
-  \missing{schipe_multiple_2012}
   \missing{beniston_climate_1997}
-  \missing{carboni_simulating_2017}
-  \missing{isabelle_fate-hd_2014}
+  \missing{evans_toward_2016}
   \missing{kleidon_global_20000}
   \missing{schirpke_multiple_2012}
+  \missing{carboni_simulating_2017}
   \missing{boulangeat_fate-dh_2014}
+  \missing{schipe_multiple_2012}
+  \missing{de_bello_towards_2011}
+  \missing{koorner_alpine_2003}
+  \missing{isabelle_fate-hd_2014}
 \endrefsection
 
 \refsection{2}
@@ -9727,17 +9727,17 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{diaz_global_2014}
-  \missing{adler_coexistence_2007}
-  \missing{TRY}
-  \missing{freschett_plasticity_2014}
-  \missing{lavorel_how_2014}
   \missing{elton_1927}
-  \missing{dewitt_cost_1998}
+  \missing{lavorel_how_2014}
   \missing{albert_when_2011}
-  \missing{reich_world-wilde_2013}
   \missing{barabas_effect_2016}
+  \missing{dewitt_cost_1998}
   \missing{chalmandrier_communities_2015}
+  \missing{reich_world-wilde_2013}
+  \missing{diaz_global_2014}
+  \missing{TRY}
+  \missing{adler_coexistence_2007}
+  \missing{freschett_plasticity_2014}
 \endrefsection
 
 \refsection{3}
@@ -12594,10 +12594,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{wright_worlwide_2004}
   \missing{lagarrigues_approximate_2015}
-  \missing{korner_alpine_2011}
   \missing{tjoelker_linking_2015}
+  \missing{korner_alpine_2011}
+  \missing{wright_worlwide_2004}
 \endrefsection
 
 \refsection{4}
@@ -15051,10 +15051,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{hartig}
-  \missing{laliberte_distance-based_2010}
   \missing{whippo_phototropism:_2006}
+  \missing{hartig}
   \missing{wright_worldwide_2006}
+  \missing{laliberte_distance-based_2010}
 \endrefsection
 
 \refsection{5}
@@ -15271,6 +15271,53 @@
 
 \refsection{6}
   \sortlist[entry]{nyt/global/}
+    \entry{bradshaw_evolutionary_1965}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=462e5d36238356982b4a10d7261f4dff}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=801fc63c203c892ba43561d46433d2f6}{%
+           family={Thoday},
+           familyi={T\bibinitperiod},
+           given={E.\bibnamedelimi W.\bibnamedelimi Caspari\bibnamedelimb {and}\bibnamedelimb J.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{fullhash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{authornamehash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{authorfullhash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{editornamehash}{801fc63c203c892ba43561d46433d2f6}
+      \strng{editorfullhash}{801fc63c203c892ba43561d46433d2f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter focuses on evolutionary significance of phenotypic plasticity in plants. The expression of an individual genotype is modified by its environment. The amount by which it can be modified is termed its plasticity. This plasticity can be either morphological or physiological; these are interrelated. The plasticity of a character is related to the general pattern of its development, and apart from this, that plasticity is a general property of the whole genotype. Plasticity of a character appears to be specific for that character, specific in relation to particular environmental influences, specific in direction, under genetic control not necessarily related to heterozygosity, and able to be radically altered by selection. Because plants are static organisms, plasticity is of marked adaptive value in a great number of situations. Examples of all these situations in plant species are discussed. They indicate that adaptation by plasticity is a widespread and important phenomenon in plants and has evolved differently in different species. The mechanisms involved in plasticity are varied. At one extreme, the character shows a continuous range of modification dependent on the intensity of the environmental stimulus. At the other, the character shows only two discrete modifications. The stimulus causing these modifications may be direct or indirect. The mechanisms found can be related to the particular environmental situation involved.}
+      \field{booktitle}{Advances in {Genetics}}
+      \field{title}{Evolutionary {Significance} of {Phenotypic} {Plasticity} in {Plants}}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{volume}{13}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 155}
+      \range{pages}{41}
+      \verb{file}
+      \verb ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9FRQSNG8\\S0065266008600486.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0065266008600486
+      \endverb
+    \endentry
     \entry{dewitt_expanding_2016}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
@@ -15311,345 +15358,157 @@
       \verb https://academic.oup.com/cz/article/62/5/463/2197015/Expanding-the-phenotypic-plasticity-paradigm-to
       \endverb
     \endentry
-    \entry{levine_beyond_2017}{article}{}
-      \name{author}{4}{}{%
-        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
-           family={Levine},
-           familyi={L\bibinitperiod},
-           given={Jonathan\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{uniquename=0,hash=b71c47fff97792c37706210243e23ae5}{%
-           family={Bascompte},
-           familyi={B\bibinitperiod},
-           given={Jordi},
-           giveni={J\bibinitperiod}}}%
-        {{uniquename=0,hash=6ed16f4f98f35ae9a2268706bac19023}{%
-           family={Adler},
-           familyi={A\bibinitperiod},
-           given={Peter\bibnamedelima B.},
-           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{uniquename=0,hash=3b4c526ad3828396cf670adc9f4f608d}{%
-           family={Allesina},
-           familyi={A\bibinitperiod},
-           given={Stefano},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{0ef3126a765ba95fd8d959175c0a30d3}
-      \strng{fullhash}{86a67ab7475e25d051d269f39cca9a6a}
-      \strng{authornamehash}{0ef3126a765ba95fd8d959175c0a30d3}
-      \strng{authorfullhash}{86a67ab7475e25d051d269f39cca9a6a}
-      \field{sortinit}{L}
-      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The tremendous diversity of species in ecological communities has motivated a century of research into the mechanisms that maintain biodiversity. However, much of this work examines the coexistence of just pairs of competitors. This approach ignores those mechanisms of coexistence that emerge only in diverse competitive networks. Despite the potential for these mechanisms to create conditions under which the loss of one competitor triggers the loss of others, we lack the knowledge needed to judge their importance for coexistence in nature. Progress requires borrowing insight from the study of multitrophic interaction networks, and coupling empirical data to models of competition.}
-      \field{issn}{0028-0836}
-      \field{journaltitle}{Nature}
-      \field{month}{6}
-      \field{number}{7656}
-      \field{title}{Beyond pairwise mechanisms of species coexistence in complex communities}
-      \field{urlday}{25}
-      \field{urlmonth}{7}
-      \field{urlyear}{2017}
-      \field{volume}{546}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{56\bibrangedash 64}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1038/nature22898
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\9RH2J7XX\\Levine et al. - 2017 - Beyond pairwise mechanisms of species coexistence .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\DSX4858A\\nature22898.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.nature.com/nature/journal/v546/n7656/full/nature22898.html
-      \endverb
-      \keyw{Ecology}
-    \endentry
-    \entry{van_loon_how_2014}{article}{}
-      \name{author}{6}{}{%
-        {{uniquename=0,hash=65cf48620b8e832f081b66674738f7d0}{%
-           family={Loon},
-           familyi={L\bibinitperiod},
-           given={Marloes\bibnamedelima P.},
-           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
-        {{uniquename=0,hash=2dbf4f2be19345c9604915728d18d724}{%
-           family={Schieving},
-           familyi={S\bibinitperiod},
-           given={Feike},
-           giveni={F\bibinitperiod}}}%
-        {{uniquename=0,hash=af88854af2808d409b54c917b495f554}{%
-           family={Rietkerk},
-           familyi={R\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod}}}%
-        {{uniquename=0,hash=7b37209cded8c004bcbb69e174fb509b}{%
-           family={Dekker},
+    \entry{dewitt_costs_1998}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
+           family={DeWitt},
            familyi={D\bibinitperiod},
-           given={Stefan\bibnamedelima C.},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{uniquename=0,hash=4f03a938def1504ecf339b9c5ec4b56f}{%
-           family={Sterck},
+           given={Thomas\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=7477fdcd044f160807357c75f72efc48}{%
+           family={Sih},
            familyi={S\bibinitperiod},
-           given={Frank},
-           giveni={F\bibinitperiod}}}%
-        {{uniquename=0,hash=238e45d0f3bcbc2d47032364765cc3c5}{%
-           family={Anten},
-           familyi={A\bibinitperiod},
-           given={Niels\bibnamedelimb P.\bibnamedelimi R.},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=be49cf2b85c58dfeb96ffd2ec9dcc574}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima Sloan},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4fe3b9dcc259bbd26f2d187c6ab12b24}
-      \strng{fullhash}{bc7f82fc66c557a01a47b3e565526825}
-      \strng{authornamehash}{4fe3b9dcc259bbd26f2d187c6ab12b24}
-      \strng{authorfullhash}{bc7f82fc66c557a01a47b3e565526825}
-      \field{sortinit}{L}
-      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \strng{namehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{fullhash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authornamehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authorfullhash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{* How plants respond to climate change is of major concern, as plants will strongly impact future ecosystem functioning, food production and climate. Here, we investigated how vegetation structure and functioning may be influenced by predicted increases in annual temperatures and atmospheric CO2 concentration, and modeled the extent to which local plant–plant interactions may modify these effects. * A canopy model was developed, which calculates photosynthesis as a function of light, nitrogen, temperature, CO2 and water availability, and considers different degrees of light competition between neighboring plants through canopy mixing; soybean (Glycine max) was used as a reference system. * The model predicts increased net photosynthesis and reduced stomatal conductance and transpiration under atmospheric CO2 increase. When CO2 elevation is combined with warming, photosynthesis is increased more, but transpiration is reduced less. Intriguingly, when competition is considered, the optimal response shifts to producing larger leaf areas, but with lower stomatal conductance and associated vegetation transpiration than when competition is not considered. Furthermore, only when competition is considered are the predicted effects of elevated CO2 on leaf area index (LAI) well within the range of observed effects obtained by Free air CO2 enrichment (FACE) experiments. * Together, our results illustrate how competition between plants may modify vegetation responses to climate change.}
-      \field{issn}{1469-8137}
-      \field{journaltitle}{New Phytol}
-      \field{month}{9}
-      \field{number}{4}
-      \field{title}{How light competition between plants affects their response to climate change}
-      \field{urlday}{6}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{volume}{203}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \field{pages}{1253\bibrangedash 1265}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1111/nph.12865
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\39RW2N4B\\van Loon et al. - 2014 - How light competition between plants affects their.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\UAT9BUJX\\abstract.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.12865/abstract
-      \endverb
-      \keyw{photosynthesis,gas exchange,canopy,FACE data,leaf area index (LAI),modeling,optimality principle,soybean (Glycine max)}
-    \endentry
-    \entry{pierik_art_2014}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=f7fd6c46319305f6c325c1e41037290d}{%
-           family={Pierik},
-           familyi={P\bibinitperiod},
-           given={Ronald},
-           giveni={R\bibinitperiod}}}%
-        {{uniquename=0,hash=b1b45b62e055a99fcb76b9d71c953f3c}{%
-           family={Testerink},
-           familyi={T\bibinitperiod},
-           given={Christa},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{977eadf4a984ac856c50e96d362e0949}
-      \strng{fullhash}{977eadf4a984ac856c50e96d362e0949}
-      \strng{authornamehash}{977eadf4a984ac856c50e96d362e0949}
-      \strng{authorfullhash}{977eadf4a984ac856c50e96d362e0949}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Environmental stresses, such as shading of the shoot, drought, and soil salinity, threaten plant growth, yield, and survival. Plants can alleviate the impact of these stresses through various modes of phenotypic plasticity, such as shade avoidance and halotropism. Here, we review the current state of knowledge regarding the mechanisms that control plant developmental responses to shade, salt, and drought stress. We discuss plant hormones and cellular signaling pathways that control shoot branching and elongation responses to shade and root architecture modulation in response to drought and salinity. Because belowground stresses also result in aboveground changes and vice versa, we then outline how a wider palette of plant phenotypic traits is affected by the individual stresses. Consequently, we argue for a research agenda that integrates multiple plant organs, responses, and stresses. This will generate the scientific understanding needed for future crop improvement programs aiming at crops that can maintain yields under variable and suboptimal conditions.}
-      \field{issn}{0032-0889, 1532-2548}
-      \field{journaltitle}{Plant Physiol.}
-      \field{month}{9}
-      \field{number}{1}
-      \field{shorttitle}{The {Art} of {Being} {Flexible}}
-      \field{title}{The {Art} of {Being} {Flexible}: {How} to {Escape} from {Shade}, {Salt}, and {Drought}}
-      \field{urlday}{16}
-      \field{urlmonth}{12}
-      \field{urlyear}{2014}
-      \field{volume}{166}
-      \field{year}{2014}
-      \field{urldateera}{ce}
-      \field{pages}{5\bibrangedash 22}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1104/pp.114.239160
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\KXJ4373K\\Pierik et Testerink - 2014 - The Art of Being Flexible How to Escape from Shad.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\Q3NGX64P\\5.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.plantphysiol.org/content/166/1/5
-      \endverb
-    \endentry
-    \entry{scheiner_genetics_1989}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=64110be118c914fa01d218bbe78f7211}{%
-           family={Scheiner},
-           familyi={S\bibinitperiod},
-           given={Samuel\bibnamedelima M.},
-           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{uniquename=0,hash=6e8108caf8aecee169f83e112eb768b8}{%
-           family={Lyman},
-           familyi={L\bibinitperiod},
-           given={Richard\bibnamedelima F.},
-           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{7408eeb1bc5303928b0af8cde38d41af}
-      \strng{fullhash}{7408eeb1bc5303928b0af8cde38d41af}
-      \strng{authornamehash}{7408eeb1bc5303928b0af8cde38d41af}
-      \strng{authorfullhash}{7408eeb1bc5303928b0af8cde38d41af}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Methods for estimating the genetic component of phenotypic plasticity are presented. In the general case of clonal replicates or full-sibs raised in several environments, the heritability of plasticity can be measured as the ratio of the genotype-environment interaction variance to the total phenotypic variance. In the special case of only two environments plasticity also can be measured as the difference among environments in genotype or family means. In that case, the heritability of plasticity can be measured as either a ratio of variance components or as the slope of a parent-offspring regression. The general measure suffers because no least-square standard errors have been developed, although they can be calculated by maximum-likelihood or bootstrapping techniques. For the other two methods least-square standard errors can be calculated but require very large experiments for statistical significance to be achieved. The heritability measures are compared using data on plasticity of thorax size in response to temperature in Drosophila melanogaster. The heritability estimates are all in close agreement. Models of the evolution of phenotypic plasticity have treated it as a trait in its own right and as a cross-environment genetic correlation. Although the first approach is the one used here, neither one is preferred.}
-      \field{issn}{1420-9101}
-      \field{journaltitle}{Journal of Evolutionary Biology}
-      \field{month}{3}
-      \field{number}{2}
-      \field{title}{The genetics of phenotypic plasticity {I}. {Heritability}}
-      \field{urlday}{17}
-      \field{urlmonth}{8}
-      \field{urlyear}{2015}
-      \field{volume}{2}
-      \field{year}{1989}
-      \field{urldateera}{ce}
-      \field{pages}{95\bibrangedash 107}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1046/j.1420-9101.1989.2020095.x
-      \endverb
-      \verb{file}
-      \verb Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9F94SQM8\\abstract.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1420-9101.1989.2020095.x/abstract
-      \endverb
-      \keyw{Phenotypic plasticity,variance components,heritability,Drosphila melanogaster,thorax size}
-    \endentry
-    \entry{stamps_bayesian_2016}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=e0a9ec658e899b49e54ce0d1d9bdd6ba}{%
-           family={Stamps},
-           familyi={S\bibinitperiod},
-           given={Judy\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{uniquename=0,hash=b0d5bc5125b5ba450ce2c1a94711a038}{%
-           family={Frankenhuis},
-           familyi={F\bibinitperiod},
-           given={Willem\bibnamedelima E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{fd2e81a4bca2ae7eb2a5de9df1314732}
-      \strng{fullhash}{fd2e81a4bca2ae7eb2a5de9df1314732}
-      \strng{authornamehash}{fd2e81a4bca2ae7eb2a5de9df1314732}
-      \strng{authorfullhash}{fd2e81a4bca2ae7eb2a5de9df1314732}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Until recently, biology lacked a framework for studying how information from genes, parental effects, and different personal experiences is combined across the lifetime to affect phenotypic development. Over the past few years, researchers have begun to build such a framework, using models that incorporate Bayesian updating to study the evolution of developmental plasticity and developmental trajectories. Here, we describe the merits of a Bayesian approach to development, review the main findings and implications of the current set of models, and describe predictions that can be tested using protocols already used by empiricists. We suggest that a Bayesian perspective affords a simple and tractable way to conceptualize, explain, and predict how information combines across the lifetime to affect development.}
+      \field{abstract}{The costs and limits of phenotypic plasticity are thought to have important ecological and evolutionary consequences, yet they are not as well understood as the benefits of plasticity. At least nine ideas exist regarding how plasticity may be costly or limited, but these have rarely been discussed together. The most commonly discussed cost is that of maintaining the sensory and regulatory machinery needed for plasticity, which may require energy and material expenses. A frequently considered limit to the benefit of plasticity is that the environmental cues guiding plastic development can be unreliable. Such costs and limits have recently been included in theoretical models and, perhaps more importantly, relevant empirical studies now have emerged. Despite the current interest in costs and limits of plasticity, several lines of reasoning suggest that they might be difficult to demonstrate.}
       \field{issn}{0169-5347}
       \field{journaltitle}{Trends in Ecology \& Evolution}
-      \field{month}{4}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Costs and limits of phenotypic plasticity}
+      \field{urlday}{6}
+      \field{urlmonth}{1}
+      \field{urlyear}{2015}
+      \field{volume}{13}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{77\bibrangedash 81}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/S0169-5347(97)01274-3
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\3MA4G982\\DeWitt et al. - 1998 - Costs and limits of phenotypic plasticity.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\G7S7SGC6\\S0169534797012743.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169534797012743
+      \endverb
+      \keyw{constraints,adaptation,costs,genotype-by-environment interactions,phenotype plasticity}
+    \endentry
+    \entry{valladares_ecological_2007}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=7e3e39066737428d614f7fd4e9412d3b}{%
+           family={Valladares},
+           familyi={V\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=0e03a144a52e88388aa8faee7f9d40bc}{%
+           family={Gianoli},
+           familyi={G\bibinitperiod},
+           given={Ernesto},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=862ceb7d55f762d4fc3a1693e87776e0}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={José\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{35136b7bbb41b491e52b91d01c2165de}
+      \strng{fullhash}{35136b7bbb41b491e52b91d01c2165de}
+      \strng{authornamehash}{35136b7bbb41b491e52b91d01c2165de}
+      \strng{authorfullhash}{35136b7bbb41b491e52b91d01c2165de}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Phenotypic plasticity is considered the major means by which plants cope with environmental heterogeneity. Although ubiquitous in nature, actual phenotypic plasticity is far from being maximal. This has been explained by the existence of internal limits to its expression. However, phenotypic plasticity takes place within an ecological context and plants are generally exposed to multifactor environments and to simultaneous interactions with many species. These external, ecological factors may limit phenotypic plasticity or curtail its adaptive value, but seldom have they been considered because limits to plasticity have typically addressed factors internal to the plant. We show that plastic responses to abiotic factors are reduced under situations of conservative resource use in stressful and unpredictable habitats, and that extreme levels in a given abiotic factor can negatively influence plastic responses to another factor. We illustrate how herbivory may limit plant phenotypic plasticity because damaged plants can only rarely attain the optimal phenotype in the challenging environment. Finally, it is examined how phenotypic changes involved in trait-mediated interactions can entail costs for the plant in further interactions with other species in the community. Ecological limits to plasticity must be included in any realistic approach to understand the evolution of plasticity in complex environments and to predict plant responses to global change.}
+      \field{issn}{0028-646X}
+      \field{journaltitle}{The New Phytologist}
       \field{number}{4}
-      \field{title}{Bayesian {Models} of {Development}}
+      \field{title}{Ecological {Limits} to {Plant} {Phenotypic} {Plasticity}}
       \field{urlday}{27}
       \field{urlmonth}{2}
       \field{urlyear}{2017}
-      \field{volume}{31}
-      \field{year}{2016}
+      \field{volume}{176}
+      \field{year}{2007}
       \field{urldateera}{ce}
-      \field{pages}{260\bibrangedash 268}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.tree.2016.01.012
-      \endverb
+      \field{pages}{749\bibrangedash 763}
+      \range{pages}{15}
       \verb{file}
-      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\D348HUD7\\Stamps et Frankenhuis - 2016 - Bayesian Models of Development.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\WC7FB2ZE\\S0169534716000276.html:text/html
+      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\IG9QPM9H\\Valladares et al. - 2007 - Ecological Limits to Plant Phenotypic Plasticity.pdf:application/pdf
       \endverb
       \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0169534716000276
+      \verb http://www.jstor.org/stable/4627216
       \endverb
     \endentry
-    \entry{zhang_epigenetic_2013}{article}{}
-      \name{author}{4}{}{%
-        {{uniquename=0,hash=b3bdc5b4da4b4a54601aed4d87dfbca2}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yuan-Ye},
-           giveni={Y\bibinithyphendelim Y\bibinitperiod}}}%
+    \entry{van_kleunen_constraints_2005}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=efedc5db13eea332e51f0699261972d2}{%
+           family={Van\bibnamedelima Kleunen},
+           familyi={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
         {{uniquename=0,hash=fffddacc9de8cb6a519b6ce51ebdcd7e}{%
            family={Fischer},
            familyi={F\bibinitperiod},
            given={Markus},
            giveni={M\bibinitperiod}}}%
-        {{uniquename=0,hash=11ae56a2936dc7ee1224c9fa0389e8cb}{%
-           family={Colot},
-           familyi={C\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{uniquename=0,hash=23eacb7c91d8345fd0c318137b4634f3}{%
-           family={Bossdorf},
-           familyi={B\bibinitperiod},
-           given={Oliver},
-           giveni={O\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{177c8d095b6322488b16f0f191dee9d6}
-      \strng{fullhash}{559d4e540434f8a03a9605f96dc6bfc1}
-      \strng{authornamehash}{177c8d095b6322488b16f0f191dee9d6}
-      \strng{authorfullhash}{559d4e540434f8a03a9605f96dc6bfc1}
-      \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \strng{namehash}{4228cb198550b3d99625fac74e04db4e}
+      \strng{fullhash}{4228cb198550b3d99625fac74e04db4e}
+      \strng{authornamehash}{4228cb198550b3d99625fac74e04db4e}
+      \strng{authorfullhash}{4228cb198550b3d99625fac74e04db4e}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{* Heritable variation in plant phenotypes, and thus potential for evolutionary change, can in principle not only be caused by variation in DNA sequence, but also by underlying epigenetic variation. However, the potential scope of such phenotypic effects and their evolutionary significance are largely unexplored. * Here, we conducted a glasshouse experiment in which we tested the response of a large number of epigenetic recombinant inbred lines (epiRILs) of Arabidopsis thaliana – lines that are nearly isogenic but highly variable at the level of DNA methylation – to drought and increased nutrient conditions. * We found significant heritable variation among epiRILs both in the means of several ecologically important plant traits and in their plasticities to drought and nutrients. Significant selection gradients, that is, fitness correlations, of several mean traits and plasticities suggest that selection could act on this epigenetically based phenotypic variation. * Our study provides evidence that variation in DNA methylation can cause substantial heritable variation of ecologically important plant traits, including root allocation, drought tolerance and nutrient plasticity, and that rapid evolution based on epigenetic variation alone should thus be possible.}
+      \field{abstract}{The high potential fitness benefit of phenotypic plasticity tempts us to expect phenotypic plasticity as a frequent adaptation to environmental heterogeneity. Examples of proven adaptive plasticity in plants, however, are scarce and most plastic responses actually may be ‘passive’ rather than adaptive. This suggests that frequently requirements for the evolution of adaptive plasticity are not met or that such evolution is impeded by constraints. Here we outline requirements and potential constraints for the evolution of adaptive phenotypic plasticity, identify open questions, and propose new research approaches. Important open questions concern the genetic background of plasticity, genetic variation in plasticity, selection for plasticity in natural habitats, and the nature and occurrence of costs and limits of plasticity. Especially promising tools to address these questions are selection gradient analysis, meta-analysis of studies on genotype-by-environment interactions, QTL analysis, cDNA-microarray scanning and quantitative PCR to quantify gene expression, and two-dimensional gel electrophoresis to quantify protein expression. Studying plasticity along the pathway from gene expression to the phenotype and its relationship with fitness will help us to better understand why adaptive plasticity is not more universal, and to more realistically predict the evolution of plastic responses to environmental change.}
       \field{issn}{1469-8137}
-      \field{journaltitle}{New Phytol}
-      \field{month}{1}
+      \field{journaltitle}{New Phytologist}
+      \field{month}{4}
       \field{number}{1}
-      \field{title}{Epigenetic variation creates potential for evolution of plant phenotypic plasticity}
-      \field{urlday}{19}
+      \field{title}{Constraints on the evolution of adaptive phenotypic plasticity in plants}
+      \field{urlday}{16}
       \field{urlmonth}{3}
       \field{urlyear}{2015}
-      \field{volume}{197}
-      \field{year}{2013}
+      \field{volume}{166}
+      \field{year}{2005}
       \field{urldateera}{ce}
-      \field{pages}{314\bibrangedash 322}
-      \range{pages}{9}
+      \field{pages}{49\bibrangedash 60}
+      \range{pages}{12}
       \verb{doi}
-      \verb 10.1111/nph.12010
+      \verb 10.1111/j.1469-8137.2004.01296.x
       \endverb
       \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\C3V7WJF9\\Zhang et al. - 2013 - Epigenetic variation creates potential for evoluti.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\K8EXU84M\\abstract.html:text/html
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\KWS8Q2A7\\Van Kleunen et Fischer - 2005 - Constraints on the evolution of adaptive phenotypi.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\CGMNII3T\\abstract.html:text/html
       \endverb
       \verb{url}
-      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.12010/abstract
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2004.01296.x/abstract
       \endverb
-      \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
+      \keyw{shade avoidance,cost of plasticity,G × E interactions,genetic variation in plasticity,induced resistance,plasticity genes}
     \endentry
   \endsortlist
+  \missing{auld_re-evaluationg_2009}
 \endrefsection
 \endinput
 

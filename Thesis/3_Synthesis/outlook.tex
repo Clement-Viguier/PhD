@@ -3,45 +3,121 @@
 %_________________________________________________________________________________
 \chapter{Outlook}
 
-Further reading, thinking and rambling about what's developped in the papers.
+This section explores further developments of the model. The first section focuses on how the phenotypic plasticity is modelled, and how alternative approaches can help understand this process and its effects. The second part of this discussion describes ways to widen the scope of the model by taking advantage of the already existing resources.
 
-%\section{Plasticity and resistance to climatic events}
+\section{How to model phenotypic plasticity? }
 
-%\section{•}
+The framework developed during this project constitutes a step forward in the modelling of the phenotypic plasticity. It integrates the idea of streategic plasticity \parencite{bradshaw_evolutionary_1965, dewitt_expanding_2016} within a phenotypic space drawn by allocation trade-offs that allows the modelling of diverse community. But the limitations shown by the current implementation reveals that the question of the modelling of the phenotypic plasticity is not resolved. While the question of the plastic dimension will always be present when modelling phenotypic plasticity, the main interrogations revolves around the drivers and the use of the information. 
 
-\subsection{Better calibration}
+%how do we think about plasiticity: this model is a step forward, despite seen as a ...
 
-Better implementation rcpp or data table struture, plasticity mech, to allow bayesian and pattern-oriented calibration. A lot of species and a lot of parameters. Difficult exercice. But strategies should be limited by functions and trade-off, just need to calibrate shared (process related) parameters and not species specific (strategic) paramters. This is what allows the modelling of diverse community. 
+\paragraph{Explore the limits}
+
+The question of the plasticity as a strategy trait was not fully explored despite being a centre point in the design of the model. The concept of the plasticity as a strategy, rather than a growing function, expresses the the idea of limits of the plasticity that can justify that not all species are plastic \parencite{dewitt_costs_1998 ,  van_kleunen_constraints_2005, valladares_ecological_2007, auld_re-evaluationg_2009}. These limits are numerous and can be separated in multiple categories.\cite{valladares_ecological_2007} distinguish internal limits and ecological limits, but these are not always clearly defined and tested. The value of a model like \model resides in its capacity to run simulations to test the validity of these hypotheses. The limits of the plasticity can be divided between the capacity of the plant to infer information about the future from its experience (and eventually species memory), and the ability to develop a phenotype that enhances its fitness from this information. The challenge of modelling the plasticity resides in the capcity of the modeller to propose mechanisms ... % identify and disentangle mechanisms.
+
+The limit of the predictability, variability and uncertainty
+
+The reliability of the external cues about the future stress is a limit often identified.  This uncertainty can ban on factor that explains the failure of the \textit{plastic-optimisation} algorithm to consistently increase plant fitness. The error in the projection of realised conditions (because of unreliable cues, wrong driving rule, or competition interactions)   % non symetry in the fitness landscape, benefit risk, optimum and stability.
+
+Between optimisation and stability
+
+competition % requires better knowledge of how interactions work there , with approaches similar to tilman, and see how plasticity can affect them (
+
+and other traits 
+
+\paragraph{A molecular mechanism}
+
+more molecular approach, to have stronger patterns, and avoid observed limitations
+
+break the trade-offs, not the same mechanisms (information, time sale, objectives)
+avoidance and resistance : variability in response.
+
+\paragraph{Plasticity, epigenetics \& genetics}
+
+Plasticity as a strategy: genetic dyn + extend the discussion of the limits
+
+heritability: how can it be transfert, wht should be transferred, effect of this heritability (dewiit and barabas)
+
+\paragraph{All about information}
+
+alternative approach: prediction and the information available
+
+adaptive learning
+
+stress also informs on how 
 
 
-\section{Competition and feedback}
-This document focuses on how the plant are doing with the given resources (arrow in fig in margin). However, a key element in competition and resource dynamics (point that separate Tilman appraoches from Chesson) is the impact of plant on resource (fig in margin). Both are fundamental for the understanding on plant interactions, and I argue that understanding the former is necessary to understand the later and have a global view on plant competitive interactions on resources. blablabla competition experiments, resistance to resource shortening (Tilman) and relative homogeneity of resource (homogeneous in influx, content, starting pool, ... ?). Using the term homogeneous allows to use fixed terms and processes, while to me there is a ambiguity around competition that can be seen as: (1) the impact on growth, (2) the winner out of a competitive scenario (with resource shortening). In this later case, the approach of part 4 (?) has limited interpretation since they are not competing. We can intuiitively imagine (from our understanding of model's functioning) that  there is a hierarchical effect on growth, but that is probably reversed in case of (1) shared resource pool (big plant may have access to bigger resource pool in open environment), (2) sufficiently quick resource shortening to lead to death events.\\
+\section{Beyond the simple community}
 
-in margin: figure resource and interaction.\\
-figure competition decomposition of fitness (growth and survival), and growth related to resource pool (try to have graph approach).
+\paragraph{The role of the climate}
 
-competition change vegetation response to climate change \parencite{van_loon_how_2014}
+take advantage of the already present information,
+build a better calibration -> more precise, prediction
 
-transitivity and competition \cite{levine_beyond_2017} Could it emerge from the current implementation of \model ? Is it stable with plasticity ?
+consider the already implemented feature: frost stress and grazing/cutting.
 
+\paragraph{About ecosystem services}
 
-\section{Extend to climate change effects}
+with better calibration, better quantification of measure traits (that were a bit put on the side here) and more specific results (site and weather)
 
-How plasticity actually affect the effects of climate change: mitigate or amplify, risk of critical transition.
+Link the properties together
 
-drought resistance experiments to be done.
+\paragraph{The meta-community dynamics}
 
-Higher diversity: higher risk of invasion?
+Can have a pretty good role: reinforce or mitigate patterns 
+already possible
 
-Take advantage of simulated scenarios of climate change.
+landscape dynamics
 
-\section{Going forward: epigenetic and heritability}
+invasion and critical transitions
 
-fundamental knwowledge 
+\paragraph{The climate change}
 
-effect of heritability and genetic effects (evolutionary perspective) Bring the two perspective together. \cite{scheiner_genetics_1989}
+precise, calibrated model, closer to real systems to link to ES, with proper landscape dyns.
 
-Bayesian model of dev. \cite{stamps_bayesian_2016} Talked about the difficulty to match reaction norms with systemic plasticity: evolutionay bayesian approach to species specific reaction norms.
+management scenarios and climate scenarios
 
-Epigenetic variation creates potential for evolution of plant phenotypic plasticity \cite{zhang_epigenetic_2013}
-See also \cite{dewitt_expanding_2016} for higher moment of reaction norms controlled by genes
+fantasised view of the model but this exitment makes us work.
+
+%Further reading, thinking and rambling about what's developped in the papers.
+%
+%%\section{Plasticity and resistance to climatic events}
+%
+%%\section{•}
+%
+%\subsection{Better calibration}
+%
+%Better implementation rcpp or data table struture, plasticity mech, to allow bayesian and pattern-oriented calibration. A lot of species and a lot of parameters. Difficult exercice. But strategies should be limited by functions and trade-off, just need to calibrate shared (process related) parameters and not species specific (strategic) paramters. This is what allows the modelling of diverse community. 
+%
+%
+%\section{Competition and feedback}
+%This document focuses on how the plant are doing with the given resources (arrow in fig in margin). However, a key element in competition and resource dynamics (point that separate Tilman appraoches from Chesson) is the impact of plant on resource (fig in margin). Both are fundamental for the understanding on plant interactions, and I argue that understanding the former is necessary to understand the later and have a global view on plant competitive interactions on resources. blablabla competition experiments, resistance to resource shortening (Tilman) and relative homogeneity of resource (homogeneous in influx, content, starting pool, ... ?). Using the term homogeneous allows to use fixed terms and processes, while to me there is a ambiguity around competition that can be seen as: (1) the impact on growth, (2) the winner out of a competitive scenario (with resource shortening). In this later case, the approach of part 4 (?) has limited interpretation since they are not competing. We can intuiitively imagine (from our understanding of model's functioning) that  there is a hierarchical effect on growth, but that is probably reversed in case of (1) shared resource pool (big plant may have access to bigger resource pool in open environment), (2) sufficiently quick resource shortening to lead to death events.\\
+%
+%in margin: figure resource and interaction.\\
+%figure competition decomposition of fitness (growth and survival), and growth related to resource pool (try to have graph approach).
+%
+%competition change vegetation response to climate change \parencite{van_loon_how_2014}
+%
+%transitivity and competition \cite{levine_beyond_2017} Could it emerge from the current implementation of \model ? Is it stable with plasticity ?
+%
+%
+%\section{Extend to climate change effects}
+%
+%How plasticity actually affect the effects of climate change: mitigate or amplify, risk of critical transition.
+%
+%drought resistance experiments to be done.
+%
+%Higher diversity: higher risk of invasion?
+%
+%Take advantage of simulated scenarios of climate change.
+%
+%\section{Going forward: epigenetic and heritability}
+%
+%fundamental knwowledge 
+%
+%effect of heritability and genetic effects (evolutionary perspective) Bring the two perspective together. \cite{scheiner_genetics_1989}
+%
+%Bayesian model of dev. \cite{stamps_bayesian_2016} Talked about the difficulty to match reaction norms with systemic plasticity: evolutionay bayesian approach to species specific reaction norms.
+%
+%Epigenetic variation creates potential for evolution of plant phenotypic plasticity \cite{zhang_epigenetic_2013}
+%See also \cite{dewitt_expanding_2016} for higher moment of reaction norms controlled by genes

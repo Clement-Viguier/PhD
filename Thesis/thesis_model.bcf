@@ -2629,13 +2629,13 @@
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
-    <bcf:citekey order="1">van_loon_how_2014</bcf:citekey>
-    <bcf:citekey order="2">levine_beyond_2017</bcf:citekey>
-    <bcf:citekey order="3">scheiner_genetics_1989</bcf:citekey>
-    <bcf:citekey order="4">stamps_bayesian_2016</bcf:citekey>
-    <bcf:citekey order="5">zhang_epigenetic_2013</bcf:citekey>
-    <bcf:citekey order="6">dewitt_expanding_2016</bcf:citekey>
-    <bcf:citekey order="7">pierik_art_2014</bcf:citekey>
+    <bcf:citekey order="1">bradshaw_evolutionary_1965</bcf:citekey>
+    <bcf:citekey order="1">dewitt_expanding_2016</bcf:citekey>
+    <bcf:citekey order="2">dewitt_costs_1998</bcf:citekey>
+    <bcf:citekey order="2">van_kleunen_constraints_2005</bcf:citekey>
+    <bcf:citekey order="2">valladares_ecological_2007</bcf:citekey>
+    <bcf:citekey order="2">auld_re-evaluationg_2009</bcf:citekey>
+    <bcf:citekey order="3">valladares_ecological_2007</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
