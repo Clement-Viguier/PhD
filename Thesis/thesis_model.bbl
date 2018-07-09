@@ -1192,6 +1192,44 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0169534710000613
       \endverb
     \endentry
+    \entry{grime_evidence_1977}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a3e0beb729aa361dfee5e8212a94c3ba}{%
+           family={Grime},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{fullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{authornamehash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{authorfullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is suggested that evolution in plants may be associated with the emergence of three primary strategies, each of which may be identified by reference to a number of characteristics including morphological features, resource allocation, phenology, and response to stress. The competitive strategy prevails in productive, relatively undisturbed vegetation, the stress-tolerant strategy is associated with continuously unproductive conditions, and the ruderal strategy is characteristic of severely disturbed but potentially productive habitats. A triangular model based upon the three strategies may be reconciled with the theory of r- and K-selection, provides an insight into the processes of vegetation succession and dominance, and appears to be capable of extension to fungi and to animals.}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{11}
+      \field{number}{982}
+      \field{title}{Evidence for the {Existence} of {Three} {Primary} {Strategies} in {Plants} and {Its} {Relevance} to {Ecological} and {Evolutionary} {Theory}}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{111}
+      \field{year}{1977}
+      \field{urldateera}{ce}
+      \field{pages}{1169\bibrangedash 1194}
+      \range{pages}{26}
+      \verb{file}
+      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\GSS6P4VG\\Grime - 1977 - Evidence for the Existence of Three Primary Strate.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2460262
+      \endverb
+    \endentry
     \entry{hanel_phenotypic_2015}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=51a5cb0998fda36f9ea4ff935657314d}{%
@@ -2676,16 +2714,20 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{beniston_climate_1997}
-  \missing{evans_toward_2016}
-  \missing{kleidon_global_20000}
-  \missing{schirpke_multiple_2012}
-  \missing{carboni_simulating_2017}
+  \missing{isabelle_fate-hd_2014}
   \missing{boulangeat_fate-dh_2014}
+  \missing{schirpke_multiple_2012}
+  \missing{laliberte_distance-based_2010}
+  \missing{hallmann_more_2017}
+  \missing{kleidon_global_20000}
+  \missing{koorner_alpine_2003}
+  \missing{carboni_simulating_2017}
   \missing{schipe_multiple_2012}
   \missing{de_bello_towards_2011}
-  \missing{koorner_alpine_2003}
-  \missing{isabelle_fate-hd_2014}
+  \missing{waldron_reductions_2017}
+  \missing{beniston_climate_1997}
+  \missing{tucker_moving_2018}
+  \missing{evans_toward_2016}
 \endrefsection
 
 \refsection{2}
@@ -9727,17 +9769,17 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{elton_1927}
+  \missing{TRY}
   \missing{lavorel_how_2014}
+  \missing{freschett_plasticity_2014}
+  \missing{elton_1927}
+  \missing{diaz_global_2014}
+  \missing{reich_world-wilde_2013}
   \missing{albert_when_2011}
   \missing{barabas_effect_2016}
-  \missing{dewitt_cost_1998}
   \missing{chalmandrier_communities_2015}
-  \missing{reich_world-wilde_2013}
-  \missing{diaz_global_2014}
-  \missing{TRY}
+  \missing{dewitt_cost_1998}
   \missing{adler_coexistence_2007}
-  \missing{freschett_plasticity_2014}
 \endrefsection
 
 \refsection{3}
@@ -12594,10 +12636,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{lagarrigues_approximate_2015}
-  \missing{tjoelker_linking_2015}
   \missing{korner_alpine_2011}
   \missing{wright_worlwide_2004}
+  \missing{lagarrigues_approximate_2015}
+  \missing{tjoelker_linking_2015}
 \endrefsection
 
 \refsection{4}
@@ -15051,10 +15093,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{whippo_phototropism:_2006}
-  \missing{hartig}
-  \missing{wright_worldwide_2006}
   \missing{laliberte_distance-based_2010}
+  \missing{whippo_phototropism:_2006}
+  \missing{wright_worldwide_2006}
+  \missing{hartig}
 \endrefsection
 
 \refsection{5}
@@ -15271,6 +15313,58 @@
 
 \refsection{6}
   \sortlist[entry]{nyt/global/}
+    \entry{auld_re-evaluating_2009}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=304a16850a09bf401a17aacfcf97dbd1}{%
+           family={Auld},
+           familyi={A\bibinitperiod},
+           given={Josh\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=467c2b6c803c9bcbd35885605c9a724a}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Anurag\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=b721220a50aff167f8db3af67723887a}{%
+           family={Relyea},
+           familyi={R\bibinitperiod},
+           given={Rick\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{fullhash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{authornamehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{authorfullhash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When the optimal phenotype differs among environments, adaptive phenotypic plasticity can evolve unless constraints impede such evolution. Costs and limits of plasticity have been proposed as important constraints on the evolution of plasticity, yet confusion exists over their distinction. We attempt to clarify these concepts by reviewing their categorization and measurement, highlighting how costs and limits are defined in different currencies (and may describe the same phenomenon). Conclusions from studies that measure the costs of plasticity have been equivocal, but we caution that these conclusions may be premature owing to a potentially common correlation between environment-specific trait values and the magnitude of trait plasticities (i.e. multi-collinearity) that results in imprecise and/or biased estimates of the costs. Meanwhile, our understanding of the limits of plasticity, and how they may be underlain by the costs of plasticity, is still in its infancy. Based on our re-evaluation of these constraints, we discuss areas for future research.}
+      \field{issn}{0962-8452, 1471-2954}
+      \field{journaltitle}{Proceedings of the Royal Society of London B: Biological Sciences}
+      \field{month}{10}
+      \field{title}{Re-evaluating the costs and limits of adaptive phenotypic plasticity}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{rspb20091355}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1098/rspb.2009.1355
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\GXRJG9D2\\Auld et al. - 2009 - Re-evaluating the costs and limits of adaptive phe.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\XMGXRTKU\\rspb.2009.1355.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://rspb.royalsocietypublishing.org/content/early/2009/10/19/rspb.2009.1355
+      \endverb
+    \endentry
     \entry{bradshaw_evolutionary_1965}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=462e5d36238356982b4a10d7261f4dff}{%
@@ -15316,6 +15410,71 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0065266008600486
+      \endverb
+    \endentry
+    \entry{crisp_reconsidering_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=f1392077f6f1418708f5cccf07242d98}{%
+           family={Crisp},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=e971868c05ca71920706fbcf4f0ba234}{%
+           family={Ganguly},
+           familyi={G\bibinitperiod},
+           given={Diep},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=fccb3574e69e337f47eb7d3286f69486}{%
+           family={Eichten},
+           familyi={E\bibinitperiod},
+           given={Steven\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=4d41b74319f22b7aed527acec63f3202}{%
+           family={Borevitz},
+           familyi={B\bibinitperiod},
+           given={Justin\bibnamedelima O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{uniquename=0,hash=67411468b1337915d100c23969f8a669}{%
+           family={Pogson},
+           familyi={P\bibinitperiod},
+           given={Barry\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dadb4202bca028604de337a3efd1b032}
+      \strng{fullhash}{1ea23f708dc257f151339422c27e465e}
+      \strng{authornamehash}{dadb4202bca028604de337a3efd1b032}
+      \strng{authorfullhash}{1ea23f708dc257f151339422c27e465e}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Plants grow in dynamic environments where they can be exposed to a multitude of stressful factors, all of which affect their development, yield, and, ultimately, reproductive success. Plants are adept at rapidly acclimating to stressful conditions and are able to further fortify their defenses by retaining memories of stress to enable stronger or more rapid responses should an environmental perturbation recur. Indeed, one mechanism that is often evoked regarding environmental memories is epigenetics. Yet, there are relatively few examples of such memories; neither is there a clear understanding of their duration, considering the plethora of stresses in nature. We propose that this field would benefit from investigations into the processes and mechanisms enabling recovery from stress. An understanding of stress recovery could provide fresh insights into when, how, and why environmental memories are created and regulated. Stress memories may be maladaptive, hindering recovery and affecting development and potential yield. In some circumstances, it may be advantageous for plants to learn to forget. Accordingly, the recovery process entails a balancing act between resetting and memory formation. During recovery, RNA metabolism, posttranscriptional gene silencing, and RNA-directed DNA methylation have the potential to play key roles in resetting the epigenome and transcriptome and in altering memory. Exploration of this emerging area of research is becoming ever more tractable with advances in genomics, phenomics, and high-throughput sequencing methodology that will enable unprecedented profiling of high-resolution stress recovery time series experiments and sampling of large natural populations. Have plants learned to forget stress? This review proposes benefits to forgetfulness and finds key roles for RNA turnover. Have plants learned to forget stress? This review proposes benefits to forgetfulness and finds key roles for RNA turnover.}
+      \field{issn}{2375-2548}
+      \field{journaltitle}{Science Advances}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Reconsidering plant memory}
+      \field{title}{Reconsidering plant memory: {Intersections} between stress recovery, {RNA} turnover, and epigenetics}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2017}
+      \field{volume}{2}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{e1501340}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciadv.1501340
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\38KCXD6E\\Crisp et al. - 2016 - Reconsidering plant memory Intersections between .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\CDCI8AND\\e1501340.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://advances.sciencemag.org/content/2/2/e1501340
       \endverb
     \endentry
     \entry{dewitt_expanding_2016}{article}{}
@@ -15409,6 +15568,836 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0169534797012743
       \endverb
       \keyw{constraints,adaptation,costs,genotype-by-environment interactions,phenotype plasticity}
+    \endentry
+    \entry{forsman_rethinking_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0f4572dfabd62293f447606c56196545}{%
+           family={Forsman},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0f4572dfabd62293f447606c56196545}
+      \strng{fullhash}{0f4572dfabd62293f447606c56196545}
+      \strng{authornamehash}{0f4572dfabd62293f447606c56196545}
+      \strng{authorfullhash}{0f4572dfabd62293f447606c56196545}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Much research has been devoted to identify the conditions under which selection favours flexible individuals or genotypes that are able to modify their growth, development and behaviour in response to environmental cues, to unravel the mechanisms of plasticity and to explore its influence on patterns of diversity among individuals, populations and species. The consequences of developmental plasticity and phenotypic flexibility for the performance and ecological success of populations and species have attracted a comparatively limited but currently growing interest. Here, I re-emphasize that an increased understanding of the roles of plasticity in these contexts requires a ‘whole organism’ (rather than ‘single trait’) approach, taking into consideration that organisms are integrated complex phenotypes. I further argue that plasticity and genetic polymorphism should be analysed and discussed within a common framework. I summarize predictions from theory on how phenotypic variation stemming from developmental plasticity and phenotypic flexibility may affect different aspects of population-level performance. I argue that it is important to distinguish between effects associated with greater interindividual phenotypic variation resulting from plasticity, and effects mediated by variation among individuals in the capacity to express plasticity and flexibility as such. Finally, I claim that rigorous testing of predictions requires methods that allow for quantifying and comparing whole organism plasticity, as well as the ability to experimentally manipulate the level of and capacity for developmental plasticity and phenotypic flexibility independent of genetic variation.}
+      \field{issn}{0018-067X}
+      \field{journaltitle}{Heredity}
+      \field{month}{10}
+      \field{title}{Rethinking phenotypic plasticity and its consequences for individuals, populations and species}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/hdy.2014.92
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\T5ZDAMKH\\Forsman - 2014 - Rethinking phenotypic plasticity and its consequen.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\EQ974RU8\\hdy201492a.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/hdy/journal/vaop/ncurrent/full/hdy201492a.html
+      \endverb
+    \endentry
+    \entry{heger_light_2016}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bde70a6f2105ed43a5b46388c5bb58dd}{%
+           family={Heger},
+           familyi={H\bibinitperiod},
+           given={Tina},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \strng{fullhash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \strng{authornamehash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \strng{authorfullhash}{bde70a6f2105ed43a5b46388c5bb58dd}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* For plants competing for light, grasslands represent complex environments. Grassland microhabitats vary in the amount of available light and in the spatial distribution of patches with full sunlight, light shade and deep shade. Plant populations have been shown to adapt to specific competitors and shading conditions, but it is an open question how tightly the responses of populations to different shading situations are linked to the light availability previously experienced in the field. * Using maternal families collected in grasslands ranging from open to closed canopies, I tested the effects of no shading, homogeneous and heterogeneous shade created in the glasshouse on trait expression in the annual Erodium cicutarium. Heterogeneous shading was simulated by a patchwork of single and double layers of light filters lowering the R:FR ratio of transmitted light and clear filters simulating gaps. * Heterogeneous shading induced a stronger shade avoidance response than homogeneous shading, with larger leaf length, greater vegetative height and larger specific leaf area. Time to first flowering was longer under heterogeneous shading, and plants produced less fruits. * Populations differed in their time to first flowering under the shading treatments, and these differences could be traced back to light availability measured in the field. Plants from populations with lower light availability showed a postponed date of first flowering even if they were not shaded. These differences were attributable to plasticity of the maternal families. Across shading treatments, plants from low-light environments produced more above-ground biomass. * Synthesis. This study indicates that there is a close linkage between the light availability experienced in the field and the ability of following generations to respond to shading. Low average light availability experienced in the past seems to induce a trade-off of vegetative growth against early flowering, providing the following generations with the capacity to overtop neighbours. This capacity is utilized especially if plants experience a mixture of gaps and deep shade.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Light availability experienced in the field affects ability of following generations to respond to shading in an annual grassland plant}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{volume}{104}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1432\bibrangedash 1440}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12607
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\T3V8U5BS\\Heger - 2016 - Light availability experienced in the field affect.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\78FJ7JVG\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12607/abstract
+      \endverb
+      \keyw{Phenotypic plasticity,plant–plant interactions,above-ground competition,Environmental heterogeneity,Erodium cicutarium,first flowering date,light gaps,R:FR,shade avoidance,trade-off growth reproduction}
+    \endentry
+    \entry{herms_dilemma_1992}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=75f02434b90961f9be1e457d03f95cd0}{%
+           family={Herms},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=e165fc5bb811459945d2c45cb65cdc00}{%
+           family={Mattson},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd26202280cbf8a851bf23ea02ac5262}
+      \strng{fullhash}{bd26202280cbf8a851bf23ea02ac5262}
+      \strng{authornamehash}{bd26202280cbf8a851bf23ea02ac5262}
+      \strng{authorfullhash}{bd26202280cbf8a851bf23ea02ac5262}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Physiological and ecological constraints play key roles in the evolution of plant growth patterns, especially in relation to defenses against herbivores. Phenotypic and life history theories are unified within the growth-differentiation balance (GDB) framework, forming an integrated system of theories explaining and predicting patterns of plant defense and competitive interactions in ecological and evolutionary time. Plant activity at the cellular level can be classified as growth (cell division and enlargement) of differentiation (chemical and morphological changes leading to cell maturation and specialization). The GDB hypothesis of plant defense is premised upon a physiological trade-off between growth and differentiation processes. The trade-off between growth and defense exists because secondary metabolism and structural reinforcement are physiologically constrained in dividing and enlarging cells, and because they divert resources from the production of new leaf area. Hence the dilemma of plants: They must grow fast enough to complete, yet maintain the defenses necessary to survive in the presence of pathogens and hervivores. The physiological trade-off between growth and differentiation processes interacts with herbivory and plant-plant competition to manifest itself as a genetic trade-off between growth and defense in the evolution of plant life history strategies. Evolutionary theories of plant defense are reviewed. We also extend a standard growth rate model by separating its ecological and evolutionary components,and formalizing the role of competition in the evolution of plant defense. We conclude with a conceptual model of the evolution of plant defense in which plant physioligical trade-offs interact with the abiotic environment, competition and herbivory.}
+      \field{issn}{0033-5770}
+      \field{journaltitle}{The Quarterly Review of Biology}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shorttitle}{The {Dilemma} of {Plants}}
+      \field{title}{The {Dilemma} of {Plants}: {To} {Grow} or {Defend}}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{67}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \field{pages}{283\bibrangedash 335}
+      \range{pages}{53}
+      \verb{file}
+      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\CB9U7AZZ\\Herms et Mattson - 1992 - The Dilemma of Plants To Grow or Defend.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2830650
+      \endverb
+    \endentry
+    \entry{hu_novel_2015}{article}{}
+      \name{author}{13}{}{%
+        {{uniquename=0,hash=8229df54d6130ba4fedff8073fd8837f}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yu-Kun},
+           giveni={Y\bibinithyphendelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=d98318030876573c4cdc96958fa21914}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{uniquename=0,hash=7bd842a6aa480786884f088419794a63}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Guo-Fang},
+           giveni={G\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=eb73680957a8caed3e7bb9cd0b8ef011}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wen-Bing},
+           giveni={W\bibinithyphendelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=257060d212212c022bcb27224ad07444}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Wen-Hong},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=b1e6bda175dbf36c020d0101a0587928}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Shuang-Li},
+           giveni={S\bibinithyphendelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=33bb81039f16c26fe7ac87753aa54981}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ya-Lin},
+           giveni={Y\bibinithyphendelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=17b59d4ceb91a916eff5329b6c953d9d}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=345597131f5a37c3b60f20252436aaaa}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ling-Yun},
+           giveni={L\bibinithyphendelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=a5a94e36625701b04b0f82e1d472fd69}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=e94413ba98c3c9d401a202591b1973b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Meng-Yao},
+           giveni={M\bibinithyphendelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=18efd3dea4f7c1e3b3e874b8316a3096}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yao-Bin},
+           giveni={Y\bibinithyphendelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=568cca5c35b88cfd0eaed2045485e665}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{aa7770e54a1e04d1daca2be7328bc2c8}
+      \strng{fullhash}{a24193158c3bee0f9619ba5bf0cea066}
+      \strng{authornamehash}{aa7770e54a1e04d1daca2be7328bc2c8}
+      \strng{authorfullhash}{a24193158c3bee0f9619ba5bf0cea066}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Leaf economics spectrum (LES), characterizing covariation among a suite of leaf traits relevant to carbon and nutrient economics, has been examined largely among species but hardly within species. In addition, very little attempt has been made to examine whether the existence of LES depends on spatial scales. To address these questions, we quantified the variation and covariation of four leaf economic traits (specific leaf area, leaf dry matter content, leaf nitrogen and phosphorus contents) in a cosmopolitan wetland species (Phragmites australis) at three spatial (inter-regional, regional and site) scales across most of the species range in China. The species expressed large intraspecific variation in the leaf economic traits at all of the three spatial scales. It also showed strong covariation among the four leaf economic traits across the species range. The coordination among leaf economic traits resulted in LES at all three scales and the environmental variables determining variation in leaf economic traits were different among the spatial scales. Our results provide novel evidence for within-species LES at multiple spatial scales, indicating that resource trade-off could also constrain intraspecific trait variation mainly driven by climatic and/or edaphic differences.}
+      \field{issn}{1664-462X}
+      \field{journaltitle}{Front. Plant Sci.}
+      \field{title}{Novel evidence for within-species leaf economics spectrum at multiple spatial scales}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2017}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3389/fpls.2015.00901
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\8RUBMXJZ\\Hu et al. - 2015 - Novel evidence for within-species leaf economics s.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://journal.frontiersin.org/article/10.3389/fpls.2015.00901/abstract
+      \endverb
+      \keyw{intraspecific variation,leaf economic traits,leaf economics spectrum (LES),spatial scales,trade-offs,trait relationships,wetland plant}
+    \endentry
+    \entry{kichenin_contrasting_2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=4af912481f39f09ec65c4ed146b69fb5}{%
+           family={Kichenin},
+           familyi={K\bibinitperiod},
+           given={Emilie},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=2a36cd6a6a37d4a5ab6dbc29193dea60}{%
+           family={Wardle},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=0a53338028da78dd75b6677e742f1c1b}{%
+           family={Peltzer},
+           familyi={P\bibinitperiod},
+           given={Duane\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=dd9f84dedc82b5249f0a201bbe7fcf96}{%
+           family={Morse},
+           familyi={M\bibinitperiod},
+           given={Chris\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
+           family={Freschet},
+           familyi={F\bibinitperiod},
+           given={Grégoire\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ec3e5253613ce88f6bb164e8c968d82d}
+      \strng{fullhash}{71fc4551962060dc86530a5ff7f2c599}
+      \strng{authornamehash}{ec3e5253613ce88f6bb164e8c968d82d}
+      \strng{authorfullhash}{71fc4551962060dc86530a5ff7f2c599}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Despite widespread focus on interspecific variation in trait-based ecology, there is growing evidence that intraspecific trait variability can play a fundamental role in plant community responses to environmental change and community assembly. * Here, we quantify the strength and direction of inter- and intraspecific plant community trait responses along a 900 m elevation gradient spanning alpine and subalpine plant communities in southern New Zealand. We measured five commonly used leaf traits (i.e. dry matter content, N and P concentrations, leaf area and specific leaf area) on all 31 dominant and subordinate species recorded along the gradient, and examined their species-specific and community-level responses to elevation using both abundance-weighted and nonweighted averages of trait values. * By decomposing the variance of community-level measures of these traits across the gradient, we showed that the contribution of interspecific variation to the response of plant assemblages to elevation was stronger than that of intraspecific variation, for all traits except specific leaf area. Further, the relative contributions of interspecific effects were greater when abundance-weighted rather than nonweighted measures were used. We also observed contrasting intraspecific trait responses to the gradient among species (particularly for leaf N and P concentrations), and found both positive and negative covariation between inter- and intraspecific effects on community-level trait values. * The weak community-average trait responses to elevation, as found for specific leaf area (SLA) and leaf N and P concentrations, resulted from strong but opposing responses among vs. within species, which are not typically accounted for in species-based measures of plant community responses. For instance, increasing elevation (and associated factors such as a decrease in soil nutrient availability) favoured the dominance of species with relatively high leaf nutrient concentrations while simultaneously triggering an intraspecific decrease in the leaf nutrient concentrations of these species. * The context dependency of positive and negative covariation between inter- and intraspecific trait variability, and the species-specific nature of intraspecific shifts in functional trait values, reveal highly complex plastic responses of plants to environmental changes, and highlights the need for greater consideration of the role that intraspecific variation plays in community-level processes.}
+      \field{issn}{1365-2435}
+      \field{journaltitle}{Funct Ecol}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Contrasting effects of plant inter- and intraspecific variation on community-level trait measures along an environmental gradient}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{27}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1254\bibrangedash 1261}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/1365-2435.12116
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\JHM29BDM\\Kichenin et al. - 2013 - Contrasting effects of plant inter- and intraspeci.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\PTGT6PUZ\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2435.12116/abstract
+      \endverb
+      \keyw{Species Turnover,specific leaf area (SLA),plant functional traits,elevational gradient,interspecific and intraspecific variation,leaf nutrient content,plant community structure,variance decomposition}
+    \endentry
+    \entry{lohier_analyse_2016}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=83072d0651cc1a8b342e506ba577d88e}{%
+           family={Lohier},
+           familyi={L\bibinitperiod},
+           given={Théophile},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{83072d0651cc1a8b342e506ba577d88e}
+      \strng{fullhash}{83072d0651cc1a8b342e506ba577d88e}
+      \strng{authornamehash}{83072d0651cc1a8b342e506ba577d88e}
+      \strng{authorfullhash}{83072d0651cc1a8b342e506ba577d88e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{li}
+      \field{title}{Analyse temporelle de la dynamique de communautés végétales à l'aide de modèles individus-centrés - document}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Analyse temporelle de la dynamique de communautés végétales à l'aide de modèles individus-centrés - document:C\:\\Users\\Clemt\\Zotero\\storage\\HVKIVGH2\\document.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01356076/document
+      \endverb
+    \endentry
+    \entry{maire_plasticity_2013}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=1ecb3c0a8262af560d1c5fcef2827334}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=e2164a868a1325c3620341fa60a87e8d}{%
+           family={Soussana},
+           familyi={S\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=20bc47afa486108f8b1605d9414b8f4e}{%
+           family={Bachelet},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=261bcfcede26359224469323ef46e9fb}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=cb5fddc06ebefe93982aee016fd0446a}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=64dea7bf168c8dc3cbf52f2c68a4c3da}{%
+           family={Reinhold},
+           familyi={R\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=adb5797edad2975fdfafaaa7afcc19b3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{fullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \strng{authornamehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{authorfullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gemini, a mechanistic model linking plant functional traits, plant populations, community dynamics, and ecosystem scale fluxes in grasslands has been reported in a companion paper (Soussana et al., 2012). For monocultures and six species mixtures of perennial grass species, this model has been successfully evaluated against experimental data of above-ground net primary productivity (ANPP) and plant community structure across nitrogen and disturbance (cutting frequency) gradients. The Gemini model combines two categories of processes: (i) C and N fluxes, (ii) morphogenesis and architecture of roots and shoots and demography of clonal plant axes. These two process categories constrain the form and function of the simulated clonal plants within plastic limits. We show here that the plasticity of the simulated plant populations accounts for well-established empirical laws: (i) root:shoot ratio, (ii) self-thinning, (iii) critical shoot N content, and (iv) role of plant traits (specific leaf area and plant height) for population response to environmental gradients (nitrogen and disturbance). Moreover, we show that model versions for which plasticity simulation has been partly or fully suppressed have a reduced ANPP in monocultures and in binary mixtures and do not capture anymore productivity and dominance changes across environmental gradients. We conclude that, along environmental and competition gradients, the plasticity of plant form and function is required to maintain the coordination of multiple resource capture and, hence, to sustain productivity and dominance.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{4}
+      \field{title}{Plasticity of plant form and function sustains productivity and dominance along environment and competition gradients. {A} modeling experiment with {Gemini}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{254}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{80\bibrangedash 91}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2012.03.039
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6M2NIXS7\\Maire et al. - 2013 - Plasticity of plant form and function sustains pro.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\GB6MJWWT\\S0304380012001664.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380012001664
+      \endverb
+      \keyw{biodiversity,Nitrogen,grassland,Carbon,Coordination theory,Functional balance,Growth,partitioning}
+    \endentry
+    \entry{mcmurtrie_leaf-trait_2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b71e2959ba5255401c6b7ff7deb5ddad}{%
+           family={McMurtrie},
+           familyi={M\bibinitperiod},
+           given={Ross\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=fdc0a9b449456e7b1080e02c415e7d1a}{%
+           family={Dewar},
+           familyi={D\bibinitperiod},
+           given={Roderick\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{22bdb78568ff6924dfa713d8a0111ba7}
+      \strng{fullhash}{22bdb78568ff6924dfa713d8a0111ba7}
+      \strng{authornamehash}{22bdb78568ff6924dfa713d8a0111ba7}
+      \strng{authorfullhash}{22bdb78568ff6924dfa713d8a0111ba7}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Measured values of four key leaf traits (leaf area per unit mass, nitrogen concentration, photosynthetic capacity, leaf lifespan) co-vary consistently within and among diverse biomes, suggesting convergent evolution across species. The same leaf traits co-vary consistently with the environmental conditions (light intensity, carbon-dioxide concentration, nitrogen supply) prevailing during leaf development. No existing theory satisfactorily explains all of these trends. Here, using a simple model of the carbon–nitrogen economy of trees, we show that global leaf-trait relationships and leaf responses to environmental conditions can be explained by the optimization hypothesis (MAXX) that plants maximize the total amount of carbon exported from their canopies over the lifespan of leaves. Incorporating MAXX into larger-scale vegetation models may improve their consistency with global leaf-trait relationships, and enhance their ability to predict how global terrestrial productivity and carbon sequestration respond to environmental change.}
+      \field{issn}{0829-318X, 1758-4469}
+      \field{journaltitle}{Tree Physiol}
+      \field{month}{6}
+      \field{title}{Leaf-trait variation explained by the hypothesis that plants maximize their canopy carbon export over the lifespan of leaves}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{tpr037}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/treephys/tpr037
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\Q3F9WAAN\\McMurtrie et Dewar - 2011 - Leaf-trait variation explained by the hypothesis t.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\A5ZGNU8F\\treephys.tpr037.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://treephys.oxfordjournals.org/content/early/2011/06/05/treephys.tpr037
+      \endverb
+      \keyw{specific leaf area,global change,leaf lifespan,canopy carbon export,forest model,leaf-area index,leaf-trait relationships,maximization,nitrogen-use efficiency,optimal plant function,optimality,photosynthesis model,plant carbon–nitrogen economy}
+    \endentry
+    \entry{murren_constraints_2015}{article}{}
+      \name{author}{16}{}{%
+        {{uniquename=0,hash=03dfe4138d0dcf3f9dde89b4d3d60387}{%
+           family={Murren},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=0e59862b5da470e157faac7eb05c6706}{%
+           family={Auld},
+           familyi={A\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=31e58f430368075472845b8e2d90f844}{%
+           family={Callahan},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=aa9fc5766ff2f9e7e1c60126a1ca030a}{%
+           family={Ghalambor},
+           familyi={G\bibinitperiod},
+           given={C.\bibnamedelimi K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=883450477bb5381694f5d426bcbde9e9}{%
+           family={Handelsman},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=8caeb74ec8d19fa9c8816ea2908cd281}{%
+           family={Heskel},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=84ce1100abc148ffdafa0f72deced3b2}{%
+           family={Kingsolver},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=fc4419d7356a1711aa2b1946a7b76794}{%
+           family={Maclean},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=b5b1a91cfabfb2042a55a0f545f97fd4}{%
+           family={Masel},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=ad0c6ff28f46bbac5142339ce6692b5d}{%
+           family={Maughan},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=65a8e2af6b72c5e07a26a9c5d67be280}{%
+           family={Pfennig},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=4d0c0a88b46db1d8aa3032263bd12572}{%
+           family={Relyea},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=cde460d6e6528f7ed41957813340f442}{%
+           family={Seiter},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=882fa52aa9947e0bb7ecfc581dbb8fe3}{%
+           family={Snell-Rood},
+           familyi={S\bibinithyphendelim R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=11fac2edcdc4fa2cfb20979c047ef67d}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={U.\bibnamedelimi K.},
+           giveni={U\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=50c00a44d4d4de72e5fa08c387f74730}{%
+           family={Schlichting},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{295993380d62b40c9f9ca1b80c0e449b}
+      \strng{fullhash}{ae2e6aab0ba497de37ea2027e597492e}
+      \strng{authornamehash}{295993380d62b40c9f9ca1b80c0e449b}
+      \strng{authorfullhash}{ae2e6aab0ba497de37ea2027e597492e}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Phenotypic plasticity is ubiquitous and generally regarded as a key mechanism for enabling organisms to survive in the face of environmental change. Because no organism is infinitely or ideally plastic, theory suggests that there must be limits (for example, the lack of ability to produce an optimal trait) to the evolution of phenotypic plasticity, or that plasticity may have inherent significant costs. Yet numerous experimental studies have not detected widespread costs. Explicitly differentiating plasticity costs from phenotype costs, we re-evaluate fundamental questions of the limits to the evolution of plasticity and of generalists vs specialists. We advocate for the view that relaxed selection and variable selection intensities are likely more important constraints to the evolution of plasticity than the costs of plasticity. Some forms of plasticity, such as learning, may be inherently costly. In addition, we examine opportunities to offset costs of phenotypes through ontogeny, amelioration of phenotypic costs across environments, and the condition-dependent hypothesis. We propose avenues of further inquiry in the limits of plasticity using new and classic methods of ecological parameterization, phylogenetics and omics in the context of answering questions on the constraints of plasticity. Given plasticity’s key role in coping with environmental change, approaches spanning the spectrum from applied to basic will greatly enrich our understanding of the evolution of plasticity and resolve our understanding of limits.}
+      \field{issn}{0018-067X}
+      \field{journaltitle}{Heredity}
+      \field{month}{2}
+      \field{shorttitle}{Constraints on the evolution of phenotypic plasticity}
+      \field{title}{Constraints on the evolution of phenotypic plasticity: limits and costs of phenotype and plasticity}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/hdy.2015.8
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\CGHK7H93\\Murren et al. - 2015 - Constraints on the evolution of phenotypic plastic.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\PU9WISIT\\hdy20158a.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/hdy/journal/vaop/ncurrent/full/hdy20158a.html
+      \endverb
+    \endentry
+    \entry{nicotra_plant_2010}{article}{}
+      \name{author}{11}{}{%
+        {{uniquename=0,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
+           family={Nicotra},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=6a3ac543c65dccbfd2ef9012c6021c11}{%
+           family={Atkin},
+           familyi={A\bibinitperiod},
+           given={O.\bibnamedelimi K.},
+           giveni={O\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=3773b2d00ee3d9beca57ee7e186e78fa}{%
+           family={Bonser},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=1f8a27fbb080296e65fc104d55929107}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c438d4833cbf84f89b68dda1f5b79493}{%
+           family={Finnegan},
+           familyi={F\bibinitperiod},
+           given={E.\bibnamedelimi J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=694017826ff0ff52d638f1d420368888}{%
+           family={Mathesius},
+           familyi={M\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+        {{uniquename=0,hash=ba8b650338638bb1fb948fc3152dba69}{%
+           family={Poot},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=013cb78d301d18344461457871e6ebca}{%
+           family={Purugganan},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=c935afd08cdbb7649486a9618a7659d9}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=09e16a9538c6d25cc495d5cc82f1a09a}{%
+           family={Valladares},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=24f6e625157c5253d1ed4546b70853bb}{%
+           family={Kleunen},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{fullhash}{2c084fb92673fff36b9f746ecf767e35}
+      \strng{authornamehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{authorfullhash}{2c084fb92673fff36b9f746ecf767e35}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change is altering the availability of resources and the conditions that are crucial to plant performance. One way plants will respond to these changes is through environmentally induced shifts in phenotype (phenotypic plasticity). Understanding plastic responses is crucial for predicting and managing the effects of climate change on native species as well as crop plants. Here, we provide a toolbox with definitions of key theoretical elements and a synthesis of the current understanding of the molecular and genetic mechanisms underlying plasticity relevant to climate change. By bringing ecological, evolutionary, physiological and molecular perspectives together, we hope to provide clear directives for future research and stimulate cross-disciplinary dialogue on the relevance of phenotypic plasticity under climate change.}
+      \field{issn}{1360-1385}
+      \field{journaltitle}{Trends in Plant Science}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Plant phenotypic plasticity in a changing climate}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{15}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{684\bibrangedash 692}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.tplants.2010.09.008
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\PA9AKDXT\\Nicotra et al. - 2010 - Plant phenotypic plasticity in a changing climate.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\7CPN4P82\\S1360138510001986.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1360138510001986
+      \endverb
+    \endentry
+    \entry{perez-ramos_tradeoffs_2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=1401c5b5a4d28a9cfbc08de0860cffbd}{%
+           family={Pérez-Ramos},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Ignacio\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=ea9945bcf6d4de6e5d537136754f41f4}{%
+           family={Volaire},
+           familyi={V\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=a6b6abcce67ba3eaa862795c96e0ba6a}{%
+           family={Fattet},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=9f3b26e60fc1b11dc30568282f25ba86}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5fd127d49aaa74f15c0d8e1c03eb8ad2}{%
+           family={Roumet},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e20179903ff88c78481c3926f05efe8f}
+      \strng{fullhash}{dec35f31694252f03f0698a13c2b88d1}
+      \strng{authornamehash}{e20179903ff88c78481c3926f05efe8f}
+      \strng{authorfullhash}{dec35f31694252f03f0698a13c2b88d1}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In environments where light is not a limiting resource such as rangelands and grasslands, there is much disagreement regarding the benefits provided by rapid light capture during the growing season and the species’ ability to withstand drought during the dry period. In this study, we selected four perennial herbaceous species with contrasting resource-use strategies (acquisitive versus conservative), which were transplanted as monocultures into PVC pots to evaluate their species-specific responses to drought. The two main strategies of drought-survival (avoidance versus tolerance) were driven by distinct underlying mechanisms that allow the plant to delay or tolerate water deficit in leaves. On the one hand, plants that produced reduced leaves with lower surface area:mass ratio (lower SLA) exhibited higher values of leaf water potential (LWP) and leaf relative water content (LRWC), which could be associated to a higher ability to delay tissue dehydration in enlarged leaves. Regarding the below-ground compartment, dehydration avoidance was promoted by prolonged elongation rates of thinner roots that allow the plant to increase water uptake and accessibility during the dry period. On the other hand, dehydration tolerance was positively related with progressive foliage senescence under water deficit, which probably favored a longer survival of meristematic basal tissues. The results presented in this study suggest the existence of a trade-off between the traits favoring rapid light-acquisition and those enhancing the ability to delay leaf dehydration. Thus, the species related most closely with a resource-acquisition strategy (Bromus erectus and Potentilla neumanniana) could be considered less efficient to delay leaf dehydration than the others (Carex humilis and Festuca christiani-bernardii), as indicated by their lower values of leaf water potential (LWP) and leaf relative water content (LRWC) under identical conditions of water deficit. Our findings support evidence that there is not a single strategy to effectively cope with drought and reveal the diversity of adaptive mechanisms among coexisting species.}
+      \field{issn}{0098-8472}
+      \field{journaltitle}{Environmental and Experimental Botany}
+      \field{month}{3}
+      \field{title}{Tradeoffs between functional strategies for resource-use and drought-survival in {Mediterranean} rangeland species}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{87}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{126\bibrangedash 136}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.envexpbot.2012.09.004
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6EGRHP2T\\Pérez-Ramos et al. - 2013 - Tradeoffs between functional strategies for resour.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\USGETACK\\S0098847212001876.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0098847212001876
+      \endverb
+      \keyw{functional traits,Aerial senescence,Dehydration avoidance,Dehydration tolerance,Root elongation}
+    \endentry
+    \entry{richter_phenotypic_2012}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=bf00fdca6db2155b0e9739c23f7c7a0d}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ad15c1151a56bb86fc52ec20fb3ad657}{%
+           family={Kipfer},
+           familyi={K\bibinitperiod},
+           given={Tabea},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=1426ea866b73ed9e0d5f343e07dc024b}{%
+           family={Wohlgemuth},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=9b51d1a161d793bfdea9f2262e849009}{%
+           family={Guerrero},
+           familyi={G\bibinitperiod},
+           given={Carlos\bibnamedelima Calderón},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=24c8fab018df3f9e88edf8a17665f7b9}{%
+           family={Ghazoul},
+           familyi={G\bibinitperiod},
+           given={Jaboury},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=f3a341d67d26b191db532dfbaf23dc8a}{%
+           family={Moser},
+           familyi={M\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c2fbc5436b34b26d415fbf411f0d547}
+      \strng{fullhash}{fc7a8e88b978f2fc7041d54aef343c18}
+      \strng{authornamehash}{9c2fbc5436b34b26d415fbf411f0d547}
+      \strng{authorfullhash}{fc7a8e88b978f2fc7041d54aef343c18}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Increased summer drought will exacerbate the regeneration of many tree species at their lower latitudinal and altitudinal distribution limits. In vulnerable habitats, introduction of more drought-tolerant provenances or species is currently considered to accelerate tree species migration and facilitate forest persistence. Trade-offs between drought adaptation and growth plasticity might, however, limit the effectiveness of assisted migration, especially if introductions focus on provenances or species from different climatic regions. We tested in a common garden experiment the performance of Pinus sylvestris seedlings from the continental Central Alps under increased temperatures and extended spring and/or summer drought, and compared seedling emergence, survival and biomass allocation to that of P. sylvestris and closely related Pinus nigra from a Mediterranean seed source. Soil heating had only minor effects on seedling performance but high spring precipitation doubled the number of continental P. sylvestris seedlings present after the summer drought. At the same time, twice as many seedlings of the Mediterranean than the continental P. sylvestris provenance were present, which was due to both higher emergence and lower mortality under dry conditions. Both P. sylvestris provenances allocated similar amounts of biomass to roots when grown under low summer precipitation. Mediterranean seedlings, however, revealed lower phenotypic plasticity than continental seedlings under high precipitation, which might limit their competitive ability in continental Alpine forests in non-drought years. By contrast, high variability in the response of individual seedlings to summer drought indicates the potential of continental P. sylvestris provenances to adapt to changing environmental conditions.}
+      \field{issn}{0029-8549}
+      \field{journaltitle}{Oecologia}
+      \field{number}{1}
+      \field{title}{Phenotypic plasticity facilitates resistance to climate change in a highly variable environment}
+      \field{urlday}{15}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{volume}{169}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{269\bibrangedash 279}
+      \range{pages}{11}
+      \verb{url}
+      \verb http://www.jstor.org/stable/41487950
+      \endverb
+    \endentry
+    \entry{ryser_consequences_2000}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
+           family={Ryser},
+           familyi={R\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=41d22694a89756118c39ec88c90328c3}{%
+           family={Eek},
+           familyi={E\bibinitperiod},
+           given={Liina},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{65525e5c4ca5709686ec8763b8ca9719}
+      \strng{fullhash}{65525e5c4ca5709686ec8763b8ca9719}
+      \strng{authornamehash}{65525e5c4ca5709686ec8763b8ca9719}
+      \strng{authorfullhash}{65525e5c4ca5709686ec8763b8ca9719}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Trade-offs between acquisition capacities for aboveground and belowground resources were investigated by studying the phenotypic plasticity of leaf and root traits in response to different irradiance levels at low nutrient supply. Two congeneric grasses with contrasting light requirements, Dactylis glomerata and D. polygama, were used. The aim was to analyze phenotypic covariation in components of leaf area and root length in response to above- and belowground resource limitation and the consequences of this variation for resource acquisition and plant growth. At intermediate shading (30 and 20\% of full sunlight) the plants were able to maintain their total root length, despite a strongly increased total leaf area and a reduced biomass allocation to roots. This was associated with an unaltered or slightly increased nutrient uptake and growth. At 5.5\% relative irradiance, growth was severely reduced, especially in the shade-tolerant D. polygama. The results show that constraints on acquisition capacities for aboveground and belowground resources, caused by biomass allocation, may be alleviated by plasticity in other traits such as tissue-mass density and thickness of roots and leaves. The results also suggest different adaptive constraints for phenotypic plasticity and for genetically determined interspecific variation. Phenotypic plasticity tends to maximize resource acquisition and growth rate in the short term, whereas the higher tissue-mass density and the longer leaf life-span of shade-tolerant species indicate reduced loss rates as a more advantageous species-specific adaptation to shade in the long term.}
+      \field{issn}{0002-9122}
+      \field{journaltitle}{American Journal of Botany}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Consequences of {Phenotypic} {Plasticity} vs. {Interspecific} {Differences} in {Leaf} and {Root} {Traits} for {Acquisition} of {Aboveground} and {Belowground} {Resources}}
+      \field{urlday}{15}
+      \field{urlmonth}{1}
+      \field{urlyear}{2015}
+      \field{volume}{87}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{402\bibrangedash 411}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2307/2656636
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\DBKKGCWH\\Ryser et Eek - 2000 - Consequences of Phenotypic Plasticity vs. Interspe.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2656636
+      \endverb
     \endentry
     \entry{valladares_ecological_2007}{article}{}
       \name{author}{3}{}{%
@@ -15507,7 +16496,343 @@
       \endverb
       \keyw{shade avoidance,cost of plasticity,G × E interactions,genetic variation in plasticity,induced resistance,plasticity genes}
     \endentry
+    \entry{wellstein_intraspecific_2013}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=f8183922feac557846fc8e807cd6febe}{%
+           family={Wellstein},
+           familyi={W\bibinitperiod},
+           given={Camilla},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=2f7b50fd006fd9310c8da9470ad02d1f}{%
+           family={Chelli},
+           familyi={C\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=311bd36b3168b3bee335543b1a0abd00}{%
+           family={Campetella},
+           familyi={C\bibinitperiod},
+           given={Giandiego},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=ff8630ad00cf14a0be0c4443b2e65c11}{%
+           family={Bartha},
+           familyi={B\bibinitperiod},
+           given={Sandor},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ad92c5c991079e183061d1b0c48f9a46}{%
+           family={Galiè},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=082fe9d7effb90b7ec6612c605931ac6}{%
+           family={Spada},
+           familyi={S\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=3b15cf825fde8f5641a7246bac11e1b9}{%
+           family={Canullo},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{04c9ae0527f16ee19fa1a5177ea37a06}
+      \strng{fullhash}{6972d0bacec89c802835965802b65dc5}
+      \strng{authornamehash}{04c9ae0527f16ee19fa1a5177ea37a06}
+      \strng{authorfullhash}{6972d0bacec89c802835965802b65dc5}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Empirical studies that link plants intraspecific variation to environmental conditions are almost lacking, despite their relevance in understanding mechanisms of plant adaptation, in predicting the outcome of environmental change and in conservation. Here, we investigate intraspecific trait variation of four grassland species along with abiotic environmental variation at high spatial resolution (n = 30 samples per species trait and environmental factor per site) in two contrasting grassland habitats in Central Apennines (Italy). We test for phenotypic adaptation between habitats, intraspecific trait-environment relationships within habitats, and the extent of trait and environmental variation. We considered whole plant, clonal, leaf, and seed traits. Differences between habitats were tested using ANOVA and ANCOVA. Trait-environment relationships were assessed using multiple regression models and hierarchical variance partitioning. The extent of variation was calculated using the coefficient of variation. Significant intraspecific differences in trait attributes between the contrasting habitats indicate phenotypic adaptation to in situ environmental conditions. Within habitats, light, soil temperature, and the availability of nitrate, ammonium, magnesium and potassium were the most important factors driving intraspecific trait-environment relationships. Leaf traits and height growth show lower variability than environment being probably more regulated by plants than clonal traits which show much higher variability. We show the adaptive significance of key plant traits leading to intraspecific adaptation of strategies providing insights for conservation of extant grassland communities. We argue that protecting habitats with considerable medium- and small-scale environmental heterogeneity is important to maintain large intraspecific variability within local populations that finally can buffer against uncertainty of future climate and land use scenarios.}
+      \field{issn}{0960-3115, 1572-9710}
+      \field{journaltitle}{Biodivers Conserv}
+      \field{month}{9}
+      \field{number}{10}
+      \field{title}{Intraspecific phenotypic variability of plant functional traits in contrasting mountain grasslands habitats}
+      \field{urlday}{9}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{22}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{2353\bibrangedash 2374}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s10531-013-0484-6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\CHEWPPBX\\Wellstein et al. - 2013 - Intraspecific phenotypic variability of plant func.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\WS3GUGBQ\\10.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/article/10.1007/s10531-013-0484-6
+      \endverb
+      \keyw{Phenotypic plasticity,Plant Sciences,Leaf traits,Clonal growth,Evolutionary Biology,intraspecific trait variation,Phenotypic adaptation,seed mass,Tree Biology}
+    \endentry
+    \entry{westoby_time_2000}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=15af070932e77903d2cd1a96ec01d9fa}{%
+           family={Warton},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4006b5248a53713432661097e91131b}
+      \strng{fullhash}{b4006b5248a53713432661097e91131b}
+      \strng{authornamehash}{b4006b5248a53713432661097e91131b}
+      \strng{authorfullhash}{b4006b5248a53713432661097e91131b}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{abstract: When a plant invests in construction of a leaf, the revenue‐stream that accrues is shaped by three variables: first, the light‐capture area per milligram dry mass invested, analogous to a potential rate of return on investment; second, the longevity of the leaf, analogous to the expected duration of the revenue stream; and third, a time‐discount rate, quantifying the fact that light‐capture area deployed in the immediate future is more valuable to the plant than the same area deployed at some later time. Recent comparative data make it possible to quantify the cross‐species trade‐off between the first variable and the second variable. Here we develop an approach through which the consequences of the third variable, the time‐discount rate, can be related to the trade‐off between the first variable and the second variable. The approach involves an equal‐benefit set, the cross‐species equivalent of a fitness set. A wide spread of strategies is actually observed to coexist in vegetation, from low to high light capture area per gram and, correspondingly, from high to low leaf longevity. The coexistence suggests that the different observed strategies do not have a clear‐cut advantage over the other. The equal‐benefit set can be used to investigate what levels of time discount would make it the case that neither the highest‐longevity nor the highest light‐capture area per milligram strategies would have a clear advantage over the other, with regard to the time‐discounted value of the revenue stream generated per milligram invested in leaf.}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{The {Time} {Value} of {Leaf} {Area}.}
+      \field{urlday}{19}
+      \field{urlmonth}{5}
+      \field{urlyear}{2015}
+      \field{volume}{155}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{649\bibrangedash 656}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1086/303346
+      \endverb
+      \verb{file}
+      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\XP4MTNNJ\\Westoby et al. - 2000 - The Time Value of Leaf Area..pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/10.1086/303346
+      \endverb
+    \endentry
+    \entry{wright_worldwide_2004}{article}{}
+      \name{author}{33}{}{%
+        {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=ef5903f7db819d2013433add3dc0f973}{%
+           family={Ackerly},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=c602e32bfd2e1878c5e28b93d707423e}{%
+           family={Baruch},
+           familyi={B\bibinitperiod},
+           given={Zdravko},
+           giveni={Z\bibinitperiod}}}%
+        {{uniquename=0,hash=18ab3e8f947bd99f77a7fa2882cdd938}{%
+           family={Bongers},
+           familyi={B\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=a90dd87c17cf666a967756ac228e2596}{%
+           family={Cavender-Bares},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Jeannine},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=002db4e2a97c70ed8b57c39ec641f552}{%
+           family={Chapin},
+           familyi={C\bibinitperiod},
+           given={Terry},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=59199cd41f1dcf2209b714a87daff5f9}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=4bf8fece4b2c1ac1dcb3cde1e3c7d121}{%
+           family={Diemer},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=966acc5bc522bf9fa7e9fd3de8c4e5a2}{%
+           family={Flexas},
+           familyi={F\bibinitperiod},
+           given={Jaume},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=adce00945e25fd9866396dce1da9fb57}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=03db198e720dc772dc2c25e24262140f}{%
+           family={Groom},
+           familyi={G\bibinitperiod},
+           given={Philip\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=95b879db5f4309f032bd90ea4cf7ac51}{%
+           family={Gulias},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=b37ef90307ccac34e3e3d1ffb4a20baf}{%
+           family={Hikosaka},
+           familyi={H\bibinitperiod},
+           given={Kouki},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=e92921d529ff1e0426d87b4b6aa26c2c}{%
+           family={Lamont},
+           familyi={L\bibinitperiod},
+           given={Byron\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=e3aa947ccfe6bc49999b33a9453bcc33}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Tali},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=604f10696ef6e0ad0315289704f87bd6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=57f3eef13856b7a61a1c3af4d9d9c70c}{%
+           family={Lusk},
+           familyi={L\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=82ed655c88723cc641a0b8d47badd4d2}{%
+           family={Midgley},
+           familyi={M\bibinitperiod},
+           given={Jeremy\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=335c97b0d11aedf8e1f612f7c73d573f}{%
+           family={Navas},
+           familyi={N\bibinitperiod},
+           given={Marie-Laure},
+           giveni={M\bibinithyphendelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=5db084f5d3894b3621b086945c2e725b}{%
+           family={Niinemets},
+           familyi={N\bibinitperiod},
+           given={Ülo},
+           giveni={Ü\bibinitperiod}}}%
+        {{uniquename=0,hash=bdb2b7d2559a5c19f0d6321af7da017e}{%
+           family={Oleksyn},
+           familyi={O\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=62ced274a51d1349bab7eca9771dd4b6}{%
+           family={Osada},
+           familyi={O\bibinitperiod},
+           given={Noriyuki},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=b0fe6414967317208445b7096f19e1a3}{%
+           family={Poot},
+           familyi={P\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=82f3f0c010c4ba9be9163d4f835f5b5c}{%
+           family={Prior},
+           familyi={P\bibinitperiod},
+           given={Lynda},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=620262dedc8d100ce5a1e4699783d005}{%
+           family={Pyankov},
+           familyi={P\bibinitperiod},
+           given={Vladimir\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=5fd127d49aaa74f15c0d8e1c03eb8ad2}{%
+           family={Roumet},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=4407e2d72f326c2893a3a24de34d247f}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Sean\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=c0d2500fd2a1a2c078d98be0a3a8c865}{%
+           family={Tjoelker},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=99769b962950b9f84fe8263ad10baaeb}{%
+           family={Veneklaas},
+           familyi={V\bibinitperiod},
+           given={Erik\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=2632650f1a99ff7322d26a87c62c4554}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9eec28f8526a30f38277d1f364777612}
+      \strng{fullhash}{ad230580115ef199fabc3627245af9f2}
+      \strng{authornamehash}{9eec28f8526a30f38277d1f364777612}
+      \strng{authorfullhash}{ad230580115ef199fabc3627245af9f2}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bringing together leaf trait data spanning 2,548 species and 175 sites we describe, for the first time at global scale, a universal spectrum of leaf economics consisting of key chemical, structural and physiological properties. The spectrum runs from quick to slow return on investments of nutrients and dry mass in leaves, and operates largely independently of growth form, plant functional type or biome. Categories along the spectrum would, in general, describe leaf economic variation at the global scale better than plant functional types, because functional types overlap substantially in their leaf traits. Overall, modulation of leaf traits and trait relationships by climate is surprisingly modest, although some striking and significant patterns can be seen. Reliable quantification of the leaf economics spectrum and its interaction with climate will prove valuable for modelling nutrient fluxes and vegetation boundaries under changing land-use and climate.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{4}
+      \field{number}{6985}
+      \field{title}{The worldwide leaf economics spectrum}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{428}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{821\bibrangedash 827}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nature02403
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\QSCP4ZKT\\Wright et al. - 2004 - The worldwide leaf economics spectrum.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\RRB2V9IN\\nature02403.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v428/n6985/abs/nature02403.html
+      \endverb
+    \endentry
   \endsortlist
+  \missing{auld_measuring_2011}
+  \missing{valladares_quantitative_2006}
+  \missing{van_kleunen_progress_2007}
+  \missing{dechaine_constraints_2007}
+  \missing{fajardo_intraspecific_2018}
+  \missing{barabas_effect_2016}
   \missing{auld_re-evaluationg_2009}
 \endrefsection
 \endinput
