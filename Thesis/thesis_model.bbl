@@ -74,6 +74,57 @@
       \endverb
       \keyw{Climate-change ecology,Community ecology}
     \endentry
+    \entry{isabelle_fate-hd:_2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=f011d51a2af6b374f6231107f0ab059c}{%
+           family={Boulangeat},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=e1ecd262e061f563f65e6df75586b47b}{%
+           family={Georges},
+           familyi={G\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b822901dc47bbe267d9cf0b65b775af8}
+      \strng{fullhash}{b822901dc47bbe267d9cf0b65b775af8}
+      \strng{authornamehash}{b822901dc47bbe267d9cf0b65b775af8}
+      \strng{authorfullhash}{b822901dc47bbe267d9cf0b65b775af8}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{13541013}
+      \field{journaltitle}{Global Change Biology}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shorttitle}{{FATE}-{HD}}
+      \field{title}{{FATE}-{HD}: a spatially and temporally explicit integrated model for predicting vegetation structure and diversity at regional scale}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{20}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{2368\bibrangedash 2378}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/gcb.12466
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/gcb.12466
+      \endverb
+    \endentry
     \entry{butchart_global_2010}{article}{}
       \name{author}{45}{}{%
         {{uniquename=0,hash=06f03bb96d3e51941ae31699245dc613}{%
@@ -388,6 +439,138 @@
       \verb http://www.esajournals.org/doi/abs/10.1890/0012-9658(2003)084%5B1115:PPAIAP%5D2.0.CO%3B2
       \endverb
     \endentry
+    \entry{carboni_simulating_2018}{article}{}
+      \name{author}{19}{}{%
+        {{uniquename=0,hash=d3f4ccb7e20eaac2531e8bf6cf1c1cb3}{%
+           family={Carboni},
+           familyi={C\bibinitperiod},
+           given={Marta},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=9f2710e3e304eaaf63c6ced991d120d6}{%
+           family={Guéguen},
+           familyi={G\bibinitperiod},
+           given={Maya},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=7f36ee4819edc6df4a1fffcc8e99a534}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Ceres},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=e1ecd262e061f563f65e6df75586b47b}{%
+           family={Georges},
+           familyi={G\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=f011d51a2af6b374f6231107f0ab059c}{%
+           family={Boulangeat},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=9a328b78939f50583bdd8376d5527985}{%
+           family={Douzet},
+           familyi={D\bibinitperiod},
+           given={Rolland},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=84dc497434fb826a6086b90a8b8b4302}{%
+           family={Dullinger},
+           familyi={D\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ad90e2d172fec1e1072f7d1c14ebc659}{%
+           family={Klonner},
+           familyi={K\bibinitperiod},
+           given={Guenther},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=cf74ed59cc167e4b68ae62e8ab741e01}{%
+           family={Kleunen},
+           familyi={K\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{uniquename=0,hash=716968df9f78823f9ee86456596d7bce}{%
+           family={Essl},
+           familyi={E\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=23eacb7c91d8345fd0c318137b4634f3}{%
+           family={Bossdorf},
+           familyi={B\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{uniquename=0,hash=73da603089ca0d3f4a2749c4636565d6}{%
+           family={Haeuser},
+           familyi={H\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=456632641bf9033e7847335c078eac7b}{%
+           family={Talluto},
+           familyi={T\bibinitperiod},
+           given={Matthew\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=13d060db9048f8c5fa9fbe1b40e27fd7}{%
+           family={Moser},
+           familyi={M\bibinitperiod},
+           given={Dietmar},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=6216004bc8f1dd62ad9bbfd81b3f895f}{%
+           family={Block},
+           familyi={B\bibinitperiod},
+           given={Svenja},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=231e85b70c28c5fe3d4b45486cd6a694}{%
+           family={Conti},
+           familyi={C\bibinitperiod},
+           given={Luisa},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=b20282e7ad9175432a7ae93eab5c00aa}{%
+           family={Dullinger},
+           familyi={D\bibinitperiod},
+           given={Iwona},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=6a9cbce30c14e221da02bea336d376c2}{%
+           family={Münkemüller},
+           familyi={M\bibinitperiod},
+           given={Tamara},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4c86cbd0382db0a444ef1458deb7f982}
+      \strng{fullhash}{cae1499928f422838c996c54c703d656}
+      \strng{authornamehash}{4c86cbd0382db0a444ef1458deb7f982}
+      \strng{authorfullhash}{cae1499928f422838c996c54c703d656}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13541013}
+      \field{journaltitle}{Global Change Biology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Simulating plant invasion dynamics in mountain ecosystems under global change scenarios}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{24}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{e289\bibrangedash e302}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/gcb.13879
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/gcb.13879
+      \endverb
+    \endentry
     \entry{costanza_value_1997}{article}{}
       \name{author}{13}{}{%
         {{uniquename=0,hash=9cea31530438dc868664f38f0f38f35b}{%
@@ -581,7 +764,7 @@
            familyi={D\bibinitperiod},
            given={Haifa},
            giveni={H\bibinitperiod}}}%
-        {{uniquename=1,hash=4f541e029495cc4e5864a69760cbfb91}{%
+        {{uniquename=0,hash=4f541e029495cc4e5864a69760cbfb91}{%
            family={Bello},
            familyi={B\bibinitperiod},
            given={Francesco},
@@ -707,18 +890,18 @@
       \keyw{functional traits,Grassland management,Forage quality,Rain-shelter,Recovery}
     \endentry
     \entry{diaz_incorporating_2007}{article}{}
-      \name{author}{6}{uniquelist=3}{%
-        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
+      \name{author}{6}{}{%
+        {{uniquename=2,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
            family={Díaz},
            familyi={D\bibinitperiod},
            given={Sandra},
            giveni={S\bibinitperiod}}}%
-        {{uniquename=2,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
            family={Lavorel},
            familyi={L\bibinitperiod},
            given={Sandra},
            giveni={S\bibinitperiod}}}%
-        {{uniquename=1,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
+        {{uniquename=0,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
            family={Bello},
            familyi={B\bibinitperiod},
            given={Francesco\bibnamedelima de},
@@ -742,9 +925,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{5b20c49a394723eea8f17ebdb26e9fd8}
+      \strng{namehash}{4fbc03d537a6a41ed4e64fcd65a32233}
       \strng{fullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
-      \strng{authornamehash}{5b20c49a394723eea8f17ebdb26e9fd8}
+      \strng{authornamehash}{4fbc03d537a6a41ed4e64fcd65a32233}
       \strng{authorfullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -777,26 +960,26 @@
       \keyw{biodiversity,land change,mass ratio hypothesis,plant functional traits}
     \endentry
     \entry{diaz_plant_2007}{article}{}
-      \name{author}{14}{uniquelist=3}{%
-        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
+      \name{author}{14}{}{%
+        {{uniquename=2,hash=a4964675e43d5e2449173ce3c81e72da}{%
            family={Díaz},
            familyi={D\bibinitperiod},
-           given={Sandra},
+           given={S.},
            giveni={S\bibinitperiod}}}%
-        {{uniquename=2,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+        {{uniquename=0,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
            family={Lavorel},
            familyi={L\bibinitperiod},
-           given={Sandra},
+           given={S.},
            giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=5cd7d7294d397d82e9407f2835cec45d}{%
-           family={McINTYRE},
+        {{uniquename=0,hash=78a5b0c5f0440ebd940f92666f32bcf4}{%
+           family={McIntyre},
            familyi={M\bibinitperiod},
-           given={Sue},
+           given={S.},
            giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=0df59b1ae56ea975b0f0872dbdbc374d}{%
+        {{uniquename=0,hash=e1be89c2881c0e808dff546784ce7feb}{%
            family={Falczuk},
            familyi={F\bibinitperiod},
-           given={Valeria},
+           given={V.},
            giveni={V\bibinitperiod}}}%
         {{uniquename=0,hash=fd038167b3a44ad5bc0167ac9e3a9f6d}{%
            family={Casanoves},
@@ -852,10 +1035,10 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{d0fbb4bd47ce3cec69d2df3ccccf00ef}
-      \strng{fullhash}{0577e584d4b30e2d5d1ea88733d9b56c}
-      \strng{authornamehash}{d0fbb4bd47ce3cec69d2df3ccccf00ef}
-      \strng{authorfullhash}{0577e584d4b30e2d5d1ea88733d9b56c}
+      \strng{namehash}{d11ccfbd900967c5d0c48a32c654c17a}
+      \strng{fullhash}{2453501e12fedfc2ae448a2807b78a6d}
+      \strng{authornamehash}{d11ccfbd900967c5d0c48a32c654c17a}
+      \strng{authorfullhash}{2453501e12fedfc2ae448a2807b78a6d}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
       \field{labeldatesource}{year}
@@ -1064,6 +1247,68 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2010.02393.x/abstract
       \endverb
       \keyw{species distribution models,global change,alpine plants,Europe vegetation,impact assessment}
+    \endentry
+    \entry{evans_towards_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=d27ad15e79426bc32f671eb6c8c137c0}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Margaret\bibnamedelimb E.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=42a77b7cc86de721c9c2ff732721a6b9}{%
+           family={Merow},
+           familyi={M\bibinitperiod},
+           given={Cory},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=daa9b7f70847e187a034665d001df588}{%
+           family={Record},
+           familyi={R\bibinitperiod},
+           given={Sydne},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=cd1eacf01cfa7e3b9d13968d2e53c39a}{%
+           family={McMahon},
+           familyi={M\bibinitperiod},
+           given={Sean\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=65212fc1a7ff452a91bb0b51c2e24b74}{%
+           family={Enquist},
+           familyi={E\bibinitperiod},
+           given={Brian\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bb29a74f0dc76869e4fda0857c1ab4a}
+      \strng{fullhash}{5ccf463677e7dd93ba105ff3018a956f}
+      \strng{authornamehash}{0bb29a74f0dc76869e4fda0857c1ab4a}
+      \strng{authorfullhash}{5ccf463677e7dd93ba105ff3018a956f}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding and forecasting species’ geographic distributions in the face of global change is a central priority in biodiversity science. The existing view is that one must choose between correlative models for many species versus process-based models for few species. We suggest that opportunities exist to produce process-based range models for many species, by using hierarchical and inverse modeling to borrow strength across species, fill data gaps, fuse diverse data sets, and model across biological and spatial scales. We review the statistical ecology and population and range modeling literature, illustrating these modeling strategies in action. A variety of large, coordinated ecological datasets that can feed into these modeling solutions already exist, and we highlight organisms that seem ripe for the challenge.}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Towards {Process}-based {Range} {Modeling} of {Many} {Species}}
+      \field{urlday}{21}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{volume}{31}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{860\bibrangedash 871}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.tree.2016.08.005
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\JKAYVHTY\\Evans et al. - 2016 - Towards Process-based Range Modeling of Many Speci.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\IBFQ9MVT\\S016953471630132X.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S016953471630132X
+      \endverb
+      \keyw{data fusion,ecological forecasting,hierarchical model,inverse modeling,species distribution models}
     \endentry
     \entry{falster_plant:_2016}{article}{}
       \name{author}{5}{}{%
@@ -1448,6 +1693,57 @@
       \endverb
       \keyw{intraspecific variability,plant–climate interactions,Drought,plant functional traits,climate change experiments,community-weighted mean traits,grasslands}
     \endentry
+    \entry{kleidon_global_2000}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=83f9dba7984fde3bdf77fdebb85717e9}{%
+           family={Kleidon},
+           familyi={K\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=4bba07233dd1b307706c38739fc54a84}{%
+           family={Mooney},
+           familyi={M\bibinitperiod},
+           given={Harold\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{335836b2e59d8074945d684b53be6038}
+      \strng{fullhash}{335836b2e59d8074945d684b53be6038}
+      \strng{authornamehash}{335836b2e59d8074945d684b53be6038}
+      \strng{authorfullhash}{335836b2e59d8074945d684b53be6038}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We investigated the connection between plant species diversity and climate by using a process-based, generic plant model. Different ‘species' were simulated by different values for certain growth-related model parameters. Subsequently, a wide range of values were tested in the framework of a ‘Monte Carlo' simulation for success; that is, the capability of each plant with these parameter combinations to reproduce itself during its lifetime. The range of successful parameter combinations approximated species diversity. This method was applied to a global grid, using daily atmospheric forcing from a climate model simulation. The computed distribution of plant ‘species' diversity compares very well with the observed, global-scale distribution of species diversity, reproducing the majority of ‘hot spot' areas of biodiversity. A sensitivity analysis revealed that the predicted pattern is very robust against changes of fixed model parameters. Analysis of the climatic forcing and of two additional sensitivity simulations demonstrated that the crucial factor leading to this distribution of diversity is the early stage of a plant's life when water availability is highly coupled to the variability in precipitation because in this stage root-zone storage of water is small. We used cluster analysis in order to extract common sets of species parameters, mean plant properties and biogeographic regions (biomes) from the model output. The successful ‘species' cannot be grouped into typical parameter combinations, which define the plant's functioning. However, the mean simulated plant properties, such as lifetime and growth, can be grouped into a few characteristic plant ‘prototypes', ranging from short-lived, fast growing plants, similar to grasses, to long-lived, slow growing plants, similar to trees. The classification of regions with respect to similar combinations of successful ‘species' yields a distribution of biomes similar to the observed distribution. Each biome has typical levels of climatic constraints, expressed for instance by the number of ‘rainy days' and ‘warm days'. The less the number of days favourable for growth, the greater the level of constraints and the less the ‘species' diversity. These results suggest that climate as a fundamental constraint can explain much of the global scale, observed distribution of plant species diversity.}
+      \field{issn}{1365-2486}
+      \field{journaltitle}{Global Change Biology}
+      \field{month}{6}
+      \field{number}{5}
+      \field{shorttitle}{A global distribution of biodiversity inferred from climatic constraints}
+      \field{title}{A global distribution of biodiversity inferred from climatic constraints: results from a process-based modelling study}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{6}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{507\bibrangedash 523}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1046/j.1365-2486.2000.00332.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\V6IDU5XJ\\Kleidon et Mooney - 2000 - A global distribution of biodiversity inferred fro.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\PK4U9GAQ\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2486.2000.00332.x/abstract
+      \endverb
+      \keyw{biodiversity,climate,Plant functional types,allocation,biome distribution,generic plant model}
+    \endentry
     \entry{korner_alpine_2003}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=100da96e27ca0561db5542379863d870}{%
@@ -1550,7 +1846,7 @@
     \endentry
     \entry{lavorel_predicting_2002}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=2,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
+        {{uniquename=0,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
            family={Lavorel},
            familyi={L\bibinitperiod},
            given={S.},
@@ -2303,6 +2599,72 @@
       \verb https://link.springer.com/article/10.1007/s00442-010-1650-0
       \endverb
     \endentry
+    \entry{schirpke_multiple_2013}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=6bab22049ab36ec7fdf5a61b54072efc}{%
+           family={Schirpke},
+           familyi={S\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod}}}%
+        {{uniquename=0,hash=b4c2d53511cbcb94159ff23d2b4dc337}{%
+           family={Leitinger},
+           familyi={L\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=942c70f16b8b3884acdb70a6228ea12e}{%
+           family={Tasser},
+           familyi={T\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=993dbb14da4c1b21acc01b595937da85}{%
+           family={Schermer},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=887d3641bcb9350a7de5835001d4a859}{%
+           family={Steinbacher},
+           familyi={S\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=8e6d297a2a646c40084b49d35e524b13}{%
+           family={Tappeiner},
+           familyi={T\bibinitperiod},
+           given={Ulrike},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7e78707f2209bf779234aacfe17193e7}
+      \strng{fullhash}{d33cf230707deeae8aa1a5930803777e}
+      \strng{authornamehash}{7e78707f2209bf779234aacfe17193e7}
+      \strng{authorfullhash}{d33cf230707deeae8aa1a5930803777e}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2151-3732, 2151-3740}
+      \field{journaltitle}{International Journal of Biodiversity Science, Ecosystem Services \& Management}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shorttitle}{Multiple ecosystem services of a changing {Alpine} landscape}
+      \field{title}{Multiple ecosystem services of a changing {Alpine} landscape: past, present and future}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{123\bibrangedash 135}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/21513732.2012.751936
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/21513732.2012.751936
+      \endverb
+    \endentry
     \entry{schroter_ecosystem_2005}{article}{}
       \name{author}{35}{}{%
         {{uniquename=0,hash=4aab543dc13429528e9dbcf552625a57}{%
@@ -2714,20 +3076,16 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{isabelle_fate-hd_2014}
-  \missing{boulangeat_fate-dh_2014}
-  \missing{schirpke_multiple_2012}
-  \missing{laliberte_distance-based_2010}
-  \missing{hallmann_more_2017}
-  \missing{kleidon_global_20000}
+  \missing{alexander_plant_2016}
   \missing{koorner_alpine_2003}
-  \missing{carboni_simulating_2017}
-  \missing{schipe_multiple_2012}
-  \missing{de_bello_towards_2011}
-  \missing{waldron_reductions_2017}
-  \missing{beniston_climate_1997}
+  \missing{boulangeat_fate-dh_2014}
+  \missing{schirpe_multiple_2013}
+  \missing{laliberte_distance-based_2010}
   \missing{tucker_moving_2018}
-  \missing{evans_toward_2016}
+  \missing{waldron_reductions_2017}
+  \missing{de_bello_towards_2011}
+  \missing{hallmann_more_2017}
+  \missing{beniston_climate_1997}
 \endrefsection
 
 \refsection{2}
@@ -9769,17 +10127,17 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{TRY}
-  \missing{lavorel_how_2014}
-  \missing{freschett_plasticity_2014}
-  \missing{elton_1927}
-  \missing{diaz_global_2014}
-  \missing{reich_world-wilde_2013}
   \missing{albert_when_2011}
   \missing{barabas_effect_2016}
-  \missing{chalmandrier_communities_2015}
+  \missing{reich_world-wilde_2013}
+  \missing{elton_1927}
+  \missing{diaz_global_2014}
   \missing{dewitt_cost_1998}
+  \missing{lavorel_how_2014}
+  \missing{chalmandrier_communities_2015}
   \missing{adler_coexistence_2007}
+  \missing{freschett_plasticity_2014}
+  \missing{TRY}
 \endrefsection
 
 \refsection{3}
@@ -15093,10 +15451,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{laliberte_distance-based_2010}
   \missing{whippo_phototropism:_2006}
-  \missing{wright_worldwide_2006}
+  \missing{laliberte_distance-based_2010}
   \missing{hartig}
+  \missing{wright_worldwide_2006}
 \endrefsection
 
 \refsection{5}
@@ -16827,13 +17185,13 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{auld_measuring_2011}
-  \missing{valladares_quantitative_2006}
-  \missing{van_kleunen_progress_2007}
   \missing{dechaine_constraints_2007}
-  \missing{fajardo_intraspecific_2018}
+  \missing{valladares_quantitative_2006}
   \missing{barabas_effect_2016}
+  \missing{auld_measuring_2011}
   \missing{auld_re-evaluationg_2009}
+  \missing{van_kleunen_progress_2007}
+  \missing{fajardo_intraspecific_2018}
 \endrefsection
 \endinput
 
