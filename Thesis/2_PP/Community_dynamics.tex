@@ -275,16 +275,16 @@ Unlike the diversity, the identity of the community, defined by the dominating s
 To analyse this variability, the community weighted means (CWMs) for the proportion of active tissues in roots (PAR) is visualised along time for the 6 sites, for 5 representative parameter sets (see figure \ref{fig:comm_strat}. The variability is decomposed between the spatial and the seasonal variability. Under \textit{non plastic} allocation, the CWM values for PAR are stable during time, but contrasted between sites. In contrast, under \textit{fixed-equilibrium} and \textit{plastic-optimisation} allocation, the temporal variability is greater, but the site specific means are closer. This pattern is reproduced for the shoot resource-use strategy (data not shown).
 
 
-The differences in community structure certainly explain these contrasted source of variability of the community identity. The structure is altered by the increased species richness under plastic allocation (see figure \ref{fg:comm_str}, leading to a reduction of the abundance of the most dominant species, in addition of a long tail of the rank-abundance curves due to numerous species with low abundances.
+The differences in community structure certainly explain these contrasted source of variability of the community identity. The structure is altered by the increased species richness under plastic allocation (see figure \ref{fg:comm_str}), leading to a reduction of the abundance of the most dominant species, in addition of a long tail of the rank-abundance curves due to numerous species with low abundances.
 
 \begin{marginfigure}%[tb]
-%    \classiccaptionstyle
-%\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
+    \classiccaptionstyle
+\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
     \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/mean_com_str2.pdf}%
-%}{%
+}{
   \caption[]{}
   \label{fg:comm_str}
-%  }
+  }
 \end{marginfigure}
 
 This shift in structure at the community scale, but also at the meta-community scale suggest a strong effect of the allocation on the overall structure of the ecosystem.
@@ -309,12 +309,15 @@ This shift in structure at the community scale, but also at the meta-community s
 \paragraph{Different diversities}
 
 % shift from beta to alpha diversity
-Introducing plasticity in allocation lead to a shift in diversity types. \textit{Non plastic} simulation tend to have more differenciated sites, capture in high values of beta diversity, but with low alpha diversity as previously discussed (see figure \ref{fig:diversities}). 
+Introducing plasticity in allocation leads to a shift in the diversity types. \textit{Non plastic} simulation tend to have more differentiated sites, captured by the high values of beta diversity, but with low alpha diversity as previously discussed (see figure \ref{fig:diversities}). 
 
 \begin{figure}\label{fig:diversities}
 \includegraphics[]{./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf}
 \caption[Alpha and beta diversities as function of the allocation mechanism.]{Alpha and beta diversities as function of the allocation mechanism.}
 \end{figure}
+
+The total amount of species present over all sites and all seasons also varies between allocation algorithms, with a average total amount of 4.26 (median 4) for \textit{non plastic} allocation, of 7.69 (median 5) for \textit{fixed-equilibrium} allocation, and 10.1 (median 4) for \textit{plastic-optimisation} allocation.
+
 
 % what about functional diversity?
 
@@ -326,27 +329,37 @@ Introducing plasticity in allocation lead to a shift in diversity types. \textit
 
 \paragraph{Filtering} 
 The great increase in the species richness observed under plastic allocation, for both the \textit{fixed-equilibrium} and \textit{plastic-optimisation} algorithms,  
-results from a reduction of the strength of the filters. The results at the individual level suggest a weakening of the abiotic filter (1) as the importance of the plastic dimensions is reduced (static gain) and (2) variability in conditions can be overcome creating new habitat possibilities (dynamic gain). In the other hand, the reduction of the abiotic filtering was anticipated to increase the competition intensity as more plants can settle in a given habitat.
-The overall reduction of filtering suggest a greater importance of the abiotic variables compared to competition as a filtering process. But it is difficult to distinguish the two process in this simulation model as they both are expressed by variations in the water and light availability and are perceived in a similar way by the plants. 
+results from a reduction of the strength of the filters. The results at the individual level analysed in the previous part suggest a weakening of the abiotic filter (1) as the importance of the plastic dimensions is reduced (static gain) and (2) variability in conditions can be overcome reducing the phenotype sensitivity to changes in resource balance (dynamic gain). In the other hand, the reduction of the abiotic filtering was anticipated to increase the competition intensity as more plants can settle in a given habitat. The reduction of the fitness differences observed at the individual level may explain a reduction of the competition exclusion despite a increase in the competition intensity. However it is relatively difficult to quantify the relative importance of competition relative to the abiotic filtering as they both are they both alter the resource levels. The overall reduction of filtering suggest a greater importance of the abiotic filtering reduction compared to the increase in the competition exclusion.
 
 %Specific simulation experiment designs varying the dispersion of the strategies of the invading species could help disentangle these effects.  Detail these experiment and results interpretations
 
-The absence of changes in the plant density, together with the stability of the community productivity, support the idea that if the abiotic filtering is reduced, it goes with an increase in competition. Therefore, the increase in species diversity is explained by a shift from a non uniform abiotic filter, to a more uniform biotic filter. Better understanding of the interactions between species strategies, and how they are modulated by plasticity could help building such interpretations at a higher level based on existing theories \parencite{chesson_mechanisms_2000}. The current implementation of \model contains specific functions dedicated to paired simulations to evaluated these interactions. Determining the transitivity properties of these interaction is also crucial to understand the capacity of the model to maintain stable coexistence \parencite{levine_beyond_2017}.
+The absence of changes in the plant density, together with the stability of the community productivity, support the idea that if the abiotic filtering is reduced, it goes with an increase in the competition intensity. Therefore, the increase in species diversity is explained by a shift from a non uniform abiotic filter, to a more uniform biotic filter. Better understanding of the interactions between species strategies, and how they are modulated by plasticity could help building such interpretations at a higher level based on existing theories \parencite{chesson_mechanisms_2000}. 
+With this perspective from the coexistence theory, we could explain the high diversity by the effect of the plasticity as a equalizing mechanism. Allowing species to converge toward better phenotypes, or to resist stresses and maintaining a certain fitness evenness. While these species are maintained, stabilizing mechanisms such as intra-specific competition can play a bigger role. However, while the intra-specific competition is recognised as often more important than the inter-specific competition \parencite{macarthur_limiting_1967}, the resource-use strategies as they are implemented in \model have certainly hierarchical effects \parencite{kunstler_plant_2016} as some strategies are dominant in certain conditions. Establishing how the intra- and inter-specific competition balanced, \textit{i.e.} if limiting similarity or competitive dominance prevail is crucial to better understand the community assembly in this context. This aspect is also critical because plasticity can affect this balance as observed by \cite{bennett_reciprocal_2016}. The current implementation of \model offers specific functions dedicated to paired simulations to evaluated these interactions. This tool can also be used to determine the transitivity properties of these interaction that can affect the ability of the model to maintain stable coexistence \parencite{levine_beyond_2017}. 
 
 
-Alternatively, the plasticity allows species that suffer from changes in resource availability to maintain a positive growth rate during stress periods. Because these plants are maintained, they keep the competition intensity level while this intensity would decrease under \textit{non plastic} allocation where these species disappear. 
-
-With a perspective from coexistence theory could explain the high diversity by the effect of the plasticity as a equalizing mechanism. Allowing species to converge toward better phenotype, or to resist stresses, maintain a certain fitness evenness. While these species are maintain, stabilizing mechanisms such as asymmetric competition can play a bigger role. Indeed, the differences in resource-use strategies suggest a greater intra-specific competition that inter-specific.
-
-Finally, the fact that the species richness is not altered by the cost of the plasticity for \textit{non plastic} simulations (making certain phenotypes non viable), but is altered under plastic allocation, support teh fact that the species richness effect results from the allocation algorithm rather than the plasticity cost.
+Finally, the fact that the species richness is not altered by the cost of the plasticity for \textit{non plastic} simulations (making certain phenotypes non viable), but is altered under plastic allocation, supports the fact that the species richness effect results from the allocation algorithm rather than the plasticity cost.
 
 
 \paragraph{Productivity \& density}
 
 % same level of prod, low increase in pl: probably sub-opitmum convergence
-As mentioned, the productivity is mostly conserved between the allocation algorithms, as the plant density. I hypothesise that the increase in competition compensate the static and dynamic gains provided by the plasticity. It suggests that under \textit{non plastic} allocation, the carrying capacity of the sites is reached. In the other hand, it could be that the increase in competition leads to a decrease in resource-use efficiency as explained by the game theory.
+As mentioned, the productivity is mostly conserved between the allocation algorithms, as well as the plant density. I hypothesise that the increase in competition compensates the static and dynamic gains provided by the plasticity. It suggests that under \textit{non plastic} allocation, the carrying capacity of the sites is reached and that it cannot be exceeded despite the potential increased efficiency provided by the phenotypic plasticity. Because there is no change in the mean density, the mean resourcec-use efficiency at the scale of the plant should be similar. As analysed in the previous section, the plant efficiency can be limited by: the individual organ-specific efficiencies, the unbalance between organ activities or the resource use general level.  Disentangling the component of efficiency should allow to better understand the limits of the productivity. The plasticity may have a greater effect on the plot productivity under specific circonstances of strong disturbances, thanks to a higher resilience to drought or grazing events \cite{maire_plasticity_2013}.
+
+On the other hand, it could be that the increase in competition leads to a decrease in resource-use efficiency as explained by the game theory \parencite{farrior_competitive_2014}. But the absence of clear differences in resource-use strategy does not support this hypothesis.
 
 The density of plant is also unchanged. This is consistent with the stability in productivity. This stability in the plant density eliminates any sampling effect that could explain an increase in the observed species number for a given plot area as observed in \cite{lepik_high_2005}.
+
+\paragraph{Does identity matter?}
+
+Individual level results suggest the importance of the resource-use strategy for the success of the growth in different conditions. This idea seems to be validated by the observation that different species dominate different sites under \textit{non plastic} allocation. However, this pattern disappear under any of the two plastic algorithm tested. Thus, the root-shoot balance is probably more important in the selection of the success of the species.
+
+Considering the variability of the weather during the season, the asymmetric dynamic gain should have promoted more exploitative species under plastic allocation. However, no convincing differences can be detected between the average CWM resource-use strategies between \textit{non plastic} and \textit{fixed-equilibrium} algorithms, for shoots or roots. This surprising result suggests that the differences in dynamic gain between strategies are not large between the different strategies. This result could also be explained by the stronger effect of the RMF axis (compared to the PAR and PAS) that lead to a low sampling of the other axis and hide potential effects of small amplitude. This effect can be exacerbated by the strength of the trade-offs (already noted in the previous chapter) that limits the number, and thus diversity, of viable strategies. This problem also limits our ability to interpret the differences between shoot and root successful allocation strategies to active tissues, because they may results from strong parameter effects rather than a difference in the sensitivity of the two organs. Similar experiences as in the previous chapter (analysis of the best strategies along a gradient), but including shoot strategies may enable us to compare the relative importance of the two activities in the context of community simulations.
+
+The \textit{plastic-optimisation} algorithm shows lower values for shoot and roots proportions in active tissues. However, because the values use to compute the CWMs do not take into account the plasticity in these traits (for technical reasons, the expressed trait values are not recorded), this difference is artificial and does not reflect changes in the dominant strategies.
+
+The detection of the plasticity effect on the community identity can also be masked by changes in the structure of the communities.
+
+% The absence of clear changes in the CWM identity (resource-use strategy) confirms 
 
 
 \paragraph{Community structure}
@@ -360,21 +373,27 @@ This strong effect of the plasticity on the community structure explains the dif
 \includegraphics[]{./2_PP/Figures/Comm/explain_par_variability.png}
 \caption[Effect of the community structure on the inter-site variability of the community identity.]{Inter-site and inter-season variability of the community identity (A) explained by the effect of the plasticity on the community structure (B).}
 \end{figure*}
+ 
 
 %The allocation algorithm, by impacting the niches and the importance of the abiotic filtering, controls the mechanism driving the community structure.
 
 %also, Jung \cite{jung_intraspecific_2014} show contrasting response between species and within species - might not be the best 
 
-\paragraph{Different mechanisms for different diversities}
+\paragraph{Different forms of diversities}
 
-
-While many diversity indexes could be used to decompose and analyse the diversity of such communities, these simple indexes (alpha and beta diversity indexes) are sufficient for the level of analysis and they express the differences in the structure of the ecosystem caused by the allocation algorithms.
+The structural changes in the community and meta-community can be seen with the perspective of the diversity. While many diversity indexes could be used to decompose and analyse the diversity of such communities, these simple indexes (alpha and beta diversity indexes) are sufficient for the level of analysis and to express the differences in the structure of the ecosystem caused by the allocation algorithms.
 
 %why higher alpha div
 The increase in alpha diversity has already been discussed and results from a niche widening (or a reduction of the abiotic filtering). The beneficial value of the plasticity to explain this increase in alpha diversity is demonstrated by the significantly lower value of $\tau$ for the species unique to one of the two plastic algorithms for each parameter set. 
 % Talk about species TO and tau.
 
-The decrease in beta diversity is explained by the larger overlap between community, caused by a larger overlap between species niches. Such effect could even be reinforced by a different implementation of the link with the meta-community. In this set of simulations, the meta-community is composed of the initial set of species, evenly abundant, where invading seeds are randomly sampled. A different approach could be to consider all sites connected, and sample the invading species from the seeds produced in the other sites. In the case of the \textit{non plastic } allocation, because the sites are highly dominated by one species and the site specific conditions generally do not match the narrow niches of the species, a low number of non adapted seeds would not be able to invade the other sites, and reduce the possibility of coexistence relative to a sampling from a much richer meta-community. This would accentuate the contrast between the alpha and the beta diversity. Under plastic allocation, the community share multiple species, if the seed dispersion is limited to the seed produced within the sites, there would be a large redundancy and a low turn-over in the incoming species (relative to a random sampling from a large meta-community) leading to a very low beta diversity. By affecting the niches and therefore the relative distance between sites in the "niche space", the phenotypic plasticity greatly alters the structure, not only of the communities, but also the meta-community.
+
+The lower total number of species over all sites demonstrates that the reduction of the beta diversity is explained only by the differences in alpha diversity. This interpretation is coherent with the conclusion that the niche overlapping induced by the phenotypic plasticity explains most of the community dynamics patterns.
+
+%The implementation of more realistic meta-community dynamics, with explicit invasion from site-specific seed-rains, may alter these patterns. Under a close meta-community dynamics, the large overlapping between local communities may be reinforced under plastic allocation. Under non plastic allocation, such dynamics could (1) re...
+
+%The decrease in beta diversity is explained by the larger overlap between community, caused by a larger overlap between species niches. Such effect could even be reinforced by a different implementation of the link with the meta-community. In this set of simulations, the meta-community is composed of the initial set of species, evenly abundant, where invading seeds are randomly sampled. A different approach could be to consider all sites connected, and sample the invading species from the seeds produced in the other sites. In the case of the \textit{non plastic } allocation, because the sites are highly dominated by one species and the site specific conditions generally do not match the narrow niches of the species, a low number of non adapted seeds would not be able to invade the other sites, and reduce the possibility of coexistence relative to a sampling from a much richer meta-community. This would accentuate the contrast between the alpha and the beta diversity. Under plastic allocation, the community share multiple species, if the seed dispersion is limited to the seed produced within the sites, there would be a large redundancy and a low turn-over in the incoming species (relative to a random sampling from a large meta-community) leading to a very low beta diversity. By affecting the niches and therefore the relative distance between sites in the "niche space", the phenotypic plasticity greatly alters the structure, not only of the communities, but also the meta-community.
+
 %Plasticity allows for bigger niche (variability dimension), more chance to build enough "growth potential" to persist. Otherwise, other species that are dominant, because other species can settle, take advantage of it.
 %Should look at the growth rates hierarchy for a couple of simulations.
 
@@ -402,18 +421,41 @@ I believe the representation of the model outputs through specific visualisation
 
 \paragraph{Plasticity \& community properties}
 
+\textbf{The introduction of phenotypic plasticity reduces the filtering role of abiotic conditions, increasing the competition intensity, but it also decrease the fitness differences (or increase the competition fairness) leading to higher \textemph{species diversity}. The overall plot productivity does not seem to be affected by the allocation algorithm, This is explained by multiple factors: the absence of differences in plant density, similar resource-use strategies that maintain the overall tissue-efficiency, and the increase in competition intensity that compensates for potential increase in efficiency due to balanced activities. The identity was not impacted by the allocation algorithm, unlike the structure of the communities and meta-community, leading to a shift from beta to alpha diversity, and from inter-site to inter-season variability of the resource-use strategy.}
+
+
+\begin{figure}%[tb]
+    \classiccaptionstyle
+\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
+    \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_pl_effect.pdf}%
+}{%
+  \caption[Effects of the phenotypic plasticity on the community properties]{Effects of the phenotypic plasticity on the main properties of the community.}
+  \label{fg:comm_pl_effect}
+  }
+\end{figure}
+
 
 \paragraph{Robustness}
 
-Is it robust ?
+The simulation at the scale of the community produce surprising results. Imagining how stable these patterns would be under alternative implementations can give us an idea on how robust these results are. The two alternative implementations suggested are presented in previous chapter. 
+
+On one side, the structure and diversity differences are explained by two main mechanisms: the reduction of the abiotic filtering and the reduction of fitness differences. The equilibrium architectural plasticity (I1) has the ability to maintain organ activity balance, while increasing the performance of foraging strategies. This efficiency \parencite{maire_plasticity_2013} guarantees the reduction of the abiotic filtering. The stres-based plasticity with reaction norws should also be able to reduce the abiotic filtering under the condition of the selection of sensible reaction norms. These reaction norms even have the potential to better stabilise the plant efficiency by regulated the overall plant acitivty, and not just the balance between the activity of the organs. ON the other hand, the diveristy is also promoted by the reduction of the fitness differences. The reduction of the sensitivity to changes in conditions partly explain this effect, but the convergence of the phenotypes also explains this reduction. While both alternative implementations should reduce this differences in fitness by reducing the sensitivity of the phenotypes to changes in conditions, the reaction norm implementation (I2) should limit the phenotypic convergence by the diversity of the reaction norms in presence. The contrasted strategies of avoidance versus tolerance should participate in the maintain of functional diversity. This reduction of the convergence may limit the reduction of fitness differences promoting the coexistence \parencite{chesson_general_2000}. On the other hand, phenotypic plasticity may enables niche partitioning as observed in empirical data \parencite{zuppinger-dingley_selection_2014, roscher_contrasting_2015}. The beneficial effect of the phenotypic plasticity, because it is constrained by trade-offs allowing coeistence \parencite{tilman_niche_2004}, should favour coexistence in most conditions.
 
 
-Among the \cite{roscher_contrasting_2015} + jena and diversity (grime ?)
+Both algorithms have potential for greater efficiency. This efficiency may affect the productivity in a larger way than the current implementation \parencite{maire_plasticity_2013}. A finer exploration of the response of the community after disturbance events should give us better understanding of the effect of the plasticity on productivity stability \parencite{richter_phenotypic_2012} on grassland systems.
+
+Because the alpha diversity is expected to be impacted in a similar way than in the current state of the model, structural changes of the communities and meta-community are susceptible to be reproduced in the different implementations. The identity of the community, expressed as the CWMs for the resource-use strategies may however be impacted. Indeed, the impact of competitive species under architectural plasticity may be stronger, with either a rapid competitive exclusion of the subordinate species, or the rapid shortage in resources leading to more conservative species dominance. The reaction norm plasticity, by allowing more diversity in the plastic response may also have a drastic effect on the community identity. The complexity of the interactions and resource dynamics introduced by these implementations does not allow the anticipation of the effects on the community identity. At the contrary, it further encourages us to try alternative implementation of plasticity to unravel all these processes.
+
+%Is it robust ?
+
+% niche differentiation
+%Among the \cite{roscher_contrasting_2015} + jena and diversity (tilman)
 
 \paragraph{Strategic plasticity}
 
+The plasticity as a strategy defended in the chapter \ref{part:model}, that makes the plasticity an axis of strategic differentiation, is only superficially studied here. The figure \ref{fig:tau} shows the average phenotypic stability value for algorithmic specific species. This results confirms that plasticity favours species with lower tau values. The particular relationships that may exists between levels of plasticity, the two distinct costs and the temporal variability of conditions should be investigated to better understand the role of the plasticity costs as a limit of the phenotypic plasticity \parencite{dewitt_costs_1998, auld_re-evaluating_2009}.
 
-
+The adaptative value of the different levels of plasticity can be measured by the distribution of the $\tau$ values 
 
 
 \subsection{Phenotypic plasticity and global change}
@@ -421,8 +463,10 @@ Among the \cite{roscher_contrasting_2015} + jena and diversity (grime ?)
 2 perspective: differences between with and wtihout pl. Effect on plastic and on non plastic sp.
 
 % critical transition in non plastic communities
+\cite{scheffer_catastrophic_2001}
 
 % more stable because more diverse, closer communities
+\cite{morin_temporal_2014} \cite{tilman_diversity_2001}
 
 % plasticity : more even competition : larger niche -> smoother transitions
 
@@ -440,7 +484,7 @@ intra-specific variation : jensen inequality : with negative effects on coexiste
 
 Jensen's inequality: question of measure.
 
-pl = source of variation: driven. There are causes to this variability. Supposing variability under constant rule does not make sense to me. Variability because non constant rules. Under non constant rules (climate, interaction coeeficients, stochasticity) pl has non linear effect (static gain benefit to non fitting species, or asymmetry in dynamic gain) but mostly favour the diversity.
+pl =:source of variation: driven. There are causes to this variability. Supposing variability under constant rule does not make sense to me. Variability because non constant rules. Under non constant rules (climate, interaction coeeficients, stochasticity) pl has non linear effect (static gain benefit to non fitting species, or asymmetry in dynamic gain) but mostly favour the diversity.
 
 More genetic approaches for the genetic intra-specific var. effect (not just pl), but I on't think it is negative... at least more lickely to alter the source of vairability or the for mof diversity, as observed here from beta to alpha.
 

@@ -3076,16 +3076,16 @@
       \keyw{Competition,Ecosystem function,Biodiversity effect,Grassland modeling,Individual-based}
     \endentry
   \endsortlist
-  \missing{alexander_plant_2016}
-  \missing{koorner_alpine_2003}
   \missing{boulangeat_fate-dh_2014}
-  \missing{schirpe_multiple_2013}
-  \missing{laliberte_distance-based_2010}
-  \missing{tucker_moving_2018}
   \missing{waldron_reductions_2017}
-  \missing{de_bello_towards_2011}
+  \missing{schirpe_multiple_2013}
+  \missing{tucker_moving_2018}
+  \missing{alexander_plant_2016}
   \missing{hallmann_more_2017}
+  \missing{laliberte_distance-based_2010}
+  \missing{de_bello_towards_2011}
   \missing{beniston_climate_1997}
+  \missing{koorner_alpine_2003}
 \endrefsection
 
 \refsection{2}
@@ -5246,6 +5246,52 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1654-1103.2004.tb02266.x/abstract
       \endverb
       \keyw{specific leaf area,Comparative ecology,functional diversity,Plant functional types,Argentina,England,Iran,Recurrent patterns of specialization,Spain}
+    \endentry
+    \entry{droz_model_2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ac66df45ad9e2e13c50dfc16613c6dab}{%
+           family={Droz},
+           familyi={D\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=3dc0bcea0092316eab687c65d03d8ff5}{%
+           family={Pekalski},
+           familyi={P\bibinitperiod},
+           given={Andrzej},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{999a4c0a49d1aec7db8e362b91233f17}
+      \strng{fullhash}{999a4c0a49d1aec7db8e362b91233f17}
+      \strng{authornamehash}{999a4c0a49d1aec7db8e362b91233f17}
+      \strng{authorfullhash}{999a4c0a49d1aec7db8e362b91233f17}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An individual-based model describing the dynamics of one type of annual plants is presented. We use Monte Carlo simulations where each plant has its own history and the interactions among plants are between nearest neighbours. The character of the interaction (positive or negative) depends on local conditions. The plants compete for two external resources—water and light. The amount of water and/or light a plant receives depends on the external factor but also on local arrangement. Survival, growth and seed production of plants are determined by how well their demands for the resources are met. The survival and seeds production tests have a probabilistic character, which makes the dynamics more realistic than by using a deterministic approach. There is a non-linear coupling between the external supplies. Water evaporates from the soil at a rate depending on constant evaporation rate, local conditions and the amount of light. We examine the dynamics of the plant population along two environmental gradients, allowing also for surplus of water and/or light. We show that the largest number of plants is when the demands for both resources are equal to the supplies. We estimate also the role of evaporation and we find that it depends on the situation. It could be negative, but sometimes it has a positive character. We show that the link between the type of interaction (positive or negative) and external conditions has a complex character. In general in favourable environment plants have a stronger tendency for competitive interactions, leading to mostly isolated plants. When the conditions are getting more difficult, cooperation becomes the dominant type of interactions and the plants grow in clusters. The type of plants—sun-loving or shade tolerating, plays also an important role.}
+      \field{issn}{0022-5193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{month}{10}
+      \field{title}{Model of annual plants dynamics with facilitation and competition}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{335}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jtbi.2013.06.010
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\2M3VAVCP\\Droz et Pȩkalski - 2013 - Model of annual plants dynamics with facilitation .pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\VV6APKEX\\S0022519313002828.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0022519313002828
+      \endverb
+      \keyw{Annual plants,facilitation,Light and water competition,Monte Carlo simulations,Plant dynamics}
     \endentry
     \entry{dwyer_specific_2014}{article}{}
       \name{author}{3}{}{%
@@ -10127,17 +10173,17 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{albert_when_2011}
   \missing{barabas_effect_2016}
-  \missing{reich_world-wilde_2013}
-  \missing{elton_1927}
-  \missing{diaz_global_2014}
-  \missing{dewitt_cost_1998}
+  \missing{albert_when_2011}
   \missing{lavorel_how_2014}
-  \missing{chalmandrier_communities_2015}
-  \missing{adler_coexistence_2007}
-  \missing{freschett_plasticity_2014}
   \missing{TRY}
+  \missing{dewitt_cost_1998}
+  \missing{freschett_plasticity_2014}
+  \missing{elton_animal_1971}
+  \missing{adler_coexistence_2007}
+  \missing{reich_world-wilde_2013}
+  \missing{diaz_global_2014}
+  \missing{chalmandrier_communities_2015}
 \endrefsection
 
 \refsection{3}
@@ -12994,10 +13040,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{korner_alpine_2011}
-  \missing{wright_worlwide_2004}
   \missing{lagarrigues_approximate_2015}
+  \missing{wright_worlwide_2004}
   \missing{tjoelker_linking_2015}
+  \missing{korner_alpine_2011}
 \endrefsection
 
 \refsection{4}
@@ -15451,14 +15497,121 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{whippo_phototropism:_2006}
   \missing{laliberte_distance-based_2010}
-  \missing{hartig}
   \missing{wright_worldwide_2006}
+  \missing{whippo_phototropism:_2006}
+  \missing{hartig}
 \endrefsection
 
 \refsection{5}
   \sortlist[entry]{nyt/global/}
+    \entry{bennett_reciprocal_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=e5153fcc0111358dfbac4029ea8fb67e}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Jonathan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=3f10ce67285ee6d4983573223ee78bbf}{%
+           family={Riibak},
+           familyi={R\bibinitperiod},
+           given={Kersti},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=f4dcb95fa8ab815049dc0670af3b7ca1}{%
+           family={Tamme},
+           familyi={T\bibinitperiod},
+           given={Riin},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=5c3525e606c6b6c6bcd81d353af03ade}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Rob\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=b65011bc7880be1ad55fab32e80fc28b}{%
+           family={Pärtel},
+           familyi={P\bibinitperiod},
+           given={Meelis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{77177c068cd9b2558878cadf716a76b6}
+      \strng{fullhash}{0576cc822b25cbf0c1d2a810509fd17b}
+      \strng{authornamehash}{77177c068cd9b2558878cadf716a76b6}
+      \strng{authorfullhash}{0576cc822b25cbf0c1d2a810509fd17b}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Trait differences among plants are expected to influence the outcome of competition; competition should be strongest between similar species (or individuals) under limiting similarity, and between dissimilar species within competitive hierarchies. These hypotheses are often used to infer competitive dynamics from trait patterns within communities. However, plant traits are frequently plastic in response to competition. This variation is poorly accounted for in trait-based studies of competition and community assembly. * To explore the relationship between trait responses and competitive outcomes, we grew 15 species alone, in monoculture and in mixture. We measured traits relating to leaf and root tissue morphology as well as biomass allocation and related competition-induced changes in these traits to intra- and interspecific competition using multi-model inference. Additionally, we tested how traits from different competitive environments influenced potential community assembly inferences. * The competitive environment had large effects on species’ traits, although many effects were species specific. Differences among species in how competition affected trait expression were linked to both intra- and interspecific competition, frequently affecting competitive hierarchies. Intraspecific competition was lower for species that limited competition-induced increases in root allocation and had less variability in this trait overall. Interspecific competition was lower for species with larger leaves and lower specific leaf area than their neighbours. Switching to more stress-tolerant strategies by increasing root diameter and leaf tissue density also reduced competition. However, dissimilarity in root tissue density also minimized competition, consistent with limiting similarity affecting competitive outcomes. Moreover, changes in these traits were linked to changes in functional diversity, suggesting that competition affects functional diversity by affecting trait expression. * Synthesis. Both trait hierarchies and trait dissimilarity affect the outcome of competition by acting on different traits, although competition-induced changes in trait expression can alter competitive outcomes. Moreover, the magnitude of these trait changes suggests that the source environment where plant traits are collected can affect the inferences drawn from trait patterns within communities. Combined, our results suggest that considering the effect of competition on trait expression is critical to understanding the relationship between traits and community assembly.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{The reciprocal relationship between competition and intraspecific trait variation}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2017}
+      \field{volume}{104}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1410\bibrangedash 1420}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12614
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\9IGG73FQ\\Bennett et al. - 2016 - The reciprocal relationship between competition an.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\GNJ72T3E\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12614/abstract
+      \endverb
+      \keyw{biomass allocation,specific leaf area,specific root length,community assembly,plant–plant interactions,functional diversity,biotic interactions,competitive hierarchies,trait clustering,trait divergence}
+    \endentry
+    \entry{chesson_general_2000}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=db6b43699dc16ed26ca5592cbdebda43}{%
+           family={Chesson},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{fullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authornamehash}{db6b43699dc16ed26ca5592cbdebda43}
+      \strng{authorfullhash}{db6b43699dc16ed26ca5592cbdebda43}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{extrayear}{1}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general model of competitive and apparent competitive interactions in a spatially-variable environment is developed and analyzed to extend findings on coexistence in a temporally-variable environment to the spatial case and to elucidate new principles. In particular, coexistence mechanisms are divided into variation-dependent and variation-independent mechanisms with variation-dependent mechanisms including spatial generalizations of relative nonlinearity and the storage effect. Although directly analogous to the corresponding temporal mechanisms, these spatial mechanisms involve different life history traits which suggest that the spatial storage effect should arise more commonly than the temporal storage effect and spatial relative nonlinearity should arise less commonly than temporal relative nonlinearity. Additional mechanisms occur in the spatial case due to spatial covariance between the finite rate of increase of a local population and its local abundance, which has no clear temporal analogue. A limited analysis of these additional mechanisms shows that they have similar properties to the storage effect and relative nonlinearity and potentially may be considered as enlargements of the earlier mechanisms. The rate of increase of a species perturbed to low density is used to quantify coexistence. A general quadratic approximation, which is exact in some important cases, divides this rate of increase into contributions from the various mechanisms above and admits no other mechanisms, suggesting that opportunities for coexistence in a spatially-variable environment are fully characterized by these mechanisms within this general model. Three spatially-implicit models are analyzed as illustrations of the general findings and of techniques using small variance approximations. The contributions to coexistence of the various mechanisms are expressed in terms of simple interpretable formulae. These spatially-implicit models include a model of an annual plant community, a spatial multispecies version of the lottery model, and a multispecies model of an insect community competing for spatially-patchy and ephemeral food.}
+      \field{issn}{0040-5809}
+      \field{journaltitle}{Theoretical Population Biology}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{General {Theory} of {Competitive} {Coexistence} in {Spatially}-{Varying} {Environments}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{58}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{211\bibrangedash 237}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1006/tpbi.2000.1486
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\R338N4F8\\Chesson - 2000 - General Theory of Competitive Coexistence in Spati.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\R23BPFSA\\S0040580900914862.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0040580900914862
+      \endverb
+    \endentry
     \entry{chesson_mechanisms_2000}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=db6b43699dc16ed26ca5592cbdebda43}{%
@@ -15473,6 +15626,7 @@
       \strng{authorfullhash}{db6b43699dc16ed26ca5592cbdebda43}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{extrayear}{2}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -15495,6 +15649,265 @@
       \verb http://dx.doi.org/10.1146/annurev.ecolsys.31.1.343
       \endverb
       \keyw{coexistence,Competition,niche,predation,spatial and temporal variation.}
+    \endentry
+    \entry{farrior_competitive_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a7109522c77ee45fd52c24bebe55718b}{%
+           family={Farrior},
+           familyi={F\bibinitperiod},
+           given={Caroline\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a7109522c77ee45fd52c24bebe55718b}
+      \strng{fullhash}{a7109522c77ee45fd52c24bebe55718b}
+      \strng{authornamehash}{a7109522c77ee45fd52c24bebe55718b}
+      \strng{authorfullhash}{a7109522c77ee45fd52c24bebe55718b}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytol}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{Competitive optimization models, attempting to understand the diversity of life}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2014}
+      \field{volume}{203}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1025\bibrangedash 1027}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1111/nph.12940
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\F6B9KTFG\\Farrior - 2014 - Competitive optimization models, attempting to und.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\V4R4D7WG\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.12940/abstract
+      \endverb
+      \keyw{adaptive dynamics,plant competition,resource limitation,responses to climate change,tragedy of the commons}
+    \endentry
+    \entry{kunstler_plant_2016}{article}{}
+      \name{author}{36}{}{%
+        {{uniquename=0,hash=1ad96402d9c897e77bdc8f6aa201304b}{%
+           family={Kunstler},
+           familyi={K\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=3b0b0524286425c0798a990e892c43f2}{%
+           family={Falster},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=ad91f3f2e3013e9d12d399d98e0b031e}{%
+           family={Coomes},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=2c39b329043dd50b7b2b570660cee893}{%
+           family={Hui},
+           familyi={H\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=54dca089c5af9b4325254f40fa0e025f}{%
+           family={Kooyman},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=975117d6fc572b5e9ab2f502ec53dc42}{%
+           family={Laughlin},
+           familyi={L\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=cc9aeabc9f121eff68f24dfc985d75d8}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Lourens},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=5a05e99d5029aac8381cf4b424a9f61d}{%
+           family={Vanderwel},
+           familyi={V\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=9fff0a2bd053deb68726d13eeffd0fcd}{%
+           family={Vieilledent},
+           familyi={V\bibinitperiod},
+           given={Ghislain},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=1ea13ae57b1f0c44fa5c02fab14095f0}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi Joseph},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=d502d188fc0d04a8fe978ce783c1e88b}{%
+           family={Aiba},
+           familyi={A\bibinitperiod},
+           given={Masahiro},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=17a0f82760cffaae4575372a39430934}{%
+           family={Baraloto},
+           familyi={B\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=475512544a1557f1d3fd30ff3bcac994}{%
+           family={Caspersen},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=35f27578a7fc94a2e0529e7037d6cc63}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi Hans\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=0f5d630c4525b67819e0febdd15d3e61}{%
+           family={Gourlet-Fleury},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Sylvie},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=44a7f0b6fd033870fdaa2868288c5f0e}{%
+           family={Hanewinkel},
+           familyi={H\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=60f58784aaee0e2518ae27229a310e80}{%
+           family={Herault},
+           familyi={H\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=91470a33f0779997f5b5934a52abc273}{%
+           family={Kattge},
+           familyi={K\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=b25b55a3030a78e3ef228156169d6fb6}{%
+           family={Kurokawa},
+           familyi={K\bibinitperiod},
+           given={Hiroko},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=f694dc7dfb2e2b78ab0860e0d8ae77ee}{%
+           family={Onoda},
+           familyi={O\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=e1096f32c0a77db0dd62a22057483d52}{%
+           family={Peñuelas},
+           familyi={P\bibinitperiod},
+           given={Josep},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=0d5d0ea34c92e98930815e43141e5a66}{%
+           family={Uriarte},
+           familyi={U\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=733205b7770ee61b94393fed6dccdd13}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=d80a4f392661d362532ae29955dfcdfe}{%
+           family={Ruiz-Benito},
+           familyi={R\bibinithyphendelim B\bibinitperiod},
+           given={Paloma},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=eebf4e1b05fa6342f3c3d047c2ea7f8a}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={I-Fang},
+           giveni={I\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=51aa346bc8e203e3a60365b00df1bd4e}{%
+           family={Ståhl},
+           familyi={S\bibinitperiod},
+           given={Göran},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=870c0df188eb410726efb33f27d3e70c}{%
+           family={Swenson},
+           familyi={S\bibinitperiod},
+           given={Nathan\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=b94a380f6f2446fd741dbe98147c4754}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Jill},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=b481ea3786c18b995d5cffef418233f4}{%
+           family={Westerlund},
+           familyi={W\bibinitperiod},
+           given={Bertil},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=e3e7bd22c3aba7c601dd56acb5483267}{%
+           family={Zavala},
+           familyi={Z\bibinitperiod},
+           given={Miguel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=2dfa89ae9b86aab3b2753b1d5ff8567c}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Hongcheng},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=150732cbe76f79686b29f71db0f43722}{%
+           family={Zimmerman},
+           familyi={Z\bibinitperiod},
+           given={Jess\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=13c9cd55fd40f2221d21cc153b0314f2}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Niklaus\bibnamedelima E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{395c1b78ee33f139e1e88993ed5937e3}
+      \strng{fullhash}{0cc854449e07484adc7a39995e603ebc}
+      \strng{authornamehash}{395c1b78ee33f139e1e88993ed5937e3}
+      \strng{authorfullhash}{0cc854449e07484adc7a39995e603ebc}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0028-0836, 1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{1}
+      \field{number}{7585}
+      \field{title}{Plant functional traits have globally consistent effects on competition}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{volume}{529}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{204\bibrangedash 207}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature16476
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/articles/nature16476
+      \endverb
     \endentry
     \entry{lepik_high_2005}{article}{}
       \name{author}{3}{}{%
@@ -15610,6 +16023,259 @@
       \endverb
       \keyw{Ecology}
     \endentry
+    \entry{macarthur_limiting_1967}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=add24ca0ab2bc0183e6af5bee90c7ce5}{%
+           family={Macarthur},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=7c03af0a2e94160380bdc5e484e98a54}{%
+           family={Levins},
+           familyi={L\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fac35cd69b2b5c49ea80ba932239db6c}
+      \strng{fullhash}{fac35cd69b2b5c49ea80ba932239db6c}
+      \strng{authornamehash}{fac35cd69b2b5c49ea80ba932239db6c}
+      \strng{authorfullhash}{fac35cd69b2b5c49ea80ba932239db6c}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. There is a limit to the similarity (and hence to the number) of competing species which can coexist. The total number of species is proportional to the total range of the environment divided by the niche breadth of the species. The number is reduced by unequal abundance of resources but increased by adding to the dimensionality of the niche. Niche breadth is increased with increased environmental uncertainty and with decreased productivity. 2. There is a different evolutionary limit, L, to the similarity of two coexisting species such that a) If two species are more similar than L, a third intermediate species will converge toward the nearer of the pair. b) If two species are more different than L, a third intermediate species will diverge from either toward a phenotype intermediate between the two.}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{9}
+      \field{number}{921}
+      \field{title}{The {Limiting} {Similarity}, {Convergence}, and {Divergence} of {Coexisting} {Species}}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{101}
+      \field{year}{1967}
+      \field{urldateera}{ce}
+      \field{pages}{377\bibrangedash 385}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1086/282505
+      \endverb
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\YIEITBC2\\282505.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/282505
+      \endverb
+    \endentry
+    \entry{maire_plasticity_2013}{article}{}
+      \name{author}{9}{}{%
+        {{uniquename=0,hash=1ecb3c0a8262af560d1c5fcef2827334}{%
+           family={Maire},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=e2164a868a1325c3620341fa60a87e8d}{%
+           family={Soussana},
+           familyi={S\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=adeb59ac8f9e7bc7aaceadcdba03e1c9}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=20bc47afa486108f8b1605d9414b8f4e}{%
+           family={Bachelet},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=261bcfcede26359224469323ef46e9fb}{%
+           family={Pagès},
+           familyi={P\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=cb5fddc06ebefe93982aee016fd0446a}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=64dea7bf168c8dc3cbf52f2c68a4c3da}{%
+           family={Reinhold},
+           familyi={R\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=adb5797edad2975fdfafaaa7afcc19b3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{fullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \strng{authornamehash}{2617b207b06c76ec7ffdd81f6af87288}
+      \strng{authorfullhash}{d1537e5031b56bcfa59d4ef4e5f5503d}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Gemini, a mechanistic model linking plant functional traits, plant populations, community dynamics, and ecosystem scale fluxes in grasslands has been reported in a companion paper (Soussana et al., 2012). For monocultures and six species mixtures of perennial grass species, this model has been successfully evaluated against experimental data of above-ground net primary productivity (ANPP) and plant community structure across nitrogen and disturbance (cutting frequency) gradients. The Gemini model combines two categories of processes: (i) C and N fluxes, (ii) morphogenesis and architecture of roots and shoots and demography of clonal plant axes. These two process categories constrain the form and function of the simulated clonal plants within plastic limits. We show here that the plasticity of the simulated plant populations accounts for well-established empirical laws: (i) root:shoot ratio, (ii) self-thinning, (iii) critical shoot N content, and (iv) role of plant traits (specific leaf area and plant height) for population response to environmental gradients (nitrogen and disturbance). Moreover, we show that model versions for which plasticity simulation has been partly or fully suppressed have a reduced ANPP in monocultures and in binary mixtures and do not capture anymore productivity and dominance changes across environmental gradients. We conclude that, along environmental and competition gradients, the plasticity of plant form and function is required to maintain the coordination of multiple resource capture and, hence, to sustain productivity and dominance.}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{month}{4}
+      \field{title}{Plasticity of plant form and function sustains productivity and dominance along environment and competition gradients. {A} modeling experiment with {Gemini}}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{254}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{80\bibrangedash 91}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ecolmodel.2012.03.039
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6M2NIXS7\\Maire et al. - 2013 - Plasticity of plant form and function sustains pro.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\GB6MJWWT\\S0304380012001664.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0304380012001664
+      \endverb
+      \keyw{biodiversity,Nitrogen,grassland,Carbon,Coordination theory,Functional balance,Growth,partitioning}
+    \endentry
+    \entry{morin_temporal_2014}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=70b2f8355e788b89c3e7709214800a79}{%
+           family={Morin},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{uniquename=0,hash=d20df31cd7cfe4aae5cbda0323e576f6}{%
+           family={Fahse},
+           familyi={F\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=bd85dbaca9cc9adcbd782b2c44f97529}{%
+           family={Mazancourt},
+           familyi={M\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=ccacb7a2a6a66aafe508e7915f641d56}{%
+           family={Scherer-Lorenzen},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=88464d349ab05e8a66fca5fad7d62215}{%
+           family={Bugmann},
+           familyi={B\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7135b34f66c1a9484f06f8a43515c480}
+      \strng{fullhash}{52b39bc83cf5faee2c472fc445cf70ea}
+      \strng{authornamehash}{7135b34f66c1a9484f06f8a43515c480}
+      \strng{authorfullhash}{52b39bc83cf5faee2c472fc445cf70ea}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Theory predicts a positive relationship between biodiversity and stability in ecosystem properties, while diversity is expected to have a negative impact on stability at the species level. We used virtual experiments based on a dynamic simulation model to test for the diversity–stability relationship and its underlying mechanisms in Central European forests. First our results show that variability in productivity between stands differing in species composition decreases as species richness and functional diversity increase. Second we show temporal stability increases with increasing diversity due to compensatory dynamics across species, supporting the biodiversity insurance hypothesis. We demonstrate that this pattern is mainly driven by the asynchrony of species responses to small disturbances rather than to environmental fluctuations, and is only weakly affected by the net biodiversity effect on productivity. Furthermore, our results suggest that compensatory dynamics between species may enhance ecosystem stability through an optimisation of canopy occupancy by coexisting species.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecol Lett}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Temporal stability in forest productivity increases with tree diversity due to asynchrony in species dynamics}
+      \field{urlday}{21}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{volume}{17}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1526\bibrangedash 1535}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/ele.12357
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\CVJVGU95\\Morin et al. - 2014 - Temporal stability in forest productivity increase.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\TM3V9B4N\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/ele.12357/abstract
+      \endverb
+      \keyw{Asynchrony,biodiversity,ecosystem functioning,ecosystem predictability,forests,gap model,insurance hypothesis,productivity,stability,structural equation model}
+    \endentry
+    \entry{richter_phenotypic_2012}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=bf00fdca6db2155b0e9739c23f7c7a0d}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ad15c1151a56bb86fc52ec20fb3ad657}{%
+           family={Kipfer},
+           familyi={K\bibinitperiod},
+           given={Tabea},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=1426ea866b73ed9e0d5f343e07dc024b}{%
+           family={Wohlgemuth},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=9b51d1a161d793bfdea9f2262e849009}{%
+           family={Guerrero},
+           familyi={G\bibinitperiod},
+           given={Carlos\bibnamedelima Calderón},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=24c8fab018df3f9e88edf8a17665f7b9}{%
+           family={Ghazoul},
+           familyi={G\bibinitperiod},
+           given={Jaboury},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=f3a341d67d26b191db532dfbaf23dc8a}{%
+           family={Moser},
+           familyi={M\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c2fbc5436b34b26d415fbf411f0d547}
+      \strng{fullhash}{fc7a8e88b978f2fc7041d54aef343c18}
+      \strng{authornamehash}{9c2fbc5436b34b26d415fbf411f0d547}
+      \strng{authorfullhash}{fc7a8e88b978f2fc7041d54aef343c18}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Increased summer drought will exacerbate the regeneration of many tree species at their lower latitudinal and altitudinal distribution limits. In vulnerable habitats, introduction of more drought-tolerant provenances or species is currently considered to accelerate tree species migration and facilitate forest persistence. Trade-offs between drought adaptation and growth plasticity might, however, limit the effectiveness of assisted migration, especially if introductions focus on provenances or species from different climatic regions. We tested in a common garden experiment the performance of Pinus sylvestris seedlings from the continental Central Alps under increased temperatures and extended spring and/or summer drought, and compared seedling emergence, survival and biomass allocation to that of P. sylvestris and closely related Pinus nigra from a Mediterranean seed source. Soil heating had only minor effects on seedling performance but high spring precipitation doubled the number of continental P. sylvestris seedlings present after the summer drought. At the same time, twice as many seedlings of the Mediterranean than the continental P. sylvestris provenance were present, which was due to both higher emergence and lower mortality under dry conditions. Both P. sylvestris provenances allocated similar amounts of biomass to roots when grown under low summer precipitation. Mediterranean seedlings, however, revealed lower phenotypic plasticity than continental seedlings under high precipitation, which might limit their competitive ability in continental Alpine forests in non-drought years. By contrast, high variability in the response of individual seedlings to summer drought indicates the potential of continental P. sylvestris provenances to adapt to changing environmental conditions.}
+      \field{issn}{0029-8549}
+      \field{journaltitle}{Oecologia}
+      \field{number}{1}
+      \field{title}{Phenotypic plasticity facilitates resistance to climate change in a highly variable environment}
+      \field{urlday}{15}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{volume}{169}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{269\bibrangedash 279}
+      \range{pages}{11}
+      \verb{url}
+      \verb http://www.jstor.org/stable/41487950
+      \endverb
+    \endentry
     \entry{roscher_contrasting_2015}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=8e6c28c3b29c51e3957b7c5231b43a72}{%
@@ -15665,8 +16331,202 @@
       \verb http://dx.doi.org/10.1371/journal.pone.0119786
       \endverb
     \endentry
+    \entry{scheffer_catastrophic_2001}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=928c6696327fbb9942013ec7d598f6be}{%
+           family={Scheffer},
+           familyi={S\bibinitperiod},
+           given={Marten},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=e6102e4f9cc9c61195b8e6869a764a24}{%
+           family={Carpenter},
+           familyi={C\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=a1d7b754ba935075adeda88f49542858}{%
+           family={Foley},
+           familyi={F\bibinitperiod},
+           given={Jonathan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=33396b38f27fa7e13c6e1581623ba37c}{%
+           family={Folke},
+           familyi={F\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=0e70dedbf6a6b49642ecd8c9d95c41c5}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{fullhash}{daa145297d462421184f2bb159b32d49}
+      \strng{authornamehash}{9dd74bc466019c8d66becb6042640aed}
+      \strng{authorfullhash}{daa145297d462421184f2bb159b32d49}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{All ecosystems are exposed to gradual changes in climate, nutrient loading, habitat fragmentation or biotic exploitation. Nature is usually assumed to respond to gradual change in a smooth way. However, studies on lakes, coral reefs, oceans, forests and arid lands have shown that smooth change can be interrupted by sudden drastic switches to a contrasting state. Although diverse events can trigger such shifts, recent studies show that a loss of resilience usually paves the way for a switch to an alternative state. This suggests that strategies for sustainable management of such ecosystems should focus on maintaining resilience.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{10}
+      \field{number}{6856}
+      \field{title}{Catastrophic shifts in ecosystems}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{413}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{591\bibrangedash 596}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/35098000
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\VU42VPNW\\Scheffer et al. - 2001 - Catastrophic shifts in ecosystems.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\SMDKXP56\\413591a0.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v413/n6856/full/413591a0.html
+      \endverb
+    \endentry
+    \entry{tilman_diversity_2001}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=56e145e8f70192e123c180987985ea9b}{%
+           family={Tilman},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=43e2b631870a3101e1a937b6b608a80a}{%
+           family={Knops},
+           familyi={K\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=944fff301bffa1baf4f91c68089076df}{%
+           family={Wedin},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=9eb449c93cb77d09eef62488b4fe109f}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Troy},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=b746ae43f6b604d4571b7407a76b7751}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={Clarence},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d487d3d934b1601a783fe367c8f275e7}
+      \strng{fullhash}{cacc7b702d70fff0542cb6d42b60b6c6}
+      \strng{authornamehash}{d487d3d934b1601a783fe367c8f275e7}
+      \strng{authorfullhash}{cacc7b702d70fff0542cb6d42b60b6c6}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plant diversity and niche complementarity had progressively stronger effects on ecosystem functioning during a 7-year experiment, with 16-species plots attaining 2.7 times greater biomass than monocultures. Diversity effects were neither transients nor explained solely by a few productive or unviable species. Rather, many higher-diversity plots outperformed the best monoculture. These results help resolve debate over biodiversity and ecosystem functioning, show effects at higher than expected diversity levels, and demonstrate, for these ecosystems, that even the best-chosen monocultures cannot achieve greater productivity or carbon stores than higher-diversity sites.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{5543}
+      \field{title}{Diversity and {Productivity} in a {Long}-{Term} {Grassland} {Experiment}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{volume}{294}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{843\bibrangedash 845}
+      \range{pages}{3}
+      \verb{url}
+      \verb http://www.jstor.org/stable/3085075
+      \endverb
+    \endentry
+    \entry{zuppinger-dingley_selection_2014}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=93c4b8ee9239dc43ab57ee6be6837e2b}{%
+           family={Zuppinger-Dingley},
+           familyi={Z\bibinithyphendelim D\bibinitperiod},
+           given={Debra},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=38a7ad6248a763abd6041327170d012a}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=d8ccce803ffd99cd6c31dff27c4b2b99}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Jana\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=cb56d0c58f14595dd117c266da97837b}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Varuna},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=fb59b9e956138f46c4b7a65962e17b27}{%
+           family={De\bibnamedelima Deyn},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Gerlinde\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=b2ab41984b5899bfb222fa9f0c17958b}{%
+           family={Flynn},
+           familyi={F\bibinitperiod},
+           given={Dan\bibnamedelimb F.\bibnamedelimi B.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{18d4d278714a8bb417033e6d6f3899fa}
+      \strng{fullhash}{4c23f959ac8d2242551f66906d48ea83}
+      \strng{authornamehash}{18d4d278714a8bb417033e6d6f3899fa}
+      \strng{authorfullhash}{4c23f959ac8d2242551f66906d48ea83}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In experimental plant communities, relationships between biodiversity and ecosystem functioning have been found to strengthen over time, a fact often attributed to increased resource complementarity between species in mixtures and negative plant–soil feedbacks in monocultures. Here we show that selection for niche differentiation between species can drive this increasing biodiversity effect. Growing 12 grassland species in test monocultures and mixtures, we found character displacement between species and increased biodiversity effects when plants had been selected over 8 years in species mixtures rather than in monocultures. When grown in mixtures, relative differences in height and specific leaf area between plant species selected in mixtures (mixture types) were greater than between species selected in monocultures (monoculture types). Furthermore, net biodiversity and complementarity effects were greater in mixtures of mixture types than in mixtures of monoculture types. Our study demonstrates a novel mechanism for the increase in biodiversity effects: selection for increased niche differentiation through character displacement. Selection in diverse mixtures may therefore increase species coexistence and ecosystem functioning in natural communities and may also allow increased mixture yields in agriculture or forestry. However, loss of biodiversity and prolonged selection of crops in monoculture may compromise this potential for selection in the longer term.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{11}
+      \field{number}{7525}
+      \field{title}{Selection for niche differentiation in plant communities increases biodiversity effects}
+      \field{urlday}{2}
+      \field{urlmonth}{10}
+      \field{urlyear}{2015}
+      \field{volume}{515}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{108\bibrangedash 111}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature13869
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6ZNHIE6P\\Zuppinger-Dingley et al. - 2014 - Selection for niche differentiation in plant commu.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\D85AXX9I\\nature13869.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v515/n7525/full/nature13869.html
+      \endverb
+      \keyw{biodiversity}
+    \endentry
   \endsortlist
   \missing{white_ecologists_2014}
+  \missing{tilman_niche_2004}
 \endrefsection
 
 \refsection{6}
@@ -15834,6 +16694,77 @@
       \verb{url}
       \verb http://advances.sciencemag.org/content/2/2/e1501340
       \endverb
+    \endentry
+    \entry{deleglise_drought-induced_2015}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=6461759f2a5824b3e753d27c4faffd0a}{%
+           family={Deléglise},
+           familyi={D\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=0d0d1d8d9ae7d40d69cf99513d81f183}{%
+           family={Meisser},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=36436318a9d083ed787c4b461b7eff5a}{%
+           family={Mosimann},
+           familyi={M\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=7d81da4e759edc1db5287a25366d37fd}{%
+           family={Spiegelberger},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=29cbab7bfe149ab7aff12a1ecdc43dd9}{%
+           family={Signarbieux},
+           familyi={S\bibinitperiod},
+           given={Constant},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=45f575df63ecaa843969f412be276cc1}{%
+           family={Jeangros},
+           familyi={J\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=3fb88c6eb551570791b15b4e0eba042e}{%
+           family={Buttler},
+           familyi={B\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{290c8d6c8e658b70bc02a2db3013dbe5}
+      \strng{fullhash}{f42f818c6f2e54901aa756bbd883d465}
+      \strng{authornamehash}{290c8d6c8e658b70bc02a2db3013dbe5}
+      \strng{authorfullhash}{f42f818c6f2e54901aa756bbd883d465}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Extreme drought events can dramatically impact grassland ecosystems, causing potential loss of forage production for livestock in temperate grasslands. However, knowledge of drought effects on forage production, nutritive value and plant community stability in the real context of farming management is scarce. For this purpose, the effect of a simulated summer drought was studied under two realistic management types on a semi-natural grassland in the Swiss Jura mountains. The first management (“grazing”) consisted in six consecutive utilizations by animals over the growing season, representing a rotational grazing system as regionally conducted. The second management (“mowing”) consisted of three harvests, corresponding to the usual mowing frequency of hay meadows. In both managements, drought caused minor short-term modifications of species composition and almost no persistent effects were observed. Besides, important short-term changes were observed in community weighted mean of several key functional traits, reflecting a strong decline in community growth during the drought followed by a partial recovery two months later. Forage yields, and to a lesser extent its nutritive value, thus declined during the drought period. Both were still affected in the following months, but had recovered in spring of the following year. Forage loss was twofold higher in the grazing management, but recovery as well as nutritive value was slightly improved in this management. The results suggest that rotational grazing can amplify negative drought impacts, compared to traditional mowing, and highlight the need to adapt such management in dry years. They also demonstrate that, even under a fairly intensive management, resilience of such mountain grasslands after one extreme drought event can be expected to be high, with no persistent changes in species and trait compositions.}
+      \field{issn}{0167-8809}
+      \field{journaltitle}{Agriculture, Ecosystems \& Environment}
+      \field{month}{12}
+      \field{title}{Drought-induced shifts in plants traits, yields and nutritive value under realistic grazing and mowing managements in a mountain grassland}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2015}
+      \field{volume}{213}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{94\bibrangedash 104}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.agee.2015.07.020
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\WQ5WEWGX\\Deléglise et al. - 2015 - Drought-induced shifts in plants traits, yields an.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\ZQFXEMVZ\\S0167880915300347.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0167880915300347
+      \endverb
+      \keyw{functional traits,Grassland management,Forage quality,Rain-shelter,Recovery}
     \endentry
     \entry{dewitt_expanding_2016}{article}{}
       \name{author}{1}{}{%
@@ -16711,6 +17642,61 @@
       \verb http://www.jstor.org/stable/41487950
       \endverb
     \endentry
+    \entry{roscher_contrasting_2015}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=8e6c28c3b29c51e3957b7c5231b43a72}{%
+           family={Roscher},
+           familyi={R\bibinitperiod},
+           given={Christiane},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=c3063d4dab3688a1d97e064b99b8585d}{%
+           family={Schumacher},
+           familyi={S\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=38a7ad6248a763abd6041327170d012a}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2c513dab4477ccf2de521f2dd4770c84}{%
+           family={Schulze},
+           familyi={S\bibinitperiod},
+           given={Ernst-Detlef},
+           giveni={E\bibinithyphendelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3384f6f3aedf38d2b6f1351ae754586b}
+      \strng{fullhash}{9070a5e37b9592c8373e04498e8f57c3}
+      \strng{authornamehash}{3384f6f3aedf38d2b6f1351ae754586b}
+      \strng{authorfullhash}{9070a5e37b9592c8373e04498e8f57c3}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Niche differentiation, assumed to be a key mechanism of species coexistence, requires that species differ in their functional traits. So far it remains unclear to which extent trait plasticity leads to niche shifts of species at higher plant diversity, thereby increasing or decreasing niche overlap between species. To analyse this question it is convenient to measure niches indirectly via the variation in resource-uptake traits rather than directly via the resources used. We provisionally call these indirectly measured niches trait-based niches. We studied shoot- and leaf-morphological characteristics in seven legume species in monoculture and multi-species mixture in experimental grassland. Legume species varied in the extent of trait variation in response to plant diversity. Trait plasticity led to significant shifts in species niches in multiple dimensions. Single-species niches in several traits associated with height growth and filling of canopy space were expanded, while other niche dimensions were compressed or did not change with plant diversity. Niche separation among legumes decreased in dimensions related to height growth and space filling, but increased in dimensions related to leaf size and morphology. The total extent of occupied niche space was larger in mixture than in the combined monocultures for dimensions related to leaf morphology and smaller for dimensions related to whole-plant architecture. Taller growth, greater space filling and greater plasticity in shoot height were positively, while larger values and greater plasticity in specific leaf area were negatively related with increased performance of species in mixture. Our study shows that trait variation in response to plant diversity shifts species niches along trait axes. Plastically increased niche differentiation is restricted to niche dimensions that are apparently not related to size-dependent differences between species, but functional equivalence (convergence in height growth) rather than complementarity (divergence in traits associated with light acquisition) explains increased performance of legumes in mixture.}
+      \field{journaltitle}{PLoS ONE}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Contrasting {Effects} of {Intraspecific} {Trait} {Variation} on {Trait}-{Based} {Niches} and {Performance} of {Legumes} in {Plant} {Mixtures}}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{e0119786}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0119786
+      \endverb
+      \verb{file}
+      \verb PLoS Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\4TE34DP4\\Roscher et al. - 2015 - Contrasting Effects of Intraspecific Trait Variati.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1371/journal.pone.0119786
+      \endverb
+    \endentry
     \entry{ryser_consequences_2000}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
@@ -17184,14 +18170,86 @@
       \verb http://www.nature.com/nature/journal/v428/n6985/abs/nature02403.html
       \endverb
     \endentry
+    \entry{zuppinger-dingley_selection_2014}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=93c4b8ee9239dc43ab57ee6be6837e2b}{%
+           family={Zuppinger-Dingley},
+           familyi={Z\bibinithyphendelim D\bibinitperiod},
+           given={Debra},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=38a7ad6248a763abd6041327170d012a}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=d8ccce803ffd99cd6c31dff27c4b2b99}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={Jana\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=cb56d0c58f14595dd117c266da97837b}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Varuna},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=fb59b9e956138f46c4b7a65962e17b27}{%
+           family={De\bibnamedelima Deyn},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Gerlinde\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=b2ab41984b5899bfb222fa9f0c17958b}{%
+           family={Flynn},
+           familyi={F\bibinitperiod},
+           given={Dan\bibnamedelimb F.\bibnamedelimi B.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{18d4d278714a8bb417033e6d6f3899fa}
+      \strng{fullhash}{4c23f959ac8d2242551f66906d48ea83}
+      \strng{authornamehash}{18d4d278714a8bb417033e6d6f3899fa}
+      \strng{authorfullhash}{4c23f959ac8d2242551f66906d48ea83}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In experimental plant communities, relationships between biodiversity and ecosystem functioning have been found to strengthen over time, a fact often attributed to increased resource complementarity between species in mixtures and negative plant–soil feedbacks in monocultures. Here we show that selection for niche differentiation between species can drive this increasing biodiversity effect. Growing 12 grassland species in test monocultures and mixtures, we found character displacement between species and increased biodiversity effects when plants had been selected over 8 years in species mixtures rather than in monocultures. When grown in mixtures, relative differences in height and specific leaf area between plant species selected in mixtures (mixture types) were greater than between species selected in monocultures (monoculture types). Furthermore, net biodiversity and complementarity effects were greater in mixtures of mixture types than in mixtures of monoculture types. Our study demonstrates a novel mechanism for the increase in biodiversity effects: selection for increased niche differentiation through character displacement. Selection in diverse mixtures may therefore increase species coexistence and ecosystem functioning in natural communities and may also allow increased mixture yields in agriculture or forestry. However, loss of biodiversity and prolonged selection of crops in monoculture may compromise this potential for selection in the longer term.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{11}
+      \field{number}{7525}
+      \field{title}{Selection for niche differentiation in plant communities increases biodiversity effects}
+      \field{urlday}{2}
+      \field{urlmonth}{10}
+      \field{urlyear}{2015}
+      \field{volume}{515}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{108\bibrangedash 111}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature13869
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6ZNHIE6P\\Zuppinger-Dingley et al. - 2014 - Selection for niche differentiation in plant commu.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\D85AXX9I\\nature13869.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v515/n7525/full/nature13869.html
+      \endverb
+      \keyw{biodiversity}
+    \endentry
   \endsortlist
-  \missing{dechaine_constraints_2007}
   \missing{valladares_quantitative_2006}
   \missing{barabas_effect_2016}
-  \missing{auld_measuring_2011}
+  \missing{fajardo_intraspecific_2018}
+  \missing{dechaine_constraints_2007}
+  \missing{tilman_density_2014}
   \missing{auld_re-evaluationg_2009}
   \missing{van_kleunen_progress_2007}
-  \missing{fajardo_intraspecific_2018}
+  \missing{tilman_diversity_2014}
+  \missing{auld_measuring_2011}
 \endrefsection
 \endinput
 

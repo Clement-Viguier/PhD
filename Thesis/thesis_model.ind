@@ -33,6 +33,7 @@
   \item \MakeLowercase  {facilitation}, \hyperpage{18}
   \item \MakeLowercase  {functional diversity}, \hyperpage{124}
   \item \MakeLowercase  {functional identity}, \hyperpage{30}
+  \item \MakeLowercase  {fundamental niche}, \hyperpage{18}
   \item \MakeLowercase  {gravity centre}, \hyperpage{117}
   \item \MakeLowercase  {growth function}, \hyperpage{42}
   \item \MakeLowercase  {heterogeneity}, \hyperpage{128}
@@ -53,7 +54,6 @@
   \item \MakeLowercase  {phenotypic flexibility}, \hyperpage{105}
   \item \MakeLowercase  {plant performance}, \hyperpage{122}
   \item \MakeLowercase  {plastic exhaustion}, \hyperpage{127}
-  \item \MakeLowercase  {potential niche}, \hyperpage{18}
   \item \MakeLowercase  {productivity}, \hyperpage{3}
   \item \MakeLowercase  {projection}, \hyperpage{67}
   \item \MakeLowercase  {reaction norm}, \hyperpage{43}
@@ -63,7 +63,8 @@
   \item \MakeLowercase  {resolution}, \hyperpage{59}
   \item \MakeLowercase  {scale}, \hyperpage{59}
   \item \MakeLowercase  {sensitivity analysis}, \hyperpage{95}
-  \item \MakeLowercase  {species diversity}, \hyperpage{124}
+  \item \MakeLowercase  {species diversity}, \hyperpage{124}, 
+		\hyperpage{167}
   \item \MakeLowercase  {speed}, \hyperpage{123}
   \item \MakeLowercase  {stability}, \hyperpage{68}
   \item \MakeLowercase  {static gain}, \hyperpage{125}, \hyperpage{134}
