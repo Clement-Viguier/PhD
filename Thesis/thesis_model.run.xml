@@ -81,6 +81,7 @@
     </requires>
     <requires type="editable">
       <file>../Bibliography/bib_zotero20180615.bib</file>
+      <file>../Bibliography/bib_zotero_update_20180615_20180712.bib</file>
     </requires>
   </external>
 </requests>

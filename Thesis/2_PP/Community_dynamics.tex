@@ -277,15 +277,16 @@ To analyse this variability, the community weighted means (CWMs) for the proport
 
 The differences in community structure certainly explain these contrasted source of variability of the community identity. The structure is altered by the increased species richness under plastic allocation (see figure \ref{fg:comm_str}), leading to a reduction of the abundance of the most dominant species, in addition of a long tail of the rank-abundance curves due to numerous species with low abundances.
 
-\begin{marginfigure}%[tb]
+\begin{figure}%[tb]
     \classiccaptionstyle
 \sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
     \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/mean_com_str2.pdf}%
 }{
-  \caption[]{}
+  \caption[Rank abundance curves for the three allocation algorithms]{Rank abundance curves for the \textit{non plastic} (\textcolor{myOrange}{- -}, \textit{fixed-equilibrium} (\textcolor{myGreen}{--}) and \textit{plastic-optimisation} (\textcolor{myBlue}{--})algorithms. They illustrate the structure of the communities highly dominated by one species in \textit{non palstic} simulations, and highlight the long tail of rare species in plastic communities.
+  }
   \label{fg:comm_str}
   }
-\end{marginfigure}
+\end{figure}
 
 This shift in structure at the community scale, but also at the meta-community scale suggest a strong effect of the allocation on the overall structure of the ecosystem.
 %Lead to changes in strats? If yes, is it direction\\
@@ -455,18 +456,30 @@ Because the alpha diversity is expected to be impacted in a similar way than in 
 
 The plasticity as a strategy defended in the chapter \ref{part:model}, that makes the plasticity an axis of strategic differentiation, is only superficially studied here. The figure \ref{fig:tau} shows the average phenotypic stability value for algorithmic specific species. This results confirms that plasticity favours species with lower tau values. The particular relationships that may exists between levels of plasticity, the two distinct costs and the temporal variability of conditions should be investigated to better understand the role of the plasticity costs as a limit of the phenotypic plasticity \parencite{dewitt_costs_1998, auld_re-evaluating_2009}.
 
-The adaptative value of the different levels of plasticity can be measured by the distribution of the $\tau$ values 
+The adaptative value of the different levels of plasticity can be measured by the distribution of the $\tau$ values against gradients of resource variability, allowing hypothesis testing on the limits of the plasticity.
+
+\subsection{A broader perspective on phenotypic plasticity at the community level}
+
+\paragraph{Services and global change}
+
+The strength of models as tools is to help us understanding the underlying mechanisms, but also to project the system of interest in alternative scenarios. While this subject is further discussed in the next chapter (chapter \ref{part:synthesis}), the current results can still be analysis with this perspective.
+
+The phenotypic plasticity effects at the community level mostly affect the community structure and diversity. The addition of multiple rare species, while they do not participate greatly to the productivity, they still provide numerous benefits. The species diversity can for example support a flower diversity that promote cultural services, as well as honey production, etc... This flower diversity is also tightly linked to the pollinator diversity \parencite{frund_pollinator_2010} themselves enhancing the persistance of plant communities \parencite{fontaine_functional_2005}. Such positive feedback mechanisms have essential positive feedback effect stabilising the community. 
+
+The species diversity has multiple other benefits (see chapter \ref{part:literature})\parencite{tilman_diversity_2001}. One of these effect is to enhance the stability of the community \parencite{morin_temporal_2014}. This effect is even more important in the context of the climate change. The shift in climatic conditions driven by the climate change may put some species outside of their fundamental niche. Such effect can lead to critical transitions \parencite{scheffer_catastrophic_2001}, especially in case of low diversity and narrow niches, where the equilibrium state is fragile. In this context, the phenotypic plasticity have two beneficial effects: (1) it widens the fundamental niche of the species, reducing the risk for rapid shifts, (2) increases the species diveristy, allowing subordinate species to become dominant \parencite{adler_climate_2006}.
+
+The modification of the meta-community can also have an impact of the response to global change. The high redundancy in species between site, while it decrease the beta diversity, also support the site stability. Indeed, in case of discriminated communities (communities are composed of unique and different species), any local transition leading to the local extinction of the species also leads to the extinction of the species at the meta-community level. Whereas, in redundant community structure, a local extinction can be reverse later thanks to invasion from other non (or less) disturbed communities.
+
+Redundancy and plasticity should also help smoother transition between states, and should allow management adjustment to be adopted. The potential effect on the resistance to alien species should also be investigated.
 
 
-\subsection{Phenotypic plasticity and global change}
-
-2 perspective: differences between with and wtihout pl. Effect on plastic and on non plastic sp.
-
-% critical transition in non plastic communities
-\cite{scheffer_catastrophic_2001}
-
-% more stable because more diverse, closer communities
-\cite{morin_temporal_2014} \cite{tilman_diversity_2001}
+%2 perspective: differences between with and wtihout pl. Effect on plastic and on non plastic sp.
+%
+%% critical transition in non plastic communities
+%\cite{scheffer_catastrophic_2001}
+%
+%% more stable because more diverse, closer communities
+%\cite{morin_temporal_2014} \cite{tilman_diversity_2001}
 
 % plasticity : more even competition : larger niche -> smoother transitions
 
@@ -477,18 +490,30 @@ The adaptative value of the different levels of plasticity can be measured by th
 % what about management : abandunment or fertilisation: 
 % - abandonnement: less plastic species,  plasticity itself predict smoother transition
 % - fertilisation : more exploitative, more plastic, could work better than expected if plasticity is considered.
+%
 
-\paragraph{Measures and rules}
+\paragraph{The specificity of the mechanism}
 
-intra-specific variation : jensen inequality : with negative effects on coexistence. 
+The development of this model also highlights the importance of the perspective on a phenomenon. One of the primary objectives of this work was to better understand the source and effects of intra-specific variability. This issue had received increasing importance \parencite{de_bello_quantifying_2011, albert_when_2011, violle_return_2012, siefert_global_2015}. And the question has been explored with empirical and statistical approaches \parencite{jung_intraspecific_2010,  jung_intraspecific_2014, bennett_reciprocal_2016}, and theoretical models that allow the examination of the underlying processes \parencite{hart_how_2016}.
 
-Jensen's inequality: question of measure.
+Theoretical models are great tools that allow, by the simplification of the problem and the identification and characterisation of the processes, to explicit the mechanisms and quantify emerging properties of the system by the study of their mathematical properties. Such an approach was developed by \cite{hart_how_2016} to investigate the impact of the intra-specific variability upon the coexistence mechanisms. They show an overall negative effect resulting from numerous processes. A part of the explanation, the Jensen's inequality effect with species interaction coefficient, might be overcome by the fact that empirical estimation of these coefficient should capture this effect. But another argument resides in the modification of the relative strength between the intra-specific and inter-specific competition interactions. While the reasoning is valid, it relies on an assumption, the symetry of trait mediated competition. However, such assumption, deeply rooted in ecology \parencite{macarthur_limiting_1967} may not always be verified \parencite{kunstler_plant_2016}. The other limitation of such approach is that it ignores the source of the variability. However, the validity assumption made on the higher level processes\sidenote{those that are impacted by the intra-specific variability, as opposed as those that cause this variability} may depends on the underlying mechanism. In \model the explicit description of the intra-specific variability as a result of the phenotypic plasticity allows to avoid assumption and test directly the effect of this specific form of intra-specific variability. It appears that the phenotypic plasticity does not limits the coexistence by reinforcing the inter- versus intra-specific competition, but rather diminishes the competitive differences between species \sidenote{among other positive effects}. This example highlight the strength of mechanisitic approaches to investigate complex processes of which the underlying drivers may be ignored at the level of observation. The work of \cite{zuppinger-dingley_selection_2014} is another example on the complex links between intra-specific variability\sidenote{here expressed by character displacement} and coexistence mechanisms. They highlight the effect of the diversity of neighbours on the trait expression of species, showing potential positive feedback loops between functional species diversity.
 
-pl =:source of variation: driven. There are causes to this variability. Supposing variability under constant rule does not make sense to me. Variability because non constant rules. Under non constant rules (climate, interaction coeeficients, stochasticity) pl has non linear effect (static gain benefit to non fitting species, or asymmetry in dynamic gain) but mostly favour the diversity.
+Other forms of intra-specific variability must be investigated, but it is likely that genetic variability results from fine scale selection processes \cite{hamann_evidence_2016}, challenging the hypothesis of theoretical models. The intrinsic limitation of these approaches resides in the assumption that the source of the intra-specific variability (\textit{e.g.} spatial or temporal heterogeneity leading to genetic variability or phenotypic plasticity) does not affect the common rule driving the interactions, while in many cases the interaction forces depend on the alteration of the conditions (see \cite{choler_facilitation_2001} along elevational gradient) that also explains the intra-specific variability (see \cite{kichenin_contrasting_2013} along similar gradient).
 
-More genetic approaches for the genetic intra-specific var. effect (not just pl), but I on't think it is negative... at least more lickely to alter the source of vairability or the for mof diversity, as observed here from beta to alpha.
+Mechanistic models should be use in complement of theoretical models, that are easier to develop and test, to investigated the underlying processes of interesting patterns revealed by the latter. But these models rely on strong empirical knowledge, patterns and data, that also nourish the development of new theories and theoretical models. This interdependency illustrate the need for collaboration between the different approaches in order to build and test theories that mhelp us understanding the world around us.
 
-measures and rules
-
-\paragraph{Intra-specific variability}
-
+%example with altitude gradient: kichenin and choler 2001
+%\paragraph{Measures and rules}
+%
+%intra-specific variation : jensen inequality : with negative effects on coexistence. 
+%
+%Jensen's inequality: question of measure.
+%
+%pl =:source of variation: driven. There are causes to this variability. Supposing variability under constant rule does not make sense to me. Variability because non constant rules. Under non constant rules (climate, interaction coeeficients, stochasticity) pl has non linear effect (static gain benefit to non fitting species, or asymmetry in dynamic gain) but mostly favour the diversity.
+%
+%More genetic approaches for the genetic intra-specific var. effect (not just pl), but I on't think it is negative... at least more lickely to alter the source of vairability or the for mof diversity, as observed here from beta to alpha.
+%
+%measures and rules
+%
+%\paragraph{Intra-specific variability}
+%
