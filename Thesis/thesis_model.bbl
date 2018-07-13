@@ -4265,10 +4265,10 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{schirpe_multiple_2013}
-  \missing{de_bello_towards_2011}
   \missing{koorner_alpine_2003}
+  \missing{de_bello_towards_2011}
   \missing{boulangeat_fate-dh_2014}
+  \missing{schirpe_multiple_2013}
 \endrefsection
 
 \refsection{2}
@@ -11521,13 +11521,13 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{dewitt_cost_1998}
-  \missing{reich_world-wilde_2013}
-  \missing{diaz_global_2014}
-  \missing{adler_coexistence_2007}
-  \missing{freschett_plasticity_2014}
   \missing{lavorel_how_2014}
+  \missing{reich_world-wilde_2013}
+  \missing{dewitt_cost_1998}
   \missing{TRY}
+  \missing{adler_coexistence_2007}
+  \missing{diaz_global_2014}
+  \missing{freschett_plasticity_2014}
 \endrefsection
 
 \refsection{3}
@@ -14439,9 +14439,9 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{korner_alpine_2011}
   \missing{wright_worlwide_2004}
   \missing{tjoelker_linking_2015}
+  \missing{korner_alpine_2011}
 \endrefsection
 
 \refsection{4}
@@ -15335,6 +15335,67 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2005.00792.x/abstract
       \endverb
       \keyw{species distribution models,population dynamics,spatial scales,Dispersal,ecological niche theory,future projections,habitat suitability maps,prediction errors,predictive biogeography}
+    \endentry
+    \entry{hartig_statistical_2011}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=f2023df7507c5721104bd31350623c8c}{%
+           family={Hartig},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=8138347852f31878c545f80b5c141bdc}{%
+           family={Calabrese},
+           familyi={C\bibinitperiod},
+           given={Justin\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=b2b5fe6047e1c5ee7ff053818a17f3bc}{%
+           family={Reineking},
+           familyi={R\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=fc6d0b75ef26e66b7a3e177f167815ad}{%
+           family={Wiegand},
+           familyi={W\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=316c08a9f785779ecfe98cb04fd33fb1}{%
+           family={Huth},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5155ed83806f7c75a350b0690ced6643}
+      \strng{fullhash}{abea242a2ac1cc69ec8311c9e0cd445c}
+      \strng{authornamehash}{5155ed83806f7c75a350b0690ced6643}
+      \strng{authorfullhash}{abea242a2ac1cc69ec8311c9e0cd445c}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1461023X}
+      \field{journaltitle}{Ecology Letters}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shorttitle}{Statistical inference for stochastic simulation models - theory and application}
+      \field{title}{Statistical inference for stochastic simulation models - theory and application: {Inference} for stochastic simulation models}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{volume}{14}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{816\bibrangedash 827}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.1461-0248.2011.01640.x
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/j.1461-0248.2011.01640.x
+      \endverb
     \endentry
     \entry{heger_light_2016}{article}{}
       \name{author}{1}{}{%
@@ -17042,7 +17103,6 @@
     \endentry
   \endsortlist
   \missing{wright_worldwide_2006}
-  \missing{hartig}
 \endrefsection
 
 \refsection{5}

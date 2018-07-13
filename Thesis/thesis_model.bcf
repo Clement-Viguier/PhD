@@ -2557,7 +2557,7 @@
   </bcf:bibdata>
   <bcf:section number="4">
     <bcf:citekey order="1">grimm_pattern-oriented_2005</bcf:citekey>
-    <bcf:citekey order="1">hartig</bcf:citekey>
+    <bcf:citekey order="1">hartig_statistical_2011</bcf:citekey>
     <bcf:citekey order="2">peterson_growth_1982</bcf:citekey>
     <bcf:citekey order="3">peterson_growth_1982</bcf:citekey>
     <bcf:citekey order="4">wright_worldwide_2004</bcf:citekey>
@@ -2610,20 +2610,19 @@
     <bcf:citekey order="40">reineking_environmental_2006</bcf:citekey>
     <bcf:citekey order="40">deleglise_heterogeneite_2011</bcf:citekey>
     <bcf:citekey order="41">crisp_reconsidering_2016</bcf:citekey>
-    <bcf:citekey order="42">crisp_reconsidering_2016</bcf:citekey>
-    <bcf:citekey order="43">liu_biomass_2004</bcf:citekey>
-    <bcf:citekey order="44">peterson_growth_1982</bcf:citekey>
-    <bcf:citekey order="45">crisp_reconsidering_2016</bcf:citekey>
-    <bcf:citekey order="46">fort_root_2015</bcf:citekey>
-    <bcf:citekey order="47">pierik_art_2014</bcf:citekey>
-    <bcf:citekey order="48">grassein_plant_2010</bcf:citekey>
-    <bcf:citekey order="48">freschet_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="49">frei_plastic_2014</bcf:citekey>
-    <bcf:citekey order="50">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="51">perez-ramos_tradeoffs_2013</bcf:citekey>
-    <bcf:citekey order="52">heger_light_2016</bcf:citekey>
-    <bcf:citekey order="53">maire_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="54">roscher_contrasting_2015</bcf:citekey>
+    <bcf:citekey order="42">liu_biomass_2004</bcf:citekey>
+    <bcf:citekey order="43">peterson_growth_1982</bcf:citekey>
+    <bcf:citekey order="44">crisp_reconsidering_2016</bcf:citekey>
+    <bcf:citekey order="45">fort_root_2015</bcf:citekey>
+    <bcf:citekey order="46">pierik_art_2014</bcf:citekey>
+    <bcf:citekey order="47">grassein_plant_2010</bcf:citekey>
+    <bcf:citekey order="47">freschet_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="48">frei_plastic_2014</bcf:citekey>
+    <bcf:citekey order="49">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="50">perez-ramos_tradeoffs_2013</bcf:citekey>
+    <bcf:citekey order="51">heger_light_2016</bcf:citekey>
+    <bcf:citekey order="52">maire_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="53">roscher_contrasting_2015</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

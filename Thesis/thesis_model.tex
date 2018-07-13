@@ -210,7 +210,7 @@
 
 
 \author{Clément Viguier}
- \newcommand{\model}{\textit{\texttt{MountGrass }}}
+ \newcommand{\model}{\textit{\texttt{MountGrass}}}
  
  \newcommand{\version}{\texttt{MountGrass2.0}}
 
@@ -256,9 +256,17 @@
 
 \begin{document}
 
-
+\pagenumbering{gobble}
 %\maketitle
 \includepdf{cover.pdf}
+
+\vspace*{4cm}
+\noindent Photo de Renaud Jaunatre
+
+
+\vspace{1cm}
+\noindent6 Août 2016\\
+\noindent Linaigrettes au lac de la Sagne – Massif de Belledonne - France
 
 \newpage
 
@@ -268,23 +276,23 @@
 \chapter*{Abstract}	
 
 \begin{fullwidth}
-Mountain grasslands provide numerous ecosystem services that, to be assessed and predicted, need a fine understanding and characterisation to be assessed and predicted. The potential vulnerability to climate change and the complexity of mechanisms underlying alpine community dynamics require the development of new tools to predict the dynamics of these communities under new conditions. Multiple empirical studies show that individual-level variations have large effects on community responses to changes in external condition changes, but they are often overlooked in modelling approaches. %In addition to these effects, intra-specific variability has contrasting potential impacts on coexistence mechanisms that need to be disentangled.
+Mountain grasslands provide numerous ecosystem services that, to be assessed and predicted, need a fine understanding and characterisation. The potential vulnerability to climate change and the complexity of mechanisms underlying alpine community dynamics require the development of new tools to predict the dynamics of these communities under new conditions. Multiple empirical studies show that individual-level variations have large effects on community responses to changes in external condition changes, but they are often overlooked in modelling approaches. %In addition to these effects, intra-specific variability has contrasting potential impacts on coexistence mechanisms that need to be disentangled.
 % recent literature highlighted the importance of individual variations for community response to external conditions, while the effects of such intraspecific variations on main coexistence mechanisms are not yet disentangled.\\
 
 To answer both the need for a dynamic model of species-rich communities and the integration of individual variations, the model \model was developed. It is designed around two main components: (1) a closed strategy space allowing an efficient representation of high species diversity, and (2) a plastic allocation mechanism integrating trade-offs between active and structural tissues, as well as between shoot and root tissues.
 
-A specific framework have been developed to integrate plastic strategies within a coherent strategic space revolving around established patterns and allocation trade-offs. The model was then analysed at two levels of organisation: a) the individual growth was studied in single pot simulation; b) the community structure and properties were analysed with plot simulations.
+A specific framework have been developed to integrate plastic strategies within a coherent strategic space revolving around established patterns and allocation trade-offs. The model was then analysed at two levels of organisation: (1) the individual growth was studied in single pot simulation; (2) the community structure and properties were analysed with plot simulations.
 
-In a first result part, the plant growth was analysed at the individual scale. Beforehand, individual-level growth parameter values were filtered against published empirical data. This first step highlighted the importance of certain parameters and properties of the plastic responses, depending on the algorithms implemented. The combined effect of the algorithms and species specific parameters were then analysed, showing partial agreement between the growth patterns and the behaviour of the plastic allocation. The effect of the plastic allocation was then further studied along resource gradient and resource variability gradient, showing strong potential effects on the properties of the communities. The potential increases in production and species diversity, and the reduction of the function diversity were explained by the modification of the potential niche of the species. The plasticity also showed asymmetric effects in favour of exploitative species under variable conditions.
+In a first result part, the plant growth was analysed at the individual scale. Beforehand, individual-level growth parameter values were filtered against published empirical data. This first step highlighted the importance of some specific parameters and properties of the plastic responses, but also of the different implemented algorithms. The combined effect of the algorithms and species specific parameters were then analysed, showing partial agreement between the growth patterns and the behaviour of the plastic allocation. The effects of the plastic allocation was then further studied along resource gradient and resource variability gradient, showing strong potential effects on the properties of the communities. The potential increases in production and species diversity, and the reduction of the functional diversity were explained by the modification of the fundamental niche of the species. The plasticity also showed asymmetric effects in favour of exploitative species under variable conditions.
 
-In a second result part, these potential effects were studied at the community-level. Plot simulations for various sites and parameter sets showed no major effects on the community productivity of the plasticity, suggesting compensating mechanisms between abiotic and biotic limitations. However, these simulations demonstrated a great effect of the phenotypic plasticity on the structure of the community and meta-community by affecting the abiotic and biotic filtering processes. They showed a shift from beta to alpha diversity under plastic allocation. These effects were propagated to the variability of the community's identity. The implication of such effects of such changes were then discussed in the context of the cliamte change.
+In a second result part, these potential effects were studied at the community-level. Plot simulations for various sites and parameter sets showed no major effects on the community productivity of the plasticity, suggesting compensating mechanisms between abiotic and biotic limitations. However, these simulations demonstrated a great effect of the phenotypic plasticity on the structure of the community and meta-community by affecting the abiotic and biotic filtering processes. They showed a shift from beta to alpha diversity under plastic allocation. These effects were propagated to the variability of the community's dominant strategy, without noticeable changes of the mean values. The implications of such effects were then discussed in the context of the climate change.
 
 % after a parameter filtering step, the combined effects of allocation rules, species strategy and phenotypic plasticity on individual plants were studied.
 
 %In a second part, the effect of plasticity was then studied at the scale of the community.
 
 
- This work demonstrates the importance of phenotypic plasticity both at the individual scale and its role in community dynamics. While further work is needed to fully capture plasticity mechanisms, the model provides a sound starting point to further explore the role of intra-specific variability in coexistence mechanisms, the resistance and resilience to drought events, or the detection of regime shift in this type of system.
+ This work demonstrates the importance of phenotypic plasticity both at the individual scale and its role in grassland community dynamics. While further work is needed to fully capture plasticity mechanisms, the model provides a sound starting point to further explore the role of the intra-specific variability for coexistence mechanisms and community dynamics in the context of the climate change, with the development of alternative implementation. 
 %\end{fullwidth}
 
 
@@ -293,34 +301,25 @@ In a second result part, these potential effects were studied at the community-l
 \chapter*{Résumé}	
 
 %\begin{fullwidth}
-Mountain grasslands provide numerous ecosystem services that, to be assessed and predicted, need a fine understanding and characterisation to be assessed and predicted. The potential vulnerability to climate change and the complexity of mechanisms underlying alpine community dynamics require the development of new tools to predict the dynamics of these communities under new conditions. Multiple empirical studies show that individual-level variations have large effects on community responses to changes in external condition changes, but they are often overlooked in modelling approaches. %In addition to these effects, intra-specific variability has contrasting potential impacts on coexistence mechanisms that need to be disentangled.
-% recent literature highlighted the importance of individual variations for community response to external conditions, while the effects of such intraspecific variations on main coexistence mechanisms are not yet disentangled.\\
+Les prairies de montagne sont source de nombreux services. Une bonne compréhension et caractérisation de ces services sont nécessaires à leur estimation dans les systèmes actuels, et dans le futur. La complexité des mécanismes en œuvres, ajoutée à la vulnérabilité potentielle au changement climatique, obligent le développement de nouveaux outils pour comprendre la dynamique de ces communautés alpines dans de nouvelles conditions. De nombreuses études empiriques mettent en évidence l'impact important des variations individuelles sur les réponses des communautés à des changements de conditions, mais celles-ci sont souvent ignorées dans les approches de modélisation.
 
-To answer both the need for a dynamic model of species-rich communities and the integration of individual variations, the model \model was developed. It is designed around two main components: (1) a closed strategy space allowing an efficient representation of high species diversity, and (2) a plastic allocation mechanism integrating trade-offs between active and structural tissues, as well as between shoot and root tissues.
+Le modèle \model a été développé pour répondre au besoin d'un modèle dynamique de communautés riches en espèces intégrant de la variabilité individuelle. Il a été conçu autour de deux éléments centraux : (1) un espace de strategies fermé permettant la représentation facile de nombreuse espèces, et (2) d'un mécanisme de plasticité phenotypique construit à partir de compromis d'allocation, à la fois entre tissus actifs et tissues structuraux, mais aussi entre feuilles et racines.
 
-A specific framework have been developed to integrate plastic strategies within a coherent strategic space revolving around established patterns and allocation trade-offs. The model was then analysed at two levels of organisation: a) the individual growth was studied in single pot simulation; b) the community structure and properties were analysed with plot simulations.
+L'intégration de la plasticité phénotype autour de cet espace de stratégies basé sur des compromis d'allocation et des patrons empiriques établis, a permis l'établissement d'un cadre théorique cohérent. Le modèle en résultant a été analysé à deux niveaux d'organisation : (1) la croissance individuelle est étudiée grâce à des simulations de croissance isolée ; (2) la structure et les propriétés de la communauté ont été analysées avec des simulations de parcelle.
 
-In a first result part, the plant growth was analysed at the individual scale. Beforehand, individual-level growth parameter values were filtered against published empirical data. This first step highlighted the importance of certain parameters and properties of the plastic responses, depending on the algorithms implemented. The combined effect of the algorithms and species specific parameters were then analysed, showing partial agreement between the growth patterns and the behaviour of the plastic allocation. The effect of the plastic allocation was then further studied along resource gradient and resource variability gradient, showing strong potential effects on the properties of the communities. The potential increases in production and species diversity, and the reduction of the function diversity were explained by the modification of the potential niche of the species. The plasticity also showed asymmetric effects in favour of exploitative species under variable conditions.
+Dans une première partie résultat, la croissance individuelle a été analysée. La filtration des valeurs de paramètre de croissance individuelle en comparaison avec des données empiriques a précédé cette analyse. Cette première étape a mis en évidence l'importance à la fois de certains paramètres et propriétés des réponses plastiques, mais aussi des algorithmes implémentés. L'effet conjugué des algorithmes d'allocation et des paramètres spécifiques à l'espèce sur la croissance a ensuite été analysé, révélant une superposition partielle entre les schémas d croissance et le comportement de la plasticité phénotypique. L'analyse de l'impact de l'allocation plastique le long de gradient environnementaux, de disponibilité et de variabilité de la disponibilité en ressources, a montré de forts potentiels effets sur les propriétés des communautés. Les augmentations potentielles de la productivité et de la diversité spécifique, ainsi que la réduction potentielle de la diversité fonctionnelles sont expliquées par la modification de la niche fondamentale des espèces. Un effet asymétrique de la plasticité en faveur des espèces exploitatives à également été mis en évidence sous certaines conditions.
 
-In a second result part, these potential effects were studied at the community-level. Plot simulations for various sites and parameter sets showed no major effects on the community productivity of the plasticity, suggesting compensating mechanisms between abiotic and biotic limitations. However, these simulations demonstrated a great effect of the phenotypic plasticity on the structure of the community and meta-community by affecting the abiotic and biotic filtering processes. They showed a shift from beta to alpha diversity under plastic allocation. These effects were propagated to the variability of the community's identity. The implication of such effects of such changes were then discussed in the context of the cliamte change.
+Dans une seconde partie des résultats, j'ai étudié ces effets potentiels à l'échelle de la communauté. Des simulations avec des paramètres climatiques et de croissance variés n'ont pas permis de mettre en évidence un effet substantiel de la plasticité sur la productivité des communautés. Cela suggère des mécanismes de compensation entre les limites biotiques et abiotiques contrôlant le système. Cependant, ces simulations ont montré de larges effets de la plasticité sur la structure des communautés et de la méta-communauté, par modification des filtres biotiques et abiotiques. Cela s'est traduit par un glissement de la diversité bêta vers de la diversité alpha. Ces changements structuraux ont également entraîné un basculement de la variabilité de la stratégie dominante de la communauté. Les implications de ces interprétations dans le contexte du changement climatique sont finalement discutées.
 
-% after a parameter filtering step, the combined effects of allocation rules, species strategy and phenotypic plasticity on individual plants were studied.
-
-%In a second part, the effect of plasticity was then studied at the scale of the community.
+Ce travail démontre l'importance de la plasticité phénotypique à la fois sur la croissance individuelle, mais aussi sur les dynamiques des communautés prairiales. Bien qu'il reste beaucoup de travail à réaliser pour saisir la complexité des mécanisme de plasticité phénotypiques, ce modèle constitue un point de départ solide pour, à l'aide d'implémentations alternatives, explorer plus en détail le rôle des variations intra-spécifiques sur les mécanismes de coexistence et les dynamiques des communautés dans le contexte du changement climatique.
 
 
- This work demonstrates the importance of phenotypic plasticity both at the individual scale and its role in community dynamics. While further work is needed to fully capture plasticity mechanisms, the model provides a sound starting point to further explore the role of intra-specific variability in coexistence mechanisms, the resistance and resilience to drought events, or the detection of regime shift in this type of system.
 
 \newpage
 \chapter*{Aknowledgements}
 \fwnewthought{I love you all, but I love you more Mom. }
 
 \cleardoublepage
-%Mountain grasslands, as many natural or semi-natural systems, provide numerous ecosystem services. Assessing the level of these services is crucial for better management of these systems, and relies on detailed characterisation of the community structure and processes.
-%The rise of functional ecology lead to improvement in the understanding and prediction of community assembly rules, response to driver and link to services. But, because the alpine grasslands are vulnerable to global change, and already experience new conditions, traditional patterns are not sufficient enough to predict future alpine community dynamics. There is an urgent need for now predictive and understanding tools to explore diverse scenarios of climate and mangement changes. Moreover, considering the complexity of the mechanisms driving alpine grasslands dynamics,  mechanistic modelling approaches constitute interesting alternative to this challenge. Mechanisstic agent-based models are great tools to explore diverse scenarios and build an understandting of main mechanisms at stake. Furthermore, recent litterature also highlighted the importance of individual variations for community response to external conditions, while the effects of such intraspecific variations on main coexistence mechanisms are not yet disentangled. New mechanistic approaches should focus on individual functioning, and particularly integrate mechanism of individual adaptation to varying conditions, and study its impact at the scale of the community.
-
-%theoretical work: I apologize to colleagues and mountain avicionados, but this work will be more centred around modelling challenges and phenotypic plasticity than around specific mountain processes and extraordianry species diversity.
-
 
 \tableofcontents
 
