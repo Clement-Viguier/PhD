@@ -94,37 +94,58 @@ More advanced learning processes can be investigated to model the phenotypic pla
 
 \section{Beyond the simple community}
 
-The previous part of the perspectives that emerge form this work focuses on improvements of the implementation of the phenotypic plasticity. But the model already offers a new tool to explore the effects of the phenotypic plasticity on grassland communities that have only been scratched.
+The previous part of the perspectives that can grow from this work focuses on alternative way to model the phenotypic plasticity or extend the current implementation. But the model already offers a novel tool to explore the effects of the phenotypic plasticity on grassland communities dynamics. This aspect has only been scratched and further can easily be done with the current implementation.
 
 \paragraph{The role of the climate}
 
-take advantage of the already present information,
-build a better calibration -> more precise, prediction
+The first look at the community results highlighted the importance of the fluctuations of the climatic variables. The work presented in the last part can be enriched by a finer analysis of the link between these variables and the properties of the communities. Two points in particular can be investigated: the response to the elevation gradient, and the stability of the productivity. The elevation gradient is of particular interest with the studies system, as species response may be contrasted  \parencite{kichenin_contrasting_2013}, and plant interaction may evolve \parencite{choler_facilitation_2001, callaway_positive_2002} along this gradient. This last aspect could be investigated in the context of plastic allocation. Indeed, the plasticity may alter these interactions as the results at the community level suggest. This can be investigated with plot simulations or mixed-pot simulation to assess the direct interaction effects. While no clear productivity effect could be observed, the causes of this absence of change has to be identified. Changes in competitive interactoins may hide potential effects of the plasticity on the productivity. In the context of the climate change that will certainly increase the amplitude of the climatic event \cite{gobiet_21st_2014}, the stability provided by the plasticity in forest ecossytems \parencite{morin_temporal_2014} should also be studied in mountain grasslands.
 
-consider the already implemented feature: frost stress and grazing/cutting.
+During this work, weather history as well as climatic projections have been gathered for multiple sites. This information can be used for the gradient analysis proposed above, but also the exploration of climatic scenarios. The combination of these scenarios \parencite{intergovernmental_panel_on_climate_change_climate_2014} with \model offer a powerful tool. Far from being realistic, the model still offers a way to model community dynamics with more temporal and spatial resolution and range than the transplant experiments deployed in empirical studies \parencite{ishizuka_modeling_2012, wang_asymmetric_2014, grassein_importance_2014, hamann_evidence_2016} to simulate the climate change alone, or in combinason with management scenarios \parencite{deleglise_drought-induced_2015}. In particular it gives a way to model the dynamics of the competitors \parencite{alexander_novel_2015} with linked communities, but also allows to simulate long-term dynamics and explore many scenarios at low costs.
+
+\paragraph{Calibration and testing}
+
+The avaialable data is not limited to weather data, and community composition, and site specific trait measures are available. The combination of the site specific weather data with the community specific data should allow a stronger calibration of the global growth parameters. The difficulty to calibrate species specific parameters persists, but taking advantage of both local data, and world wide databases may solve this problem. In particular the estimation of some species specifc morphological parameters should help defined ranges for the proportion of active tissues, in agreement with composite traits such as SLA \parencite{john_anatomical_2017} and SRL \parencite{roumet_root_2016}. While some of community level data is available for un-grazed plots, most of the mountain grasslands are exposed to natural and managed grazing. Similarly, the frost constitutes a shaping factors of these communities that may be affected by the climate change \parencite{choler_growth_2015}. Therefore, it should be accounted and modelled to fully capture the effect of external drivers shapping mountain grasslands. These two drivers, the frost hazards and the grazing or cutting events are both implemented but should be fully tested to gain realism in the modelled dynamics.
+
+%alexander 2015 - competitors dynamics
+%
+%take advantage of the already present information,
+%build a better calibration -> more precise, prediction
+%frei: migration or not ? (phenotlogy) connected sites. asymmetry is sensitivy (more sentive to hotting) wang2014
+%
+%
+%consider the already implemented feature: frost stress and grazing/cutting.
+%\paragraph{The climate change}
+%
+%precise, calibrated model, closer to real systems to link to ES, with proper landscape dyns.
+%
+%management scenarios and climate scenarios, intreracton \cite{deleglise_drought-induced_2015}
 
 \paragraph{About ecosystem services}
 
-with better calibration, better quantification of measure traits (that were a bit put on the side here) and more specific results (site and weather)
+The suggested work on the calibration and testing of the management would allow a better quantification of the communities properties. In addition to allow the assessment of the ecosystem service for these sites \parencite{bello_towards_2010, lavorel_using_2011}, the model could be used to test alternative management practices to optimize service levels \parencite{goslee_optimizing_2013}. The grazing function is simple (pressure and selectivity parameters) but incorporate selective grazing linked to digestibility linked to the plant tissue density \parencite{gardarin_plant_2014}. This functionality coupled with the fine description of the whole community is a handful tool to test scenarios and evaluate service trade-offs to select the best management pathway \parencite{lafond_reconciling_2015}.
 
-Link the properties together
+Considering multiple services is essential to select optimum management practices to answer broad objectives. Because these service often rely on different properties of the ecosystem \parencite{lavorel_how_2012, lamarque_plant_2014} it is essential to better consider the potential synergies and feedback loops between these properties that were analysed in isolation during this project. Diversity-productivity relationship are often investigated \cite{tilman_diversity_2001, lepik_high_2005}, but diversity-identity \parencite{zuppinger-dingley_selection_2014} should also be investigated.
+%with better calibration, better quantification of measure traits (that were a bit put on the side here) and more specific results (site and weather)
+%
+%Link the properties together
 
 \paragraph{The meta-community dynamics}
 
-Can have a pretty good role: reinforce or mitigate patterns 
-already possible
+The benefit of having the weather data of multiple sites is also to be able to model explicit meta-community dynamics. While the communities composing the meta-community modelled in the previous were linked only by an infinite artificial seedbank, explicit links can be easily modelled. This seed-bank was necessary to establish the community and stabilise its dynamics. But, once the communities established, the invasion can be limited to the communities modelled rather than an the artificial seed-bank. This allows two things: first, the link between the communities can be explicit and parametrised (\textit{e.g.} the volume of seeds exchanged between two communities can depend on the separating distance), secondly, meta-community-dynamics patterns can emerge from the specific community dynamics and these explicit links. This is interesting in the light of the results at the community levels that show a large impact of the plasticity on the community structure, increasing the species distribution overlap. Also, as mentioned, explicit meta-community dynamics can help us understand the migration/adaptation dynamics that can results from the climate change \parencite{morin_comparing_2009}. Also, such link can help us model the different interactions that can arise from climate change, and how migrating species will compete with established adapting species \parencite{alexander_novel_2015}. The plasticity certainly plays a particular role in these processes and may greatly alter the dynamics by promoting local adaptation \parencite{frei_plant_2014, frei_plastic_2014}, especially if there is an asymmetry in the plastic capacity of the species as a function of there altitude of origin \parencite{gugger_lower_2015, nicotra_adaptive_2015}.
+%
+%Can have a pretty good role: reinforce or mitigate patterns 
+%already possible
+%
+%landscape dynamics fate-h, island model
+%
+%invasion and critical transitions
 
-landscape dynamics
 
-invasion and critical transitions
+\paragraph{Wrap-up}
 
-\paragraph{The climate change}
+\textbf{The long list of extensions to implement, calibrations to run and analysis to conduce that has just been discussed may contrast with the circumscribed perimeter of the work presented in this thesis. However, it shows that this model is a first step in the consideration of the sources of intra-specific variability, here namely the phenotypic plasticity, in the dynamics of the complex systems that are the mountain grasslands. This work opens doors for further exploration, in addition to establish clear non trivial effects of the plasticity of the properties and structure of the communities. While further work is needed to fully capture the complexity of plastic responses, it seems to me that the most interesting developments lie in the study of the effects of plasticity on larger-scale dynamics. Modelling these dynamics will be interesting to better identify the underlying processes, thanks to the mechanistic nature of the model, but also to predict future trajectories of these systems and optimise management scenarios.}
 
-precise, calibrated model, closer to real systems to link to ES, with proper landscape dyns.
-
-management scenarios and climate scenarios, intreracton \cite{deleglise_drought-induced_2015}
-
-fantasised view of the model but this exitment makes us work.
+%fantasised view of the model but this exitment makes us work.
 
 %Further reading, thinking and rambling about what's developped in the papers.
 %

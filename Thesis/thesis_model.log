@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  13 JUL 2018 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  14 JUL 2018 12:44
 entering extended mode
 **./thesis_model.tex
 (thesis_model.tex
@@ -1870,7 +1870,7 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.03'
 \openout11 = `thesis_model.glo'.
 
 Package glossaries Info: Writing glossary file thesis_model.glo on input line 2
-41.
+47.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
@@ -1929,31 +1929,31 @@ LaTeX Warning: Label `fig:species_richness' multiply defined.
 ) (3_Synthesis/synthesis.aux) (3_Synthesis/outlook.aux))
 \openout1 = `thesis_model.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 257.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 257.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 263.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 263.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 257.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 263.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pplj.fd"
@@ -1963,7 +1963,7 @@ Package marginnote Info: \pdfoutput not 0 or unimportant and
 (marginnote)             \pdflastxpos or \lastxpos available.
 (marginnote)             Extended position detection mode activated.
 \AtBeginShipoutBox=\box90
-Package hyperref Info: Link coloring OFF on input line 257.
+Package hyperref Info: Link coloring OFF on input line 263.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1973,16 +1973,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count388
 )
-LaTeX Info: Redefining \ref on input line 257.
-LaTeX Info: Redefining \pageref on input line 257.
-LaTeX Info: Redefining \nameref on input line 257.
+LaTeX Info: Redefining \ref on input line 263.
+LaTeX Info: Redefining \pageref on input line 263.
+LaTeX Info: Redefining \nameref on input line 263.
 
 (thesis_model.out) (thesis_model.out)
 \@outlinefile=\write12
 \openout12 = `thesis_model.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 257.
+LaTeX Info: Redefining \selectfont on input line 263.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2053,15 +2053,15 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
 \symgns@font=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/pplj/m/n --> TS1/pplj/bx/n on input line 257.
-Package gensymb Info: Math companion symbols declared on input line 257.
-LaTeX Info: Redefining \degree on input line 257.
-LaTeX Info: Redefining \celsius on input line 257.
+(Font)                  TS1/pplj/m/n --> TS1/pplj/bx/n on input line 263.
+Package gensymb Info: Math companion symbols declared on input line 263.
+LaTeX Info: Redefining \degree on input line 263.
+LaTeX Info: Redefining \celsius on input line 263.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 257.
-LaTeX Info: Redefining \ohm on input line 257.
-Package gensymb Info: Using \textohm for \ohm on input line 257.
-Package gensymb Info: Using \textmu for \micro on input line 257.
+erthousand on input line 263.
+LaTeX Info: Redefining \ohm on input line 263.
+Package gensymb Info: Using \textohm for \ohm on input line 263.
+Package gensymb Info: Using \textmu for \micro on input line 263.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -2073,7 +2073,7 @@ Package biblatex Info: ... file 'thesis_model.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 1):
-(biblatex)                boulangeat_fate-dh_2014
+(biblatex)                de_bello_towards_2011
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2087,7 +2087,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 1):
-(biblatex)                de_bello_towards_2011
+(biblatex)                boulangeat_fate-dh_2014
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2101,21 +2101,14 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                diaz_global_2014
+(biblatex)                lavorel_how_2014
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                freschett_plasticity_2014
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                dewitt_cost_1998
+(biblatex)                adler_coexistence_2007
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2136,14 +2129,28 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                lavorel_how_2014
+(biblatex)                diaz_global_2014
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                adler_coexistence_2007
+(biblatex)                dewitt_cost_1998
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
+(biblatex)                freschett_plasticity_2014
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 3):
+(biblatex)                tjoelker_linking_2015
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2163,13 +2170,6 @@ Package biblatex Warning: The following entry could not be found
 
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 3):
-(biblatex)                tjoelker_linking_2015
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 4):
 (biblatex)                wright_worldwide_2006
 (biblatex)                Please verify the spelling and rerun
@@ -2178,7 +2178,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 6):
-(biblatex)                tilman_density_2014
+(biblatex)                lafond_reconciling_2015
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2189,51 +2189,58 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 6):
+(biblatex)                tilman_density_2014
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
-Package biblatex Info: Reference section=0 on input line 257.
-Package biblatex Info: Reference segment=0 on input line 257.
+Package biblatex Info: Reference section=0 on input line 263.
+Package biblatex Info: Reference segment=0 on input line 263.
 <cover.pdf, id=242, pagebox=cropbox, 597.51233pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf>
-Package pdftex.def Info: cover.pdf  used on input line 261. on input line 261.
+Package pdftex.def Info: cover.pdf  used on input line 267. on input line 267.
 Package pdftex.def Info: Requested size: 355.66556pt x 503.00914pt on input lin
-e 261.
+e 267.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf>
-Package pdftex.def Info: cover.pdf  used on input line 261. on input line 261.
+Package pdftex.def Info: cover.pdf  used on input line 267. on input line 267.
 Package pdftex.def Info: Requested size: 355.66556pt x 503.00914pt on input lin
-e 261.
+e 267.
 <cover.pdf, id=245, page=1, pagebox=cropbox, 597.51233pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 261. on input lin
-e 261.
+Package pdftex.def Info: cover.pdf , page1 used on input line 267. on input lin
+e 267.
 Package pdftex.def Info: Requested size: 597.51086pt x 845.04504pt on input lin
-e 261.
+e 267.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 261. on input lin
-e 261.
+Package pdftex.def Info: cover.pdf , page1 used on input line 267. on input lin
+e 267.
 Package pdftex.def Info: Requested size: 597.53821pt x 845.08372pt on input lin
-e 261.
+e 267.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 261. on input lin
-e 261.
+Package pdftex.def Info: cover.pdf , page1 used on input line 267. on input lin
+e 267.
 Package pdftex.def Info: Requested size: 597.53821pt x 845.08372pt on input lin
-e 261.
+e 267.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 261. on input lin
-e 261.
+Package pdftex.def Info: cover.pdf , page1 used on input line 267. on input lin
+e 267.
 Package pdftex.def Info: Requested size: 597.53821pt x 845.08372pt on input lin
-e 261.
+e 267.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 261. on input lin
-e 261.
+Package pdftex.def Info: cover.pdf , page1 used on input line 267. on input lin
+e 267.
 Package pdftex.def Info: Requested size: 597.53821pt x 845.08372pt on input lin
-e 261.
+e 267.
  [1
 
 \openout10 = `thesis_model.ist'.
@@ -2242,47 +2249,27 @@ e 261.
 e{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.271 \newpage
-               [2{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 276.
+l.277 \newpage
+               [2{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1
+
+]
+LaTeX Font Info:    Try loading font information for T1+phv on input line 286.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 276.
+(Font)              scaled to size 8.99994pt on input line 286.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 276.
+(Font)              scaled to size 18.66588pt on input line 286.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 18.66588pt on input line 276.
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 282.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\bera\t1fvm.fd"
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 282.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 8.50006pt on input line 282.
- [1
-
-]
-Overfull \hbox (0.46992pt too wide) in paragraph at lines 308--309
-[]\T1/pplj/m/n/10 L'intégration de la plas-tic-ité phéno-type au-tour de cet es
--pace de straté-gies basé sur des com-pro-mis d'allocation
- []
-
-
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
- [2]
-[3] [4] (thesis_model.toc
+(Font)              scaled to size 18.66588pt on input line 286.
+ [2] (thesis_model.toc
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 5.
 LaTeX Font Info:    Try loading font information for OT1+pplx on input line 7.
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pplx.fd"
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
@@ -2310,11 +2297,16 @@ LaTeX Font Info:    Try loading font information for TS1+pplj on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pplj.fd"
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [5
+) [3
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
 (Font)              Font shape `T1/pplj/b/it' tried instead on input line 279.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 279.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\bera\t1fvm.fd"
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
 LaTeX Font Info:    Font shape `T1/fvm/bx/it' in size <10> not available
 (Font)              Font shape `T1/fvm/b/sl' tried instead on input line 279.
 LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
@@ -2323,22 +2315,22 @@ LaTeX Font Info:    Font shape `T1/fvm/b/sl' will be
 \tf@toc=\write13
 \openout13 = `thesis_model.toc'.
 
- [6]
+ [4]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 21.59985pt on input line 331.
+(Font)              scaled to size 21.59985pt on input line 298.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 21.59985pt on input line 331.
- [7
+(Font)              scaled to size 21.59985pt on input line 298.
+ [5
 
-]
-[8]
+] [6]
 \blx@maxsegment@1=\count395
 \blx@sectionciteorder@1=\count396
-Package biblatex Info: Reference section=1 on input line 332.
-Package biblatex Info: Setting label 'refsection:1' on input line 332.
+Package biblatex Info: Reference section=1 on input line 299.
+Package biblatex Info: Setting label 'refsection:1' on input line 299.
 \openout2 = `./0_Objectives/Objectives.aux'.
 
- (0_Objectives/Objectives.tex
+
+(0_Objectives/Objectives.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 6.
@@ -2370,7 +2362,7 @@ ively
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-<./1_Introduction/graphics/services.pdf, id=404, pagebox=cropbox, 332.89871pt x
+<./1_Introduction/graphics/services.pdf, id=393, pagebox=cropbox, 332.89871pt x
  277.48468pt>
 File: ./1_Introduction/graphics/services.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/services.pdf>
@@ -2399,7 +2391,7 @@ LaTeX Warning: Marginpar on page 3 moved.
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-<./1_Introduction/graphics/drivers_properties_services_m.pdf, id=465, pagebox=c
+<./1_Introduction/graphics/drivers_properties_services_m.pdf, id=454, pagebox=c
 ropbox, 133.35622pt x 82.01541pt>
 File: ./1_Introduction/graphics/drivers_properties_services_m.pdf Graphic file 
 (type pdf)
@@ -2412,7 +2404,7 @@ Package pdftex.def Info: Requested size: 126.3336pt x 77.69643pt on input line
 
 LaTeX Warning: Marginpar on page 4 moved.
 
-<./1_Introduction/graphics/ipcc_scenarios.png, id=508, 722.7pt x 336.25626pt>
+<./1_Introduction/graphics/ipcc_scenarios.png, id=496, 722.7pt x 336.25626pt>
 File: ./1_Introduction/graphics/ipcc_scenarios.png Graphic file (type png)
 <use ./1_Introduction/graphics/ipcc_scenarios.png>
 Package pdftex.def Info: ./1_Introduction/graphics/ipcc_scenarios.png  used on 
@@ -2450,7 +2442,7 @@ LaTeX Warning: Marginpar on page 5 moved.
 LaTeX Warning: Marginpar on page 5 moved.
 
 [5]
-<./1_Introduction/graphics/drivers_to_services.pdf, id=557, pagebox=cropbox, 47
+<./1_Introduction/graphics/drivers_to_services.pdf, id=546, pagebox=cropbox, 47
 7.20082pt x 214.8025pt>
 File: ./1_Introduction/graphics/drivers_to_services.pdf Graphic file (type pdf)
 
@@ -2510,7 +2502,11 @@ on-men-tal drivers. These
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
  [9]
-<./1_Introduction/graphics/alpine_distribution.jpeg, id=672, 1097.09875pt x 667
+LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10> not available
+(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 294.
+LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
+(Font)              scaled to size 8.50006pt on input line 294.
+<./1_Introduction/graphics/alpine_distribution.jpeg, id=660, 1097.09875pt x 667
 .49374pt>
 File: ./1_Introduction/graphics/alpine_distribution.jpeg Graphic file (type jpg
 )
@@ -2537,10 +2533,10 @@ Underfull \hbox (badness 2302) in paragraph at lines 300--300
 ) [10] [11 <./1_Introduction/graphics/alpine_distribution.jpeg>] [12
 
 ] [13]
-Package biblatex Info: Reference section=0 on input line 339.
+Package biblatex Info: Reference section=0 on input line 306.
 
 [14]
-Overfull \hbox (3.71397pt too wide) in paragraph at lines 342--342
+Overfull \hbox (3.71397pt too wide) in paragraph at lines 309--309
 []\T1/phv/m/sc/24 Background: com-mu-nity dy-nam-ics, traits and 
  []
 
@@ -2549,8 +2545,8 @@ Overfull \hbox (3.71397pt too wide) in paragraph at lines 342--342
 ] [16]
 \blx@maxsegment@2=\count397
 \blx@sectionciteorder@2=\count398
-Package biblatex Info: Reference section=2 on input line 343.
-Package biblatex Info: Setting label 'refsection:2' on input line 343.
+Package biblatex Info: Reference section=2 on input line 310.
+Package biblatex Info: Setting label 'refsection:2' on input line 310.
 \openout2 = `./1_Introduction/Introduction.aux'.
 
  (1_Introduction/Introduction.tex
@@ -2570,7 +2566,7 @@ LaTeX Warning: Marginpar on page 18 moved.
 
 LaTeX Warning: Marginpar on page 18 moved.
 
-<./1_Introduction/graphics/niches.pdf, id=721, pagebox=cropbox, 133.9123pt x 10
+<./1_Introduction/graphics/niches.pdf, id=711, pagebox=cropbox, 133.9123pt x 10
 1.61263pt>
 File: ./1_Introduction/graphics/niches.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/niches.pdf>
@@ -2619,7 +2615,7 @@ LaTeX Warning: Marginpar on page 20 moved.
 
 LaTeX Warning: Marginpar on page 20 moved.
 
-<./1_Introduction/graphics/flowering_m.pdf, id=792, pagebox=cropbox, 133.5118pt
+<./1_Introduction/graphics/flowering_m.pdf, id=782, pagebox=cropbox, 133.5118pt
  x 220.4777pt>
 File: ./1_Introduction/graphics/flowering_m.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/flowering_m.pdf>
@@ -2649,7 +2645,7 @@ LaTeX Warning: Marginpar on page 20 moved.
 Underfull \vbox (badness 1881) has occurred while \output is active []
 
  [20]
-<./1_Introduction/graphics/succession.pdf, id=808, pagebox=cropbox, 243.842pt x
+<./1_Introduction/graphics/succession.pdf, id=798, pagebox=cropbox, 243.842pt x
  183.92715pt>
 File: ./1_Introduction/graphics/succession.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/succession.pdf>
@@ -2754,7 +2750,7 @@ Chapter 2.
 
 LaTeX Warning: Marginpar on page 23 moved.
 
-<./2_PP/Figures/Concepts/species_to_fitness.pdf, id=870, pagebox=cropbox, 332.8
+<./2_PP/Figures/Concepts/species_to_fitness.pdf, id=859, pagebox=cropbox, 332.8
 9871pt x 75.05821pt>
 File: ./2_PP/Figures/Concepts/species_to_fitness.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Concepts/species_to_fitness.pdf>
@@ -2785,7 +2781,7 @@ LaTeX Warning: Marginpar on page 24 moved.
 
 LaTeX Warning: Marginpar on page 24 moved.
 
-<./1_Introduction/graphics/map_niinemets.png, id=916, 503.8825pt x 166.6225pt>
+<./1_Introduction/graphics/map_niinemets.png, id=906, 503.8825pt x 166.6225pt>
 File: ./1_Introduction/graphics/map_niinemets.png Graphic file (type png)
 <use ./1_Introduction/graphics/map_niinemets.png>
 Package pdftex.def Info: ./1_Introduction/graphics/map_niinemets.png  used on i
@@ -2811,7 +2807,7 @@ Underfull \hbox (badness 1194) in paragraph at lines 288--288
 
 LaTeX Warning: Marginpar on page 26 moved.
 
-<./Figures/LES1_m.pdf, id=956, pagebox=cropbox, 131.68095pt x 104.84268pt>
+<./Figures/LES1_m.pdf, id=946, pagebox=cropbox, 131.68095pt x 104.84268pt>
 File: ./Figures/LES1_m.pdf Graphic file (type pdf)
 <use ./Figures/LES1_m.pdf>
 Package pdftex.def Info: ./Figures/LES1_m.pdf  used on input line 349. on input
@@ -2838,7 +2834,7 @@ LaTeX Warning: Marginpar on page 26 moved.
 
 LaTeX Warning: Marginpar on page 27 moved.
 
-<./Figures/trade_off_emergence_m.pdf, id=1028, pagebox=cropbox, 107.32095pt x 1
+<./Figures/trade_off_emergence_m.pdf, id=1018, pagebox=cropbox, 107.32095pt x 1
 06.65848pt>
 File: ./Figures/trade_off_emergence_m.pdf Graphic file (type pdf)
 <use ./Figures/trade_off_emergence_m.pdf>
@@ -2873,7 +2869,7 @@ LaTeX Warning: Marginpar on page 27 moved.
 
 LaTeX Warning: Marginpar on page 27 moved.
 
-<./Figures/Grime_triangle.pdf, id=1032, pagebox=cropbox, 136.00812pt x 116.9368
+<./Figures/Grime_triangle.pdf, id=1022, pagebox=cropbox, 136.00812pt x 116.9368
 7pt>
 File: ./Figures/Grime_triangle.pdf Graphic file (type pdf)
 <use ./Figures/Grime_triangle.pdf>
@@ -2908,7 +2904,7 @@ LaTeX Warning: Marginpar on page 28 moved.
 LaTeX Warning: Reference `fig:trade-off' on page 28 undefined on input line 409
 .
 
-<./1_Introduction/graphics/CSR_triangle_poa.pdf, id=1102, pagebox=cropbox, 166.
+<./1_Introduction/graphics/CSR_triangle_poa.pdf, id=1091, pagebox=cropbox, 166.
 44986pt x 233.82858pt>
 File: ./1_Introduction/graphics/CSR_triangle_poa.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/CSR_triangle_poa.pdf>
@@ -3040,7 +3036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--425
 LaTeX Warning: Marginpar on page 28 moved.
 
 [28] [29 <./1_Introduction/graphics/CSR_triangle_poa.pdf>]
-<./Figures/insurance_m.pdf, id=1260, pagebox=cropbox, 131.94394pt x 83.0877pt>
+<./Figures/insurance_m.pdf, id=1252, pagebox=cropbox, 131.94394pt x 83.0877pt>
 File: ./Figures/insurance_m.pdf Graphic file (type pdf)
 <use ./Figures/insurance_m.pdf>
 Package pdftex.def Info: ./Figures/insurance_m.pdf  used on input line 465. on 
@@ -3116,7 +3112,7 @@ Overfull \hbox (3.3779pt too wide) in paragraph at lines 773--773
 ecific vari-
  []
 
-<./1_Introduction/graphics/sources.pdf, id=1451, pagebox=cropbox, 134.0739pt x 
+<./1_Introduction/graphics/sources.pdf, id=1443, pagebox=cropbox, 134.0739pt x 
 102.25603pt>
 File: ./1_Introduction/graphics/sources.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/sources.pdf>
@@ -3134,7 +3130,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 804--806
 
  []
 
-<./1_Introduction/graphics/molecular_basis.pdf, id=1456, pagebox=cropbox, 563.1
+<./1_Introduction/graphics/molecular_basis.pdf, id=1448, pagebox=cropbox, 563.1
 3083pt x 375.74478pt>
 File: ./1_Introduction/graphics/molecular_basis.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/molecular_basis.pdf>
@@ -3160,7 +3156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 840--841
 
  []
 
-<./2_PP/Figures/Concepts/genotype_to_phenotype.pdf, id=1537, pagebox=cropbox, 3
+<./2_PP/Figures/Concepts/genotype_to_phenotype.pdf, id=1528, pagebox=cropbox, 3
 33.15868pt x 166.68575pt>
 File: ./2_PP/Figures/Concepts/genotype_to_phenotype.pdf Graphic file (type pdf)
 
@@ -3184,7 +3180,7 @@ LaTeX Warning: Reference `box:molecular' on page 41 undefined on input line 853
 .
 
 [41 <./2_PP/Figures/Concepts/genotype_to_phenotype.pdf>]
-<./Figures/active_plasticity_m.pdf, id=1572, pagebox=cropbox, 142.74028pt x 194
+<./Figures/active_plasticity_m.pdf, id=1564, pagebox=cropbox, 142.74028pt x 194
 .5398pt>
 File: ./Figures/active_plasticity_m.pdf Graphic file (type pdf)
 <use ./Figures/active_plasticity_m.pdf>
@@ -3218,7 +3214,7 @@ LaTeX Warning: Marginpar on page 42 moved.
 
 LaTeX Warning: Marginpar on page 42 moved.
 
-<./1_Introduction/graphics/plastic_function.pdf, id=1580, pagebox=cropbox, 483.
+<./1_Introduction/graphics/plastic_function.pdf, id=1572, pagebox=cropbox, 483.
 01756pt x 236.59392pt>
 File: ./1_Introduction/graphics/plastic_function.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/plastic_function.pdf>
@@ -3284,7 +3280,7 @@ LaTeX Warning: Reference `fig:effect_diversity' on page 47 undefined on input l
 ine 1043.
 
 [47]
-<./1_Introduction/graphics/filtering.pdf, id=1749, pagebox=cropbox, 327.65211pt
+<./1_Introduction/graphics/filtering.pdf, id=1741, pagebox=cropbox, 327.65211pt
  x 133.20364pt>
 File: ./1_Introduction/graphics/filtering.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/filtering.pdf>
@@ -3307,7 +3303,7 @@ LaTeX Warning: Marginpar on page 49 moved.
 
 LaTeX Warning: Marginpar on page 49 moved.
 
-<./1_Introduction/graphics/identity_shift.pdf, id=1859, pagebox=cropbox, 332.89
+<./1_Introduction/graphics/identity_shift.pdf, id=1851, pagebox=cropbox, 332.89
 871pt x 249.7099pt>
 File: ./1_Introduction/graphics/identity_shift.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/identity_shift.pdf>
@@ -3335,7 +3331,7 @@ Underfull \hbox (badness 1478) in paragraph at lines 1108--1108
 \T1/pplj/m/n/8 mod-u-late community-identity re-
  []
 
-<./1_Introduction/graphics/effect_plasticity.pdf, id=1863, pagebox=cropbox, 310
+<./1_Introduction/graphics/effect_plasticity.pdf, id=1855, pagebox=cropbox, 310
 .04735pt x 277.95644pt>
 File: ./1_Introduction/graphics/effect_plasticity.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/effect_plasticity.pdf>
@@ -3357,16 +3353,16 @@ Underfull \hbox (badness 2726) in paragraph at lines 1125--1125
 hics/effect_plasticity.pdf>] [51
 
 ] [52] [53] [54]
-Overfull \hbox (5.62239pt too wide) in paragraph at lines 349--349
+Overfull \hbox (5.62239pt too wide) in paragraph at lines 316--316
 [][]\T1/pplj/m/n/10 Tilman, G. David (1984). ``Plant Dom-i-nance Along an Ex-pe
 r-i-men-tal Nu-tri-ent Gra-di-ent''. en. \T1/pplj/m/it/10 Ecol-ogy \T1/pplj/m/n
 /10 65.5, pp. 1445
  []
 
 [55]
-Package biblatex Info: Reference section=0 on input line 351.
+Package biblatex Info: Reference section=0 on input line 318.
  [56]
-Overfull \hbox (9.02829pt too wide) in paragraph at lines 355--355
+Overfull \hbox (9.02829pt too wide) in paragraph at lines 322--322
 \T1/phv/m/sc/24 Grass, a generic frame-work in-te-grat-ing phe- 
  []
 
@@ -3375,8 +3371,8 @@ Overfull \hbox (9.02829pt too wide) in paragraph at lines 355--355
 ] [58]
 \blx@maxsegment@3=\count399
 \blx@sectionciteorder@3=\count400
-Package biblatex Info: Reference section=3 on input line 357.
-Package biblatex Info: Setting label 'refsection:3' on input line 357.
+Package biblatex Info: Reference section=3 on input line 324.
+Package biblatex Info: Setting label 'refsection:3' on input line 324.
 \openout2 = `./2_PP/Generic_model.aux'.
 
  (2_PP/Generic_model.tex
@@ -3590,7 +3586,7 @@ n of the model (\T1/fvm/m/n/10 MountGrass2.0\T1/pplj/m/n/10 ),
  []
 
 [71]
-<./1_Introduction/graphics/model_cycles.pdf, id=2175, pagebox=cropbox, 332.8976
+<./1_Introduction/graphics/model_cycles.pdf, id=2167, pagebox=cropbox, 332.8976
 9pt x 153.01767pt>
 File: ./1_Introduction/graphics/model_cycles.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/model_cycles.pdf>
@@ -3615,7 +3611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-<./Figures/plant_geometry_m.pdf, id=2213, pagebox=cropbox, 179.88606pt x 186.38
+<./Figures/plant_geometry_m.pdf, id=2205, pagebox=cropbox, 179.88606pt x 186.38
 934pt>
 File: ./Figures/plant_geometry_m.pdf Graphic file (type pdf)
 <use ./Figures/plant_geometry_m.pdf>
@@ -3646,7 +3642,7 @@ LaTeX Warning: Marginpar on page 74 moved.
 
 LaTeX Warning: Marginpar on page 74 moved.
 
-<./Figures/soil_section_m.pdf, id=2247, pagebox=cropbox, 191.70119pt x 138.5265
+<./Figures/soil_section_m.pdf, id=2239, pagebox=cropbox, 191.70119pt x 138.5265
 4pt>
 File: ./Figures/soil_section_m.pdf Graphic file (type pdf)
 <use ./Figures/soil_section_m.pdf>
@@ -3658,7 +3654,7 @@ Package pdftex.def Info: Requested size: 126.33304pt x 91.29039pt on input line
 LaTeX Warning: Marginpar on page 74 moved.
 
 [74 <./Figures/soil_section_m.pdf>]
-<./Figures/season_cycle_m.pdf, id=2280, pagebox=cropbox, 134.2074pt x 114.25987
+<./Figures/season_cycle_m.pdf, id=2272, pagebox=cropbox, 134.2074pt x 114.25987
 pt>
 File: ./Figures/season_cycle_m.pdf Graphic file (type pdf)
 <use ./Figures/season_cycle_m.pdf>
@@ -3680,7 +3676,7 @@ Overfull \hbox (6.20699pt too wide) in paragraph at lines 122--123
 e meta-population
  []
 
-<./Figures/daily_cycle_t.pdf, id=2281, pagebox=cropbox, 209.52779pt x 158.76013
+<./Figures/daily_cycle_t.pdf, id=2273, pagebox=cropbox, 209.52779pt x 158.76013
 pt>
 File: ./Figures/daily_cycle_t.pdf Graphic file (type pdf)
 <use ./Figures/daily_cycle_t.pdf>
@@ -3699,7 +3695,7 @@ LaTeX Warning: Marginpar on page 75 moved.
 
 LaTeX Warning: Marginpar on page 75 moved.
 
-<./Figures/emergence.pdf, id=2282, pagebox=cropbox, 122.76465pt x 108.1079pt>
+<./Figures/emergence.pdf, id=2274, pagebox=cropbox, 122.76465pt x 108.1079pt>
 File: ./Figures/emergence.pdf Graphic file (type pdf)
 <use ./Figures/emergence.pdf>
 Package pdftex.def Info: ./Figures/emergence.pdf  used on input line 153. on in
@@ -3720,7 +3716,7 @@ LaTeX Warning: Marginpar on page 76 moved.
 
 LaTeX Warning: Marginpar on page 76 moved.
 
-<./Figures/fitness.pdf, id=2366, pagebox=cropbox, 128.88852pt x 104.72124pt>
+<./Figures/fitness.pdf, id=2357, pagebox=cropbox, 128.88852pt x 104.72124pt>
 File: ./Figures/fitness.pdf Graphic file (type pdf)
 <use ./Figures/fitness.pdf>
 Package pdftex.def Info: ./Figures/fitness.pdf  used on input line 161. on inpu
@@ -3733,7 +3729,7 @@ LaTeX Warning: Marginpar on page 76 moved.
 
 LaTeX Warning: Marginpar on page 76 moved.
 
-<./Figures/memory2phenotype_t.pdf, id=2368, pagebox=cropbox, 315.88112pt x 72.0
+<./Figures/memory2phenotype_t.pdf, id=2359, pagebox=cropbox, 315.88112pt x 72.0
 9555pt>
 File: ./Figures/memory2phenotype_t.pdf Graphic file (type pdf)
 <use ./Figures/memory2phenotype_t.pdf>
@@ -3849,7 +3845,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
-<./Figures/allocation_path_t.pdf, id=2504, pagebox=cropbox, 333.06232pt x 119.3
+<./Figures/allocation_path_t.pdf, id=2495, pagebox=cropbox, 333.06232pt x 119.3
 1577pt>
 File: ./Figures/allocation_path_t.pdf Graphic file (type pdf)
 <use ./Figures/allocation_path_t.pdf>
@@ -3872,7 +3868,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 474--474
 $[]$\T1/pplj/m/n/8 either by shared pa-ram-e-ters of
  []
 
-<./Figures/strategy_space_algo.pdf, id=2540, pagebox=cropbox, 722.7pt x 289.08p
+<./Figures/strategy_space_algo.pdf, id=2531, pagebox=cropbox, 722.7pt x 289.08p
 t>
 File: ./Figures/strategy_space_algo.pdf Graphic file (type pdf)
 <use ./Figures/strategy_space_algo.pdf>
@@ -3906,7 +3902,7 @@ LaTeX Warning: Marginpar on page 83 moved.
 
 LaTeX Warning: Marginpar on page 84 moved.
 
-<./Figures/phenotype_ranking_t.pdf, id=2550, pagebox=cropbox, 330.12834pt x 199
+<./Figures/phenotype_ranking_t.pdf, id=2542, pagebox=cropbox, 330.12834pt x 199
 .26044pt>
 File: ./Figures/phenotype_ranking_t.pdf Graphic file (type pdf)
 <use ./Figures/phenotype_ranking_t.pdf>
@@ -4009,14 +4005,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--669
 [87])) [88] [89
 
 ] [90]
-Package biblatex Info: Reference section=0 on input line 367.
+Package biblatex Info: Reference section=0 on input line 334.
  [91] [92
 
 ] [93] [94]
 \blx@maxsegment@4=\count401
 \blx@sectionciteorder@4=\count402
-Package biblatex Info: Reference section=4 on input line 373.
-Package biblatex Info: Setting label 'refsection:4' on input line 373.
+Package biblatex Info: Reference section=4 on input line 340.
+Package biblatex Info: Setting label 'refsection:4' on input line 340.
 \openout2 = `./2_PP/Individual_level.aux'.
 
  (2_PP/Individual_level.tex
@@ -4057,7 +4053,7 @@ Underfull \hbox (badness 5460) in paragraph at lines 89--89
 \T1/pplj/m/n/8 Table 1.2: Ex-treme val-ues of
  []
 
-<./2_PP/Figures/Calibration/weight_full_sim.png, id=2669, 1003.75pt x 597.23125
+<./2_PP/Figures/Calibration/weight_full_sim.png, id=2661, 1003.75pt x 597.23125
 pt>
 File: ./2_PP/Figures/Calibration/weight_full_sim.png Graphic file (type png)
 <use ./2_PP/Figures/Calibration/weight_full_sim.png>
@@ -4079,8 +4075,8 @@ LaTeX Warning: Marginpar on page 98 moved.
 
 (../Resources/Calibration/acc_rate_all.tex) [98 <./2_PP/Figures/Calibration/wei
 ght_full_sim.png (PNG copy)>]
-<./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf, id=269
-5, pagebox=cropbox, 742.05931pt x 732.17743pt>
+<./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf, id=268
+7, pagebox=cropbox, 742.05931pt x 732.17743pt>
 File: ./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf Gr
 aphic file (type pdf)
 <use ./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf>
@@ -4098,7 +4094,7 @@ LaTeX Warning: Marginpar on page 99 moved.
 
 [99] [100 <./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.p
 df>]
-<./2_PP/Figures/Calibration/importance.pdf, id=2800, pagebox=cropbox, 129.818pt
+<./2_PP/Figures/Calibration/importance.pdf, id=2791, pagebox=cropbox, 129.818pt
  x 238.8925pt>
 File: ./2_PP/Figures/Calibration/importance.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Calibration/importance.pdf>
@@ -4129,7 +4125,7 @@ Underfull \hbox (badness 3449) in paragraph at lines 142--142
 
 LaTeX Warning: Marginpar on page 101 moved.
 
-<./2_PP/Figures/Calibration/PCA_none.png, id=2801, 803.0pt x 775.89874pt>
+<./2_PP/Figures/Calibration/PCA_none.png, id=2792, 803.0pt x 775.89874pt>
 File: ./2_PP/Figures/Calibration/PCA_none.png Graphic file (type png)
 <use ./2_PP/Figures/Calibration/PCA_none.png>
 Package pdftex.def Info: ./2_PP/Figures/Calibration/PCA_none.png  used on input
@@ -4169,7 +4165,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
 LaTeX Warning: Marginpar on page 101 moved.
 
-<./2_PP/Figures/Calibration/par_effect_none_BM.png, id=2804, 803.0pt x 626.34pt
+<./2_PP/Figures/Calibration/par_effect_none_BM.png, id=2795, 803.0pt x 626.34pt
 >
 File: ./2_PP/Figures/Calibration/par_effect_none_BM.png Graphic file (type png)
 
@@ -4183,7 +4179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
-<./2_PP/Figures/Calibration/par_effect_none_RSR.png, id=2806, 803.0pt x 613.291
+<./2_PP/Figures/Calibration/par_effect_none_RSR.png, id=2797, 803.0pt x 613.291
 24pt>
 File: ./2_PP/Figures/Calibration/par_effect_none_RSR.png Graphic file (type png
 )
@@ -4203,7 +4199,7 @@ A_none.png (PNG copy)>] [102 <./2_PP/Figures/Calibration/par_effect_none_BM.png
 
 LaTeX Warning: Marginpar on page 103 moved.
 
-<./2_PP/Figures/Calibration/RSR_full_sim_f-e.png, id=2921, 1003.75pt x 597.2312
+<./2_PP/Figures/Calibration/RSR_full_sim_f-e.png, id=2913, 1003.75pt x 597.2312
 5pt>
 File: ./2_PP/Figures/Calibration/RSR_full_sim_f-e.png Graphic file (type png)
 <use ./2_PP/Figures/Calibration/RSR_full_sim_f-e.png>
@@ -4255,7 +4251,7 @@ LaTeX Warning: Marginpar on page 107 moved.
 
 LaTeX Warning: Marginpar on page 107 moved.
 
-<./2_PP/Figures/Individual/allocation_rules.pdf, id=2966, pagebox=cropbox, 406.
+<./2_PP/Figures/Individual/allocation_rules.pdf, id=2957, pagebox=cropbox, 406.
 85301pt x 300.12125pt>
 File: ./2_PP/Figures/Individual/allocation_rules.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/allocation_rules.pdf>
@@ -4285,7 +4281,7 @@ ng co-ef-fi-cient pre-established
  []
 
 [107] [108 <./2_PP/Figures/Individual/allocation_rules.pdf>]
-<./2_PP/Figures/Individual/memory_effect.png, id=3011, 803.0pt x 804.00375pt>
+<./2_PP/Figures/Individual/memory_effect.png, id=3003, 803.0pt x 804.00375pt>
 File: ./2_PP/Figures/Individual/memory_effect.png Graphic file (type png)
 <use ./2_PP/Figures/Individual/memory_effect.png>
 Package pdftex.def Info: ./2_PP/Figures/Individual/memory_effect.png  used on i
@@ -4301,7 +4297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--322
 LaTeX Warning: Marginpar on page 109 moved.
 
 [109 <./2_PP/Figures/Individual/memory_effect.png (PNG copy)>]
-<./2_PP/Figures/Individual/w_ini_p_as_r.pdf, id=3019, pagebox=cropbox, 355.3275
+<./2_PP/Figures/Individual/w_ini_p_as_r.pdf, id=3011, pagebox=cropbox, 355.3275
 pt x 226.8475pt>
 File: ./2_PP/Figures/Individual/w_ini_p_as_r.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/w_ini_p_as_r.pdf>
@@ -4319,7 +4315,7 @@ Underfull \hbox (badness 1515) in paragraph at lines 333--333
 \T1/pplj/m/n/8 ac-tive tis-sues in roots. \T1/pplj/m/it/8 Plastic-
  []
 
-<./2_PP/Figures/Individual/l_ini_p_as_r.pdf, id=3020, pagebox=cropbox, 355.3275
+<./2_PP/Figures/Individual/l_ini_p_as_r.pdf, id=3012, pagebox=cropbox, 355.3275
 pt x 226.8475pt>
 File: ./2_PP/Figures/Individual/l_ini_p_as_r.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/l_ini_p_as_r.pdf>
@@ -4339,7 +4335,7 @@ Underfull \hbox (badness 1194) in paragraph at lines 339--339
 
 [110 <./2_PP/Figures/Individual/w_ini_p_as_r.pdf> <./2_PP/Figures/Individual/l_
 ini_p_as_r.pdf>]
-<./2_PP/Figures/Individual/par_v_2D_points.png, id=3043, 803.0pt x 791.95876pt>
+<./2_PP/Figures/Individual/par_v_2D_points.png, id=3035, 803.0pt x 791.95876pt>
 
 File: ./2_PP/Figures/Individual/par_v_2D_points.png Graphic file (type png)
 <use ./2_PP/Figures/Individual/par_v_2D_points.png>
@@ -4418,7 +4414,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Marginpar on page 118 moved.
 
-<./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf, id=3123, pagebox=cropbox, 532.
+<./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf, id=3114, pagebox=cropbox, 532.
 99126pt x 426.59375pt>
 File: ./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf>
@@ -4435,7 +4431,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
 LaTeX Warning: Marginpar on page 119 moved.
 
-<./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf, id=3142, pagebox=cropbox,
+<./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf, id=3133, pagebox=cropbox,
  532.99126pt x 615.29875pt>
 File: ./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf Graphic file (type pd
 f)
@@ -4452,7 +4448,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--470
 
 LaTeX Warning: Marginpar on page 119 moved.
 
-<./2_PP/Figures/Landscape/plot_BM_allocation.pdf, id=3144, pagebox=cropbox, 532
+<./2_PP/Figures/Landscape/plot_BM_allocation.pdf, id=3135, pagebox=cropbox, 532
 .99126pt x 255.95625pt>
 File: ./2_PP/Figures/Landscape/plot_BM_allocation.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/plot_BM_allocation.pdf>
@@ -4465,7 +4461,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--483
 
  []
 
-<./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf, id=3146, pagebox=cropbox, 
+<./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf, id=3137, pagebox=cropbox, 
 710.655pt x 341.275pt>
 File: ./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf Graphic file (type pdf
 )
@@ -4482,7 +4478,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 488--490
 
 LaTeX Warning: Marginpar on page 119 moved.
 
-<./2_PP/Figures/Landscape/plot_eveness.pdf, id=3147, pagebox=cropbox, 710.655pt
+<./2_PP/Figures/Landscape/plot_eveness.pdf, id=3138, pagebox=cropbox, 710.655pt
  x 341.275pt>
 File: ./2_PP/Figures/Landscape/plot_eveness.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/plot_eveness.pdf>
@@ -4500,7 +4496,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 499--499
 \T1/pplj/m/n/8 Figure 2.5: Num-ber of species
  []
 
-<./2_PP/Figures/Landscape/plot_fdiv.pdf, id=3148, pagebox=cropbox, 710.655pt x 
+<./2_PP/Figures/Landscape/plot_fdiv.pdf, id=3139, pagebox=cropbox, 710.655pt x 
 341.275pt>
 File: ./2_PP/Figures/Landscape/plot_fdiv.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/plot_fdiv.pdf>
@@ -4528,7 +4524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--514
 
 LaTeX Warning: Marginpar on page 122 moved.
 
-<./2_PP/Figures/Landscape/ld_space_ex.pdf, id=3213, pagebox=cropbox, 208.5672pt
+<./2_PP/Figures/Landscape/ld_space_ex.pdf, id=3205, pagebox=cropbox, 208.5672pt
  x 212.76689pt>
 File: ./2_PP/Figures/Landscape/ld_space_ex.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/ld_space_ex.pdf>
@@ -4606,7 +4602,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/pplj/m/n/8 in roots, PAS: pro-por-tion of
  []
 
-<./2_PP/Figures/Landscape/ld_axis.pdf, id=3214, pagebox=cropbox, 127.17914pt x 
+<./2_PP/Figures/Landscape/ld_axis.pdf, id=3206, pagebox=cropbox, 127.17914pt x 
 95.29843pt>
 File: ./2_PP/Figures/Landscape/ld_axis.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/ld_axis.pdf>
@@ -4626,7 +4622,7 @@ LaTeX Warning: Marginpar on page 123 moved.
 
 LaTeX Warning: Marginpar on page 123 moved.
 
-<./2_PP/Figures/Landscape/ld_convergence.pdf, id=3258, pagebox=cropbox, 365.465
+<./2_PP/Figures/Landscape/ld_convergence.pdf, id=3250, pagebox=cropbox, 365.465
 38pt x 204.66461pt>
 File: ./2_PP/Figures/Landscape/ld_convergence.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/ld_convergence.pdf>
@@ -4668,7 +4664,7 @@ rised by a high con-ver-gence of the species
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [125]
-<./2_PP/Figures/Concepts/exchange_volume_projection.pdf, id=3382, pagebox=cropb
+<./2_PP/Figures/Concepts/exchange_volume_projection.pdf, id=3374, pagebox=cropb
 ox, 332.89871pt x 130.1141pt>
 File: ./2_PP/Figures/Concepts/exchange_volume_projection.pdf Graphic file (type
  pdf)
@@ -4682,7 +4678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--612
 
  []
 
-<./2_PP/Figures/Concepts/exhaustion2.pdf, id=3384, pagebox=cropbox, 332.89871pt
+<./2_PP/Figures/Concepts/exhaustion2.pdf, id=3376, pagebox=cropbox, 332.89871pt
  x 139.67683pt>
 File: ./2_PP/Figures/Concepts/exhaustion2.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Concepts/exhaustion2.pdf>
@@ -4731,7 +4727,7 @@ LaTeX Warning: Marginpar on page 129 moved.
 
 LaTeX Warning: Marginpar on page 129 moved.
 
-<./2_PP/Figures/Rain/gradient_strat_trend.pdf, id=3457, pagebox=cropbox, 524.57
+<./2_PP/Figures/Rain/gradient_strat_trend.pdf, id=3449, pagebox=cropbox, 524.57
 382pt x 248.48032pt>
 File: ./2_PP/Figures/Rain/gradient_strat_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_strat_trend.pdf>
@@ -4745,7 +4741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 708--710
  []
 
 [129]
-<./2_PP/Figures/Rain/best_w_ini_pl_rain_grad_alt.pdf, id=3470, pagebox=cropbox,
+<./2_PP/Figures/Rain/best_w_ini_pl_rain_grad_alt.pdf, id=3461, pagebox=cropbox,
  592.23657pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/best_w_ini_pl_rain_grad_alt.pdf Graphic file (type pd
 f)
@@ -4767,7 +4763,7 @@ Underfull \hbox (badness 3471) in paragraph at lines 718--718
 
 LaTeX Warning: Marginpar on page 130 moved.
 
-<./2_PP/Figures/Rain/gradient_cumBM.pdf, id=3471, pagebox=cropbox, 414.4022pt x
+<./2_PP/Figures/Rain/gradient_cumBM.pdf, id=3462, pagebox=cropbox, 414.4022pt x
  302.3566pt>
 File: ./2_PP/Figures/Rain/gradient_cumBM.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_cumBM.pdf>
@@ -4816,7 +4812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 733--733
 n/8 &
  []
 
-<./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf, id=3472, pagebox=cropbox, 52
+<./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf, id=3463, pagebox=cropbox, 52
 4.57277pt x 246.1707pt>
 File: ./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf>
@@ -4832,7 +4828,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--742
 
 LaTeX Warning: Marginpar on page 130 moved.
 
-<./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf, id=3473, pagebox=cropbox, 612.3
+<./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf, id=3464, pagebox=cropbox, 612.3
 136pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf>
@@ -4856,7 +4852,7 @@ rel_BM_pl_trend.pdf> <./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf
 pdfTeX warning: pdflatex (file ./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf, id=4021, pagebox=cropbox, 592.23
+<./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf, id=4013, pagebox=cropbox, 592.23
 657pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf>
@@ -4877,7 +4873,7 @@ Underfull \hbox (badness 2726) in paragraph at lines 758--758
 
 LaTeX Warning: Marginpar on page 132 moved.
 
-<./2_PP/Figures/Rain/optimum_shifting_median.pdf, id=4024, pagebox=cropbox, 629
+<./2_PP/Figures/Rain/optimum_shifting_median.pdf, id=4016, pagebox=cropbox, 629
 .92842pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/optimum_shifting_median.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/optimum_shifting_median.pdf>
@@ -4894,7 +4890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 770--772
 LaTeX Warning: Marginpar on page 132 moved.
 
 [132 <./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf>]
-<./2_PP/Figures/Variable/explain_assymetry.pdf, id=4141, pagebox=cropbox, 376.9
+<./2_PP/Figures/Variable/explain_assymetry.pdf, id=4133, pagebox=cropbox, 376.9
 844pt x 163.86218pt>
 File: ./2_PP/Figures/Variable/explain_assymetry.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/explain_assymetry.pdf>
@@ -4911,7 +4907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 797--799
 
 LaTeX Warning: Marginpar on page 134 moved.
 
-<./2_PP/Figures/Rain/filtering.pdf, id=4175, pagebox=cropbox, 348.59937pt x 218
+<./2_PP/Figures/Rain/filtering.pdf, id=4167, pagebox=cropbox, 348.59937pt x 218
 .10081pt>
 File: ./2_PP/Figures/Rain/filtering.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/filtering.pdf>
@@ -4935,7 +4931,7 @@ LaTeX Warning: Marginpar on page 135 moved.
 LaTeX Warning: Marginpar on page 135 moved.
 
 [135 <./2_PP/Figures/Rain/filtering.pdf>]
-<./2_PP/Figures/Rain/rain_pl_effects.pdf, id=4266, pagebox=cropbox, 223.49397pt
+<./2_PP/Figures/Rain/rain_pl_effects.pdf, id=4257, pagebox=cropbox, 223.49397pt
  x 151.96474pt>
 File: ./2_PP/Figures/Rain/rain_pl_effects.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/rain_pl_effects.pdf>
@@ -4972,7 +4968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 879--879
 LaTeX Warning: Marginpar on page 136 moved.
 
 [136 <./2_PP/Figures/Rain/rain_pl_effects.pdf>]
-<./2_PP/Figures/Variable/var_relnone_BM_trend.pdf, id=4304, pagebox=cropbox, 53
+<./2_PP/Figures/Variable/var_relnone_BM_trend.pdf, id=4295, pagebox=cropbox, 53
 2.99126pt x 532.99126pt>
 File: ./2_PP/Figures/Variable/var_relnone_BM_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_relnone_BM_trend.pdf>
@@ -4988,7 +4984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 900--902
 
 LaTeX Warning: Marginpar on page 137 moved.
 
-<./2_PP/Figures/Variable/var_strat_trend.pdf, id=4307, pagebox=cropbox, 532.991
+<./2_PP/Figures/Variable/var_strat_trend.pdf, id=4298, pagebox=cropbox, 532.991
 26pt x 532.99126pt>
 File: ./2_PP/Figures/Variable/var_strat_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_strat_trend.pdf>
@@ -5006,7 +5002,7 @@ LaTeX Warning: Marginpar on page 137 moved.
 
 [137 <./2_PP/Figures/Variable/var_relnone_BM_trend.pdf>] [138 <./2_PP/Figures/V
 ariable/var_strat_trend.pdf>]
-<./2_PP/Figures/Variable/var_2D_strat_dyn.pdf, id=4403, pagebox=cropbox, 526.29
+<./2_PP/Figures/Variable/var_2D_strat_dyn.pdf, id=4395, pagebox=cropbox, 526.29
 123pt x 525.89676pt>
 File: ./2_PP/Figures/Variable/var_2D_strat_dyn.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_2D_strat_dyn.pdf>
@@ -5023,7 +5019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 920--922
 LaTeX Warning: Marginpar on page 139 moved.
 
 [139 <./2_PP/Figures/Variable/var_2D_strat_dyn.pdf>]
-<./2_PP/Figures/Variable/var_spdiv_trend.pdf, id=5044, pagebox=cropbox, 544.650
+<./2_PP/Figures/Variable/var_spdiv_trend.pdf, id=5036, pagebox=cropbox, 544.650
 83pt x 331.5306pt>
 File: ./2_PP/Figures/Variable/var_spdiv_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_spdiv_trend.pdf>
@@ -5044,7 +5040,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 934--934
 
 LaTeX Warning: Marginpar on page 140 moved.
 
-<./2_PP/Figures/Variable/GalanthusNivalis.png, id=5045, 180.675pt x 185.19188pt
+<./2_PP/Figures/Variable/GalanthusNivalis.png, id=5037, 180.675pt x 185.19188pt
 >
 File: ./2_PP/Figures/Variable/GalanthusNivalis.png Graphic file (type png)
 <use ./2_PP/Figures/Variable/GalanthusNivalis.png>
@@ -5070,7 +5066,7 @@ LaTeX Warning: Marginpar on page 141 moved.
 
 LaTeX Warning: Marginpar on page 142 moved.
 
-<./2_PP/Figures/Variable/variable_filter.pdf, id=5110, pagebox=cropbox, 348.599
+<./2_PP/Figures/Variable/variable_filter.pdf, id=5101, pagebox=cropbox, 348.599
 37pt x 220.35925pt>
 File: ./2_PP/Figures/Variable/variable_filter.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/variable_filter.pdf>
@@ -5087,7 +5083,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 987--989
 LaTeX Warning: Marginpar on page 142 moved.
 
 [142 <./2_PP/Figures/Variable/variable_filter.pdf>]
-<./2_PP/Figures/Variable/variable_pl_effects.pdf, id=5167, pagebox=cropbox, 244
+<./2_PP/Figures/Variable/variable_pl_effects.pdf, id=5158, pagebox=cropbox, 244
 .82466pt x 266.30592pt>
 File: ./2_PP/Figures/Variable/variable_pl_effects.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/variable_pl_effects.pdf>
@@ -5141,7 +5137,7 @@ LaTeX Warning: Marginpar on page 145 moved.
 LaTeX Warning: Marginpar on page 145 moved.
 
 [145]
-<./2_PP/Figures/Concepts/stress_memory.pdf, id=5240, pagebox=cropbox, 300.45049
+<./2_PP/Figures/Concepts/stress_memory.pdf, id=5232, pagebox=cropbox, 300.45049
 pt x 132.63954pt>
 File: ./2_PP/Figures/Concepts/stress_memory.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Concepts/stress_memory.pdf>
@@ -5189,14 +5185,14 @@ n-ta-tions of the phe-
 [147]) [148] [149
 
 ] [150]
-Package biblatex Info: Reference section=0 on input line 380.
+Package biblatex Info: Reference section=0 on input line 347.
  [151] [152
 
 ] [153] [154]
 \blx@maxsegment@5=\count403
 \blx@sectionciteorder@5=\count404
-Package biblatex Info: Reference section=5 on input line 385.
-Package biblatex Info: Setting label 'refsection:5' on input line 385.
+Package biblatex Info: Reference section=5 on input line 352.
+Package biblatex Info: Setting label 'refsection:5' on input line 352.
 \openout2 = `./2_PP/Community_dynamics.aux'.
 
  (2_PP/Community_dynamics.tex
@@ -5219,7 +5215,7 @@ LaTeX Warning: Marginpar on page 156 moved.
 
 LaTeX Warning: Marginpar on page 156 moved.
 
-<./2_PP/Figures/Comm/biomass_season_non_plastic2.png, id=5333, 1003.75pt x 669.
+<./2_PP/Figures/Comm/biomass_season_non_plastic2.png, id=5325, 1003.75pt x 669.
 50125pt>
 File: ./2_PP/Figures/Comm/biomass_season_non_plastic2.png Graphic file (type pn
 g)
@@ -5263,7 +5259,7 @@ LaTeX Warning: Marginpar on page 158 moved.
 
 LaTeX Warning: Marginpar on page 159 moved.
 
-<./2_PP/Figures/Comm/comm_n_sp_differences.pdf, id=5359, pagebox=cropbox, 229.8
+<./2_PP/Figures/Comm/comm_n_sp_differences.pdf, id=5351, pagebox=cropbox, 229.8
 0455pt x 332.0676pt>
 File: ./2_PP/Figures/Comm/comm_n_sp_differences.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_n_sp_differences.pdf>
@@ -5279,7 +5275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
 LaTeX Warning: Marginpar on page 159 moved.
 
-<./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf, id=5362, pagebox=cropbox, 450.909
+<./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf, id=5354, pagebox=cropbox, 450.909
 6pt x 331.5306pt>
 File: ./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf>
@@ -5302,7 +5298,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 168--168
 \T1/pplj/m/n/8 so-lute num-ber of species in the
  []
 
-<./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf, id=5367, pagebox=cropbox, 759.0307
+<./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf, id=5359, pagebox=cropbox, 759.0307
 3pt x 247.69237pt>
 File: ./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf>
@@ -5329,7 +5325,7 @@ LaTeX Warning: Marginpar on page 159 moved.
 pdfTeX warning: pdflatex (file ./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-<./2_PP/Figures/Comm/comm_BMtot_differences.pdf, id=28706, pagebox=cropbox, 229
+<./2_PP/Figures/Comm/comm_BMtot_differences.pdf, id=28697, pagebox=cropbox, 229
 .67204pt x 332.0676pt>
 File: ./2_PP/Figures/Comm/comm_BMtot_differences.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_BMtot_differences.pdf>
@@ -5351,7 +5347,7 @@ LaTeX Warning: Marginpar on page 161 moved.
 
 LaTeX Warning: Marginpar on page 161 moved.
 
-<./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf, id=28707, pageb
+<./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf, id=28698, pageb
 ox=cropbox, 247.15736pt x 334.37624pt>
 File: ./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf Graphic fil
 e (type pdf)
@@ -5412,7 +5408,7 @@ pdfTeX warning: pdflatex (file ./2_PP/Figures/Comm/comm_tau_differences_exclusi
 ve_groups.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >]
-<./2_PP/Figures/Comm/mean_com_str2.pdf, id=30749, pagebox=cropbox, 428.34229pt 
+<./2_PP/Figures/Comm/mean_com_str2.pdf, id=30741, pagebox=cropbox, 428.34229pt 
 x 609.17485pt>
 File: ./2_PP/Figures/Comm/mean_com_str2.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/mean_com_str2.pdf>
@@ -5458,7 +5454,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--288
 \T1/pplj/m/n/8 high-light the long tail of rare species in
  []
 
-<./2_PP/Figures/Comm/comm_variability_lines.pdf, id=30750, pagebox=cropbox, 578
+<./2_PP/Figures/Comm/comm_variability_lines.pdf, id=30742, pagebox=cropbox, 578
 .16pt x 578.16pt>
 File: ./2_PP/Figures/Comm/comm_variability_lines.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_variability_lines.pdf>
@@ -5479,7 +5475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--307
 
 LaTeX Warning: Marginpar on page 162 moved.
 
-<./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf, id=30752, pagebox=cro
+<./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf, id=30744, pagebox=cro
 pbox, 760.81236pt x 246.1707pt>
 File: ./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf Graphic file (typ
 e pdf)
@@ -5512,7 +5508,7 @@ LaTeX Warning: Marginpar on page 165 moved.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [165]
-<./2_PP/Figures/Comm/explain_par_variability.png, id=32560, 1003.75pt x 1518.67
+<./2_PP/Figures/Comm/explain_par_variability.png, id=32551, 1003.75pt x 1518.67
 375pt>
 File: ./2_PP/Figures/Comm/explain_par_variability.png Graphic file (type png)
 <use ./2_PP/Figures/Comm/explain_par_variability.png>
@@ -5546,7 +5542,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--423
 
 LaTeX Warning: Marginpar on page 168 moved.
 
-<./2_PP/Figures/Comm/comm_pl_effect.pdf, id=32572, pagebox=cropbox, 242.77802pt
+<./2_PP/Figures/Comm/comm_pl_effect.pdf, id=32564, pagebox=cropbox, 242.77802pt
  x 307.45866pt>
 File: ./2_PP/Figures/Comm/comm_pl_effect.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_pl_effect.pdf>
@@ -5582,16 +5578,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 463--463
 
 LaTeX Warning: Marginpar on page 170 moved.
 
-
+[170]
 Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \T1/phv/m/sc/10 The speci-ficity of the
  []
 
 
-LaTeX Warning: Marginpar on page 170 moved.
-
-[170]
-
 LaTeX Warning: Marginpar on page 171 moved.
 
 
@@ -5601,20 +5593,19 @@ LaTeX Warning: Marginpar on page 171 moved.
 LaTeX Warning: Marginpar on page 171 moved.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Marginpar on page 171 moved.
 
- [171])
-[172] [173
+[171]) [172] [173
 
 ]
-Package biblatex Info: Reference section=0 on input line 393.
+Package biblatex Info: Reference section=0 on input line 360.
  [174] [175
 
 ] [176]
 \blx@maxsegment@6=\count405
 \blx@sectionciteorder@6=\count406
-Package biblatex Info: Reference section=6 on input line 398.
-Package biblatex Info: Setting label 'refsection:6' on input line 398.
+Package biblatex Info: Reference section=6 on input line 365.
+Package biblatex Info: Setting label 'refsection:6' on input line 365.
 \openout2 = `./3_Synthesis/synthesis.aux'.
 
  (3_Synthesis/synthesis.tex
@@ -5708,7 +5699,7 @@ $[]$\T1/pplj/m/n/8 as tthe two are linked in the
 
 LaTeX Warning: Marginpar on page 182 moved.
 
-<./3_Synthesis/graphics/niche_shift.pdf, id=32786, pagebox=cropbox, 341.4326pt 
+<./3_Synthesis/graphics/niche_shift.pdf, id=32778, pagebox=cropbox, 341.4326pt 
 x 257.30829pt>
 File: ./3_Synthesis/graphics/niche_shift.pdf Graphic file (type pdf)
 <use ./3_Synthesis/graphics/niche_shift.pdf>
@@ -5838,42 +5829,52 @@ LaTeX Warning: Marginpar on page 184 moved.
 
 LaTeX Warning: Marginpar on page 184 moved.
 
+[184]
 
-LaTeX Warning: Marginpar on page 184 moved.
-
-
-LaTeX Warning: Marginpar on page 184 moved.
+LaTeX Warning: Marginpar on page 185 moved.
 
 
-LaTeX Warning: Marginpar on page 184 moved.
+LaTeX Warning: Marginpar on page 185 moved.
 
-) [184] [185
 
-]
-Overfull \hbox (6.35962pt too wide) in paragraph at lines 405--405
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [185]
+
+LaTeX Warning: Marginpar on page 186 moved.
+
+
+LaTeX Warning: Marginpar on page 186 moved.
+
+) [186] [187
+
+] [188]
+Overfull \hbox (6.35962pt too wide) in paragraph at lines 372--372
 [][]\T1/pplj/m/n/10 Tilman, David and Em-i-lie C. Snell-Rood (2014). ``Di-ver-s
 ity breeds com-ple-men-tar-ity: Ecol-ogy''. en. \T1/pplj/m/it/10 Na-ture \T1/pp
 lj/m/n/10 515.7525,
  []
 
-Package biblatex Info: Reference section=0 on input line 407.
-[186] (thesis_model.ind
+Package biblatex Info: Reference section=0 on input line 374.
+[189] (thesis_model.ind
 Chapter 3.
-)
+) [190] [191
+
+]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[187]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 469.
+[192]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
  (thesis_model.aux (0_Objectives/Objectives.aux)
 (1_Introduction/Introduction.aux) (2_PP/Generic_model.aux)
 (2_PP/Individual_level.aux) (2_PP/Community_dynamics.aux)
 (3_Synthesis/synthesis.aux) (3_Synthesis/outlook.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
 Package rerunfilecheck Info: File `thesis_model.out' has not changed.
 (rerunfilecheck)             Checksum: A4CFBDD0C52A6B4A97121082D886F103;17234.
 
@@ -5891,16 +5892,16 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'thesis_model.run.xml'.
 \openout1 = `thesis_model.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 469.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
  ) 
 Here is how much of TeX's memory you used:
- 51400 strings out of 493314
- 1122368 string characters out of 3138867
- 2965897 words of memory out of 3000000
- 52997 multiletter control sequences out of 15000+200000
+ 51652 strings out of 493314
+ 1129449 string characters out of 3138867
+ 2957744 words of memory out of 3000000
+ 53218 multiletter control sequences out of 15000+200000
  111527 words of font info for 151 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,20n,128p,4788b,2688s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,20n,128p,4788b,2689s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -5916,9 +5917,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2
 /urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis_model.pdf (197 pages, 31779723 bytes).
+Output written on thesis_model.pdf (200 pages, 31794551 bytes).
 PDF statistics:
- 33442 PDF objects out of 38293 (max. 8388607)
- 893 named destinations out of 1000 (max. 500000)
+ 33519 PDF objects out of 38293 (max. 8388607)
+ 924 named destinations out of 1000 (max. 500000)
  1964 words of extra memory for PDF output out of 10000 (max. 10000000)
 

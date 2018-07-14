@@ -4265,9 +4265,9 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{boulangeat_fate-dh_2014}
-  \missing{schirpe_multiple_2013}
   \missing{de_bello_towards_2011}
+  \missing{schirpe_multiple_2013}
+  \missing{boulangeat_fate-dh_2014}
   \missing{koorner_alpine_2003}
 \endrefsection
 
@@ -8822,6 +8822,61 @@
       \verb http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894893/
       \endverb
     \endentry
+    \entry{mokany_functional_2008}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=37fc8915dcd7e38cf41f811b87cdf9aa}{%
+           family={Mokany},
+           familyi={M\bibinitperiod},
+           given={Karel},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=ec24d16d1e4276018f06039b3e463748}{%
+           family={Ash},
+           familyi={A\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=5e7090a6f371c2a47fa71bad6e3204ea}{%
+           family={Roxburgh},
+           familyi={R\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{75d1b049de35dd1b3cdd51462c7523b5}
+      \strng{fullhash}{75d1b049de35dd1b3cdd51462c7523b5}
+      \strng{authornamehash}{75d1b049de35dd1b3cdd51462c7523b5}
+      \strng{authorfullhash}{75d1b049de35dd1b3cdd51462c7523b5}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* 1Experimental studies have provided significant knowledge of how biodiversity can influence ecosystem processes. However, there is a growing need to relate these findings to natural communities. * 2Here we identify two major hypotheses for how communities may influence ecosystem processes: the ‘diversity hypothesis’ (the diversity of organisms in a community influences ecosystem processes through mechanisms such as complementary resource use), and the ‘mass ratio hypothesis’ (ecosystem processes are determined overwhelmingly by the functional traits of the dominant species). We then test which of these two hypotheses best explain variation in ecosystem properties and processes (biomass pools and fluxes, water use, light interception) in a temperate native grassland. We do this by applying various measures of diversity, functional diversity, and functional identity, whose significant relations with ecosystem processes would support either of the competing hypotheses. * 3Mean trait values best explained variation in five of the eight ecosystem processes examined, supporting Grime's mass ratio hypothesis, which proposes that the functional identities of the dominant species largely determine ecosystem processes. * 4Multi-trait functional diversity indices also explained large amounts of variation in ecosystem processes, while only weak relationships were observed between species richness and ecosystem processes. * 5To explore the mechanistic interactions between variables, we developed structural equation models (SEMs), which indicated that many of the community diversity and trait properties significantly influenced ecosystem processes, even after accounting for co-varying biotic/abiotic factors. * 6Synthesis. Our study is one of the first explicit comparisons of the ‘diversity’ and ‘mass ratio’ hypotheses, and our results most strongly support the mass ratio hypothesis, that is, the traits of the dominant species most influenced the ecosystem properties and processes examined. Our results suggest that the management of communities for the maintenance of ecosystem processes should focus on species dominance hierarchies.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{Journal of Ecology}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Functional identity is more important than diversity in influencing ecosystem processes in a temperate native grassland}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{96}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{884\bibrangedash 893}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/j.1365-2745.2008.01395.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\5AIFMSSZ\\Mokany et al. - 2008 - Functional identity is more important than diversi.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\2PF3WK24\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2008.01395.x/abstract
+      \endverb
+      \keyw{biodiversity,productivity,functional traits,Biomass,decomposition,light interception,soil moisture}
+    \endentry
     \entry{morin_comparing_2009}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=70b2f8355e788b89c3e7709214800a79}{%
@@ -11521,13 +11576,13 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{diaz_global_2014}
-  \missing{freschett_plasticity_2014}
-  \missing{dewitt_cost_1998}
-  \missing{reich_world-wilde_2013}
-  \missing{TRY}
   \missing{lavorel_how_2014}
   \missing{adler_coexistence_2007}
+  \missing{reich_world-wilde_2013}
+  \missing{TRY}
+  \missing{diaz_global_2014}
+  \missing{dewitt_cost_1998}
+  \missing{freschett_plasticity_2014}
 \endrefsection
 
 \refsection{3}
@@ -14439,9 +14494,9 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{tjoelker_linking_2015}
   \missing{wright_worlwide_2004}
   \missing{korner_alpine_2011}
-  \missing{tjoelker_linking_2015}
 \endrefsection
 
 \refsection{4}
@@ -19373,6 +19428,61 @@
 
 \refsection{6}
   \sortlist[entry]{nyt/global/}
+    \entry{alexander_novel_2015}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=4a5a4538548ae367f5059852b82e00b0}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Jake\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=71dfe06d80c6fe395739f9c40685185b}{%
+           family={Diez},
+           familyi={D\bibinitperiod},
+           given={Jeffrey\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{fullhash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authornamehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authorfullhash}{216112252dd56105ca5fe5d06655561e}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding how species respond to climate change is critical for forecasting the future dynamics and distribution of pests, diseases and biological diversity. Although ecologists have long acknowledged species/' direct physiological and demographic responses to climate, more recent work suggests that these direct responses can be overwhelmed by indirect effects mediated via other interacting community members. Theory suggests that some of the most dramatic impacts of community change will probably arise through the assembly of novel species combinations after asynchronous migrations with climate. Empirical tests of this prediction are rare, as existing work focuses on the effects of changing interactions between competitors that co-occur today. To explore how species/' responses to climate warming depend on how their competitors migrate to track climate, we transplanted alpine plant species and intact plant communities along a climate gradient in the Swiss Alps. Here we show that when alpine plants were transplanted to warmer climates to simulate a migration failure, their performance was strongly reduced by novel competitors that could migrate upwards from lower elevation; these effects generally exceeded the impact of warming on competition with current competitors. In contrast, when we grew the focal plants under their current climate to simulate climate tracking, a shift in the competitive environment to novel high-elevation competitors had little to no effect. This asymmetry in the importance of changing competitor identity at the leading versus trailing range edges is best explained by the degree of functional similarity between current and novel competitors. We conclude that accounting for novel competitive interactions may be essential to predict species/' responses to climate change accurately.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{number}{7570}
+      \field{title}{Novel competitors shape species/' responses to climate change}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2017}
+      \field{volume}{525}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{515\bibrangedash 518}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature14952
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\PZBVVEUB\\Alexander et al. - 2015 - Novel competitors shape species' responses to cli.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\J35DN6CZ\\nature14952.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v525/n7570/full/nature14952.html
+      \endverb
+      \keyw{Climate-change ecology,Community ecology}
+    \endentry
     \entry{auld_measuring_2011}{article}{}
       \name{author}{3}{}{%
         {{uniquename=2,hash=0e59862b5da470e157faac7eb05c6706}{%
@@ -19530,6 +19640,130 @@
       \verb http://doi.wiley.com/10.1111/ele.12636
       \endverb
     \endentry
+    \entry{bello_towards_2010}{article}{}
+      \name{author}{17}{}{%
+        {{uniquename=0,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Francesco\bibnamedelima de},
+           giveni={F\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
+           family={Díaz},
+           familyi={D\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=1d3a6c5a208ad622f2198b2644679dc1}{%
+           family={Harrington},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=59199cd41f1dcf2209b714a87daff5f9}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=1bcb10ae8c0cfd2bf35c4c3ec381d0d2}{%
+           family={Bardgett},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=286d8f7de3c6716795bc99158c9cf201}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Matty\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=6c5678f7053a1fa305e825cd11a5227d}{%
+           family={Cipriotti},
+           familyi={C\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=5d430474d8ce1beb3f012991b64d0e0a}{%
+           family={Feld},
+           familyi={F\bibinitperiod},
+           given={Christian\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=006b484f6021362b7346692d563e40c5}{%
+           family={Hering},
+           familyi={H\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=dd2152ba1656275485dc60b7cbedc070}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Pedro\bibnamedelimb Martins\bibnamedelima da},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{uniquename=0,hash=a554455db08295f7dc3bcc44178d6d9d}{%
+           family={Potts},
+           familyi={P\bibinitperiod},
+           given={Simon\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=fe8da97ec9ea0d487d2d4314f8d72e65}{%
+           family={Sandin},
+           familyi={S\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=47e3025660929738b73d6300a0bb203a}{%
+           family={Sousa},
+           familyi={S\bibinitperiod},
+           given={Jose\bibnamedelima Paulo},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=b57d152420edee7817e6887b65889ddb}{%
+           family={Storkey},
+           familyi={S\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=2a36cd6a6a37d4a5ab6dbc29193dea60}{%
+           family={Wardle},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=4a511d0f87ec3ca85a5ade1258343911}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Paula\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6aa681f151279080c88bbb7985884e36}
+      \strng{fullhash}{f3de464eced76ff8e1c599216b75ebd8}
+      \strng{authornamehash}{6aa681f151279080c88bbb7985884e36}
+      \strng{authorfullhash}{f3de464eced76ff8e1c599216b75ebd8}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Managing ecosystems to ensure the provision of multiple ecosystem services is a key challenge for applied ecology. Functional traits are receiving increasing attention as the main ecological attributes by which different organisms and biological communities influence ecosystem services through their effects on underlying ecosystem processes. Here we synthesize concepts and empirical evidence on linkages between functional traits and ecosystem services across different trophic levels. Most of the 247 studies reviewed considered plants and soil invertebrates, but quantitative trait–service associations have been documented for a range of organisms and ecosystems, illustrating the wide applicability of the trait approach. Within each trophic level, specific processes are affected by a combination of traits while particular key traits are simultaneously involved in the control of multiple processes. These multiple associations between traits and ecosystem processes can help to identify predictable trait–service clusters that depend on several trophic levels, such as clusters of traits of plants and soil organisms that underlie nutrient cycling, herbivory, and fodder and fibre production. We propose that the assessment of trait–service clusters will represent a crucial step in ecosystem service monitoring and in balancing the delivery of multiple, and sometimes conflicting, services in ecosystem management.}
+      \field{issn}{0960-3115, 1572-9710}
+      \field{journaltitle}{Biodivers Conserv}
+      \field{month}{9}
+      \field{number}{10}
+      \field{title}{Towards an assessment of multiple ecosystem processes and services via functional traits}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{19}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{2873\bibrangedash 2893}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/s10531-010-9850-9
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\R55C3BJ5\\Bello et al. - 2010 - Towards an assessment of multiple ecosystem proces.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\HA3TMV5X\\s10531-010-9850-9.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/article/10.1007/s10531-010-9850-9
+      \endverb
+    \endentry
     \entry{bradshaw_evolutionary_1965}{incollection}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=462e5d36238356982b4a10d7261f4dff}{%
@@ -19575,6 +19809,201 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S0065266008600486
+      \endverb
+    \endentry
+    \entry{callaway_positive_2002}{article}{}
+      \name{author}{13}{}{%
+        {{uniquename=0,hash=54561e6e2b90f3b5a1369c996abd6c04}{%
+           family={Callaway},
+           familyi={C\bibinitperiod},
+           given={Ragan\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=e00ef751a582c72595370aa2bb9c3414}{%
+           family={Brooker},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=469de0848c21adffc5a20fa66fd85cce}{%
+           family={Choler},
+           familyi={C\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=4d009af36cb488dbfb5a03c5a83ec761}{%
+           family={Kikvidze},
+           familyi={K\bibinitperiod},
+           given={Zaal},
+           giveni={Z\bibinitperiod}}}%
+        {{uniquename=0,hash=2dd6e0181abea995dcaf6090fae93a73}{%
+           family={Lortie},
+           familyi={L\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=e164d8e5347f27275499c9d5f966efa5}{%
+           family={Michalet},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=25757db0299089b57b1e4c919ca0ca5b}{%
+           family={Paolini},
+           familyi={P\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=386a1522ba6bc65b95641eea0c1c4aad}{%
+           family={Pugnaire},
+           familyi={P\bibinitperiod},
+           given={Francisco\bibnamedelima I.},
+           giveni={F\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=bfa44672d4121a17d45159da2ed5b642}{%
+           family={Newingham},
+           familyi={N\bibinitperiod},
+           given={Beth},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=fa5f42d190cc6406ec7ba58b72018f11}{%
+           family={Aschehoug},
+           familyi={A\bibinitperiod},
+           given={Erik\bibnamedelima T.},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=71a8f8493b25cff52699ccb2ab13f221}{%
+           family={Armas},
+           familyi={A\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=568f481391fe5e617af02e282da08f71}{%
+           family={Kikodze},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=5d62a8844a82e23939422d99890f3151}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Bradley\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{eb25c362f39209fd409cfe87e1c02c1d}
+      \strng{fullhash}{930ce9060d71775b7e06cabd56ff55bb}
+      \strng{authornamehash}{eb25c362f39209fd409cfe87e1c02c1d}
+      \strng{authorfullhash}{930ce9060d71775b7e06cabd56ff55bb}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plants can have positive effects on each other. For example, the accumulation of nutrients, provision of shade, amelioration of disturbance, or protection from herbivores by some species can enhance the performance of neighbouring species. Thus the notion that the distributions and abundances of plant species are independent of other species may be inadequate as a theoretical underpinning for understanding species coexistence and diversity. But there have been no large-scale experiments designed to examine the generality of positive interactions in plant communities and their importance relative to competition. Here we show that the biomass, growth and reproduction of alpine plant species are higher when other plants are nearby. In an experiment conducted in subalpine and alpine plant communities with 115 species in 11 different mountain ranges, we find that competition generally, but not exclusively, dominates interactions at lower elevations where conditions are less physically stressful. In contrast, at high elevations where abiotic stress is high the interactions among plants are predominantly positive. Furthermore, across all high and low sites positive interactions are more important at sites with low temperatures in the early summer, but competition prevails at warmer sites.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{6}
+      \field{number}{6891}
+      \field{title}{Positive interactions among alpine plants increase with stress}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{417}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{844\bibrangedash 848}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature00812
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\IIIBRNQ6\\Callaway et al. - 2002 - Positive interactions among alpine plants increase.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9QS37T6M\\nature00812.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v417/n6891/full/nature00812.html
+      \endverb
+    \endentry
+    \entry{choler_growth_2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,hash=2329c6a72549250641608725d02e4978}{%
+           family={Choler},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2329c6a72549250641608725d02e4978}
+      \strng{fullhash}{2329c6a72549250641608725d02e4978}
+      \strng{authornamehash}{2329c6a72549250641608725d02e4978}
+      \strng{authorfullhash}{2329c6a72549250641608725d02e4978}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A remote sensing approach is used to examine the direct and indirect effects of snow cover duration and weather conditions on the growth response of mountain grasslands located above the tree line in the French Alps. Time-integrated Normalized Difference Vegetation Index (NDVIint), used as a surrogate for aboveground primary productivity, and snow cover duration were derived from a 13-year long time series of the Moderate-resolution Imaging Spectroradiometer (MODIS). A regional-scale meteorological forcing that accounted for topographical effects was provided by the SAFRAN–CROCUS–MEPRA model chain. A hierarchical path analysis was developed to analyze the multivariate causal relationships between forcing variables and proxies of primary productivity. Inter-annual variations in primary productivity were primarily governed by year-to-year variations in the length of the snow-free period and to a much lesser extent by temperature and precipitation during the growing season. A prolonged snow cover reduces the number and magnitude of frost events during the initial growth period but this has a negligible impact on NDVIint as compared to the strong negative effect of a delayed snow melting. The maximum NDVI slightly responded to increased summer precipitation and temperature but the impact on productivity was weak. The period spanning from peak standing biomass to the first snowfall accounted for two-thirds of NDVIint and this explained the high sensitivity of NDVIint to autumn temperature and autumn rainfall that control the timing of the first snowfall. The ability of mountain plants to maintain green tissues during the whole snow-free period along with the relatively low responsiveness of peak standing biomass to summer meteorological conditions led to the conclusion that the length of the snow-free period is the primary driver of the inter-annual variations in primary productivity of mountain grasslands.}
+      \field{issn}{1726-4189}
+      \field{journaltitle}{Biogeosciences}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{Growth response of temperate mountain grasslands to inter-annual variations in snow cover duration}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2016}
+      \field{volume}{12}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{3885\bibrangedash 3897}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.5194/bg-12-3885-2015
+      \endverb
+      \verb{file}
+      \verb Biogeosciences PDF:C\:\\Users\\Clemt\\Zotero\\storage\\97VTSWZC\\Choler - 2015 - Growth response of temperate mountain grasslands t.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.biogeosciences.net/12/3885/2015/
+      \endverb
+    \endentry
+    \entry{choler_facilitation_2001}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=2,hash=469de0848c21adffc5a20fa66fd85cce}{%
+           family={Choler},
+           familyi={C\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=e164d8e5347f27275499c9d5f966efa5}{%
+           family={Michalet},
+           familyi={M\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=54561e6e2b90f3b5a1369c996abd6c04}{%
+           family={Callaway},
+           familyi={C\bibinitperiod},
+           given={Ragan\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{572be39b7abe20e08222ffa1b5ee112e}
+      \strng{fullhash}{572be39b7abe20e08222ffa1b5ee112e}
+      \strng{authornamehash}{572be39b7abe20e08222ffa1b5ee112e}
+      \strng{authorfullhash}{572be39b7abe20e08222ffa1b5ee112e}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0012-9658}
+      \field{journaltitle}{Ecology}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{FACILITATION} {AND} {COMPETITION} {ON} {GRADIENTS} {IN} {ALPINE} {PLANT} {COMMUNITIES}}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{volume}{82}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{3295\bibrangedash 3308}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1890/0012-9658(2001)082[3295:FACOGI]2.0.CO;2
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1890/0012-9658(2001)082[3295:FACOGI]2.0.CO;2
       \endverb
     \endentry
     \entry{crisp_reconsidering_2016}{article}{}
@@ -19946,6 +20375,554 @@
       \verb http://www.nature.com/hdy/journal/vaop/ncurrent/full/hdy201492a.html
       \endverb
     \endentry
+    \entry{frei_plant_2014}{article}{}
+      \name{author}{5}{uniquelist=3}{%
+        {{uniquename=0,hash=253a94097b56e3f42636018a06d33d1c}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Esther\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=24c8fab018df3f9e88edf8a17665f7b9}{%
+           family={Ghazoul},
+           familyi={G\bibinitperiod},
+           given={Jaboury},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=4c5e93bdc0ed158749dc09988ce52678}{%
+           family={Matter},
+           familyi={M\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=b1a020c8f7e592c5d7f6dc60a3fa13aa}{%
+           family={Heggli},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=9eba46c0a754270a55032ff0526ae322}{%
+           family={Pluess},
+           familyi={P\bibinitperiod},
+           given={Andrea\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{484a55455f792073116bc9750ca5f265}
+      \strng{fullhash}{22a0660222d16f15b5ddae2c3ace30c3}
+      \strng{authornamehash}{484a55455f792073116bc9750ca5f265}
+      \strng{authorfullhash}{22a0660222d16f15b5ddae2c3ace30c3}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Mountain ecosystems are particularly susceptible to climate change. Characterizing intraspecific variation of alpine plants along elevational gradients is crucial for estimating their vulnerability to predicted changes. Environmental conditions vary with elevation, which might influence plastic responses and affect selection pressures that lead to local adaptation. Thus, local adaptation and phenotypic plasticity among low and high elevation plant populations in response to climate, soil and other factors associated with elevational gradients might underlie different responses of these populations to climate warming. Using a transplant experiment along an elevational gradient, we investigated reproductive phenology, growth and reproduction of the nutrient-poor grassland species Ranunculus bulbosus, Trifolium montanum and Briza media. Seeds were collected from low and high elevation source populations across the Swiss Alps and grown in nine common gardens at three different elevations with two different soil depths. Despite genetic differentiation in some traits, the results revealed no indication of local adaptation to the elevation of population origin. Reproductive phenology was advanced at lower elevation in low and high elevation populations of all three species. Growth and reproduction of T. montanum and B. media were hardly affected by garden elevation and soil depth. In R. bulbosus, however, growth decreased and reproductive investment increased at higher elevation. Furthermore, soil depth influenced growth and reproduction of low elevation R. bulbosus populations. We found no evidence for local adaptation to elevation of origin and hardly any differences in the responses of low and high elevation populations. However, the consistent advanced reproductive phenology observed in all three species shows that they have the potential to plastically respond to environmental variation. We conclude that populations might not be forced to migrate to higher elevations as a consequence of climate warming, as plasticity will buffer the detrimental effects of climate change in the three investigated nutrient-poor grassland species.}
+      \field{issn}{1365-2486}
+      \field{journaltitle}{Glob Change Biol}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Plant population differentiation and climate change}
+      \field{title}{Plant population differentiation and climate change: responses of grassland species along an elevational gradient}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{20}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{441\bibrangedash 455}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/gcb.12403
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\VK7TCT8A\\Frei et al. - 2014 - Plant population differentiation and climate chang.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\7F8SDP88\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/gcb.12403/abstract
+      \endverb
+      \keyw{climate,soil,Phenotypic plasticity,genetic differentiation,local adaptation,Phenology,altitude,common garden transplant experiment}
+    \endentry
+    \entry{frei_plastic_2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=253a94097b56e3f42636018a06d33d1c}{%
+           family={Frei},
+           familyi={F\bibinitperiod},
+           given={Esther\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=24c8fab018df3f9e88edf8a17665f7b9}{%
+           family={Ghazoul},
+           familyi={G\bibinitperiod},
+           given={Jaboury},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=9eba46c0a754270a55032ff0526ae322}{%
+           family={Pluess},
+           familyi={P\bibinitperiod},
+           given={Andrea\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{fullhash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authornamehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authorfullhash}{3974ba1beee343e76fb182b388d9a503}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Local persistence of plant species in the face of climate change is largely mediated by genetic adaptation and phenotypic plasticity. In species with a wide altitudinal range, population responses to global warming are likely to differ at contrasting elevations. In controlled climate chambers, we investigated the responses of low and high elevation populations (1200 and 1800 m a.s.l.) of three nutrient-poor grassland species, Trifolium montanum, Ranunculus bulbosus, and Briza media, to ambient and elevated temperature. We measured growth-related, reproductive and phenological traits, evaluated differences in trait plasticity and examined whether trait values or plasticities were positively related to approximate fitness and thus under selection. Elevated temperature induced plastic responses in several growth-related traits of all three species. Although flowering phenology was advanced in T. montanum and R. bulbosus, number of flowers and reproductive allocation were not increased under elevated temperature. Plasticity differed between low and high elevation populations only in leaf traits of T. montanum and B. media. Some growth-related and phenological traits were under selection. Moreover, plasticities were not correlated with approximate fitness indicating selectively neutral plastic responses to elevated temperature. The observed plasticity in growth-related and phenological traits, albeit variable among species, suggests that plasticity is an important mechanism in mediating plant responses to elevated temperature. However, the capacity of species to respond to climate change through phenotypic plasticity is limited suggesting that the species additionally need evolutionary adaptation to adjust to climate change. The observed selection on several growth-related and phenological traits indicates that the study species have the potential for future evolution in the context of a warming climate.}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Plastic {Responses} to {Elevated} {Temperature} in {Low} and {High} {Elevation} {Populations} of {Three} {Grassland} {Species}}
+      \field{urlday}{22}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{e98677}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0098677
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\J6WCD3VV\\Frei et al. - 2014 - Plastic Responses to Elevated Temperature in Low a.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\JQDE5G9E\\article.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098677
+      \endverb
+      \keyw{Flowering plants,Climate change,Evolutionary adaptation,Flowers,Leaves,natural selection,Phenotypes,Population genetics}
+    \endentry
+    \entry{gardarin_plant_2014}{article}{}
+      \name{author}{19}{}{%
+        {{uniquename=0,hash=f111b4616ba652e7096e5694da61095e}{%
+           family={Gardarin},
+           familyi={G\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=1df885cfc24c31c071907825e3f7d9f5}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={Éric},
+           giveni={É\bibinitperiod}}}%
+        {{uniquename=0,hash=dfef9478a7535f01cab93d5dc7810ed9}{%
+           family={Carrère},
+           familyi={C\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=025615df4ac35d3991a86702b1f49222}{%
+           family={Cruz},
+           familyi={C\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=71c8ae0e93d8ebfbb2353d89b45ed416}{%
+           family={Andueza},
+           familyi={A\bibinitperiod},
+           given={Donato},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=bbd55105eb339c4e4bcfbf6e68056762}{%
+           family={Bonis},
+           familyi={B\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=fa6749694038c432eec9ee83de41d1a4}{%
+           family={Colace},
+           familyi={C\bibinitperiod},
+           given={Marie-Pascale},
+           giveni={M\bibinithyphendelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=e6e084d1ff106a9002b328b06ccedbf7}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=0c76041d7d5049d4f6cca5c77bd4f8a8}{%
+           family={Duru},
+           familyi={D\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=483a16c8c3cb4950d49362264b8efa76}{%
+           family={Farruggia},
+           familyi={F\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=b2bac23717c94e607a59374501bb810a}{%
+           family={Gaucherand},
+           familyi={G\bibinitperiod},
+           given={Stéphanie},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=3db9e9613048ec8bdc47012222a21fae}{%
+           family={Kernéïs},
+           familyi={K\bibinitperiod},
+           given={Éric},
+           giveni={É\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=cf16cd7fda8e6c77593a1db79db366bb}{%
+           family={Louault},
+           familyi={L\bibinitperiod},
+           given={Frédérique},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=bf0bba63671e57013397183d2ea56348}{%
+           family={Loucougaray},
+           familyi={L\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=2bf4dc6da06e8db790d5083664531d35}{%
+           family={Mesléard},
+           familyi={M\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=83f9056d1354c4878f6ec2ee51691426}{%
+           family={Yavercovski},
+           familyi={Y\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=0ddd9b9db09f18412fb8f6a6c699639c}{%
+           family={Kazakou},
+           familyi={K\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e93a53c261b9ace3b1c4bd3c81ae0e65}
+      \strng{fullhash}{b2370665495bd8663157ae26bf4d2619}
+      \strng{authornamehash}{e93a53c261b9ace3b1c4bd3c81ae0e65}
+      \strng{authorfullhash}{b2370665495bd8663157ae26bf4d2619}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* Dry matter digestibility is a critical component of herbage nutritive value, a major service delivered by grasslands. The aim of this study was to test whether the dominance hypothesis applies to assess the impacts of environmental gradients and management regimes on this component of herbage nutritive value in permanent grasslands. * At the plant level, digestibility has been related to a number of functional traits, but whether this can be scaled up to the community level in species-rich grasslands and how such relationships are modulated by environmental conditions and management regimes remain unknown. Our primary objective was to test whether community-weighted means – species trait values weighted by the species abundance – of morphological, phenological and chemical traits could be used to explain variations in digestibility over a large range of climatic contexts, soil resource levels and management regimes. Our second objective was to explain variations in community digestibility within and among nine contrasting sites along large natural and man-induced environmental gradients. * Over the whole data set, digestibility and most community-weighted means of traits responded to climatic factors and management regimes, but relations were not always significant when each site was considered separately. Community digestibility was significantly related to one or more plant traits within each site and to all of the measured traits when considering all the sites. Leaf dry matter content (LDMC) had the most consistent effects on digestibility, with a strikingly similar negative effect within each site. Potential evapotranspiration was negatively related to digestibility and contributed to explain a large part of the among-site variance. In addition, a low return interval of disturbance and a high disturbance intensity (biomass removal) were both associated with a high digestibility. * Synthesis and applications. Disturbance regime, plant traits and local climate impacted dry matter digestibility roughly equally in grasslands. The effects of community composition on digestibility and its response to abiotic factors could be successfully captured by community-weighted means of leaf dry matter content. This functional marker can be used to develop indicators and grassland management rules to support farmers in the refinement of their practices towards specific needs, such as target production outputs.}
+      \field{issn}{1365-2664}
+      \field{journaltitle}{J Appl Ecol}
+      \field{number}{5}
+      \field{title}{Plant trait–digestibility relationships across management and climate gradients in permanent grasslands}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{51}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1207\bibrangedash 1217}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/1365-2664.12293
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\ZGJRHESF\\Gardarin et al. - 2014 - Plant trait–digestibility relationships across man.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\5B3XASW7\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2664.12293/abstract
+      \endverb
+      \keyw{functional traits,Drought,leaf dry matter content,community digestibility,disturbance intensity,dominance hypothesis,ecosystem property,nitrogen nutrition index,nutritional value,potential evapotranspiration}
+    \endentry
+    \entry{gobiet_21st_2014}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=3e64880c31e2101e027886f4cca29685}{%
+           family={Gobiet},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=64ac3950520b68f901eed995b2035b93}{%
+           family={Kotlarski},
+           familyi={K\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=2b2ef988b50db3b76f9a22ce3f4ed4c1}{%
+           family={Beniston},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=cbd86dd92c5abf2d55eaff1a4e83ba73}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=a53ded75d6f269177dbf222abd054ea5}{%
+           family={Rajczak},
+           familyi={R\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=178915d50522c2a92140a30201f0ea29}{%
+           family={Stoffel},
+           familyi={S\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8e0f153ad89b36b5fd9fc9d87b27b3f}
+      \strng{fullhash}{cac321732160023e6f8b5cf6cef116c1}
+      \strng{authornamehash}{a8e0f153ad89b36b5fd9fc9d87b27b3f}
+      \strng{authorfullhash}{cac321732160023e6f8b5cf6cef116c1}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reliable estimates of future climate change in the Alps are relevant for large parts of the European society. At the same time, the complex Alpine region poses considerable challenges to climate models, which translate to uncertainties in the climate projections. Against this background, the present study reviews the state-of-knowledge about 21st century climate change in the Alps based on existing literature and additional analyses. In particular, it explicitly considers the reliability and uncertainty of climate projections. Results show that besides Alpine temperatures, also precipitation, global radiation, relative humidity, and closely related impacts like floods, droughts, snow cover, and natural hazards will be affected by global warming. Under the A1B emission scenario, about 0.25 °C warming per decade until the mid of the 21st century and accelerated 0.36 °C warming per decade in the second half of the century is expected. Warming will probably be associated with changes in the seasonality of precipitation, global radiation, and relative humidity, and more intense precipitation extremes and flooding potential in the colder part of the year. The conditions of currently record breaking warm or hot winter or summer seasons, respectively, may become normal at the end of the 21st century, and there is indication for droughts to become more severe in the future. Snow cover is expected to drastically decrease below 1500–2000 m and natural hazards related to glacier and permafrost retreat are expected to become more frequent. Such changes in climatic parameters and related quantities will have considerable impact on ecosystems and society and will challenge their adaptive capabilities.}
+      \field{issn}{0048-9697}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{month}{9}
+      \field{title}{21st century climate change in the {European} {Alps}—{A} review}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2015}
+      \field{volume}{493}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1138\bibrangedash 1151}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.scitotenv.2013.07.050
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\R9X3IMFX\\Gobiet et al. - 2014 - 21st century climate change in the European Alps—A.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\KJZ46Q5N\\S0048969713008188.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0048969713008188
+      \endverb
+      \keyw{Climate change,Drought,Alpine region,Extremes,Natural hazards,Snow}
+    \endentry
+    \entry{goslee_optimizing_2013}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=ae0057231beb84694244b1554e3de11f}{%
+           family={Goslee},
+           familyi={G\bibinitperiod},
+           given={Sarah\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=3315764a50c09025d73fea4a50a2049a}{%
+           family={Veith},
+           familyi={V\bibinitperiod},
+           given={Tamie\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=971d5a4f982a513ba1d6a4768e5eb706}{%
+           family={Skinner},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi Howard},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=eb816c7bf8a89f8c712d323bac8c5083}{%
+           family={Comas},
+           familyi={C\bibinitperiod},
+           given={Louise\bibnamedelima H.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a153c15dcab497b33ae0ab0f56545ffe}
+      \strng{fullhash}{90f350d9ecf01653e743a1891298c2a9}
+      \strng{authornamehash}{a153c15dcab497b33ae0ab0f56545ffe}
+      \strng{authorfullhash}{90f350d9ecf01653e743a1891298c2a9}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ability to design plant communities to optimize particular ecosystem functions and thus more effectively provide ecosystem services would improve all types of ecosystem management, including agriculture. We propose a novel quantitative multi-step method for selecting mixtures of plant species to meet ecosystem objectives: collecting trait data; identifying suites of traits related to relevant community processes; relating those processes to the ecosystem functions of interest; optimizing the planted mixture; and evaluating trade-offs. This approach was tested using planted mixtures of 14 grassland species common in managed pastures of the northeastern United States. Ordination of trait data from greenhouse and small plot studies was used to relate species traits to community processes, followed by generalized additive modeling to relate community-weighted mean process scores to field estimates of biomass production and resistance to invasion. Multi-criteria optimization identified seed mixtures that maximized or minimized selected ecosystem functions, facilitating quantification of trade-offs in processual ability within species and between ecosystem functions at the community level. In this study, predicted seasonal and annual biomass values were within expected ranges, but the optimal mixtures differed from forage mixtures traditionally planted in the northeastern United States. Perennial ryegrass was the most commonly-selected grass. Legumes were represented less than expected, possibly due to attributes such as longevity and forage quality that are important in pastures but were not directly included in the optimization. Ecosystem function was not linearly related to species richness. While further research on quantitatively relating species traits and community processes is needed, multi-criteria optimization offers a new path for linking ecosystem function to ecosystem management.}
+      \field{issn}{1439-1791}
+      \field{journaltitle}{Basic and Applied Ecology}
+      \field{month}{12}
+      \field{number}{8}
+      \field{title}{Optimizing ecosystem function by manipulating pasture community composition}
+      \field{urlday}{9}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{630\bibrangedash 641}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.baae.2013.09.009
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\GKI22AIN\\Goslee et al. - 2013 - Optimizing ecosystem function by manipulating past.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\IKBN2I8X\\S1439179113001278.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1439179113001278
+      \endverb
+      \keyw{functional trait,Community process,Generalized additive modeling,Multi-criteria optimization}
+    \endentry
+    \entry{grassein_importance_2014}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=d0240a0392003ca5bc423324ebaa9ce7}{%
+           family={Grassein},
+           familyi={G\bibinitperiod},
+           given={Fabrice},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=df2fd6ab6023f5af12f978493b3f5022}{%
+           family={Till-Bottraud},
+           familyi={T\bibinithyphendelim B\bibinitperiod},
+           given={Irène},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d5565c8929522693de62736f390c9db0}
+      \strng{fullhash}{d5565c8929522693de62736f390c9db0}
+      \strng{authornamehash}{d5565c8929522693de62736f390c9db0}
+      \strng{authorfullhash}{d5565c8929522693de62736f390c9db0}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Predicting the response of species to environmental changes is a great and on-going challenge for ecologists, and this requires a more in-depth understanding of the importance of biotic interactions and the population structuration in the landscape. Using a reciprocal transplantation experiment, we tested the response of five species to an elevational gradient. This was combined to a neighbour removal treatment to test the importance of local adaptation and biotic interactions. The trait studied was performance measured as survival and biomass. Species response varied along the elevational gradient, but with no consistent pattern. Performance of species was influenced by environmental conditions occurring locally at each site, as well as by positive or negative effects of the surrounding vegetation. Indeed, we observed a shift from competition for biomass to facilitation for survival as a response to the increase in environmental stress occurring in the different sites. Unlike previous studies pointing out an increase of stress along the elevation gradient, our results supported a stress gradient related to water availability, which was not strictly parallel to the elevational gradient. For three of our species, we observed a greater biomass production for the population coming from the site where the species was dominant (central population) compared to population sampled at the limit of the distribution (marginal population). Nevertheless, we did not observe any pattern of local adaptation that could indicate adaptation of populations to a particular habitat. Altogether, our results highlighted the great ability of plant species to cope with environmental changes, with no local adaptation and great variability in response to local conditions. Our study confirms the importance of taking into account biotic interactions and population structure occurring at local scale in the prediction of communities’ responses to global environmental changes.}
+      \field{issn}{1365-2486}
+      \field{journaltitle}{Glob Change Biol}
+      \field{number}{5}
+      \field{shorttitle}{The importance of biotic interactions and local adaptation for plant response to environmental changes}
+      \field{title}{The importance of biotic interactions and local adaptation for plant response to environmental changes: field evidence along an elevational gradient}
+      \field{urlday}{12}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{volume}{20}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1452\bibrangedash 1460}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1111/gcb.12445
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\CNEUBFGK\\Grassein et al. - 2014 - The importance of biotic interactions and local ad.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\R49NANBI\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/gcb.12445/abstract
+      \endverb
+      \keyw{grassland,biotic interactions,elevational gradient,environmental changes,local adaptation,reciprocal transplantation}
+    \endentry
+    \entry{gugger_lower_2015}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=6d8fa027f50f3627f6e0ba3862f2394f}{%
+           family={Gugger},
+           familyi={G\bibinitperiod},
+           given={Simona},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=409d2acdfc5ed2a3760a0edf9f3a69a2}{%
+           family={Kesselring},
+           familyi={K\bibinitperiod},
+           given={Halil},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=8b5a077e653a13a97073be24263701d5}{%
+           family={Stöcklin},
+           familyi={S\bibinitperiod},
+           given={Jürg},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=72154164788b0f57d217632f73b2b596}{%
+           family={Hamann},
+           familyi={H\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f1eb8d87da9c9d60e7f5a7496f36aee1}
+      \strng{fullhash}{c6fd6b07aa8d8360b807dc33a75dab8c}
+      \strng{authornamehash}{f1eb8d87da9c9d60e7f5a7496f36aee1}
+      \strng{authorfullhash}{c6fd6b07aa8d8360b807dc33a75dab8c}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0305-7364, 1095-8290}
+      \field{journaltitle}{Annals of Botany}
+      \field{month}{9}
+      \field{title}{Lower plasticity exhibited by high- versus mid-elevation species in their phenological responses to manipulated temperature and drought}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{mcv155}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/aob/mcv155
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/aob/article-lookup/doi/10.1093/aob/mcv155
+      \endverb
+    \endentry
+    \entry{hamann_evidence_2016}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=72154164788b0f57d217632f73b2b596}{%
+           family={Hamann},
+           familyi={H\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=409d2acdfc5ed2a3760a0edf9f3a69a2}{%
+           family={Kesselring},
+           familyi={K\bibinitperiod},
+           given={Halil},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=c88b46fb897c429008b3969328c85cfd}{%
+           family={Armbruster},
+           familyi={A\bibinitperiod},
+           given={Georg\bibnamedelimb F.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=5c508132b5fe1805880e41aa9e0ddaa5}{%
+           family={Scheepens},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=8b5a077e653a13a97073be24263701d5}{%
+           family={Stöcklin},
+           familyi={S\bibinitperiod},
+           given={Jürg},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8538f5e1b30f2cd27bf62d0c78b4c063}
+      \strng{fullhash}{e2bc4152abd9466bafcb67e25d6b650e}
+      \strng{authornamehash}{8538f5e1b30f2cd27bf62d0c78b4c063}
+      \strng{authorfullhash}{e2bc4152abd9466bafcb67e25d6b650e}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{* In the alpine landscape, characterized by high spatiotemporal heterogeneity and barriers, divergent selection is likely to lead to local adaptation of plant populations either through adaptive genetic differentiation or through phenotypic plasticity. The relative importance of these processes has rarely been investigated in relation to the spatial scale of environmental heterogeneity. In this study, we used reciprocal transplantation experiments of populations across nearby and distant field sites to shed light on these complementary processes. * We reciprocally transplanted populations of the widespread alpine grass, Poa alpina, within and across regions in the Swiss Alps. We inferred local adaptation at the metapopulation level by comparing fitness of plants transplanted to their site of origin and to nearby or distant novel sites. Additionally, we measured specific leaf area (SLA) and performed selection analyses to investigate directional selection on mean trait value at each field site and on the degree of plasticity of this trait to assess whether plastic responses were adaptive. In parallel, all populations were genotyped with microsatellite markers to assess neutral molecular differentiation. * Molecular differentiation was high among populations within and among regions, indicating restricted gene flow among P. alpina populations. Reproductive biomass was highest in individuals grown in their region of origin, revealing local adaptation to coarse-grained environmental variability. Similarly, inflorescence height, associated with reproductive biomass, reflected adaptation to fine- and coarse-grained environmental variability. Furthermore, we found evidence that plasticity in SLA across coarse-grained habitats was correlated with plant fitness, suggesting that plasticity in this trait is adaptive. * Synthesis. Our results revealed adaptive genetic differentiation between P. alpina populations in the Swiss Alps reflecting local adaptation. Furthermore, high phenotypic plasticity in SLA contributed to the maintenance of fitness homoeostasis across habitats. Hence, adaptive genetic differentiation and phenotypic plasticity play a complementary role for adaption of P. alpina to environmental heterogeneity in the Swiss Alps and both may be critical to mitigate local extinction risk under rapid climate change.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{J Ecol}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{Evidence of local adaptation to fine- and coarse-grained environmental variability in {Poa} alpina in the {Swiss} {Alps}}
+      \field{urlday}{27}
+      \field{urlmonth}{2}
+      \field{urlyear}{2017}
+      \field{volume}{104}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1627\bibrangedash 1637}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/1365-2745.12628
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\9QEX7QBS\\Hamann et al. - 2016 - Evidence of local adaptation to fine- and coarse-g.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\NPATTDBS\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/1365-2745.12628/abstract
+      \endverb
+      \keyw{Phenotypic plasticity,adaptive potential,genetic differentiation,reciprocal transplantation experiment,sympatric vs. allopatric contrast,plant–climate interactions,spatial scale}
+    \endentry
     \entry{heger_light_2016}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=bde70a6f2105ed43a5b46388c5bb58dd}{%
@@ -20136,6 +21113,162 @@
       \endverb
       \keyw{intraspecific variation,leaf economic traits,leaf economics spectrum (LES),spatial scales,trade-offs,trait relationships,wetland plant}
     \endentry
+    \entry{intergovernmental_panel_on_climate_change_climate_2014}{book}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,hash=642e38c7fe96dcab55c47e707ce4fff7}{%
+           family={{Intergovernmental Panel on Climate Change}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \strng{fullhash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \strng{editornamehash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \strng{editorfullhash}{642e38c7fe96dcab55c47e707ce4fff7}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-107-41532-4}
+      \field{shorttitle}{Climate {Change} 2013 - {The} {Physical} {Science} {Basis}}
+      \field{title}{Climate {Change} 2013 - {The} {Physical} {Science} {Basis}: {Working} {Group} {I} {Contribution} to the {Fifth} {Assessment} {Report} of the {Intergovernmental} {Panel} on {Climate} {Change}}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324
+      \endverb
+      \verb{url}
+      \verb http://ebooks.cambridge.org/ref/id/CBO9781107415324
+      \endverb
+    \endentry
+    \entry{ishizuka_modeling_2012}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=be2bb73b926a8e6c6decb44af3f69a36}{%
+           family={Ishizuka},
+           familyi={I\bibinitperiod},
+           given={Wataru},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=48a0595aea8e691ed3e8261a79e07c62}{%
+           family={Goto},
+           familyi={G\bibinitperiod},
+           given={Susumu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{570cf2c1838a6049e7081573062e92a5}
+      \strng{fullhash}{570cf2c1838a6049e7081573062e92a5}
+      \strng{authornamehash}{570cf2c1838a6049e7081573062e92a5}
+      \strng{authorfullhash}{570cf2c1838a6049e7081573062e92a5}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Intraspecific adaptation in Abies sachalinensis was examined using models based on long-term monitoring data gathered during a reciprocal transplant experiment with eight seed source populations and six transplantation sites along an altitudinal gradient. The consequence of local adaptation was evaluated by testing the home-site advantage for upslope and downslope transplants at five ages. The populations’ fitness-linked trait was set as their productivity (tree height × survival rate) at each age. The effects of global warming were evaluated on the basis of the 36-year performance of downslope transplants. Evidence was found for adaptive genetic variation affecting both height and survival from an early age. Increasing the distance between seed source and planting site significantly reduced productivity for both upslope and downslope transplantation, demonstrating the existence of a significant home-site advantage. The decrease in productivity was most distinct for upslope transplantations, indicating strong local adaptation to high altitudes. Global warming is predicted to increase the productivity of high-altitude populations. However, owing to their existing local adaptation, all tested populations exhibited lower productivity under warming than demes that were optimal for the new climate. These negative predictions should be considered when planning the management of locally adapted plant species such as A. sachalinensis.}
+      \field{issn}{1752-4571}
+      \field{journaltitle}{Evolutionary Applications}
+      \field{month}{4}
+      \field{number}{3}
+      \field{title}{Modeling intraspecific adaptation of {Abies} sachalinensis to local altitude and responses to global warming, based on a 36-year reciprocal transplant experiment}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{volume}{5}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{229\bibrangedash 244}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1752-4571.2011.00216.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6A2VP879\\Ishizuka et Goto - 2012 - Modeling intraspecific adaptation of Abies sachali.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\5WEIQWCX\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1752-4571.2011.00216.x/abstract
+      \endverb
+      \keyw{productivity,local adaptation,Abies sachalinensis,altitudinal gradient,global warming,home-site advantage,long-term data,reciprocal transplant experiment}
+    \endentry
+    \entry{john_anatomical_2017}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=a6f1722bcd515f2ce1835c8f375fd1c9}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Grace\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=e47a5a98322bd1dc29c368d5660950c1}{%
+           family={Scoffoni},
+           familyi={S\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=33cac1020c7cf41db7db83ed82131140}{%
+           family={Buckley},
+           familyi={B\bibinitperiod},
+           given={Thomas\bibnamedelima N.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=2632650f1a99ff7322d26a87c62c4554}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=3b9da0823bd35f23e19d543138c13dd7}{%
+           family={Sack},
+           familyi={S\bibinitperiod},
+           given={Lawren},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9d5461313fbc798bbbdc0a5b3ba619a4}
+      \strng{fullhash}{7669f9f7259ee23e037268cbdf166e34}
+      \strng{authornamehash}{9d5461313fbc798bbbdc0a5b3ba619a4}
+      \strng{authorfullhash}{7669f9f7259ee23e037268cbdf166e34}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Leaf dry mass per unit leaf area (LMA) is a central trait in ecology, but its anatomical and compositional basis has been unclear. An explicit mathematical and physical framework for quantifying the cell and tissue determinants of LMA will enable tests of their influence on species, communities and ecosystems. We present an approach to explaining LMA from the numbers, dimensions and mass densities of leaf cells and tissues, which provided unprecedented explanatory power for 11 broadleaved woody angiosperm species diverse in LMA (33–262 g m−2; R2 = 0.94; P {<} 0.001). Across these diverse species, and in a larger comparison of evergreen vs. deciduous angiosperms, high LMA resulted principally from larger cell sizes, greater major vein allocation, greater numbers of mesophyll cell layers and higher cell mass densities. This explicit approach enables relating leaf anatomy and composition to a wide range of processes in physiological, evolutionary, community and macroecology.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecol Lett}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{The anatomical and compositional basis of leaf mass per area}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{volume}{20}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{412\bibrangedash 425}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/ele.12739
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\G7M2F9H9\\John et al. - 2017 - The anatomical and compositional basis of leaf mas.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\QFZS9XRG\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/ele.12739/abstract
+      \endverb
+      \keyw{evergreen,leaf thickness,SLA,functional traits,Deciduous,leaf anatomy,leaf density,leaf economics,mesophyll,specific leaf area}
+    \endentry
     \entry{kichenin_contrasting_2013}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,hash=4af912481f39f09ec65c4ed146b69fb5}{%
@@ -20246,6 +21379,250 @@
       \endverb
       \verb{url}
       \verb http://doi.wiley.com/10.1111/j.1469-8137.2007.02296.x
+      \endverb
+    \endentry
+    \entry{lamarque_plant_2014}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=82c45278c7bda5f5aa61adfb1417f744}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={Pénélope},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=eb88b61bd12ae5ac106d4f3c6291822c}{%
+           family={Mouchet},
+           familyi={M\bibinitperiod},
+           given={Maud},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b0ad98f5991cb415c688c3b19156dfdd}{%
+           family={Quétier},
+           familyi={Q\bibinitperiod},
+           given={Fabien},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e6cc225edff0d535c67f3fbab6d86a55}
+      \strng{fullhash}{12dd07a7bca7bea2e57c692ad9942ced}
+      \strng{authornamehash}{e6cc225edff0d535c67f3fbab6d86a55}
+      \strng{authorfullhash}{12dd07a7bca7bea2e57c692ad9942ced}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Land use and climate change are primary causes of changes in the supply of ecosystem services (ESs). Although the consequences of climate change on ecosystem properties and associated services are well documented, the cascading impacts of climate change on ESs through changes in land use are largely overlooked. We present a trait-based framework based on an empirical model to elucidate how climate change affects tradeoffs among ESs. Using alternative scenarios for mountain grasslands, we predicted how direct effects of climate change on ecosystems and indirect effects through farmers’ adaptations are likely to affect ES bundles through changes in plant functional properties. ES supply was overall more sensitive to climate than to induced management change, and ES bundles remained stable across scenarios. These responses largely reflected the restricted extent of management change in this constrained system, which was incorporated when scaling up plot level climate and management effects on ecosystem properties to the entire landscape. The trait-based approach revealed how the combination of common driving traits and common responses to changed fertility determined interactions and tradeoffs among ESs.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{PNAS}
+      \field{month}{9}
+      \field{number}{38}
+      \field{title}{Plant trait-based models identify direct and indirect effects of climate change on bundles of grassland ecosystem services}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{111}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{13751\bibrangedash 13756}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.1216051111
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\VJC4B9MV\\Lamarque et al. - 2014 - Plant trait-based models identify direct and indir.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\W7EFS753\\13751.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/111/38/13751
+      \endverb
+      \keyw{global change,trade-offs,plant functional traits,mountain agriculture}
+    \endentry
+    \entry{lavorel_how_2012}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7c6fb208b70321078d97be53e9a8836f}
+      \strng{fullhash}{7c6fb208b70321078d97be53e9a8836f}
+      \strng{authornamehash}{7c6fb208b70321078d97be53e9a8836f}
+      \strng{authorfullhash}{7c6fb208b70321078d97be53e9a8836f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. Ecosystem services (ES) lie at the core of the interactions among humans and ecosystems. Fundamental understanding of the ecological mechanisms underlying the simultaneous provision of multiple ES has been lagging behind policy and management needs and stands out as a research priority. In this paper, we focus on interactions between ES resulting from fundamental functional mechanisms. 2. Plant diversity contributes significantly to the delivery of ES. Specifically, functional composition strongly determines different ecosystem properties and services. Knowledge on associations and trade-offs among different plant traits is well established, but the consequences for ecosystem functioning and the resulting ability for ecosystems to provide multiple services have only started to be explored. We present a conceptual framework linking environmental change to changes in ecosystem functioning and to changes in ES through plant traits. We explicitly consider the leaf economics and size axes of plant functional variation, and how their responses to key environmental variables are expected to scale-up to ecosystem properties and ES. 3. The framework was tested using a structural equation modelling formalism to understand the trait-based mechanisms driving trade-offs in ES in mountain grasslands. Variations along the leaf economics spectrum (LES) towards more exploitative strategies in response to increasing fertility led to a combined increase in several ES valued by local stakeholders, including agronomic value, cultural value and soil water retention. Surprisingly, and contrary to published hypotheses, soil carbon sequestration in the studied subalpine system did not increase at lower fertility which was associated with more conservative plant strategies. Independent variation in LES and height provided alternative pathways to biomass production. 4. Synthesis: A trait-based framework can support the understanding and aid the management of multiple ES. We recommend testing this framework in a variety of contexts and at larger scales, using additional trait axes such as wood density or seed size.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{Journal of Ecology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{How fundamental plant functional trait relationships scale-up to trade-offs and synergies in ecosystem services}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{128\bibrangedash 140}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/j.1365-2745.2011.01914.x
+      \endverb
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\3MNKGZGK\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2011.01914.x/abstract
+      \endverb
+      \keyw{structural equation model,leaf economics spectrum,plant–soil (below-ground) interactions,multifunctionality,fertility,biodiversity effects,ecological intensification of agriculture,mountain grassland,plant size,secondary succession}
+    \endentry
+    \entry{lavorel_using_2011}{article}{}
+      \name{author}{8}{uniquelist=2}{%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=82c45278c7bda5f5aa61adfb1417f744}{%
+           family={Lamarque},
+           familyi={L\bibinitperiod},
+           given={Pénélope},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=fa6749694038c432eec9ee83de41d1a4}{%
+           family={Colace},
+           familyi={C\bibinitperiod},
+           given={Marie-Pascale},
+           giveni={M\bibinithyphendelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=0c12b83ca3df70da4612a907b0bf6bfd}{%
+           family={Garden},
+           familyi={G\bibinitperiod},
+           given={Denys},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=9224dec3be59378819d972c0008f8d30}{%
+           family={Girel},
+           familyi={G\bibinitperiod},
+           given={Jacky},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=667195f9eb77cc33ba61c6a0b0affe39}{%
+           family={Pellet},
+           familyi={P\bibinitperiod},
+           given={Gilles},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=9a328b78939f50583bdd8376d5527985}{%
+           family={Douzet},
+           familyi={D\bibinitperiod},
+           given={Rolland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a78344e8794081ac06fe939b7b4cadc9}
+      \strng{fullhash}{03d8727ceeeb75e7330e5032eac85956}
+      \strng{authornamehash}{a78344e8794081ac06fe939b7b4cadc9}
+      \strng{authorfullhash}{03d8727ceeeb75e7330e5032eac85956}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. Spatially explicit understanding of the delivery of multiple ecosystem services (ES) from global to local scales is currently limited. New studies analysing the simultaneous provision of multiple services at landscape scale should aid the understanding of multiple ES delivery and trade-offs to support policy, management and land planning. 2. Here, we propose a new approach for the analysis, mapping and understanding of multiple ES delivery in landscapes. Spatially explicit single ES models based on plant traits and abiotic characteristics are combined to identify ‘hot’ and ‘cold’ spots of multiple ES delivery, and the land use and biotic determinants of such distributions. We demonstrate the value of this trait-based approach as compared to a pure land-use approach for a pastoral landscape from the central French Alps, and highlight how it improves understanding of ecological constraints to, and opportunities for, the delivery of multiple services. 3. Vegetative height and leaf traits such as leaf dry matter content were response traits strongly influenced by land use and abiotic environment, with follow-on effects on several ecosystem properties, and could therefore be used as functional markers of ES. 4. Patterns of association among ES were related to the dominant traits underlying different ecosystem properties. The functional decoupling between height and leaf traits provided alternative pathways for high agronomic value, as well as determining hot and cold spots of ES. Traditional land uses such as organic fertilization and mowing or altitude summer grazing were also linked with ES hot spots, because functional characteristics supporting fodder production and quality are compatible with species and functional diversity. 5. Synthesis. Analyses of ES using plant functional variation across landscapes are a powerful approach to understanding the fundamental ecological mechanisms underlying ES provision, and trade-offs or synergies among services. Sustainable management of species and functionally diverse grassland could simultaneously aim at conserving biodiversity and locally important ES by taking advantage of correlations and trade-offs among different plant functional traits.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{Journal of Ecology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Using plant functional traits to understand the landscape distribution of multiple ecosystem services}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{99}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{135\bibrangedash 147}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/j.1365-2745.2010.01753.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\ZR97D38I\\Lavorel et al. - 2011 - Using plant functional traits to understand the la.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\86463939\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2010.01753.x/abstract
+      \endverb
+      \keyw{determinants of plant community diversity and structure,plant functional traits,ecosystem services,functional trade-offs,landscape modelling,mountain grassland management}
+    \endentry
+    \entry{lepik_high_2005}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9ffafd204dc84c818f401f79db1a76e2}{%
+           family={Lepik},
+           familyi={L\bibinitperiod},
+           given={Mari},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=6be3c9cd88f3e091ac7423cb2994d2db}{%
+           family={Liira},
+           familyi={L\bibinitperiod},
+           given={Jaan},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=ed74bd3f6d6d68d583631ab4c0bb4ea3}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Kristjan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{fullhash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{authornamehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{authorfullhash}{559ecd2456274df7d21a8441fabb528a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Several theoretical considerations imply that high shoot morphological plasticity could increase competition symmetry and favour plant coexistence. We tested whether mean plasticity across co-occurring species is a key trait for explaining ramet density and species richness in herbaceous vegetation. We used three data sets to test the hypotheses: (a) experimentally achieved estimates of plasticity to light availability for 35 herbaceous species; (b) richness, ramet density and canopy architecture data from 17 herbaceous communities; (c) species richness data from a 5-year permanent-plot study in a calcareous grassland. In herbaceous communities containing species with relatively higher shoot plasticity, ramet density was significantly higher. Consequently, relatively more species were growing per unit area—a greater proportion of the community species pool was represented on 1 m2. In the permanent plot study species-richness was higher in those 40×40 cm quadrats where species with high shoot plasticity prevailed—there was a positive regression of richness on the mean plasticity of species. This relationship was highly significant in five consecutive years. Our results suggest that shoot plasticity to light availability is evidently one of the key traits in processes that alter the density of co-existing plants and, therefore, species diversity in herbaceous communities.}
+      \field{issn}{0029-8549, 1432-1939}
+      \field{journaltitle}{Oecologia}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{High shoot plasticity favours plant coexistence in herbaceous vegetation}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{145}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{465\bibrangedash 474}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00442-005-0142-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\7FVA7UZQ\\Lepik et al. - 2005 - High shoot plasticity favours plant coexistence in.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\WWAJQNRV\\10.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/article/10.1007/s00442-005-0142-0
       \endverb
     \endentry
     \entry{lohier_analyse_2016}{misc}{}
@@ -20408,6 +21785,123 @@
       \endverb
       \keyw{specific leaf area,global change,leaf lifespan,canopy carbon export,forest model,leaf-area index,leaf-trait relationships,maximization,nitrogen-use efficiency,optimal plant function,optimality,photosynthesis model,plant carbon–nitrogen economy}
     \endentry
+    \entry{morin_temporal_2014}{article}{}
+      \name{author}{5}{uniquelist=2}{%
+        {{uniquename=0,hash=70b2f8355e788b89c3e7709214800a79}{%
+           family={Morin},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{uniquename=0,hash=d20df31cd7cfe4aae5cbda0323e576f6}{%
+           family={Fahse},
+           familyi={F\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=bd85dbaca9cc9adcbd782b2c44f97529}{%
+           family={Mazancourt},
+           familyi={M\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=ccacb7a2a6a66aafe508e7915f641d56}{%
+           family={Scherer-Lorenzen},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=88464d349ab05e8a66fca5fad7d62215}{%
+           family={Bugmann},
+           familyi={B\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6518d24b1c8adace3b9a373df8b61e79}
+      \strng{fullhash}{52b39bc83cf5faee2c472fc445cf70ea}
+      \strng{authornamehash}{6518d24b1c8adace3b9a373df8b61e79}
+      \strng{authorfullhash}{52b39bc83cf5faee2c472fc445cf70ea}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Theory predicts a positive relationship between biodiversity and stability in ecosystem properties, while diversity is expected to have a negative impact on stability at the species level. We used virtual experiments based on a dynamic simulation model to test for the diversity–stability relationship and its underlying mechanisms in Central European forests. First our results show that variability in productivity between stands differing in species composition decreases as species richness and functional diversity increase. Second we show temporal stability increases with increasing diversity due to compensatory dynamics across species, supporting the biodiversity insurance hypothesis. We demonstrate that this pattern is mainly driven by the asynchrony of species responses to small disturbances rather than to environmental fluctuations, and is only weakly affected by the net biodiversity effect on productivity. Furthermore, our results suggest that compensatory dynamics between species may enhance ecosystem stability through an optimisation of canopy occupancy by coexisting species.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecol Lett}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Temporal stability in forest productivity increases with tree diversity due to asynchrony in species dynamics}
+      \field{urlday}{21}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{volume}{17}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{1526\bibrangedash 1535}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/ele.12357
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\CVJVGU95\\Morin et al. - 2014 - Temporal stability in forest productivity increase.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\TM3V9B4N\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/ele.12357/abstract
+      \endverb
+      \keyw{Asynchrony,biodiversity,ecosystem functioning,ecosystem predictability,forests,gap model,insurance hypothesis,productivity,stability,structural equation model}
+    \endentry
+    \entry{morin_comparing_2009}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=70b2f8355e788b89c3e7709214800a79}{%
+           family={Morin},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{uniquename=0,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a8ac53469d7723fc7ee59ea33a4f0df1}
+      \strng{fullhash}{a8ac53469d7723fc7ee59ea33a4f0df1}
+      \strng{authornamehash}{a8ac53469d7723fc7ee59ea33a4f0df1}
+      \strng{authorfullhash}{a8ac53469d7723fc7ee59ea33a4f0df1}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Obtaining reliable predictions of species range shifts under climate change is a crucial challenge for ecologists and stakeholders. At the continental scale, niche-based models have been widely used in the last 10 years to predict the potential impacts of climate change on species distributions all over the world, although these models do not include any mechanistic relationships. In contrast, species-specific, process-based predictions remain scarce at the continental scale. This is regrettable because to secure relevant and accurate predictions it is always desirable to compare predictions derived from different kinds of models applied independently to the same set of species and using the same raw data. Here we compare predictions of range shifts under climate change scenarios for 2100 derived from niche-based models with those of a process-based model for 15 North American boreal and temperate tree species. A general pattern emerged from our comparisons: niche-based models tend to predict a stronger level of extinction and a greater proportion of colonization than the process-based model. This result likely arises because niche-based models do not take phenotypic plasticity and local adaptation into account. Nevertheless, as the two kinds of models rely on different assumptions, their complementarity is revealed by common findings. Both modeling approaches highlight a major potential limitation on species tracking their climatic niche because of migration constraints and identify similar zones where species extirpation is likely. Such convergent predictions from models built on very different principles provide a useful way to offset uncertainties at the continental scale. This study shows that the use in concert of both approaches with their own caveats and advantages is crucial to obtain more robust results and that comparisons among models are needed in the near future to gain accuracy regarding predictions of range shifts under climate change.}
+      \field{issn}{1939-9170}
+      \field{journaltitle}{Ecology}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Comparing niche- and process-based models to reduce prediction uncertainty in species range shifts under climate change}
+      \field{urlday}{15}
+      \field{urlmonth}{12}
+      \field{urlyear}{2017}
+      \field{volume}{90}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{1301\bibrangedash 1313}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1890/08-0134.1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\C893SXED\\Morin et Thuiller - 2009 - Comparing niche- and process-based models to reduc.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9CXKVLWS\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1890/08-0134.1/abstract
+      \endverb
+      \keyw{biodiversity,biogeography,climate change,extinction,migration,niche-based modeling,process-based modeling,species distribution}
+    \endentry
     \entry{murren_constraints_2015}{article}{}
       \name{author}{16}{}{%
         {{uniquename=0,hash=03dfe4138d0dcf3f9dde89b4d3d60387}{%
@@ -20526,7 +22020,7 @@
     \endentry
     \entry{nicotra_plant_2010}{article}{}
       \name{author}{11}{}{%
-        {{uniquename=0,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
+        {{uniquename=2,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
            family={Nicotra},
            familyi={N\bibinitperiod},
            given={A.\bibnamedelimi B.},
@@ -20616,6 +22110,76 @@
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/S1360138510001986
       \endverb
+    \endentry
+    \entry{nicotra_adaptive_2015}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=2,hash=c8ee58ff0a461a6e5f4b895e0efb73ae}{%
+           family={Nicotra},
+           familyi={N\bibinitperiod},
+           given={Adrienne\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=7b64fe8d09e9dac729ba8ff2e0cd7fed}{%
+           family={Segal},
+           familyi={S\bibinitperiod},
+           given={Deborah\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=bb83c735ebea05e63e81d6db373125da}{%
+           family={Hoyle},
+           familyi={H\bibinitperiod},
+           given={Gemma\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=4d835901735485d2e975055a3011a6d6}{%
+           family={Schrey},
+           familyi={S\bibinitperiod},
+           given={Aaron\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=f0d1abffd4207ed586081d045671ae42}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={Koen\bibnamedelimb J.\bibnamedelimi F.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=5b6fd28c97ce8591c1d0d0098399a8cf}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Christina\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{fullhash}{31098619250de14af172a06c276ec6f2}
+      \strng{authornamehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{authorfullhash}{31098619250de14af172a06c276ec6f2}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Environmentally induced phenotypic plasticity may be a critical component of response to changing environments. We examined local differentiation and adaptive phenotypic plasticity in response to elevated temperature in half-sib lines collected across an elevation gradient for the alpine herb, Wahlenbergia ceracea. Using Amplified Fragment Length Polymorphism (AFLP), we found low but significant genetic differentiation between low- and high-elevation seedlings, and seedlings originating from low elevations grew faster and showed stronger temperature responses (more plasticity) than those from medium and high elevations. Furthermore, plasticity was more often adaptive for plants of low-elevation origin and maladaptive for plants of high elevation. With methylation sensitive-AFLP (MS-AFLP), we revealed an increase in epigenetic variation in response to temperature in low-elevation seedlings. Although we did not find significant direct correlations between MS-AFLP loci and phenotypes, our results demonstrate that adaptive plasticity in temperature response to warming varies over fine spatial scales and suggest the involvement of epigenetic mechanisms in this response.}
+      \field{issn}{2045-7758}
+      \field{journaltitle}{Ecol Evol}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Adaptive plasticity and epigenetic variation in response to warming in an {Alpine} plant}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{634\bibrangedash 647}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/ece3.1329
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\SG7WESVJ\\Nicotra et al. - 2015 - Adaptive plasticity and epigenetic variation in re.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\5WFR77RN\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/ece3.1329/abstract
+      \endverb
+      \keyw{alpine plants,epigenetics,global warming,Adaptive plasticity,DNA methylation,amplified fragment length polymorphism}
     \endentry
     \entry{perez-ramos_tradeoffs_2013}{article}{}
       \name{author}{5}{}{%
@@ -20792,6 +22356,87 @@
       \verb http://dx.doi.org/10.1371/journal.pone.0119786
       \endverb
     \endentry
+    \entry{roumet_root_2016}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,hash=5fd127d49aaa74f15c0d8e1c03eb8ad2}{%
+           family={Roumet},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=b9a9bdf58f91c0d46cd1f2948bcabffc}{%
+           family={Birouste},
+           familyi={B\bibinitperiod},
+           given={Marine},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=96a73018bad3115074bc124bded00428}{%
+           family={Picon-Cochard},
+           familyi={P\bibinithyphendelim C\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=bb58853003831f89b2e609e5e6dae696}{%
+           family={Ghestem},
+           familyi={G\bibinitperiod},
+           given={Murielle},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=75a2f3566772f9d9492524c75e9cc055}{%
+           family={Osman},
+           familyi={O\bibinitperiod},
+           given={Normaniza},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=5a12ac56a9d92b4207f80760a89e0786}{%
+           family={Vrignon-Brenas},
+           familyi={V\bibinithyphendelim B\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=e5f2ed6180dfedeb702d3e7874783b08}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Kun-fang},
+           giveni={K\bibinithyphendelim f\bibinitperiod}}}%
+        {{uniquename=0,hash=1d3af32c70bff3df87b38251f3f65344}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={Alexia},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{82fc8eaec09d59e0048870c9ca13b157}
+      \strng{fullhash}{dcea248eef556dc6f27ddeda2b5d0164}
+      \strng{authornamehash}{82fc8eaec09d59e0048870c9ca13b157}
+      \strng{authorfullhash}{dcea248eef556dc6f27ddeda2b5d0164}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* Although fine roots are important components of the global carbon cycle, there is limited understanding of root structure–function relationships among species. We determined whether root respiration rate and decomposability, two key processes driving carbon cycling but always studied separately, varied with root morphological and chemical traits, in a coordinated way that would demonstrate the existence of a root economics spectrum (RES). * Twelve traits were measured on fine roots (diameter ≤ 2 mm) of 74 species (31 graminoids and 43 herbaceous and dwarf shrub eudicots) collected in three biomes. * The findings of this study support the existence of a RES representing an axis of trait variation in which root respiration was positively correlated to nitrogen concentration and specific root length and negatively correlated to the root dry matter content, lignin : nitrogen ratio and the remaining mass after decomposition. This pattern of traits was highly consistent within graminoids but less consistent within eudicots, as a result of an uncoupling between decomposability and morphology, and of heterogeneity of individual roots of eudicots within the fine-root pool. * The positive relationship found between root respiration and decomposability is essential for a better understanding of vegetation–soil feedbacks and for improving terrestrial biosphere models predicting the consequences of plant community changes for carbon cycling.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytol}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shorttitle}{Root structure–function relationships in 74 species}
+      \field{title}{Root structure–function relationships in 74 species: evidence of a root economics spectrum related to carbon economy}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{210}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{815\bibrangedash 826}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/nph.13828
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\XV8T7JVQ\\Roumet et al. - 2016 - Root structure–function relationships in 74 specie.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\REXCR7UP\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.13828/abstract
+      \endverb
+      \keyw{economics spectrum,eudicots,fine-root traits,graminoids,Nitrogen,Plant diversity,root decomposability,Root respiration}
+    \endentry
     \entry{ryser_consequences_2000}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
@@ -20836,6 +22481,65 @@
       \endverb
       \verb{url}
       \verb http://www.jstor.org/stable/2656636
+      \endverb
+    \endentry
+    \entry{tilman_diversity_2001}{article}{}
+      \name{author}{6}{uniquelist=2}{%
+        {{uniquename=0,hash=56e145e8f70192e123c180987985ea9b}{%
+           family={Tilman},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=43e2b631870a3101e1a937b6b608a80a}{%
+           family={Knops},
+           familyi={K\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=944fff301bffa1baf4f91c68089076df}{%
+           family={Wedin},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=9eb449c93cb77d09eef62488b4fe109f}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Troy},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=b746ae43f6b604d4571b7407a76b7751}{%
+           family={Lehman},
+           familyi={L\bibinitperiod},
+           given={Clarence},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{18a93760291aaa18f5baa38d06dec967}
+      \strng{fullhash}{cacc7b702d70fff0542cb6d42b60b6c6}
+      \strng{authornamehash}{18a93760291aaa18f5baa38d06dec967}
+      \strng{authorfullhash}{cacc7b702d70fff0542cb6d42b60b6c6}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plant diversity and niche complementarity had progressively stronger effects on ecosystem functioning during a 7-year experiment, with 16-species plots attaining 2.7 times greater biomass than monocultures. Diversity effects were neither transients nor explained solely by a few productive or unviable species. Rather, many higher-diversity plots outperformed the best monoculture. These results help resolve debate over biodiversity and ecosystem functioning, show effects at higher than expected diversity levels, and demonstrate, for these ecosystems, that even the best-chosen monocultures cannot achieve greater productivity or carbon stores than higher-diversity sites.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{5543}
+      \field{title}{Diversity and {Productivity} in a {Long}-{Term} {Grassland} {Experiment}}
+      \field{urlday}{14}
+      \field{urlmonth}{11}
+      \field{urlyear}{2017}
+      \field{volume}{294}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{843\bibrangedash 845}
+      \range{pages}{3}
+      \verb{url}
+      \verb http://www.jstor.org/stable/3085075
       \endverb
     \endentry
     \entry{tilman_diversity_2014}{article}{}
@@ -21031,6 +22735,161 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2004.01296.x/abstract
       \endverb
       \keyw{shade avoidance,cost of plasticity,G × E interactions,genetic variation in plasticity,induced resistance,plasticity genes}
+    \endentry
+    \entry{wang_asymmetric_2014}{article}{}
+      \name{author}{23}{}{%
+        {{uniquename=0,hash=3df1c74ef9909aa2201e65c44ae1f2e0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=9c6578614f56dea36b3b419bfe644240}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={F.\bibnamedelimi D.},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=3187a6d9b2e4bcd64cd310b9f29edc0b}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=bd6e78507cd4bfa21bad555fbdae5c0a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.\bibnamedelimi F.},
+           giveni={Y\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=0b2b92bbc21bf4b25ace338154ccd46b}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={X.\bibnamedelimi Y.},
+           giveni={X\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=e84c4a2a7c1bf2fb6ba3eb8bd1ba8607}{%
+           family={Piao},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=ccfb0c539bf7a3550654fcf09377af50}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={H.\bibnamedelimi S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=09beb3a2cbb2094c63d6d32c31806472}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=9cd84b9e5670308796e85557043b526a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={C.\bibnamedelimi Y.},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=b5abe05ce39ea9e25c8712a874876f21}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Z.\bibnamedelimi H.},
+           giveni={Z\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=bb419da78038b7dac27894e7988162d5}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={X.\bibnamedelimi X.},
+           giveni={X\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{uniquename=0,hash=cf4e40d5cf7b4293320f68adbcccc8f3}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=8927460f055714f47b8cdc62cef111b2}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Y.\bibnamedelimi N.},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=e51768f7497e00b5cefb6f7e4d8ad9a1}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{uniquename=0,hash=ccc2dea54b82ce68c27a95ee0dc8cee1}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Y.\bibnamedelimi H.},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=0135eb9d9fd50dff33f3eca6077895f5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={X.\bibnamedelimi Q.},
+           giveni={X\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{uniquename=0,hash=38cb41bc2f0347da8980eb3e7edf8332}{%
+           family={Ciais},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{uniquename=0,hash=0292e0abe649537f11569f6d423079bc}{%
+           family={Kimball},
+           familyi={K\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=c011d3f1e0be864e9dc81dfe2cd6826d}{%
+           family={Peñuelas},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=860fee5417415f7ca5421d2018ab2394}{%
+           family={Janssens},
+           familyi={J\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=8c0716a41a114c924511d57b9f4d2cc1}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=99b12822f8310533971a287caad4524c}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=5d36054b96132f6ad049b4d72c0b7398}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={F.\bibnamedelimi W.},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8081472599ac29285aeaae49ec82365d}
+      \strng{fullhash}{583434762f09bd51607b1f6cdcaf42bf}
+      \strng{authornamehash}{8081472599ac29285aeaae49ec82365d}
+      \strng{authorfullhash}{583434762f09bd51607b1f6cdcaf42bf}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding how flowering phenology responds to warming and cooling (i.e., symmetric or asymmetric response) is needed to predict the response of flowering phenology to future climate change that will happen with the occurrence of warm and cold years superimposed upon a long-term trend. A three-year reciprocal translocation experiment was performed along an elevation gradient from 3200 m to 3800 m in the Tibetan Plateau for six alpine plants. Transplanting to lower elevation (warming) advanced the first flowering date (FFD) and transplanting to higher elevation (cooling) had the opposite effect. The FFD of early spring flowering plants (ESF) was four times less sensitive to warming than to cooling (by −2.1 d/°C and 8.4 d/°C, respectively), while midsummer flowering plants (MSF) were about twice as sensitive to warming than to cooling (−8.0 d/°C and 4.9 d/°C, respectively). Compared with pooled warming and cooling data, warming alone significantly underpredicted 3.1 d/°C for ESF and overestimated 1.7 d/°C for MSF. These results suggest that future empirical and experimental studies should consider nonlinear temperature responses that can cause such warming–cooling asymmetries as well as differing life strategies (ESF vs. MSF) among plant species.}
+      \field{issn}{1939-9170}
+      \field{journaltitle}{Ecology}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Asymmetric sensitivity of first flowering date to warming and cooling in alpine plants}
+      \field{urlday}{13}
+      \field{urlmonth}{1}
+      \field{urlyear}{2016}
+      \field{volume}{95}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{3387\bibrangedash 3398}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1890/13-2235.1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\HVRDHAVK\\Wang et al. - 2014 - Asymmetric sensitivity of first flowering date to .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\EWNEPK9T\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1890/13-2235.1/abstract
+      \endverb
+      \keyw{Tibetan Plateau,first flowering date,global warming,early spring flowering,midsummer flowering,temperature sensitivity,warming and cooling}
     \endentry
     \entry{wellstein_intraspecific_2013}{article}{}
       \name{author}{7}{}{%
@@ -21433,8 +23292,9 @@
       \keyw{biodiversity}
     \endentry
   \endsortlist
-  \missing{tilman_density_2014}
+  \missing{lafond_reconciling_2015}
   \missing{auld_re-evaluationg_2009}
+  \missing{tilman_density_2014}
 \endrefsection
 \endinput
 
