@@ -4811,6 +4811,102 @@
       \endverb
       \keyw{intraspecific variability,temperature,plant functional traits,alpine ecosystems,environmental gradients,linear mixed models,Leaf traits,life forms,radiation,response surface methodology}
     \endentry
+    \entry{alexander_plant_2016}{article}{}
+      \name{author}{12}{}{%
+        {{uniquename=0,hash=4a5a4538548ae367f5059852b82e00b0}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Jake\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=f7c157e796e19e1b3e94bbbba24bf763}{%
+           family={Lembrechts},
+           familyi={L\bibinitperiod},
+           given={Jonas\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=5735e1901b4fb5b81a58cefef85a5159}{%
+           family={Cavieres},
+           familyi={C\bibinitperiod},
+           given={Lohengrin\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=accdc58b3c9afdec14f8cdca4ce7a494}{%
+           family={Daehler},
+           familyi={D\bibinitperiod},
+           given={Curtis},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=7a7c2ba7983e246fc5cce1e269e3294a}{%
+           family={Haider},
+           familyi={H\bibinitperiod},
+           given={Sylvia},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=86ca18fa4f60802de55eeabd2057b3c6}{%
+           family={Kueffer},
+           familyi={K\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=baca2d4cc45983e734aa75be8b4b653a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=0c5347eec742ca87c2e654bf712d378f}{%
+           family={McDougall},
+           familyi={M\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=2fa0eebd33d171113d14d41c86d8e990}{%
+           family={Milbau},
+           familyi={M\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=1cc17936cab91f0d4a2e20d22efa7beb}{%
+           family={Pauchard},
+           familyi={P\bibinitperiod},
+           given={Aníbal},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=73e7f5dd63b67eafd03a9b426123668a}{%
+           family={Rew},
+           familyi={R\bibinitperiod},
+           given={Lisa\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=9da1c1d2d50f731fd678728e710e3f87}{%
+           family={Seipel},
+           familyi={S\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{91b0890f3d981de8fffc017271c66dbe}
+      \strng{fullhash}{5cc64665a1cab3a04713fedd27dcbc0a}
+      \strng{authornamehash}{91b0890f3d981de8fffc017271c66dbe}
+      \strng{authorfullhash}{5cc64665a1cab3a04713fedd27dcbc0a}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1664-2201, 1664-221X}
+      \field{journaltitle}{Alpine Botany}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shorttitle}{Plant invasions into mountains and alpine ecosystems}
+      \field{title}{Plant invasions into mountains and alpine ecosystems: current status and future challenges}
+      \field{urlday}{10}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{volume}{126}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{89\bibrangedash 103}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s00035-016-0172-8
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s00035-016-0172-8
+      \endverb
+    \endentry
     \entry{amarasekare_competitive_2003}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=ee00ad5feccd4e69554fccc1acfe12a3}{%
@@ -7050,6 +7146,71 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1654-1103.2011.01350.x/abstract
       \endverb
       \keyw{Trait correlations,Water stress,Community-weighted mean,Eastern Morocco,Fourth-corner analysis,grazing,Precipitation fluctuation}
+    \endentry
+    \entry{freschet_plasticity_2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
+           family={Freschet},
+           familyi={F\bibinitperiod},
+           given={Grégoire\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=f06f9ac8e734e8afc8317c7ed4b6dd97}{%
+           family={Bellingham},
+           familyi={B\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=33b9ebab819380c4ef913d0e324b3854}{%
+           family={Lyver},
+           familyi={L\bibinitperiod},
+           given={Philip\bibnamedelima O'B.},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{uniquename=0,hash=56c59a33be77d9c91d4125f6d97b12db}{%
+           family={Bonner},
+           familyi={B\bibinitperiod},
+           given={Karen\bibnamedelima I.},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=2a36cd6a6a37d4a5ab6dbc29193dea60}{%
+           family={Wardle},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{52f53bb56f6c58a78100ee3e80c4e153}
+      \strng{fullhash}{aea886c1f7eb1e0314c394903a17830f}
+      \strng{authornamehash}{52f53bb56f6c58a78100ee3e80c4e153}
+      \strng{authorfullhash}{aea886c1f7eb1e0314c394903a17830f}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Functional trait plasticity is a major component of plant adjustment to environmental stresses. Here, we explore how multiple local environmental gradients in resources required by plants (light, water, and nutrients) and soil disturbance together influence the direction and amplitude of intraspecific changes in leaf and fine root traits that facilitate capture of these resources. We measured population-level analogous above- and belowground traits related to resource acquisition, i.e. “specific leaf area”–“specific root length” (SLA–SRL), and leaf and root N, P, and dry matter content (DMC), on three dominant understory tree species with contrasting carbon and nutrient economics across 15 plots in a temperate forest influenced by burrowing seabirds. We observed similar responses of the three species to the same single environmental influences, but partially species-specific responses to combinations of influences. The strength of intraspecific above- and belowground trait responses appeared unrelated to species resource acquisition strategy. Finally, most analogous leaf and root traits (SLA vs. SRL, and leaf versus root P and DMC) were controlled by contrasting environmental influences. The decoupled responses of above- and belowground traits to these multiple environmental factors together with partially species-specific adjustments suggest complex responses of plant communities to environmental changes, and potentially contrasting feedbacks of plant traits with ecosystem properties. We demonstrate that despite the growing evidence for broadly consistent resource-acquisition strategies at the whole plant level among species, plants also show partially decoupled, finely tuned strategies between above- and belowground parts at the intraspecific level in response to their environment. This decoupling within species suggests a need for many species-centred ecological theories on how plants respond to their environments (e.g. competitive/stress-tolerant/ruderal and response-effect trait frameworks) to be adapted to account for distinct plant-environment interactions among distinct individuals of the same species and parts of the same individual.}
+      \field{issn}{2045-7758}
+      \field{journaltitle}{Ecol Evol}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Plasticity in above- and belowground resource acquisition traits in response to single and multiple environmental factors in three tree species}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1065\bibrangedash 1078}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1002/ece3.520
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\DIWCVH7A\\Freschet et al. - 2013 - Plasticity in above- and belowground resource acqu.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\VJC4P94Q\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/ece3.520/abstract
+      \endverb
+      \keyw{specific leaf area,specific root length,intraspecific variation,plant functional traits,Light availability,plant physiological ecology,seabird burrowing,soil nutrients}
     \endentry
     \entry{grime_evidence_1977}{article}{}
       \name{author}{1}{}{%
@@ -11575,13 +11736,13 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{freschet_plasticity_2014}
   \missing{dewitt_cost_1998}
-  \missing{reich_world-wilde_2013}
   \missing{adler_coexistence_2007}
   \missing{lavorel_how_2014}
+  \missing{reich_world-wilde_2013}
   \missing{diaz_global_2014}
-  \missing{TRY}
+  \missing{chesoon_mechanisms_2000}
+  \missing{kattge_try_2011}
 \endrefsection
 
 \refsection{3}
@@ -14493,9 +14654,9 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{korner_alpine_2011}
   \missing{wright_worlwide_2004}
   \missing{tjoelker_linking_2015}
-  \missing{korner_alpine_2011}
 \endrefsection
 
 \refsection{4}
@@ -23336,8 +23497,8 @@
       \keyw{biodiversity}
     \endentry
   \endsortlist
-  \missing{lafond_reconciling_2015}
   \missing{tilman_density_2014}
+  \missing{lafond_reconciling_2015}
   \missing{auld_re-evaluationg_2009}
 \endrefsection
 \endinput

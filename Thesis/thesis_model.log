@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  19 JUL 2018 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.10)  19 JUL 2018 18:40
 entering extended mode
 **./thesis_model.tex
 (thesis_model.tex
@@ -1786,6 +1786,12 @@ File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 \c@biburllcpenalty=\count379
 \c@smartand=\count380
 )
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-natbib.def"
+File: blx-natbib.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
 Package biblatex Info: Trying to load bibliography style 'BES/ele'...
 Package biblatex Info: ... file 'BES/ele.bbx' found.
  (BES/ele.bbx
@@ -1912,12 +1918,6 @@ Package biblatex Warning: Conflicting options.
 
 (thesis_model.aux (0_Objectives/Objectives.aux)
 (1_Introduction/Introduction.aux
-
-LaTeX Warning: Label `fig:paradigm_shift' multiply defined.
-
-
-LaTeX Warning: Label `fg:insurance' multiply defined.
-
 
 LaTeX Warning: Label `fig:storage_effect' multiply defined.
 
@@ -2122,21 +2122,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                freschet_plasticity_2014
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
 (biblatex)                dewitt_cost_1998
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                reich_world-wilde_2013
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2157,6 +2143,13 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
+(biblatex)                reich_world-wilde_2013
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
 (biblatex)                diaz_global_2014
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -2164,7 +2157,21 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                TRY
+(biblatex)                chesoon_mechanisms_2000
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
+(biblatex)                kattge_try_2011
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 3):
+(biblatex)                korner_alpine_2011
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2184,13 +2191,6 @@ Package biblatex Warning: The following entry could not be found
 
 
 Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 3):
-(biblatex)                korner_alpine_2011
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 4):
 (biblatex)                wright_worldwide_2006
 (biblatex)                Please verify the spelling and rerun
@@ -2199,14 +2199,14 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 6):
-(biblatex)                lafond_reconciling_2015
+(biblatex)                tilman_density_2014
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 6):
-(biblatex)                tilman_density_2014
+(biblatex)                lafond_reconciling_2015
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2547,10 +2547,7 @@ Overfull \hbox (3.22697pt too wide) in paragraph at lines 147--148
 d in these ap-proaches
  []
 
-
-Underfull \vbox (badness 4954) has occurred while \output is active []
-
- [6 <./1_Introduction/graphics/drivers_to_services.pdf>]
+[6 <./1_Introduction/graphics/drivers_to_services.pdf>]
 
 LaTeX Warning: Marginpar on page 7 moved.
 
@@ -2568,10 +2565,7 @@ LaTeX Warning: Marginpar on page 8 moved.
 LaTeX Warning: Marginpar on page 8 moved.
 
 Chapter 2.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
+[8]
 Overfull \hbox (8.53036pt too wide) in paragraph at lines 260--261
 \T1/pplj/m/n/10 of com-bined causes lead-ing in-ter-act-ing ef-fects, mech-a-ni
 s-tic ap-proaches are promis-
@@ -2608,8 +2602,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--300
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 300--300
-\T1/pplj/m/n/8 frag-ile habi-tats. From Körner
+Underfull \hbox (badness 2302) in paragraph at lines 300--300
+\T1/pplj/m/n/8 frag-ile habi-tats. From Körner,
  []
 
 ) [10] [11 <./1_Introduction/graphics/alpine_distribution.jpeg>]
@@ -2676,9 +2670,18 @@ Underfull \hbox (badness 3568) in paragraph at lines 53--53
 LaTeX Warning: Marginpar on page 18 moved.
 
 
+Underfull \hbox (badness 1158) in paragraph at lines 62--62
+$[]$\T1/pplj/m/n/8 A trait-based in-ter-ac-tion ma-trix
+ []
+
+
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [18 <./1_Introduction/graphics/niches.pdf>]
+
+LaTeX Warning: Marginpar on page 19 moved.
+
+
 Underfull \hbox (badness 5147) in paragraph at lines 106--106
 \T1/phv/m/sc/10 The ques-tion of co-ex-is-
  []
@@ -2686,24 +2689,20 @@ Underfull \hbox (badness 5147) in paragraph at lines 106--106
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
-
- []
-
 [19]
-Overfull \hbox (7.83066pt too wide) in paragraph at lines 136--137
-[]\T1/pplj/b/n/10 Plant com-mu-nity re-quires strong co-ex-is-tence mech-a-nism
-s to main-tain species
+Overfull \hbox (3.02066pt too wide) in paragraph at lines 136--137
+[]\T1/pplj/b/n/10 Plant com-mu-ni-ties re-quire co-ex-is-tence mech-a-nisms to 
+main-tain species rich-
  []
 
 
 LaTeX Warning: Marginpar on page 20 moved.
 
+[20]
 
-LaTeX Warning: Marginpar on page 20 moved.
+LaTeX Warning: Marginpar on page 21 moved.
 
-<./1_Introduction/graphics/flowering_m.pdf, id=808, pagebox=cropbox, 133.5118pt
+<./1_Introduction/graphics/flowering_m.pdf, id=820, pagebox=cropbox, 133.5118pt
  x 220.4777pt>
 File: ./1_Introduction/graphics/flowering_m.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/flowering_m.pdf>
@@ -2732,13 +2731,9 @@ Underfull \hbox (badness 1418) in paragraph at lines 158--158
  []
 
 
-LaTeX Warning: Marginpar on page 20 moved.
+LaTeX Warning: Marginpar on page 21 moved.
 
-
-Underfull \vbox (badness 1881) has occurred while \output is active []
-
- [20]
-<./1_Introduction/graphics/succession.pdf, id=824, pagebox=cropbox, 243.842pt x
+<./1_Introduction/graphics/succession.pdf, id=825, pagebox=cropbox, 243.842pt x
  183.92715pt>
 File: ./1_Introduction/graphics/succession.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/succession.pdf>
@@ -2803,18 +2798,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--171
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--171
-\T1/pplj/m/n/8 Kyr-i-akidis, \T1/pplj/m/it/8 et al. []\T1/pplj/m/n/8 2006[], re
--pro-
+\T1/pplj/m/n/8 Kyr-i-akidis, \T1/pplj/m/it/8 et al. \T1/pplj/m/n/8 ([]2006[]),
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--171
-\T1/pplj/m/n/8 duced with per-mis-sion of
+\T1/pplj/m/n/8 re-pro-duced with per-mis-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--171
-\T1/pplj/m/n/8 PNAS, Copy-right (2006) Na-
+\T1/pplj/m/n/8 sion of PNAS, Copy-right
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
+\T1/pplj/m/n/8 (2006) Na-tional Academy of
  []
 
 
@@ -2839,28 +2838,28 @@ Chapter 2.
 
 LaTeX Warning: Marginpar on page 23 moved.
 
-<./2_PP/Figures/Concepts/species_to_fitness.pdf, id=886, pagebox=cropbox, 332.8
+<./2_PP/Figures/Concepts/species_to_fitness.pdf, id=890, pagebox=cropbox, 332.8
 9871pt x 75.05821pt>
 File: ./2_PP/Figures/Concepts/species_to_fitness.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Concepts/species_to_fitness.pdf>
 Package pdftex.def Info: ./2_PP/Figures/Concepts/species_to_fitness.pdf  used o
-n input line 251. on input line 251.
+n input line 252. on input line 252.
 Package pdftex.def Info: Requested size: 355.67998pt x 80.19466pt on input line
- 251.
+ 252.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--254
+Underfull \hbox (badness 10000) in paragraph at lines 252--255
 
  []
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 254.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 255.
 
-Underfull \hbox (badness 3271) in paragraph at lines 254--254
+Underfull \hbox (badness 3271) in paragraph at lines 255--255
 \T1/pplj/m/n/8 is bet-ter char-ac-terised by stan-
  []
 
 [23 <./2_PP/Figures/Concepts/species_to_fitness.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
 \T1/phv/m/sc/10 The rise of func-tional
  []
 
@@ -2870,39 +2869,23 @@ LaTeX Warning: Marginpar on page 24 moved.
 
 LaTeX Warning: Marginpar on page 24 moved.
 
-<./1_Introduction/graphics/map_niinemets.png, id=932, 503.8825pt x 166.6225pt>
-File: ./1_Introduction/graphics/map_niinemets.png Graphic file (type png)
-<use ./1_Introduction/graphics/map_niinemets.png>
-Package pdftex.def Info: ./1_Introduction/graphics/map_niinemets.png  used on i
-nput line 285. on input line 285.
-Package pdftex.def Info: Requested size: 355.66008pt x 117.6087pt on input line
- 285.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--288
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 2269) in paragraph at lines 288--288
-\T1/pplj/m/n/8 full set of data com-piled from
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 288--288
-\T1/pplj/m/n/8 leaved and 558 broad-leaved C3
- []
-
-[24 <./1_Introduction/graphics/map_niinemets.png (PNG copy)>] [25]
+ [25]
 
 LaTeX Warning: Marginpar on page 26 moved.
 
-<./Figures/LES1_m.pdf, id=972, pagebox=cropbox, 131.68095pt x 104.84268pt>
+<./Figures/LES1_m.pdf, id=975, pagebox=cropbox, 131.68095pt x 104.84268pt>
 File: ./Figures/LES1_m.pdf Graphic file (type pdf)
 <use ./Figures/LES1_m.pdf>
-Package pdftex.def Info: ./Figures/LES1_m.pdf  used on input line 349. on input
- line 349.
+Package pdftex.def Info: ./Figures/LES1_m.pdf  used on input line 344. on input
+ line 344.
 Package pdftex.def Info: Requested size: 126.32988pt x 100.58221pt on input lin
-e 349.
+e 344.
 
 LaTeX Warning: Marginpar on page 26 moved.
 
@@ -2912,33 +2895,23 @@ LaTeX Warning: Marginpar on page 26 moved.
 
 LaTeX Warning: Marginpar on page 26 moved.
 
-<./Figures/trade_off_emergence_m.pdf, id=978, pagebox=cropbox, 107.32095pt x 10
+<./Figures/trade_off_emergence_m.pdf, id=981, pagebox=cropbox, 107.32095pt x 10
 6.65848pt>
 File: ./Figures/trade_off_emergence_m.pdf Graphic file (type pdf)
 <use ./Figures/trade_off_emergence_m.pdf>
 Package pdftex.def Info: ./Figures/trade_off_emergence_m.pdf  used on input lin
-e 367. on input line 367.
+e 362. on input line 362.
 Package pdftex.def Info: Requested size: 126.32974pt x 125.54993pt on input lin
-e 367.
-
-Underfull \hbox (badness 1331) in paragraph at lines 368--368
-\T1/pplj/m/n/8 Figure 2.4: Emerge of trade-off
- []
-
-
-Underfull \hbox (badness 3271) in paragraph at lines 368--368
-\T1/pplj/m/n/8 be-tween traits be-cause of hard
- []
-
+e 362.
 
 LaTeX Warning: Marginpar on page 26 moved.
 
 
-LaTeX Warning: Reference `fig:trade-off' on page 26 undefined on input line 372
+LaTeX Warning: Reference `fig:trade-off' on page 26 undefined on input line 367
 .
 
 
-LaTeX Warning: Reference `fig:trade-off' on page 26 undefined on input line 372
+LaTeX Warning: Reference `fig:trade-off' on page 26 undefined on input line 367
 .
 
 [26 <./Figures/LES1_m.pdf> <./Figures/trade_off_emergence_m.pdf>]
@@ -2948,19 +2921,19 @@ LaTeX Warning: Marginpar on page 27 moved.
 
 LaTeX Warning: Marginpar on page 27 moved.
 
-<./Figures/Grime_triangle.pdf, id=1074, pagebox=cropbox, 136.00812pt x 116.9368
+<./Figures/Grime_triangle.pdf, id=1078, pagebox=cropbox, 136.00812pt x 116.9368
 7pt>
 File: ./Figures/Grime_triangle.pdf Graphic file (type pdf)
 <use ./Figures/Grime_triangle.pdf>
-Package pdftex.def Info: ./Figures/Grime_triangle.pdf  used on input line 387. 
-on input line 387.
+Package pdftex.def Info: ./Figures/Grime_triangle.pdf  used on input line 382. 
+on input line 382.
 Package pdftex.def Info: Requested size: 126.3368pt x 108.62167pt on input line
- 387.
+ 382.
 
 LaTeX Warning: Marginpar on page 27 moved.
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 392--392
+Underfull \hbox (badness 7796) in paragraph at lines 387--387
 $[]$\T1/pplj/m/n/8 called Plant Ecol-ogy Strat-egy
  []
 
@@ -2971,144 +2944,138 @@ LaTeX Warning: Marginpar on page 27 moved.
 LaTeX Warning: Marginpar on page 27 moved.
 
 [27 <./Figures/Grime_triangle.pdf>]
-Overfull \hbox (13.097pt too wide) in paragraph at lines 403--404
-\T1/pplj/m/n/10 start-ing car-bon pool. This trade-off be-tween the com-pet-i-t
-ive strength of seedlings
- []
-
 
 LaTeX Warning: Marginpar on page 28 moved.
 
 
-LaTeX Warning: Reference `fig:trade-off' on page 28 undefined on input line 409
+LaTeX Warning: Reference `fig:trade-off' on page 28 undefined on input line 404
 .
 
-<./1_Introduction/graphics/CSR_triangle_poa.pdf, id=1118, pagebox=cropbox, 166.
+<./1_Introduction/graphics/CSR_triangle_poa.pdf, id=1121, pagebox=cropbox, 166.
 44986pt x 233.82858pt>
 File: ./1_Introduction/graphics/CSR_triangle_poa.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/CSR_triangle_poa.pdf>
 Package pdftex.def Info: ./1_Introduction/graphics/CSR_triangle_poa.pdf  used o
-n input line 425. on input line 425.
+n input line 420. on input line 420.
 Package pdftex.def Info: Requested size: 213.41064pt x 299.79904pt on input lin
-e 425.
+e 420.
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-[]\T1/pplj/m/n/8 Figure 2.6: Em-pir-i-cal ev-i-
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[]\T1/pplj/m/n/8 Figure 2.5: Em-pir-i-cal ev-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 dence of the CSR tri-an-gle in
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 dence of the CSR tri-an-gle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 nat-u-ral com-mu-ni-ties. The
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 in nat-u-ral com-mu-ni-ties.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 CSR tri-an-gle is cre-ated by the
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 The CSR tri-an-gle is cre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 trans-la-tion of a mul-ti-vari-ate
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 ated by the trans-la-tion of a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 anal-y-sis into a co-or-di-nate
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 mul-ti-vari-ate anal-y-sis into a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 sys-tem (see Pierce \T1/pplj/m/it/8 et al. []\T1/pplj/m/n/8 2013
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 co-or-di-nate sys-tem (see Pierce
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 SI for de-tails). "CSR clas-si-
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/it/8 et al. \T1/pplj/m/n/8 ([]2013[]) SI for de-tails).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 fi-ca-tion of six species of the
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 "CSR clas-si-fi-ca-tion of six
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 genus Poa from low-land
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 species of the genus Poa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 (left col-umn; P. an-nua, P.
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 from low-land (left col-umn;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 nemoralis, P. supina) and
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 P. an-nua, P. nemoralis, P.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 alpine (right col-umn; P.
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 supina) and alpine (right
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 alpina, P. chaixi, P. laxa)
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 col-umn; P. alpina, P. chaixi,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 north-ern Italy. Grey cir-cles
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 P. laxa) north-ern Italy. Grey
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 rep-re-sent the strate-gies of
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 cir-cles rep-re-sent the strate-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 in-di-vid-u-als, and black cir-
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 gies of in-di-vid-u-als, and black
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 cles the mean strat-egy for
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 cir-cles the mean strat-egy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-\T1/pplj/m/n/8 the species based on the
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 for the species based on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \T1/pplj/m/n/8 in-di-vid-u-als in-cluded in the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \T1/pplj/m/n/8 anal-y-sis." from Pierce \T1/pplj/m/it/8 et al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
-[]\T1/pplj/m/n/8 2013[], re-pro-duced with the
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\T1/pplj/m/n/8 ([]2013[]), re-pro-duced with the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \T1/pplj/m/n/8 per-mis-sion of John Wi-ley
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--425
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \T1/pplj/m/n/8 and Sons, li-cense num-ber:
  []
 
@@ -3116,21 +3083,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--425
 LaTeX Warning: Marginpar on page 28 moved.
 
 [28] [29 <./1_Introduction/graphics/CSR_triangle_poa.pdf>]
-<./Figures/insurance_m.pdf, id=1278, pagebox=cropbox, 131.94394pt x 83.0877pt>
+<./Figures/insurance_m.pdf, id=1281, pagebox=cropbox, 131.94394pt x 83.0877pt>
 File: ./Figures/insurance_m.pdf Graphic file (type pdf)
 <use ./Figures/insurance_m.pdf>
-Package pdftex.def Info: ./Figures/insurance_m.pdf  used on input line 465. on 
-input line 465.
+Package pdftex.def Info: ./Figures/insurance_m.pdf  used on input line 460. on 
+input line 460.
 Package pdftex.def Info: Requested size: 126.33455pt x 79.55536pt on input line
- 465.
+ 460.
+
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
  [30 <./Figures/insurance_m.pdf>]
-Overfull \hbox (25.37036pt too wide) in paragraph at lines 502--503
+Overfull \hbox (25.37036pt too wide) in paragraph at lines 497--498
 \T1/pplj/m/n/10 Traits can be linked to ecosys-tem ser-vices by sta-tis-ti-cal 
 frame-work ([]).
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 520--520
 \T1/phv/m/sc/10 The po-si-tion makes the
  []
 
@@ -3147,21 +3117,24 @@ LaTeX Warning: Marginpar on page 33 moved.
 
 LaTeX Warning: Marginpar on page 33 moved.
 
+
+LaTeX Warning: Marginpar on page 33 moved.
+
 [33]
-
-LaTeX Warning: Marginpar on page 34 moved.
-
 
 LaTeX Warning: Marginpar on page 34 moved.
 
 Chapter 3.
 
-Overfull \hbox (0.26207pt too wide) in paragraph at lines 627--627
+Overfull \hbox (0.26207pt too wide) in paragraph at lines 622--622
 []\T1/phv/m/n/24 3 \T1/phv/m/sc/20.74 The im-por-tance of phe-no-typic plas-tic
 -ity as a spe- 
  []
 
-[34]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
 
 LaTeX Warning: Marginpar on page 35 moved.
 
@@ -3184,7 +3157,7 @@ LaTeX Warning: Marginpar on page 37 moved.
 LaTeX Warning: Marginpar on page 38 moved.
 
 
-Overfull \hbox (3.3779pt too wide) in paragraph at lines 773--773
+Overfull \hbox (3.3779pt too wide) in paragraph at lines 768--768
 |[]\T1/phv/m/n/14.4 3.2 Phe-no-typic plas-tic-ity: a spe-cific case of intra-sp
 ecific vari-
  []
@@ -3193,32 +3166,32 @@ ecific vari-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-<./1_Introduction/graphics/sources.pdf, id=1469, pagebox=cropbox, 134.0739pt x 
+<./1_Introduction/graphics/sources.pdf, id=1472, pagebox=cropbox, 134.0739pt x 
 102.25603pt>
 File: ./1_Introduction/graphics/sources.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/sources.pdf>
 Package pdftex.def Info: ./1_Introduction/graphics/sources.pdf  used on input l
-ine 784. on input line 784.
+ine 779. on input line 779.
 Package pdftex.def Info: Requested size: 126.33223pt x 96.3516pt on input line 
-784.
+779.
 
-Underfull \hbox (badness 1394) in paragraph at lines 785--785
+Underfull \hbox (badness 1394) in paragraph at lines 780--780
 \T1/pplj/m/n/8 of intra-specific phe-no-typic vari-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--806
+Underfull \hbox (badness 10000) in paragraph at lines 799--801
 
  []
 
-<./1_Introduction/graphics/molecular_basis.pdf, id=1474, pagebox=cropbox, 563.1
+<./1_Introduction/graphics/molecular_basis.pdf, id=1477, pagebox=cropbox, 563.1
 3083pt x 375.74478pt>
 File: ./1_Introduction/graphics/molecular_basis.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/molecular_basis.pdf>
 Package pdftex.def Info: ./1_Introduction/graphics/molecular_basis.pdf  used on
- input line 814. on input line 814.
+ input line 809. on input line 809.
 Package pdftex.def Info: Requested size: 462.63812pt x 308.69177pt on input lin
-e 814.
+e 809.
 [39 <./1_Introduction/graphics/sources.pdf>] [40 <./1_Introduction/graphics/mol
 ecular_basis.pdf>]
 
@@ -3228,53 +3201,53 @@ LaTeX Warning: Marginpar on page 41 moved.
 LaTeX Warning: Marginpar on page 41 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--838
+Underfull \hbox (badness 10000) in paragraph at lines 832--833
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--841
+Underfull \hbox (badness 10000) in paragraph at lines 835--836
 
  []
 
-<./2_PP/Figures/Concepts/genotype_to_phenotype.pdf, id=1555, pagebox=cropbox, 3
+<./2_PP/Figures/Concepts/genotype_to_phenotype.pdf, id=1558, pagebox=cropbox, 3
 33.15868pt x 166.68575pt>
 File: ./2_PP/Figures/Concepts/genotype_to_phenotype.pdf Graphic file (type pdf)
 
 <use ./2_PP/Figures/Concepts/genotype_to_phenotype.pdf>
 Package pdftex.def Info: ./2_PP/Figures/Concepts/genotype_to_phenotype.pdf  use
-d on input line 844. on input line 844.
+d on input line 839. on input line 839.
 Package pdftex.def Info: Requested size: 355.65779pt x 177.94247pt on input lin
-e 844.
+e 839.
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--847
+Underfull \hbox (badness 10000) in paragraph at lines 839--842
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--847
+Underfull \hbox (badness 10000) in paragraph at lines 839--842
 
  []
 
 
-LaTeX Warning: Reference `box:molecular' on page 41 undefined on input line 853
+LaTeX Warning: Reference `box:molecular' on page 41 undefined on input line 848
 .
 
 [41 <./2_PP/Figures/Concepts/genotype_to_phenotype.pdf>]
-<./Figures/active_plasticity_m.pdf, id=1590, pagebox=cropbox, 142.74028pt x 194
+<./Figures/active_plasticity_m.pdf, id=1593, pagebox=cropbox, 142.74028pt x 194
 .5398pt>
 File: ./Figures/active_plasticity_m.pdf Graphic file (type pdf)
 <use ./Figures/active_plasticity_m.pdf>
 Package pdftex.def Info: ./Figures/active_plasticity_m.pdf  used on input line 
-857. on input line 857.
+852. on input line 852.
 Package pdftex.def Info: Requested size: 126.33492pt x 172.18105pt on input lin
-e 857.
+e 852.
 
 
 LaTeX Warning: Marginpar on page 42 moved.
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 867--867
+Underfull \hbox (badness 2158) in paragraph at lines 862--862
 \T1/pplj/m/n/8 of, and the emer-gence through
  []
 
@@ -3285,7 +3258,7 @@ LaTeX Warning: Marginpar on page 42 moved.
 LaTeX Warning: Marginpar on page 42 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 869--869
+Underfull \hbox (badness 10000) in paragraph at lines 864--864
 \T1/phv/m/sc/10 Reference and plas-tic
  []
 
@@ -3295,16 +3268,16 @@ LaTeX Warning: Marginpar on page 42 moved.
 
 LaTeX Warning: Marginpar on page 42 moved.
 
-<./1_Introduction/graphics/plastic_function.pdf, id=1598, pagebox=cropbox, 483.
+<./1_Introduction/graphics/plastic_function.pdf, id=1601, pagebox=cropbox, 483.
 01756pt x 236.59392pt>
 File: ./1_Introduction/graphics/plastic_function.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/plastic_function.pdf>
 Package pdftex.def Info: ./1_Introduction/graphics/plastic_function.pdf  used o
-n input line 878. on input line 878.
+n input line 873. on input line 873.
 Package pdftex.def Info: Requested size: 355.66591pt x 174.21391pt on input lin
-e 878.
+e 873.
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--881
+Underfull \hbox (badness 10000) in paragraph at lines 873--876
 
  []
 
@@ -3318,7 +3291,7 @@ Underfull \vbox (badness 4229) has occurred while \output is active []
  [43 <./1_Introduction/graphics/plastic_function.pdf>]
 
 LaTeX Warning: Citation 'scheiner_genetics_2002 ' on page 44 undefined on input
- line 940.
+ line 935.
 
 [44]
 
@@ -3329,12 +3302,12 @@ LaTeX Warning: Marginpar on page 45 moved.
 
 
 LaTeX Warning: Citation 'scheiner_genetics_2002 ' on page 45 undefined on input
- line 971.
+ line 966.
 
 
-Overfull \hbox (31.3701pt too wide) in paragraph at lines 971--972
-\T1/pplj/m/it/10 al. []\T1/pplj/m/n/10 2009[][]; Calla-han \T1/pplj/m/it/10 et 
-al. []\T1/pplj/m/n/10 2008[]) and eco-log-i-cal ([]; [];
+Overfull \hbox (36.6473pt too wide) in paragraph at lines 966--967
+\T1/pplj/m/it/10 al.\T1/pplj/m/n/10 , []2009[][]; Calla-han \T1/pplj/m/it/10 et
+ al.\T1/pplj/m/n/10 , []2008[]) and eco-log-i-cal ([]; [];
  []
 
 [45]
@@ -3345,16 +3318,16 @@ LaTeX Warning: Marginpar on page 46 moved.
 LaTeX Warning: Marginpar on page 46 moved.
 
 
-Overfull \hbox (18.38025pt too wide) in paragraph at lines 1011--1012
+Overfull \hbox (21.71025pt too wide) in paragraph at lines 1006--1007
 \T1/pplj/m/n/10 also al-ter evo-lu-tion-ary pro-cess and there-fore the re-spon
-se to cli-mate change[]Matesanz
+se to cli-mate change([]Matesanz
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-Overfull \hbox (1.65038pt too wide) in paragraph at lines 1028--1029
+Overfull \hbox (1.65038pt too wide) in paragraph at lines 1023--1024
 \T1/pplj/m/n/10 nism on com-mu-nity com-po-si-tion, prop-er-ties, and dy-nam-ic
 s un-der global change.
  []
@@ -3364,19 +3337,19 @@ LaTeX Warning: Marginpar on page 47 moved.
 
 
 LaTeX Warning: Reference `fig:effect_diversity' on page 47 undefined on input l
-ine 1043.
+ine 1038.
 
 [47]
-<./1_Introduction/graphics/filtering.pdf, id=1767, pagebox=cropbox, 327.65211pt
+<./1_Introduction/graphics/filtering.pdf, id=1771, pagebox=cropbox, 327.65211pt
  x 133.20364pt>
 File: ./1_Introduction/graphics/filtering.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/filtering.pdf>
 Package pdftex.def Info: ./1_Introduction/graphics/filtering.pdf  used on input
- line 1046. on input line 1046.
+ line 1041. on input line 1041.
 Package pdftex.def Info: Requested size: 355.68384pt x 144.59964pt on input lin
-e 1046.
+e 1041.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1044
 
  []
 
@@ -3393,49 +3366,49 @@ LaTeX Warning: Marginpar on page 49 moved.
 
 LaTeX Warning: Marginpar on page 49 moved.
 
-<./1_Introduction/graphics/identity_shift.pdf, id=1877, pagebox=cropbox, 332.89
+<./1_Introduction/graphics/identity_shift.pdf, id=1880, pagebox=cropbox, 332.89
 871pt x 249.7099pt>
 File: ./1_Introduction/graphics/identity_shift.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/identity_shift.pdf>
 Package pdftex.def Info: ./1_Introduction/graphics/identity_shift.pdf  used on 
-input line 1107. on input line 1107.
+input line 1102. on input line 1102.
 Package pdftex.def Info: Requested size: 126.33011pt x 94.7612pt on input line 
-1107.
+1102.
 
-Underfull \hbox (badness 3323) in paragraph at lines 1108--1108
+Underfull \hbox (badness 3323) in paragraph at lines 1103--1103
 \T1/pplj/m/n/8 Figure 3.6: Phe-no-typic plas-tic-
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 1108--1108
+Underfull \hbox (badness 1715) in paragraph at lines 1103--1103
 \T1/pplj/m/n/8 Phe-no-typic plas-tic-ity can mod-u-
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 1108--1108
+Underfull \hbox (badness 1102) in paragraph at lines 1103--1103
 \T1/pplj/m/n/8 late community-identity re-sponse
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 1108--1108
+Underfull \hbox (badness 3029) in paragraph at lines 1103--1103
 \T1/pplj/m/n/8 (left) or shift-ing the in-di-vid-ual
  []
 
-<./1_Introduction/graphics/effect_plasticity.pdf, id=1881, pagebox=cropbox, 310
+<./1_Introduction/graphics/effect_plasticity.pdf, id=1885, pagebox=cropbox, 310
 .04735pt x 277.95644pt>
 File: ./1_Introduction/graphics/effect_plasticity.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/effect_plasticity.pdf>
 Package pdftex.def Info: ./1_Introduction/graphics/effect_plasticity.pdf  used 
-on input line 1122. on input line 1122.
+on input line 1117. on input line 1117.
 Package pdftex.def Info: Requested size: 355.67645pt x 318.86278pt on input lin
-e 1122.
+e 1117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1122--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1120
 
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 1125--1125
+Underfull \hbox (badness 2726) in paragraph at lines 1120--1120
 \T1/pplj/m/n/8 mu-nity prop-er-ties. Phe-no-typic
  []
 
@@ -3669,7 +3642,7 @@ n of the model (\T1/fvm/m/n/10 MountGrass2.0\T1/pplj/m/n/10 ),
  []
 
 [71]
-<./1_Introduction/graphics/model_cycles.pdf, id=2193, pagebox=cropbox, 332.8976
+<./1_Introduction/graphics/model_cycles.pdf, id=2198, pagebox=cropbox, 332.8976
 9pt x 153.01767pt>
 File: ./1_Introduction/graphics/model_cycles.pdf Graphic file (type pdf)
 <use ./1_Introduction/graphics/model_cycles.pdf>
@@ -3694,7 +3667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-<./Figures/plant_geometry_m.pdf, id=2231, pagebox=cropbox, 179.88606pt x 186.38
+<./Figures/plant_geometry_m.pdf, id=2236, pagebox=cropbox, 179.88606pt x 186.38
 934pt>
 File: ./Figures/plant_geometry_m.pdf Graphic file (type pdf)
 <use ./Figures/plant_geometry_m.pdf>
@@ -3728,7 +3701,7 @@ LaTeX Warning: Marginpar on page 74 moved.
 
 LaTeX Warning: Marginpar on page 74 moved.
 
-<./Figures/soil_section_m.pdf, id=2265, pagebox=cropbox, 191.70119pt x 138.5265
+<./Figures/soil_section_m.pdf, id=2270, pagebox=cropbox, 191.70119pt x 138.5265
 4pt>
 File: ./Figures/soil_section_m.pdf Graphic file (type pdf)
 <use ./Figures/soil_section_m.pdf>
@@ -3740,7 +3713,7 @@ Package pdftex.def Info: Requested size: 126.33304pt x 91.29039pt on input line
 LaTeX Warning: Marginpar on page 74 moved.
 
 [74 <./Figures/soil_section_m.pdf>]
-<./Figures/season_cycle_m.pdf, id=2298, pagebox=cropbox, 134.2074pt x 114.25987
+<./Figures/season_cycle_m.pdf, id=2303, pagebox=cropbox, 134.2074pt x 114.25987
 pt>
 File: ./Figures/season_cycle_m.pdf Graphic file (type pdf)
 <use ./Figures/season_cycle_m.pdf>
@@ -3762,7 +3735,7 @@ Overfull \hbox (6.20699pt too wide) in paragraph at lines 122--123
 e meta-population
  []
 
-<./Figures/daily_cycle_t.pdf, id=2299, pagebox=cropbox, 209.52779pt x 158.76013
+<./Figures/daily_cycle_t.pdf, id=2304, pagebox=cropbox, 209.52779pt x 158.76013
 pt>
 File: ./Figures/daily_cycle_t.pdf Graphic file (type pdf)
 <use ./Figures/daily_cycle_t.pdf>
@@ -3781,7 +3754,7 @@ LaTeX Warning: Marginpar on page 75 moved.
 
 LaTeX Warning: Marginpar on page 75 moved.
 
-<./Figures/emergence.pdf, id=2300, pagebox=cropbox, 122.76465pt x 108.1079pt>
+<./Figures/emergence.pdf, id=2305, pagebox=cropbox, 122.76465pt x 108.1079pt>
 File: ./Figures/emergence.pdf Graphic file (type pdf)
 <use ./Figures/emergence.pdf>
 Package pdftex.def Info: ./Figures/emergence.pdf  used on input line 153. on in
@@ -3802,7 +3775,7 @@ LaTeX Warning: Marginpar on page 76 moved.
 
 LaTeX Warning: Marginpar on page 76 moved.
 
-<./Figures/fitness.pdf, id=2384, pagebox=cropbox, 128.88852pt x 104.72124pt>
+<./Figures/fitness.pdf, id=2389, pagebox=cropbox, 128.88852pt x 104.72124pt>
 File: ./Figures/fitness.pdf Graphic file (type pdf)
 <use ./Figures/fitness.pdf>
 Package pdftex.def Info: ./Figures/fitness.pdf  used on input line 161. on inpu
@@ -3815,7 +3788,7 @@ LaTeX Warning: Marginpar on page 76 moved.
 
 LaTeX Warning: Marginpar on page 76 moved.
 
-<./Figures/memory2phenotype_t.pdf, id=2386, pagebox=cropbox, 315.88112pt x 72.0
+<./Figures/memory2phenotype_t.pdf, id=2391, pagebox=cropbox, 315.88112pt x 72.0
 9555pt>
 File: ./Figures/memory2phenotype_t.pdf Graphic file (type pdf)
 <use ./Figures/memory2phenotype_t.pdf>
@@ -3931,7 +3904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
-<./Figures/allocation_path_t.pdf, id=2522, pagebox=cropbox, 333.06232pt x 119.3
+<./Figures/allocation_path_t.pdf, id=2527, pagebox=cropbox, 333.06232pt x 119.3
 1577pt>
 File: ./Figures/allocation_path_t.pdf Graphic file (type pdf)
 <use ./Figures/allocation_path_t.pdf>
@@ -3954,7 +3927,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 474--474
 $[]$\T1/pplj/m/n/8 either by shared pa-ram-e-ters of
  []
 
-<./Figures/strategy_space_algo.pdf, id=2558, pagebox=cropbox, 722.7pt x 289.08p
+<./Figures/strategy_space_algo.pdf, id=2563, pagebox=cropbox, 722.7pt x 289.08p
 t>
 File: ./Figures/strategy_space_algo.pdf Graphic file (type pdf)
 <use ./Figures/strategy_space_algo.pdf>
@@ -3988,7 +3961,7 @@ LaTeX Warning: Marginpar on page 83 moved.
 
 LaTeX Warning: Marginpar on page 84 moved.
 
-<./Figures/phenotype_ranking_t.pdf, id=2568, pagebox=cropbox, 330.12834pt x 199
+<./Figures/phenotype_ranking_t.pdf, id=2573, pagebox=cropbox, 330.12834pt x 199
 .26044pt>
 File: ./Figures/phenotype_ranking_t.pdf Graphic file (type pdf)
 <use ./Figures/phenotype_ranking_t.pdf>
@@ -4139,7 +4112,7 @@ Underfull \hbox (badness 5460) in paragraph at lines 89--89
 \T1/pplj/m/n/8 Table 1.2: Ex-treme val-ues of
  []
 
-<./2_PP/Figures/Calibration/weight_full_sim.png, id=2687, 1003.75pt x 597.23125
+<./2_PP/Figures/Calibration/weight_full_sim.png, id=2692, 1003.75pt x 597.23125
 pt>
 File: ./2_PP/Figures/Calibration/weight_full_sim.png Graphic file (type png)
 <use ./2_PP/Figures/Calibration/weight_full_sim.png>
@@ -4162,7 +4135,7 @@ LaTeX Warning: Marginpar on page 98 moved.
 (../Resources/Calibration/acc_rate_all.tex) [98 <./2_PP/Figures/Calibration/wei
 ght_full_sim.png (PNG copy)>]
 <./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf, id=271
-3, pagebox=cropbox, 742.05931pt x 732.17743pt>
+8, pagebox=cropbox, 742.05931pt x 732.17743pt>
 File: ./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf Gr
 aphic file (type pdf)
 <use ./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf>
@@ -4180,7 +4153,7 @@ LaTeX Warning: Marginpar on page 99 moved.
 
 [99] [100 <./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.p
 df>]
-<./2_PP/Figures/Calibration/importance.pdf, id=2818, pagebox=cropbox, 129.818pt
+<./2_PP/Figures/Calibration/importance.pdf, id=2823, pagebox=cropbox, 129.818pt
  x 238.8925pt>
 File: ./2_PP/Figures/Calibration/importance.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Calibration/importance.pdf>
@@ -4211,7 +4184,7 @@ Underfull \hbox (badness 3449) in paragraph at lines 142--142
 
 LaTeX Warning: Marginpar on page 101 moved.
 
-<./2_PP/Figures/Calibration/PCA_none.png, id=2819, 803.0pt x 775.89874pt>
+<./2_PP/Figures/Calibration/PCA_none.png, id=2824, 803.0pt x 775.89874pt>
 File: ./2_PP/Figures/Calibration/PCA_none.png Graphic file (type png)
 <use ./2_PP/Figures/Calibration/PCA_none.png>
 Package pdftex.def Info: ./2_PP/Figures/Calibration/PCA_none.png  used on input
@@ -4251,7 +4224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
 LaTeX Warning: Marginpar on page 101 moved.
 
-<./2_PP/Figures/Calibration/par_effect_none_BM.png, id=2822, 803.0pt x 626.34pt
+<./2_PP/Figures/Calibration/par_effect_none_BM.png, id=2827, 803.0pt x 626.34pt
 >
 File: ./2_PP/Figures/Calibration/par_effect_none_BM.png Graphic file (type png)
 
@@ -4265,7 +4238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
-<./2_PP/Figures/Calibration/par_effect_none_RSR.png, id=2824, 803.0pt x 613.291
+<./2_PP/Figures/Calibration/par_effect_none_RSR.png, id=2829, 803.0pt x 613.291
 24pt>
 File: ./2_PP/Figures/Calibration/par_effect_none_RSR.png Graphic file (type png
 )
@@ -4285,7 +4258,7 @@ A_none.png (PNG copy)>] [102 <./2_PP/Figures/Calibration/par_effect_none_BM.png
 
 LaTeX Warning: Marginpar on page 103 moved.
 
-<./2_PP/Figures/Calibration/RSR_full_sim_f-e.png, id=2939, 1003.75pt x 597.2312
+<./2_PP/Figures/Calibration/RSR_full_sim_f-e.png, id=2944, 1003.75pt x 597.2312
 5pt>
 File: ./2_PP/Figures/Calibration/RSR_full_sim_f-e.png Graphic file (type png)
 <use ./2_PP/Figures/Calibration/RSR_full_sim_f-e.png>
@@ -4337,7 +4310,7 @@ LaTeX Warning: Marginpar on page 107 moved.
 
 LaTeX Warning: Marginpar on page 107 moved.
 
-<./2_PP/Figures/Individual/allocation_rules.pdf, id=2984, pagebox=cropbox, 406.
+<./2_PP/Figures/Individual/allocation_rules.pdf, id=2989, pagebox=cropbox, 406.
 85301pt x 300.12125pt>
 File: ./2_PP/Figures/Individual/allocation_rules.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/allocation_rules.pdf>
@@ -4367,7 +4340,7 @@ ng co-ef-fi-cient pre-established
  []
 
 [107] [108 <./2_PP/Figures/Individual/allocation_rules.pdf>]
-<./2_PP/Figures/Individual/memory_effect.png, id=3029, 803.0pt x 804.00375pt>
+<./2_PP/Figures/Individual/memory_effect.png, id=3034, 803.0pt x 804.00375pt>
 File: ./2_PP/Figures/Individual/memory_effect.png Graphic file (type png)
 <use ./2_PP/Figures/Individual/memory_effect.png>
 Package pdftex.def Info: ./2_PP/Figures/Individual/memory_effect.png  used on i
@@ -4383,7 +4356,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--322
 LaTeX Warning: Marginpar on page 109 moved.
 
 [109 <./2_PP/Figures/Individual/memory_effect.png (PNG copy)>]
-<./2_PP/Figures/Individual/w_ini_p_as_r.pdf, id=3037, pagebox=cropbox, 355.3275
+<./2_PP/Figures/Individual/w_ini_p_as_r.pdf, id=3042, pagebox=cropbox, 355.3275
 pt x 226.8475pt>
 File: ./2_PP/Figures/Individual/w_ini_p_as_r.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/w_ini_p_as_r.pdf>
@@ -4401,7 +4374,7 @@ Underfull \hbox (badness 1515) in paragraph at lines 333--333
 \T1/pplj/m/n/8 ac-tive tis-sues in roots. \T1/pplj/m/it/8 Plastic-
  []
 
-<./2_PP/Figures/Individual/l_ini_p_as_r.pdf, id=3038, pagebox=cropbox, 355.3275
+<./2_PP/Figures/Individual/l_ini_p_as_r.pdf, id=3043, pagebox=cropbox, 355.3275
 pt x 226.8475pt>
 File: ./2_PP/Figures/Individual/l_ini_p_as_r.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Individual/l_ini_p_as_r.pdf>
@@ -4421,7 +4394,7 @@ Underfull \hbox (badness 1194) in paragraph at lines 339--339
 
 [110 <./2_PP/Figures/Individual/w_ini_p_as_r.pdf> <./2_PP/Figures/Individual/l_
 ini_p_as_r.pdf>]
-<./2_PP/Figures/Individual/par_v_2D_points.png, id=3061, 803.0pt x 791.95876pt>
+<./2_PP/Figures/Individual/par_v_2D_points.png, id=3066, 803.0pt x 791.95876pt>
 
 File: ./2_PP/Figures/Individual/par_v_2D_points.png Graphic file (type png)
 <use ./2_PP/Figures/Individual/par_v_2D_points.png>
@@ -4500,7 +4473,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Marginpar on page 118 moved.
 
-<./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf, id=3141, pagebox=cropbox, 532.
+<./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf, id=3146, pagebox=cropbox, 532.
 99126pt x 426.59375pt>
 File: ./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf>
@@ -4517,7 +4490,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
 LaTeX Warning: Marginpar on page 119 moved.
 
-<./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf, id=3160, pagebox=cropbox,
+<./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf, id=3165, pagebox=cropbox,
  532.99126pt x 615.29875pt>
 File: ./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf Graphic file (type pd
 f)
@@ -4534,7 +4507,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 468--470
 
 LaTeX Warning: Marginpar on page 119 moved.
 
-<./2_PP/Figures/Landscape/plot_BM_allocation.pdf, id=3162, pagebox=cropbox, 532
+<./2_PP/Figures/Landscape/plot_BM_allocation.pdf, id=3167, pagebox=cropbox, 532
 .99126pt x 255.95625pt>
 File: ./2_PP/Figures/Landscape/plot_BM_allocation.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/plot_BM_allocation.pdf>
@@ -4547,7 +4520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--483
 
  []
 
-<./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf, id=3164, pagebox=cropbox, 
+<./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf, id=3169, pagebox=cropbox, 
 710.655pt x 341.275pt>
 File: ./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf Graphic file (type pdf
 )
@@ -4564,7 +4537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 488--490
 
 LaTeX Warning: Marginpar on page 119 moved.
 
-<./2_PP/Figures/Landscape/plot_eveness.pdf, id=3165, pagebox=cropbox, 710.655pt
+<./2_PP/Figures/Landscape/plot_eveness.pdf, id=3170, pagebox=cropbox, 710.655pt
  x 341.275pt>
 File: ./2_PP/Figures/Landscape/plot_eveness.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/plot_eveness.pdf>
@@ -4582,7 +4555,7 @@ Underfull \hbox (badness 2103) in paragraph at lines 499--499
 \T1/pplj/m/n/8 Figure 2.5: Num-ber of species
  []
 
-<./2_PP/Figures/Landscape/plot_fdiv.pdf, id=3166, pagebox=cropbox, 710.655pt x 
+<./2_PP/Figures/Landscape/plot_fdiv.pdf, id=3171, pagebox=cropbox, 710.655pt x 
 341.275pt>
 File: ./2_PP/Figures/Landscape/plot_fdiv.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/plot_fdiv.pdf>
@@ -4610,7 +4583,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--514
 
 LaTeX Warning: Marginpar on page 122 moved.
 
-<./2_PP/Figures/Landscape/ld_space_ex.pdf, id=3231, pagebox=cropbox, 208.5672pt
+<./2_PP/Figures/Landscape/ld_space_ex.pdf, id=3236, pagebox=cropbox, 208.5672pt
  x 212.76689pt>
 File: ./2_PP/Figures/Landscape/ld_space_ex.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/ld_space_ex.pdf>
@@ -4688,7 +4661,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/pplj/m/n/8 in roots, PAS: pro-por-tion of
  []
 
-<./2_PP/Figures/Landscape/ld_axis.pdf, id=3232, pagebox=cropbox, 127.17914pt x 
+<./2_PP/Figures/Landscape/ld_axis.pdf, id=3237, pagebox=cropbox, 127.17914pt x 
 95.29843pt>
 File: ./2_PP/Figures/Landscape/ld_axis.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/ld_axis.pdf>
@@ -4708,7 +4681,7 @@ LaTeX Warning: Marginpar on page 123 moved.
 
 LaTeX Warning: Marginpar on page 123 moved.
 
-<./2_PP/Figures/Landscape/ld_convergence.pdf, id=3276, pagebox=cropbox, 365.465
+<./2_PP/Figures/Landscape/ld_convergence.pdf, id=3281, pagebox=cropbox, 365.465
 38pt x 204.66461pt>
 File: ./2_PP/Figures/Landscape/ld_convergence.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Landscape/ld_convergence.pdf>
@@ -4750,7 +4723,7 @@ rised by a high con-ver-gence of the species
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [125]
-<./2_PP/Figures/Concepts/exchange_volume_projection.pdf, id=3400, pagebox=cropb
+<./2_PP/Figures/Concepts/exchange_volume_projection.pdf, id=3405, pagebox=cropb
 ox, 332.89871pt x 130.1141pt>
 File: ./2_PP/Figures/Concepts/exchange_volume_projection.pdf Graphic file (type
  pdf)
@@ -4764,7 +4737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 610--612
 
  []
 
-<./2_PP/Figures/Concepts/exhaustion2.pdf, id=3402, pagebox=cropbox, 332.89871pt
+<./2_PP/Figures/Concepts/exhaustion2.pdf, id=3407, pagebox=cropbox, 332.89871pt
  x 139.67683pt>
 File: ./2_PP/Figures/Concepts/exhaustion2.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Concepts/exhaustion2.pdf>
@@ -4813,7 +4786,7 @@ LaTeX Warning: Marginpar on page 129 moved.
 
 LaTeX Warning: Marginpar on page 129 moved.
 
-<./2_PP/Figures/Rain/gradient_strat_trend.pdf, id=3475, pagebox=cropbox, 524.57
+<./2_PP/Figures/Rain/gradient_strat_trend.pdf, id=3480, pagebox=cropbox, 524.57
 382pt x 248.48032pt>
 File: ./2_PP/Figures/Rain/gradient_strat_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_strat_trend.pdf>
@@ -4826,7 +4799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 708--710
 
  []
 
-<./2_PP/Figures/Rain/best_w_ini_pl_rain_grad_alt.pdf, id=3477, pagebox=cropbox,
+<./2_PP/Figures/Rain/best_w_ini_pl_rain_grad_alt.pdf, id=3482, pagebox=cropbox,
  592.23657pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/best_w_ini_pl_rain_grad_alt.pdf Graphic file (type pd
 f)
@@ -4849,7 +4822,7 @@ Underfull \hbox (badness 3471) in paragraph at lines 718--718
 
 LaTeX Warning: Marginpar on page 130 moved.
 
-<./2_PP/Figures/Rain/gradient_cumBM.pdf, id=3489, pagebox=cropbox, 414.4022pt x
+<./2_PP/Figures/Rain/gradient_cumBM.pdf, id=3494, pagebox=cropbox, 414.4022pt x
  302.3566pt>
 File: ./2_PP/Figures/Rain/gradient_cumBM.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_cumBM.pdf>
@@ -4898,7 +4871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 733--733
 n/8 &
  []
 
-<./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf, id=3490, pagebox=cropbox, 52
+<./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf, id=3495, pagebox=cropbox, 52
 4.57277pt x 246.1707pt>
 File: ./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf>
@@ -4914,7 +4887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--742
 
 LaTeX Warning: Marginpar on page 130 moved.
 
-<./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf, id=3491, pagebox=cropbox, 612.3
+<./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf, id=3496, pagebox=cropbox, 612.3
 136pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf>
@@ -4927,7 +4900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 751--752
 
  []
 
-<./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf, id=3492, pagebox=cropbox, 592.23
+<./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf, id=3497, pagebox=cropbox, 592.23
 657pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf>
@@ -4959,7 +4932,7 @@ PDF inclusion: multiple pdfs with page group included in a single page
 
 LaTeX Warning: Marginpar on page 132 moved.
 
-<./2_PP/Figures/Rain/optimum_shifting_median.pdf, id=4042, pagebox=cropbox, 629
+<./2_PP/Figures/Rain/optimum_shifting_median.pdf, id=4047, pagebox=cropbox, 629
 .92842pt x 333.83923pt>
 File: ./2_PP/Figures/Rain/optimum_shifting_median.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/optimum_shifting_median.pdf>
@@ -4976,7 +4949,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 770--772
 LaTeX Warning: Marginpar on page 132 moved.
 
 [132 <./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf>]
-<./2_PP/Figures/Variable/explain_assymetry.pdf, id=4159, pagebox=cropbox, 376.9
+<./2_PP/Figures/Variable/explain_assymetry.pdf, id=4164, pagebox=cropbox, 376.9
 844pt x 163.86218pt>
 File: ./2_PP/Figures/Variable/explain_assymetry.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/explain_assymetry.pdf>
@@ -4996,7 +4969,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Marginpar on page 134 moved.
 
-<./2_PP/Figures/Rain/filtering.pdf, id=4193, pagebox=cropbox, 348.59937pt x 218
+<./2_PP/Figures/Rain/filtering.pdf, id=4198, pagebox=cropbox, 348.59937pt x 218
 .10081pt>
 File: ./2_PP/Figures/Rain/filtering.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/filtering.pdf>
@@ -5020,7 +4993,7 @@ LaTeX Warning: Marginpar on page 135 moved.
 LaTeX Warning: Marginpar on page 135 moved.
 
 [135 <./2_PP/Figures/Rain/filtering.pdf>]
-<./2_PP/Figures/Rain/rain_pl_effects.pdf, id=4284, pagebox=cropbox, 223.49397pt
+<./2_PP/Figures/Rain/rain_pl_effects.pdf, id=4289, pagebox=cropbox, 223.49397pt
  x 151.96474pt>
 File: ./2_PP/Figures/Rain/rain_pl_effects.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Rain/rain_pl_effects.pdf>
@@ -5057,7 +5030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 879--879
 LaTeX Warning: Marginpar on page 136 moved.
 
 [136 <./2_PP/Figures/Rain/rain_pl_effects.pdf>]
-<./2_PP/Figures/Variable/var_relnone_BM_trend.pdf, id=4322, pagebox=cropbox, 53
+<./2_PP/Figures/Variable/var_relnone_BM_trend.pdf, id=4327, pagebox=cropbox, 53
 2.99126pt x 532.99126pt>
 File: ./2_PP/Figures/Variable/var_relnone_BM_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_relnone_BM_trend.pdf>
@@ -5073,7 +5046,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 900--902
 
 LaTeX Warning: Marginpar on page 137 moved.
 
-<./2_PP/Figures/Variable/var_strat_trend.pdf, id=4325, pagebox=cropbox, 532.991
+<./2_PP/Figures/Variable/var_strat_trend.pdf, id=4330, pagebox=cropbox, 532.991
 26pt x 532.99126pt>
 File: ./2_PP/Figures/Variable/var_strat_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_strat_trend.pdf>
@@ -5091,7 +5064,7 @@ LaTeX Warning: Marginpar on page 137 moved.
 
 [137 <./2_PP/Figures/Variable/var_relnone_BM_trend.pdf>] [138 <./2_PP/Figures/V
 ariable/var_strat_trend.pdf>]
-<./2_PP/Figures/Variable/var_2D_strat_dyn.pdf, id=4421, pagebox=cropbox, 526.29
+<./2_PP/Figures/Variable/var_2D_strat_dyn.pdf, id=4426, pagebox=cropbox, 526.29
 123pt x 525.89676pt>
 File: ./2_PP/Figures/Variable/var_2D_strat_dyn.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_2D_strat_dyn.pdf>
@@ -5107,7 +5080,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 920--922
 
 LaTeX Warning: Marginpar on page 139 moved.
 
-<./2_PP/Figures/Variable/var_spdiv_trend.pdf, id=4422, pagebox=cropbox, 544.650
+<./2_PP/Figures/Variable/var_spdiv_trend.pdf, id=4427, pagebox=cropbox, 544.650
 83pt x 331.5306pt>
 File: ./2_PP/Figures/Variable/var_spdiv_trend.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/var_spdiv_trend.pdf>
@@ -5129,7 +5102,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 934--934
 
 LaTeX Warning: Marginpar on page 140 moved.
 
-<./2_PP/Figures/Variable/GalanthusNivalis.png, id=5063, 180.675pt x 185.19188pt
+<./2_PP/Figures/Variable/GalanthusNivalis.png, id=5068, 180.675pt x 185.19188pt
 >
 File: ./2_PP/Figures/Variable/GalanthusNivalis.png Graphic file (type png)
 <use ./2_PP/Figures/Variable/GalanthusNivalis.png>
@@ -5155,7 +5128,7 @@ LaTeX Warning: Marginpar on page 141 moved.
 
 LaTeX Warning: Marginpar on page 142 moved.
 
-<./2_PP/Figures/Variable/variable_filter.pdf, id=5128, pagebox=cropbox, 348.599
+<./2_PP/Figures/Variable/variable_filter.pdf, id=5133, pagebox=cropbox, 348.599
 37pt x 220.35925pt>
 File: ./2_PP/Figures/Variable/variable_filter.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/variable_filter.pdf>
@@ -5172,7 +5145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 987--989
 LaTeX Warning: Marginpar on page 142 moved.
 
 [142 <./2_PP/Figures/Variable/variable_filter.pdf>]
-<./2_PP/Figures/Variable/variable_pl_effects.pdf, id=5185, pagebox=cropbox, 244
+<./2_PP/Figures/Variable/variable_pl_effects.pdf, id=5190, pagebox=cropbox, 244
 .82466pt x 266.30592pt>
 File: ./2_PP/Figures/Variable/variable_pl_effects.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Variable/variable_pl_effects.pdf>
@@ -5223,7 +5196,7 @@ LaTeX Warning: Marginpar on page 144 moved.
 LaTeX Warning: Marginpar on page 145 moved.
 
 [145]
-<./2_PP/Figures/Concepts/stress_memory.pdf, id=5258, pagebox=cropbox, 300.45049
+<./2_PP/Figures/Concepts/stress_memory.pdf, id=5263, pagebox=cropbox, 300.45049
 pt x 132.63954pt>
 File: ./2_PP/Figures/Concepts/stress_memory.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Concepts/stress_memory.pdf>
@@ -5304,7 +5277,7 @@ LaTeX Warning: Marginpar on page 156 moved.
 
 LaTeX Warning: Marginpar on page 156 moved.
 
-<./2_PP/Figures/Comm/biomass_season_non_plastic2.png, id=5351, 1003.75pt x 669.
+<./2_PP/Figures/Comm/biomass_season_non_plastic2.png, id=5356, 1003.75pt x 669.
 50125pt>
 File: ./2_PP/Figures/Comm/biomass_season_non_plastic2.png Graphic file (type pn
 g)
@@ -5348,7 +5321,7 @@ LaTeX Warning: Marginpar on page 159 moved.
 
 LaTeX Warning: Marginpar on page 159 moved.
 
-<./2_PP/Figures/Comm/comm_n_sp_differences.pdf, id=5377, pagebox=cropbox, 229.8
+<./2_PP/Figures/Comm/comm_n_sp_differences.pdf, id=5382, pagebox=cropbox, 229.8
 0455pt x 332.0676pt>
 File: ./2_PP/Figures/Comm/comm_n_sp_differences.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_n_sp_differences.pdf>
@@ -5364,7 +5337,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
 LaTeX Warning: Marginpar on page 159 moved.
 
-<./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf, id=5380, pagebox=cropbox, 450.909
+<./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf, id=5385, pagebox=cropbox, 450.909
 6pt x 331.5306pt>
 File: ./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_n_sp_pc_m_edit.pdf>
@@ -5387,7 +5360,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 166--166
 \T1/pplj/m/n/8 so-lute num-ber of species in the
  []
 
-<./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf, id=5383, pagebox=cropbox, 759.0307
+<./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf, id=5388, pagebox=cropbox, 759.0307
 3pt x 247.69237pt>
 File: ./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf>
@@ -5414,7 +5387,7 @@ LaTeX Warning: Marginpar on page 159 moved.
 pdfTeX warning: pdflatex (file ./2_PP/Figures/Comm/comm_n_sp_n_indiv3.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >]
-<./2_PP/Figures/Comm/comm_BMtot_differences.pdf, id=28724, pagebox=cropbox, 229
+<./2_PP/Figures/Comm/comm_BMtot_differences.pdf, id=28729, pagebox=cropbox, 229
 .67204pt x 332.0676pt>
 File: ./2_PP/Figures/Comm/comm_BMtot_differences.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_BMtot_differences.pdf>
@@ -5436,7 +5409,7 @@ LaTeX Warning: Marginpar on page 161 moved.
 
 LaTeX Warning: Marginpar on page 161 moved.
 
-<./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf, id=28725, pageb
+<./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf, id=28730, pageb
 ox=cropbox, 247.15736pt x 334.37624pt>
 File: ./2_PP/Figures/Comm/comm_tau_differences_exclusive_groups.pdf Graphic fil
 e (type pdf)
@@ -5493,7 +5466,7 @@ pdfTeX warning: pdflatex (file ./2_PP/Figures/Comm/comm_tau_differences_exclusi
 ve_groups.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >]
-<./2_PP/Figures/Comm/mean_com_str2.pdf, id=30769, pagebox=cropbox, 428.34229pt 
+<./2_PP/Figures/Comm/mean_com_str2.pdf, id=30774, pagebox=cropbox, 428.34229pt 
 x 609.17485pt>
 File: ./2_PP/Figures/Comm/mean_com_str2.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/mean_com_str2.pdf>
@@ -5539,7 +5512,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
 \T1/pplj/m/n/8 high-light the long tail of rare species in
  []
 
-<./2_PP/Figures/Comm/comm_variability_lines.pdf, id=30770, pagebox=cropbox, 578
+<./2_PP/Figures/Comm/comm_variability_lines.pdf, id=30775, pagebox=cropbox, 578
 .16pt x 578.16pt>
 File: ./2_PP/Figures/Comm/comm_variability_lines.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_variability_lines.pdf>
@@ -5560,7 +5533,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--303
 
 LaTeX Warning: Marginpar on page 162 moved.
 
-<./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf, id=30772, pagebox=cro
+<./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf, id=30777, pagebox=cro
 pbox, 760.81236pt x 246.1707pt>
 File: ./2_PP/Figures/Comm/comm_div_differences_alpha_beta.pdf Graphic file (typ
 e pdf)
@@ -5593,7 +5566,7 @@ LaTeX Warning: Marginpar on page 165 moved.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [165]
-<./2_PP/Figures/Comm/explain_par_variability.png, id=32580, 1003.75pt x 1518.67
+<./2_PP/Figures/Comm/explain_par_variability.png, id=32585, 1003.75pt x 1518.67
 375pt>
 File: ./2_PP/Figures/Comm/explain_par_variability.png Graphic file (type png)
 <use ./2_PP/Figures/Comm/explain_par_variability.png>
@@ -5627,7 +5600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--417
 
 LaTeX Warning: Marginpar on page 168 moved.
 
-<./2_PP/Figures/Comm/comm_pl_effect.pdf, id=32593, pagebox=cropbox, 242.77802pt
+<./2_PP/Figures/Comm/comm_pl_effect.pdf, id=32598, pagebox=cropbox, 242.77802pt
  x 307.45866pt>
 File: ./2_PP/Figures/Comm/comm_pl_effect.pdf Graphic file (type pdf)
 <use ./2_PP/Figures/Comm/comm_pl_effect.pdf>
@@ -5781,7 +5754,8 @@ $[]$\T1/pplj/m/n/8 as tthe two are linked in the
 
 LaTeX Warning: Marginpar on page 182 moved.
 
-<./3_Synthesis/graphics/niche_shift.pdf, id=32810, pagebox=cropbox, 341.4326pt 
+[182]
+<./3_Synthesis/graphics/niche_shift.pdf, id=32824, pagebox=cropbox, 341.4326pt 
 x 257.30829pt>
 File: ./3_Synthesis/graphics/niche_shift.pdf Graphic file (type pdf)
 <use ./3_Synthesis/graphics/niche_shift.pdf>
@@ -5796,8 +5770,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--66
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
-\T1/pplj/m/n/8 Dingley \T1/pplj/m/it/8 et al. []\T1/pplj/m/n/8 2014[] find that
-, when plant species are
+\T1/pplj/m/n/8 Dingley \T1/pplj/m/it/8 et al.\T1/pplj/m/n/8 , []2014[] find tha
+t, when plant species are
  []
 
 
@@ -5884,7 +5858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--66
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
-\T1/pplj/m/n/8 than a his-tory of iso-la-tion. From Tilman & Snell-Rood
+\T1/pplj/m/n/8 than a his-tory of iso-la-tion. From Tilman & Snell-Rood,
  []
 
 
@@ -5892,7 +5866,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--66
 []\T1/pplj/m/n/8 2014[], re-pro-duced with the per-mis-sion of Springer,
  []
 
-[182]
 
 LaTeX Warning: Marginpar on page 183 moved.
 
@@ -5969,10 +5942,10 @@ Package logreq Info: Writing requests to 'thesis_model.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 422.
  ) 
 Here is how much of TeX's memory you used:
- 51662 strings out of 493314
- 1130022 string characters out of 3138867
- 2960064 words of memory out of 3000000
- 53219 multiletter control sequences out of 15000+200000
+ 51710 strings out of 493314
+ 1130875 string characters out of 3138867
+ 2969418 words of memory out of 3000000
+ 53263 multiletter control sequences out of 15000+200000
  111527 words of font info for 151 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,20n,128p,4788b,2689s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5991,9 +5964,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/bera/fvmro8a.pfb><C:/Program Files/MiKTeX 2
 /urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis_model.pdf (202 pages, 31945034 bytes).
+Output written on thesis_model.pdf (202 pages, 31875027 bytes).
 PDF statistics:
- 33552 PDF objects out of 38293 (max. 8388607)
- 925 named destinations out of 1000 (max. 500000)
- 1984 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33557 PDF objects out of 38293 (max. 8388607)
+ 927 named destinations out of 1000 (max. 500000)
+ 1979 words of extra memory for PDF output out of 10000 (max. 10000000)
 
