@@ -20,7 +20,7 @@
 \refsection{1}
   \sortlist[entry]{nyt/global/}
     \entry{alexander_novel_2015}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,hash=4a5a4538548ae367f5059852b82e00b0}{%
            family={Alexander},
            familyi={A\bibinitperiod},
@@ -40,9 +40,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{namehash}{73daa82a3eee09f9c744b9ba24697955}
       \strng{fullhash}{216112252dd56105ca5fe5d06655561e}
-      \strng{authornamehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authornamehash}{73daa82a3eee09f9c744b9ba24697955}
       \strng{authorfullhash}{216112252dd56105ca5fe5d06655561e}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -172,7 +172,7 @@
     \endentry
     \entry{bello_towards_2010}{article}{}
       \name{author}{17}{}{%
-        {{uniquename=1,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
+        {{uniquename=0,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
            family={Bello},
            familyi={B\bibinitperiod},
            given={Francesco\bibnamedelima de},
@@ -312,9 +312,9 @@
            given={R.\bibnamedelimi S.},
            giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{4a9e5d113d97530a1cd7743b271a6078}
+      \strng{namehash}{f2304ab2182287ac1b9164bd301d2805}
       \strng{fullhash}{4a9e5d113d97530a1cd7743b271a6078}
-      \strng{authornamehash}{4a9e5d113d97530a1cd7743b271a6078}
+      \strng{authornamehash}{f2304ab2182287ac1b9164bd301d2805}
       \strng{authorfullhash}{4a9e5d113d97530a1cd7743b271a6078}
       \field{sortinit}{B}
       \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
@@ -359,9 +359,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{b822901dc47bbe267d9cf0b65b775af8}
+      \strng{namehash}{09484f02fa7cfb08cc18b57a8a905603}
       \strng{fullhash}{b822901dc47bbe267d9cf0b65b775af8}
-      \strng{authornamehash}{b822901dc47bbe267d9cf0b65b775af8}
+      \strng{authornamehash}{09484f02fa7cfb08cc18b57a8a905603}
       \strng{authorfullhash}{b822901dc47bbe267d9cf0b65b775af8}
       \field{sortinit}{B}
       \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
@@ -670,9 +670,9 @@
            given={Christina\bibnamedelima L.},
            giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \strng{namehash}{04188c258c314611cac5520f512027b6}
+      \strng{namehash}{eb25c362f39209fd409cfe87e1c02c1d}
       \strng{fullhash}{04188c258c314611cac5520f512027b6}
-      \strng{authornamehash}{04188c258c314611cac5520f512027b6}
+      \strng{authornamehash}{eb25c362f39209fd409cfe87e1c02c1d}
       \strng{authorfullhash}{04188c258c314611cac5520f512027b6}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
@@ -1028,7 +1028,7 @@
            familyi={D\bibinitperiod},
            given={Haifa},
            giveni={H\bibinitperiod}}}%
-        {{uniquename=1,hash=4f541e029495cc4e5864a69760cbfb91}{%
+        {{uniquename=0,hash=4f541e029495cc4e5864a69760cbfb91}{%
            family={Bello},
            familyi={B\bibinitperiod},
            given={Francesco},
@@ -1051,9 +1051,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{8d538f1f318d178fa9afe852d5d9438e}
+      \strng{namehash}{34936bb7e73cb9c405e4a2b9708b15ec}
       \strng{fullhash}{8d538f1f318d178fa9afe852d5d9438e}
-      \strng{authornamehash}{8d538f1f318d178fa9afe852d5d9438e}
+      \strng{authornamehash}{34936bb7e73cb9c405e4a2b9708b15ec}
       \strng{authorfullhash}{8d538f1f318d178fa9afe852d5d9438e}
       \strng{editornamehash}{441eec7dea5b8dbb08b748b8142484a7}
       \strng{editorfullhash}{441eec7dea5b8dbb08b748b8142484a7}
@@ -1153,79 +1153,9 @@
       \endverb
       \keyw{functional traits,Grassland management,Forage quality,Rain-shelter,Recovery}
     \endentry
-    \entry{diaz_incorporating_2007}{article}{}
-      \name{author}{6}{}{%
-        {{uniquename=2,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
-           family={Díaz},
-           familyi={D\bibinitperiod},
-           given={Sandra},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
-           family={Lavorel},
-           familyi={L\bibinitperiod},
-           given={Sandra},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
-           family={Bello},
-           familyi={B\bibinitperiod},
-           given={Francesco\bibnamedelima de},
-           giveni={F\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
-        {{uniquename=0,hash=b0ad98f5991cb415c688c3b19156dfdd}{%
-           family={Quétier},
-           familyi={Q\bibinitperiod},
-           given={Fabien},
-           giveni={F\bibinitperiod}}}%
-        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
-           family={Grigulis},
-           familyi={G\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod}}}%
-        {{uniquename=0,hash=5af91d0b53639e8e2e3e8aef9f7ccddc}{%
-           family={Robson},
-           familyi={R\bibinitperiod},
-           given={T.\bibnamedelimi Matthew},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4fbc03d537a6a41ed4e64fcd65a32233}
-      \strng{fullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
-      \strng{authornamehash}{4fbc03d537a6a41ed4e64fcd65a32233}
-      \strng{authorfullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
-      \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Global environmental change affects the sustained provision of a wide set of ecosystem services. Although the delivery of ecosystem services is strongly affected by abiotic drivers and direct land use effects, it is also modulated by the functional diversity of biological communities (the value, range, and relative abundance of functional traits in a given ecosystem). The focus of this article is on integrating the different possible mechanisms by which functional diversity affects ecosystem properties that are directly relevant to ecosystem services. We propose a systematic way for progressing in understanding how land cover change affects these ecosystem properties through functional diversity modifications. Models on links between ecosystem properties and the local mean, range, and distribution of plant trait values are numerous, but they have been scattered in the literature, with varying degrees of empirical support and varying functional diversity components analyzed. Here we articulate these different components in a single conceptual and methodological framework that allows testing them in combination. We illustrate our approach with examples from the literature and apply the proposed framework to a grassland system in the central French Alps in which functional diversity, by responding to land use change, alters the provision of ecosystem services important to local stakeholders. We claim that our framework contributes to opening a new area of research at the interface of land change science and fundamental ecology.}
-      \field{issn}{0027-8424, 1091-6490}
-      \field{journaltitle}{PNAS}
-      \field{month}{12}
-      \field{number}{52}
-      \field{title}{Incorporating plant functional diversity effects in ecosystem service assessments}
-      \field{urlday}{6}
-      \field{urlmonth}{1}
-      \field{urlyear}{2015}
-      \field{volume}{104}
-      \field{year}{2007}
-      \field{urldateera}{ce}
-      \field{pages}{20684\bibrangedash 20689}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1073/pnas.0704716104
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\ZD6S3GIK\\Díaz et al. - 2007 - Incorporating plant functional diversity effects i.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\H4X7BW6P\\20684.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.pnas.org/content/104/52/20684
-      \endverb
-      \keyw{biodiversity,land change,mass ratio hypothesis,plant functional traits}
-    \endentry
     \entry{diaz_plant_2007}{article}{}
-      \name{author}{14}{}{%
-        {{uniquename=2,hash=a4964675e43d5e2449173ce3c81e72da}{%
+      \name{author}{14}{uniquelist=3}{%
+        {{uniquename=0,hash=a4964675e43d5e2449173ce3c81e72da}{%
            family={Díaz},
            familyi={D\bibinitperiod},
            given={S.},
@@ -1299,9 +1229,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{d11ccfbd900967c5d0c48a32c654c17a}
+      \strng{namehash}{326a9c6888e52072e05006f37717ef17}
       \strng{fullhash}{2453501e12fedfc2ae448a2807b78a6d}
-      \strng{authornamehash}{d11ccfbd900967c5d0c48a32c654c17a}
+      \strng{authornamehash}{326a9c6888e52072e05006f37717ef17}
       \strng{authorfullhash}{2453501e12fedfc2ae448a2807b78a6d}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -1331,6 +1261,76 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2006.01288.x/abstract
       \endverb
       \keyw{functional traits,dynamic global vegetation models,global plant functional types,grazing history,grazing models,ungulate herbivores}
+    \endentry
+    \entry{diaz_incorporating_2007}{article}{}
+      \name{author}{6}{uniquelist=3}{%
+        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
+           family={Díaz},
+           familyi={D\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=f3f9544c6c6ed4b2a054d9b20927cccf}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Francesco\bibnamedelima de},
+           giveni={F\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{uniquename=0,hash=b0ad98f5991cb415c688c3b19156dfdd}{%
+           family={Quétier},
+           familyi={Q\bibinitperiod},
+           given={Fabien},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=5af91d0b53639e8e2e3e8aef9f7ccddc}{%
+           family={Robson},
+           familyi={R\bibinitperiod},
+           given={T.\bibnamedelimi Matthew},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5b20c49a394723eea8f17ebdb26e9fd8}
+      \strng{fullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
+      \strng{authornamehash}{5b20c49a394723eea8f17ebdb26e9fd8}
+      \strng{authorfullhash}{8572ed50a9a145d32acf2fbf30ac4cbb}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Global environmental change affects the sustained provision of a wide set of ecosystem services. Although the delivery of ecosystem services is strongly affected by abiotic drivers and direct land use effects, it is also modulated by the functional diversity of biological communities (the value, range, and relative abundance of functional traits in a given ecosystem). The focus of this article is on integrating the different possible mechanisms by which functional diversity affects ecosystem properties that are directly relevant to ecosystem services. We propose a systematic way for progressing in understanding how land cover change affects these ecosystem properties through functional diversity modifications. Models on links between ecosystem properties and the local mean, range, and distribution of plant trait values are numerous, but they have been scattered in the literature, with varying degrees of empirical support and varying functional diversity components analyzed. Here we articulate these different components in a single conceptual and methodological framework that allows testing them in combination. We illustrate our approach with examples from the literature and apply the proposed framework to a grassland system in the central French Alps in which functional diversity, by responding to land use change, alters the provision of ecosystem services important to local stakeholders. We claim that our framework contributes to opening a new area of research at the interface of land change science and fundamental ecology.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{PNAS}
+      \field{month}{12}
+      \field{number}{52}
+      \field{title}{Incorporating plant functional diversity effects in ecosystem service assessments}
+      \field{urlday}{6}
+      \field{urlmonth}{1}
+      \field{urlyear}{2015}
+      \field{volume}{104}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{20684\bibrangedash 20689}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0704716104
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\ZD6S3GIK\\Díaz et al. - 2007 - Incorporating plant functional diversity effects i.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\H4X7BW6P\\20684.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.pnas.org/content/104/52/20684
+      \endverb
+      \keyw{biodiversity,land change,mass ratio hypothesis,plant functional traits}
     \endentry
     \entry{engler_21st_2011}{article}{}
       \name{author}{28}{}{%
@@ -2261,7 +2261,7 @@
     \endentry
     \entry{lavorel_predicting_2002}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=2,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
+        {{uniquename=0,hash=f5c11d10c073d6aae5ad2bac6df19edb}{%
            family={Lavorel},
            familyi={L\bibinitperiod},
            given={S.},
@@ -2311,8 +2311,8 @@
       \keyw{disturbance,trade-offs,fire,Biogeochemical cycles,effect traits,resource gradient,response traits,scaling-up}
     \endentry
     \entry{lavorel_using_2011}{article}{}
-      \name{author}{8}{}{%
-        {{uniquename=2,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+      \name{author}{8}{uniquelist=2}{%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
            family={Lavorel},
            familyi={L\bibinitperiod},
            given={Sandra},
@@ -2356,9 +2356,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{0f3e7bda031049fea02b5b3537a67890}
+      \strng{namehash}{a78344e8794081ac06fe939b7b4cadc9}
       \strng{fullhash}{03d8727ceeeb75e7330e5032eac85956}
-      \strng{authornamehash}{0f3e7bda031049fea02b5b3537a67890}
+      \strng{authornamehash}{a78344e8794081ac06fe939b7b4cadc9}
       \strng{authorfullhash}{03d8727ceeeb75e7330e5032eac85956}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
@@ -2950,9 +2950,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{b7c3e465a42a35b12dce8d239687c038}
+      \strng{namehash}{5297a46d9aef9b5af733456a23c5754e}
       \strng{fullhash}{b7c3e465a42a35b12dce8d239687c038}
-      \strng{authornamehash}{b7c3e465a42a35b12dce8d239687c038}
+      \strng{authornamehash}{5297a46d9aef9b5af733456a23c5754e}
       \strng{authorfullhash}{b7c3e465a42a35b12dce8d239687c038}
       \field{sortinit}{R}
       \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
@@ -3006,9 +3006,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{9858243518cd9377ac5497a69a381077}
+      \strng{namehash}{3172a3d004d190c314f52a5c196106d1}
       \strng{fullhash}{9858243518cd9377ac5497a69a381077}
-      \strng{authornamehash}{9858243518cd9377ac5497a69a381077}
+      \strng{authornamehash}{3172a3d004d190c314f52a5c196106d1}
       \strng{authorfullhash}{9858243518cd9377ac5497a69a381077}
       \field{sortinit}{R}
       \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
@@ -3061,9 +3061,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{59afa1e5fe1cefdcff765b68c06fc895}
+      \strng{namehash}{4b686b6c3ded64f32e8b668c7f03199b}
       \strng{fullhash}{59afa1e5fe1cefdcff765b68c06fc895}
-      \strng{authornamehash}{59afa1e5fe1cefdcff765b68c06fc895}
+      \strng{authornamehash}{4b686b6c3ded64f32e8b668c7f03199b}
       \strng{authorfullhash}{59afa1e5fe1cefdcff765b68c06fc895}
       \field{sortinit}{S}
       \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
@@ -3395,9 +3395,9 @@
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
-      \strng{namehash}{420c1e1e8df5464a11a507e26050e929}
+      \strng{namehash}{dc75d131bc889e1cadae861a94c68ade}
       \strng{fullhash}{420c1e1e8df5464a11a507e26050e929}
-      \strng{authornamehash}{420c1e1e8df5464a11a507e26050e929}
+      \strng{authornamehash}{dc75d131bc889e1cadae861a94c68ade}
       \strng{authorfullhash}{420c1e1e8df5464a11a507e26050e929}
       \field{sortinit}{S}
       \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
@@ -3519,7 +3519,7 @@
       \endverb
     \endentry
     \entry{taubert_review_2012}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=1}{%
         {{uniquename=0,hash=44aab02fe59417e078bb8f8a2bd840b2}{%
            family={Taubert},
            familyi={T\bibinitperiod},
@@ -3536,9 +3536,9 @@
            given={Andreas},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{adf4ed265dff2a830dae1f560580b0be}
+      \strng{namehash}{8857ae245dc0b633c625c58cc09814cf}
       \strng{fullhash}{adf4ed265dff2a830dae1f560580b0be}
-      \strng{authornamehash}{adf4ed265dff2a830dae1f560580b0be}
+      \strng{authornamehash}{8857ae245dc0b633c625c58cc09814cf}
       \strng{authorfullhash}{adf4ed265dff2a830dae1f560580b0be}
       \field{sortinit}{T}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
@@ -4265,10 +4265,9 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{koorner_alpine_2003}
-  \missing{de_bello_towards_2011}
   \missing{schirpe_multiple_2013}
   \missing{boulangeat_fate-dh_2014}
+  \missing{de_bello_towards_2011}
 \endrefsection
 
 \refsection{2}
@@ -4382,7 +4381,7 @@
            familyi={A\bibinitperiod},
            given={David\bibnamedelima D.},
            giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{uniquename=2,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={Peter\bibnamedelima B.},
@@ -4489,7 +4488,7 @@
       \keyw{population dynamics,Competition,Climate change,grassland,plant community}
     \endentry
     \entry{adler_niche_2007}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=3}{%
         {{uniquename=0,hash=6ed16f4f98f35ae9a2268706bac19023}{%
            family={Adler},
            familyi={A\bibinitperiod},
@@ -4540,7 +4539,7 @@
     \endentry
     \entry{albert_importance_2012}{article}{}
       \name{author}{6}{uniquelist=2}{%
-        {{uniquename=2,hash=e8b2a05af229dec13260ee602ba35594}{%
+        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
            family={Albert},
            familyi={A\bibinitperiod},
            given={Cécile\bibnamedelima H.},
@@ -4610,7 +4609,7 @@
     \endentry
     \entry{albert_when_2011}{article}{}
       \name{author}{5}{uniquelist=2}{%
-        {{uniquename=2,hash=e8b2a05af229dec13260ee602ba35594}{%
+        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
            family={Albert},
            familyi={A\bibinitperiod},
            given={Cécile\bibnamedelima H.},
@@ -4670,7 +4669,7 @@
     \endentry
     \entry{albert_multi-trait_2010}{article}{}
       \name{author}{6}{uniquelist=4}{%
-        {{uniquename=2,hash=0079f3101aba22dd13af09d4407eb7f5}{%
+        {{uniquename=0,hash=0079f3101aba22dd13af09d4407eb7f5}{%
            family={Albert},
            familyi={A\bibinitperiod},
            given={Cécile\bibnamedelima Hélène},
@@ -4739,7 +4738,7 @@
     \endentry
     \entry{albert_intraspecific_2010}{article}{}
       \name{author}{7}{uniquelist=4}{%
-        {{uniquename=2,hash=0079f3101aba22dd13af09d4407eb7f5}{%
+        {{uniquename=0,hash=0079f3101aba22dd13af09d4407eb7f5}{%
            family={Albert},
            familyi={A\bibinitperiod},
            given={Cécile\bibnamedelima Hélène},
@@ -4879,9 +4878,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{namehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{fullhash}{e5f3ea83ffa60d68c31c23588d68d546}
-      \strng{authornamehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{authornamehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{authorfullhash}{e5f3ea83ffa60d68c31c23588d68d546}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -4982,9 +4981,9 @@
            given={Frank},
            giveni={F\bibinitperiod}}}%
       }
-      \strng{namehash}{ab9aa53d5454acd04b4d07fa1c3c5008}
+      \strng{namehash}{1f7cd41fe8704539e655927676a5107f}
       \strng{fullhash}{ab9aa53d5454acd04b4d07fa1c3c5008}
-      \strng{authornamehash}{ab9aa53d5454acd04b4d07fa1c3c5008}
+      \strng{authornamehash}{1f7cd41fe8704539e655927676a5107f}
       \strng{authorfullhash}{ab9aa53d5454acd04b4d07fa1c3c5008}
       \field{sortinit}{B}
       \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
@@ -5427,9 +5426,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{6ef8e5e9c272c62e62212940fa873c74}
+      \strng{namehash}{f9948e0509bf02909a27a28d9c57faeb}
       \strng{fullhash}{6ef8e5e9c272c62e62212940fa873c74}
-      \strng{authornamehash}{6ef8e5e9c272c62e62212940fa873c74}
+      \strng{authornamehash}{f9948e0509bf02909a27a28d9c57faeb}
       \strng{authorfullhash}{6ef8e5e9c272c62e62212940fa873c74}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
@@ -5566,7 +5565,7 @@
       \endverb
     \endentry
     \entry{callaway_phenotypic_2003}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,hash=54561e6e2b90f3b5a1369c996abd6c04}{%
            family={Callaway},
            familyi={C\bibinitperiod},
@@ -5583,9 +5582,9 @@
            given={Christina\bibnamedelima L.},
            giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \strng{namehash}{04188c258c314611cac5520f512027b6}
+      \strng{namehash}{98177059a52176c0a3aa29569b1eed41}
       \strng{fullhash}{04188c258c314611cac5520f512027b6}
-      \strng{authornamehash}{04188c258c314611cac5520f512027b6}
+      \strng{authornamehash}{98177059a52176c0a3aa29569b1eed41}
       \strng{authorfullhash}{04188c258c314611cac5520f512027b6}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
@@ -5639,7 +5638,7 @@
     \endentry
     \entry{chave_study_1999}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=96dcd1557addc8268aae043c16151e3e}{%
+        {{uniquename=0,hash=96dcd1557addc8268aae043c16151e3e}{%
            family={Chave},
            familyi={C\bibinitperiod},
            given={Jérôme},
@@ -5680,8 +5679,8 @@
       \keyw{Individual-based model,simulation,Canopy gaps,Parallel processing,Spatial patterns,Tropical rain forest}
     \endentry
     \entry{chave_towards_2009}{article}{}
-      \name{author}{6}{}{%
-        {{uniquename=2,hash=9524a0bd4842ef651accf71ce31c294e}{%
+      \name{author}{6}{uniquelist=1}{%
+        {{uniquename=0,hash=9524a0bd4842ef651accf71ce31c294e}{%
            family={Chave},
            familyi={C\bibinitperiod},
            given={Jerome},
@@ -6005,9 +6004,9 @@
            given={Georges},
            giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{dab2743f1c69d228f71e70fee390a1db}
+      \strng{namehash}{227ed0f9d3a521862dc8504f530c6ddd}
       \strng{fullhash}{dab2743f1c69d228f71e70fee390a1db}
-      \strng{authornamehash}{dab2743f1c69d228f71e70fee390a1db}
+      \strng{authornamehash}{227ed0f9d3a521862dc8504f530c6ddd}
       \strng{authorfullhash}{dab2743f1c69d228f71e70fee390a1db}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
@@ -6062,7 +6061,7 @@
       \endverb
     \endentry
     \entry{dewitt_costs_1998}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=1}{%
         {{uniquename=0,hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
            family={DeWitt},
            familyi={D\bibinitperiod},
@@ -6079,9 +6078,9 @@
            given={David\bibnamedelima Sloan},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{namehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{fullhash}{e17642fd9cbc8279c6a5c55a055d937e}
-      \strng{authornamehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authornamehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{authorfullhash}{e17642fd9cbc8279c6a5c55a055d937e}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -6112,221 +6111,6 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0169534797012743
       \endverb
       \keyw{constraints,adaptation,costs,genotype-by-environment interactions,phenotype plasticity}
-    \endentry
-    \entry{diaz_global_2016}{article}{}
-      \name{author}{35}{}{%
-        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
-           family={Díaz},
-           familyi={D\bibinitperiod},
-           given={Sandra},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=91470a33f0779997f5b5934a52abc273}{%
-           family={Kattge},
-           familyi={K\bibinitperiod},
-           given={Jens},
-           giveni={J\bibinitperiod}}}%
-        {{uniquename=0,hash=59199cd41f1dcf2209b714a87daff5f9}{%
-           family={Cornelissen},
-           familyi={C\bibinitperiod},
-           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={Ian\bibnamedelima J.},
-           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
-           family={Lavorel},
-           familyi={L\bibinitperiod},
-           given={Sandra},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=410c458dcf6233767a04242aefc8eac8}{%
-           family={Dray},
-           familyi={D\bibinitperiod},
-           given={Stéphane},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=b8eb280435f5de6d0e10839247fbcfa3}{%
-           family={Reu},
-           familyi={R\bibinitperiod},
-           given={Björn},
-           giveni={B\bibinitperiod}}}%
-        {{uniquename=0,hash=2f0415ad471857b18c349382d54e052b}{%
-           family={Kleyer},
-           familyi={K\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
-           family={Wirth},
-           familyi={W\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
-        {{uniquename=0,hash=e2df0ceb9d44a443085af4bd5d1f0f0f}{%
-           family={Colin\bibnamedelima Prentice},
-           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{uniquename=0,hash=adce00945e25fd9866396dce1da9fb57}{%
-           family={Garnier},
-           familyi={G\bibinitperiod},
-           given={Eric},
-           giveni={E\bibinitperiod}}}%
-        {{uniquename=0,hash=238a8f7fc16402f342d501bd6901e52f}{%
-           family={Bönisch},
-           familyi={B\bibinitperiod},
-           given={Gerhard},
-           giveni={G\bibinitperiod}}}%
-        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
-           family={Westoby},
-           familyi={W\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
-           family={Poorter},
-           familyi={P\bibinitperiod},
-           given={Hendrik},
-           giveni={H\bibinitperiod}}}%
-        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
-           family={Reich},
-           familyi={R\bibinitperiod},
-           given={Peter\bibnamedelima B.},
-           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{uniquename=0,hash=5aa4be167f185e23405818992680021b}{%
-           family={Moles},
-           familyi={M\bibinitperiod},
-           given={Angela\bibnamedelima T.},
-           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{uniquename=0,hash=30034e5723af1d0c8862dfb6044003ea}{%
-           family={Dickie},
-           familyi={D\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{uniquename=0,hash=1df1dd50ebea1d035f7584781d6d185e}{%
-           family={Gillison},
-           familyi={G\bibinitperiod},
-           given={Andrew\bibnamedelima N.},
-           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{uniquename=0,hash=3632cc01a5cfc4cb4980393786efb5f3}{%
-           family={Zanne},
-           familyi={Z\bibinitperiod},
-           given={Amy\bibnamedelima E.},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{uniquename=0,hash=96dcd1557addc8268aae043c16151e3e}{%
-           family={Chave},
-           familyi={C\bibinitperiod},
-           given={Jérôme},
-           giveni={J\bibinitperiod}}}%
-        {{uniquename=0,hash=18d51eae5086a64ea595e3c8a268f213}{%
-           family={Joseph\bibnamedelima Wright},
-           familyi={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=cb34b00f5b370fbcafd0bf06d0693b93}{%
-           family={Sheremet’ev},
-           familyi={S\bibinitperiod},
-           given={Serge\bibnamedelima N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{uniquename=0,hash=a3d4ab3785694bcaed09c616b76fc157}{%
-           family={Jactel},
-           familyi={J\bibinitperiod},
-           given={Hervé},
-           giveni={H\bibinitperiod}}}%
-        {{uniquename=0,hash=17a0f82760cffaae4575372a39430934}{%
-           family={Baraloto},
-           familyi={B\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod}}}%
-        {{uniquename=0,hash=788a8a639d5aac4243d83f26d0843e86}{%
-           family={Cerabolini},
-           familyi={C\bibinitperiod},
-           given={Bruno},
-           giveni={B\bibinitperiod}}}%
-        {{uniquename=0,hash=9344206fddea92b652e5b6d7617309f1}{%
-           family={Pierce},
-           familyi={P\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
-        {{uniquename=0,hash=fe8693ba623b1a6061f0ed7dcab4e401}{%
-           family={Shipley},
-           familyi={S\bibinitperiod},
-           given={Bill},
-           giveni={B\bibinitperiod}}}%
-        {{uniquename=0,hash=032a26c18ac2e5ba06730db171bf3384}{%
-           family={Kirkup},
-           familyi={K\bibinitperiod},
-           given={Donald},
-           giveni={D\bibinitperiod}}}%
-        {{uniquename=0,hash=fd038167b3a44ad5bc0167ac9e3a9f6d}{%
-           family={Casanoves},
-           familyi={C\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod}}}%
-        {{uniquename=0,hash=6734f48a2da9b54dcb6f4f0425b7bf34}{%
-           family={Joswig},
-           familyi={J\bibinitperiod},
-           given={Julia\bibnamedelima S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{uniquename=0,hash=cad4fd6492ca0e36fbc1f7a5eca70d11}{%
-           family={Günther},
-           familyi={G\bibinitperiod},
-           given={Angela},
-           giveni={A\bibinitperiod}}}%
-        {{uniquename=0,hash=0df59b1ae56ea975b0f0872dbdbc374d}{%
-           family={Falczuk},
-           familyi={F\bibinitperiod},
-           given={Valeria},
-           giveni={V\bibinitperiod}}}%
-        {{uniquename=0,hash=8b2a937c8166e066826d307b90e1bdcf}{%
-           family={Rüger},
-           familyi={R\bibinitperiod},
-           given={Nadja},
-           giveni={N\bibinitperiod}}}%
-        {{uniquename=0,hash=6ce307070b4a36c84efb2f9dcfc3a421}{%
-           family={Mahecha},
-           familyi={M\bibinitperiod},
-           given={Miguel\bibnamedelima D.},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{uniquename=0,hash=58a6d03edcf8a7f24d13530edcfea6e7}{%
-           family={Gorné},
-           familyi={G\bibinitperiod},
-           given={Lucas\bibnamedelima D.},
-           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{4fbc03d537a6a41ed4e64fcd65a32233}
-      \strng{fullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
-      \strng{authornamehash}{4fbc03d537a6a41ed4e64fcd65a32233}
-      \strng{authorfullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
-      \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Earth is home to a remarkable diversity of plant forms and life histories, yet comparatively few essential trait combinations have proved evolutionarily viable in today’s terrestrial biosphere. By analysing worldwide variation in six major traits critical to growth, survival and reproduction within the largest sample of vascular plant species ever compiled, we found that occupancy of six-dimensional trait space is strongly concentrated, indicating coordination and trade-offs. Three-quarters of trait variation is captured in a two-dimensional global spectrum of plant form and function. One major dimension within this plane reflects the size of whole plants and their parts; the other represents the leaf economics spectrum, which balances leaf construction costs against growth potential. The global plant trait spectrum provides a backdrop for elucidating constraints on evolution, for functionally qualifying species and ecosystems, and for improving models that predict future vegetation based on continuous variation in plant form and function.}
-      \field{issn}{0028-0836}
-      \field{journaltitle}{Nature}
-      \field{month}{1}
-      \field{number}{7585}
-      \field{title}{The global spectrum of plant form and function}
-      \field{urlday}{21}
-      \field{urlmonth}{7}
-      \field{urlyear}{2017}
-      \field{volume}{529}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{167\bibrangedash 171}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1038/nature16489
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\KHE4NQNS\\Díaz et al. - 2016 - The global spectrum of plant form and function.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\DFKD4JF6\\nature16489.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.nature.com/nature/journal/v529/n7585/full/nature16489.html
-      \endverb
-      \keyw{biodiversity,Climate-change ecology,ecophysiology,Ecosystem ecology,evolutionary ecology}
     \endentry
     \entry{diaz_plant_2004}{article}{}
       \name{author}{39}{}{%
@@ -6565,6 +6349,221 @@
       \endverb
       \keyw{specific leaf area,Comparative ecology,functional diversity,Plant functional types,Argentina,England,Iran,Recurrent patterns of specialization,Spain}
     \endentry
+    \entry{diaz_global_2016}{article}{}
+      \name{author}{35}{}{%
+        {{uniquename=0,hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
+           family={Díaz},
+           familyi={D\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=91470a33f0779997f5b5934a52abc273}{%
+           family={Kattge},
+           familyi={K\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=59199cd41f1dcf2209b714a87daff5f9}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima J.},
+           giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=410c458dcf6233767a04242aefc8eac8}{%
+           family={Dray},
+           familyi={D\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=b8eb280435f5de6d0e10839247fbcfa3}{%
+           family={Reu},
+           familyi={R\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=2f0415ad471857b18c349382d54e052b}{%
+           family={Kleyer},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=de49409fce552eab07851fb3b451cee4}{%
+           family={Wirth},
+           familyi={W\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=e2df0ceb9d44a443085af4bd5d1f0f0f}{%
+           family={Colin\bibnamedelima Prentice},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=adce00945e25fd9866396dce1da9fb57}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=238a8f7fc16402f342d501bd6901e52f}{%
+           family={Bönisch},
+           familyi={B\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
+           family={Westoby},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=ff7af752d0c98c463b93503dbb18ab47}{%
+           family={Poorter},
+           familyi={P\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=5aa4be167f185e23405818992680021b}{%
+           family={Moles},
+           familyi={M\bibinitperiod},
+           given={Angela\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=30034e5723af1d0c8862dfb6044003ea}{%
+           family={Dickie},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=1df1dd50ebea1d035f7584781d6d185e}{%
+           family={Gillison},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=3632cc01a5cfc4cb4980393786efb5f3}{%
+           family={Zanne},
+           familyi={Z\bibinitperiod},
+           given={Amy\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=96dcd1557addc8268aae043c16151e3e}{%
+           family={Chave},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=18d51eae5086a64ea595e3c8a268f213}{%
+           family={Joseph\bibnamedelima Wright},
+           familyi={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=cb34b00f5b370fbcafd0bf06d0693b93}{%
+           family={Sheremet’ev},
+           familyi={S\bibinitperiod},
+           given={Serge\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=a3d4ab3785694bcaed09c616b76fc157}{%
+           family={Jactel},
+           familyi={J\bibinitperiod},
+           given={Hervé},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=17a0f82760cffaae4575372a39430934}{%
+           family={Baraloto},
+           familyi={B\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=788a8a639d5aac4243d83f26d0843e86}{%
+           family={Cerabolini},
+           familyi={C\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=9344206fddea92b652e5b6d7617309f1}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=fe8693ba623b1a6061f0ed7dcab4e401}{%
+           family={Shipley},
+           familyi={S\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=032a26c18ac2e5ba06730db171bf3384}{%
+           family={Kirkup},
+           familyi={K\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=fd038167b3a44ad5bc0167ac9e3a9f6d}{%
+           family={Casanoves},
+           familyi={C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=6734f48a2da9b54dcb6f4f0425b7bf34}{%
+           family={Joswig},
+           familyi={J\bibinitperiod},
+           given={Julia\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=cad4fd6492ca0e36fbc1f7a5eca70d11}{%
+           family={Günther},
+           familyi={G\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=0df59b1ae56ea975b0f0872dbdbc374d}{%
+           family={Falczuk},
+           familyi={F\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=8b2a937c8166e066826d307b90e1bdcf}{%
+           family={Rüger},
+           familyi={R\bibinitperiod},
+           given={Nadja},
+           giveni={N\bibinitperiod}}}%
+        {{uniquename=0,hash=6ce307070b4a36c84efb2f9dcfc3a421}{%
+           family={Mahecha},
+           familyi={M\bibinitperiod},
+           given={Miguel\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=58a6d03edcf8a7f24d13530edcfea6e7}{%
+           family={Gorné},
+           familyi={G\bibinitperiod},
+           given={Lucas\bibnamedelima D.},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4fbc03d537a6a41ed4e64fcd65a32233}
+      \strng{fullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
+      \strng{authornamehash}{4fbc03d537a6a41ed4e64fcd65a32233}
+      \strng{authorfullhash}{901e8d27f8e5eaacdb2b3ed97201f450}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Earth is home to a remarkable diversity of plant forms and life histories, yet comparatively few essential trait combinations have proved evolutionarily viable in today’s terrestrial biosphere. By analysing worldwide variation in six major traits critical to growth, survival and reproduction within the largest sample of vascular plant species ever compiled, we found that occupancy of six-dimensional trait space is strongly concentrated, indicating coordination and trade-offs. Three-quarters of trait variation is captured in a two-dimensional global spectrum of plant form and function. One major dimension within this plane reflects the size of whole plants and their parts; the other represents the leaf economics spectrum, which balances leaf construction costs against growth potential. The global plant trait spectrum provides a backdrop for elucidating constraints on evolution, for functionally qualifying species and ecosystems, and for improving models that predict future vegetation based on continuous variation in plant form and function.}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{month}{1}
+      \field{number}{7585}
+      \field{title}{The global spectrum of plant form and function}
+      \field{urlday}{21}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{529}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{167\bibrangedash 171}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature16489
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\KHE4NQNS\\Díaz et al. - 2016 - The global spectrum of plant form and function.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\DFKD4JF6\\nature16489.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v529/n7585/full/nature16489.html
+      \endverb
+      \keyw{biodiversity,Climate-change ecology,ecophysiology,Ecosystem ecology,evolutionary ecology}
+    \endentry
     \entry{droz_model_2013}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=ac66df45ad9e2e13c50dfc16613c6dab}{%
@@ -6629,9 +6628,9 @@
            given={Margaret\bibnamedelima M.},
            giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{b4f3a2667e928fde01c7526c89c8d666}
+      \strng{namehash}{d50d65ce58a1cf397e82621358f1dcdd}
       \strng{fullhash}{b4f3a2667e928fde01c7526c89c8d666}
-      \strng{authornamehash}{b4f3a2667e928fde01c7526c89c8d666}
+      \strng{authornamehash}{d50d65ce58a1cf397e82621358f1dcdd}
       \strng{authorfullhash}{b4f3a2667e928fde01c7526c89c8d666}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -6954,9 +6953,9 @@
            given={Andrea\bibnamedelima R.},
            giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{namehash}{dcfa8444461137182199d20593393703}
       \strng{fullhash}{3974ba1beee343e76fb182b388d9a503}
-      \strng{authornamehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authornamehash}{dcfa8444461137182199d20593393703}
       \strng{authorfullhash}{3974ba1beee343e76fb182b388d9a503}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -7215,9 +7214,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
+      \strng{namehash}{a90e2aeb1529a84e830bbb963957db8a}
       \strng{fullhash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
-      \strng{authornamehash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
+      \strng{authornamehash}{a90e2aeb1529a84e830bbb963957db8a}
       \strng{authorfullhash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
       \field{sortinit}{H}
       \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
@@ -7468,7 +7467,7 @@
            familyi={J\bibinitperiod},
            given={Vincent},
            giveni={V\bibinitperiod}}}%
-        {{uniquename=2,hash=e8b2a05af229dec13260ee602ba35594}{%
+        {{uniquename=0,hash=e8b2a05af229dec13260ee602ba35594}{%
            family={Albert},
            familyi={A\bibinitperiod},
            given={Cécile\bibnamedelima H.},
@@ -7813,9 +7812,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{4668ee108790896d52d1d79a640c8f23}
+      \strng{namehash}{3898ea87ab94958e42aa77be0c643099}
       \strng{fullhash}{4668ee108790896d52d1d79a640c8f23}
-      \strng{authornamehash}{4668ee108790896d52d1d79a640c8f23}
+      \strng{authornamehash}{3898ea87ab94958e42aa77be0c643099}
       \strng{authorfullhash}{4668ee108790896d52d1d79a640c8f23}
       \field{sortinit}{K}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
@@ -8238,9 +8237,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{namehash}{1c324ca737ab6c64cdf455b864185625}
       \strng{fullhash}{559ecd2456274df7d21a8441fabb528a}
-      \strng{authornamehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{authornamehash}{1c324ca737ab6c64cdf455b864185625}
       \strng{authorfullhash}{559ecd2456274df7d21a8441fabb528a}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
@@ -8354,9 +8353,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
+      \strng{namehash}{6016df54a88b3f22d4ff15351ef6fd35}
       \strng{fullhash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
-      \strng{authornamehash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
+      \strng{authornamehash}{6016df54a88b3f22d4ff15351ef6fd35}
       \strng{authorfullhash}{9a70ede6ea73f8dc48e4a8b57a2cfc54}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
@@ -8693,9 +8692,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{80a25f43655cce64135f9d70abb6e95c}
+      \strng{namehash}{a162f9b717916a5f84a915fe17e4de60}
       \strng{fullhash}{80a25f43655cce64135f9d70abb6e95c}
-      \strng{authornamehash}{80a25f43655cce64135f9d70abb6e95c}
+      \strng{authornamehash}{a162f9b717916a5f84a915fe17e4de60}
       \strng{authorfullhash}{80a25f43655cce64135f9d70abb6e95c}
       \field{sortinit}{M}
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
@@ -8843,9 +8842,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{75d1b049de35dd1b3cdd51462c7523b5}
+      \strng{namehash}{d91bc2b928c8cfe4d6bebecc825ec592}
       \strng{fullhash}{75d1b049de35dd1b3cdd51462c7523b5}
-      \strng{authornamehash}{75d1b049de35dd1b3cdd51462c7523b5}
+      \strng{authornamehash}{d91bc2b928c8cfe4d6bebecc825ec592}
       \strng{authorfullhash}{75d1b049de35dd1b3cdd51462c7523b5}
       \field{sortinit}{M}
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
@@ -8928,8 +8927,8 @@
       \keyw{biodiversity,biogeography,climate change,extinction,migration,niche-based modeling,process-based modeling,species distribution}
     \endentry
     \entry{nicotra_plant_2010}{article}{}
-      \name{author}{11}{}{%
-        {{uniquename=2,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
+      \name{author}{11}{uniquelist=2}{%
+        {{uniquename=0,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
            family={Nicotra},
            familyi={N\bibinitperiod},
            given={A.\bibnamedelimi B.},
@@ -8987,9 +8986,9 @@
            prefix={van},
            prefixi={v\bibinitperiod}}}%
       }
-      \strng{namehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{namehash}{1688f8d2ba0f4b3cbf3ea59bb4059cbb}
       \strng{fullhash}{2c084fb92673fff36b9f746ecf767e35}
-      \strng{authornamehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{authornamehash}{1688f8d2ba0f4b3cbf3ea59bb4059cbb}
       \strng{authorfullhash}{2c084fb92673fff36b9f746ecf767e35}
       \field{sortinit}{N}
       \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
@@ -9021,8 +9020,8 @@
       \endverb
     \endentry
     \entry{nicotra_adaptive_2015}{article}{}
-      \name{author}{6}{}{%
-        {{uniquename=2,hash=c8ee58ff0a461a6e5f4b895e0efb73ae}{%
+      \name{author}{6}{uniquelist=2}{%
+        {{uniquename=0,hash=c8ee58ff0a461a6e5f4b895e0efb73ae}{%
            family={Nicotra},
            familyi={N\bibinitperiod},
            given={Adrienne\bibnamedelima B.},
@@ -9056,9 +9055,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{namehash}{c8a82c7ed6af7e0ef76f580b3daa9233}
       \strng{fullhash}{31098619250de14af172a06c276ec6f2}
-      \strng{authornamehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{authornamehash}{c8a82c7ed6af7e0ef76f580b3daa9233}
       \strng{authorfullhash}{31098619250de14af172a06c276ec6f2}
       \field{sortinit}{N}
       \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
@@ -9505,8 +9504,8 @@
       \keyw{photosynthesis,survival,light,niche differentiation,leaf life span,Growth,Tropical rain forest,Bolivia,light requirements,shade tolerance}
     \endentry
     \entry{reich_leaf_1992}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=2,hash=dc830331a440ad1737f7f3dff6f7256b}{%
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,hash=dc830331a440ad1737f7f3dff6f7256b}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={P.\bibnamedelimi B.},
@@ -9522,9 +9521,9 @@
            given={D.\bibnamedelimi S.},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \strng{namehash}{72ab4f6f765da16cd37efcf06848d800}
       \strng{fullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
-      \strng{authornamehash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \strng{authornamehash}{72ab4f6f765da16cd37efcf06848d800}
       \strng{authorfullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
       \field{sortinit}{R}
       \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
@@ -9557,12 +9556,12 @@
     \endentry
     \entry{reich_evolution_2003}{article}{}
       \name{author}{7}{uniquelist=2}{%
-        {{uniquename=2,hash=dc830331a440ad1737f7f3dff6f7256b}{%
+        {{uniquename=0,hash=dc830331a440ad1737f7f3dff6f7256b}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={P.\bibnamedelimi B.},
            giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{uniquename=2,hash=a1926f4f8e2d16a571b6caecf512d447}{%
+        {{uniquename=0,hash=a1926f4f8e2d16a571b6caecf512d447}{%
            family={Wright},
            familyi={W\bibinitperiod},
            given={I.\bibnamedelimi J.},
@@ -9629,7 +9628,7 @@
     \endentry
     \entry{reich_world-wide_2014}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={Peter\bibnamedelima B.},
@@ -9876,7 +9875,7 @@
            familyi={V\bibinitperiod\bibinitdelim O\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod}}}%
-        {{uniquename=1,hash=77a51431a542d958e131f6366ad35014}{%
+        {{uniquename=0,hash=77a51431a542d958e131f6366ad35014}{%
            family={Schapendonk},
            familyi={S\bibinitperiod},
            given={A.\bibnamedelimi H.\bibnamedelimi M.\bibnamedelimi C.},
@@ -9885,9 +9884,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{b7c3e465a42a35b12dce8d239687c038}
+      \strng{namehash}{5297a46d9aef9b5af733456a23c5754e}
       \strng{fullhash}{b7c3e465a42a35b12dce8d239687c038}
-      \strng{authornamehash}{b7c3e465a42a35b12dce8d239687c038}
+      \strng{authornamehash}{5297a46d9aef9b5af733456a23c5754e}
       \strng{authorfullhash}{b7c3e465a42a35b12dce8d239687c038}
       \field{sortinit}{R}
       \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
@@ -9977,7 +9976,7 @@
     \endentry
     \entry{ryser_importance_1996}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=7ec0a2c6198def84bba4f499d1e7f005}{%
+        {{uniquename=0,hash=7ec0a2c6198def84bba4f499d1e7f005}{%
            family={Ryser},
            familyi={R\bibinitperiod},
            given={P.},
@@ -10015,7 +10014,7 @@
     \endentry
     \entry{ryser_consequences_2000}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=2,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
+        {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
            family={Ryser},
            familyi={R\bibinitperiod},
            given={Peter},
@@ -10061,7 +10060,7 @@
     \endentry
     \entry{schapendonk_lingra_1998}{article}{}
       \name{author}{4}{}{%
-        {{uniquename=1,hash=2b4c7e4d1490609fa3dfd62b07a7b441}{%
+        {{uniquename=0,hash=2b4c7e4d1490609fa3dfd62b07a7b441}{%
            family={Schapendonk},
            familyi={S\bibinitperiod},
            given={A.\bibnamedelimi H.\bibnamedelimi C.\bibnamedelimi M},
@@ -10302,7 +10301,7 @@
       \keyw{Climate change,DGVM,adaptive vegetation modelling,aDGVM,Africa,demographic model,fire,process-based model,Savanna,vegetation distribution}
     \endentry
     \entry{scheiter_next-generation_2013}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,hash=dfc068ffd83af5c3e273ee8350fcdd77}{%
            family={Scheiter},
            familyi={S\bibinitperiod},
@@ -10322,9 +10321,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e215e818938ba09dd2108b8abf6bb001}
+      \strng{namehash}{e096fdd1892870c447406c8a1b702eb0}
       \strng{fullhash}{e215e818938ba09dd2108b8abf6bb001}
-      \strng{authornamehash}{e215e818938ba09dd2108b8abf6bb001}
+      \strng{authornamehash}{e096fdd1892870c447406c8a1b702eb0}
       \strng{authorfullhash}{e215e818938ba09dd2108b8abf6bb001}
       \field{sortinit}{S}
       \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
@@ -11263,12 +11262,12 @@
     \endentry
     \entry{wright_worldwide_2004}{article}{}
       \name{author}{33}{uniquelist=2}{%
-        {{uniquename=2,hash=774dc39f88a59406788266a8f4f1fa41}{%
+        {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
            family={Wright},
            familyi={W\bibinitperiod},
            given={Ian\bibnamedelima J.},
            giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{uniquename=2,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={Peter\bibnamedelima B.},
@@ -11467,7 +11466,7 @@
     \endentry
     \entry{wright_leaves_2002}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=2,hash=774dc39f88a59406788266a8f4f1fa41}{%
+        {{uniquename=0,hash=774dc39f88a59406788266a8f4f1fa41}{%
            family={Wright},
            familyi={W\bibinitperiod},
            given={Ian\bibnamedelima J.},
@@ -11576,13 +11575,13 @@
       \keyw{drought tolerance,Arabidopsis thaliana,DNA methylation,ecological epigenetics,epiRILs,heritability}
     \endentry
   \endsortlist
-  \missing{lavorel_how_2014}
-  \missing{freschett_plasticity_2014}
-  \missing{adler_coexistence_2007}
-  \missing{TRY}
-  \missing{diaz_global_2014}
+  \missing{freschet_plasticity_2014}
   \missing{dewitt_cost_1998}
   \missing{reich_world-wilde_2013}
+  \missing{adler_coexistence_2007}
+  \missing{lavorel_how_2014}
+  \missing{diaz_global_2014}
+  \missing{TRY}
 \endrefsection
 
 \refsection{3}
@@ -11673,9 +11672,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{namehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{fullhash}{e5f3ea83ffa60d68c31c23588d68d546}
-      \strng{authornamehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{authornamehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{authorfullhash}{e5f3ea83ffa60d68c31c23588d68d546}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -11780,7 +11779,7 @@
     \endentry
     \entry{bradshaw_evolutionary_1965}{incollection}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=462e5d36238356982b4a10d7261f4dff}{%
+        {{uniquename=0,hash=462e5d36238356982b4a10d7261f4dff}{%
            family={Bradshaw},
            familyi={B\bibinitperiod},
            given={A.\bibnamedelimi D.},
@@ -11827,7 +11826,7 @@
     \endentry
     \entry{bradshaw_unravelling_2006}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=786d0393cf17ee3d01711e58d71e03b2}{%
+        {{uniquename=0,hash=786d0393cf17ee3d01711e58d71e03b2}{%
            family={Bradshaw},
            familyi={B\bibinitperiod},
            given={Anthony\bibnamedelima D.},
@@ -12131,9 +12130,9 @@
            given={David\bibnamedelima Sloan},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{namehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{fullhash}{e17642fd9cbc8279c6a5c55a055d937e}
-      \strng{authornamehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authornamehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{authorfullhash}{e17642fd9cbc8279c6a5c55a055d937e}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -12398,9 +12397,9 @@
            given={Margaret\bibnamedelima M.},
            giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{b4f3a2667e928fde01c7526c89c8d666}
+      \strng{namehash}{d50d65ce58a1cf397e82621358f1dcdd}
       \strng{fullhash}{b4f3a2667e928fde01c7526c89c8d666}
-      \strng{authornamehash}{b4f3a2667e928fde01c7526c89c8d666}
+      \strng{authornamehash}{d50d65ce58a1cf397e82621358f1dcdd}
       \strng{authorfullhash}{b4f3a2667e928fde01c7526c89c8d666}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -12559,7 +12558,7 @@
       \keyw{specific leaf area,specific root length,intraspecific variation,plant functional traits,Light availability,plant physiological ecology,seabird burrowing,soil nutrients}
     \endentry
     \entry{freschet_explaining_2015}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
            family={Freschet},
            familyi={F\bibinitperiod},
@@ -12579,9 +12578,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{8f96c6bb299cd3ef1fd2fbf13eff9900}
+      \strng{namehash}{bd4cc365204e95bb63cbf522a7198355}
       \strng{fullhash}{8f96c6bb299cd3ef1fd2fbf13eff9900}
-      \strng{authornamehash}{8f96c6bb299cd3ef1fd2fbf13eff9900}
+      \strng{authornamehash}{bd4cc365204e95bb63cbf522a7198355}
       \strng{authorfullhash}{8f96c6bb299cd3ef1fd2fbf13eff9900}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -13496,9 +13495,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{d3ee364d8f3cf4a5e9bbe85889b4db20}
+      \strng{namehash}{b4f82f5240800d0da99961a8841389b6}
       \strng{fullhash}{d3ee364d8f3cf4a5e9bbe85889b4db20}
-      \strng{authornamehash}{d3ee364d8f3cf4a5e9bbe85889b4db20}
+      \strng{authornamehash}{b4f82f5240800d0da99961a8841389b6}
       \strng{authorfullhash}{d3ee364d8f3cf4a5e9bbe85889b4db20}
       \field{sortinit}{M}
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
@@ -13666,8 +13665,8 @@
       \keyw{plasticity,leaf anatomy,functional types,chemical composition,environment,growth rate,trait spectrum}
     \endentry
     \entry{reich_leaf_1992}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=2,hash=dc830331a440ad1737f7f3dff6f7256b}{%
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,hash=dc830331a440ad1737f7f3dff6f7256b}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={P.\bibnamedelimi B.},
@@ -13683,9 +13682,9 @@
            given={D.\bibnamedelimi S.},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \strng{namehash}{72ab4f6f765da16cd37efcf06848d800}
       \strng{fullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
-      \strng{authornamehash}{41714ddefeb6dc403b457cb11d4d7c5d}
+      \strng{authornamehash}{72ab4f6f765da16cd37efcf06848d800}
       \strng{authorfullhash}{41714ddefeb6dc403b457cb11d4d7c5d}
       \field{sortinit}{R}
       \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
@@ -13718,7 +13717,7 @@
     \endentry
     \entry{reich_world-wide_2014}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={Peter\bibnamedelima B.},
@@ -13762,8 +13761,8 @@
       \keyw{light,water,ecophysiology,Leaf,phylogeny,Carbon,nutrient,root,stem,strategy}
     \endentry
     \entry{reich_variation_2003}{article}{}
-      \name{author}{7}{uniquelist=1}{%
-        {{uniquename=2,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+      \name{author}{7}{uniquelist=2}{%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={Peter\bibnamedelima B.},
@@ -13799,9 +13798,9 @@
            given={J.\bibnamedelimi L.},
            giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \strng{namehash}{ab21d17be0116a5a128d17abbbb13d1b}
+      \strng{namehash}{15bdf5ff285d0565358167211b2df574}
       \strng{fullhash}{0cb98842b88eed6bd4eedb9a948a2e6b}
-      \strng{authornamehash}{ab21d17be0116a5a128d17abbbb13d1b}
+      \strng{authornamehash}{15bdf5ff285d0565358167211b2df574}
       \strng{authorfullhash}{0cb98842b88eed6bd4eedb9a948a2e6b}
       \field{sortinit}{R}
       \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
@@ -13890,7 +13889,7 @@
     \endentry
     \entry{ryser_importance_1996}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=7ec0a2c6198def84bba4f499d1e7f005}{%
+        {{uniquename=0,hash=7ec0a2c6198def84bba4f499d1e7f005}{%
            family={Ryser},
            familyi={R\bibinitperiod},
            given={P.},
@@ -13928,7 +13927,7 @@
     \endentry
     \entry{ryser_consequences_2000}{article}{}
       \name{author}{2}{}{%
-        {{uniquename=2,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
+        {{uniquename=0,hash=5d84fcb04ab36f2e083bac37d15a0f20}{%
            family={Ryser},
            familyi={R\bibinitperiod},
            given={Peter},
@@ -14239,7 +14238,7 @@
       \keyw{specific leaf area,Ecology,Plant functional types,plant physiology,Plant Sciences,Soil Science \& Conservation,seed mass,height of species canopy,meta-analysis,plant ecological strategy}
     \endentry
     \entry{westoby_time_2000}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=1}{%
         {{uniquename=0,hash=b7f0fb86b43bc1563488fea1037940e5}{%
            family={Westoby},
            familyi={W\bibinitperiod},
@@ -14250,15 +14249,15 @@
            familyi={W\bibinitperiod},
            given={David},
            giveni={D\bibinitperiod}}}%
-        {{uniquename=2,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
+        {{uniquename=0,hash=16a0c1d77d39baccb7cc82c42cd3699f}{%
            family={Reich},
            familyi={R\bibinitperiod},
            given={Peter\bibnamedelima B.},
            giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \strng{namehash}{b4006b5248a53713432661097e91131b}
+      \strng{namehash}{1fca14c96a5b255305f7f6a7a6164d5b}
       \strng{fullhash}{b4006b5248a53713432661097e91131b}
-      \strng{authornamehash}{b4006b5248a53713432661097e91131b}
+      \strng{authornamehash}{1fca14c96a5b255305f7f6a7a6164d5b}
       \strng{authorfullhash}{b4006b5248a53713432661097e91131b}
       \field{sortinit}{W}
       \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
@@ -14495,8 +14494,8 @@
     \endentry
   \endsortlist
   \missing{wright_worlwide_2004}
-  \missing{korner_alpine_2011}
   \missing{tjoelker_linking_2015}
+  \missing{korner_alpine_2011}
 \endrefsection
 
 \refsection{4}
@@ -14522,9 +14521,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{namehash}{91b0890f3d981de8fffc017271c66dbe}
       \strng{fullhash}{216112252dd56105ca5fe5d06655561e}
-      \strng{authornamehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authornamehash}{91b0890f3d981de8fffc017271c66dbe}
       \strng{authorfullhash}{216112252dd56105ca5fe5d06655561e}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -14737,9 +14736,9 @@
            given={David\bibnamedelima Sloan},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{namehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{fullhash}{e17642fd9cbc8279c6a5c55a055d937e}
-      \strng{authornamehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authornamehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{authorfullhash}{e17642fd9cbc8279c6a5c55a055d937e}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -15006,9 +15005,9 @@
            given={Andrea\bibnamedelima R.},
            giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{namehash}{dcfa8444461137182199d20593393703}
       \strng{fullhash}{3974ba1beee343e76fb182b388d9a503}
-      \strng{authornamehash}{3974ba1beee343e76fb182b388d9a503}
+      \strng{authornamehash}{dcfa8444461137182199d20593393703}
       \strng{authorfullhash}{3974ba1beee343e76fb182b388d9a503}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -15106,7 +15105,7 @@
       \keyw{specific leaf area,specific root length,intraspecific variation,plant functional traits,Light availability,plant physiological ecology,seabird burrowing,soil nutrients}
     \endentry
     \entry{freschet_integrated_2015}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
            family={Freschet},
            familyi={F\bibinitperiod},
@@ -15126,9 +15125,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{4eef4103b40c53c1000ae59d8ff38119}
+      \strng{namehash}{b9410253f6535b4adf397dbfb7c82c6b}
       \strng{fullhash}{4eef4103b40c53c1000ae59d8ff38119}
-      \strng{authornamehash}{4eef4103b40c53c1000ae59d8ff38119}
+      \strng{authornamehash}{b9410253f6535b4adf397dbfb7c82c6b}
       \strng{authorfullhash}{4eef4103b40c53c1000ae59d8ff38119}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -15182,9 +15181,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
+      \strng{namehash}{00b4d36736f376c595986f1a41996d71}
       \strng{fullhash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
-      \strng{authornamehash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
+      \strng{authornamehash}{00b4d36736f376c595986f1a41996d71}
       \strng{authorfullhash}{5ea527ef5e3a6f6fb33e57b3c8b4e5ec}
       \field{sortinit}{G}
       \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
@@ -16568,9 +16567,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{9d4404e84751b9083e8cea0d00dd403a}
+      \strng{namehash}{a46b452d90a637e2265f72e17a0cffda}
       \strng{fullhash}{9d4404e84751b9083e8cea0d00dd403a}
-      \strng{authornamehash}{9d4404e84751b9083e8cea0d00dd403a}
+      \strng{authornamehash}{a46b452d90a637e2265f72e17a0cffda}
       \strng{authorfullhash}{9d4404e84751b9083e8cea0d00dd403a}
       \field{sortinit}{S}
       \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
@@ -17308,9 +17307,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{namehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{fullhash}{e5f3ea83ffa60d68c31c23588d68d546}
-      \strng{authornamehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{authornamehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{authorfullhash}{e5f3ea83ffa60d68c31c23588d68d546}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -17587,9 +17586,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{572be39b7abe20e08222ffa1b5ee112e}
+      \strng{namehash}{6867cb9ba9407292d2835ac6f8e57ac8}
       \strng{fullhash}{572be39b7abe20e08222ffa1b5ee112e}
-      \strng{authornamehash}{572be39b7abe20e08222ffa1b5ee112e}
+      \strng{authornamehash}{6867cb9ba9407292d2835ac6f8e57ac8}
       \strng{authorfullhash}{572be39b7abe20e08222ffa1b5ee112e}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
@@ -17634,9 +17633,9 @@
            given={David\bibnamedelima Sloan},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{namehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{fullhash}{e17642fd9cbc8279c6a5c55a055d937e}
-      \strng{authornamehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authornamehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{authorfullhash}{e17642fd9cbc8279c6a5c55a055d937e}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -17797,9 +17796,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{86d582c716f4ece223e7323550936cb9}
+      \strng{namehash}{7edad8111965a0eee6798ab61cabc638}
       \strng{fullhash}{86d582c716f4ece223e7323550936cb9}
-      \strng{authornamehash}{86d582c716f4ece223e7323550936cb9}
+      \strng{authornamehash}{7edad8111965a0eee6798ab61cabc638}
       \strng{authorfullhash}{86d582c716f4ece223e7323550936cb9}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -17912,9 +17911,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
+      \strng{namehash}{a90e2aeb1529a84e830bbb963957db8a}
       \strng{fullhash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
-      \strng{authornamehash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
+      \strng{authornamehash}{a90e2aeb1529a84e830bbb963957db8a}
       \strng{authorfullhash}{de0cdbc34d8fb72b06cdb85a6df6dc61}
       \field{sortinit}{H}
       \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
@@ -18381,9 +18380,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{namehash}{1c324ca737ab6c64cdf455b864185625}
       \strng{fullhash}{559ecd2456274df7d21a8441fabb528a}
-      \strng{authornamehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{authornamehash}{1c324ca737ab6c64cdf455b864185625}
       \strng{authorfullhash}{559ecd2456274df7d21a8441fabb528a}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
@@ -19117,7 +19116,7 @@
     \endentry
     \entry{tilman_niche_2004}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=f5dcb6beb0d4c400c211633ed64b856b}{%
+        {{uniquename=0,hash=f5dcb6beb0d4c400c211633ed64b856b}{%
            family={Tilman},
            familyi={T\bibinitperiod},
            given={D.},
@@ -19157,8 +19156,8 @@
       \endverb
     \endentry
     \entry{tilman_diversity_2001}{article}{}
-      \name{author}{6}{}{%
-        {{uniquename=2,hash=56e145e8f70192e123c180987985ea9b}{%
+      \name{author}{6}{uniquelist=1}{%
+        {{uniquename=0,hash=56e145e8f70192e123c180987985ea9b}{%
            family={Tilman},
            familyi={T\bibinitperiod},
            given={David},
@@ -19449,9 +19448,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{namehash}{91b0890f3d981de8fffc017271c66dbe}
       \strng{fullhash}{216112252dd56105ca5fe5d06655561e}
-      \strng{authornamehash}{216112252dd56105ca5fe5d06655561e}
+      \strng{authornamehash}{91b0890f3d981de8fffc017271c66dbe}
       \strng{authorfullhash}{216112252dd56105ca5fe5d06655561e}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -19485,17 +19484,17 @@
     \endentry
     \entry{auld_measuring_2011}{article}{}
       \name{author}{3}{}{%
-        {{uniquename=2,hash=0e59862b5da470e157faac7eb05c6706}{%
+        {{uniquename=0,hash=0e59862b5da470e157faac7eb05c6706}{%
            family={Auld},
            familyi={A\bibinitperiod},
            given={J.\bibnamedelimi R.},
            giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{uniquename=2,hash=4922696e3ded9e5218ccdd1f59c17ade}{%
+        {{uniquename=0,hash=4922696e3ded9e5218ccdd1f59c17ade}{%
            family={Agrawal},
            familyi={A\bibinitperiod},
            given={A.\bibnamedelimi A.},
            giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{uniquename=2,hash=4d0c0a88b46db1d8aa3032263bd12572}{%
+        {{uniquename=0,hash=4d0c0a88b46db1d8aa3032263bd12572}{%
            family={Relyea},
            familyi={R\bibinitperiod},
            given={R.\bibnamedelimi A.},
@@ -19504,9 +19503,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{56fa99532203fb77e6d43ff6bde8652c}
+      \strng{namehash}{1fd9be2fc1d2594b55a8599fad8a1c3c}
       \strng{fullhash}{56fa99532203fb77e6d43ff6bde8652c}
-      \strng{authornamehash}{56fa99532203fb77e6d43ff6bde8652c}
+      \strng{authornamehash}{1fd9be2fc1d2594b55a8599fad8a1c3c}
       \strng{authorfullhash}{56fa99532203fb77e6d43ff6bde8652c}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -19536,17 +19535,17 @@
     \endentry
     \entry{auld_re-evaluating_2009}{article}{}
       \name{author}{3}{}{%
-        {{uniquename=2,hash=304a16850a09bf401a17aacfcf97dbd1}{%
+        {{uniquename=0,hash=304a16850a09bf401a17aacfcf97dbd1}{%
            family={Auld},
            familyi={A\bibinitperiod},
            given={Josh\bibnamedelima R.},
            giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{uniquename=2,hash=467c2b6c803c9bcbd35885605c9a724a}{%
+        {{uniquename=0,hash=467c2b6c803c9bcbd35885605c9a724a}{%
            family={Agrawal},
            familyi={A\bibinitperiod},
            given={Anurag\bibnamedelima A.},
            giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{uniquename=2,hash=b721220a50aff167f8db3af67723887a}{%
+        {{uniquename=0,hash=b721220a50aff167f8db3af67723887a}{%
            family={Relyea},
            familyi={R\bibinitperiod},
            given={Rick\bibnamedelima A.},
@@ -19555,9 +19554,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{namehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{fullhash}{e5f3ea83ffa60d68c31c23588d68d546}
-      \strng{authornamehash}{e5f3ea83ffa60d68c31c23588d68d546}
+      \strng{authornamehash}{51cc6011cbf9308f2d71e07cbe4044c6}
       \strng{authorfullhash}{e5f3ea83ffa60d68c31c23588d68d546}
       \field{sortinit}{A}
       \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
@@ -19811,6 +19810,51 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0065266008600486
       \endverb
     \endentry
+    \entry{bradshaw_unravelling_2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=786d0393cf17ee3d01711e58d71e03b2}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={Anthony\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{786d0393cf17ee3d01711e58d71e03b2}
+      \strng{fullhash}{786d0393cf17ee3d01711e58d71e03b2}
+      \strng{authornamehash}{786d0393cf17ee3d01711e58d71e03b2}
+      \strng{authorfullhash}{786d0393cf17ee3d01711e58d71e03b2}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ability of a genotype to change its phenotype was once considered rather a nuisance – making it difficult to define a genotype. This led to the idea that there was a problem called ‘instability’. But quite early it was recognized that stability was under genetic control, and was a character like other attributes of an individual. From this realization came the idea that there were two sides to the character of ‘instability’, and that the ability to change could be important. This ability was thus given the title of ‘plasticity’. Once recognized, it became clear from surveys of different species and populations that plasticity can (i) be a complex character, and (ii) be selected to fit species to the particular demands of different environments. For plants, which cannot meet variations in environment like animals by behavioural responses, phenotypic plasticity can be very important. Plants should therefore be valuable tools for unravelling the mechanisms of plasticity whilst also demonstrating its contribution to fitness experimentally. We ought also to be able to demonstrate that appropriate genetic variability is available through which complex responses can be built up by selection. Genes must exist not only to determine character means, but also to determine character response, which adds interesting complexity to our ideas about evolution.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytologist}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{Unravelling phenotypic plasticity – why should we bother?}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{volume}{170}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{644\bibrangedash 648}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1111/j.1469-8137.2006.01761.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\QNUMK9HX\\Bradshaw - 2006 - Unravelling phenotypic plasticity – why should we .pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\2FTE7MSP\\full.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2006.01761.x/abstract
+      \endverb
+      \keyw{Phenotypic plasticity,homeostasis,epistatic gene systems,genetic control of plasticity,instability}
+    \endentry
     \entry{callaway_positive_2002}{article}{}
       \name{author}{13}{}{%
         {{uniquename=0,hash=54561e6e2b90f3b5a1369c996abd6c04}{%
@@ -19917,7 +19961,7 @@
     \endentry
     \entry{choler_growth_2015}{article}{}
       \name{author}{1}{}{%
-        {{uniquename=2,hash=2329c6a72549250641608725d02e4978}{%
+        {{uniquename=0,hash=2329c6a72549250641608725d02e4978}{%
            family={Choler},
            familyi={C\bibinitperiod},
            given={P.},
@@ -19957,8 +20001,8 @@
       \endverb
     \endentry
     \entry{choler_facilitation_2001}{article}{}
-      \name{author}{3}{}{%
-        {{uniquename=2,hash=469de0848c21adffc5a20fa66fd85cce}{%
+      \name{author}{3}{uniquelist=1}{%
+        {{uniquename=0,hash=469de0848c21adffc5a20fa66fd85cce}{%
            family={Choler},
            familyi={C\bibinitperiod},
            given={Philippe},
@@ -19977,9 +20021,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{572be39b7abe20e08222ffa1b5ee112e}
+      \strng{namehash}{6867cb9ba9407292d2835ac6f8e57ac8}
       \strng{fullhash}{572be39b7abe20e08222ffa1b5ee112e}
-      \strng{authornamehash}{572be39b7abe20e08222ffa1b5ee112e}
+      \strng{authornamehash}{6867cb9ba9407292d2835ac6f8e57ac8}
       \strng{authorfullhash}{572be39b7abe20e08222ffa1b5ee112e}
       \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
@@ -20239,7 +20283,7 @@
       \endverb
     \endentry
     \entry{dewitt_costs_1998}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=1}{%
         {{uniquename=0,hash=8e6f95d86d6d2caa9fc0fd9429102aec}{%
            family={DeWitt},
            familyi={D\bibinitperiod},
@@ -20256,9 +20300,9 @@
            given={David\bibnamedelima Sloan},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{namehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{fullhash}{e17642fd9cbc8279c6a5c55a055d937e}
-      \strng{authornamehash}{e17642fd9cbc8279c6a5c55a055d937e}
+      \strng{authornamehash}{011590244bdde3b0dd43de9509aca1b7}
       \strng{authorfullhash}{e17642fd9cbc8279c6a5c55a055d937e}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -20442,7 +20486,7 @@
       \keyw{climate,soil,Phenotypic plasticity,genetic differentiation,local adaptation,Phenology,altitude,common garden transplant experiment}
     \endentry
     \entry{frei_plastic_2014}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=3}{%
         {{uniquename=0,hash=253a94097b56e3f42636018a06d33d1c}{%
            family={Frei},
            familyi={F\bibinitperiod},
@@ -20771,9 +20815,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{d5565c8929522693de62736f390c9db0}
+      \strng{namehash}{00b4d36736f376c595986f1a41996d71}
       \strng{fullhash}{d5565c8929522693de62736f390c9db0}
-      \strng{authornamehash}{d5565c8929522693de62736f390c9db0}
+      \strng{authornamehash}{00b4d36736f376c595986f1a41996d71}
       \strng{authorfullhash}{d5565c8929522693de62736f390c9db0}
       \field{sortinit}{G}
       \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
@@ -21592,9 +21636,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{namehash}{1c324ca737ab6c64cdf455b864185625}
       \strng{fullhash}{559ecd2456274df7d21a8441fabb528a}
-      \strng{authornamehash}{559ecd2456274df7d21a8441fabb528a}
+      \strng{authornamehash}{1c324ca737ab6c64cdf455b864185625}
       \strng{authorfullhash}{559ecd2456274df7d21a8441fabb528a}
       \field{sortinit}{L}
       \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
@@ -22019,8 +22063,8 @@
       \endverb
     \endentry
     \entry{nicotra_plant_2010}{article}{}
-      \name{author}{11}{}{%
-        {{uniquename=2,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
+      \name{author}{11}{uniquelist=2}{%
+        {{uniquename=0,hash=fa5aa9ea3b4c7ad9be9f42964dd92d4c}{%
            family={Nicotra},
            familyi={N\bibinitperiod},
            given={A.\bibnamedelimi B.},
@@ -22078,9 +22122,9 @@
            prefix={van},
            prefixi={v\bibinitperiod}}}%
       }
-      \strng{namehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{namehash}{1688f8d2ba0f4b3cbf3ea59bb4059cbb}
       \strng{fullhash}{2c084fb92673fff36b9f746ecf767e35}
-      \strng{authornamehash}{5ef0e7ed4132ce11a1057bf63adb66df}
+      \strng{authornamehash}{1688f8d2ba0f4b3cbf3ea59bb4059cbb}
       \strng{authorfullhash}{2c084fb92673fff36b9f746ecf767e35}
       \field{sortinit}{N}
       \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
@@ -22112,8 +22156,8 @@
       \endverb
     \endentry
     \entry{nicotra_adaptive_2015}{article}{}
-      \name{author}{6}{}{%
-        {{uniquename=2,hash=c8ee58ff0a461a6e5f4b895e0efb73ae}{%
+      \name{author}{6}{uniquelist=2}{%
+        {{uniquename=0,hash=c8ee58ff0a461a6e5f4b895e0efb73ae}{%
            family={Nicotra},
            familyi={N\bibinitperiod},
            given={Adrienne\bibnamedelima B.},
@@ -22147,9 +22191,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{namehash}{c8a82c7ed6af7e0ef76f580b3daa9233}
       \strng{fullhash}{31098619250de14af172a06c276ec6f2}
-      \strng{authornamehash}{f98b8756ce16ea11c41b586a8a2d2411}
+      \strng{authornamehash}{c8a82c7ed6af7e0ef76f580b3daa9233}
       \strng{authorfullhash}{31098619250de14af172a06c276ec6f2}
       \field{sortinit}{N}
       \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
@@ -22589,7 +22633,7 @@
       \endverb
     \endentry
     \entry{valladares_ecological_2007}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,hash=7e3e39066737428d614f7fd4e9412d3b}{%
            family={Valladares},
            familyi={V\bibinitperiod},
@@ -22606,9 +22650,9 @@
            given={José\bibnamedelima M.},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{35136b7bbb41b491e52b91d01c2165de}
+      \strng{namehash}{2d6efcfe5dec57188d87d4880042e653}
       \strng{fullhash}{35136b7bbb41b491e52b91d01c2165de}
-      \strng{authornamehash}{35136b7bbb41b491e52b91d01c2165de}
+      \strng{authornamehash}{2d6efcfe5dec57188d87d4880042e653}
       \strng{authorfullhash}{35136b7bbb41b491e52b91d01c2165de}
       \field{sortinit}{V}
       \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
@@ -22636,7 +22680,7 @@
       \endverb
     \endentry
     \entry{valladares_quantitative_2006}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{uniquelist=2}{%
         {{uniquename=0,hash=7e3e39066737428d614f7fd4e9412d3b}{%
            family={Valladares},
            familyi={V\bibinitperiod},
@@ -22656,9 +22700,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{8454de5a4e7da130b168f67cae720979}
+      \strng{namehash}{ae4516b0a96de4e16c0400be855041e8}
       \strng{fullhash}{8454de5a4e7da130b168f67cae720979}
-      \strng{authornamehash}{8454de5a4e7da130b168f67cae720979}
+      \strng{authornamehash}{ae4516b0a96de4e16c0400be855041e8}
       \strng{authorfullhash}{8454de5a4e7da130b168f67cae720979}
       \field{sortinit}{V}
       \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
@@ -22984,9 +23028,9 @@
            given={Peter\bibnamedelima B.},
            giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \strng{namehash}{b4006b5248a53713432661097e91131b}
+      \strng{namehash}{1fca14c96a5b255305f7f6a7a6164d5b}
       \strng{fullhash}{b4006b5248a53713432661097e91131b}
-      \strng{authornamehash}{b4006b5248a53713432661097e91131b}
+      \strng{authornamehash}{1fca14c96a5b255305f7f6a7a6164d5b}
       \strng{authorfullhash}{b4006b5248a53713432661097e91131b}
       \field{sortinit}{W}
       \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
@@ -23293,8 +23337,8 @@
     \endentry
   \endsortlist
   \missing{lafond_reconciling_2015}
-  \missing{auld_re-evaluationg_2009}
   \missing{tilman_density_2014}
+  \missing{auld_re-evaluationg_2009}
 \endrefsection
 \endinput
 

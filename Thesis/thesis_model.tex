@@ -58,7 +58,9 @@
 
 % for split bibliography
 %\usepackage[sorting=nyt, style = authoryear,url = false, doi = false, isbn = false, backend=biber]{biblatex}
-\usepackage[sorting=nyt,style = authoryear,bibencoding=auto,url = false, doi = false, isbn = false,backend=biber,natbib]{biblatex} % alternative bibliography
+%\usepackage[sorting=nyt,style = authoryear,bibencoding=auto,url = false, doi = false, isbn = false,backend=biber]{biblatex} % alternative bibliography
+
+\usepackage[backend=biber, citestyle=BES/ele, bibstyle= BES/ele]{biblatex}
 
 \renewbibmacro{in:}{%
   \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
