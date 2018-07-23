@@ -1,0 +1,2427 @@
+
+o_onGetData({
+  "monTagURL": "//c.woopic.com/t.gif",
+  "cookie": {
+    "cookieConsent": true,
+    "rate": 50,
+    "enabled": true
+  },
+  "menu_header": {
+    
+  "leftPanel" : [
+    
+  {
+    "type": "Logo",
+    "condition": "if-logo",
+    "text": "",
+    "disableSenseOfPlace": true,
+    "attr": {
+      "href": "https://r.orange.fr/r/Ohome_accueil",
+      "target": "",
+      "title": "retour a l'accueil",
+      "data-oevent-category" : "header",
+      "data-oevent-action" : "logo",
+      "data-oevent-label" : "",
+      "data-tag": "urlwg_rubanGP3_logo",
+      "id": "o-logo"
+    },
+    "img": {
+      "src": "//c.orange.fr/logo-orange.png",
+      "title": "retour a l'accueil"
+    }
+  },
+
+  {
+    "type": "MegaMenu",
+    "condition": "if-navZone",
+    "text": "Menu",
+    "attr": {
+      "class": "o-nav-item",
+      "id": "o-megamenu-link",
+      "title": "Mes services Orange", 
+      "data-oevent-category" : "header",
+      "data-oevent-action" : "menu",
+      "data-oevent-label" : "",
+      "data-tag": "navwg_rubanGP3_burger", 
+      "data-icon": "\ue651"
+    },
+    "popin": {    
+      "attr": {     
+        "id": "o-megamenu-panel",
+        "class": "o-nav-zone-panel o-nav-zone-panel-full-width"
+      }   
+    },
+    "rubrique": [ 
+        {
+          "text": "Relation Client",
+          "attr": {
+            "title":  "Relation Client",
+            "class": "o-megamenu-category "
+          }, 
+          "item" : [
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Espace client",
+                  "attr": {
+                      "href": "https://r.orange.fr/r/OGespaceclient_accueil",
+                      "target": "",
+                      "title": "Espace client",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "espaceclient",
+                      "data-tag": "urlwg_rubanGP3_burger_relationclient_espaceclient"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Compte Orange",
+                  "attr": {
+                      "href": "https://espaceclientv3.orange.fr/?page=profil-infosPerso",
+                      "target": "",
+                      "title": "Compte Orange",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "compteorange",
+                      "data-tag": "urlwg_rubanGP3_burger_relationclient_compteorange"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Assistance",
+                  "attr": {
+                      "href": "https://assistance.orange.fr/",
+                      "target": "",
+                      "title": "Assistance",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "assistance",
+                      "data-tag": "urlwg_rubanGP3_burger_relationclient_assistance"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Forum d'entraide",
+                  "attr": {
+                      "href": "https://communaute.orange.fr/",
+                      "target": "",
+                      "title": "Forum d'entraide",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "forumdentraide",
+                      "data-tag": "urlwg_rubanGP3_burger_relationclient_forum"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Boutique en ligne",
+                  "attr": {
+                      "href": "https://boutique.orange.fr/",
+                      "target": "",
+                      "title": "Boutique en ligne",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "boutiqueenligne",
+                      "data-tag": "urlwg_rubanGP3_burger_relationclient_boutique"
+                    }
+                }
+                
+          ]
+        }
+        ,
+        {
+          "text": "Divertissement",
+          "attr": {
+            "title":  "Divertissement",
+            "class": "o-megamenu-category "
+          }, 
+          "item" : [
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "TV",
+                  "attr": {
+                      "href": "https://tv.orange.fr",
+                      "target": "",
+                      "title": "TV",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "tv",
+                      "data-tag": "urlwg_rubanGP3_burger_divertissement_tv"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Vidéo à la demande",
+                  "attr": {
+                      "href": "https://video-a-la-demande.orange.fr/#vod/home",
+                      "target": "",
+                      "title": "Vidéo à la demande",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "videoalademande",
+                      "data-tag": "urlwg_rubanGP3_burger_divertissement_vod"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Musique",
+                  "attr": {
+                      "href": "https://musique.orange.fr/",
+                      "target": "",
+                      "title": "Musique",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "musique",
+                      "data-tag": "urlwg_rubanGP3_burger_divertissement_musique"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Jeux",
+                  "attr": {
+                      "href": "https://jeu.orange.fr",
+                      "target": "",
+                      "title": "Jeux",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "jeux",
+                      "data-tag": "urlwg_rubanGP3_burger_divertissement_jeux"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Lecture",
+                  "attr": {
+                      "href": "https://lecture.orange.fr",
+                      "target": "",
+                      "title": "Lecture",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "lecture",
+                      "data-tag": "urlwg_rubanGP3_burger_divertissement_presse"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Cinéma",
+                  "attr": {
+                      "href": "https://cineday.orange.fr/",
+                      "target": "",
+                      "title": "Cinéma",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "cinema",
+                      "data-tag": "urlwg_rubanGP3_burger_divertissement_cinema"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Vidéos",
+                  "attr": {
+                      "href": "https://video-streaming.orange.fr/",
+                      "target": "",
+                      "title": "Vidéos",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "videos",
+                      "data-tag": "urlwg_rubanGP3_burger_divertissement_videos"
+                    }
+                }
+                
+          ]
+        }
+        ,
+        {
+          "text": "Info/mag",
+          "attr": {
+            "title":  "Info/mag",
+            "class": "o-megamenu-category "
+          }, 
+          "item" : [
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Actualités",
+                  "attr": {
+                      "href": "https://actu.orange.fr",
+                      "target": "",
+                      "title": "Actualités",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "actualites",
+                      "data-tag": "urlwg_rubanGP3_burger_info_actualites"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Auto",
+                  "attr": {
+                      "href": "https://auto.orange.fr",
+                      "target": "",
+                      "title": "Auto",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "auto",
+                      "data-tag": "urlwg_rubanGP3_burger_info_automobile"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Finance",
+                  "attr": {
+                      "href": "https://finance.orange.fr",
+                      "target": "",
+                      "title": "Finance",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "finance",
+                      "data-tag": "urlwg_rubanGP3_burger_info_finance"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Météo",
+                  "attr": {
+                      "href": "https://meteo.orange.fr",
+                      "target": "",
+                      "title": "Météo",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "meteo",
+                      "data-tag": "urlwg_rubanGP3_burger_info_meteo"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Sports",
+                  "attr": {
+                      "href": "https://sports.orange.fr/",
+                      "target": "",
+                      "title": "Sports",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "sports",
+                      "data-tag": "urlwg_rubanGP3_burger_info_sports"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Tendances",
+                  "attr": {
+                      "href": "https://femmes.orange.fr/",
+                      "target": "",
+                      "title": "Tendances",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "tendances",
+                      "data-tag": "urlwg_rubanGP3_burger_info_tendances"
+                    }
+                }
+                
+          ]
+        }
+        ,
+        {
+          "text": "Services Orange",
+          "attr": {
+            "title":  "Services Orange",
+            "class": "o-megamenu-category "
+          }, 
+          "item" : [
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Mail",
+                  "attr": {
+                      "href": "https://r.orange.fr/r/OGwebmail_inbox",
+                      "target": "",
+                      "title": "Mail",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "mail",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_mail"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Agenda",
+                  "attr": {
+                      "href": "https://r.orange.fr/r/Osc_agenda?ref=ec",
+                      "target": "",
+                      "title": "Agenda",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "agenda",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_agenda"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Contacts",
+                  "attr": {
+                      "href": "https://r.orange.fr/r/Osc_contact?ref=ec",
+                      "target": "",
+                      "title": "Contacts",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "contacts",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_contacts"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Boîtes vocales",
+                  "attr": {
+                      "href": "https://boitevocale5w.orange.fr/webmail/fr_FR/MU_messages.html?SORTBY=1&FOLDER=SF_ANSWERPHONE",
+                      "target": "",
+                      "title": "Boîtes vocales",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "boitesvocales",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_boitesvocales"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "SMS / MMS",
+                  "attr": {
+                      "href": "https://smsmms1.orange.fr/I/Sms/sms_write.php?locale=fr_FR&dub=1",
+                      "target": "",
+                      "title": "SMS / MMS",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "smsmms",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_sms"
+                    }
+                }
+                
+          ]
+        }
+        ,
+        {
+          "text": "",
+          "attr": {
+            "title":  "",
+            "class": "o-megamenu-category "
+          }, 
+          "item" : [
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Le Cloud",
+                  "attr": {
+                      "href": "https://web.cloud.orange.fr",
+                      "target": "",
+                      "title": "Le Cloud",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "lecloud",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_cloud"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Homelive",
+                  "attr": {
+                      "href": "https://homelive.orange.fr",
+                      "target": "",
+                      "title": "Homelive",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "homelive",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_homelive"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Orange Bank",
+                  "attr": {
+                      "href": "https://orangebank.orange.fr/?utx_medium=fixe&utx_source=ofr-ob&utx_campaign=menu&of_medium=flux-of&of_source=dnu-portail&of_campaign=menu",
+                      "target": "",
+                      "title": "Orange Bank",
+                      "class" : "o-megamenu-new",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "orangebank",
+                      "data-tag": ""
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Orange Money",
+                  "attr": {
+                      "href": "https://orangemoney.orange.fr",
+                      "target": "",
+                      "title": "Orange Money",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "orangemoney",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_orangemoney"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Orange Cash",
+                  "attr": {
+                      "href": "https://orangecash.orange.fr/",
+                      "target": "",
+                      "title": "Orange Cash",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "orangecash",
+                      "data-tag": "urlwg_rubanGP3_burger_servicesorange_orangecash"
+                    }
+                }
+                
+          ]
+        }
+        ,
+        {
+          "text": "Et aussi",
+          "attr": {
+            "title":  "Et aussi",
+            "class": "o-megamenu-category "
+          }, 
+          "item" : [
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Autonomie",
+                  "attr": {
+                      "href": "https://boutique.orange.fr/informations/accessibilite-autonomie/",
+                      "target": "",
+                      "title": "Autonomie",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "autonomie",
+                      "data-tag": "urlwg_rubanGP3_burger_autres_autonomie"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Accueil Sosh",
+                  "attr": {
+                      "href": "https://r.orange.fr/r/Ehome_sosh",
+                      "target": "",
+                      "title": "Accueil Sosh",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "accueilsosh",
+                      "data-tag": "urlwg_rubanGP3_burger_autres_accueilsosh"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Accueil Pro",
+                  "attr": {
+                      "href": "https://pro.orange.fr",
+                      "target": "",
+                      "title": "Accueil Pro",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "accueilpro",
+                      "data-tag": "urlwg_rubanGP3_burger_autres_accueilpro"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Orange France",
+                  "attr": {
+                      "href": "https://r.orange.fr/r/Edivertissement_orangefan",
+                      "target": "",
+                      "title": "Orange France",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "orangefrance",
+                      "data-tag": "urlwg_rubanGP3_burger_autres_orangefrance"
+                    }
+                }
+                ,
+                {
+                  "type" : "Link",
+                  "condition": "",
+                  "text" : "Orange Group",
+                  "attr": {
+                      "href": "https://www.orange.com",
+                      "target": "",
+                      "title": "Orange Group",      
+                      "data-oevent-category" : "header_menu",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "orangegroup",
+                      "data-tag": "urlwg_rubanGP3_burger_autres_orangegroup"
+                    }
+                }
+                
+          ]
+        }
+        
+    ]
+      
+      ,"banniere": [
+        
+          {
+            "type" : "Link",
+            "hasText": false,
+            "attr": {
+              "class": "o-banniere-2blocs-vertical",
+                 
+                "href": "https://actu.orange.fr/",
+              
+              "target": "",
+              "title": "Actualités",
+              "data-oevent-category" : "header_menu",
+              "data-oevent-action" : "animationpardefaut",
+              "data-oevent-label" : "",
+              "data-tag": "urlwg_rubanGP3_burger_animation"      
+            },
+            "img": {
+              "src": "Actu_megamenu.jpg",
+              "title": "Actualités"
+            },
+            "imgHD": {
+              "src": "Actu_megamenu.jpg",
+              "title": "Actualités"
+            }
+          }
+          
+      ]
+    
+      ,"footer": [ 
+        
+          {
+            "type" : "Link",
+            "text" : "Contacter Orange",
+            "disableSenseOfPlace" : true,
+            "attr": {
+              
+              "href": "https://contact.orange.fr",
+              "target": "",
+              "title": "Contacter Orange",
+              "data-oevent-category" : "header_menu",
+              "data-oevent-action" : "accesdirect",
+              "data-oevent-label" : "contacterorange",
+              "data-tag": "urlwg_rubanGP3_burger_footer_nouscontacter",
+              "data-icon": "\ue666"
+            }
+          }
+       ,
+          {
+            "type" : "Link",
+            "text" : "Boutique en ligne",
+            "disableSenseOfPlace" : true,
+            "attr": {
+              
+              "href": "https://boutique.orange.fr/",
+              "target": "",
+              "title": "Boutique en ligne",
+              "data-oevent-category" : "header_menu",
+              "data-oevent-action" : "accesdirect",
+              "data-oevent-label" : "boutiqueenligne",
+              "data-tag": "urlwg_rubanGP3_burger_footer_trouverboutique",
+              "data-icon": "\ue602"
+            }
+          }
+       ,
+          {
+            "type" : "Link",
+            "text" : "Forum d'entraide",
+            "disableSenseOfPlace" : true,
+            "attr": {
+              
+              "href": "https://communaute.orange.fr/",
+              "target": "",
+              "title": "Forum d'entraide",
+              "data-oevent-category" : "header_menu",
+              "data-oevent-action" : "accesdirect",
+              "data-oevent-label" : "forumdentraide",
+              "data-tag": "urlwg_rubanGP3_burger_footer_couverturereseaux",
+              "data-icon": "\ue603"
+            }
+          }
+       
+      ]
+    
+  }
+  
+  ,{
+    "type": "Text",
+    "condition": "if-navZone if-notHomePage",
+    "text": "",
+    "attr": {
+      "id": "o-separator",
+      "class": "o-separator"
+    }
+  },
+
+        {
+          "type" : "Link",
+          "condition": "if-navZone if-notHomePage",
+          "text" : "Espace client",
+          "attr": {
+            "id": "o-espace-client",
+            "class": "o-nav-item o-nav-left-link o-direct-link",
+            "href": "https://r.orange.fr/r/OGespaceclient_accueil",
+            "target": "",
+            "title": "Espace client",
+            "data-oevent-category" : "header",
+            "data-oevent-action" : "espaceclient",
+            "data-oevent-label" : "",
+            "data-tag": "urlwg_rubanGP3_operateur_espaceclient",
+            "data-hide": "if-needed"
+          }
+        },
+      
+        {
+          "type" : "Link",
+          "condition": "if-navZone if-notHomePage",
+          "text" : "Assistance",
+          "attr": {
+            "id": "o-assistance",
+            "class": "o-nav-item o-nav-left-link o-direct-link",
+            "href": "https://assistance.orange.fr/",
+            "target": "",
+            "title": "Assistance",
+            "data-oevent-category" : "header",
+            "data-oevent-action" : "assistance",
+            "data-oevent-label" : "",
+            "data-tag": "urlwg_rubanGP3_operateur_assistance",
+            "data-hide": "if-needed"
+          }
+        },
+      
+        {
+          "type" : "Link",
+          "condition": "if-navZone if-notHomePage",
+          "text" : "Boutique",
+          "attr": {
+            "id": "o-boutique",
+            "class": "o-nav-item o-nav-left-link o-direct-link",
+            "href": "https://boutique.orange.fr",
+            "target": "",
+            "title": "Boutique",
+            "data-oevent-category" : "header",
+            "data-oevent-action" : "boutique",
+            "data-oevent-label" : "",
+            "data-tag": "urlwg_rubanGP3_operateur_boutique",
+            "data-hide": "if-needed"
+          }
+        },
+      
+    {
+      "type": "PopInSearchPanel",
+      "condition": "if-navZone if-hasBtnSearch if-notHomePage",
+      "text" : "Rechercher",
+      "attr": {
+        "title": "Rechercher",
+        "id": "o-popin-search",
+        "class": "o-nav-item",
+        "data-icon": "\ue650",
+        "data-oevent-category" : "header",
+        "data-oevent-action" : "search",
+        "data-oevent-label" : "",
+        "data-tag": "navwg_rubanGP3.0_recherche_ouvrepanneau"
+      },
+      "popin": {
+        "text": "Rechercher sur le web",
+        "attr": {
+          "class": "o-nav-zone-panel o-nav-zone-panel-full-width",
+          "id": "o-popin-search-panel"
+        }
+      }
+    },
+  
+    
+    {
+      "type": "SearchInput",
+      "condition": "if-navZone if-homePage",
+      "attr": {
+        "title": "Rechercher",
+        "id": "o-navzone-search",
+        "class": "o-nav-item",
+        "data-oevent-category" : "",
+        "data-oevent-action" : "",
+        "data-oevent-label" : "",
+        "data-tag": "navwg_rubanGP3.0_recherche"
+      }
+    },
+  
+    
+    {
+      "type" : "Link",
+      "condition": "if-navZone if-homePageProspect",
+      "text" : "Espace client",
+      "attr": {
+        "id": "o-espace-client",
+        "class": "o-nav-item o-nav-left-link o-direct-link",
+        "href": "https://r.orange.fr/r/OGespaceclient_accueil",
+        "target": "",
+        "title": "Espace client",
+        "data-oevent-category" : "header",
+        "data-oevent-action" : "espaceclient",
+        "data-oevent-label" : "",
+        "data-tag": "urlwg_rubanGP3_operateur_espaceclient",
+        "data-hide": "if-needed"
+      }
+    },
+    {
+      "type" : "Link",
+      "condition": "if-navZone if-homePageProspect",
+      "text" : "Assistance",
+      "attr": {
+        "id": "o-assistance",
+        "class": "o-nav-item o-nav-left-link o-direct-link",
+        "href": "https://assistance.orange.fr/",
+        "target": "",
+        "title": "Assistance",
+        "data-oevent-category" : "header",
+        "data-oevent-action" : "assistance",
+        "data-oevent-label" : "",
+        "data-tag": "urlwg_rubanGP3_operateur_assistance",
+        "data-hide": "if-needed"
+      }
+    }
+  ]
+,
+    
+"rightPanel" : [
+
+  {
+    "type": "Link",
+    "condition": "if-persoZone",
+    "notification" : "o-idzone-mail",
+    "attr": {
+      "class": "o-nav-item o-nav-item-icon",
+      "href": "https://r.orange.fr/r/OGwebmail_inbox",
+      "id": "o-mail-item",
+      "target": "",
+      "title": "Messagerie Orange",
+      "data-oevent-category" : "header",
+      "data-oevent-action" : "mail",
+      "data-oevent-label" : "",
+      "data-tag": "urlwg_rubanGP3_mail_nonconnecte",
+      "data-icon": "\ue604"
+    }
+  },
+
+  {
+    "type": "PopInLaunchPanel",
+    "popOnOver": true,
+    
+      "condition": "if-persoZone if-launchZone",
+    
+    "attr": {
+      "title": "Vos services",
+      "id": "o-popin-launch",
+      "class": "o-nav-item o-nav-item-icon",
+      "data-oevent-category" : "header",
+      "data-oevent-action" : "lanceur",
+      "data-oevent-label" : "",
+      "data-tag": "navwg_rubanGP3_lanceur",
+      "data-icon": "\ue642",
+      "data-statsHoverTimeout": 600
+    },
+    "popin": {
+      "text": "Vos services",
+      "attr": {
+        "id": "o-popin-launch-panel",
+        "class": "o-nav-zone-panel"
+      }
+    },
+    "item": [
+    {
+        "type" : "Link",
+        "text" : "Mail",
+        
+          "notification" : "o-idzone-mail",
+        
+        "attr": {
+          "id": "o-launch-app-mail",
+          "href": "https://r.orange.fr/r/OGwebmail_inbox",
+          "target": "",
+          "title": "Mail",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "mail",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_mail",
+          
+            "data-icon": "\ue604"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "Boîtes vocales",
+        
+        "attr": {
+          "id": "",
+          "href": "https://boitevocale5w.orange.fr/webmail/fr_FR/MU_messages.html?SORTBY=1&FOLDER=SF_ANSWERPHONE",
+          "target": "",
+          "title": "Boîtes vocales",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "boitesvocales",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_boitesvocales",
+          
+            "data-icon": "\ue606"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "Le Cloud",
+        
+        "attr": {
+          "id": "",
+          "href": "https://web.cloud.orange.fr",
+          "target": "",
+          "title": "Le Cloud",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "lecloud",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_cloud",
+          
+            "data-icon": "\ue605"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "SMS / MMS",
+        
+          "notification" : "o-idzone-smsmms",
+        
+        "attr": {
+          "id": "o-launch-app-smsmms",
+          "href": "https://smsmms1.orange.fr/I/Sms/sms_write.php?locale=fr_FR&dub=1",
+          "target": "",
+          "title": "SMS / MMS",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "smsmms",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_sms",
+          
+            "data-icon": "\ue644"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "Contacts",
+        
+        "attr": {
+          "id": "",
+          "href": "https://r.orange.fr/r/Osc_contact?ref=ec",
+          "target": "",
+          "title": "Contacts",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "contacts",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_contacts",
+          
+            "data-icon": "\ue657"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "Agenda",
+        
+        "attr": {
+          "id": "",
+          "href": "https://r.orange.fr/r/Osc_agenda?ref=ec",
+          "target": "",
+          "title": "Agenda",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "agenda",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_agenda",
+          
+            "data-icon": "\ue656"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "Pages perso",
+        
+        "attr": {
+          "id": "",
+          "href": "https://pages.perso.orange.fr/",
+          "target": "",
+          "title": "Pages perso",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "pagesperso",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_pagesperso",
+          
+            "data-icon": "\ue643"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "Homelive",
+        
+          "condition" : "if-homelive",
+        
+        "attr": {
+          "id": "",
+          "href": "https://homelive.orange.fr/mon-service/",
+          "target": "",
+          "title": "Homelive",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "homelive",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_homelive",
+          
+            "data-icon": "\ue802"
+          
+        }
+        
+      }
+      ,{
+        "type" : "Link",
+        "text" : "Deezer",
+        
+          "condition" : "if-deezer",
+        
+        "attr": {
+          "id": "",
+          "href": "https://www.deezer.com/",
+          "target": "",
+          "title": "Deezer",
+          "data-oevent-category" : "header_lanceur",
+          "data-oevent-action" : "deezer",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_rubanGP3_lanceur_deezer",
+          
+            "data-icon": "\ue661"
+          
+        }
+        
+      }
+      
+    ]
+  },
+
+  {
+    "type": "AuthentLink",
+    "text": "Identifiez-vous",
+    "condition" : "if-persoZone if-notConnected",  
+    "urlParam": "",
+    "attr": {
+        "class": "o-nav-item",
+        "id": "o-nav-item-login",
+        "href": "",
+        "title": "Identifiez-vous",
+        "data-oevent-category" : "header",
+        "data-oevent-action" : "identite",
+        "data-oevent-label" : "",
+        "data-tag": "urlwg_rubanGP3_identifiezvous"        
+    }
+  },
+
+  {
+    "type": "PopInNotifPanel",
+    "popOnOver": "true",
+    "condition": "if-persoZone if-connected if-mainUser",  
+    "notification": "o-advise",
+    "adviseProposalUrl": "/pushms/advise/1.1/proposal?targets=NEC[contract:10,transverse:1]&canal=06o&data[canalPhysique]=web",
+    "adviseCappingUrl": "/pushms/advise/1.1/capping",
+    "attr": {
+      "title": "Vos notifications",
+      "id": "o-popin-notif",
+      "class": "o-nav-item o-nav-item-icon",
+      "data-oevent-category" : "header",
+      "data-oevent-action" : "notification",
+      "data-oevent-label" : "",
+      "data-tag": "navwg_rubanGP3_notif",
+      "data-icon": "\ue625",
+      "data-statsHoverTimeout": 600
+      },
+    "popin": {
+      "text": "Vos notifications",
+      "defaultMsg": "Retrouvez ici vos notifications.",
+      "attr": {
+        "id": "o-popin-notif-panel",
+        "class": "o-nav-zone-panel"
+      }
+    }
+  },
+
+  {
+    "type": "PopInIdentityPanel",
+    "popOnOver": "true",
+    "condition" : "if-persoZone if-connected",  
+    "attr": {
+      "id": "o-popin-identity",
+      "class": "o-nav-item",
+      "title": "Votre compte Orange",
+      "data-oevent-category" : "header",
+          "data-oevent-action" : "identite",
+          "data-oevent-label" : "",
+          "data-tag": "navwg_rubanGP3_identite",
+          "data-statsHoverTimeout": 600
+    },
+    "popin" : {
+      "text": "Votre compte Orange",
+      "attr": {
+        "id": "o-popin-identity-panel",
+        "class": "o-nav-zone-panel"
+      }
+    },
+    "item" : {
+      "userLink" : [
+        {
+          "type": "Link",
+          "text": "Gérer vos infos personnelles",
+          "attr": {
+            "class": "o-popin-identity-userlink",
+            "href": "https://r.orange.fr/r/Oespaceclient_monprofil",
+            "target": "",
+            "title": "Gérer vos infos personnelles",
+            "data-oevent-category" : "header_identite",
+            "data-oevent-action" : "gerervosinfospersonnelles",
+            "data-oevent-label" : "",
+            "data-tag": "urlwg_rubanGP3_identite_gerer"
+          }
+        },{
+          "type": "Link",
+          "text": "Changer votre mot de passe",
+          "attr": {
+            "class": "o-popin-identity-userlink",
+            "href": "https://eui.orange.fr/manage/bin/manage.cgi?open=password_link",
+            "target": "",
+            "title": "Changer votre mot de passe",
+            "data-oevent-category" : "header_identite",
+            "data-oevent-action" : "changervotremotdepasse",
+            "data-oevent-label" : "",
+            "data-tag": "urlwg_rubanGP3_identite_changermdp"
+          }
+        }
+      ]
+      
+        ,
+        "avatarLink": {
+          "type": "Link",
+          "text": "Modifier",
+          "attr": {
+              "class": "o-popin-identity-avatarlink",
+              "href": "https://mmc.orange.fr",
+              "target": "",
+              "title": "Modifier",
+              "data-oevent-category" : "header_identite",
+              "data-oevent-action" : "modifier",
+              "data-oevent-label" : "",
+              "data-tag": "urlwg_rubanGP3_identite_modifieravatar"
+          }
+        }
+      
+      ,
+      "loginButton": [
+        {
+          "type": "AuthentLink",
+          "text": "Changer d'utilisateur",
+          "urlParam": "",
+          "attr": {
+            "class": "o-popin-identity-loginbutton",
+            "href": "",
+            "target": "",
+            "title": "Changer d'utilisateur",
+            "data-oevent-category" : "header_identite",
+            "data-oevent-action" : "changerdutilisateur",
+            "data-oevent-label" : "",
+            "data-tag": "urlwg_rubanGP3_identite_changerutil"
+          }
+        },
+        {
+          "type": "Link",
+          "text": "Se déconnecter",
+          "urlParam": "",
+          "attr": {
+            "class": "o-popin-identity-loginbutton",
+            "href": "https://r.orange.fr/r/Ofermersession",
+            "target": "",
+            "title": "Se déconnecter",
+            "data-oevent-category" : "header_identite",
+            "data-oevent-action" : "sedeconnecter",
+            "data-oevent-label" : "",
+            "data-tag": "urlwg_rubanGP3_identite_deconnecter"
+          }
+        }
+ 
+      ]
+    }
+  }
+
+]
+  
+  },
+  "footer": {
+    "ZoneSyndication": {
+      
+  "type": "SyndicationFooter",
+  "condition": "if-syndicationFooter",
+  "text": "Retrouvez-nous sur",
+  "item": [
+    
+      {
+        "type": "Link",
+        "name": "facebook",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "class": "o-icomoon o-footer-syndication-facebook",
+          "href": "https://www.facebook.com/Orange.France",
+          "data-oevent-category" : "footer_syndication",
+          "data-oevent-action" : "facebook",
+          "data-oevent-label" : "",
+          "data-tag": "extLink_urlwg_plandesite_retrouveznous_facebook"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "name": "twitter",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "class": "o-icomoon o-footer-syndication-twitter",
+          "href": "https://twitter.com/orange_france",
+          "data-oevent-category" : "footer_syndication",
+          "data-oevent-action" : "twitter",
+          "data-oevent-label" : "",
+          "data-tag": "extLink_urlwg_plandesite_retrouveznous_twitter"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "name": "pinterest",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "class": "o-icomoon o-footer-syndication-pinterest",
+          "href": "https://fr.pinterest.com/orangefrance/",
+          "data-oevent-category" : "footer_syndication",
+          "data-oevent-action" : "pinterest",
+          "data-oevent-label" : "",
+          "data-tag": "extLink_urlwg_plandesite_retrouveznous_pinterest"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "name": "googlep",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "class": "o-icomoon o-footer-syndication-googlep",
+          "href": "https://plus.google.com/+OrangeFrance",
+          "data-oevent-category" : "footer_syndication",
+          "data-oevent-action" : "googleplus",
+          "data-oevent-label" : "",
+          "data-tag": "extLink_urlwg_plandesite_retrouveznous_googleplus"
+        }
+      }
+      
+  ]
+
+    },
+    "ZoneSiteMap": {
+      
+  "type" : "SiteMapFooter",
+  "condition": "if-sitemapFooter",
+  "column": [
+    
+      {
+        "category": [
+          
+            {
+              "text" : "Relation client",
+              "item" : [
+                
+                  {
+                    "type" : "Link",
+                    "text" : "Assistance",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://assistance.orange.fr/",
+                      "title": "Assistance",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "assistance",
+                      "data-tag": "urlwg_plandesite_relationclient_assistance"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Déménagement",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclientv3.orange.fr/?page=espace-demenagement",
+                      "title": "Déménagement",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "demenagement",
+                      "data-tag": "urlwg_plandesite_relationclient_demenagement"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Equipements",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclient.orange.fr/maf.php?cd=U&urlOk=https://espaceclient.orange.fr/%3Fpage%3Dcarrefour-equipements",
+                      "title": "Equipements",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "equipements",
+                      "data-tag": "urlwg_plandesite_relationclient_equipements"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Factures",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclientv3.orange.fr/gerer-vos-factures",
+                      "title": "Factures",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "factures",
+                      "data-tag": "urlwg_plandesite_relationclient_factures"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Infos personnelles",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclientv3.orange.fr/?page=profil-infosPerso",
+                      "title": "Infos personnelles",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "infospersonnelles",
+                      "data-tag": "urlwg_plandesite_relationclient_infospersonnelles"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Offre et options",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclient.orange.fr/maf.php?cd=U&urlOk=https://espaceclient.orange.fr/%3Fpage%3Doffre-et-options",
+                      "title": "Offre et options",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "offreetoptions",
+                      "data-tag": "urlwg_plandesite_relationclient_offresetoptions"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Réclamation",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclientv3.orange.fr/depot-de-reclamation-en-ligne",
+                      "title": "Réclamation",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "reclamation",
+                      "data-tag": "urlwg_plandesite_relationclient_reclamation"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Suivi conso",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclient.orange.fr/maf.php?cd=U&urlOk=https://espaceclient.orange.fr/%3Fpage%3Dcarrefour-suivi-conso",
+                      "title": "Suivi conso",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "suiviconso",
+                      "data-tag": "urlwg_plandesite_relationclient_suiviconso"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Suivi de commande",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://espaceclientv3.orange.fr/suivi-commande",
+                      "title": "Suivi de commande",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "suividecommande",
+                      "data-tag": "urlwg_plandesite_relationclient_suivicommande"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Tous vos contrats",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://assistance.orange.fr/assistance-commerciale/l-identification/gerer-vos-comptes-orange/espace-client-mieux-gerer-vos-contrats-residentiels-et-pro_207468-751190",
+                      "title": "Tous vos contrats",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "relationclient",
+                      "data-oevent-label" : "tousvoscontrats",
+                      "data-tag": "urlwg_plandesite_relationclient_contrats"
+                    }
+                  }
+                  
+              ]
+            }
+            
+        ]
+      }
+      ,
+      {
+        "category": [
+          
+            {
+              "text" : "Offres Orange",
+              "item" : [
+                
+                  {
+                    "type" : "Link",
+                    "text" : "Accessoires",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/accessoires",
+                      "title": "Accessoires",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "accessoires",
+                      "data-tag": "urlwg_plandesite_offresorange_accessoires"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Autonomie",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/informations/accessibilite-autonomie/",
+                      "title": "Autonomie",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "autonomie",
+                      "data-tag": "urlwg_plandesite_offresorange_autonomie"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Eligibilité à la Fibre",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/eligibilite",
+                      "title": "Eligibilité à la Fibre",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "eligibilitealafibre",
+                      "data-tag": "urlwg_plandesite_offresorange_eligibilitefibre"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Offres mobile",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/mobile",
+                      "title": "Offres mobile",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "offresmobile",
+                      "data-tag": "urlwg_plandesite_offresorange_mobile"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Offres internet",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/internet/offres-fibre",
+                      "title": "Offres internet",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "offresinternet",
+                      "data-tag": "urlwg_plandesite_offresorange_offrefibre"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Offres internet partout",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/tablette-et-cle",
+                      "title": "Offres internet partout",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "offresinternetpartout",
+                      "data-tag": "urlwg_plandesite_offresorange_tablettecle"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Offres open",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/internet-mobile",
+                      "title": "Offres open",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "offresopen",
+                      "data-tag": "urlwg_plandesite_offresorange_internetmobile"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Toutes les offres",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boutique.orange.fr/",
+                      "title": "Toutes les offres",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "offresorange",
+                      "data-oevent-label" : "touteslesoffres",
+                      "data-tag": "urlwg_plandesite_offresorange_touteslesoffres"
+                    }
+                  }
+                  
+              ]
+            }
+            
+        ]
+      }
+      ,
+      {
+        "category": [
+          
+            {
+              "text" : "Divertissement",
+              "item" : [
+                
+                  {
+                    "type" : "Link",
+                    "text" : "Cinéma",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://cineday.orange.fr/",
+                      "title": "Cinéma",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "cinema",
+                      "data-tag": "urlwg_plandesite_divertissement_cinema"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Jeux",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://jeu.orange.fr",
+                      "title": "Jeux",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "jeux",
+                      "data-tag": "urlwg_plandesite_divertissement_jeux"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Le mag TV",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://lemagtv.orange.fr/",
+                      "title": "Le mag TV",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "lemagtv",
+                      "data-tag": "urlwg_plandesite_divertissement_lemagtv"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Musique",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://musique.orange.fr/",
+                      "title": "Musique",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "musique",
+                      "data-tag": "urlwg_plandesite_divertissement_musique"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Lecture",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://lecture.orange.fr",
+                      "title": "Lecture",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "lecture",
+                      "data-tag": "urlwg_plandesite_divertissement_presse"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Programme TV",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://programme-tv.orange.fr/",
+                      "title": "Programme TV",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "programmetv",
+                      "data-tag": "urlwg_plandesite_divertissement_programmetv"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "TV",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://tv.orange.fr",
+                      "title": "TV",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "tv",
+                      "data-tag": "urlwg_plandesite_divertissement_tv"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Vidéo à la demande",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://video-a-la-demande.orange.fr/#vod/home",
+                      "title": "Vidéo à la demande",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "videoalademande",
+                      "data-tag": "urlwg_plandesite_divertissement_vod"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Vidéos",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://video-streaming.orange.fr/",
+                      "title": "Vidéos",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "divertissement",
+                      "data-oevent-label" : "videos",
+                      "data-tag": "urlwg_plandesite_divertissement_videos"
+                    }
+                  }
+                  
+              ]
+            }
+            
+        ]
+      }
+      ,
+      {
+        "category": [
+          
+            {
+              "text" : "Services Orange",
+              "item" : [
+                
+                  {
+                    "type" : "Link",
+                    "text" : "Agenda",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://r.orange.fr/r/Osc_agenda?ref=ec",
+                      "title": "Agenda",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "agenda",
+                      "data-tag": "urlwg_plandesite_servicesorange_agenda"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Boîtes vocales",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://boitevocale5w.orange.fr/webmail/fr_FR/MU_messages.html?SORTBY=1&FOLDER=SF_ANSWERPHONE",
+                      "title": "Boîtes vocales",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "boitesvocales",
+                      "data-tag": "urlwg_plandesite_servicesorange_boitesvocales"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Contacts",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://r.orange.fr/r/Osc_contact?ref=ec",
+                      "title": "Contacts",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "contacts",
+                      "data-tag": "urlwg_plandesite_servicesorange_contacts"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Family Place",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://familyplace.orange.fr/",
+                      "title": "Family Place",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "familyplace",
+                      "data-tag": "urlwg_plandesite_servicesorange_familyplace"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Homelive",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://homelive.orange.fr",
+                      "title": "Homelive",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "homelive",
+                      "data-tag": "urlwg_plandesite_servicesorange_homelive"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Le Cloud",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://web.cloud.orange.fr",
+                      "title": "Le Cloud",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "lecloud",
+                      "data-tag": "urlwg_plandesite_servicesorange_lecloud"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Mail",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://r.orange.fr/r/OGwebmail_inbox",
+                      "title": "Mail",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "mail",
+                      "data-tag": "urlwg_plandesite_servicesorange_mail"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Orange Bank",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://orangebank.orange.fr/?utx_medium=fixe&utx_source=ofr-ob&utx_campaign=footer&of_medium=flux-of&of_source=dnu-portail&of_campaign=footer",
+                      "title": "Orange Bank",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "orangebank",
+                      "data-tag": ""
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Orange cash",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://orangecash.orange.fr/",
+                      "title": "Orange cash",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "orangecash",
+                      "data-tag": "urlwg_plandesite_servicesorange_orangecash"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Orange Money",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://orangemoney.orange.fr",
+                      "title": "Orange Money",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "orangemoney",
+                      "data-tag": "urlwg_plandesite_servicesorange_orangemoney"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Pages perso",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://pages.perso.orange.fr/",
+                      "title": "Pages perso",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "pagesperso",
+                      "data-tag": "urlwg_plandesite_servicesorange_pagesperso"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "SMS / MMS",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://smsmms1.orange.fr/I/Sms/sms_write.php?locale=fr_FR&dub=1",
+                      "title": "SMS / MMS",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "servicesorange",
+                      "data-oevent-label" : "smsmms",
+                      "data-tag": "urlwg_plandesite_servicesorange_smsmms"
+                    }
+                  }
+                  
+              ]
+            }
+            
+        ]
+      }
+      ,
+      {
+        "category": [
+          
+            {
+              "text" : "Info / mag",
+              "item" : [
+                
+                  {
+                    "type" : "Link",
+                    "text" : "Actualités",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://actu.orange.fr",
+                      "title": "Actualités",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "actualites",
+                      "data-tag": "urlwg_plandesite_infomag_actualites"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Automobile",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://auto.orange.fr",
+                      "title": "Automobile",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "automobile",
+                      "data-tag": "urlwg_plandesite_infomag_automobile"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Finance",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://finance.orange.fr",
+                      "title": "Finance",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "finance",
+                      "data-tag": "urlwg_plandesite_infomag_finance"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Ligue 1",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://sports.orange.fr/football/ligue-1",
+                      "title": "Ligue 1",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "ligueun",
+                      "data-tag": "urlwg_plandesite_infomag_ligueun"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Météo",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://meteo.orange.fr",
+                      "title": "Météo",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "meteo",
+                      "data-tag": "urlwg_plandesite_infomag_meteo"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "People",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://femmes.orange.fr/people",
+                      "title": "People",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "people",
+                      "data-tag": "urlwg_plandesite_infomag_people"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Sports",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://sports.orange.fr/",
+                      "title": "Sports",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "sports",
+                      "data-tag": "urlwg_plandesite_infomag_sports"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Tendances",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://femmes.orange.fr",
+                      "title": "Tendances",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "infomag",
+                      "data-oevent-label" : "tendances",
+                      "data-tag": "urlwg_plandesite_infomag_tendances"
+                    }
+                  }
+                  
+              ]
+            }
+            
+        ]
+      }
+      ,
+      {
+        "category": [
+          
+            {
+              "text" : "Pratique",
+              "item" : [
+                
+                  {
+                    "type" : "Link",
+                    "text" : "Actu marques",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://actumarques.orange.fr/",
+                      "title": "Actu marques",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "pratique",
+                      "data-oevent-label" : "actumarques",
+                      "data-tag": "urlwg_plandesite_pratique_actumarques"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Annonces auto",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://occasion.auto.orange.fr/",
+                      "title": "Annonces auto",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "pratique",
+                      "data-oevent-label" : "annoncesauto",
+                      "data-tag": "urlwg_plandesite_pratique_annoncesauto"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Annonces immobilier",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://finance.orange.fr/finance-perso/immobilier/",
+                      "title": "Annonces immobilier",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "pratique",
+                      "data-oevent-label" : "annoncesimmobilier",
+                      "data-tag": "urlwg_plandesite_pratique_annoncesimmobilier"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Annuaire gratuit",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://www.118712.fr",
+                      "title": "Annuaire gratuit",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "pratique",
+                      "data-oevent-label" : "annuairegratuit",
+                      "data-tag": "urlwg_plandesite_pratique_annuairegratuit"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Applis et logiciels",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://applications-et-logiciels.orange.fr/",
+                      "title": "Applis et logiciels",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "pratique",
+                      "data-oevent-label" : "applisetlogiciels",
+                      "data-tag": "urlwg_plandesite_pratique_applislogiciels"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Services NFC mobiles",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://nfc.orange.fr/",
+                      "title": "Services NFC mobiles",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "pratique",
+                      "data-oevent-label" : "servicesnfcmobiles",
+                      "data-tag": "urlwg_plandesite_pratique_servicesnfcmobiles"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Sortir",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://en-ville.orange.fr/",
+                      "title": "Sortir",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "pratique",
+                      "data-oevent-label" : "sortir",
+                      "data-tag": "urlwg_plandesite_pratique_sortir"
+                    }
+                  }
+                  
+              ]
+            }
+            ,
+            {
+              "text" : "Et aussi...",
+              "item" : [
+                
+                  {
+                    "type" : "Link",
+                    "text" : "Accueil Sosh",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://www.sosh.fr/",
+                      "title": "Accueil Sosh",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "accueilsosh",
+                      "data-tag": "urlwg_plandesite_etaussi_accueilsosh"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Accueil Pro",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://pro.orange.fr/",
+                      "title": "Accueil Pro",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "accueilpro",
+                      "data-tag": "urlwg_plandesite_etaussi_accueilpro"
+                    }
+                  }
+                  ,
+                  {
+                    "type" : "Link",
+                    "text" : "Orange Group",
+                    "disableSenseOfPlace": true,
+                    "attr": {
+                      "href": "https://www.orange.com/fr/accueil",
+                      "title": "Orange Group",
+                      "data-oevent-category" : "footer_plandesite",
+                      "data-oevent-action" : "etaussi",
+                      "data-oevent-label" : "orangegroup",
+                      "data-tag": "urlwg_plandesite_etaussi_accueilgroup"
+                    }
+                  }
+                  
+              ]
+            }
+            
+        ]
+      }
+      
+  ]
+
+    },
+    "ZoneAccesDirect": {
+      
+  "type": "AccesDirectFooter",
+  "item": [
+    
+      {
+        "type" : "Link",
+        "text" : "Contacter Orange",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "class": "o-icomoon",
+          "href": "https://contact.orange.fr",
+          "title": "Contacter Orange",
+          "data-oevent-category" : "footer_accesdirect",
+          "data-oevent-action" : "contacterorange",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_accesdirects_contact",
+          "data-icon": "\ue666"
+        }
+      }
+      ,
+      {
+        "type" : "Link",
+        "text" : "Boutique en ligne",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "class": "o-icomoon",
+          "href": "https://boutique.orange.fr",
+          "title": "Boutique en ligne",
+          "data-oevent-category" : "footer_accesdirect",
+          "data-oevent-action" : "boutiqueenligne",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_accesdirects_boutique",
+          "data-icon": "\ue602"
+        }
+      }
+      ,
+      {
+        "type" : "Link",
+        "text" : "Forum d'entraide",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "class": "o-icomoon",
+          "href": "https://communaute.orange.fr/",
+          "title": "Forum d'entraide",
+          "data-oevent-category" : "footer_accesdirect",
+          "data-oevent-action" : "forumdentraide",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_accesdirects_forum",
+          "data-icon": "\ue603"
+        }
+      }
+      
+  ]
+
+    },
+    "ZoneLienLegal": {
+      
+  "type": "LienLegalFooter",
+  "item": [
+    
+      {
+        "type": "Link",
+        "text": "Informations légales",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "href": "https://c.orange.fr/pages-juridiques/infos-legales.html",
+          "title": "Informations légales",
+          "target": "_blank",
+          "data-oevent-category" : "footer_legal",
+          "data-oevent-action" : "informationslegales",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_footerGP_infoslegales"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "text": "Données personnelles",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "href": "https://c.orange.fr/pages-juridiques/donnees-personnelles.html",
+          "title": "Données personnelles",
+          "target": "_blank",
+          "data-oevent-category" : "footer_legal",
+          "data-oevent-action" : "donneespersonnelles",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_footerGP_donneesperso"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "text": "Les cookies",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "href": "https://assistance.orange.fr/les-cookies-2917.php",
+          "title": "Les cookies",
+          "target": "_blank",
+          "data-oevent-category" : "footer_legal",
+          "data-oevent-action" : "lescookies",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_footerGP_cookies"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "text": "Publicité",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "href": "https://r.orange.fr/r/Eorangepublicite",
+          "title": "Publicité",
+          "target": "_blank",
+          "data-oevent-category" : "footer_legal",
+          "data-oevent-action" : "publicite",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_footerGP_publicite"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "text": "Internet +",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "href": "https://r.orange.fr/r/Einternetplus",
+          "title": "Internet +",
+          "target": "_blank",
+          "data-oevent-category" : "footer_legal",
+          "data-oevent-action" : "internetplus",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_footerGP_internet"
+        }
+      }
+      ,
+      {
+        "type": "Link",
+        "text": "Signaler un contenu",
+        "disableSenseOfPlace": true,
+        "attr": {
+          "href": "https://r.orange.fr/r/Esignaler",
+          "title": "Signaler un contenu",
+          "target": "_blank",
+          "data-oevent-category" : "footer_legal",
+          "data-oevent-action" : "signaleruncontenu",
+          "data-oevent-label" : "",
+          "data-tag": "urlwg_footerGP_signalerIllicite"
+        }
+      }
+      
+  ]
+
+    }
+  },
+  "BandeauNavigateur": {
+    
+  "type": "BandeauNavigateur",
+  "frequence": 2,
+  "site": [
+    
+      {
+        "url": "",
+        "javascript": "(navigator.platform.indexOf('Win')==-1?false:true)&&(location.hostname.match(/actu|auto|cineday|femmes|finance|horoscope|meteo|sports|assistance|le-cloud|888|pages|agenda|tv|replay|lemoteur|agence|bienvivreledigital|nfc|video-streaming|video-a-la-demande|annuaire-pp/)?true:false)",
+        "rule": [
+          
+            {
+              "browser": "chrome",
+              "version": "53"
+            }
+            ,
+            {
+              "browser": "firefox",
+              "version": "52"
+            }
+            ,
+            {
+              "browser": "ie",
+              "version": "11"
+            }
+            ,
+            {
+              "browser": "opera",
+              "version": "45"
+            }
+            
+        ]
+      }
+      ,
+      {
+        "url": "web.cloud.orange.fr",
+        "javascript": "(navigator.platform.indexOf('Win')==-1?false:true) && (navigator.userAgent.indexOf('Adventurer')==-1?true:false)",
+        "rule": [
+          
+            {
+              "browser": "chrome",
+              "version": "54"
+            }
+            ,
+            {
+              "browser": "firefox",
+              "version": "50"
+            }
+            ,
+            {
+              "browser": "ie",
+              "version": "11"
+            }
+            ,
+            {
+              "browser": "opera",
+              "version": "44"
+            }
+            
+        ]
+      }
+      ,
+      {
+        "url": "",
+        "javascript": "(navigator.platform.indexOf('Win')==-1?false:true)&&(location.hostname.match(/webmail/)?true:false) && (navigator.userAgent.indexOf('Adventurer')==-1?true:false)",
+        "rule": [
+          
+            {
+              "browser": "chrome",
+              "version": "54"
+            }
+            ,
+            {
+              "browser": "firefox",
+              "version": "52"
+            }
+            ,
+            {
+              "browser": "ie",
+              "version": "11"
+            }
+            ,
+            {
+              "browser": "opera",
+              "version": "44"
+            }
+            
+        ]
+      }
+      
+  ]
+
+  }
+})

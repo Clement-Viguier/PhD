@@ -1,0 +1,40 @@
+
+
+    o_runMegaMenuCarrousel({
+      "duration": "3",
+      "items":[
+        
+          {
+            "text" : "Orange Bank",
+            "link": "https://orangebank.orange.fr/?utx_medium=banniere&utx_source=ofr-ob&utx_campaign=menu-av&of_medium=flux-of&of_source=dnu-portail&of_campaign=menu-av",
+            "tagCategory": "header_menu",
+            "tagAction": "s1animation",
+            "tagLabel": "",
+            "tag": "",
+            "image": "114714996/polaris3_carrousel_megamenu/Orangebank1_230x370_1.jpg"
+          }
+          ,
+          {
+            "text" : "Orange Bank",
+            "link": "https://orangebank.orange.fr/?utx_medium=banniere&utx_source=ofr-ob&utx_campaign=menu-av&of_medium=flux-of&of_source=dnu-portail&of_campaign=menu-av",
+            "tagCategory": "header_menu",
+            "tagAction": "s2animation",
+            "tagLabel": "",
+            "tag": "",
+            "image": "114714996/polaris3_carrousel_megamenu/orangebank2_230x370_2.jpg"
+          }
+          ,
+          {
+            "text" : "Orange Bank",
+            "link": "https://orangebank.orange.fr/?utx_medium=banniere&utx_source=ofr-ob&utx_campaign=menu-av&of_medium=flux-of&of_source=dnu-portail&of_campaign=menu-av",
+            "tagCategory": "header_menu",
+            "tagAction": "s3animation",
+            "tagLabel": "",
+            "tag": "",
+            "image": "114714996/polaris3_carrousel_megamenu/orangebank3_230x370_3.jpg"
+          }
+          
+      ]
+    });
+    
+  

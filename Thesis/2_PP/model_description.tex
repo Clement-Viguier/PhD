@@ -3,7 +3,7 @@
 \begin{fullwidth}
 %\begin{abstract} 
 \noindent
-This document is a detailed description of the \model model. This description is based on the ODD protocol of Grimm et al. The model is inspired by multiple other forest and grassland models (for grassland models see particularly \citet{taubert_modelling_2014} and \citet{lohier_explaining_2014}). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
+This document is a detailed description of the \model ~model. This description is based on the ODD protocol of Grimm et al. The model is inspired by multiple other forest and grassland models (for grassland models see particularly \citet{taubert_modelling_2014} and \citet{lohier_explaining_2014}). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
 %\end{abstract}
 \end{fullwidth}
 
@@ -13,9 +13,9 @@ This document is a detailed description of the \model model. This description is
 
 \subsection{Model purpose}
 
-The development of \model is motivated by the need for a flexible tool to explore the complex dynamics of mountain grassland communities, in the context of global change. This tool should, by a better understanding of community dynamics and representation of plant strategies and interaction, also help in the assessment of ecosystem services in new conditions. We believe that to capture the dynamic of such communities, we need to understand and represent first the individual response of plants to fluctuating levels of resources, and the impact of plants on the resources. Individual responses and relative impact should follow general rules of plant physiology but also integrates specific behaviour based on the species resource use strategy and individual characteristics. Therefore the model should allow following distinct individuals from different groups (e.g. species) in a spatially explicit environment where they compete for resources.\\
+The development of \model ~is motivated by the need for a flexible tool to explore the complex dynamics of mountain grassland communities, in the context of global change. This tool should, by a better understanding of community dynamics and representation of plant strategies and interaction, also help in the assessment of ecosystem services in new conditions. We believe that to capture the dynamic of such communities, we need to understand and represent first the individual response of plants to fluctuating levels of resources, and the impact of plants on the resources. Individual responses and relative impact should follow general rules of plant physiology but also integrates specific behaviour based on the species resource use strategy and individual characteristics. Therefore the model should allow following distinct individuals from different groups (e.g. species) in a spatially explicit environment where they compete for resources.\\
 \indent Moreover, since we focus on the community levels, coexistence mechanisms are important and we should include a certain number of these if we want to maintain diversity to observed levels. These mechanisms include: multiple resources competition (water and light), spatial and temporal heterogeneity of resource levels, strategic trade-off between species, perturbation mechanisms (frost, management), link  to meta-population, etc...\\
-\indent The model is built to try to satisfy conditions to reproduce and explore mountain grassland community dynamics. In the current version of the model (\version), a generalist approach has been privileged, and focus on some coexistence maintenance mechanisms and integration of phenotypic plasticity framework. In this state, the model has to be seen as a toy model with good generalisation potential. The link between to ecosystem services are not included, but we can easily imagine to compute them from the community trait distribution. All processes and mechanism are detailed below.
+\indent The model is built to try to satisfy conditions to reproduce and explore mountain grassland community dynamics. In the current version of the model, a generalist approach has been privileged, and focus on some coexistence maintenance mechanisms and integration of phenotypic plasticity framework. In this state, the model has to be seen as a toy model with good generalisation potential. The link between to ecosystem services are not included, but we can easily imagine to compute them from the community trait distribution. All processes and mechanism are detailed below.
 
 \begin{figure}
 \includegraphics[width = 1\linewidth]{./1_Introduction/graphics/model_cycles.pdf}
@@ -26,9 +26,9 @@ The development of \model is motivated by the need for a flexible tool to explor
 \subsection{State variables}
 
 \paragraph{Scales}
-In mountain grasslands individuals (tillers) generally do not grow big and interact only with close neighbours and form little patches. And thus it is possible to represent a rich community at a fairly small scale ($\approx$ dm or m), but the spatial resolution should be relatively fine ($\approx$ cm) to capture inter-individual interactions. Because the model is intended to explore climate change impact on mountain grasslands, it can run on multiple growth seasons separated by snow-covered periods, but must also integrate the intra-seasonal variations at daily scale. Mountain weather (mostly temperature) is known for its large hourly variations, it would, however, require too much computational power to consider such variations. In addition to this argument, we believe that even though they imply physiological flexibility and specific strategies for plants experiencing these conditions, they will not have a huge impact on overall community dynamics changes caused by the climate change. That why hourly variations will not be considered and physiological processes are estimated at the daily timescale.
+In mountain grasslands individuals (tillers) generally do not grow big and interact only with close neighbours and form little patches. And thus it is possible to represent a rich community at a fairly small scale ($\approx$ dm or m), but the spatial resolution should be relatively fine ($\approx$ cm) to capture inter-individual interactions. Because the model is intended to explore climate change impact on mountain grasslands, it can run on multiple growth seasons separated by snow-covered periods, but must also integrate the intra-seasonal variations at a daily scale. Mountain weather (mostly temperature) is known for its large hourly variations, it would, however, require too much computational power to consider such variations. Modelling such hourly variations also implies the modelling of fine scale water regulation processes. To avoid the high cost of hourly variations, the assumption that plants regulates their water exchanges to maintain fairly constant water use efficiency (WUE) is made. Therefore, the physiological processes are modelled on daily time-step.
 
-\paragraph{Plants} The plants are described in the model by state variables described in table \ref{table:state_var_plant}. The best way to understand how plant are represented is to imagine two homogeneous cylinders on top of each other, the shoot cylinder varying in radius and height representing the light acquisition (and shading) zone, and the root cylinder varying only in diameter (because of shallow soil in mountain ecosystems) representing the water acquisition zone. These cylinders are centred on cells of the torus simulation plan.\\
+\paragraph{Plants} The plants are described in the model by state variables described in table \ref{table:state_var_plant}. The best way to understand how plant are represented is to imagine two homogeneous cylinders on top of each other, the shoot cylinder varying in radius and height representing the light acquisition (and shading) zone, and the root cylinder varying only in diameter (because of shallow soil in mountain ecosystems) representing the water acquisition zone. These cylinders are centred on cells of the torus simulation plan to simulate periodic boundary conditions and avoid edge effects.\\
 \begin{marginfigure}
 \includegraphics{./Figures/plant_geometry_m.pdf}
 \caption{Plant geometry and growth axis.}
@@ -96,7 +96,7 @@ thickness & 	(0.012 - 0.05) & cm & WUE vs light efficiency (not in this version)
 \end{table2*}
 %table of species traits. trait, range, distribution, trade-off or strategy associated.
 
-\paragraph{Seed-bank} The seed-bank is the transition state between the different seasons. Individuals may persist thanks to stored resources, but they can also reproduce by the production of new individuals. A lot of grasses use clonal reproduction, in addition, or replacement of sexual reproduction. This type of reproduction is characterised by a persistent link between the newly produced individuals and the parent one that allows the two to communicate and exchange resources. Such dynamics are complex and costly to represent as the link between ramets must be stored and strategies defined for the resource distribution (see Oborny 2012) for more details on clonal growth modelling). To avoid too much complexity, it is possible to approximate the representation of clones to big seeds with little dispersion around the parent plant\footnote{This would take advantage of dispersion kernels. Not implemented in the current version. Dispersion is uniformly random within the simulation plan}. For this reason, reproduction mechanism is reduced to sexual reproduction mechanism with the production of "seeds". Seeds are stored in the seed-bank and only defined by their species and positions. 
+\paragraph{Seed-bank} The seed-bank is the transition state between the different seasons. Individuals may persist thanks to stored resources, but they can also reproduce by the production of new individuals. A lot of grasses use clonal reproduction, in addition, or replacement of sexual reproduction. This type of reproduction is characterised by a persistent link between the newly produced individuals and the parent one that allows the two to communicate and exchange resources. Such dynamics are complex and costly to represent as the link between ramets must be stored and strategies defined for the resource distribution \parencite{soussana_gemini:_2012}) for more details on clonal growth modelling). To avoid too much complexity, it is possible to approximate the representation of clones to big seeds with little dispersion around the parent plant\footnote{This would take advantage of dispersion kernels. Not implemented in the current version. Dispersion is uniformly random within the simulation plan}. For this reason, reproduction mechanism is reduced to sexual reproduction mechanism with the production of "seeds". Seeds are stored in the seed-bank and only defined by their species and positions. 
 
 \paragraph{Soil}
 \begin{marginfigure}
@@ -224,8 +224,8 @@ Vapour pressure deficit is then computed from temperature and relative humidity.
 
 \textbf{Daily processes}
 
-\paragraph{Light competition}Light competition is central to all vegetation model as it constrains the photosynthetic activity and so plant growth. To avoid costly calculation of ray propagation we assume vertical homogeneous top radiation. Relief and orientation effects are taken into account in the computation of irradiance data.\\
-Light competition sub-model allows calculation of individual potential photosynthesis activity and light at soil surface for evaporation calculation.\\
+\paragraph{Light competition}Light competition is central to all vegetation models as it constrains the photosynthetic activity and so plant growth. To avoid costly calculations of ray propagation we assume vertical homogeneous top radiation. Relief and orientation effects are taken into account in the computation of irradiation data.\\
+Light competition sub-model allows the calculation of individual potential photosynthesis activity and light at soil surface for evaporation calculation.\\
 Competition for light is calculated independently for each pixel, potential photosynthetic activity is then aggregated at the individual level. Each pixel can be seen as a column of homogeneous layers containing at least one individual (top layer). For each layer, the light transmission is computed based on leaf density.
 
 
@@ -238,7 +238,7 @@ anchor=south east,
 draw = none},
 samples = 40,
 %restrict y to domain=-300:700,
-ylabel = $I_{h}$,
+ylabel = $I(h)$,
 xlabel = $h$
 %extra x ticks={0.618},
 %extra x tick style={grid=major}
@@ -250,7 +250,7 @@ xlabel = $h$
 \end{axis}
 \end{tikzpicture}
 \label{fig:derivaives}
-\caption{Net gain function and its first derivative.} Looks like there is some kind of mismatch here.
+\caption{Light interception as function of leaf layer height.}
 \end{marginfigure}
 
 \begin{equation}\label{eq:Ih}
@@ -275,7 +275,7 @@ draw = none},
 samples = 1000,
 %restrict y to domain=-300:700,
 xlabel = $I (W.cm^{2})$,
-ylabel = $P_{leaf} (gCO_{2}.cm^{-2}s^{-1}) check that$
+ylabel = $P_{leaf} (gCO_{2}.cm^{-2}s^{-1})$
 %extra x ticks={0.618},
 %extra x tick style={grid=major}
 ]
@@ -285,7 +285,7 @@ ylabel = $P_{leaf} (gCO_{2}.cm^{-2}s^{-1}) check that$
 \end{axis}
 \end{tikzpicture}
 \label{fig:derivaives}
-\caption{Photosynthetic saturation function}
+\caption{Photosynthetic saturation function.}
 \end{marginfigure}
 
 \begin{equation}\label{eq:Pleaf}
@@ -299,7 +299,7 @@ where $I_{leaf}(h)$ is the light absorbed by the leaf at height $h$, $\alpha$ th
 $I_{leaf}$ is the radiance at the leaf surface, derived by correcting the radiance at the top of the layer following the equation used in Taubert with the extinction and transmission coefficients $k$ and $m$:
 
 \begin{equation}
-I{leaf}(h) = \frac{k}{1-m}I(h)
+I_{leaf}(h) = \frac{k}{1-m}I(h)
 \end{equation}
 
 The equation \eqref{eq:Pleaf} can be integrated over the leaf surface by mixing it with equations \eqref{eq:Ih} and \eqref{eq:LAI} to give the total potential photosynthesis for layer $l$ in pixel $p$:
@@ -416,7 +416,7 @@ R_{m} = \left(R_{act}.\left(Act_{ag} + Act_{bg}\right)\right) . daylength . T_{e
 where $R_{act}$ is the respiration rate of active tissues, and $Act_{ag}$ and $Act_{bg}$ are the active biomass pools in shoot and root.\\
 \indent Net Primary production (in $CO_{2}$ equivalent) can then be calculated the difference of GPP and respiration, then converted in OM production thanks to tissue carbon content (under the assumption of fixed carbon content for leaf and roots between species):
  \begin{align}
- NPP_{carbon} &= (1- R_{g}) . (WUE . min(w_up, trans_p) - R_{m}) - BM_{total} * Pl_cost\\
+ NPP_{carbon} &= (1- R_{g}) . (WUE . min(w_up, trans_p) - R_{m}) - BM_{total} * Pl_{cost}\\
  NPP_{OM} &= NPP_{carbon} . (12/44) / TCC
 \end{align} 
 Here $R_{g}$ is a fixed parameter but is set to $0$ if the difference between gross productivity ($GPP = WUE . min(w_up, trans_p) - R_{m}$) and maintenance respiration is negative. $Pl_{cost}$ is the plasticity cost as calculated in the dedicated paragraph below.
@@ -431,12 +431,13 @@ water_{exp} &= \frac{Wpup}{exchange area_{bg}}\\
 \end{align}
 The former is related to the species (or group) history and result from processes of selection and acclimation. It is the default projection of resource availability when the plant is not plastic. 
 \begin{align}
-light_{est}(t+1) &= (1 - \tau).light_{exp}(t) + \tau . light_{memory} . daylenght(t+1)\\
-water_{est}(t+1) &= (1 - \tau).water_{exp}(t) + \tau . water_{memory} . daylenght(t+1)
+light_{est}(t+1) &= (1 - \tau).light_{exp}(t) + \tau . light_{memory} . daylength(t+1)\\
+water_{est}(t+1) &= (1 - \tau).water_{exp}(t) + \tau . water_{memory} . daylength(t+1)
 \end{align}
 \indent Because these are supposed to be expected conditions for the future, other formulation can be used instead of an average that is likely to introduce a lag in estimations. For example the following equation allow for a more stable projection that better fits the slower process of plant physiology adjustments:
 \begin{align}\label{eq:projection_alt}
-light_{est}(t+1) &= ((1 - \tau_{react}).light_{exp}(t) + \tau_{react} . light_{est}(t))((1 - \tau_{amp}) + \tau_{amp} . light_{memory}) . daylenght(t+1)
+light_{est}(t+1) &= ((1 - \tau_{react}).light_{exp}(t) + \tau_{react} . light_{est}(t))((1 - \tau_{amp}) +\\
+ & \tau_{amp} . light_{memory}) . daylength(t+1)
 \end{align}
 with $\tau_{amp}$ and $\tau_{react}$ being respectively amplitude and reactivity where only $\tau_{amp}$ is used in the first equation. Such solution could limit sensitivity and phenotypic instability. IN addition, such formulation would also better capture the accumulation of stress signals and would lead to a softer and more stable phenotypic shift.\\
 \indent The estimation of external conditions as expressed here is then used to select the best allocation scheme during the allocation process. Limited here to levels of two resources (light and water), this estimation equation could be extended to other mechanisms such as herbivory risk, frost risk, humidity impact on water pressure deficit.\\
@@ -474,10 +475,10 @@ The \textit{objective function}: it is the function that give an fitness estimat
 The \textit{plastic dimensions}: they are the dimensions along which the individual can move. The space defined by these dimensions is the phenotypic space within which each individual plant can look for an alternative phenotype. They do not necessarily fully define a phenotype since some dimensions of the individual's phenotype can be fixed \sidenote{either by shared parameters of species specific ones.}. \\
 \begin{figure}
 \includegraphics{./Figures/strategy_space_algo.pdf}
-\caption{Trajectories of a plant in the trait space depending on the plastic dimensions explored.}
+\caption{Trajectories of a plant in the trait space depending on the plastic dimensions explored. The \textit{RSR} panel illustrates plasticity on only one axis (RSR or RMF} of the 3D space. The \textit{plastic} panel shows the shifts in plant phenotype within the whole 3D. The high variations are caused by early high growth rates supported by the consumption of stored organic matter (seed).
 \end{figure}
-\indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, SLA and SRL). In case of simple equations an analytical solution could be used to find an optimum \sidenote{under the condition that such optimum exists. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial and the model is likely to evolve, a numeric solving method is adopted. \textbf{Need to detail the random algorithm.}\\
-Also make a note on multiple optimum and the choice for a 'gradient descent" type of algorithm. Also sensitivity at eraly stages 
+\indent The objective of this step of the model is to solve the objective function with the unknown variables being the plastic dimensions (RSR, SLA and SRL). In case of simple equations an analytical solution could be used to find an optimum \sidenote{under the condition that such optimum exists. The design of the model should ensure that.}. However, because the analytical solutions are already non trivial and the model is likely to evolve, a numeric solving method is adopted. Random phenotypes are sampled within the possible range of phenotypes considering the actual position of the plant within the phenotypic space, and the available organic matter to allocate. First the organic matter is partitioned between shoot and roots, then it is divided between active and structural tissues for both organs.\\
+Other options have been explored, but the non continuity of the system caused numerical solver unstable. Because the allocation is random and extreme allocation patterns are considered, high growth rates in combination with a low number of samples can cause unstable allocation patterns, especially when the plants benefit from high growth rates due to stored organic matter. Higher number of samples and lower growth rates decrease this phenomenon.
 
 %TAble of plasticity mech
 \begin{table*}
@@ -532,9 +533,9 @@ Alternative phenotypes are computed from the actual phenotype and random uniform
 \paragraph{Plasticity cost}
 The limits and costs of plasticity have long been discussed in the related literature. If \model is intended to be used to examine ecological costs and limits, it has to include physiological aspects of plasticity limits. There are two physiological processes involved in the mechanism of altering a phenotype based on changes in external conditions: sensing and signalling. 'Sensing' relates to the capacity of the individual to perceive environmental conditions. This is related to the capacity of the individual to perceive the environment and should, therefore, be considered constant over time. To take into account the cost of precise sensing, the first component of the plasticity cost is proportional to $\tau$.\\
 The other component is related to the capacity of the plant to transmit this knowledge of conditions to change the development plan toward a new phenotype. This cost is proportional to the carbon-based distance (calculated as the difference between proportion of active tissues) between the default phenotype and the alternative (during allocation algorithm) or current phenotype.\sidenote{We could imagine cost based not on the default, but the previous phenotype, but it would have lead to large phenotypic shifting and convergence.}\\
-Plasticity cost is the sum of both component and is proportional to the total biomass since most of the tissues should have the appropriated cell machinery and are affected b plasticity.
+Plasticity cost is the sum of both component and is proportional to the total biomass since most of the tissues should have the appropriated cell machinery and are affected by plasticity.
 \begin{align}
-pc_{maintenance} = (1 - tau) * pc_m \\
+pc_{maintenance} = (1 - \tau) * pc_m \\
 pc_{plasticity} = d_{traits} * pc_p
 \end{align}
 where $d_{traits}$ is the Euclidean distance between default phenotype and the alternative phenotype in the space defined by the proportion of active tissue for shoot and for roots.
@@ -665,11 +666,11 @@ State of dead individuals is store until the end of the season when seeds are st
 
 \textbf{Persistence} Some grasses are perennial and persist over the cold season. This is allowed in the model by investment in storage tissues instead of reproductive tissues.  At the end of the season, marked by the first snowfall, these plants (with non-null storage biomass) lose their living and supporting biomass, but will regrow from a large pool of store organic matter.
 
-\textcolor{gray}{\paragraph{Grazing/cutting} Explore management effect on the community is one of the aims of the \model model. The management of mountain grassland will be explored only of the aspect of biomass removal, as productivity changes can be explored by changing the parameter values as the nutrients are not explicitly modelled. The management sub-model is not detailed here but it is based on the mapping of biomass and target trait (e.g. the fraction of structural biomass as a proxy for digestibility). Both cutting and grazing can be modelled but require management plan in the form of calendar of management operation and a cutting height or harvest objective.}\\
+\textcolor{gray}{\paragraph{Grazing/cutting} Explore management effect on the community is one of the aims of \model. The management of mountain grassland will be explored only of the aspect of biomass removal, as productivity changes can be explored by changing the parameter values as the nutrients are not explicitly modelled. The management sub-model is not detailed here but it is based on the mapping of biomass and target trait (e.g. the fraction of structural biomass as a proxy for digestibility). Both cutting and grazing can be modelled but require management plan in the form of calendar of management operation and a cutting height or harvest objective.}\\
 
 \section{Limitations and problems}
 
-\subsection{Link to the real world and data}
+\subsection{Link to real world and data}
 The generalized framework introduced in \model allows to create a rich community in a high number of dimension strategy space, it, however, comes with downsides.\\
 \indent One of the first problems is that some parameters (not explicitly detailed here) are hard to access (e.g. tissue density of active, or structural, tissue). It makes the calibration long as the incertitude for some parameters is very high. This is problematic when calibration is made difficult by a large execution time (see subsection below).\\
 \indent Another issue with such model is that the high dimensionality of the species strategy space allows a lot of different strategies that are not viable. This could be overcome by selection mechanism over multiple plots, but again require a lot of simulation. Moreover, there are dependencies between viable strategies and parameter values that make it hard to restrict meta-community to viable species to set-up calibration runs.\\

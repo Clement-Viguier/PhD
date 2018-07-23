@@ -1,0 +1,128 @@
+try
+{
+	if(document.domain.match(/^(.+[.])?((orange(-labs)?|sosh|soshcaraibe)[.]fr|(orange|koife)[.]re|orange[.]yt)$/i) == null)	{
+		document.location.href="http://r.orange.fr/r/Oerreur_403";
+	} else {
+		if(typeof o_idzone != "object")
+		{
+			o_idzone=new Object();
+			o_idzone.set=function(o)
+			{
+				for(var f in o)
+					this[f]=o[f];
+			};
+		}
+		o_idzone.IDZONE_STATUS=0;
+		o_idzone.IDZONE_SIGVER=1;
+		o_idzone.IDZONE_SIGTTL=29;
+		o_idzone.IDENT_FORM_URL="https://r.orange.fr/r/Oid_identification";
+		o_idzone.set({
+	"ACCESS_NETWORK": "",
+	"ACCOUNT_COST_CENTER": null,
+	"ACCOUNT_MULTIBAL": true,
+	"ACCOUNT_NETWORK": "ADSL",
+	"ACCOUNT_OPTION_FFMV3": false,
+	"ACCOUNT_OPTION_MCS": false,
+	"ACCOUNT_OPTION_OCS": false,
+	"ACCOUNT_OPTION_OO_MAIL": false,
+	"ACCOUNT_OPTION_OO_PIM": false,
+	"ACCOUNT_OPTION_ORANGE_OFFICE": false,
+	"ACCOUNT_OPTION_QUAD": false,
+	"ACCOUNT_OPTION_SPORT": false,
+	"ACCOUNT_PRO": false,
+	"ACCOUNT_SUBSCRIPTION_TYPE": 48,
+	"BROWSER_FAMILY": "Opera",
+	"BROWSER_MAJOR": 54,
+	"CADAP_VERSION": "21.13.25",
+	"CLIENT_ID": "AAAK6v__AAVxRLIb7VYAAJIg",
+	"COMMON_ZIP_CODE": "31570",
+	"CR7_SIGN": "8e140eb7f8a6d9cb46c7591d7fda9584a0daf2a56939c87a7b05dc020971ddb0",
+	"CR7_TIME": "1532332040",
+	"DEVICE_IS_ROBOT": false,
+	"DEVICE_POLARIS": false,
+	"DEVICE_TYPE": "desktop",
+	"HPIZ_VERSION": "2.53.1",
+	"MOBILE_BRAND": "",
+	"MOBILE_COMMERCIAL_SEGMENT": "",
+	"MOBILE_MODEL": "",
+	"MOBILE_NETWORK_TYPE": "",
+	"MOBILE_OFFER_TYPE": "",
+	"NETWORK_COUNTRY_CODE": "PT",
+	"NETWORK_ISP_NAME": "Meo - Servicos De Comunicacoes E Multimedia, S.A.",
+	"NETWORK_POOL": "",
+	"NETWORK_TYPE": "",
+	"OS_FAMILY": "Windows",
+	"OS_MAJOR": 10,
+	"PUBPERSO_VAR1": 3,
+	"PUBPERSO_VAR2": 1,
+	"PUBPERSO_VAR3": "",
+	"PUBPERSO_VAR4": "1,3,10,12,18",
+	"PUBPERSO_VAR5": true,
+	"PUBPERSO_VAR6": "NETISSIMO1",
+	"REQUEST_ID": "AAAK6v__AAVxpFP8rlYABa9T",
+	"TECH_NET_INDICS": "FETCHED",
+	"TECH_NET_STATUS": 1,
+	"TECH_PNS_INDICS": "FETCHED,CACHEHIT",
+	"TECH_PNS_REQDUR": 0,
+	"TECH_PNS_REQSTS": 0,
+	"TECH_PNS_STATUS": 257,
+	"TECH_SIG_SIGTTL": 29,
+	"TECH_SIG_SIGVER": 1,
+	"TECH_SIG_STATUS": 0,
+	"TECH_WSP_INDICS": "FETCHED,PRESENT,COOKIE,CACHEHIT",
+	"TECH_WSP_REQDUR": 0,
+	"TECH_WSP_REQSTS": 0,
+	"TECH_WSP_STATUS": 523,
+	"UAF_VERSION": "0.2.0",
+	"USER_BIRTHDAY": "1991-05-22",
+	"USER_CITY_NAME": "",
+	"USER_DEFINED_MSISDN": "",
+	"USER_EXTERNAL_ID_HASH": "415eda41ce1b05a5e1bdc135029d9e2ec51e4b4d200a730b71990d96ee03cf28",
+	"USER_FBN_MIGRATION_DAY": "",
+	"USER_FBN_NEW_CLIENT": false,
+	"USER_FIRST_NAME": "clement",
+	"USER_FULL_NAME": "clement viguier",
+	"USER_GENDER": 1,
+	"USER_IDENT_CONTEXT": 3,
+	"USER_IDENT_LEVEL": "FULL",
+	"USER_IDENT_METHOD": 1,
+	"USER_IDENT_PROVIDER": "WASSUP",
+	"USER_IDENT_TYPE": "1",
+	"USER_IN8_ALT_SITE": false,
+	"USER_IN8_SWITCHED": false,
+	"USER_LAST_NAME": "VIGUIER",
+	"USER_M6": false,
+	"USER_MAIL_ADDRESS": "clem.viguier@wanadoo.fr",
+	"USER_MAIL_STATUS": 1,
+	"USER_MSISDN": "",
+	"USER_OPEN": 0,
+	"USER_OPTION_TV_FIBRE": false,
+	"USER_OPTION_TV_SAT": false,
+	"USER_OPTION_TV_SAT_DOM": false,
+	"USER_OPTION_TV_XDSL": false,
+	"USER_OPTION_TV_ZNE": false,
+	"USER_OPTION_TV_ZNE_DUO": false,
+	"USER_ORANGE_CARAIBE_CONVERGENT": false,
+	"USER_ORANGE_CARAIBE_MOBILE": false,
+	"USER_ORANGE_CARAIBE_SOSH": false,
+	"USER_OSDAT_EXTRA": "var51=3;var52=1;var72=1;var71=0;var54=4",
+	"USER_OSDAT_VAR1": null,
+	"USER_OSDAT_VAR2": null,
+	"USER_OSDAT_VAR3": null,
+	"USER_OSDAT_VAR4": null,
+	"USER_OSDAT_VAR5": null,
+	"USER_OSDAT_VAR6": "",
+	"USER_PRINCIPAL": false,
+	"USER_PRO": false,
+	"USER_QMSISDN": "",
+	"USER_QUAD": 0,
+	"USER_SOSH": false,
+	"USER_ST_B": null,
+	"USER_ZIP_CODE": ""
+}
+);
+	}
+}
+catch(e)
+{
+}

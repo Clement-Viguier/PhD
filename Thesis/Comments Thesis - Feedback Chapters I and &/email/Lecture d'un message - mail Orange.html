@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&IDMSG=12046&check=&SORTBY=1 -->
+<html dir="ltr" lang="fr" class="ltr ua-windows_nt ua-windows_nt-10 ua-windows_nt-10-0 ua-desktop ua-desktop-windows ua-webkit ua-webkit-537 ua-webkit-537-36 ua-opera ua-opera-54 ua-opera-54-0 ua-opera-54-0-2952 ua-opera-54-0-2952-54 js chrome chrome-537 webkit webkit-537"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Lecture d'un message
+-
+mail Orange
+</title>
+<!-- META-->
+
+
+<!-- SCRIPTS-->
+<script type="text/javascript" async="" charset="utf-8" src="./Lecture d&#39;un message - mail Orange_files/analytics.js.téléchargé" id="tealium-tag-7110"></script><script src="./Lecture d&#39;un message - mail Orange_files/utag.js.téléchargé" type="text/javascript" async=""></script><script language="JavaScript" type="text/javascript">
+var gONGLET = "onglet-inbox";
+var ajaxExpandCalled = false;
+var currentUserFolderFunctionnalName="SF_INBOX";
+var isAntispamAutoActivated = "TRUE";
+
+var msg_from="clement.viguier@irstea.fr";
+var msg_nature="EMAIL-NATURE";
+var url_sms_phonenumber="http://smsmms1.orange.fr/I/Sms/sms_write.php?destToKeep=,,__NUMBER__";
+var url_mms_phonenumber="http://smsmms2.orange.fr/I/Mms/mms_write.php?destToKeep=,,__NUMBER__";
+
+var cMenu = new Object();
+var menuCache = new Object();
+var menuCacheRwkd = new Object();
+var MAIL_UID = "12046";
+
+cMenu["clement.viguier@irstea.fr_from"] = {menuID:"contextMenuFrom", hrefs:[" ", "javascript:reply('clement.viguier@irstea.fr_from');","javascript:contextRedirect('write.html?writeTo=clement.viguier@irstea.fr');", "javascript:contextPopUp('pab_add_contacts.html?selcheck1=on&selname_1=&seldisplayname_1=&selemail_1=clement.viguier@irstea.fr&currentUrl=read.html%253FFOLDER%253DSF_INBOX%2526IDMSG%253D12046','popupPab');", "#%22","#%22"]};cMenu["clem.viguier@wanadoo.fr_tocc"] = {menuID:"contextMenuToCc", hrefs:[" ", "javascript:contextRedirect('write.html?writeTo=clem.viguier@wanadoo.fr');", "javascript:contextPopUp('pab_add_contacts.html?selcheck1=on&selname_1=&seldisplayname_1=&selemail_1=clem.viguier@wanadoo.fr&currentUrl=read.html%253FFOLDER%253DSF_INBOX%2526IDMSG%253D12046','popupPab');", "#%22","#%22"]};cMenu["clement.viguier@irstea.fr_body"] = {menuID:"contextMenuBody", hrefs:[" ", "javascript:contextRedirect('write.html?writeTo=clement.viguier@irstea.fr');", "javascript:contextPopUp('pab_add_contacts.html?selcheck1=on&selname_1=&seldisplayname_1=&selemail_1=clement.viguier@irstea.fr&currentUrl=read.html%253FFOLDER%253DSF_INBOX%2526IDMSG%253D12046','popupPab');", "#%22","#%22"]};cMenu["bjoern.reineking@irstea.fr_body"] = {menuID:"contextMenuBody", hrefs:[" ", "javascript:contextRedirect('write.html?writeTo=bjoern.reineking@irstea.fr');", "javascript:contextPopUp('pab_add_contacts.html?selcheck1=on&selname_1=&seldisplayname_1=&selemail_1=bjoern.reineking@irstea.fr&currentUrl=read.html%253FFOLDER%253DSF_INBOX%2526IDMSG%253D12046','popupPab');", "#%22","#%22"]};
+cMenu["voipcall"] = {menuID:"dynamicalContextMenu", hrefs:[]};
+cMenu["contextsms"] = {menuID:"dynamicalContextSmsMenu", hrefs:[]};
+cMenu["contextmms"] = {menuID:"dynamicalContextMmsMenu", hrefs:[]};
+voipTpl = "javascript:contextPopUp('MU_clickToCallFrameset.html?RELOAD=false&CTC_NAME=__ADDRESS__&CTC_PHONE_NB=__NUMBER__');";
+
+
+cMenu["ReplySms"] = {menuID:"dynamicalContextSubMenuXMSReworked", hrefs:[]};
+cMenu["ReplyMms"] = {menuID:"dynamicalContextSubMenuMMSReworked", hrefs:[]};
+cMenu["ReplySms2"] = {menuID:"dynamicalContextSubMenuXMSReworked2", hrefs:[]};
+cMenu["ReplyMms2"] = {menuID:"dynamicalContextSubMenuMMSReworked2", hrefs:[]};
+
+function init() {
+document.msg_read_form.MSG_UID.value = MAIL_UID ;
+document.msg_read_form.IDMSG.value = MAIL_UID ;
+document.msg_read_form.uids.value = MAIL_UID ;
+}
+function sendReadConfirmation(){
+var openPopUpForSendingReadingConfirm = false;
+if (openPopUpForSendingReadingConfirm){
+if (confirm (SEND_READ_CONFIRM)){
+sendManualReadingConfirmation('true',"read.html");
+}
+}
+}
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="./Lecture d&#39;un message - mail Orange_files/styles20180618150119.css">
+<script src="./Lecture d&#39;un message - mail Orange_files/Lightkernel_js20180618150119.js.téléchargé" type="text/javascript"></script>
+
+<script type="text/javascript">eventServer = new EventEmitter2();</script>
+
+
+<link rel="stylesheet" type="text/css" media="all" href="./Lecture d&#39;un message - mail Orange_files/message20180618150119.css">
+<script src="./Lecture d&#39;un message - mail Orange_files/Lightread_js20180618150119.js.téléchargé" type="text/javascript"></script>
+
+<script type="text/javascript">var useMegaBanner=false;</script>
+
+
+
+   
+      <script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/idzone.js.téléchargé"></script>
+
+
+
+<!--  appel au header portail -->
+<script type="text/javascript">
+	var o_confCommon = {
+		"useMB"		: "ciblee",
+		"checkUserPassword"	: "true"
+};
+</script>
+<script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/common.js.téléchargé"></script><link type="text/css" rel="stylesheet" href="./Lecture d&#39;un message - mail Orange_files/common.css"><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/gs.js.téléchargé"></script><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/o_tealium.js.téléchargé"></script><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/o_load.js.téléchargé"></script>
+<!--  appel au header portail -->
+
+
+<!-- Config AdGateway -->
+<script type="text/javascript">
+		var oan_protocol = (window.location.protocol=='https:')?'https:':'http:';
+		var oan_siteKeywords= "";
+		var oan_siteContentTopic= "";
+		var prefixTag    =  "messagerieboite.1";
+		var sTag         =  "accueil";
+		var commonCodePostal = "";
+        var userCodePostal = "";
+		
+		/* détermination de la valeur du tag pub en fonction de la page affichée */
+		var o_sUrl = window.location.pathname;
+		var o_sPage = o_sUrl.substring(o_sUrl.lastIndexOf('/')+1);
+		
+		if (o_sPage=="inbox.html") sTag="liste";
+		else if (o_sPage=="sent.html") sTag="envoyes";
+		else if (o_sPage=="draft.html") sTag="brouillons";
+		else if (o_sPage=="junk.html") sTag="indesirables";
+		else if (o_sPage=="read.html") sTag="lecture";
+		else if (o_sPage=="write.html") sTag="ecrire";
+		else if (o_sPage=="trash.html") sTag="poubelle";
+		else if (o_sPage=="welcome.html") sTag="accueil";
+		else if ((o_sPage=="folders.html") || (o_sPage=="folder.html")) sTag="mesdossiers";
+
+		
+		/* Bandeau pub spécifique pour Mayotte - Réunion - Guadeloupe - Martinique - Guyane */
+		if (typeof o_idzone != "undefined") {
+			if (o_idzone.COMMON_ZIP_CODE != "") commonCodePostal = o_idzone.COMMON_ZIP_CODE.substring(0, 3);
+			if (o_idzone.USER_ZIP_CODE != "") userCodePostal = o_idzone.USER_ZIP_CODE.substring(0, 3);
+			if (o_idzone.NETWORK_TYPE == "REUNION"
+					|| ((o_idzone.USER_IDENT_TYPE == 1 || o_idzone.USER_IDENT_TYPE == 3) && commonCodePostal == "974") 
+					|| (o_idzone._TYPE == 2 && userCodePostal == "974")
+					|| (document.domain == "reunion.orange.fr")) {
+				prefixTag = "messagerieboite.reunion";
+				sTag = "mail";
+			}
+			if (o_idzone.NETWORK_POOL == "ADSL/Mayotte") {
+				prefixTag = "messagerieboite.mayotte";
+				sTag = "mail";
+			}
+			if (o_idzone.NETWORK_POOL == "ADSL/Martinique") {
+				prefixTag = "messagerieboite.martinique";
+				sTag = "mail";
+			}
+			if (o_idzone.NETWORK_POOL == "ADSL/Guadeloupe") {
+				prefixTag = "messagerieboite.guadeloupe";
+				sTag = "mail";
+			}
+			if (o_idzone.NETWORK_POOL == "ADSL/Guyane") {
+				prefixTag = "messagerieboite.guyane";
+				sTag = "mail";
+			}
+		}
+		
+		document.write('<scr'+'ipt src="'+oan_protocol+'//all.orfr.adgtw.orangeads.fr/js/ora_' + prefixTag + "." + sTag + '?sKW=' + encodeURI(oan_siteKeywords)+'&sCT='+encodeURI(oan_siteContentTopic)+'"><\/scr'+'ipt>');
+</script><script src="./Lecture d&#39;un message - mail Orange_files/ora_messagerieboite.1.lecture"></script>
+<!-- Config AdGateway -->
+<script type="text/javascript">useMegaBanner=true;window.name='w_contenu';</script>
+
+
+<script type="text/javascript"> 
+var PROTOCOL="https";
+if(!window.name){window.name='w_contenu';}
+var ICO_TYPE="image/x-icon";
+var absolutePathForStaticResources = PROTOCOL + "://static.wanadoo.fr/webmail/fr_FR/Images20180618150119/";
+var link="";
+
+
+
+
+
+
+link = absolutePathForStaticResources +"ico_orange.ico";
+
+var iconString="<link rel=\"shorcut icon\" href=\"" + link + "\" type=\"" + ICO_TYPE + "\" >";
+document.write(iconString);
+</script><link rel="shorcut icon" href="https://static.wanadoo.fr/webmail/fr_FR/Images20180618150119/ico_orange.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="./Lecture d&#39;un message - mail Orange_files/fh_popin.css" id="fh_popin_css"><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/o_polaris3_core.js.téléchargé"></script><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/o_polaris3_desktop.js.téléchargé"></script><link type="text/css" rel="stylesheet" href="./Lecture d&#39;un message - mail Orange_files/o_polaris3_desktop.css"><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/o_completion.js.téléchargé"></script><link type="text/css" rel="stylesheet" href="./Lecture d&#39;un message - mail Orange_files/o_completion.css"><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/o_header_mail.js.téléchargé"></script><link type="text/css" rel="stylesheet" href="./Lecture d&#39;un message - mail Orange_files/o_header_mail.css"><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/Polaris3.res.desktop.json"></script><style type="text/css">:root a[href^="http://www.drowle.com/"], :root #header + #content > #left > #rlblock_left, :root #\5f _mom_ad_2, :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"], :root #\5f _admvnlb_modal_container, :root a[href^="http://keep2share.cc/pr/"], :root #MAIN.ShowTopic > .ad, :root #\5f _mom_ad_12, :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, :root a[href^="https://t.mobtya.com/"], :root [id*="MGWrap"], :root aside[itemtype="https://schema.org/WPAdBlock"], :root .__y_elastic .__y_item, :root a[href^="http://ul.to/ref/"], :root #\5f _nq__hh[style="display:block!important"], :root a[href^="http://ads.pheedo.com/"], :root a[href^="http://landingpagegenius.com/"], :root aside[id^="advads_ad_widget-"], :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"], :root #ads > .dose > .dosesingle, :root a[href^="http://lp.ncdownloader.com/"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="http://www.adskeeper.co.uk/"], :root #assetsListings[style="display: block;"], :root a[href^="http://b.bestcompleteusa.info/"], :root #main-content > [style="padding:10px 0 0 0 !important;"], :root #center_col > #\5f Emc, :root a[href^="http://easydownload4you.com/"], :root a[href^="http://secure.signup-way.com/"], :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun, :root a[href^="http://cdn3.adexprts.com/"], :root a[href^="http://web.adblade.com/"], :root a[href^="http://www.affbuzzads.com/affiliate/"], :root #center_col > #resultStats + #tads, :root #center_col > #resultStats + #tads + #res + #tads, :root a[href^="http://track.trkvluum.com/"], :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root a[href^="http://codec.codecm.com/"], :root #center_col > #resultStats + div + #res + #tads, :root div[id^="div-gpt-ad"], :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"], :root a[href^="http://liversely.com/"], :root #topstuff > #tads, :root a[href*="5iclx7wa4q.com"], :root #center_col > #taw > #tvcap > .rscontainer, :root a[href^="http://www.bet365.com/"][href*="?affiliate="], :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"], :root a[href^="http://fileloadr.com/"], :root .gbfwa > div[class$="_item"], :root div[id^="ad_script_"], :root a[href^="http://www.friendlyadvertisements.com/"], :root #cnt #center_col > #res > #topstuff > .ts, :root #mn div[style="position:relative"] > #center_col > ._Ak, :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root a[href*=".clksite.com/"], :root #content > #center > .dose > .dosesingle, :root #content > #right > .dose > .dosesingle, :root a[href^="http://buysellads.com/"], :root a[href^="http://fsoft4down.com/"], :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"], :root #mn #center_col > div > h2.spon:first-child + ol:last-child, :root a[href^="http://www.easydownloadnow.com/"], :root a[href*="emprestimo.eu"], :root a[href^="http://n217adserv.com/"], :root .rc-cta[data-target], :root div[id^="ads120_600-widget"], :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"], :root a[href^="http://c.ketads.com/"], :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"], :root a[href^="http://www.usearchmedia.com/signup?"], :root .__zinit .__y_item, :root a[href^="http://banners.victor.com/processing/"], :root #mbEnd[cellspacing="0"][cellpadding="0"], :root a[href^="http://ads.sprintrade.com/"], :root #mn #center_col > div > h2.spon:first-child, :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"], :root a[href^="http://farm.plista.com/pets"], :root .__yinit .__y_item, :root #mn div[style="position:relative"] > #center_col > div > ._dPg, :root a[href^="https://www.firstload.com/affiliate/"], :root #resultspanel > #topads, :root #rhs_block > #mbEnd, :root a[href^="http://www.faceporn.net/free?"], :root a[href^="http://uploaded.net/ref/"], :root #rhs_block .mod > .gws-local-hotels__booking-module, :root a[href^="http://jobitem.org/"], :root a[href^="http://www.fbooksluts.com/"], :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf, :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, :root a[href^="http://www.moneyducks.com/"], :root .trc_rbox_div .syndicatedItem, :root a[href^="http://websitedhoome.com/"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c, :root a[href^="http://ad.yieldmanager.com/"], :root .lads[width="100%"][style="background:#FFF8DD"], :root a[href^="http://taboola-"][href*="/redirect.php?app.type="], :root #rhs_block > script + .c._oc._Ve.rhsvw, :root #tads + div + .c, :root a[href^="http://www.uniblue.com/cm/"], :root a[href^="https://mk-ads.com/"], :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root #ssmiwdiv[jsdisplay], :root a[href^="http://adserver.itsfogo.com/"], :root .__ywl .__y_item, :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root a[href^="http://9nl.es/"], :root a[href^="http://ads.activtrades.com/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root div[id^="mainads"], :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5, :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root a[href^="http://clickandjoinyourgirl.com/"], :root a[href^="http://www.terraclicks.com/"], :root a[href^="http://go.oclaserver.com/"], :root a[href^="http://paid.outbrain.com/network/redir?"], :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB, :root a[href^="http://www.streamtunerhd.com/signup?"], :root .Mpopup + #Mad > #MadZone, :root .__y_inner > .__y_item, :root .__ywvr .__y_item, :root .ch[onclick="ga(this,event)"], :root .icons-rss-feed + .icons-rss-feed div[class$="_item"], :root .l-container > #fishtank, :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="http://www.epicgameads.com/"], :root .mod > ._jH + .rscontainer, :root .mw > #rcnt > #center_col > #taw > .c, :root a[href^="http://clicks.binarypromos.com/"], :root a[href^="http://xads.zedo.com/"], :root .nrelate .nr_partner, :root .ob_container .item-container-obpd, :root a[href^="http://www.paddypower.com/?AFF_ID="], :root a[href*=".clkcln.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root .plistaList > .itemLinkPET, :root a[href^="http://adtransfer.net/"], :root a[href^="http://bcp.crwdcntrl.net/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root a[href*=".revimedia.com/"], :root a[href^="http://abc2.mobile-10.com/"], :root .ra[align="left"][width="30%"], :root .ra[align="right"][width="30%"], :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"], :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"], :root .rscontainer > .ellip, :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root a[href^="http://www.fducks.com/"], :root .section-result[data-result-ad-type], :root a[href^="http://cinema.friendscout24.de?"], :root .trc_rbox .syndicatedItem, :root .trc_rbox_border_elm .syndicatedItem, :root .trc_rbox_div .syndicatedItemUB, :root .trc_rbox_div a[target="_blank"][href^="http://tab"], :root .trc_related_container div[data-item-syndicated="true"], :root .widget-pane-section-result[data-result-ad-type], :root a[href*="a2g-secure.com"], :root a[href^="http://www.ringtonematcher.com/"], :root div[id^="dmRosAdWrapper"], :root a[href^="http://ddownload39.club/"], :root AD-TRIPLE-BOX, :root div[id^="div-adtech-ad-"], :root ADS-RIGHT, :root div[id^="div_openx_ad_"], :root AFS-AD, :root a[href^="//srv.buysellads.com/"], :root AMP-AD, :root a[href^="http://rekoverr.com/"], :root A[href^="https://www.friendlyduck.com/AF_"], :root a[href^="//40ceexln7929.com/"], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root [ad-id^="googlead"], :root [id*="MarketGid"], :root a[href^="http://1phads.com/"], :root [id*="ScriptRoot"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root [lazy-ad="lefttop_banner"], :root [onclick*="content.ad/"], :root a[href^="http://c.jumia.io/"], :root a[href^="http://pokershibes.com/index.php?ref="], :root [onclick^="window.open('http://adultfriendfinder.com/search/"], :root a[href^=" http://n47adshostnet.com/"], :root a[href^="http://ryushare.com/affiliate.python"], :root aside[id^="adrotate_widgets-"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://get.slickvpn.com/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root a[data-redirect^="http://click.plista.com/pets"], :root a[href^="http://affiliate.godaddy.com/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root iframe[src^="http://static.mozo.com.au/strips/"], :root div[id^="dfp-ad-"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root a[href^="http://dethao.com/"], :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"], :root div[class^="lifeOnwerAd"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="http://adclick.g.doubleclick.net/"], :root a[href^="https://bs.serving-sys.com"], :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href^="http://hd-plugins.com/download/"], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href$="/vghd.shtml"], :root a[href^="https://intrev.co/"], :root a[href*=".adk2x.com/"], :root a[href^="http://mmo123.co/"], :root a[href*=".adsrv.eacdn.com/"] > img, :root a[href^="http://bluehost.com/track/"], :root a[href*=".bang.com/"][href*="&aff="], :root a[href*=".ichlnk.com/"], :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href*=".inclk.com/"], :root a[href*="=adscript"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="https://tracking.truthfinder.com/?a="], :root a[href*=".intab.fun/"], :root a[href^="http://k2s.cc/pr/"], :root a[href*=".qertewrt.com/"], :root a[href^="https://servedbyadbutler.com/"], :root a[href*=".trust.zone"], :root a[href^="http://xtgem.com/click?"], :root a[href^="http://dwn.pushtraffic.net/"], :root a[href*="/adServe/banners?"], :root a[href^="http://www.ducksnetwork.com/"], :root a[href*="/adrotate-out.php?"], :root a[href*="/cmd.php?ad="], :root a[href*="=Adtracker"], :root a[href*="=exoclick"], :root a[href*="ad2upapp.com/"], :root a[href^="http://mgid.com/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^=" http://ads.ad-center.com/"], :root a[href^="http://ads.integral-marketing.com/"], :root a[href^="http://data.ad.yieldmanager.net/"], :root div[class^="ads-partner-"], :root a[href*="googleme.eu"], :root a[href^="//tracking.content-recommendation.net/"][href*="/sponsored/click.html?"], :root a[href*="letsadvertisetogether.com"], :root a[href*="onclkds."], :root a[href*="pussl3.com"], :root a[href="http://track.freemmo2017.com/"], :root a[href^=" http://www.sex.com/"][href*="&utm_"], :root a[href^="http://srvpub.com/"], :root a[href^="http://fileupnow.rocks/"], :root a[href^="//00ae8b5a9c1d597.com/"], :root a[href^="//5e1fcb75b6d662d.com/"], :root a[href^="http://go.ad2up.com/"], :root a[href^="//88d7b6aa44fb8eb.com/"], :root a[href^="//adbit.co/?a=Advertise&"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href^="//ads.ad-center.com/"], :root a[href^="//api.ad-goi.com/"], :root a[href^="//bwnjijl7w.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="//db52cc91beabf7e8.com/"], :root a[href^="//go.onclasrv.com/"], :root a[href^="//go.vedohd.org/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="//jsmptjmp.com/"], :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"], :root a[href^="//medleyads.com/spot/"], :root a[target="_blank"][href^="http://api.taboola.com/"], :root a[href^="//nlkdom.com/"], :root a[href^="http://hdplugin.flashplayer-updates.com/"], :root a[href^="//porngames.adult/?SID="], :root a[href^="http://adtrackone.eu/"], :root a[href^="//t.MtagMonetizationA.com/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="//www.mgid.com/"], :root a[href^="http://www.babylon.com/welcome/index?affID"], :root a[href^="//z6naousb.com/"], :root a[href^="https://fileboom.me/pr/"], :root a[href^="http://ads.affbuzzads.com/"], :root div[id^="ads250_250-widget"], :root a[href^="http://2pxg8bcf.top/"], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[href^="http://internalredirect.site/"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://3wr110.net/"], :root a[href^="http://www.menaon.com/installs/"], :root a[href^="http://NowDownloadAll.com"], :root a[href^="http://a.adquantix.com/"], :root a[href^="http://ad-apac.doubleclick.net/"], :root a[href^="http://prousa.work/"], :root a[href^="http://fusionads.net"], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="http://ad.au.doubleclick.net/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href^="http://adexprt.me/"], :root a[href^="http://feedads.g.doubleclick.net/"], :root a[href^="http://adf.ly/?id="], :root a[href^="http://api.ringtonematcher.com/"], :root a[href^="http://adfarm.mediaplex.com/"], :root a[href^="http://www.clkads.com/adServe/"], :root a[href^="http://adlev.neodatagroup.com/"], :root a[href^="http://wgpartner.com/"], :root a[href^="http://admingame.info/"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root div[class^="ad_position_"], :root a[href^="http://adprovider.adlure.net/"], :root a[href^="http://adrunnr.com/"], :root a[href^="http://www.sfippa.com/"], :root div[id^="div_ad_stack_"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://ads.ad-center.com/"], :root div[id^="ad-position-"], :root a[href^="http://www.download-provider.org/"], :root a[href^="https://trackjs.com/?utm_source"], :root a[href^="http://ads.expekt.com/affiliates/"], :root a[href^="http://adserver.adtech.de/"], :root a[href^="http://adserver.adtechus.com/"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="http://www.adxpansion.com"], :root a[href^="http://www.socialsex.com/"], :root iframe[src^="http://cdn1.adexprt.com/"], :root a[href^="http://adserving.liveuniversenetwork.com/"], :root a[href^="http://adserving.unibet.com/"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root a[href^="http://www.installads.net/"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://adtrack123.pl/"], :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root a[href^="http://aff.ironsocket.com/"], :root a[href^="http://affiliate.coral.co.uk/processing/"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="http://affiliates.score-affiliates.com/"], :root a[href^="http://aflrm.com/"], :root div[id^="ads300_100-widget"], :root aside[id^="div-gpt-ad"], :root a[href^="http://www.dealcent.com/register.php?affid="], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href^="http://mojofun.info/"], :root a[href^="http://record.betsafe.com/"], :root a[href^="http://anonymous-net.com/"], :root a[href^="http://api.content.ad/"], :root a[href^="http://at.atwola.com/"], :root a[href^="https://www.dsct1.com/"], :root a[href^="http://bc.vc/?r="], :root a[href^="http://games.ucoz.ru/"][target="_blank"], :root a[href^="http://www.bet365.com/"][href*="&affiliate="], :root a[href^="http://bestorican.com/"], :root a[href^="http://betahit.click/"], :root a[href^="http://campeeks.com/"][href*="&utm_"], :root a[href^="http://bonusfapturbo.nmvsite.com/"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="http://c.actiondesk.com/"], :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href^="http://callville.xyz/"], :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="http://secure.signup-page.com/"], :root a[href^="http://cdn.adsrvmedia.net/"], :root a[href^="http://lp.ilivid.com/"], :root a[href^="http://cdn3.adbrau.com/"], :root a[href^="http://t.mdn2015x2.com/"], :root a[href^="http://www.accuserveadsystem.com/accuserve-go.php?"], :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"], :root a[href^="http://centertrust.xyz/"], :root a[href^="http://chaturbate.com/affiliates/"], :root div[id^="ads300_600-widget"], :root a[href^="http://click.guamwnvgashbkashawhgkhahshmashcas.pw/"], :root a[href^="http://www5.smartadserver.com/call/pubjumpi/"], :root a[href^="http://click.plista.com/pets"], :root a[href^="http://clicks.guamwnvgashbkashawhgkhahshmashcas.pw/"], :root a[href^="http://www.hitcpm.com/"], :root a[href^="http://clk.directrev.com/"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="http://connectlinking6.com/"], :root a[href^="http://contractallsticker.net/"], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://onclickads.net/"], :root a[href^="http://cwcams.com/landing/click/"], :root a[href^="http://d2.zedo.com/"], :root a[href^="http://data.committeemenencyclopedicrepertory.info/"], :root a[href^="https://ad.atdmt.com/"], :root a[href^="https://adhealers.com/"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href^="http://data.linoleictanzaniatitanic.com/"], :root a[href^="http://databass.info/"], :root a[href^="http://dftrck.com/"], :root a[href^="http://down1oads.com/"], :root a[href^="http://www.torntvdl.com/"], :root input[onclick^="window.open('http://www.friendlyduck.com/"], :root a[href^="http://download-performance.com/"], :root a[href^="http://duckcash.eu/"], :root a[href^="http://eclkmpsa.com/"], :root a[href^="http://elite-sex-finder.com/?"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://elitefuckbook.com/"], :root a[href^="http://extra.bet365.com/"][href*="?affiliate="], :root a[href^="http://t.wowtrk.com/"], :root a[href^="http://finaljuyu.com/"], :root a[href^="http://findersocket.com/"], :root a[href^="http://go.mobisla.com/"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="http://g1.v.fwmrm.net/ad/"], :root a[href^="http://t.mdn2015x1.com/"], :root a[href^="http://galleries.pinballpublishernetwork.com/"], :root iframe[id^="google_ads_iframe"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root a[href^="http://gca.sh/user/register?ref="], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://getlinksinaseconds.com/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://green.trafficinvest.com/"], :root a[href^="http://greensmoke.com/"], :root a[href^="http://promos.bwin.com/"], :root a[href^="http://n.admagnet.net/"], :root a[href^="http://guideways.info/"], :root a[href^="http://hpn.houzz.com/"], :root a[href^="http://www.coinducks.com/"], :root a[href^="http://hyperies.info/"], :root a[href^="http://imads.integral-marketing.com/"], :root div[id^="ADV-SLOT-"], :root a[href^="http://install.securewebsiteaccess.com/"], :root a[href^="http://www.sex.com/?utm_"], :root a[href^="http://istri.it/?"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root a[href^="http://k2s.cc/code/"], :root a[href^="http://www.yourfuckbook.com/?"], :root a[href^="http://latestdownloads.net/download.php?"], :root a[href^="http://linksnappy.com/?ref="], :root a[href^="http://liversely.net/"], :root a[href^="http://www.tirerack.com/affiliates/"], :root a[href^="http://lp.ezdownloadpro.info/"], :root a[href^="http://marketgid.com"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="http://mo8mwxi1.com/"], :root a[href^="http://www.flashx.tv/downloadthis"], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root div[class^="ResponsiveAd-"], :root a[href^="http://pan.adraccoon.com?"], :root div[id^="MarketGid"], :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://partner.sbaffiliates.com/"], :root a[href^="http://prochina.link/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root a[href^="http://prochina.space/"], :root a[href^="http://www.1clickdownloader.com/"], :root div[class^="Ad__bigBox"], :root a[href^="http://pubads.g.doubleclick.net/"], :root a[href^="http://pwrads.net/"], :root a[href^="http://www.brightwheel.info/"], :root a[href^="http://record.commissionking.com/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root a[href^="http://tezfiles.com/pr/"], :root a[href^="http://searchtabnew.com/"], :root a[href^="http://secure.hostgator.com/~affiliat/"], :root a[href^="http://webgirlz.online/landing/"], :root a[href^="http://see-work.info/"], :root a[href^="http://www.1clickmoviedownloader.info/"], :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root a[href^="http://servicegetbook.net/"], :root a[href^="http://www.sex.com/pics/?utm_"], :root a[href^="http://sharesuper.info/"], :root a[href^="http://www.badoink.com/go.php?"], :root a[href^="http://stateresolver.link/"], :root a[href^="http://steel.starflavor.bid/"], :root a[href^="http://syndication.exoclick.com/"], :root a[href^="https://dcs.adgear.com/clicks/"], :root a[href^="http://t.mdn2015x3.com/"], :root a[href^="http://tour.affbuzzads.com/"], :root a[href^="http://track.adform.net/"], :root a[href^="http://track.affiliatenetwork.co.za/"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root a[href^="http://track.incognitovpn.com/"], :root a[href^="http://tracker.mybroadband.co.za/"], :root a[href^="http://www.pheedo.com/"], :root div[data-spotim-slot], :root div[class^="ad_border_"], :root a[href^="http://tracking.crazylead.com/"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="http://tracking.deltamediallc.com/"], :root a[href^="http://tracking.toroadvertising.com/"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href^="https://go.stripchat.com/"][href*="&campaignId="], :root a[href^="http://webtrackerplus.com/"], :root a[href^="http://wopertific.info/"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root a[href^="http://www.TwinPlan.com/AF_"], :root a[href^="http://www.bitlord.me/share/"], :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://www.adshost2.com/"], :root a[href^="http://www.afgr3.com/"], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root a[href^="http://www.liversely.net/"], :root a[href^="http://www.bluehost.com/track/"] > img, :root div[id^="advads_"], :root a[href^="http://www.cash-duck.com/"], :root a[href^="http://www.clickansave.net/"], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="http://www.dl-provider.com/search/"], :root a[href^="http://www.duckssolutions.com/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="http://www.downloadweb.org/"], :root a[href^="http://www.duckcash.eu/"], :root a[href^="http://www.firstclass-download.com/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root a[href^="http://www.incredimail.com/?id="], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root a[href^="http://www.ireel.com/signup?ref"], :root a[href^="http://www.zergnet.com/i/"], :root a[href^="http://www.plus500.com/?id="], :root a[href^="http://www.linkbucks.com/referral/"], :root a[href^="http://www.liutilities.com/"], :root iframe[id^="google_ads_frame"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root a[href^="http://www.myfreecams.com/?co_id="][href*="&track="], :root a[href^="https://go.ad2up.com/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[href^="http://www.mysuperpharm.com/"], :root a[href^="http://www.sex.com/videos/?utm_"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="http://www.myvpn.pro/"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root a[href^="http://www.ragazzeinvendita.com/?rcid="], :root a[href^="https://chaturbate.com/affiliates/"], :root a[href^="http://www.richducks.com/"], :root a[href^="http://www.securegfm.com/"], :root a[href^="https://dltags.com/"], :root a[href^="http://www.seekbang.com/cs/"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.streamate.com/exports/"], :root a[href^="http://www.text-link-ads.com/"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="https://porndeals.com/?track="], :root a[href^="http://www.urmediazone.com/signup"], :root a[href^="http://www.wantstraffic.com/"], :root a[href^="http://www.webtrackerplus.com/"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www1.clickdownloader.com/"], :root a[href^="http://yads.zedo.com/"], :root a[href^="http://z1.zedo.com/"], :root div[id^="ad-server-"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="https://atomidownload.com/"], :root a[href^="https://awentw.com/"], :root a[href^="https://betway.com/"][href*="&a="], :root a[href^="https://click.plista.com/pets"], :root a[href^="https://evaporate.pw/"], :root a[href^="https://farm.plista.com/pets"], :root a[href^="https://go.onclasrv.com/"], :root a[href^="https://keep2share.cc/pr/"], :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="], :root a[href^="https://redirect.ero-advertising.com/"], :root div[id^="ad-cid-"], :root a[href^="https://secure.adnxs.com/clktrb?"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root a[href^="https://syndication.exoclick.com/splash.php?"], :root a[href^="https://torguard.net/aff.php"], :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://trklvs.com/"], :root a[href^="https://trust.zone/go/r.php?RID="], :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="], :root a[href^="https://windscribe.com/promo/"], :root a[href^="https://www.adskeeper.co.uk/"], :root a[href^="https://www.bebi.com"], :root a[href^="https://www.camyou.com/?cam="][href*="&track="], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://www.oboom.com/ad/"], :root a[href^="https://www.popads.net/users/"], :root a[href^="https://www.secureupload.eu/suprerefid="], :root a[href^="https://www.spyoff.com/"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root bottomadblock, :root div > [class][onclick*=".updateAnalyticsEvents"], :root div[class^="BlockAdvert-"], :root div[class$="dealnews"] > .dealnews, :root div[class*="-storyBodyAd-"], :root div[class*="_AdInArticle_"], :root div[class^="Ad__adContainer"], :root div[class^="Ad__container"], :root div[class^="adpubs-"], :root div[class^="awpcp-random-ads"], :root div[class^="block-openx-"], :root div[class^="gemini-ad"], :root div[class^="local-feed-banner-ads"], :root div[class^="proadszone-"], :root div[data-native_ad], :root div[id^="YFBMSN"], :root div[id^="acm-ad-tag-"], :root div[id^="ad-div-"], :root div[id^="adfox_"], :root div[id^="adrotate_widgets-"], :root div[id^="ads300_250-widget"], :root div[id^="advads-"], :root div[id^="block-views-topheader-ad-block-"], :root div[id^="cns_ads_"], :root div[id^="crt-"][style], :root div[id^="dfp-slot-"], :root div[id^="google_ads_iframe_"], :root div[id^="google_dfp_"], :root div[id^="lazyad-"], :root div[id^="proadszone-"], :root div[id^="q1-adset-"], :root div[id^="zergnet-widget"], :root div[itemtype="http://schema.org/WPAdBlock"], :root topadblock, :root div[itemtype="http://www.schema.org/WPAdBlock"], :root iframe[src^="http://ad.yieldmanager.com/"], :root iframe[src^="http://cdn2.adexprt.com/"], :root img[alt^="Fuckbook"], :root input[onclick^="window.open('http://www.FriendlyDuck.com/"], :root p[id^="div-gpt-ad-"], :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content, :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"] { display: none !important; }</style><script type="text/javascript" async="" charset="utf-8" src="./Lecture d&#39;un message - mail Orange_files/utag.93.js.téléchargé" id="utag_orange.dnu_93"></script><script type="text/javascript" async="" charset="utf-8" src="./Lecture d&#39;un message - mail Orange_files/utag.68.js.téléchargé" id="utag_orange.dnu_68"></script><script type="text/javascript" async="" charset="utf-8" src="./Lecture d&#39;un message - mail Orange_files/utag.115.js.téléchargé" id="utag_orange.dnu_115"></script><script type="text/javascript" src="./Lecture d&#39;un message - mail Orange_files/Polaris3_megamenu.json"></script><script type="text/javascript" async="" charset="utf-8" src="./Lecture d&#39;un message - mail Orange_files/utag.116.js.téléchargé" id="utag_orange.dnu_116"></script></head>
+<body class="layout-2 read-mail"><div id="show-pruning-fax-modal" class="modal">
+			<div class="modal-content">
+				<div class="content"></div>
+			</div>
+		</div><div id="show-pruning-sms-modal" class="modal">
+			<div class="modal-content">
+				<div class="content"></div>
+			</div>
+		</div><div id="show-new-mail-migration-modal" class="modal"><a class="close"></a>
+			<div class="modal-content">
+				<div class="content"></div>
+			</div>
+		</div><div id="o-header" class=" fixed-center o-center-align fixed-center o-center-align polaris3 o-noSearchZone old-webmail" style="height: auto;"><div id="o-ribbon"><div id="o-nav-left"><ul><li id="o-logo-container"><a href="https://r.orange.fr/r/Ohome_accueil" title="retour a l&#39;accueil" data-oevent-category="header" data-oevent-action="logo" data-tag="urlwg_rubanGP3_logo" id="o-logo"><img src="./Lecture d&#39;un message - mail Orange_files/logo-orange.png" title="retour a l&#39;accueil"></a></li><li id="o-megamenu-link-container"><div class="o-nav-item" id="o-megamenu-link" title="Mes services Orange" data-oevent-category="header" data-oevent-action="menu" data-tag="navwg_rubanGP3_burger" data-icon="">Menu<div class="o-nav-zone-panel-arrow"></div></div><div id="o-megamenu-panel" class="o-nav-zone-panel o-nav-zone-panel-full-width"><div class="o-nav-zone-panel-content"><div id="o-megamenu-panel-content-container" class="o-nav-zone-panel-content-container"><div class="o-megamenu-panel-banner"><div class="o-megamenu-panel-banner-wrapper" style="width: 750px; margin-left: 0px;"><a class="o-banniere-2blocs-vertical" href="https://orangebank.orange.fr/?utx_medium=banniere&amp;utx_source=ofr-ob&amp;utx_campaign=menu-av&amp;of_medium=flux-of&amp;of_source=dnu-portail&amp;of_campaign=menu-av" title="Orange Bank" data-tag="urlwg_rubanGP3_burger_animation2_" data-oevent-category="header_menu" data-oevent-action="s2animation" data-oevent-label=""><img src="./Lecture d&#39;un message - mail Orange_files/orangebank2_230x370_2.jpg"></a><a class="o-banniere-2blocs-vertical" href="https://orangebank.orange.fr/?utx_medium=banniere&amp;utx_source=ofr-ob&amp;utx_campaign=menu-av&amp;of_medium=flux-of&amp;of_source=dnu-portail&amp;of_campaign=menu-av" title="Orange Bank" data-tag="urlwg_rubanGP3_burger_animation3_" data-oevent-category="header_menu" data-oevent-action="s3animation" data-oevent-label=""><img src="./Lecture d&#39;un message - mail Orange_files/orangebank3_230x370_3.jpg"></a><a class="o-banniere-2blocs-vertical" href="https://orangebank.orange.fr/?utx_medium=banniere&amp;utx_source=ofr-ob&amp;utx_campaign=menu-av&amp;of_medium=flux-of&amp;of_source=dnu-portail&amp;of_campaign=menu-av" title="Orange Bank" data-tag="urlwg_rubanGP3_burger_animation1_" data-oevent-category="header_menu" data-oevent-action="s1animation" data-oevent-label=""><img src="./Lecture d&#39;un message - mail Orange_files/Orangebank1_230x370_1.jpg"></a></div></div><div class="o-megamenu-panel-data"><div title="Relation Client" class="o-megamenu-category "><div class="o-nav-zone-panel-title">Relation Client</div><ul><li><a href="https://r.orange.fr/r/OGespaceclient_accueil" title="Espace client" data-oevent-category="header_menu" data-oevent-action="relationclient" data-oevent-label="espaceclient" data-tag="urlwg_rubanGP3_burger_relationclient_espaceclient" data-sense-of-place="">Espace client<div class="o-sense-of-place"></div></a></li><li><a href="https://espaceclientv3.orange.fr/?page=profil-infosPerso" title="Compte Orange" data-oevent-category="header_menu" data-oevent-action="relationclient" data-oevent-label="compteorange" data-tag="urlwg_rubanGP3_burger_relationclient_compteorange" data-sense-of-place="">Compte Orange<div class="o-sense-of-place"></div></a></li><li><a href="https://assistance.orange.fr/" title="Assistance" data-oevent-category="header_menu" data-oevent-action="relationclient" data-oevent-label="assistance" data-tag="urlwg_rubanGP3_burger_relationclient_assistance" data-sense-of-place="">Assistance<div class="o-sense-of-place"></div></a></li><li><a href="https://communaute.orange.fr/" title="Forum d&#39;entraide" data-oevent-category="header_menu" data-oevent-action="relationclient" data-oevent-label="forumdentraide" data-tag="urlwg_rubanGP3_burger_relationclient_forum" data-sense-of-place="">Forum d'entraide<div class="o-sense-of-place"></div></a></li><li><a href="https://boutique.orange.fr/" title="Boutique en ligne" data-oevent-category="header_menu" data-oevent-action="relationclient" data-oevent-label="boutiqueenligne" data-tag="urlwg_rubanGP3_burger_relationclient_boutique" data-sense-of-place="">Boutique en ligne<div class="o-sense-of-place"></div></a></li></ul></div><div title="Divertissement" class="o-megamenu-category "><div class="o-nav-zone-panel-title">Divertissement</div><ul><li><a href="https://tv.orange.fr/" title="TV" data-oevent-category="header_menu" data-oevent-action="divertissement" data-oevent-label="tv" data-tag="urlwg_rubanGP3_burger_divertissement_tv" data-sense-of-place="">TV<div class="o-sense-of-place"></div></a></li><li><a href="https://video-a-la-demande.orange.fr/#vod/home" title="Vidéo à la demande" data-oevent-category="header_menu" data-oevent-action="divertissement" data-oevent-label="videoalademande" data-tag="urlwg_rubanGP3_burger_divertissement_vod" data-sense-of-place="">Vidéo à la demande<div class="o-sense-of-place"></div></a></li><li><a href="https://musique.orange.fr/" title="Musique" data-oevent-category="header_menu" data-oevent-action="divertissement" data-oevent-label="musique" data-tag="urlwg_rubanGP3_burger_divertissement_musique" data-sense-of-place="">Musique<div class="o-sense-of-place"></div></a></li><li><a href="https://jeu.orange.fr/" title="Jeux" data-oevent-category="header_menu" data-oevent-action="divertissement" data-oevent-label="jeux" data-tag="urlwg_rubanGP3_burger_divertissement_jeux" data-sense-of-place="">Jeux<div class="o-sense-of-place"></div></a></li><li><a href="https://lecture.orange.fr/" title="Lecture" data-oevent-category="header_menu" data-oevent-action="divertissement" data-oevent-label="lecture" data-tag="urlwg_rubanGP3_burger_divertissement_presse" data-sense-of-place="">Lecture<div class="o-sense-of-place"></div></a></li><li><a href="https://cineday.orange.fr/" title="Cinéma" data-oevent-category="header_menu" data-oevent-action="divertissement" data-oevent-label="cinema" data-tag="urlwg_rubanGP3_burger_divertissement_cinema" data-sense-of-place="">Cinéma<div class="o-sense-of-place"></div></a></li><li><a href="https://video-streaming.orange.fr/" title="Vidéos" data-oevent-category="header_menu" data-oevent-action="divertissement" data-oevent-label="videos" data-tag="urlwg_rubanGP3_burger_divertissement_videos" data-sense-of-place="">Vidéos<div class="o-sense-of-place"></div></a></li></ul></div><div title="Info/mag" class="o-megamenu-category "><div class="o-nav-zone-panel-title">Info/mag</div><ul><li><a href="https://actu.orange.fr/" title="Actualités" data-oevent-category="header_menu" data-oevent-action="infomag" data-oevent-label="actualites" data-tag="urlwg_rubanGP3_burger_info_actualites" data-sense-of-place="">Actualités<div class="o-sense-of-place"></div></a></li><li><a href="https://auto.orange.fr/" title="Auto" data-oevent-category="header_menu" data-oevent-action="infomag" data-oevent-label="auto" data-tag="urlwg_rubanGP3_burger_info_automobile" data-sense-of-place="">Auto<div class="o-sense-of-place"></div></a></li><li><a href="https://finance.orange.fr/" title="Finance" data-oevent-category="header_menu" data-oevent-action="infomag" data-oevent-label="finance" data-tag="urlwg_rubanGP3_burger_info_finance" data-sense-of-place="">Finance<div class="o-sense-of-place"></div></a></li><li><a href="https://meteo.orange.fr/" title="Météo" data-oevent-category="header_menu" data-oevent-action="infomag" data-oevent-label="meteo" data-tag="urlwg_rubanGP3_burger_info_meteo" data-sense-of-place="">Météo<div class="o-sense-of-place"></div></a></li><li><a href="https://sports.orange.fr/" title="Sports" data-oevent-category="header_menu" data-oevent-action="infomag" data-oevent-label="sports" data-tag="urlwg_rubanGP3_burger_info_sports" data-sense-of-place="">Sports<div class="o-sense-of-place"></div></a></li><li><a href="https://femmes.orange.fr/" title="Tendances" data-oevent-category="header_menu" data-oevent-action="infomag" data-oevent-label="tendances" data-tag="urlwg_rubanGP3_burger_info_tendances" data-sense-of-place="">Tendances<div class="o-sense-of-place"></div></a></li></ul></div><div title="Services Orange" class="o-megamenu-category "><div class="o-nav-zone-panel-title">Services Orange</div><ul><li><a href="https://r.orange.fr/r/OGwebmail_inbox" title="Mail" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="mail" data-tag="urlwg_rubanGP3_burger_servicesorange_mail" data-sense-of-place="">Mail<div class="o-sense-of-place"></div></a></li><li><a href="https://r.orange.fr/r/Osc_agenda?ref=ec" title="Agenda" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="agenda" data-tag="urlwg_rubanGP3_burger_servicesorange_agenda" data-sense-of-place="">Agenda<div class="o-sense-of-place"></div></a></li><li><a href="https://r.orange.fr/r/Osc_contact?ref=ec" title="Contacts" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="contacts" data-tag="urlwg_rubanGP3_burger_servicesorange_contacts" data-sense-of-place="">Contacts<div class="o-sense-of-place"></div></a></li><li><a href="https://boitevocale5w.orange.fr/webmail/fr_FR/MU_messages.html?SORTBY=1&amp;FOLDER=SF_ANSWERPHONE" title="Boîtes vocales" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="boitesvocales" data-tag="urlwg_rubanGP3_burger_servicesorange_boitesvocales" data-sense-of-place="">Boîtes vocales<div class="o-sense-of-place"></div></a></li><li><a href="https://smsmms1.orange.fr/I/Sms/sms_write.php?locale=fr_FR&amp;dub=1" title="SMS / MMS" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="smsmms" data-tag="urlwg_rubanGP3_burger_servicesorange_sms" data-sense-of-place="">SMS / MMS<div class="o-sense-of-place"></div></a></li></ul></div><div class="o-megamenu-category "><div class="o-nav-zone-panel-title"></div><ul><li><a href="https://web.cloud.orange.fr/" title="Le Cloud" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="lecloud" data-tag="urlwg_rubanGP3_burger_servicesorange_cloud" data-sense-of-place="">Le Cloud<div class="o-sense-of-place"></div></a></li><li><a href="https://homelive.orange.fr/" title="Homelive" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="homelive" data-tag="urlwg_rubanGP3_burger_servicesorange_homelive" data-sense-of-place="">Homelive<div class="o-sense-of-place"></div></a></li><li><a href="https://orangebank.orange.fr/?utx_medium=fixe&amp;utx_source=ofr-ob&amp;utx_campaign=menu&amp;of_medium=flux-of&amp;of_source=dnu-portail&amp;of_campaign=menu" title="Orange Bank" class="o-megamenu-new" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="orangebank" data-sense-of-place="">Orange Bank<div class="o-sense-of-place"></div></a></li><li><a href="https://orangemoney.orange.fr/" title="Orange Money" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="orangemoney" data-tag="urlwg_rubanGP3_burger_servicesorange_orangemoney" data-sense-of-place="">Orange Money<div class="o-sense-of-place"></div></a></li><li><a href="https://orangecash.orange.fr/" title="Orange Cash" data-oevent-category="header_menu" data-oevent-action="servicesorange" data-oevent-label="orangecash" data-tag="urlwg_rubanGP3_burger_servicesorange_orangecash" data-sense-of-place="">Orange Cash<div class="o-sense-of-place"></div></a></li></ul></div><div title="Et aussi" class="o-megamenu-category "><div class="o-nav-zone-panel-title">Et aussi</div><ul><li><a href="https://boutique.orange.fr/informations/accessibilite-autonomie/" title="Autonomie" data-oevent-category="header_menu" data-oevent-action="etaussi" data-oevent-label="autonomie" data-tag="urlwg_rubanGP3_burger_autres_autonomie" data-sense-of-place="">Autonomie<div class="o-sense-of-place"></div></a></li><li><a href="https://r.orange.fr/r/Ehome_sosh" title="Accueil Sosh" data-oevent-category="header_menu" data-oevent-action="etaussi" data-oevent-label="accueilsosh" data-tag="urlwg_rubanGP3_burger_autres_accueilsosh" data-sense-of-place="">Accueil Sosh<div class="o-sense-of-place"></div></a></li><li><a href="https://pro.orange.fr/" title="Accueil Pro" data-oevent-category="header_menu" data-oevent-action="etaussi" data-oevent-label="accueilpro" data-tag="urlwg_rubanGP3_burger_autres_accueilpro" data-sense-of-place="">Accueil Pro<div class="o-sense-of-place"></div></a></li><li><a href="https://r.orange.fr/r/Edivertissement_orangefan" title="Orange France" data-oevent-category="header_menu" data-oevent-action="etaussi" data-oevent-label="orangefrance" data-tag="urlwg_rubanGP3_burger_autres_orangefrance" data-sense-of-place="">Orange France<div class="o-sense-of-place"></div></a></li><li><a href="https://www.orange.com/" title="Orange Group" data-oevent-category="header_menu" data-oevent-action="etaussi" data-oevent-label="orangegroup" data-tag="urlwg_rubanGP3_burger_autres_orangegroup" data-sense-of-place="">Orange Group<div class="o-sense-of-place"></div></a></li></ul></div></div></div><div id="o-megamenu-panel-footer-container" class="o-megamenu-panel-footer-container"><div class="o-megamenu-panel-footer"><a href="https://contact.orange.fr/" title="Contacter Orange" data-oevent-category="header_menu" data-oevent-action="accesdirect" data-oevent-label="contacterorange" data-tag="urlwg_rubanGP3_burger_footer_nouscontacter" data-icon="">Contacter Orange</a><a href="https://boutique.orange.fr/" title="Boutique en ligne" data-oevent-category="header_menu" data-oevent-action="accesdirect" data-oevent-label="boutiqueenligne" data-tag="urlwg_rubanGP3_burger_footer_trouverboutique" data-icon="">Boutique en ligne</a><a href="https://communaute.orange.fr/" title="Forum d&#39;entraide" data-oevent-category="header_menu" data-oevent-action="accesdirect" data-oevent-label="forumdentraide" data-tag="urlwg_rubanGP3_burger_footer_couverturereseaux" data-icon="">Forum d'entraide</a></div></div><div class="o-nav-zone-panel-close-button" id="o-megamenu-close-button" title="Fermer" data-oevent-category="header_menu" data-oevent-action="croixfermeture" data-tag="urlwg_rubanGP3_burger_fermeture">×</div></div></div></li><li id="o-separator-container"><span id="o-separator" class="o-separator"></span></li><li id="o-espace-client-container"><a id="o-espace-client" class="o-nav-item o-nav-left-link o-direct-link" href="https://r.orange.fr/r/OGespaceclient_accueil" title="Espace client" data-oevent-category="header" data-oevent-action="espaceclient" data-tag="urlwg_rubanGP3_operateur_espaceclient" data-hide="if-needed" data-sense-of-place="">Espace client<div class="o-sense-of-place"></div></a></li><li id="o-assistance-container"><a id="o-assistance" class="o-nav-item o-nav-left-link o-direct-link" href="https://assistance.orange.fr/" title="Assistance" data-oevent-category="header" data-oevent-action="assistance" data-tag="urlwg_rubanGP3_operateur_assistance" data-hide="if-needed" data-sense-of-place="">Assistance<div class="o-sense-of-place"></div></a></li><li id="o-boutique-container"><a id="o-boutique" class="o-nav-item o-nav-left-link o-direct-link" href="https://boutique.orange.fr/" title="Boutique" data-oevent-category="header" data-oevent-action="boutique" data-tag="urlwg_rubanGP3_operateur_boutique" data-hide="if-needed" data-sense-of-place="">Boutique<div class="o-sense-of-place"></div></a></li><li id="o-popin-search-container"><div title="Rechercher" id="o-popin-search" class="o-nav-item" data-icon="" data-oevent-category="header" data-oevent-action="search" data-tag="navwg_rubanGP3.0_recherche_ouvrepanneau"><span>Rechercher</span><div class="o-nav-zone-panel-arrow"></div></div><div class="o-nav-zone-panel o-nav-zone-panel-full-width" id="o-popin-search-panel"><div class="o-nav-zone-panel-content"><div class="o-nav-zone-panel-title">Rechercher sur le web</div><div class="o-nav-zone-panel-data"><form class="o-search-form" id="formSearchCompletion-nav" name="formSearchCompletion" action="https://lemoteur.orange.fr/" method="get"><label class="o-search-label" for="o-search-input-nav">Rechercher sur Orange</label><input autocomplete="off" class="o-search-input" id="o-search-input-nav" name="rdata" accesskey="0" type="text" data-oevent-category="header" data-oevent-action="search"><input class="o-search-submit" alt="rechercher" title="rechercher" src="" value="" type="submit"><input value="web_fr" name="bhv" type="hidden"><input name="module" value="orange" type="hidden"></form></div><div class="o-nav-zone-panel-close-button" id="o-popin-search-close-button" title="Fermer" data-oevent-category="header_loupe" data-oevent-action="croixfermeture">×</div></div></div></li></ul></div><div id="o-nav-right"><ul><li id="o-mail-item-container"><a class="o-nav-item o-nav-item-icon" href="https://r.orange.fr/r/OGwebmail_inbox" id="o-mail-item" title="Messagerie Orange" data-oevent-category="header" data-oevent-action="mail" data-tag="urlwg_rubanGP3_mail_connecte" data-icon="" data-sense-of-place=""><div class="o-sense-of-place"></div></a></li><li id="o-popin-launch-container"><div title="Vos services" id="o-popin-launch" class="o-nav-item o-nav-item-icon" data-oevent-category="header" data-oevent-action="lanceur" data-tag="navwg_rubanGP3_lanceur" data-icon="" data-statshovertimeout="600" data-poponover="true"><div class="o-nav-zone-panel-arrow"></div></div><div id="o-popin-launch-panel" class="o-nav-zone-panel"><div class="o-nav-zone-panel-content"><div class="o-nav-zone-panel-title">Vos services</div><div class="o-nav-zone-panel-data"><div class="o-nav-zone-panel-item"><a id="o-launch-app-mail" href="https://r.orange.fr/r/OGwebmail_inbox" title="Mail" data-oevent-category="header_lanceur" data-oevent-action="mail" data-tag="urlwg_rubanGP3_lanceur_mail" data-icon="" data-sense-of-place="">Mail<div class="o-sense-of-place"></div></a></div><div class="o-nav-zone-panel-item"><a href="https://boitevocale5w.orange.fr/webmail/fr_FR/MU_messages.html?SORTBY=1&amp;FOLDER=SF_ANSWERPHONE" title="Boîtes vocales" data-oevent-category="header_lanceur" data-oevent-action="boitesvocales" data-tag="urlwg_rubanGP3_lanceur_boitesvocales" data-icon="" data-sense-of-place="">Boîtes vocales<div class="o-sense-of-place"></div></a></div><div class="o-nav-zone-panel-item"><a href="https://web.cloud.orange.fr/" title="Le Cloud" data-oevent-category="header_lanceur" data-oevent-action="lecloud" data-tag="urlwg_rubanGP3_lanceur_cloud" data-icon="" data-sense-of-place="">Le Cloud<div class="o-sense-of-place"></div></a></div><div class="o-nav-zone-panel-item"><a id="o-launch-app-smsmms" href="https://smsmms1.orange.fr/I/Sms/sms_write.php?locale=fr_FR&amp;dub=1" title="SMS / MMS" data-oevent-category="header_lanceur" data-oevent-action="smsmms" data-tag="urlwg_rubanGP3_lanceur_sms" data-icon="" data-sense-of-place="">SMS / MMS<div class="o-sense-of-place"></div></a></div><div class="o-nav-zone-panel-item"><a href="https://r.orange.fr/r/Osc_contact?ref=ec" title="Contacts" data-oevent-category="header_lanceur" data-oevent-action="contacts" data-tag="urlwg_rubanGP3_lanceur_contacts" data-icon="" data-sense-of-place="">Contacts<div class="o-sense-of-place"></div></a></div><div class="o-nav-zone-panel-item"><a href="https://r.orange.fr/r/Osc_agenda?ref=ec" title="Agenda" data-oevent-category="header_lanceur" data-oevent-action="agenda" data-tag="urlwg_rubanGP3_lanceur_agenda" data-icon="" data-sense-of-place="">Agenda<div class="o-sense-of-place"></div></a></div><div class="o-nav-zone-panel-item"><a href="https://pages.perso.orange.fr/" title="Pages perso" data-oevent-category="header_lanceur" data-oevent-action="pagesperso" data-tag="urlwg_rubanGP3_lanceur_pagesperso" data-icon="" data-sense-of-place="">Pages perso<div class="o-sense-of-place"></div></a></div></div></div></div></li><li id="o-popin-identity-container"><div id="o-popin-identity" class="o-nav-item" title="Votre compte Orange" data-oevent-category="header" data-oevent-action="identite" data-tag="navwg_rubanGP3_identite" data-statshovertimeout="600" data-poponover="true"><span><img src="./Lecture d&#39;un message - mail Orange_files/default.jpg">clement viguier</span><div class="o-nav-zone-panel-arrow"></div></div><div id="o-popin-identity-panel" class="o-nav-zone-panel"><div class="o-nav-zone-panel-content"><div class="o-nav-zone-panel-title">Votre compte Orange</div><div id="o-popin-identity-avatar"><img id="o-popin-identity-avatar" src="./Lecture d&#39;un message - mail Orange_files/default.jpg"><a class="o-popin-identity-avatarlink" href="https://mmc.orange.fr/" title="Modifier" data-oevent-category="header_identite" data-oevent-action="modifier" data-tag="urlwg_rubanGP3_identite_modifieravatar" data-sense-of-place="">Modifier<div class="o-sense-of-place"></div></a></div><div class="o-nav-zone-panel-data"><div id="o-popin-identity-fullname">clement viguier</div><div id="o-popin-identity-email">clem.viguier@wanadoo.fr</div><a class="o-popin-identity-userlink" href="https://r.orange.fr/r/Oespaceclient_monprofil" title="Gérer vos infos personnelles" data-oevent-category="header_identite" data-oevent-action="gerervosinfospersonnelles" data-tag="urlwg_rubanGP3_identite_gerer" data-sense-of-place="">Gérer vos infos personnelles<div class="o-sense-of-place"></div></a><a class="o-popin-identity-userlink" href="https://eui.orange.fr/manage/bin/manage.cgi?open=password_link" title="Changer votre mot de passe" data-oevent-category="header_identite" data-oevent-action="changervotremotdepasse" data-tag="urlwg_rubanGP3_identite_changermdp" data-sense-of-place="">Changer votre mot de passe<div class="o-sense-of-place"></div></a></div><div id="o-popin-identity-button"><a class="o-popin-identity-loginbutton" href="https://r.orange.fr/r/Oid_identification?return_url=https%3A%2F%2Frms.orange.fr%2F" title="Changer d&#39;utilisateur" data-oevent-category="header_identite" data-oevent-action="changerdutilisateur" data-tag="urlwg_rubanGP3_identite_changerutil" data-sense-of-place="">Changer d'utilisateur<div class="o-sense-of-place"></div></a><a class="o-popin-identity-loginbutton" href="https://r.orange.fr/r/Ofermersession" title="Se déconnecter" data-oevent-category="header_identite" data-oevent-action="sedeconnecter" data-tag="urlwg_rubanGP3_identite_deconnecter" data-sense-of-place="">Se déconnecter<div class="o-sense-of-place"></div></a></div></div></div></li></ul></div></div><div class="o-service-container"><div id="o-service"><div id="o-title-content"><div id="o-service-title"><div class="o-domain"></div></div></div><div id="o-megaban"><div id="oan_ora_2_728x90_messagerieboite.1.lecture" class="oan_ad o_ad_content"></div><div id="o-megaban-text">PUBLICITÉ</div></div></div></div></div>
+<!-- + POP-IN IMPRIMER -->
+<div id="print-mail-modal" class="print-pop-up modal">
+<div class="header">
+<span class="title">
+contenu du message
+</span>
+<span class="close close-bt">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" title="fermer l&#39;aperçu d&#39;impression">fermer</a>
+</span>
+</div>
+<div class="content"></div>
+</div>
+<!-- - POP-IN IMPRIMER -->
+<!-- + POP-IN PIM/CONTACTS -->
+<div id="show-contacts-mail-modal" class="modal">
+<div class="header">
+<span class="title">
+mes contacts
+</span>
+<span class="close close-bt">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" title="fermer l&#39;aperçu des contacts">
+fermer
+</a>
+</span>
+</div>
+<div class="content"></div>
+</div>
+<div id="save-contact-from-vcard-modal" class="modal">
+<div class="header">
+<span class="title">
+mes contacts
+</span>
+<span class="close close-bt">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" title="fermer l&#39;aperçu des contacts">
+fermer
+</a>
+</span>
+</div>
+<div class="content">
+<div class="content-bottom"></div>
+</div>
+</div>
+<a rel="#save-contact-from-vcard-modal" href="https://webmail1h.orange.fr/webmail/fr_FR/popin-add-vcard-to-pab.html" class="hidden save-contact-from-vcard-link"></a>
+<!-- - POP-IN PIM/CONTACTS -->
+
+<!--  + POP-IN PREVIEW -->
+<div id="preview-attachment-modal" class="modal">
+<div class="header">
+<span class="title">
+visualisation de la pièce jointe
+</span>
+<span class="close close-bt">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" title="fermer la prévisualisation de pièce jointe">
+fermer
+</a>
+</span>
+</div>
+<div class="content"></div>
+</div>
+<!--  - POP-IN PREVIEW -->
+
+
+<!-- + POP-IN AJOUTER A MES CONTENUS -->
+<div id="add-to-my-albums-modal" class="modal">
+<div class="header">
+<span class="title">
+Le Cloud
+</span>
+<span class="close close-bt">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" title="fermer l&#39;aperçu du Cloud">
+fermer
+</a>
+</span>
+</div>
+<div class="content"></div>
+</div>
+<!-- - POP-IN AJOUTER A MES CONTENUS -->
+
+<div id="page">
+
+
+
+
+
+
+
+
+<div id="main-header">
+
+<ul id="main-nav">
+
+<li id="onglet-welcome" class="first"><a href="https://webmail1h.orange.fr/webmail/fr_FR/welcome.html" title="accueil" class="first"> accueil
+</a>
+</li>
+
+<li id="onglet-inbox" class="current-nav"><a href="https://webmail1h.orange.fr/webmail/fr_FR/inbox.html" title="mail" class="first">mail
+</a></li>
+
+
+
+<li id="onglet-sms" class=""><a href="http://smsmms1.orange.fr/I/Sms/sms_write.php" class="double-sms first" title="sms">sms
+</a><a class="double-separator last">/</a><a href="http://smsmms2.orange.fr/I/Mms/mms_write.php" class="double-mms" title="mms">mms
+</a>
+</li>
+
+
+
+
+
+
+<li id="onglet-vocal" class=""><a href="http://boitevocale.orange.fr/webmail/fr_FR/MU_checkAccess.html?webmail_server=http%3A%2F%2Fwebmail1h.orange.fr%3A443&amp;webmail_path=%2Fwebmail%2Ffr_FR%2F" title="boîtes vocales" class="first">
+boîtes vocales
+</a>
+</li>
+
+
+
+
+<li id="onglet-contact" class=""><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" onclick="addBookFromHeader(&#39;https://contacts.orange.fr&#39;);" title="mes contacts" class="first">
+mes contacts
+</a>
+</li>
+
+
+
+<li id="onglet-calendar" class="last"><a href="https://contacts.orange.fr/wfr_webab/calendar/default.vhtml" title="agenda" class="first">
+agenda
+</a>
+</li>
+
+
+
+
+
+<li id="my-co-tab" class="my-co-tab"><a href="https://web.cloud.orange.fr/" title="Le Cloud" class="first">
+<span class="first">Le Cloud</span></a>
+</li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+<!-- apres optin PRC1556-04 -->
+		<script type="text/javascript">
+		
+		
+			MIGRATION_DATE=null
+		
+		wassupRedirect="https://r.orange.fr/r/Oid_identification?return_url=http://rms.orange.fr/?idzone.clear=1";
+		wassupRedirectEnd="https://rms.orange.fr";
+		console.log("MIGRATION_DATE :"+MIGRATION_DATE);
+		console.log("wassupRedirect :"+wassupRedirect);
+		console.log("wassupRedirectEnd :"+wassupRedirectEnd);
+		</script>
+		<script type="text/javascript">
+			$(function() { // action faite quand tout est charg�
+				if (cssua.ua.ie <= 8.0) { 
+					//pas de newMail Migration a afficher
+					 $('#prefSpan').hide();//on supprime le select sur "mes preferences"
+				}else{ //affichage du NewMailMigration
+						
+					// */
+					//
+						 $('#prefSpan').hide();
+						console.log("not display migration newmail")
+					// */
+				}
+				// remonte la popin de confirmation vers le body sinon elle est invisible
+				$('#show-new-mail-migration-modal').prependTo('body');
+				
+				//popin newmail migration
+				migrationPopin=$('.newmail-migr_link').overlay(o2).overlay();
+			});
+		</script>
+		
+		<!-- + POP-IN MigrationOnGoing / MigrationFailed / MigrationSuccess -->
+		
+		
+		
+		
+		<!-- - POP-IN migrationOnGoing / MigrationFailed / migrated -->
+		
+		<!-- + POP-IN NEWMAil MIGRATION -->
+		
+		<!-- - POP-IN NEWMAil MIGRATION -->
+<!-- fin apres optin PRC1556-04 -->	
+
+	<!-- + DDM 2258 -->
+		<script type="text/javascript">
+			// variable si le sms est lancé alors ne pas lancer le fax en meme temps
+			var toDoOpenPruningSmsPopin = false;
+			var toDoOpenPruningFaxPopin = false;
+		</script>
+		
+		
+		
+		
+		<script type="text/javascript">
+		$(function () {
+			// action faite quand tout est chargé
+			if (toDoOpenPruningFaxPopin) {createPopinFax();}
+			//creation de la popin sms avec chainage si besoin avec la popinFax
+			if (toDoOpenPruningSmsPopin) {createPopinSms(toDoOpenPruningFaxPopin);}
+			// remonte la popin de fin des sms vers le body sinon elle est invisible
+			$('#show-pruning-sms-modal').prependTo('body');
+			// remonte la popin de fin des fax vers le body sinon elle est invisible
+			$('#show-pruning-fax-modal').prependTo('body');
+
+			//Si Popup Welcome non présente alors on lance popin sms
+			if ((typeof welcomePanelUrl != 'undefined' ) && ( welcomePanelUrl == "/templateMagic/")) {
+				if (toDoOpenPruningSmsPopin) {
+					firePopinSms()
+					toDoOpenPruningSmsPopin = false;
+				}
+				else
+					if (toDoOpenPruningFaxPopin) {
+						firePopinFax();
+						toDoOpenPruningFaxPopin = false;
+					}
+			} else {
+				// on lie la fermeture de la popin welcome avec celle du sms
+				$('#show-welcome-panel').overlay({
+					onClose: function (e) {
+						$.mask.close();
+						// on lance l affichage des popin pruning
+						firePopinSms();
+					}
+				});
+			}
+		});
+				
+			
+		</script>
+				
+		<!-- + POP-IN PRUNING SMS -->
+		
+		<!-- - POP-IN PRUNING SMS -->
+		
+		<!-- + POP-IN PRUNING FAX -->
+		
+		<!-- - POP-IN PRUNING FAX -->
+	<!-- - DDM 2258 -->
+	
+	<div id="header-rows" class="style-1">
+
+		<div class="row-1">
+			
+			
+				
+					<span class="mail-state">clem.viguier@wanadoo.fr&nbsp;:&nbsp;<!-- +WUM label=*text.youhave.reworkedPages/20/you have* -->Vous
+						avez <!-- -WUM -->&nbsp;3002&nbsp;<!-- +WUM label=*text.messages.low.reworkedPages/20/messages whith little m* -->message(s)<!-- -WUM -->&nbsp;<!-- +WUM label=*text.ofwhich.reworkedPages/10/of which* -->dont<!-- -WUM -->&nbsp;
+						<strong>
+							1&nbsp;<!-- +WUM label=*text.unread.low.reworkedPages/20/unread with first letter low* -->non
+							lu(s)<!-- -WUM --> 
+						</strong> 
+					</span>
+				
+			
+			
+			
+			<!-- +OPTIN PRC1556-04 -->
+			<span id="prefSpan" class="pref-bloc ib" style="line-height: 24px; padding-top: 3px; display: none;">
+				<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="button prefs" style="margin: 2px;display: block;padding:0px">
+					<span style="display: block;padding: 0 28px 0 10px"><!-- +WUM label=*text.preferencies.link.label/50/preferencies link label* -->Mes	préférences<!-- -WUM --></span>
+				</a>
+				<span class="arrow" style="right: 2px;border: 0px;padding-bottom: 2px;background-position: right -1858px;">
+					<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="arrow">&nbsp;</a>
+				</span>
+				<ul class="pref-options" style="width: 167px;top: 27px;">
+					<li class="pref-option">
+						<a href="https://webmail1h.orange.fr/webmail/fr_FR/settings.html" title="&lt;!-- +WUM label=*text.preferencies.link.label/50/preferencies link label* --&gt;Mes	préférences&lt;!-- -WUM --&gt;"><!-- +WUM label=*text.preferencies.link.label/50/preferencies link label* -->Mes	préférences<!-- -WUM --></a>
+					</li>
+					<li id="newMailMigrationLi" class="pref-option">
+						<!-- + DDM 2258 -->
+						
+						
+						<a href="https://webmail1h.orange.fr/webmail/fr_FR/popin-newmail-migr-explain.html" rel="#show-new-mail-migration-modal" class="black-to-orange newmail-migr_link" title="&lt;!-- +WUM label=*text.newMailMigr.demand.link.label/50/newMailMigr demand link label* --&gt;bénéficier du nouveau Mail&lt;!-- -WUM --&gt;"><!-- +WUM label=*text.newMailMigr.demand.link.label/50/newMailMigr demand link label* -->bénéficier du nouveau Mail<!-- -WUM --></a>
+						
+						<!-- - DDM 2258 -->
+					</li>
+					
+				</ul>
+			</span>
+			<!-- -OPTIN  PRC1556-04 -->
+
+			<span class="preferences-links"> 
+				<!-- avant optin PRC1556-04 -->
+				<a id="prefLink" href="https://webmail1h.orange.fr/webmail/fr_FR/settings.html" class="preference-link">
+					<span> <!-- +WUM label=*text.preferencies.link.label/50/preferencies link label* -->Mes	préférences<!-- -WUM --> </span>
+				</a>
+				
+			
+				
+					<span id="prefLinkSeparator">|</span>
+					<a href="http://assistance.wanadoo.fr/reponse1190.asp" class="help-link"><a class="close"></a><span>Assistance</span></a>
+				
+				<div id="help-modal" class="modal">
+					<div class="header">
+						<span class="title">
+							<!-- +WUM label=*text.title.helppage/30/title help page* -->aide<!-- -WUM -->
+						</span>
+						<span class="close close-bt">
+							<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" title="&lt;!-- +WUM label=*text.accessibility.linktitle.closehelp/20/accessibility label close help popin* --&gt;fermer l&#39;aide&lt;!-- -WUM --&gt;"><!-- +WUM label=*text.close.helppage/20/close help page* -->fermer<!-- -WUM --></a>
+						</span>
+					</div>
+					<div class="content">
+					</div>
+				</div>
+			
+			<!-- +OPTIN PRC1556-04 -->
+			<span>&nbsp;</span>
+			<!-- -OPTIN PRC1556-04 -->
+			</span>
+			</div>
+	
+		
+<div class="row-2">
+<span class="ctrls-group">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" onclick="javascript:refreshListMails(&#39;SF_INBOX&#39;);return false" class="button refresh" id="refresh">
+<span>actualiser</span> 
+</a>
+<span class="new-message-bloc ib">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/write.html" class="button new-message">
+<span>écrire un message</span>
+</a>
+<span class="arrow">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="arrow">&nbsp;</a>
+</span>
+<ul class="new-message-options">
+<li class="new-message-option">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/write.html" title="Aller sur la page d&#39;écriture de mail">écrire un message</a>
+</li>
+<li class="new-message-option">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/writeICal.html" title="Aller sur la page d&#39;écriture d&#39;une invitation">envoyer une invitation</a>
+</li>
+<li class="new-message-option">
+<a href="http://smsmms1.orange.fr/I/Sms/sms_write.php" title="Aller sur la page d&#39;écriture d&#39;un SMS">
+écrire un SMS
+</a>
+</li>
+<li class="new-message-option">
+<a href="http://smsmms2.orange.fr/I/Mms/mms_write.php" title="Aller sur la page d&#39;écriture d&#39;un MMS">
+écrire un MMS
+</a>
+</li>
+<!-- + DDM 2258 -->
+
+<!-- - DDM 2258 -->
+</ul> 
+</span>
+</span>
+<span class="ctrls-group search-bloc">
+
+<form method="post" action="https://webmail1h.orange.fr/webmail/fr_FR/search_submit.html" name="header_search_mail" onsubmit="javascript:FindSearchMode();return false">
+
+
+<fieldset>
+<input type="hidden" name="folderSearch" value="SF_INBOX">
+<input type="hidden" name="allFolder" value="">
+<input type="hidden" name="userFolder" value="">
+<input type="hidden" name="inbox" value="selected">
+<input type="hidden" name="outbox" value="">
+<input type="hidden" name="draft" value="">
+<input type="hidden" name="junk" value="">
+<input type="hidden" name="trash" value="">
+<input type="hidden" name="index" value="">
+<input type="hidden" name="context" value="null">
+<input type="hidden" name="object" value="">
+<input type="hidden" name="sender" value="">
+<input type="hidden" name="recipients" value="">
+<input type="hidden" name="body_message" value="">
+<input type="hidden" name="searchInWholeMessage" value="FALSE">
+<input type="hidden" name="day" value="">
+<input type="hidden" name="month" value="">
+<input type="hidden" name="year" value="">
+<input type="hidden" name="when" value="">
+<input type="hidden" name="searchin" value="sender">
+<input type="hidden" name="FOLDER" value="SF_INBOX">
+<input type="hidden" name="msgerrsrch" value="">
+
+
+
+<div class="search-input">
+<input type="text" placeholder="Rechercher..." name="searchFor" id="idSearchFor"> 
+</div>
+<select id="header_search-mode" class="test-class" style="display: none;">
+<option value="ValidSearch(&#39;SEARCH_WEB&#39;)">
+dans les mails
+</option>
+<option value="ValidSearchWeb(URL_SEARCH_WEB)">
+sur le web
+</option>
+</select><span class="test-class orange-combo"><div class="orange-combo-fulltext" style="width: auto;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="orange-combo-fulltext-wrapper"><span class="orange-combo-text-wrapper" style="width: auto;"><span class="orange-combo-text">
+dans les mails
+</span></span><span class="orange-combo-extend">...</span></a></div><ul class="orange-combo-list" style=""><li data-value="ValidSearch(&#39;SEARCH_WEB&#39;)" class="orange-combo-option last-prev" style="width: 100px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">
+dans les mails
+</a></li><li data-value="ValidSearchWeb(URL_SEARCH_WEB)" class="orange-combo-option last" style="width: 100px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">
+sur le web
+</a></li></ul></span>
+
+
+</fieldset>
+</form>
+</span>
+</div>
+
+<!-- 2 div fermant pour le header_tabs.html -->
+</div>
+</div>
+<div class="content-wrapper">
+<table id="main-content" border="0" cellspacing="0" cellpadding="0" style="z-index: auto;">
+<tbody><tr>
+<td id="sidebar">
+
+
+
+
+
+
+
+<div class="sidebar-content">
+<div class="sidebar-menu">
+<ul class="sidebar-menu-list">
+
+
+<li class="sidebar-menu-item inbox current-menu"><a href="https://webmail1h.orange.fr/webmail/fr_FR/inbox.html?FOLDER=SF_INBOX" title="reçus"><span>reçus<span class="unread-messages">(1)</span></span></a></li>
+
+
+
+<li class="sidebar-menu-item sent"><a href="https://webmail1h.orange.fr/webmail/fr_FR/sent.html?FOLDER=SF_OUTBOX" title="envoyés"><span>envoyés<span class="unread-messages"></span></span></a></li>
+<li class="sidebar-menu-item drafts"><a href="https://webmail1h.orange.fr/webmail/fr_FR/draft.html?FOLDER=SF_DRAFT" title="brouillons"><span>brouillons<span class="unread-messages">(108)</span></span></a></li>
+<li class="sidebar-menu-item junk"><a href="https://webmail1h.orange.fr/webmail/fr_FR/junk.html?FOLDER=SF_JUNK" title="indésirables"><span>indésirables<span class="unread-messages">(3)</span></span></a></li>
+<li class="sidebar-menu-item trash"><a href="https://webmail1h.orange.fr/webmail/fr_FR/trash.html?FOLDER=SF_TRASH" title="corbeille"><span>corbeille<span class="unread-messages">(5)</span></span></a></li>
+
+<li class="sidebar-menu-item my-folders">
+<span class="my-folders">
+<span>mes dossiers</span>
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/folders.html" title="gérer mes dossiers" class="more-link">gérer</a>
+</span>
+</li>
+
+
+
+</ul>
+</div>
+<div class="sidebar-separator">&nbsp;</div>
+<div class="sidebar-promo-services">
+
+<div class="more-space">
+
+<div class="space-bar">
+<div style="width: 17%" class="space-quantity-bar"></div>
+</div>
+
+
+<div class="space-quantity-used ib">
+<span>17%&nbsp;sur&nbsp;<strong>10Go</strong></span>
+
+
+<a class="more-space-link" href="http://maboutique-internet.orange.fr/default.aspx?id=8442" title="plus d&#39;espace ?">plus d'espace ?</a>
+
+</div>
+</div>
+
+
+
+<!-- + DDM 2258 -->
+
+<!-- - DDM 2258 -->
+
+
+
+<div class="product anti-spam">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/antiSpam.html" class="anti-spam-link" title="anti-spam">anti-spam</a>
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/antiSpam.html" class="activation">actif</a>
+</div>
+
+
+</div>
+<div class="sidebar-separator">&nbsp;</div>
+<div class="sidebar-external-services">
+
+
+
+<!-- inboxLeftMenu_I.htm -->
+
+
+<div id="blocServices" style="border-bottom: 1px solid #CCCCCC;height: 47px;">
+<a href="http://r.orange.fr/r?ref=inbox_left1I_2016s21&amp;url=http://telecharger-mail.orange.fr/" target="_blank">
+<img src="./Lecture d&#39;un message - mail Orange_files/orange_spring.jpg" height="47" width="170" border="0" alt="téléchargez l&#39;application Mail Orange"></a>
+</div>
+
+<div id="blocServices" style="border-bottom: 1px solid #CCCCCC;height: 47px;">
+<a href="http://r.orange.fr/r?ref=inbox_left2I_2016s21&amp;url=http://nettoyageadresse.orange.fr/" target="_blank">
+<img src="./Lecture d&#39;un message - mail Orange_files/contacts2.jpg" height="47" width="170" border="0" alt="nettoyez vos contacts"></a>
+</div>
+
+
+
+
+</div>
+</div>
+</td>
+<td id="content">
+<form name="goToPreview" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="url-to-call" id="url-to-call" value="">
+</form>
+<form name="goToPim" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="fromContextMenu" id="fromContextMenu" value="false">
+<input type="hidden" name="fromContextMenu_url" id="fromContextMenu_url" value="">
+<input type="hidden" name="urlPimToCall" id="urlPimToCall" value="">
+</form>
+<form name="goToPrint" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="printPage" id="printPage" value="pfRead.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=">
+</form>
+<form name="openOneAttachment" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="URL_BACK_PATH_AND_PAGE" value="read.html?IDMSG=12046&amp;FOLDER=SF_INBOX&amp;ORIGIN=&amp;SORTBY=1&amp;PAGE_RETURN=1">
+</form>
+<form name="formsubmitReply" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="PHONENUMBER_FOR_REPLY" value="">
+<input type="hidden" name="MSG_TO" value="">
+<input type="hidden" name="FOLDER" value="" sf_inbox""="">
+</form>
+<form name="formsubmitMove" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="fromList" value="false">
+<input type="hidden" name="uids" value="12046">
+<input type="hidden" name="FOLDER" value="SF_INBOX">
+<input type="hidden" name="FOLDER_DEST" value="">
+<input type="hidden" name="REDIRECT_SUCCESS" value="read.html?IDMSG=__IDMSG____MD5_CHECK__&amp;FOLDER=SF_INBOX&amp;ORIGIN=&amp;SORTBY=1&amp;ADVANCED_SEARCH=FALSE&amp;PAGE_RETURN=1">
+<input type="hidden" name="REDIRECT_SUCCESS_LAST_MESSAGE" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="REDIRECT_REFRESH" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="REDIRECT_NO_NEXT_PREV" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="GOTO_ANOTHER_MSG" value="1">
+<input type="hidden" name="NEXT_MSG" value="12045">
+<input type="hidden" name="PREV_MSG" value="">
+<input type="hidden" name="NEXT_FOLDER" value="SF_INBOX">
+<input type="hidden" name="PREV_FOLDER" value="SF_INBOX">
+<input type="hidden" name="MOVE_NEW_FOLDER" value="">
+<input type="hidden" name="NEXT_MSG_IS_ICAL" value="false">
+<input type="hidden" name="REDIRECT_SUCCESS_ICAL" value="readICal.html?IDMSG=__IDMSG____MD5_CHECK__&amp;FOLDER=SF_INBOX&amp;ORIGIN=&amp;SORTBY=1&amp;PAGE_RETURN=1">
+
+<input type="hidden" name="ORIGIN" value="">
+</form>
+<form name="formsubmitDelete" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="uids" value="12046">
+<input type="hidden" name="FOLDER" value="SF_INBOX">
+<input type="hidden" name="REDIRECT_SUCCESS" value="read.html?IDMSG=__IDMSG____MD5_CHECK__&amp;FOLDER=SF_INBOX&amp;ORIGIN=&amp;SORTBY=1&amp;PAGE_RETURN=1">
+<input type="hidden" name="REDIRECT_REFRESH" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="REDIRECT_SUCCESS_LAST_MESSAGE" value="inbox.html?PAGE=1&amp;SORTBY=1">
+
+
+<input type="hidden" name="SAVE_INTO_TRASH" value="1">
+
+<input type="hidden" name="REDIRECT_NO_NEXT_PREV" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="GOTO_ANOTHER_MSG" value="1">
+<input type="hidden" name="NEXT_MSG" value="12045">
+<input type="hidden" name="PREV_MSG" value="">
+<input type="hidden" name="CONFIRM_DELETE" value="true">
+<input type="hidden" name="MESSAGE" value="CONFIRM_DELETE">
+<input type="hidden" name="PARAM1" value="1">
+<input type="hidden" name="URL_CANCEL" value="read.html?IDMSG=12046&amp;FOLDER=SF_INBOX&amp;check=&amp;ORIGIN=&amp;SORTBY=1&amp;PAGE_RETURN=1">
+<input type="hidden" name="URL_VALID" value="delete_submit.html">
+<input type="hidden" name="NEXT_MSG_IS_ICAL" value="false">
+<input type="hidden" name="REDIRECT_SUCCESS_ICAL" value="readICal.html?IDMSG=__IDMSG____MD5_CHECK__&amp;FOLDER=SF_INBOX&amp;ORIGIN=&amp;SORTBY=1&amp;PAGE_RETURN=1">
+</form>
+<form name="cancelLinkAutospam" method="post" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1">
+<input type="hidden" name="TYPE_MAIL" value="">
+<input type="hidden" name="url_retour" value="read.html?">
+</form>
+<form name="formsubmitAntispamAuto" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" method="post">
+<input type="hidden" name="uids" value="12046">
+<input type="hidden" name="FOLDER" value="SF_INBOX">
+<input type="hidden" name="FOLDER_DEST" value="SF_JUNK">
+<input type="hidden" name="CURRENT_FOLDER" value="SF_INBOX">
+<input type="hidden" name="REDIRECT_SUCCESS" value="">
+<input type="hidden" name="REDIRECT_REFRESH" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="REDIRECT_NO_NEXT_PREV" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="REDIRECT_SUCCESS_LAST_MESSAGE" value="inbox.html?PAGE=1&amp;SORTBY=1">
+<input type="hidden" name="GOTO_ANOTHER_MSG" value="1">
+<input type="hidden" name="NEXT_MSG" value="12045">
+<input type="hidden" name="PREV_MSG" value="">
+<input type="hidden" name="NEXT_FOLDER" value="SF_INBOX">
+<input type="hidden" name="PREV_FOLDER" value="SF_INBOX">
+<input type="hidden" name="URL_VALID" value="read.html">
+<input type="hidden" name="MESSAGE" value="CONFIRM_MOVETOQUARANTAINE">
+<input type="hidden" name="PARAM1" value="1">
+<input type="hidden" name="ORIGIN" value="">
+<input type="hidden" name="PAGE_RETURN" value="1">
+<input type="hidden" name="SORTBY" value="1">
+<input type="hidden" name="SHOW_JUNK" value="">
+<input type="hidden" name="NEXT_MSG_IS_ICAL" value="false">
+<input type="hidden" name="url_param" value="">
+<input type="hidden" name="url_page" value="read.html?">
+<input type="hidden" name="url_retour" value="read.html?">
+<input type="hidden" name="url_retourError" value="">
+<input type="hidden" name="url_confirm" value="confirm_add_block_white_list.html?">
+<input type="hidden" name="separator" value="">
+
+<input type="hidden" name="ADVANCED_SEARCH" value="FALSE">
+</form>
+<form id="inboxMailForm" method="POST" action="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1" name="msg_read_form">
+<input type="hidden" name="MSG_UID" value="12046">
+<input type="hidden" name="IDMSG" value="12046">
+<input type="hidden" name="uids" value="12046">
+<input type="hidden" name="FOLDER" value="SF_INBOX">
+<input type="hidden" name="FOLDER_ENCODE" value="SF_INBOX">
+<input type="hidden" name="FOLDER_DEST" value="SF_JUNK">
+<input type="hidden" name="TYPE" value="">
+<input type="hidden" name="REPLY_TO" value="">
+<input type="hidden" name="PAGE" value="read.html">
+<input type="hidden" name="URL_VALID" value="inbox_submit_expunge.html">
+<input type="hidden" name="URL_CANCEL" value="read.html">
+<input type="hidden" name="MESSAGE" value="CONFIRM_DELETE">
+<input type="hidden" name="PARAM1" value="1">
+<input type="hidden" name="ORIGIN" value="">
+<input type="hidden" name="PAGE_RETURN" value="1">
+<input type="hidden" name="SORTBY" value="1">
+<input type="hidden" name="CONFIRM_DELETE" value="true">
+<input type="hidden" name="ADDRESS_TO_BLOCK" value="clement.viguier@irstea.fr">
+<input type="hidden" name="from" value="clement.viguier@irstea.fr">
+<input type="hidden" name="FILTERED_EMAILS" value="clement.viguier@irstea.fr">
+<input type="hidden" name="SEARCH" value="">
+<input type="hidden" name="URL_UNSEEN" value="inbox.html">
+<input type="hidden" name="MESSAGE_NATURE" value="EMAIL-NATURE">
+<input type="hidden" name="MESSAGE_CONFIRM" value="">
+<input type="hidden" name="ROOT" value="inbox.html">
+<input type="hidden" name="ORIGIN" value="">
+<input type="hidden" name="maildisplay_option" value="0">
+<input type="hidden" name="selcheck0" value="on">
+<input type="hidden" name="selname_0" value="Viguier Clément">
+<input type="hidden" name="selemail_0" value="clement.viguier@irstea.fr">
+<input type="hidden" name="READ_MAIL" value="OK">
+
+
+
+<input type="hidden" name="check" value="">
+
+<!-- +BREADCRUMB -->
+<div class="main-breadcrumb">
+<div class="navigation">
+<ul class="main-breadcrumb-list">
+<li class="main-breadcrumb-item">
+<h1>
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/inbox.html" class="main-breadcrumb-link pre-last first">
+boîte de réception
+</a>
+</h1>
+</li>
+<li class="main-breadcrumb-item">
+<h2>
+<span class="current-breadcrumb">
+lire un message
+</span>
+</h2>
+</li>
+</ul>
+</div>
+<div class="pagination-top">
+<div class="pages-list-nav">
+&nbsp;
+<span class="messages-status">
+<span class="pages-status-item">
+message
+</span>
+<span class="pages-status-item">
+1
+</span>
+<span class="pages-status-item">
+sur
+</span>
+<span class="pages-status-item">
+3002
+</span>
+</span>
+<a class="next" href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?IDMSG=12045&amp;FOLDER=SF_INBOX&amp;SEARCH=NOK&amp;check=&amp;ORIGIN=" title="message suivant">Suivant</a>
+</div>
+</div>
+</div>
+<!-- -BREADCRUMB -->
+<!-- +INFO MESSAGE -->
+<div class="info-message" style="display:none;">
+<table>
+<tbody>
+<tr>
+<td class="icon">
+<img title="information" alt="information" src="./Lecture d&#39;un message - mail Orange_files/icon-info-small.gif">
+</td>
+<td>
+<p>
+<strong>information</strong>
+</p>
+
+</td>
+<td class="close-span-button">
+<span class="ib close-pane">
+<a class="ib close-bt close-pane" href="javascript:hideBloc(&#39;blocJunkBar&#39;);" title="fermer l&#39;alerte">
+fermer
+</a>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- -INFO MESSAGE -->
+<div class="action-bar large-bordure">
+<span class="action-bar-left">
+<!-- REPONDRE -->
+
+
+
+
+<span class="action-item bloc-with-separation">
+<select id="reply-to-message" class="orange-combo-fixed-width orange-action-combo reply-to-message" title="répondre" style="display: none;">
+<option value=""></option>
+
+<option value="comboActionReply(&#39;REPLY_MAIL_FROM&#39;);">répondre</option>
+<option value="comboActionReply(&#39;REPLY_MAIL_ALL_FROM&#39;);">répondre à tous</option>
+
+<option value="comboActionReply(&#39;REPLY_ICAL&#39;);" "="">répondre par une invitation</option>
+
+
+<option value="" class="replySMS">répondre par SMS</option>
+<option value="" class="replyMMS">répondre par MMS</option>
+
+
+
+
+
+
+
+
+</select><span class="orange-combo-fixed-width orange-action-combo reply-to-message orange-combo" style="width: 100px;"><div class="orange-combo-fulltext" style="width: 105px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="orange-combo-fulltext-wrapper"><span class="orange-combo-text-wrapper" style="width: auto;"><span class="orange-combo-text">répondre</span></span><span class="orange-combo-extend">...</span></a></div><ul class="orange-combo-list" style=""><li data-value="comboActionReply(&#39;REPLY_MAIL_FROM&#39;);" class="orange-combo-option" style="width: 145px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">répondre</a></li><li data-value="comboActionReply(&#39;REPLY_MAIL_ALL_FROM&#39;);" class="orange-combo-option" style="width: 145px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">répondre à tous</a></li><li data-value="comboActionReply(&#39;REPLY_ICAL&#39;);" class="orange-combo-option" style="width: 145px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">répondre par une invitation</a></li><li class="replySMS orange-combo-option last-prev" data-value="répondre par SMS" style="width: 145px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">répondre par SMS</a><ul class="sub-menu-reply-sms orange-combo-list"></ul></li><li class="replyMMS orange-combo-option last" data-value="répondre par MMS" style="width: 145px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">répondre par MMS</a><ul class="sub-menu-reply-mms orange-combo-list"></ul></li></ul></span>
+</span>
+<span class="action-item">
+<a href="javascript:Forward();" class="button">
+transférer
+</a>
+</span>
+
+
+<!-- END REPONDRE -->
+<!-- RENVOYER/SUIVER -->
+
+<!-- END RENVOYER/SUIVER -->
+<!-- SPAM -->
+
+
+
+
+<span class="action-item">
+<a href="javascript:SpamFromReadWithTestAntispamAuto();" class="button">
+traiter comme indésirable
+</a>
+</span>
+
+
+
+
+<!-- END SPAM -->
+<!-- MOVE TO -->
+<span class="action-item">
+<select id="moveTo" title="déplacer vers" class="orange-action-combo with-last-bold-border" style="display: none;">
+<option value=""></option>
+
+<option class="sub-0" value="SF_TRASH">corbeille</option>
+
+
+<option class="sub-0" value="true">nouveau dossier</option>
+</select><span class="orange-action-combo with-last-bold-border orange-combo"><div class="orange-combo-fulltext" style="width: auto;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="orange-combo-fulltext-wrapper"><span class="orange-combo-text-wrapper" style="width: auto;"><span class="orange-combo-text">déplacer vers</span></span><span class="orange-combo-extend">...</span></a></div><ul class="orange-combo-list" style=""><li class="sub-0 orange-combo-option last-prev" data-value="SF_TRASH" style="width: 96px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">corbeille</a></li><li class="sub-0 orange-combo-option last" data-value="true" style="width: 96px;"><a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#">nouveau dossier</a></li></ul></span>
+</span>
+<!-- END MOVE TO -->
+<!-- DELETE -->
+<span class="action-item">
+<a href="javascript:deleteMail();" class="button">
+supprimer
+</a>
+</span>
+</span>
+<!-- END DELETE -->
+<!-- PRINT -->
+<span class="action-bar-right print">
+<span class="action-item">
+<a rel="#print-mail-modal" href="https://webmail1h.orange.fr/webmail/fr_FR/popin-read_print.html" class="button print-button">
+imprimer
+</a>
+</span>
+</span>
+<!-- END PRINT -->
+</div>
+<table class="mail-table read" summary="Entête du message">
+<tbody>
+<tr class="from">
+<th scope="row">
+<abbr title="expéditeur">
+de
+</abbr>
+</th>
+<td>
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" id="clement.viguier@irstea.fr_from" class="adr black-to-orange contextEntry"><span>"Viguier Clément" &lt;clement.viguier@irstea.fr&gt;</span></a>
+</td>
+
+
+<td rowspan="3" class="to-options last">
+
+<a href="javascript:addToMyContacts();" class="link-to-my-contacts black-to-orange"><a class="close"></a>
+ajouter à mes contacts
+</a>
+
+
+
+
+<a href="javascript:AlerteSms(false);" class="link-to-sms-alert black-to-orange">
+créer une alerte SMS
+</a>
+
+
+</td>
+</tr>
+<tr class="to">
+<th scope="row">
+<abbr title="destinataire">
+à
+</abbr>
+</th>
+<td>
+ <a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" id="clem.viguier@wanadoo.fr_tocc" class="adr black-to-orange contextEntry"><span>"clem viguier" &lt;clem.viguier@wanadoo.fr&gt;</span></a> <input type="hidden" name="selcheck1" value="on"><input type="hidden" name="selname_1" value="clem viguier"><input type="hidden" name="selemail_1" value="clem.viguier@wanadoo.fr">
+</td>
+</tr>
+
+<tr class="date">
+<th scope="row">
+date
+</th>
+<td>23/07/18 09:44</td>
+</tr>
+<tr class="subject">
+<th scope="row">
+objet
+</th>
+<td colspan="2" class="last" id="tdReadSubject">Fwd: Corrections</td>
+</tr>
+
+</tbody>
+</table>
+<table class="mail-table read">
+<tbody><tr class="view-header open">
+<td colspan="3" class="last header-details open">
+<p class="header-details-link-block">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" hidefocus="true" class="ib header-details-link">
+<span class="view-header-link">
+voir l'en-tête complet
+</span>
+<span class="hide-header-link">
+fermer l'en-tête
+</span>
+</a>
+</p>
+<div class="header-content">
+<strong>Return-Path</strong>: &lt;clement.viguier@irstea.fr&gt;<br><br><strong>Received</strong>: from mwinf5c45 (mwinf5c45 [10.223.111.95])<br>	 by mwinb2503 with LMTPA;<br>	 Mon, 23 Jul 2018 09:44:08 +0200<br><br><strong>X-Sieve</strong>: CMU Sieve 2.3<br><br><strong>Received</strong>: from smtpout10.partage.renater.fr ([194.254.240.33])<br>	by mwinf5c45 with ME<br>	id E7jz1y01D0jwJKm017jzzi; Mon, 23 Jul 2018 09:44:08 +0200<br><br><strong>X-bcc</strong>: clem.viguier@wanadoo.fr<br><br><strong>X-ME-bounce-domain</strong>: wanadoo.fr<br><br><strong>X-ME-engine</strong>: default<br><br><strong>X-me-spamcause</strong>: (-50)(0000)gggruggvucftvghtrhhoucdtuddrgedtiedrjedugdeijecutefuodetggdotefrodftvfcurfhrohhfihhlvgemucfogfdpggftiffpkfenuceurghilhh<br>ouhhtmecugedttdenucesvcftvggtihhpihgvnhhtshculddquddttddmnegotffhvedqqdgiqdfqrhhighhinhgrthhinhhgqdfkphdqufhushhpvggtthculdehtddmn<br>ecujfgurhepfffhvffkjghfufggtghiofhtsegrtdgtreertdejnecuhfhrohhmpeggihhguhhivghrucevlhormhgvnhhtuceotghlvghmvghnthdrvhhighhuihgvrhe<br>sihhrshhtvggrrdhfrheqnecukfhppeduleegrddvheegrddvgedtrdeffedpkeehrddvgeeirdduleefrdefgedpudelgedrvdehgedrvdegvddrvdehfedpudelgedrv<br>dehgedrvdegtddrfedtnecurfgrrhgrmhephhgvlhhopehsmhhtphhouhhtuddtrdhprghrthgrghgvrdhrvghnrghtvghrrdhfrhdpihhnvghtpeduleegrddvheegrdd<br>vgedtrdeffedpmhgrihhlfhhrohhmpegtlhgvmhgvnhhtrdhvihhguhhivghrsehirhhsthgvrgdrfhhrpdhrtghpthhtoheptghlvghmrdhvihhguhhivghrseifrghnr<br>gguohhordhfrhenucevlhhushhtvghrufhiiigvpedt<br><br><strong>X-me-spamlevel</strong>: not-spam<br><br><strong>X-ME-Helo</strong>: smtpout10.partage.renater.fr<br><br><strong>X-ME-IP</strong>: 194.254.240.33<br><br><strong>X-ME-Entity</strong>: ofr<br><br><strong>Received</strong>: from zmtaout01.partage.renater.fr (zmtaout01.partage.renater.fr [194.254.240.30])<br>	by smtpout10.partage.renater.fr (Postfix) with ESMTP id 9C76060182<br>	for &lt;clem.viguier@wanadoo.fr&gt;; Mon, 23 Jul 2018 09:43:58 +0200 (CEST)<br><br><strong>Received</strong>: from zmtaout01.partage.renater.fr (localhost [127.0.0.1])<br>	by zmtaout01.partage.renater.fr (Postfix) with ESMTPS id 75C0D1A003A<br>	for &lt;clem.viguier@wanadoo.fr&gt;; Mon, 23 Jul 2018 09:43:58 +0200 (CEST)<br><br><strong>Received</strong>: from localhost (localhost [127.0.0.1])<br>	by zmtaout01.partage.renater.fr (Postfix) with ESMTP id 532CB1A002E<br>	for &lt;clem.viguier@wanadoo.fr&gt;; Mon, 23 Jul 2018 09:43:58 +0200 (CEST)<br><br><strong>X-Virus-Scanned</strong>: amavisd-new at zmtaout01.partage.renater.fr<br><br><strong>Received</strong>: from zmtaout01.partage.renater.fr ([127.0.0.1])<br>	by localhost (zmtaout01.partage.renater.fr [127.0.0.1]) (amavisd-new, port 10026)<br>	with ESMTP id ilDTuyiouuON for &lt;clem.viguier@wanadoo.fr&gt;;<br>	Mon, 23 Jul 2018 09:43:48 +0200 (CEST)<br><br><strong>Received</strong>: from zstore24-staff.partage.renater.fr (zstore24-staff.partage.renater.fr [10.254.240.52])<br>	by zmtaout01.partage.renater.fr (Postfix) with ESMTP id ED8A61A003A<br>	for &lt;clem.viguier@wanadoo.fr&gt;; Mon, 23 Jul 2018 09:43:47 +0200 (CEST)<br><br><strong>Date</strong>: Mon, 23 Jul 2018 09:43:46 +0200 (CEST)<br><br><strong>From</strong>: Viguier =?utf-8?Q?Cl=C3=A9ment?= &lt;clement.viguier@irstea.fr&gt;<br><br><strong>To</strong>: clem viguier &lt;clem.viguier@wanadoo.fr&gt;<br><br><strong>Message-ID</strong>: &lt;1521854521.43227.1532331825661.JavaMail.zimbra@irstea.fr&gt;<br><br><strong>In-Reply-To</strong>: &lt;F39ECDB2-D96B-4E69-93DF-4037106F20DE@irstea.fr&gt;<br><br><strong>References</strong>: &lt;1549044284.1721949.1532282930110.JavaMail.zimbra@irstea.fr&gt; &lt;F39ECDB2-D96B-4E69-93DF-4037106F20DE@irstea.fr&gt;<br><br><strong>Subject</strong>: Fwd: Corrections<br><br><strong>MIME-Version</strong>: 1.0<br><br><strong>Content-Type</strong>: multipart/alternative; <br>	boundary="=_fcb9c4fd-75a8-4c20-958b-6894fbdb3c2c"<br><br><strong>X-Originating-IP</strong>: [85.246.193.34, 194.254.242.253]<br><br><strong>X-Mailer</strong>: Zimbra 8.7.10_GA_1829 (ZimbraWebClient - GC67 (Win)/8.7.10_GA_1829)<br><br><strong>Thread-Topic</strong>: Corrections<br><br><strong>Thread-Index</strong>: 8+kLDRU/NVxXPr+UJqHirtGjPj4N4A==
+</div>
+</td>
+</tr>
+</tbody></table>
+
+<div class="mail-content-readonly">
+<table class="mail-content-readonly-table">
+<tbody><tr>
+<td>
+<div class="mail-content-read" id="message" style="width: 1006px;">
+<div style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #000000"><div><br></div><div><br></div><hr id="zwchr" data-marker="__DIVIDER__"><div data-marker="__HEADERS__"><b>De: </b>"bjoern reineking" &lt;<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" id="bjoern.reineking@irstea.fr_body" class="adr black-to-orange contextEntry" target="_blank"><span>bjoern.reineking@irstea.fr</span></a>&gt;<br><b>À: </b>"clement viguier" &lt;<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" id="clement.viguier@irstea.fr_body" class="adr black-to-orange contextEntry" target="_blank"><span>clement.viguier@irstea.fr</span></a>&gt;<br><b>Envoyé: </b>Dimanche 22 Juillet 2018 20:04:36<br><b>Objet: </b>Re: Corrections<br></div><br><div data-marker="__QUOTED_TEXT__">Hi Clement,<div class=""><br class=""></div><div class="">Attached please find my current corrections. I can continue tomorrow if you want (looking at the results chapters).</div><div class="">I did not correct much of the English in the Model description part, assuming that you get/got feedback from Austin.</div><div class=""><br class=""></div><div class="">Best,</div><div class="">Björn</div><div class=""><div><img id="214110A0-42A8-4170-806A-75866F16D040" src="./Lecture d&#39;un message - mail Orange_files/IMG_8323.jpeg" class=""><img id="833174A9-3091-4417-9430-9A742670344E" src="./Lecture d&#39;un message - mail Orange_files/IMG_8324.jpeg" class=""><img id="8D620ADB-22D8-47E6-91EB-B2B9F0B9DA77" src="./Lecture d&#39;un message - mail Orange_files/IMG_8325.jpeg" class=""><img id="306D72ED-B939-46FD-B3EF-047E29182B05" src="./Lecture d&#39;un message - mail Orange_files/IMG_8326.jpeg" class=""><img id="47C7BCC0-6A31-4DCE-AFAB-3F826984F15C" src="./Lecture d&#39;un message - mail Orange_files/IMG_8327.jpeg" class=""><img id="E22A8F57-32D9-4E58-9513-89581DC4DE97" src="./Lecture d&#39;un message - mail Orange_files/IMG_8328.jpeg" class=""><img id="1A33CD68-A30F-4A9B-88B8-F923DBCFEC46" src="./Lecture d&#39;un message - mail Orange_files/IMG_8329.jpeg" class=""><img id="A0A3578A-5887-4ADE-9E6E-48AF85A7D2F2" src="./Lecture d&#39;un message - mail Orange_files/IMG_8330.jpeg" class=""><img id="5A4A0316-0CB7-4963-A56B-546B52817F7E" src="./Lecture d&#39;un message - mail Orange_files/IMG_8331.jpeg" class=""><img id="06EE07E9-B496-407B-B7E6-20C8F9355252" src="./Lecture d&#39;un message - mail Orange_files/IMG_8332.jpeg" class=""><img id="EAB0DD88-6FD0-48A7-8D92-818594CA63C8" src="./Lecture d&#39;un message - mail Orange_files/IMG_8333.jpeg" class=""><img id="48E3C5EF-4148-4468-8AEE-6EBD74FD1F56" src="./Lecture d&#39;un message - mail Orange_files/IMG_8334.jpeg" class=""><img id="0F7A7566-97AF-4BFB-B512-90A33667E09B" src="./Lecture d&#39;un message - mail Orange_files/IMG_8335.jpeg" class=""><img id="CE1DF115-00D2-4357-8C8A-F542F1B39CB0" src="./Lecture d&#39;un message - mail Orange_files/IMG_8336.jpeg" class=""><img id="0DF2038F-B95A-422C-906D-DF8C6C689588" src="./Lecture d&#39;un message - mail Orange_files/IMG_8337.jpeg" class=""><img id="BA4446A1-79AB-46BD-9108-EB7DAD48D9F6" src="./Lecture d&#39;un message - mail Orange_files/IMG_8338.jpeg" class=""><img id="8B1F4BFA-579C-4914-BB26-4E626F985516" src="./Lecture d&#39;un message - mail Orange_files/IMG_8339.jpeg" class=""><img id="E1033998-96B0-4556-AAEA-60906903D0CF" src="./Lecture d&#39;un message - mail Orange_files/IMG_8340.jpeg" class=""><img id="E23D8BC6-4DD3-4F8D-B5B6-3F4A4F2EEC5A" src="./Lecture d&#39;un message - mail Orange_files/IMG_8341.jpeg" class=""><img id="C8D6D227-3E79-458F-BF4A-0ECBCB32D0EB" src="./Lecture d&#39;un message - mail Orange_files/IMG_8342.jpeg" class=""><img id="3F2CF5BE-A457-4306-BDC4-47A54DC4B270" src="./Lecture d&#39;un message - mail Orange_files/IMG_8343.jpeg" class=""><img id="C097D969-0BCE-4BC0-AADB-30C3C4EC6029" src="./Lecture d&#39;un message - mail Orange_files/IMG_8344.jpeg" class=""><img id="FD15ED93-3EE5-474F-A260-1E49A8F421BE" src="./Lecture d&#39;un message - mail Orange_files/IMG_8345.jpeg" class=""><img id="3D3E3F08-79F6-40E0-B3AD-B26D929AC70E" src="./Lecture d&#39;un message - mail Orange_files/IMG_8346.jpeg" class=""><img id="1742749F-DBC3-4833-A33C-471241B414D9" src="./Lecture d&#39;un message - mail Orange_files/IMG_8347.jpeg" class=""><img id="1AA715F2-1896-450C-AA5D-EFC1BB26DC73" src="./Lecture d&#39;un message - mail Orange_files/IMG_8348.jpeg" class=""><img id="3816A064-1F87-490A-8BB1-EBA11A270F2C" src="./Lecture d&#39;un message - mail Orange_files/IMG_8349.jpeg" class=""><img id="D4E2D57F-0042-4D19-8F9B-59F98DDF8313" src="./Lecture d&#39;un message - mail Orange_files/IMG_8350.jpeg" class=""><img id="007510E3-0EF6-4DA1-9A8D-F22A4E135B79" src="./Lecture d&#39;un message - mail Orange_files/IMG_8351.jpeg" class=""><img id="DA73D996-F4BA-4CA8-B613-275567AA2927" src="./Lecture d&#39;un message - mail Orange_files/IMG_8352.jpeg" class=""><img id="CFD546FC-F3F2-4E97-A6E7-C9A283A37E9F" src="./Lecture d&#39;un message - mail Orange_files/IMG_8353.jpeg" class=""><img id="7677FEFB-6C3D-4154-9AEE-B51B2254C3D9" src="./Lecture d&#39;un message - mail Orange_files/IMG_8354.jpeg" class=""><br class=""><blockquote class=""><div class="">On 22 Jul 2018, at 20:08, Viguier Clément &lt;<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" id="clement.viguier@irstea.fr_body" class="adr black-to-orange contextEntry" target="_blank"><span>clement.viguier@irstea.fr</span></a>&gt; wrote:</div><br class="Apple-interchange-newline"><div class=""><div class=""><div style="font-family: arial, helvetica, sans-serif; font-size: 12pt;" class=""><div class="">Hi Björn,</div><div class=""><br class=""></div><div class="">I still plan to send the manuscript tomorrow or Tuesday. Did you have time to work on it?</div><div class=""><br class=""></div><div class="">Have good holidays.</div><div class=""><br class=""></div><div class="">We stay in touch.</div><div class="">Best,</div><div class=""><br class=""></div><div class="">Clément</div></div></div></div></blockquote></div><br class=""></div><br></div></div>
+
+</div> 
+</td>
+</tr>
+</tbody></table>
+</div>
+<script type="text/javascript">
+var searchedBlock = $('.mail-content-read').children().first();
+if (searchedBlock.length > 0 && searchedBlock[0].tagName == "SPAN") {
+$('.mail-content-readonly').css('padding', 0);
+if (searchedBlock.attr("style").indexOf("padding") <= 0)
+searchedBlock.css('padding', '1%');
+}
+</script>
+
+<div class="mail-bottom-options-bloc">
+<div class="mail-bottom-options">
+<span class="left">
+<span class="cb">
+<input type="checkbox" name="mark-as-unread" id="mark-as-unread" value="markUnread(document.msg_read_form.FOLDER.value,document.msg_read_form.IDMSG.value,&#39;msg_read_form&#39; ,$(this).attr(&#39;checked&#39;))">
+<label><span class="sprite"></span><span class="label-inner">
+marquer comme non lu
+</span></label>
+</span>
+</span>
+</div>
+</div>
+
+</form>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div style="visibility:hidden;width=0;height=0">
+<iframe id="SendReadingConfirm" name="SEND_MDN_FRAME" height="0" width="0" src="./Lecture d&#39;un message - mail Orange_files/sendConfirmationReading_frame.html" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+<div style="visibility:hidden;width=0;height=0">
+<iframe name="unread_me" height="0" width="0" src="./Lecture d&#39;un message - mail Orange_files/read_unread_iframe.html" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+</div>
+
+
+<script type="text/javascript">
+var URL_ADDRESSBOOK="https://contacts.orange.fr";
+</script>
+
+<ul id="menu" class="read-contextual-menu" style="display: none;">
+
+
+
+<li>
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="new-message" id="reply_menu">
+répondre
+</a>
+</li>
+<li>
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="new-message" id="new_message_menu">
+nouveau message
+</a>
+</li>
+
+<li>
+<a class="add-to-contacts" id="add_to_contact_menu">
+ajouter à mes contacts
+</a>
+</li>
+
+
+<li id="send-sms-menu">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="send-sms">
+envoyer un SMS
+</a>
+</li>
+<li id="send-mms-menu">
+<a href="https://webmail1h.orange.fr/webmail/fr_FR/read.html?FOLDER=SF_INBOX&amp;IDMSG=12046&amp;check=&amp;SORTBY=1#" class="send-mms">
+envoyer un MMS
+</a>
+</li>
+
+</ul>
+<script type="text/javascript">
+$(function(){
+var first = true;
+var fromContextMenu = false;
+$('.read-contextual-menu').hide();
+
+$('#menu #add_to_contact_menu').click(function(){
+eval($(this).val());
+});
+
+$('.adr').click(function(){
+var mailAddr = "";
+if ($('#menu #voipcall')){
+$('#menu #voipcall').attr('href', cMenu[$(this).attr('id')].hrefs[0]);
+}
+if ($(this).attr('id').indexOf('_from') != -1) {
+$('#menu #reply_menu').show();
+$('#menu #reply_menu').attr('href', cMenu[$(this).attr('id')].hrefs[1]);
+$('#menu #new_message_menu').attr('href', cMenu[$(this).attr('id')].hrefs[2]);
+if ($('#menu #add_to_contact_menu')) {
+$('#menu #add_to_contact_menu').attr({
+value: cMenu[$(this).attr('id')].hrefs[3]
+});
+}
+mailAddr = $(this).attr('id').replace('_from', '');
+} else if (($(this).attr('id').indexOf('_tocc') != -1) || ($(this).attr('id').indexOf('_body') != -1)) {
+$('#menu #reply_menu').hide();
+$('#menu #new_message_menu').attr('href', cMenu[$(this).attr('id')].hrefs[1]);
+if ($('#menu #add_to_contact_menu')) {
+$('#menu #add_to_contact_menu').attr({
+value: cMenu[$(this).attr('id')].hrefs[2]
+});
+}
+mailAddr = $(this).attr('id').replace('_body', '').replace('_tocc', '');
+}
+//On supprime tous les sous-menus pour ne pas avoir de sur-affichage
+
+$('#send-sms-menu .sub, #send-mms-menu .sub').remove();
+
+callAjax(mailAddr, "head-body");
+});
+$('.adr').jeegoocontext('menu', {
+widthOverflowOffset: 0
+, heightOverflowOffset: 1
+, submenuLeftOffset: -4
+, submenuTopOffset: -2
+, event: 'click'
+, onShow: function() {
+if($('html').hasClass('ie-6') && first) {
+$('.new-message').parent().mouseover();
+first = false;
+}
+}
+});
+//Correction du pb IE7 pour le menu contextuel
+if ($.browser.msie) {
+$('.sub').css('width', '140px');
+$('.sub').css('height', 'auto');
+$('.sub').css('border', '1px solid #999');
+}
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+
+$('.attachments-details-link').click(function(){
+$('.collapse').hide();
+$('.expanded').show();
+$('tr.attachments').addClass('attachments-details-tr');
+openAttachmentExpandView('expandView','collapseView','true');
+});
+$('.attachments-details-link-close').click(function(){
+$('.expanded').hide();
+$('.collapse').show();
+$('tr.attachments').removeClass('attachments-details-tr');
+closeAttachmentExpandView('expandView','collapseView','true');
+});
+
+$('.view-header').toggleMailHeaders({
+link: '.header-details-link'
+});
+$('#junkCombo, #mark-as-unread').change(function(){
+eval($(this).val());
+});
+$('#moveTo').change(function(){
+moveMail($(this).val());
+});
+$('.close-pane').click(function(){
+$('.info-message').hide();
+});
+//+ GESTION DES POP-INS
+$('.link-to-my-contacts').overlay(o2);
+$('.save-contact-from-vcard-link').overlay(o2);
+$('.preview-file').overlay(o2);
+
+
+$('.attachments-album-link').overlay(o2);
+
+
+initPrint("pfRead.html?FOLDER=", "pj_mail=yes", "pj_mail=yes", $('#printPage'));
+//- GESTION DES POP-INS
+$('.preview-file').click(function(){
+$('#url-to-call').val($(this).attr('id'));
+});
+$('#reply-to-message').change(function(){
+eval($(this).val());
+});
+
+eventServer.on('loaded', function(){
+var senderMail = document.msg_read_form.from.value;
+$('.replySMS.orange-combo-option').append("<ul class='sub-menu-reply-sms orange-combo-list'></ul>");
+$('.replyMMS.orange-combo-option').append("<ul class='sub-menu-reply-mms orange-combo-list'></ul>");
+var firstTime = true;
+$('.replySMS.orange-combo-option, .replyMMS.orange-combo-option').hover(function(){
+if (firstTime) {
+firstTime = false;
+callAjax(senderMail, "button");
+}
+});
+});
+
+function fixMailContent() {
+var contentWidth = $('.content-wrapper').width() - $('#sidebar').width();
+var blocToInspect = $('#tdReadSubject');
+resizeSubject(blocToInspect, contentWidth, 65);
+if (!($.browser.msie && parseInt($.browser.version, 10) == "6")) {
+var sideBarWidth = $('#sidebar').outerWidth();
+var headerWidth = $('#header-rows').outerWidth();
+var maxReadTableWidth = headerWidth - sideBarWidth;
+var currentMailWidth = $('.mail-content-readonly').outerWidth();
+if (currentMailWidth > maxReadTableWidth) {
+var nWidth = (maxReadTableWidth * 96)/100;
+if (!($.browser.msie && parseInt($.browser.version, 10) == "7")) {
+$('.mail-content-read').width(nWidth);
+} else {
+$('.mail-content-readonly').width(maxReadTableWidth-10);
+$('.mail-content-readonly').height($('.mail-content-read').outerHeight()+50);
+}
+} else {
+if (!($.browser.msie && parseInt($.browser.version, 10) == "7")) {
+$('.mail-content-read').width(maxReadTableWidth-15);
+} else {
+$('.mail-content-read').width(maxReadTableWidth-30);
+}
+}
+} 
+} 
+eventServer.on('loaded', function(){
+
+traiterDisplayAntispamAuto();
+init();
+if (!$('html').hasClass('opera')) {
+$('.print-button').overlay(o2);
+} else {
+$('.print-button').click(function(event){
+event.preventDefault()
+window.open($('#printPage').val());
+});
+}
+});
+fixMailContent();
+$(window).resize(function() {
+fixMailContent();
+});
+});
+$("#SendReadingConfirm").one('load', function () {
+sendReadConfirmation();
+});
+$(function(){
+                var addresses = [];
+                $('[id$=_from],[id$=_tocc]').each(function(idx, el){
+                    addresses.push($(el).text());
+});
+                window.addToMyContacts = function(address){
+                    _fhPopin.open('mailv3', 'contact', 'add', undefined, address || addresses, undefined, '1');
+}
+                window.addVCardToMyContacts = function(url){
+                    $.get(url, function(data){
+                        _fhPopin.open('mailv3', 'contact', 'vcard', undefined, data, undefined, false);
+                    });
+}
+            });
+</script>
+
+<script type="text/javascript">
+$(function(){
+//on gere dynamiquement le dernier onglet pour avoir une class last
+if($('#main-nav :last-child').hasClass('my-co-tab'))
+$('#main-nav :last-child').prev().addClass('last');
+else
+$('#main-nav :last-child').addClass('last');
+//on gere dynamiquement le premier onglet pour avoir une class last
+$('#main-nav :first-child').addClass('first');
+$('li#'+gONGLET).addClass('current-nav');
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+$('input[placeholder]').placeholder();
+$('.write-message-bloc .arrow').click(function(event){
+event.stopPropagation()
+});
+$('.new-message-bloc').newMessageButton();
+
+$('#header_search-mode').change(function() {
+eval($(this).val());
+});
+
+
+if(document.header_search_mail.FOLDER.value.indexOf("#!#")!=-1){
+document.header_search_mail.inbox.value="selected";
+}else if (document.header_search_mail.FOLDER.value=="SF_INBOX")
+document.header_search_mail.inbox.value="selected";
+else if (document.header_search_mail.FOLDER.value=="SF_OUTBOX")
+document.header_search_mail.outbox.value="selected";
+else if (document.header_search_mail.FOLDER.value=="SF_DRAFT")
+document.header_search_mail.draft.value="selected";
+else if (document.header_search_mail.FOLDER.value=="SF_JUNK")
+document.header_search_mail.junk.value="selected";
+else if (document.header_search_mail.FOLDER.value=="SF_TRASH")
+document.header_search_mail.trash.value="selected";
+else if (document.header_search_mail.FOLDER.value.slice(0,3)=="UF_")
+document.header_search_mail.userFolder.value="selected";
+});
+
+function FindSearchMode(){
+if(document.getElementById('header_search-mode').value=="ValidSearchWeb(URL_SEARCH_WEB)"){
+ValidSearchWeb(URL_SEARCH_WEB);
+}else{
+ValidSearch('SEARCH_WEB');
+}
+}
+
+</script>
+<script type="text/javascript">
+$(function(){
+$('.help-link').overlay(o2);
+});
+</script>
+
+
+
+
+<div id="o_footer_webmail"><div id="o-footer-wrapper" class=""><div class="o-footer-liendirect"><div class="o-footer-liendirect-content"><span class="o-footer-liendirect-item"><a class="o-icomoon" href="https://contact.orange.fr/" title="Contacter Orange" data-oevent-category="footer_accesdirect" data-oevent-action="contacterorange" data-tag="urlwg_accesdirects_contact" data-icon="">Contacter Orange</a></span><span class="o-footer-liendirect-item"><a class="o-icomoon" href="https://boutique.orange.fr/" title="Boutique en ligne" data-oevent-category="footer_accesdirect" data-oevent-action="boutiqueenligne" data-tag="urlwg_accesdirects_boutique" data-icon="">Boutique en ligne</a></span><span class="o-footer-liendirect-item"><a class="o-icomoon" href="https://communaute.orange.fr/" title="Forum d&#39;entraide" data-oevent-category="footer_accesdirect" data-oevent-action="forumdentraide" data-tag="urlwg_accesdirects_forum" data-icon="">Forum d'entraide</a></span></div></div><div class="o-footer-lienlegal"><div class="o-footer-lienlegal-content"><span class="o-footer-lienlegal-item"><a href="https://c.orange.fr/pages-juridiques/infos-legales.html" title="Informations légales" target="_blank" data-oevent-category="footer_legal" data-oevent-action="informationslegales" data-tag="urlwg_footerGP_infoslegales">Informations légales</a></span><span class="o-footer-lienlegal-item"><a href="https://c.orange.fr/pages-juridiques/donnees-personnelles.html" title="Données personnelles" target="_blank" data-oevent-category="footer_legal" data-oevent-action="donneespersonnelles" data-tag="urlwg_footerGP_donneesperso">Données personnelles</a></span><span class="o-footer-lienlegal-item"><a href="https://assistance.orange.fr/les-cookies-2917.php" title="Les cookies" target="_blank" data-oevent-category="footer_legal" data-oevent-action="lescookies" data-tag="urlwg_footerGP_cookies">Les cookies</a></span><span class="o-footer-lienlegal-item"><a href="https://r.orange.fr/r/Eorangepublicite" title="Publicité" target="_blank" data-oevent-category="footer_legal" data-oevent-action="publicite" data-tag="urlwg_footerGP_publicite">Publicité</a></span><span class="o-footer-lienlegal-item"><a href="https://r.orange.fr/r/Einternetplus" title="Internet +" target="_blank" data-oevent-category="footer_legal" data-oevent-action="internetplus" data-tag="urlwg_footerGP_internet">Internet +</a></span><span class="o-footer-lienlegal-item"><a href="https://r.orange.fr/r/Esignaler" title="Signaler un contenu" target="_blank" data-oevent-category="footer_legal" data-oevent-action="signaleruncontenu" data-tag="urlwg_footerGP_signalerIllicite">Signaler un contenu</a></span><span class="o-footer-lienlegal-item">© Orange 2018</span></div></div></div></div>
+
+<script type="text/javascript">
+		head.ready( function() {
+			o_refreshSession();
+			o_footer('','o_footer_webmail');
+		});
+</script>
+
+
+
+<script type="text/javascript">
+$(function() {
+$('html').defineBrowsers();
+// Convert SELECT to orangeCombo
+$('select').orangeCombo();
+// convert to orange checkboxes and radio
+$('input:checkbox, input:radio').orangeRadioCB();
+// emit an event for plugins
+function resizeOverlay(activeOverlay, modalHeight, modalWidth){
+var windowWidth = $(window).width();
+var windowHeight = $(window).height();
+var left = Math.round( (windowWidth - modalWidth)/(2) );
+var scroll = 2 * $('html').scrollTop();
+var top = Math.round( ((windowHeight+scroll) - modalHeight)/(2) );
+if (left<0) left = 0;
+if (top<0) top = 0;
+activeOverlay.css('left',left+'px');
+activeOverlay.css('top',top+'px');
+}
+$(window).resize(function() {
+if (typeof(resize) == "undefined" || resize != false) {
+var activeOverlay = null;
+$('.modal').each(function(){
+if ($(this).css("display") == "block"){
+activeOverlay = $(this);
+return false;
+}
+});
+if (activeOverlay != null) {
+var modalWidth = activeOverlay.width();
+var modalHeight = activeOverlay.height();
+resizeOverlay(activeOverlay, modalHeight, modalWidth);
+}
+}
+});
+eventServer.emit('loaded');
+});
+</script>
+        <script src="./Lecture d&#39;un message - mail Orange_files/fhPopinHost.js.téléchargé" type="text/javascript"></script>
+
+<iframe name="__bkframe" id="__bkframe" title="bk" src="./Lecture d&#39;un message - mail Orange_files/saved_resource.html" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><img src="./Lecture d&#39;un message - mail Orange_files/refresh" width="0" height="0" class="statTag"></body></html>

@@ -4265,9 +4265,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{schirpe_multiple_2013}
-  \missing{boulangeat_fate-dh_2014}
-  \missing{de_bello_towards_2011}
 \endrefsection
 
 \refsection{2}
@@ -5193,8 +5190,84 @@
       \endverb
       \keyw{biodiversity,Grassland management,Community dynamics,mass-ratio hypothesis,repeated measures,trait convergence and divergence,trait intraspecific variability,variance partitioning}
     \endentry
+    \entry{bennett_species_2016}{article}{}
+      \name{author}{7}{uniquelist=3}{%
+        {{uniquename=0,hash=e5153fcc0111358dfbac4029ea8fb67e}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Jonathan\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=3f10ce67285ee6d4983573223ee78bbf}{%
+           family={Riibak},
+           familyi={R\bibinitperiod},
+           given={Kersti},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=f87afacc5d5279d2146125d96e8b3750}{%
+           family={Kook},
+           familyi={K\bibinitperiod},
+           given={Ene},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=1ca77cee834484cd07c691240cd2c2e7}{%
+           family={Reier},
+           familyi={R\bibinitperiod},
+           given={Ülle},
+           giveni={Ü\bibinitperiod}}}%
+        {{uniquename=0,hash=f4dcb95fa8ab815049dc0670af3b7ca1}{%
+           family={Tamme},
+           familyi={T\bibinitperiod},
+           given={Riin},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=36849a976dd84a5df3f5a752e4ca4930}{%
+           family={Guillermo\bibnamedelima Bueno},
+           familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=b65011bc7880be1ad55fab32e80fc28b}{%
+           family={Pärtel},
+           familyi={P\bibinitperiod},
+           given={Meelis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{24dac16179719947a73847eafe14ed25}
+      \strng{fullhash}{37fc40eef22b31a4141354724a46dfaa}
+      \strng{authornamehash}{24dac16179719947a73847eafe14ed25}
+      \strng{authorfullhash}{37fc40eef22b31a4141354724a46dfaa}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Invasion should decline with species richness, yet the relationship is inconsistent. Species richness, however, is a product of species pool size and biotic filtering. Invasion may increase with richness if large species pools represent weaker environmental filters. Measuring species pool size and the proportion realised locally (completeness) may clarify diversity-invasion relationships by separating environmental and biotic effects, especially if species’ life-history stage and origin are accounted for. To test these relationships, we added seeds and transplants of 15 native and alien species into 29 grasslands. Species pool size and completeness explained more variation in invasion than richness alone. Although results varied between native and alien species, seed establishment and biotic resistance to transplants increased with species pool size, whereas transplant growth and biotic resistance to seeds increased with completeness. Consequently, species pools and completeness represent multiple independent processes affecting invasion; accounting for these processes improves our understanding of invasion.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecol Lett}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{Species pools, community completeness and invasion}
+      \field{title}{Species pools, community completeness and invasion: disentangling diversity effects on the establishment of native and alien species}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2017}
+      \field{volume}{19}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{1496\bibrangedash 1505}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1111/ele.12702
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\7JT485CT\\Bennett et al. - 2016 - Species pools, community completeness and invasion.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9VQE73C4\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/ele.12702/abstract
+      \endverb
+      \keyw{disturbance,Competition,Alpha Diversity,biotic resistance,dark diversity,exotic species,Gamma Diversity,invasibility,regional processes,structural equation modelling}
+    \endentry
     \entry{bennett_reciprocal_2016}{article}{}
-      \name{author}{5}{}{%
+      \name{author}{5}{uniquelist=3}{%
         {{uniquename=0,hash=e5153fcc0111358dfbac4029ea8fb67e}{%
            family={Bennett},
            familyi={B\bibinitperiod},
@@ -5224,9 +5297,9 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{77177c068cd9b2558878cadf716a76b6}
+      \strng{namehash}{5312b17fa5bfaa54b9b7283ecef950b9}
       \strng{fullhash}{0576cc822b25cbf0c1d2a810509fd17b}
-      \strng{authornamehash}{77177c068cd9b2558878cadf716a76b6}
+      \strng{authornamehash}{5312b17fa5bfaa54b9b7283ecef950b9}
       \strng{authorfullhash}{0576cc822b25cbf0c1d2a810509fd17b}
       \field{sortinit}{B}
       \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
@@ -8377,6 +8450,56 @@
       \endverb
       \keyw{disturbance,trade-offs,fire,Biogeochemical cycles,effect traits,resource gradient,response traits,scaling-up}
     \endentry
+    \entry{lavorel_how_2012}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=677db54ef11e52aff5462cb3e4de80a0}{%
+           family={Lavorel},
+           familyi={L\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=6900e0e958c467ae3a6b5829ef2a9249}{%
+           family={Grigulis},
+           familyi={G\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7c6fb208b70321078d97be53e9a8836f}
+      \strng{fullhash}{7c6fb208b70321078d97be53e9a8836f}
+      \strng{authornamehash}{7c6fb208b70321078d97be53e9a8836f}
+      \strng{authorfullhash}{7c6fb208b70321078d97be53e9a8836f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. Ecosystem services (ES) lie at the core of the interactions among humans and ecosystems. Fundamental understanding of the ecological mechanisms underlying the simultaneous provision of multiple ES has been lagging behind policy and management needs and stands out as a research priority. In this paper, we focus on interactions between ES resulting from fundamental functional mechanisms. 2. Plant diversity contributes significantly to the delivery of ES. Specifically, functional composition strongly determines different ecosystem properties and services. Knowledge on associations and trade-offs among different plant traits is well established, but the consequences for ecosystem functioning and the resulting ability for ecosystems to provide multiple services have only started to be explored. We present a conceptual framework linking environmental change to changes in ecosystem functioning and to changes in ES through plant traits. We explicitly consider the leaf economics and size axes of plant functional variation, and how their responses to key environmental variables are expected to scale-up to ecosystem properties and ES. 3. The framework was tested using a structural equation modelling formalism to understand the trait-based mechanisms driving trade-offs in ES in mountain grasslands. Variations along the leaf economics spectrum (LES) towards more exploitative strategies in response to increasing fertility led to a combined increase in several ES valued by local stakeholders, including agronomic value, cultural value and soil water retention. Surprisingly, and contrary to published hypotheses, soil carbon sequestration in the studied subalpine system did not increase at lower fertility which was associated with more conservative plant strategies. Independent variation in LES and height provided alternative pathways to biomass production. 4. Synthesis: A trait-based framework can support the understanding and aid the management of multiple ES. We recommend testing this framework in a variety of contexts and at larger scales, using additional trait axes such as wood density or seed size.}
+      \field{issn}{1365-2745}
+      \field{journaltitle}{Journal of Ecology}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{How fundamental plant functional trait relationships scale-up to trade-offs and synergies in ecosystem services}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{128\bibrangedash 140}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/j.1365-2745.2011.01914.x
+      \endverb
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\3MNKGZGK\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2011.01914.x/abstract
+      \endverb
+      \keyw{structural equation model,leaf economics spectrum,plant–soil (below-ground) interactions,multifunctionality,fertility,biodiversity effects,ecological intensification of agriculture,mountain grassland,plant size,secondary succession}
+    \endentry
     \entry{lepik_high_2005}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,hash=9ffafd204dc84c818f401f79db1a76e2}{%
@@ -9036,6 +9159,61 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2745.2008.01395.x/abstract
       \endverb
       \keyw{biodiversity,productivity,functional traits,Biomass,decomposition,light interception,soil moisture}
+    \endentry
+    \entry{mori_response_2013}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=c8f7a6248617972b1d1986142aed6e5f}{%
+           family={Mori},
+           familyi={M\bibinitperiod},
+           given={Akira\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=8102c33112f2bd0d15aa0275887164d3}{%
+           family={Furukawa},
+           familyi={F\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=9401ea0ea4e1e432ff7f7fd4c4a5f967}{%
+           family={Sasaki},
+           familyi={S\bibinitperiod},
+           given={Takehiro},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{857e83133a0fc62826b465df14d8bc8d}
+      \strng{fullhash}{1fcd986b967518c387efcd0d07463347}
+      \strng{authornamehash}{857e83133a0fc62826b465df14d8bc8d}
+      \strng{authorfullhash}{1fcd986b967518c387efcd0d07463347}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A growing body of evidence highlights the importance of biodiversity for ecosystem stability and the maintenance of optimal ecosystem functionality. Conservation measures are thus essential to safeguard the ecosystem services that biodiversity provides and human society needs. Current anthropogenic threats may lead to detrimental (and perhaps irreversible) ecosystem degradation, providing strong motivation to evaluate the response of ecological communities to various anthropogenic pressures. In particular, ecosystem functions that sustain key ecosystem services should be identified and prioritized for conservation action. Traditional diversity measures (e.g. ‘species richness’) may not adequately capture the aspects of biodiversity most relevant to ecosystem stability and functionality, but several new concepts may be more appropriate. These include ‘response diversity’, describing the variation of responses to environmental change among species of a particular community. Response diversity may also be a key determinant of ecosystem resilience in the face of anthropogenic pressures and environmental uncertainty. However, current understanding of response diversity is poor, and we see an urgent need to disentangle the conceptual strands that pervade studies of the relationship between biodiversity and ecosystem functioning. Our review clarifies the links between response diversity and the maintenance of ecosystem functionality by focusing on the insurance hypothesis of biodiversity and the concept of functional redundancy. We provide a conceptual model to describe how loss of response diversity may cause ecosystem degradation through decreased ecosystem resilience. We explicitly explain how response diversity contributes to functional compensation and to spatio-temporal complementarity among species, leading to long-term maintenance of ecosystem multifunctionality. Recent quantitative studies suggest that traditional diversity measures may often be uncoupled from measures (such as response diversity) that may be more effective proxies for ecosystem stability and resilience. Certain conclusions and recommendations of earlier studies using these traditional measures as indicators of ecosystem resilience thus may be suspect. We believe that functional ecology perspectives incorporating the effects and responses of diversity are essential for development of management strategies to safeguard (and restore) optimal ecosystem functionality (especially multifunctionality). Our review highlights these issues and we envision our work generating debate around the relationship between biodiversity and ecosystem functionality, and leading to improved conservation priorities and biodiversity management practices that maximize ecosystem resilience in the face of uncertain environmental change.}
+      \field{issn}{1469-185X}
+      \field{journaltitle}{Biol Rev}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Response diversity determines the resilience of ecosystems to environmental change}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{88}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{349\bibrangedash 364}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/brv.12004
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\MC4WAEUM\\Mori et al. - 2013 - Response diversity determines the resilience of ec.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\QHSUXMC5\\full.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/brv.12004/abstract
+      \endverb
+      \keyw{functional diversity,ecosystem services,biodiversity-ecosystem functioning,complementarity,effect and response traits,functional compensation,functional redundancy,low multifunctional redundancy,regime shift,trait-based redundancy}
     \endentry
     \entry{morin_comparing_2009}{article}{}
       \name{author}{2}{}{%
@@ -11737,11 +11915,7 @@
     \endentry
   \endsortlist
   \missing{dewitt_cost_1998}
-  \missing{adler_coexistence_2007}
-  \missing{lavorel_how_2014}
-  \missing{reich_world-wilde_2013}
-  \missing{diaz_global_2014}
-  \missing{chesoon_mechanisms_2000}
+  \missing{reich_world-wide_2013}
   \missing{kattge_try_2011}
 \endrefsection
 
@@ -12772,6 +12946,62 @@
       \endverb
       \keyw{biomass allocation,specific leaf area,specific root length,Above-ground and below-ground resources,Functional equilibrium hypothesis,Leaf and root morphology,Leaf mass fraction,Plant functional diversity,Root mass fraction}
     \endentry
+    \entry{freschet_integrated_2015}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,hash=5eabbd844f7b67ff5d02b95652625087}{%
+           family={Freschet},
+           familyi={F\bibinitperiod},
+           given={Grégoire\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=814947b27b96663fc295060d59362a1b}{%
+           family={Swart},
+           familyi={S\bibinitperiod},
+           given={Elferra\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=59199cd41f1dcf2209b714a87daff5f9}{%
+           family={Cornelissen},
+           familyi={C\bibinitperiod},
+           given={Johannes\bibnamedelimb H.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b9410253f6535b4adf397dbfb7c82c6b}
+      \strng{fullhash}{4eef4103b40c53c1000ae59d8ff38119}
+      \strng{authornamehash}{b9410253f6535b4adf397dbfb7c82c6b}
+      \strng{authorfullhash}{4eef4103b40c53c1000ae59d8ff38119}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{* Plants adapt phenotypically to different conditions of light and nutrient supply, supposedly in order to achieve colimitation of these resources. Their key variable of adjustment is the ratio of leaf area to root length, which relies on plant biomass allocation and organ morphology. * We recorded phenotypic differences in leaf and root mass fractions (LMF, RMF), specific leaf area (SLA) and specific root length (SRL) of 12 herbaceous species grown in factorial combinations of high/low irradiance and fertilization treatments. * Leaf area and root length ratios, and their components, were influenced by nonadditive effects between light and nutrient supply, and differences in the strength of plant responses were partly explained by Ellenberg's species values representing ecological optima. Changes in allocation were critical in plant responses to nutrient availability, as the RMF contribution to changes in root length was 2.5× that of the SRL. Contrastingly, morphological adjustments (SLA rather than LMF) made up the bulk of plant response to light availability. * Our results suggest largely predictable differences in responses of species and groups of species to environmental change. Nevertheless, they stress the critical need to account for adjustments in below-ground mass allocation to understand the assembly and responses of communities in changing environments.}
+      \field{issn}{1469-8137}
+      \field{journaltitle}{New Phytol}
+      \field{month}{6}
+      \field{number}{4}
+      \field{shorttitle}{Integrated plant phenotypic responses to contrasting above- and below-ground resources}
+      \field{title}{Integrated plant phenotypic responses to contrasting above- and below-ground resources: key roles of specific leaf area and root mass fraction}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2015}
+      \field{volume}{206}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{1247\bibrangedash 1260}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/nph.13352
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\AHS4F42K\\Freschet et al. - 2015 - Integrated plant phenotypic responses to contrasti.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\QNBUSMET\\abstract.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1111/nph.13352/abstract
+      \endverb
+      \keyw{biomass allocation,specific leaf area (SLA),Functional equilibrium hypothesis,leaf mass fraction (LMF),light and nutrient treatments,plant phenotypic plasticity,root mass fraction (RMF),specific root length (SRL)}
+    \endentry
     \entry{grime_benefits_1998}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=a3e0beb729aa361dfee5e8212a94c3ba}{%
@@ -13275,6 +13505,46 @@
       \endverb
       \keyw{biodiversity,climate,Plant functional types,allocation,biome distribution,generic plant model}
     \endentry
+    \entry{korner_alpine_2003}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=100da96e27ca0561db5542379863d870}{%
+           family={Körner},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{100da96e27ca0561db5542379863d870}
+      \strng{fullhash}{100da96e27ca0561db5542379863d870}
+      \strng{authornamehash}{100da96e27ca0561db5542379863d870}
+      \strng{authorfullhash}{100da96e27ca0561db5542379863d870}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-00347-2 978-3-642-18970-8}
+      \field{title}{Alpine {Plant} {Life}}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-642-18970-8
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-642-18970-8
+      \endverb
+    \endentry
     \entry{lagarrigues_approximate_2015}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=80b67eb677aa5482da5a00d795b80c8a}{%
@@ -13690,6 +13960,45 @@
       \verb http://treephys.oxfordjournals.org/content/21/4/251
       \endverb
       \keyw{deciduous,evergreen,leaf mass per area,leaf thickness,leaf density,Nitrogen,water-use efficiency,nitrogen-use efficiency,Crataegus monogyna,Pyrus bourgaeana,Quercus faginea,Quercus pyrenaica,Quercus rotundifolia,Quercus suber}
+    \endentry
+    \entry{nicotra_adaptive_2010}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=63e4bd76ab43f43bf6429f3063d00833}{%
+           family={Nicotra},
+           familyi={N\bibinitperiod},
+           given={A.B.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=a240d9944dcd807b74e380551817b6df}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c528cd527112a423ad63dcfa6d2f5eb}
+      \strng{fullhash}{9c528cd527112a423ad63dcfa6d2f5eb}
+      \strng{authornamehash}{9c528cd527112a423ad63dcfa6d2f5eb}
+      \strng{authorfullhash}{9c528cd527112a423ad63dcfa6d2f5eb}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The emergence of new techniques in plant science, including molecular and phenomic tools, presents a novel opportunity to re-evaluate the way we examine the phenotype. Our increasing capacity for phenotyping means that not only can we consider increasing numbers of species or varieties, but also that we can effectively quantify the phenotypes of these different genotypes under a range of environmental conditions. The phenotypic plasticity of a given genotype, or the range of phenotypes, that can be expressed dependent upon environment becomes something we can feasibly assess. Of particular importance is phenotypic variation that increases fitness or survival – adaptive phenotypic plasticity. Here, we examine the case of adaptive phenotypic plasticity in plant water use traits and consider how taking an ecological and evolutionary perspective on plasticity in these traits might have relevance for agriculture, horticulture and the management of native and invasive plant species in an era of rapid climate change.}
+      \field{journaltitle}{Funct. Plant Biol.}
+      \field{number}{2}
+      \field{title}{Adaptive phenotypic plasticity and plant water use}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2015}
+      \field{volume}{37}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{117\bibrangedash 127}
+      \range{pages}{11}
+      \verb{url}
+      \verb http://dx.doi.org/10.1071/FP09139
+      \endverb
+      \keyw{water use efficiency,fitness,G × E interaction,phenomics,phenotyping,WUE.}
     \endentry
     \entry{picon-cochard_effect_2012}{article}{}
       \name{author}{6}{}{%
@@ -14654,9 +14963,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{korner_alpine_2011}
-  \missing{wright_worlwide_2004}
-  \missing{tjoelker_linking_2015}
 \endrefsection
 
 \refsection{4}
@@ -20120,6 +20426,27 @@
       \verb http://www.nature.com/nature/journal/v417/n6891/full/nature00812.html
       \endverb
     \endentry
+    \entry{chalmandrier_communities_2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=98eb058b72a09ea8e891b935c10f072d}{%
+           family={Chalmandrier},
+           familyi={C\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{fullhash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{authornamehash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{authorfullhash}{98eb058b72a09ea8e891b935c10f072d}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{From communities to meta-communities : decrypting diversity patterns}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+    \endentry
     \entry{choler_growth_2015}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=2329c6a72549250641608725d02e4978}{%
@@ -20330,6 +20657,45 @@
       \endverb
       \verb{url}
       \verb http://doi.wiley.com/10.1111/j.1469-8137.2007.02210.x
+      \endverb
+    \endentry
+    \entry{deleglise_heterogeneite_2011}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fda4919dccb42aedc80a632a927f57d8}{%
+           family={Deleglise},
+           familyi={D\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Université Grenoble Alpes}%
+      }
+      \list{language}{1}{%
+        {fr}%
+      }
+      \strng{namehash}{fda4919dccb42aedc80a632a927f57d8}
+      \strng{fullhash}{fda4919dccb42aedc80a632a927f57d8}
+      \strng{authornamehash}{fda4919dccb42aedc80a632a927f57d8}
+      \strng{authorfullhash}{fda4919dccb42aedc80a632a927f57d8}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L'hétérogénéité spatiale est aujourd'hui reconnue comme un facteur primordial pour la diversité et le fonctionnement des écosystèmes prairiaux, mais reste souvent négligée dans l'analyse de l'impact de différents modes d'utilisation pastorale. Les communautés prairiales subalpines sont des milieux hautement diversifiés, au cœur d'enjeux écologiques, socio-économiques et culturels. Depuis plusieurs décennies, des changements d'usage, notamment l'extensification conduisant parfois à l'abandon du pâturage, affectent ces prairies dans de vastes régions des Alpes. Connaitre la réponse spatiale de ces communautés à ces changements d'usage peut constituer un enjeu important pour mieux prédire les conséquences en termes de valeurs écologiques et agronomiques. L'objectif général de ce travail est d'identifier l'organisation spatiale de composantes spécifiques et fonctionnelles de communautés prairiales subalpines dans des situations contrastées d'usage : pâturage traditionnel et abandon sur le moyen terme ({~}20 ans), de comprendre les mécanismes liés au pâturage influençant cette organisation spatiale et d'explorer les conséquences potentielles de l'organisation spatiale des composantes spécifiques et fonctionnelles sur les valeurs d'usage de ces milieux. Ce travail révèle que l'arrêt du pâturage conduit à des modifications importantes de l'organisation spatiale à la fois des espèces et de traits fonctionnels aériens. La variabilité spatiale de ces composantes est systématiquement augmentée à différentes échelles spatiales en situation d'abandon révélant un grain plus grossier d'hétérogénéité spatiale, lié à une plus faible coexistence locale des espèces et des traits et à une convergence fonctionnelle plus forte que sous l'effet diversificateur à échelle fine du pâturage traditionnel. D'autres part, même si une réponse en termes de patrons spatiaux est également observée, celle-ci n'est pas systématique, indiquant l'absence d'une action structurante forte du pâturage qui agit donc surtout sur la variabilité. Une expérimentation in situ montre en effet que la formation de patrons spatiaux marqués en réponse à une action de défoliation sélective semble limitée dans ces prairies relativement peu productives. De plus, une faible structuration spatiale du couvert en termes de valeurs d'usage fourragère a été observée, pilotée dès des échelles très fines par la variabilité spatiale à un grain fin des assemblages d'espèces et de traits dans les zones pâturées. Ces résultats suggèrent ainsi l'expression d'un pâturage peu sélectif exprimé par les troupeaux ovins dans ces milieux peu productifs, et la prépondérance du filtre abiotique dans la détermination des assemblages spatiaux des espèces et des traits. La formation de patchs très contrastés et très structurés spatialement en réponse au pâturage est plus probable dans des milieux très productifs où la compétition est plus intense et la repousse de la végétation favorisée. La prise en compte de la variabilité autour de la réponse moyenne des communautés se révèle donc un élément essentiel pour analyser l'évolution des prairies subalpines en réponse au changement d'usages pastoraux. Une des perspectives fortes suite à ce travail est l'analyse de la synergie entre la réponse de l'hétérogénéité spatiale du couvert et celle du compartiment souterrain (traits racinaires, mycorhization, diversité microbienne…).}
+      \field{month}{5}
+      \field{title}{Hétérogénéité spatiale des composantes spécifiques et fonctionnelles des communautés prairiales subalpines dans un contexte de déprise pastorale}
+      \field{type}{phdthesis}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\NKRMB7R3\\Deleglise - 2011 - Hétérogénéité spatiale des composantes spécifiques.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\IDBC23Z5\\tel-00609989.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-00609989/document
       \endverb
     \endentry
     \entry{deleglise_drought-induced_2015}{article}{}
@@ -23499,7 +23865,6 @@
   \endsortlist
   \missing{tilman_density_2014}
   \missing{lafond_reconciling_2015}
-  \missing{auld_re-evaluationg_2009}
 \endrefsection
 \endinput
 
