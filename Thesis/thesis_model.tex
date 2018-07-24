@@ -34,7 +34,25 @@
 
  \usepackage{lscape}   % paysage
  \usepackage{pdflscape,array,booktabs}%pages du pdf avec tableau en paysage
- 
+
+% acronyms
+
+\usepackage{enumitem} % to remove the item sep space
+\usepackage{datatool}% http://ctan.org/pkg/datatool
+% create a function to sort item. Should use acronym package, but have to put entries in the text. Don't have time for that now. A sorted list will do.
+\newcommand{\sortitem}[1]{%
+  \DTLnewrow{list}% Create a new entry
+  \DTLnewdbentry{list}{description}{#1}% Add entry as description
+}
+\newenvironment{sortedlist}{%
+  \DTLifdbexists{list}{\DTLcleardb{list}}{\DTLnewdb{list}}% Create new/discard old list
+}{%
+  \DTLsort{description}{list}% Sort list
+  \begin{itemize}[noitemsep]
+    \DTLforeach*{list}{\theDesc=description}{%
+      \item[] \theDesc}% Print each item
+  \end{itemize}%
+}
 % get rid of page numbers in TOC
 %\usepackage{tocloft}
 %\cftpagenumbersoff{part}
@@ -47,7 +65,10 @@
 \MakePerPage{sidenote} %the perpage package command
 
 % create an index
-\usepackage{makeidx}
+%\usepackage{makeidx}
+
+\usepackage{imakeidx}
+\indexsetup{level=\chapter*,toclevel=chapter*}
 % Tells latex to make an index
 \makeindex
 
@@ -79,6 +100,8 @@
  %\addbibresource{../Bibliography/bib_zotero20171106.bib}
  \addbibresource{../Bibliography/bib_zotero20180615.bib}
  \addbibresource{../Bibliography/bib_zotero_update_20180615_20180712.bib}
+ \addbibresource{../Bibliography/bib_zotero_update_20180712_20180724.bib}
+ 
 %\includeonly{./2_PP/Individual_level, ./2_PP/Community_dynamics}
 %\includeonly{./0_Objectives/Objectives, ./1_Introduction/Introduction}
 
@@ -286,9 +309,9 @@
 
 \begin{fullwidth}
 
-\newpage
-\chapter*{Aknowledgements}
-\fwnewthought{I love you all, but I love you more Mom. }
+%\newpage
+%\chapter*{Aknowledgements}
+%\fwnewthought{I love you all, but I love you more Mom. }
 
 \cleardoublepage
 
@@ -382,8 +405,10 @@
 %\end{fullwidth}
 \newpage
 
- 
+\renewcommand\indexname{Index}
 \printindex
+
+\include{acronyms}
 
 \newpage
 

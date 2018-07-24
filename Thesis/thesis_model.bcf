@@ -2143,6 +2143,7 @@
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180615_20180712.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180712_20180724.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
   </bcf:section>
@@ -2150,6 +2151,7 @@
   <bcf:bibdata section="1">
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180615_20180712.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180712_20180724.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="1">butchart_global_2010</bcf:citekey>
@@ -2157,69 +2159,83 @@
     <bcf:citekey order="3">hallmann_more_2017</bcf:citekey>
     <bcf:citekey order="4">tucker_moving_2018</bcf:citekey>
     <bcf:citekey order="5">costanza_value_1997</bcf:citekey>
-    <bcf:citekey order="6">korner_alpine_2003</bcf:citekey>
-    <bcf:citekey order="7">bello_towards_2010</bcf:citekey>
-    <bcf:citekey order="8">lavorel_predicting_2002</bcf:citekey>
-    <bcf:citekey order="8">diaz_incorporating_2007</bcf:citekey>
-    <bcf:citekey order="9">grime_evidence_1977</bcf:citekey>
-    <bcf:citekey order="10">laliberte_distance-based_2010</bcf:citekey>
-    <bcf:citekey order="11">lavorel_predicting_2002</bcf:citekey>
-    <bcf:citekey order="12">lamarque_plant_2014</bcf:citekey>
-    <bcf:citekey order="13">korner_alpine_2003</bcf:citekey>
-    <bcf:citekey order="14">diaz_plant_2007</bcf:citekey>
-    <bcf:citekey order="15">schroter_ecosystem_2005</bcf:citekey>
-    <bcf:citekey order="16">schroter_ecosystem_2005</bcf:citekey>
-    <bcf:citekey order="16">engler_21st_2011</bcf:citekey>
-    <bcf:citekey order="17">mountain_research_initiative_edw_working_group_elevation-dependent_2015</bcf:citekey>
-    <bcf:citekey order="18">beniston_climate_1997</bcf:citekey>
-    <bcf:citekey order="18">solomon_climate_2007</bcf:citekey>
-    <bcf:citekey order="18">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
-    <bcf:citekey order="19">alexander_plant_2016</bcf:citekey>
-    <bcf:citekey order="20">solomon_climate_2007</bcf:citekey>
+    <bcf:citekey order="6">costanza_value_1997</bcf:citekey>
+    <bcf:citekey order="7">korner_alpine_2003</bcf:citekey>
+    <bcf:citekey order="8">bello_towards_2010</bcf:citekey>
+    <bcf:citekey order="9">bello_towards_2010</bcf:citekey>
+    <bcf:citekey order="10">lavorel_predicting_2002</bcf:citekey>
+    <bcf:citekey order="10">diaz_incorporating_2007</bcf:citekey>
+    <bcf:citekey order="11">grime_evidence_1977</bcf:citekey>
+    <bcf:citekey order="12">laliberte_distance-based_2010</bcf:citekey>
+    <bcf:citekey order="13">laliberte_distance-based_2010</bcf:citekey>
+    <bcf:citekey order="14">lavorel_predicting_2002</bcf:citekey>
+    <bcf:citekey order="15">lamarque_plant_2014</bcf:citekey>
+    <bcf:citekey order="16">korner_alpine_2003</bcf:citekey>
+    <bcf:citekey order="17">diaz_plant_2007</bcf:citekey>
+    <bcf:citekey order="18">schroter_ecosystem_2005</bcf:citekey>
+    <bcf:citekey order="19">schroter_ecosystem_2005</bcf:citekey>
+    <bcf:citekey order="19">engler_21st_2011</bcf:citekey>
+    <bcf:citekey order="20">mountain_research_initiative_edw_working_group_elevation-dependent_2015</bcf:citekey>
+    <bcf:citekey order="21">beniston_climate_1997</bcf:citekey>
     <bcf:citekey order="21">solomon_climate_2007</bcf:citekey>
-    <bcf:citekey order="22">alexander_novel_2015</bcf:citekey>
-    <bcf:citekey order="23">schirpke_multiple_2013</bcf:citekey>
-    <bcf:citekey order="24">carboni_simulating_2018</bcf:citekey>
-    <bcf:citekey order="25">butchart_global_2010</bcf:citekey>
-    <bcf:citekey order="25">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
-    <bcf:citekey order="26">scheepens_genotypic_2010</bcf:citekey>
-    <bcf:citekey order="27">debouk_functional_2015</bcf:citekey>
-    <bcf:citekey order="28">jung_intraspecific_2014</bcf:citekey>
-    <bcf:citekey order="29">rosbakh_elevation_2014</bcf:citekey>
-    <bcf:citekey order="30">reyes-fox_five_2016</bcf:citekey>
-    <bcf:citekey order="31">merila_climate_2014</bcf:citekey>
-    <bcf:citekey order="32">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
-    <bcf:citekey order="33">schirpke_multiple_2013</bcf:citekey>
-    <bcf:citekey order="34">rodriguez_lingra-cc:_1999</bcf:citekey>
-    <bcf:citekey order="34">martin_simulations_2012</bcf:citekey>
-    <bcf:citekey order="34">deleglise_drought-induced_2015</bcf:citekey>
-    <bcf:citekey order="35">bello_towards_2010</bcf:citekey>
-    <bcf:citekey order="35">lavorel_using_2011</bcf:citekey>
-    <bcf:citekey order="36">morin_comparing_2009</bcf:citekey>
-    <bcf:citekey order="37">evans_towards_2016</bcf:citekey>
-    <bcf:citekey order="38">gilman_framework_2010</bcf:citekey>
-    <bcf:citekey order="39">hanel_phenotypic_2015</bcf:citekey>
-    <bcf:citekey order="40">callaway_phenotypic_2003</bcf:citekey>
+    <bcf:citekey order="21">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
+    <bcf:citekey order="22">alexander_plant_2016</bcf:citekey>
+    <bcf:citekey order="23">solomon_climate_2007</bcf:citekey>
+    <bcf:citekey order="24">solomon_climate_2007</bcf:citekey>
+    <bcf:citekey order="25">alexander_novel_2015</bcf:citekey>
+    <bcf:citekey order="26">schirpke_multiple_2013</bcf:citekey>
+    <bcf:citekey order="27">carboni_simulating_2018</bcf:citekey>
+    <bcf:citekey order="28">butchart_global_2010</bcf:citekey>
+    <bcf:citekey order="28">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
+    <bcf:citekey order="29">scheepens_genotypic_2010</bcf:citekey>
+    <bcf:citekey order="30">scheepens_genotypic_2010</bcf:citekey>
+    <bcf:citekey order="31">debouk_functional_2015</bcf:citekey>
+    <bcf:citekey order="32">debouk_functional_2015</bcf:citekey>
+    <bcf:citekey order="33">jung_intraspecific_2014</bcf:citekey>
+    <bcf:citekey order="34">rosbakh_elevation_2014</bcf:citekey>
+    <bcf:citekey order="35">rosbakh_elevation_2014</bcf:citekey>
+    <bcf:citekey order="36">reyes-fox_five_2016</bcf:citekey>
+    <bcf:citekey order="37">reyes-fox_five_2016</bcf:citekey>
+    <bcf:citekey order="38">merila_climate_2014</bcf:citekey>
+    <bcf:citekey order="39">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
+    <bcf:citekey order="40">schirpke_multiple_2013</bcf:citekey>
     <bcf:citekey order="41">rodriguez_lingra-cc:_1999</bcf:citekey>
-    <bcf:citekey order="42">taubert_review_2012</bcf:citekey>
-    <bcf:citekey order="42">taubert_modelling_2014</bcf:citekey>
-    <bcf:citekey order="42">maire_plasticity_2013</bcf:citekey>
-    <bcf:citekey order="42">maire_trade-off_2009</bcf:citekey>
-    <bcf:citekey order="43">falster_plant:_2016</bcf:citekey>
-    <bcf:citekey order="43">marechaux_individual-based_2017</bcf:citekey>
-    <bcf:citekey order="44">isabelle_fate-hd:_2014</bcf:citekey>
-    <bcf:citekey order="45">cotto_dynamic_2017</bcf:citekey>
-    <bcf:citekey order="46">soussana_gemini:_2012</bcf:citekey>
-    <bcf:citekey order="46">taubert_modelling_2014</bcf:citekey>
-    <bcf:citekey order="46">lohier_analyse_2016</bcf:citekey>
-    <bcf:citekey order="47">isabelle_fate-hd:_2014</bcf:citekey>
-    <bcf:citekey order="47">cotto_dynamic_2017</bcf:citekey>
-    <bcf:citekey order="48">rodriguez_lingra-cc:_1999</bcf:citekey>
-    <bcf:citekey order="49">kleidon_global_2000</bcf:citekey>
-    <bcf:citekey order="50">hartig_statistical_2011</bcf:citekey>
-    <bcf:citekey order="51">kleidon_global_2000</bcf:citekey>
-    <bcf:citekey order="51">pavlick_jena_2013</bcf:citekey>
-    <bcf:citekey order="52">korner_alpine_2003</bcf:citekey>
+    <bcf:citekey order="41">martin_simulations_2012</bcf:citekey>
+    <bcf:citekey order="41">deleglise_drought-induced_2015</bcf:citekey>
+    <bcf:citekey order="42">bello_towards_2010</bcf:citekey>
+    <bcf:citekey order="42">lavorel_using_2011</bcf:citekey>
+    <bcf:citekey order="43">morin_comparing_2009</bcf:citekey>
+    <bcf:citekey order="44">morin_comparing_2009</bcf:citekey>
+    <bcf:citekey order="45">evans_towards_2016</bcf:citekey>
+    <bcf:citekey order="46">gilman_framework_2010</bcf:citekey>
+    <bcf:citekey order="47">hanel_phenotypic_2015</bcf:citekey>
+    <bcf:citekey order="48">callaway_phenotypic_2003</bcf:citekey>
+    <bcf:citekey order="49">rodriguez_lingra-cc:_1999</bcf:citekey>
+    <bcf:citekey order="50">rodriguez_lingra-cc:_1999</bcf:citekey>
+    <bcf:citekey order="51">taubert_review_2012</bcf:citekey>
+    <bcf:citekey order="51">taubert_modelling_2014</bcf:citekey>
+    <bcf:citekey order="51">maire_plasticity_2013</bcf:citekey>
+    <bcf:citekey order="51">maire_trade-off_2009</bcf:citekey>
+    <bcf:citekey order="52">falster_plant:_2016</bcf:citekey>
+    <bcf:citekey order="52">marechaux_individual-based_2017</bcf:citekey>
+    <bcf:citekey order="53">falster_plant:_2016</bcf:citekey>
+    <bcf:citekey order="53">marechaux_individual-based_2017</bcf:citekey>
+    <bcf:citekey order="54">isabelle_fate-hd:_2014</bcf:citekey>
+    <bcf:citekey order="55">cotto_dynamic_2017</bcf:citekey>
+    <bcf:citekey order="56">soussana_gemini:_2012</bcf:citekey>
+    <bcf:citekey order="56">taubert_modelling_2014</bcf:citekey>
+    <bcf:citekey order="56">lohier_analyse_2016</bcf:citekey>
+    <bcf:citekey order="57">isabelle_fate-hd:_2014</bcf:citekey>
+    <bcf:citekey order="57">cotto_dynamic_2017</bcf:citekey>
+    <bcf:citekey order="58">rodriguez_lingra-cc:_1999</bcf:citekey>
+    <bcf:citekey order="59">rodriguez_lingra-cc:_1999</bcf:citekey>
+    <bcf:citekey order="60">kleidon_global_2000</bcf:citekey>
+    <bcf:citekey order="61">kleidon_global_2000</bcf:citekey>
+    <bcf:citekey order="62">hartig_statistical_2011</bcf:citekey>
+    <bcf:citekey order="63">kleidon_global_2000</bcf:citekey>
+    <bcf:citekey order="63">pavlick_jena_2013</bcf:citekey>
+    <bcf:citekey order="64">korner_alpine_2003</bcf:citekey>
+    <bcf:citekey order="65">korner_alpine_2003</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2228,6 +2244,7 @@
   <bcf:bibdata section="2">
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180615_20180712.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180712_20180724.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="2">
     <bcf:citekey order="1">elton_animal_1971</bcf:citekey>
@@ -2269,6 +2286,7 @@
     <bcf:citekey order="32">clark_resolving_2007</bcf:citekey>
     <bcf:citekey order="33">clark_resolving_2007</bcf:citekey>
     <bcf:citekey order="34">kattge_try_2011</bcf:citekey>
+    <bcf:citekey order="35">kattge_try_2011</bcf:citekey>
     <bcf:citekey order="36">reich_leaf_1992</bcf:citekey>
     <bcf:citekey order="37">cornelissen_handbook_2003</bcf:citekey>
     <bcf:citekey order="38">ackerly_convergence_1999</bcf:citekey>
@@ -2312,7 +2330,7 @@
     <bcf:citekey order="69">westoby_leaf-height-seed_1998</bcf:citekey>
     <bcf:citekey order="70">pierce_allocating_2013</bcf:citekey>
     <bcf:citekey order="71">diaz_global_2016</bcf:citekey>
-    <bcf:citekey order="72">reich_world-wide_2013</bcf:citekey>
+    <bcf:citekey order="72">reich_world-wide_2014</bcf:citekey>
     <bcf:citekey order="73">shipley_fundamental_2006</bcf:citekey>
     <bcf:citekey order="74">shipley_fundamental_2006</bcf:citekey>
     <bcf:citekey order="75">kooyers_evolution_2015</bcf:citekey>
@@ -2531,6 +2549,7 @@
   <bcf:bibdata section="3">
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180615_20180712.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180712_20180724.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="1">grimm_standard_2006</bcf:citekey>
@@ -2615,8 +2634,8 @@
     <bcf:citekey order="51">auld_re-evaluating_2009</bcf:citekey>
     <bcf:citekey order="52">taubert_modelling_2014</bcf:citekey>
     <bcf:citekey order="53">taubert_modelling_2014</bcf:citekey>
-    <bcf:citekey order="54">lohier_explaining_2014</bcf:citekey>
-    <bcf:citekey order="55">lohier_explaining_2014</bcf:citekey>
+    <bcf:citekey order="54">lohier_analyse_2016</bcf:citekey>
+    <bcf:citekey order="55">lohier_analyse_2016</bcf:citekey>
     <bcf:citekey order="56">soussana_gemini:_2012</bcf:citekey>
     <bcf:citekey order="57">reineking_environmental_2006</bcf:citekey>
     <bcf:citekey order="58">reineking_environmental_2006</bcf:citekey>
@@ -2628,6 +2647,7 @@
   <bcf:bibdata section="4">
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180615_20180712.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180712_20180724.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
     <bcf:citekey order="1">grimm_pattern-oriented_2005</bcf:citekey>
@@ -2678,7 +2698,7 @@
     <bcf:citekey order="34">laliberte_distance-based_2010</bcf:citekey>
     <bcf:citekey order="35">dewitt_costs_1998</bcf:citekey>
     <bcf:citekey order="35">van_kleunen_constraints_2005</bcf:citekey>
-    <bcf:citekey order="36">wright_worldwide_2006</bcf:citekey>
+    <bcf:citekey order="36">wright_worldwide_2004</bcf:citekey>
     <bcf:citekey order="37">lohier_analyse_2016</bcf:citekey>
     <bcf:citekey order="38">lohier_analyse_2016</bcf:citekey>
     <bcf:citekey order="39">turcotte_phenotypic_2016</bcf:citekey>
@@ -2722,6 +2742,7 @@
   <bcf:bibdata section="5">
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180615_20180712.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180712_20180724.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="5">
     <bcf:citekey order="1">lepik_high_2005</bcf:citekey>
@@ -2779,6 +2800,7 @@
   <bcf:bibdata section="6">
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero20180615.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180615_20180712.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">../Bibliography/bib_zotero_update_20180712_20180724.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
     <bcf:citekey order="1">bradshaw_evolutionary_1965</bcf:citekey>
@@ -2823,48 +2845,49 @@
     <bcf:citekey order="32">tilman_diversity_2014</bcf:citekey>
     <bcf:citekey order="33">zuppinger-dingley_selection_2014</bcf:citekey>
     <bcf:citekey order="34">roscher_contrasting_2015</bcf:citekey>
-    <bcf:citekey order="35">tilman_density_2014</bcf:citekey>
-    <bcf:citekey order="36">westoby_time_2000</bcf:citekey>
-    <bcf:citekey order="36">wright_worldwide_2004</bcf:citekey>
-    <bcf:citekey order="36">mcmurtrie_leaf-trait_2011</bcf:citekey>
-    <bcf:citekey order="37">dewitt_costs_1998</bcf:citekey>
-    <bcf:citekey order="37">auld_re-evaluating_2009</bcf:citekey>
-    <bcf:citekey order="37">richter_phenotypic_2012</bcf:citekey>
-    <bcf:citekey order="38">kichenin_contrasting_2013</bcf:citekey>
-    <bcf:citekey order="39">choler_facilitation_2001</bcf:citekey>
-    <bcf:citekey order="39">callaway_positive_2002</bcf:citekey>
-    <bcf:citekey order="40">gobiet_21st_2014</bcf:citekey>
-    <bcf:citekey order="41">morin_temporal_2014</bcf:citekey>
-    <bcf:citekey order="42">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
-    <bcf:citekey order="43">ishizuka_modeling_2012</bcf:citekey>
-    <bcf:citekey order="43">wang_asymmetric_2014</bcf:citekey>
-    <bcf:citekey order="43">grassein_importance_2014</bcf:citekey>
-    <bcf:citekey order="43">hamann_evidence_2016</bcf:citekey>
-    <bcf:citekey order="44">deleglise_drought-induced_2015</bcf:citekey>
-    <bcf:citekey order="45">alexander_novel_2015</bcf:citekey>
-    <bcf:citekey order="46">deleglise_heterogeneite_2011</bcf:citekey>
-    <bcf:citekey order="46">chalmandrier_communities_2015</bcf:citekey>
-    <bcf:citekey order="47">chalmandrier_communities_2015</bcf:citekey>
+    <bcf:citekey order="35">tilman_diversity_2014</bcf:citekey>
+    <bcf:citekey order="36">tilman_diversity_2014</bcf:citekey>
+    <bcf:citekey order="37">westoby_time_2000</bcf:citekey>
+    <bcf:citekey order="37">wright_worldwide_2004</bcf:citekey>
+    <bcf:citekey order="37">mcmurtrie_leaf-trait_2011</bcf:citekey>
+    <bcf:citekey order="38">dewitt_costs_1998</bcf:citekey>
+    <bcf:citekey order="38">auld_re-evaluating_2009</bcf:citekey>
+    <bcf:citekey order="38">richter_phenotypic_2012</bcf:citekey>
+    <bcf:citekey order="39">kichenin_contrasting_2013</bcf:citekey>
+    <bcf:citekey order="40">choler_facilitation_2001</bcf:citekey>
+    <bcf:citekey order="40">callaway_positive_2002</bcf:citekey>
+    <bcf:citekey order="41">gobiet_21st_2014</bcf:citekey>
+    <bcf:citekey order="42">morin_temporal_2014</bcf:citekey>
+    <bcf:citekey order="43">intergovernmental_panel_on_climate_change_climate_2014</bcf:citekey>
+    <bcf:citekey order="44">ishizuka_modeling_2012</bcf:citekey>
+    <bcf:citekey order="44">wang_asymmetric_2014</bcf:citekey>
+    <bcf:citekey order="44">grassein_importance_2014</bcf:citekey>
+    <bcf:citekey order="44">hamann_evidence_2016</bcf:citekey>
+    <bcf:citekey order="45">deleglise_drought-induced_2015</bcf:citekey>
+    <bcf:citekey order="46">alexander_novel_2015</bcf:citekey>
     <bcf:citekey order="47">deleglise_heterogeneite_2011</bcf:citekey>
-    <bcf:citekey order="48">john_anatomical_2017</bcf:citekey>
-    <bcf:citekey order="49">roumet_root_2016</bcf:citekey>
-    <bcf:citekey order="50">choler_growth_2015</bcf:citekey>
-    <bcf:citekey order="51">bello_towards_2010</bcf:citekey>
-    <bcf:citekey order="51">lavorel_using_2011</bcf:citekey>
-    <bcf:citekey order="52">goslee_optimizing_2013</bcf:citekey>
-    <bcf:citekey order="53">gardarin_plant_2014</bcf:citekey>
-    <bcf:citekey order="54">lafond_reconciling_2015</bcf:citekey>
-    <bcf:citekey order="55">lavorel_how_2012</bcf:citekey>
-    <bcf:citekey order="55">lamarque_plant_2014</bcf:citekey>
-    <bcf:citekey order="56">tilman_diversity_2001</bcf:citekey>
-    <bcf:citekey order="56">lepik_high_2005</bcf:citekey>
-    <bcf:citekey order="57">zuppinger-dingley_selection_2014</bcf:citekey>
-    <bcf:citekey order="58">morin_comparing_2009</bcf:citekey>
-    <bcf:citekey order="59">alexander_novel_2015</bcf:citekey>
-    <bcf:citekey order="60">frei_plant_2014</bcf:citekey>
-    <bcf:citekey order="60">frei_plastic_2014</bcf:citekey>
-    <bcf:citekey order="61">gugger_lower_2015</bcf:citekey>
-    <bcf:citekey order="61">nicotra_adaptive_2015</bcf:citekey>
+    <bcf:citekey order="47">chalmandrier_communities_2015</bcf:citekey>
+    <bcf:citekey order="48">chalmandrier_communities_2015</bcf:citekey>
+    <bcf:citekey order="48">deleglise_heterogeneite_2011</bcf:citekey>
+    <bcf:citekey order="49">john_anatomical_2017</bcf:citekey>
+    <bcf:citekey order="50">roumet_root_2016</bcf:citekey>
+    <bcf:citekey order="51">choler_growth_2015</bcf:citekey>
+    <bcf:citekey order="52">bello_towards_2010</bcf:citekey>
+    <bcf:citekey order="52">lavorel_using_2011</bcf:citekey>
+    <bcf:citekey order="53">goslee_optimizing_2013</bcf:citekey>
+    <bcf:citekey order="54">gardarin_plant_2014</bcf:citekey>
+    <bcf:citekey order="55">lafond_reconciling_2015</bcf:citekey>
+    <bcf:citekey order="56">lavorel_how_2012</bcf:citekey>
+    <bcf:citekey order="56">lamarque_plant_2014</bcf:citekey>
+    <bcf:citekey order="57">tilman_diversity_2001</bcf:citekey>
+    <bcf:citekey order="57">lepik_high_2005</bcf:citekey>
+    <bcf:citekey order="58">zuppinger-dingley_selection_2014</bcf:citekey>
+    <bcf:citekey order="59">morin_comparing_2009</bcf:citekey>
+    <bcf:citekey order="60">alexander_novel_2015</bcf:citekey>
+    <bcf:citekey order="61">frei_plant_2014</bcf:citekey>
+    <bcf:citekey order="61">frei_plastic_2014</bcf:citekey>
+    <bcf:citekey order="62">gugger_lower_2015</bcf:citekey>
+    <bcf:citekey order="62">nicotra_adaptive_2015</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

@@ -1,0 +1,92 @@
+.ImgEmailZimletNavBarBG{background:url("/service/zimlet/com_zimbra_email/img/EmailZimletNavBar.png") repeat;}
+.EmailToolTipSlideText{position:relative;top:40%;font-size:12px;font-weight:bold;}
+.EmailToolTipSlideErrorColor{color:#8C0000;}
+.EmailToolTipSlideMsgColor{color:#666;}
+.ImgUnknownPerson_contact{background:url("/service/zimlet/com_zimbra_email/img/UnknownPerson_contact.gif") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.ImgMail_icon{background:url("/service/zimlet/com_zimbra_email/img/mail_icon.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.ImgCalendar_icon{background:url("/service/zimlet/com_zimbra_email/img/calendar_icon.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.ImgConversation_icon{background:url("/service/zimlet/com_zimbra_email/img/ImgConversation.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.Img_available,.Img_unavailable,.Img_busy,.Img_dnd,.Img_onthephone,.Img_away,.Img_vacation,.Img_unknown{background:transparent no-repeat 0 0;width:12px;height:12px;overflow:hidden;margin-right:.5em;}
+.Img_available{background-image:url("/service/zimlet/com_zimbra_email/img/ImgPresenceAvailable.png");}
+.Img_unavailable,.Img_busy,.Img_dnd,.Img_onthephone{background-image:url("/service/zimlet/com_zimbra_email/img/ImgPresenceUnavailable.png");}
+.Img_away,.Img_vacation,.Img_unknown{background-image:url("/service/zimlet/com_zimbra_email/img/ImgPresenceBusy.png");}
+.ImgEmailZimlet_closeBtn{background:url("/service/zimlet/com_zimbra_email/img/EmailZimlet_closeBtn.png") no-repeat center center;width:16px;height:16px;overflow:hidden;}
+.EmailZimlet_veil{position:absolute;display:block;width:100%;height:100%;z-index:700;background:black;opacity:.2;zoom:1;cursor:pointer;top:0;left:0;}
+.Imgattachmail-panelIcon{background:url("/service/zimlet/com_zimbra_attachmail/attachmail.gif") no-repeat 0 0;width:16px;height:16px;overflow:hidden;}
+.AttachMailTabBox{background-color:#FDFCFA;border-right:1px solid #E0E0E0;}
+.AttachMailRowDiv{border-style:solid;border-width:1px 0;cursor:pointer;border-color:#E0E0E0;padding:3px 0;}
+.AttachMailSubject{font-weight:bold;font-size:13px;color:#2B2A2B;}
+.AttachMailFrom{font-weight:bold;font-size:11px;color:#2B2A2B;}
+.AttachMailFrag{overflow:hidden;color:gray;}
+.AttachMailList .Row-selected,.AttachMailList .Row-focused{border:none;}
+.AttachContactsTabBox{background-color:#FDFCFA;border-right:1px solid #E0E0E0;}
+table.AttachContacts_table input[type="text"]{border-color:#3A73AB;border-width:1;border-style:solid;width:200px;height:20px;padding:2px 4px;}
+.AttachContactRow{border-style:solid;border-width:1px 0;cursor:pointer;border-color:#E0E0E0;padding:3px 0;}
+.video-panel{position:relative;padding:10px;background:none repeat scroll 0 0 #E3E9F0;}
+.youTubeImagePreview{padding:5px 5px 5px 5px;background-color:black;display:inline-block;}
+.thumb-wrapper{position:relative;float:left;}
+.play{position:absolute;float:left;top:30px;left:35px;width:58;height:41;z-index:100;background:transparent url(/service/zimlet/com_zimbra_url/play_youtube.png) no-repeat;}
+.movie-player{clear:both;}
+.Imgyemoticons-panelIcon{background:url("/service/zimlet/com_zimbra_ymemoticons/yemoticons.gif") no-repeat 0 0;width:16px;height:16px;overflow:hidden;}
+.ymemoticonsPrefDialog{width:200px;overflow:hidden;}
+.ImgPerso-panelIcon{background:url("/service/zimlet/net_partage_zimletplus/favicon.png") no-repeat 0 0;width:16px;height:16px;overflow:hidden;}
+.divNoUrl{margin:50px auto;padding:10px 20px;text-align:center;}
+.tEditUPS{width:100%;}
+.tEditUPS td{padding:4px;margin:0;}
+.tEditUPS input{width:100%;}
+.divDeleteUrl{background-image:url("/zimlet/net_partage_zimletplus/img/delete.png");background-size:24px 24px!important;background-position:left top!important;background-repeat:no-repeat!important;width:24px;height:24px;}
+.docInfo{font-size:10px!important;}
+.TPersoContainer{height:100%;}
+ul{list-style-type:none;padding:0;margin:0;}
+li{cursor:pointer;font-size:11px;padding-left:5px;margin-top:3px;height:15px;}
+a:hover{background-color:#B0E0E6;}
+#tPwd{width:100%;}
+#pwdChat{width:100%;}
+#divFriends{width:250px;background:transparent;}
+#divRoster{width:100%;}
+#divAddFriend{float:left;}
+#textAddFriend{width:170px;}
+#divAutoComplete{border:1px solid #B8B8B8;background-color:#FAFAFA;position:absolute;left:5px;top:115px;z-index:300;padding:2px;}
+#divChatZone{width:100%;height:100%;overflow:auto;}
+#divBuddyDetail{width:200px;height:20px;border:1px solid #000;left:150px;top:150px;position:absolute;z-index:300;background-color:#FFF;}
+#btnEmoticons{float:left;margin-left:2px;*margin-left:5px;*margin-top:1px;}
+#divEmoticons{width:300px;background-color:#FAFAFA;left:2px;top:0;position:absolute;}
+#divEmotMean{border:1px solid #C0C0C0;border-radius:5px;background-color:#DEDEDE;padding:2px 4px;z-index:300;position:absolute;}
+#divEtatSelect{width:140px;float:left;margin-left:2px;margin-top:2px;padding-left:2px;cursor:pointer;}
+#tableEtatSelect{height:20px;width:100%;padding-left:4px;}
+#divEtatOptions{border:1px solid #B8B8B8;background-color:#FAFAFA;height:100px;width:128px;padding:5px;*width:138px;*padding:2px;*margin-left:-1px;position:absolute;z-index:300;}
+.tEmoticons{width:100%;border-collapse:collapse;border:1px solid #C0C0C0;}
+.tEmoticons tr td{border:1px solid #C0C0C0;text-align:center;padding:2px;}
+.tdEmoticonSeleced{background-color:#DEDEDE;}
+li.notInList{color:#808080;}
+li.liAutoComplete{padding:0 5px;}
+li.b_online{color:#000;}
+li.b_offline{color:#808080;}
+.liHover{background-color:#B0E0E6;}
+.divList{width:100%;}
+.divListHead{height:18px;padding:5px;color:#333;border:1px solid #FFF;background-color:#DEDEDE;font-size:11px;font-weight:bold;cursor:default;}
+.divListBody{padding-top:4px;margin-bottom:8px;background-color:#FAFAFA;}
+.divChat{width:280px;height:100%;border:1px solid #B8B8B8;float:left;margin-left:10px;color:#282828;position:relative;background:#FFF;padding:1px;}
+.chatTitle{width:100%;height:30px;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom:1px solid #C0C0C0;background-color:#DEDEDE;font-size:12px;left:0;top:0;}
+.titleButton{position:absolute;right:2px;margin:2px;float:right;height:20px;width:30px;}
+.buttonClose{float:right;text-decoration:none;cursor:pointer;}
+.titleText{height:100%;width:80%;padding-left:5px;padding-top:5px;}
+hr.clear{height:0;margin:-1.2ex 0;padding:0;border:0;clear:both;visibility:hidden;*clear:none;}
+.chatContent{width:100%;height:80%;overflow:auto;font-size:12px;}
+.chatContent dl{clear:both;*padding-top:10px;}
+.chatContent dt{font-size:10px;text-align:center;margin-bottom:4px;}
+.chatContent dd{color:#000;background:#EFEFEF;padding:4px;border-radius:3px;box-shadow:0 1px 1px rgba(0,0,0,.3);margin:0 4px;word-break:break-all;}
+.chatContent dl.msg_sent dd{float:right;background:#a9e24c;}
+.chatContent dl.msg_recieved dd{float:left;}
+.myMinWidth{min-width:50%;*width:70%;}
+.messageAction{width:100%;height:100px;bottom:0;left:0;position:absolute;}
+.messageAction_content{padding:4px;}
+.message{box-sizing:border-box;width:100%;height:90px;resize:none;border:1px solid #DEDEDE;}
+.divMenu{width:160px;height:15px;position:absolute;background-color:#FAFAFA;padding:2px;border:1px solid #B8B8B8;z-index:300;}
+.divExpand{height:auto;}
+.divShrink{height:0;display:none;}
+.etatOption{height:15px;cursor:pointer;padding-top:2px;}
+.etatHover{background-color:#B0E0E6;}
+.statusImg{width:15px;height:15px;float:left;}
+.statusTxt{float:left;margin-left:2px;}
+.buddyName{float:left;margin-left:2px;}

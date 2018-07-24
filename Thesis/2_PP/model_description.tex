@@ -3,7 +3,7 @@
 \begin{fullwidth}
 %\begin{abstract} 
 \noindent
-This document is a detailed description of the \model ~model. This description is based on the ODD protocol of Grimm et al. The model is inspired by multiple other forest and grassland models (for grassland models see particularly \citet{taubert_modelling_2014} and \citet{lohier_explaining_2014}). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
+This document is a detailed description of the \model ~model. This description is based on the ODD protocol of Grimm et al. The model is inspired by multiple other forest and grassland models (for grassland models see particularly \citet{taubert_modelling_2014} and \citet{lohier_analyse_2016}). It differentiates itself from these models by the incorporation of phenotypic plasticity in a generalizing framework for plant functioning. This allows it to be used to both to explore the fundamental effects of phenotypic plasticity the dynamics of rich grass communities and the impact of the phenotypic plasticity on plant interactions. The general approach and the practical details are further detailed in this document.
 %\end{abstract}
 \end{fullwidth}
 
@@ -181,11 +181,11 @@ In the model, the realised fitness can be estimated as the capacity of plants to
 
 Further details on daily mechanisms are described in the following paragraphs.
 
-
-\begin{marginfigure}
-%\includegraphics{./Figures/plant_geometry_m.pdf}
-\caption{Overview of the model inputs and outputs.}
-\end{marginfigure}
+%
+%\begin{marginfigure}
+%%\includegraphics{./Figures/plant_geometry_m.pdf}
+%\caption{Overview of the model inputs and outputs.}
+%\end{marginfigure}
 
 \subsection{Initialisation}
 The model doesn't need particular initialisation if the state of the community species pool, the seedbank, and the soil are given as inputs. Otherwise, a set of \textit{E(n/s)} individuals are created from a set of \textit{s} species (randomly generated if not given) and randomly positioned on the soil grid, where \textit{s} and \textit{n} are respectively the number of species and the approximate number of individuals within the grid. Soil grid is also randomly generated within default ranges for critical and saturation water contents then slightly smooth, and homogeneously filled ($filling = \frac{w_{cont} - w_{crit}}{w_{sat} - w_{crit}}$).
@@ -272,7 +272,7 @@ legend style
 ={at={(1, 1.1)},
 anchor=south east,
 draw = none},
-samples = 1000,
+samples = 500,
 %restrict y to domain=-300:700,
 xlabel = $I (W.cm^{2})$,
 ylabel = $P_{leaf} (gCO_{2}.cm^{-2}s^{-1})$
