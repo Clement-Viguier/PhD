@@ -16,7 +16,7 @@
 This second result chapter examines the effects of the phenotypic plasticity at the scale of the community. Another parameter filtering processes is performed and described in the first section of this chapter. The second part focuses on the effects of the plasticity on the main properties of the community. The impact of the plasticity on species diversity is particularly investigated. This chapter gives a glimpse of the potential of the model to answer various questions around the role of intraspecific variations on diverse community properties.
 \end{fullwidth}
 
-\chapter{Community level simulations: non plastic community}
+\chapter{Community level simulations:\\non plastic community}
 
 
 \section{Parameter filtering}
@@ -72,7 +72,7 @@ The parameter filtering process deployed here is sufiscient to select viable par
 
 The biomass profiles of the simulated communities show both consistency in the growth pattern, and high daily variability. The variability observed highlights the great the sensitivity to the weather variables. This sensitivity certainly favours positive effects of the phenotypic plasticity, if the changes in phenotype are responsive enough and do not suffer from a lag.
 
-The consistent growth patter with two distinct growth period correspond to field observations where plants are generally divided between early flowering, matching the first biomass peak, and late flowering corresponding to an autumn growth and reproduction. This coherent behaviour, driven by the climate gives confidence in the integration of the climatic variables as drivers of the community. Further work could be done to confirm the respective role of the temperature and precipitation, but this work focuses on the effect of phenotypic plasticity and both the relative sensitivity to the daily variations in the conditions and the importance of the climatic variables as driving forces supposes that the plasticity has the potential to affect the mountain communities.
+The consistent growth patter with two distinct growth period correspond to field observations where plants are generally divided between early flowering, matching the first biomass peak, and late flowering corresponding to an autumn growth and reproduction. This coherent behaviour, driven by the climate gives confidence in the integration of the climatic variables as drivers of the community. Further work could be done to confirm the respective role of the temperature and precipitation, but this work focuses on the effect of phenotypic plasticity and both the relative sensitivity to the daily variations in the conditions and the importance of the climatic variables as driving forces supposes that the plasticity has the potential to affect the mountain communities.\\
 % sensitivity to the weather
 % general climate driven response.
 
@@ -83,8 +83,9 @@ The consistent growth patter with two distinct growth period correspond to field
 %
 %\paragraph{Ecological trade-off ?}
 %Is there a selection of some parameters ? Are there ecological trade-off (resource use strategy and reproduction) emerging from the model ?
+\newpage
 
-\chapter{Plasticity: impact on species fitness and diversity}
+\chapter{Plasticity: impact on species fitness\\and diversity}
 
 After a simple parameter filtering, guaranteeing the stability of the communities, the effect of the plastic allocation algorithms can be investigated as the community level. In a same way as the previous section, the focus is given to the main properties of the community: the diversity, the productivity and the identity. 
 %
@@ -292,7 +293,7 @@ This shift in structure at the community scale, but also at the meta-community s
 %Is it always in the same direction for all species ? (reproduce Kichenin).
 
 
-\begin{figure}%[tb]
+\begin{figure*}%[tb]
 %    \classiccaptionstyle
 %\sidebysidecaption{0.5\textwidth}{0.4\textwidth}{%
     \includegraphics[width=1\linewidth]{./2_PP/Figures/Comm/comm_variability_lines.png}%
@@ -300,7 +301,7 @@ This shift in structure at the community scale, but also at the meta-community s
   \caption[Spatial and temporal variability of the CWMs of the PAR]{Community weighted means of the proportion of active tissues in roots for each site, as a function of time and the allocation algorithm, for 5 representative parameter sets.}
   \label{fig:comm_strat}
 %  }
-\end{figure}
+\end{figure*}
 
 
 \paragraph{Different diversities}
@@ -308,10 +309,10 @@ This shift in structure at the community scale, but also at the meta-community s
 % shift from beta to alpha diversity
 Introducing plasticity in allocation leads to a shift in the diversity types. \textit{Non plastic} simulation tend to have more differentiated sites, captured by the high values of \textit{beta} diversity, but with low \textit{alpha} diversity as previously discussed (see figure \ref{fig:diversities}). 
 
-\begin{figure}\label{fig:diversities}
+\begin{figure*}\label{fig:diversities}
 \includegraphics[]{./2_PP/Figures/Comm/comm_div_differences_alpha_beta.png}
 \caption[\textit{Alpha} and \textit{beta} diversities as function of the allocation mechanism.]{\textit{Alpha} and \textit{beta} diversities as function of the allocation mechanism.}
-\end{figure}
+\end{figure*}
 
 The total amount of species present over all sites and all seasons also varies between allocation algorithms, with a average total amount of 4.26 (median 4) for \textit{non plastic} allocation, of 7.69 (median 5) for \textit{fixed-equilibrium} allocation, and of 10.1 (median 4) for \textit{plastic-optimisation} allocation.
 
@@ -407,12 +408,7 @@ The allocation algorithm is only one of factors that impact the response variabl
 
 Ones could regret the lack of statistical analysis to estimate the significance of the effects. But, as mentioned the total control and knowledge of the model would allow to ensure significance results for any test, and therefore is not informative (see \citet{white_ecologists_2014} for extended arguments). While the effect size could have been calculated, the graphical representations produced provide enough information to estimate these effect size and compare the effect of the explicative variable of interest (allocation algorithm) to the variability caused by the other factors. 
 
-I believe the representation of the model outputs through specific visualisations gives a better understanding of the general behaviour of the model, as well as an intuition of the unique differences between the different conditions, than large tables and statistical test could do in this context. 
-%Interaction between plasticity effects and parameter sets, but the interest here, even if  it is interesting. Higher variance due to site and weather. The almost perfect knowledge of models allows an extremely precise decomposition of the effects, but at the risks of loosing broad effects. The difficulty is to measure the relative strength of these effects, and generalise. But, by essence, the parameters are suspected to have a significant effect that can be identified, otherwise it would not have been included in the model.
-
-% need to reread that, but decomposed when possible, needed, or to show consistency. Not always, to make the description and message clearer.  white_ecologists_2014 : no statistical tests
-
-
+I believe the representation of the model outputs through specific visualisations gives a better understanding of the general behaviour of the model, as well as an intuition of the unique differences between the different conditions, than large tables and statistical test could do in this context. \\
 
 \paragraph{Plasticity \& community properties}
 

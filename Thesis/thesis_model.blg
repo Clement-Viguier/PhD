@@ -1,81 +1,80 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis_model.blg'
-[28] biber-MSWIN64:303> INFO - === 
-[53] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
-[173] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[174] Biber.pm:835> INFO - Found 51 citekeys in bib section 1
-[174] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[175] Biber.pm:835> INFO - Found 123 citekeys in bib section 2
-[176] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[176] Biber.pm:835> INFO - Found 47 citekeys in bib section 3
-[176] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[177] Biber.pm:835> INFO - Found 47 citekeys in bib section 4
-[177] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[177] Biber.pm:835> INFO - Found 32 citekeys in bib section 5
-[177] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[178] Biber.pm:835> INFO - Found 63 citekeys in bib section 6
-[178] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[233] Biber.pm:3670> INFO - Processing section 1
-[254] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 1
-[421] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[703] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20180615.bib'
-[846] Utils.pm:164> WARN - ISBN '978-3-540-00347-2 978-3-642-18970-8' in entry 'korner_alpine_2003' is invalid - run biber with '--validate_datamodel' for details.
-[965] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 1
-[970] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[975] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero_update_20180615_20180712.bib'
-[977] Utils.pm:164> WARN - Duplicate entry key: 'butchart_global_2010' in file '../Bibliography/bib_zotero_update_20180615_20180712.bib', skipping ...
-[1424] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1424] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1424] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[1424] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[1490] Biber.pm:3670> INFO - Processing section 2
-[1492] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 2
-[1519] Utils.pm:164> WARN - ISBN '978-0-691-08301-8 978-0-691-08302-5' in entry 'tilman_resource_1982' is invalid - run biber with '--validate_datamodel' for details.
-[1520] Utils.pm:164> WARN - ISBN '978-0-691-08488-6 978-0-691-08489-3' in entry 'tilman_plant_1988' is invalid - run biber with '--validate_datamodel' for details.
-[1526] Utils.pm:164> WARN - ISBN '978-3-540-00347-2 978-3-642-18970-8' in entry 'korner_alpine_2003' is invalid - run biber with '--validate_datamodel' for details.
-[1784] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 2
-[1796] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180712_20180724.bib' for section 2
-[1798] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[1800] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero_update_20180712_20180724.bib'
-[1831] Utils.pm:164> WARN - I didn't find a database entry for 'dewitt_cost_1998' (section 2)
-[2526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2526] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[2526] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[2670] Biber.pm:3670> INFO - Processing section 3
-[2672] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 3
-[2693] Utils.pm:164> WARN - ISBN '978-3-540-00347-2 978-3-642-18970-8' in entry 'korner_alpine_2003' is invalid - run biber with '--validate_datamodel' for details.
-[2789] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[2789] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[2790] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 3
-[3045] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3045] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3045] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[3045] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[3114] Biber.pm:3670> INFO - Processing section 4
-[3115] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 4
-[3221] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 4
-[3398] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3398] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3398] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[3398] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[3455] Biber.pm:3670> INFO - Processing section 5
-[3456] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 5
-[3533] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 5
-[3731] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3731] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3732] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[3732] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[3774] Biber.pm:3670> INFO - Processing section 6
-[3775] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 6
-[3919] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[3919] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[3920] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 6
-[3940] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180712_20180724.bib' for section 6
-[4271] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4271] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4271] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
-[4271] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[4349] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
-[4496] bbl.pm:712> INFO - Output to thesis_model.bbl
-[4497] Biber.pm:109> INFO - WARNINGS: 11
+[30] biber-MSWIN64:303> INFO - === 
+[56] Biber.pm:359> INFO - Reading 'thesis_model.bcf'
+[182] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[182] Biber.pm:835> INFO - Found 51 citekeys in bib section 1
+[182] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[184] Biber.pm:835> INFO - Found 122 citekeys in bib section 2
+[184] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[184] Biber.pm:835> INFO - Found 47 citekeys in bib section 3
+[184] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[185] Biber.pm:835> INFO - Found 47 citekeys in bib section 4
+[185] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[185] Biber.pm:835> INFO - Found 32 citekeys in bib section 5
+[185] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[186] Biber.pm:835> INFO - Found 63 citekeys in bib section 6
+[186] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[242] Biber.pm:3670> INFO - Processing section 1
+[262] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 1
+[426] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[719] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero20180615.bib'
+[864] Utils.pm:164> WARN - ISBN '978-3-540-00347-2 978-3-642-18970-8' in entry 'korner_alpine_2003' is invalid - run biber with '--validate_datamodel' for details.
+[1047] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 1
+[1140] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1145] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero_update_20180615_20180712.bib'
+[1147] Utils.pm:164> WARN - Duplicate entry key: 'butchart_global_2010' in file '../Bibliography/bib_zotero_update_20180615_20180712.bib', skipping ...
+[1595] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1596] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1596] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[1596] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[1663] Biber.pm:3670> INFO - Processing section 2
+[1664] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 2
+[1691] Utils.pm:164> WARN - ISBN '978-0-691-08301-8 978-0-691-08302-5' in entry 'tilman_resource_1982' is invalid - run biber with '--validate_datamodel' for details.
+[1694] Utils.pm:164> WARN - ISBN '978-0-691-08488-6 978-0-691-08489-3' in entry 'tilman_plant_1988' is invalid - run biber with '--validate_datamodel' for details.
+[1700] Utils.pm:164> WARN - ISBN '978-3-540-00347-2 978-3-642-18970-8' in entry 'korner_alpine_2003' is invalid - run biber with '--validate_datamodel' for details.
+[1943] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 2
+[1957] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180712_20180724.bib' for section 2
+[1960] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1962] bibtex.pm:1292> INFO - Found BibTeX data source '../Bibliography/bib_zotero_update_20180712_20180724.bib'
+[2701] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2701] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2701] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[2701] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[2852] Biber.pm:3670> INFO - Processing section 3
+[2855] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 3
+[2879] Utils.pm:164> WARN - ISBN '978-3-540-00347-2 978-3-642-18970-8' in entry 'korner_alpine_2003' is invalid - run biber with '--validate_datamodel' for details.
+[2980] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[2981] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[2981] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 3
+[3225] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3225] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3225] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[3225] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[3282] Biber.pm:3670> INFO - Processing section 4
+[3283] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 4
+[3393] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 4
+[3574] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3574] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3574] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[3574] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[3628] Biber.pm:3670> INFO - Processing section 5
+[3628] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 5
+[3711] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 5
+[3913] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3913] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3913] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[3913] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[3961] Biber.pm:3670> INFO - Processing section 6
+[3962] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero20180615.bib' for section 6
+[4101] Utils.pm:164> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[4101] Utils.pm:164> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[4101] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180615_20180712.bib' for section 6
+[4118] Biber.pm:3840> INFO - Looking for bibtex format file '../Bibliography/bib_zotero_update_20180712_20180724.bib' for section 6
+[4437] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4437] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4437] Biber.pm:3499> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[4437] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[4513] bbl.pm:608> INFO - Writing 'thesis_model.bbl' with encoding 'UTF-8'
+[4648] bbl.pm:712> INFO - Output to thesis_model.bbl
+[4649] Biber.pm:109> INFO - WARNINGS: 10

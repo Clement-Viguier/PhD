@@ -32,7 +32,7 @@ Another specificity of alpine grasslands is that they are subject to changing ma
 Other forms of herbivory can happen in grassland context, but the extent of the grazing by large herbivores reduce the relative importance of this effect and allows us to ignore this diversity of herbivory sources with complex dynamics.
 
 
-\chapter{Multi-dimensional strategy space, carbon pools, and trade-offs} \label{chapter:strategy-space}
+\chapter{Multi-dimensional strategy space,\\carbon pools, and trade-offs} \label{chapter:strategy-space}
 \section{Multi-dimensional strategy space and allocation pools}
 %Leaf economic spectrum + Shipley + Poorter
 %
@@ -102,18 +102,9 @@ As mentioned, the overall plant productivity is a function of three main \textem
 Because the phenotype is defined from this memory, the plasticity can then be imagined as a modification of the information given by the memory based on the experienced conditions. The plasticity is then a balance between this prior information contained in the species genetic information - the \textemph{memory} - and further information given by the conditions lived by the plant - the \textemph{experience} - leading to a posterior image of the conditions - the \textemph{estimation} - driving the trajectory of the plant within the phenotypic space.
  
  
- The concept of memory, in addition to link the starting phenotype/strategy with the plant trajectory/plasticity, also opens the door to the modelling of heritability by a meaningful alteration of this memory. If the experience of a plant does not match its species memory, it could change this value to transmit this information to new propagules.
+ The concept of memory, in addition to link the starting phenotype/strategy with the plant trajectory/plasticity, also opens the door to the modelling of heritability by a meaningful alteration of this memory. If the experience of a plant does not match its species memory, it could change this value to transmit this information to new propagules.\\
 
 %
-%phenotype = ensemble of response trait values. Emerge from default trait + environment.\\
-%Composite traits are defined by the interaction of different, independent, driving traits. What is a driving trait? Biology: genetic information. This genetic information is selected by climatic conditions. If we can make a link between optimum value for a trait and environmental conditions, then store external conditions and use the link between.\\
-
-%
-
-%Th example of the leaf trade-off and the importance of resource availability for optimum position.\\
-
-
-%The coordination and the difficulty to define a phenotype\\
 
 
 %Take home message ####################################
@@ -186,7 +177,7 @@ The calculation of projected resource availability levels, or temperatures, are 
 
 One of the assumptions of the plasticity developed in this document is the existence of a tight relationship between experienced condition and fitness. A subsidiary assumption in the implementation of this plasticity is that this function can be captured, or modelled, by the same functions that drive plant growth. In other words, simulating individual growth, using the estimated/projected conditions as parameters, day by day, is enough to capture the link between environmental conditions (experienced by the focal plant) and plant growth\sidenote{that takes here the value of fitness proxy}. 
 
-A determining allocation rule would try to explicit this link function and optimise it. In other words, find the phenotype that maximises the gain function. While evolutionary processes allow the integration over time of the effects of phenotypic changes, it is not possible to consider this dimension without a long-term projection of the conditions. So the temporal dimension is excluded, and the maximisation of the daily gain is hypothesised to maximise the gain over time. On the other hand, a directive function would identify a subset of acceptable phenotypes. Then, an additional selection function is required to select the target phenotype within this subset. A sensible criterion of selection is to consider the distance between the current and the alternative phenotypes to select the target one. The elements around the choice of the gain functions, determining the optimum phenotype or subset, and the eventual selection function are discussed in the following description of the model.
+A determining allocation rule would try to explicit this link function and optimise it. In other words, find the phenotype that maximises the gain function. While evolutionary processes allow the integration over time of the effects of phenotypic changes, it is not possible to consider this dimension without a long-term projection of the conditions. So the temporal dimension is excluded, and the maximisation of the daily gain is hypothesised to maximise the gain over time. On the other hand, a directive function would identify a subset of acceptable phenotypes. Then, an additional selection function is required to select the target phenotype within this subset. A sensible criterion of selection is to consider the distance between the current and the alternative phenotypes to select the target one. The elements around the choice of the gain functions, determining the optimum phenotype or subset, and the eventual selection function are discussed in the following description of the model.\\
 
 %Take home message ####################################
 \textbf{The driving rule of plasticity defines whether or not the choice of the phenotype is fully determined by the projection of external conditions or also constrained by some species-specific parameters. The effect of this balance between projection and parameters has a large influence on the model behaviour. In any case, the projection is the main control on individual plastic response to change in conditions, offering possibilities to modulate individual plasticity despite an allocation rule shared by all species. The role of both projection and allocation rule will of particular interest during the analysis of the impact of phenotypic plasticity of plant growth and community dynamics.}
@@ -212,24 +203,7 @@ As mentioned in the previous section, the framework of plasticity developed in t
 This solution is a good alternative to an analytical solution when the later is not possible, but it comes with the disadvantage of a very high computational cost that is prohibitive for calibration procedures.
 When an allocation rule is the only directive, defining a starting phenotype is easier because an ensemble of phenotype satisfies the coherence between the memory and driving rule.
 
-Limiting the plasticity costs and adding additional steps to reduce the phenotypic drift should allow the exploration of the different allocation rules and the effect of the phenotypic plasticity.
-%
-%In a  lies a difficulty, indeed, the design of the model favours modularity but different allocation algorithms do not share the same constraints.
-%
-%\begin{itemize}
-%\item why having default traits even if they do not match the optimum defined by the allocation rule;
-%\itel the difficulty to determine an optimum phenotype analytically.
-%\end{itemize}
-%
-%\paragraph{Efficiency and performance}
-%Complexity between organ, overall efficiency, and equilibrium. Try to formalise each function and show the link between these elements.
-%
-%\paragraph{Is performance fitness?}
-%
-%The multi-dimensionality of fitness.\\
-%
-%Fitness and competition: where niche theory and coexistence theory coexist \parencite{letten_linking_2017}
-
+Limiting the plasticity costs and adding additional steps to reduce the phenotypic drift should allow the exploration of the different allocation rules and the effect of the phenotypic plasticity.\\
  
  
 %Take home message ####################################

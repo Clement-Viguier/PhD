@@ -182,8 +182,12 @@
 
 \newenvironment{table2*}{%
     \begin{table*}
+    \centering
     \classiccaptionstyle
-  }{\end{table*}}
+  }{\end{table*}
+  
+    \vspace*{12pt}
+  }
 % \let\origtable*=\table*
 %\def\table*{\origtable*\classiccaptionstyle}
  
@@ -203,10 +207,12 @@
 }
 
 % to see the margins and page width
-% \geometry{showframe}
-\geometry{bindingoffset=1cm}
-% Write packages versions in the log
-% \listfiles
+%\geometry{showframe}
+\geometry{bindingoffset=1.5cm}
+%\let\tmp\oddsidemargin
+%\let\oddsidemargin\evensidemargin
+%\let\evensidemargin\tmp
+%\reversemarginpar
 
 
 % Title page correction:
@@ -225,18 +231,10 @@
   \clearpage
 }
 
-% Commands use to make the title page and page headers
-%\title{Effect of phenotypic plasticity on plant performance and community dynamics: a new agent-based model for mountain grasslands}
 
-%\title{Phenotypic plasticity in mountain grasslands: concept, implementation and effects}
-
-%\title{Understanding the role phenotypic plasticity in mountain grasslands dynamics: a new agent-based modelling approach}
 
 \title{Mountain grasslands dynamics: integrating phenotypic plasticity in a new agent-based model}
 
-%\title{The effect of phenotypic plasticity on mountain grasslands: a mechanistic modelling approach}
-
-%\title{MountGrass: integrating phenotypic plasticity in an agent-based model of mountain grasslands}
 
 
 
@@ -246,13 +244,9 @@
  \newcommand{\version}{\texttt{MountGrass2.0}}
 
 % Commands use through the document
-%\newcommand{\model}{\smallcaps{MountGrass}}
 \newcommand{\fwnewthought}[1]{\begin{fullwidth}\newthought{#1}\end{fullwidth}}
 
 % Headers:
-
-%\lhead[\leftmark]{ }
-%\rhead[]{ \rightmark}
 \renewcommand{\chaptermark}[1]{ \markboth{\thechapter.\ #1}{} }
 \renewcommand{\sectionmark}[1]{ \markright{\ #1}{} }
 
@@ -272,11 +266,6 @@
 \makeglossaries
 \glsaddall 
 
-% Titles settings
-%\input{../latex_settings/titles_settings}
-
-%
-%\includeonly{Introduction}
 
 % Change the depth of section numbering and table of content to allow proper numbering
 \setcounter{secnumdepth}{2}
@@ -313,18 +302,24 @@
 %\chapter*{Aknowledgements}
 %\fwnewthought{I love you all, but I love you more Mom. }
 
-\cleardoublepage
+%\cleardoublepage
 
 \tableofcontents
 
+\newpage
+
+\include{acronyms}
+
+
 \end{fullwidth}
+\cleardoublepage
 
 % ############################################################################
 
 
+\pagenumbering{arabic}
 \part{Introduction}\label{part:introduction}
 \begin{refsection}
-\pagenumbering{arabic}
 \include{./0_Objectives/Objectives}
 
 \begin{fullwidth}
@@ -333,7 +328,7 @@
 \end{refsection}
 
 %____________________________________________________________
-\part{Background: community dynamics, traits and phenotypic plasticity}\label{part:literature}
+\part[Background: community dynamics, traits and phenotypic plasticity]{Background: community dynamics,\\traits and phenotypic plasticity}\label{part:literature}
 \begin{refsection}
 \setcounter{chapter}{0}
 
@@ -346,7 +341,7 @@
 
 
 %____________________________________________________________
-\part{Modelling alpine grasslands with MountGrass, a generic framework integrating phenotypic plasticity}\label{part:model}
+\part[Modelling alpine grasslands with MountGrass, a generic framework integrating phenotypic plasticity]{Modelling alpine grasslands with\\MountGrass, a generic framework\\integrating phenotypic plasticity}\label{part:model}
 \setcounter{chapter}{0}
 \begin{refsection}
 
@@ -362,7 +357,7 @@
 
 
 %____________________________________________________________
-\part{Individual performance: strategy and plasticity}\label{part:individuals}
+\part[Individual performance: strategy and plasticity]{Individual performance:\\strategy and plasticity}\label{part:individuals}
 
 \begin{refsection}
 \setcounter{chapter}{0}
@@ -408,13 +403,13 @@
 \renewcommand\indexname{Index}
 \printindex
 
-\include{acronyms}
+%\include{acronyms}
 
 \newpage
 
 \cleartoleftpage
 
-\vspace*{-2cm}
+\vspace*{-3.5cm}
 \begin{fullwidth}
 \chapter*{Abstract}	
 
@@ -431,7 +426,7 @@ Going further, the robustness of these findings and other patterns of community 
 \chapter*{Résumé}	
 \vspace*{-0.7cm}
 
-\indent Les prairies de montagne offrent de nombreux services ecosystémiques qui sont menacés par le changement global. Les traits fonctionnels constituent un outil prometteur pour caractériser les réponses des communautés à des changements de conditions environnementales et leurs répercussions sur les services associés. Cependant, des résulats de plus en plus nombreuses soulignent l'importance de la variabilité intra-spécifique des traits a également été mise en évidence. 
+\indent Les prairies de montagne offrent de nombreux services écosystémiques qui sont menacés par le changement global. Les traits fonctionnels constituent un outil prometteur pour caractériser les réponses des communautés à des changements de conditions environnementales et leurs répercussions sur les services associés. Cependant, des résulats de plus en plus nombreux soulignent l'importance de la variabilité intra-spécifique des traits ont également été mis en évidence. 
 Pour étudier ces effets, je propose un nouveau modèle à base d'agents, \model, qui combine la modélisation de communautés végétales riches en espèces avec des processus de plasticité phénotypique. Ces deux éléments au c\oe{}ur du modèle sont associés grâce à des compromis d'allocation basés sur des patrons empiriques établis de stratégies d'utilisation des resources.
 
 Avec \model, j'ai exploré l'impact de la plasticité phénotypique sur la croissance individuelle et les propriétés principales des communautés prairiales. \`A l'échelle individuelle, le modèle paramétré a révélé un fort impact positif de la plasticité phénotypique sur la croissance mais aussi sur la niche fondamentale des espèces. Des phénomènes de convergence et de réduction de la sensibilité aux variations de conditions expliquent ces effets. \`A l'échelle des communautés, les simulations ont confirmé de forts effets de la plasticité sur la structure des communautés et leur diversité spécifique. Ces effets sont expliqués par l'effet combiné de la réduction du filtre abiotique et de la réduction des différences de compétitivité. Cependant, aucun effet majeur sur la stratégie dominante ou la productivité n'a pu être mis en évidence.

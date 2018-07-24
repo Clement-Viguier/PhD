@@ -111,7 +111,7 @@ The soil is an important aspect of the model as it drives (with the precipitatio
 
 As mentioned the model runs at a daily step to capture individual responses to conditions and over multiple seasons to capture long temporal dynamics. Some processes occur (or are evaluated) at the daily time-step, some at the season time-step. The following ordered list presents the different processes and the scheduling over days and season of one simulation.\\
 \indent One season can be divided into the following parts:
-\begin{marginfigure}
+\begin{marginfigure}[-12pt]
 \includegraphics{./Figures/season_cycle_m.pdf}
 \caption{Seasons cycle in \model.}
 \end{marginfigure}
@@ -149,7 +149,7 @@ This part clarifies the rules that drive the dynamics of the model.
 \paragraph{Emergence} 
 The purpose of the model is to understand the rules that drive the community responses. We tried making the community dynamics emerge from the underlying processes of plant growth, resource use, and reproduction. That means that population dynamics are at least partially emergent from the surviving and reproducing individuals.
 \textit{Partially} emergent because it depends on the invasion rules applied to the system. The traits and biomass distribution that describe the community are completely emergent from the individual traits exposed by the individuals and their relative biomass and abundance.
-\begin{marginfigure}
+\begin{marginfigure}[-8pt]
 \includegraphics{./Figures/emergence.pdf}
 \caption{Population dynamics emerging from plant growth and weather.}
 \end{marginfigure}
@@ -265,7 +265,7 @@ where $d_{i}$ is the individual leaf area density corrected by the coverage ($0<
 Following Thornley and Johnson, the potential photosynthetic leaf activity is calculated as:
 
 
-\begin{marginfigure}
+\begin{marginfigure}[-12pt]
 \begin{tikzpicture}
 \begin{axis}[marginplot,
 legend style
@@ -580,7 +580,7 @@ ylabel = $SLA$
 
 Senescence is the process of ageing of tissues. This process usually occurs at the scale of an individual organ (e.g. a leaf), however, \model does not consider organs independently because it would be complex and computationally expensive to follow multiple leaves and roots for all individuals. So the process is considered homogeneous over all tissues. To emulate the senescence process senescence is calculated from the tissues lifespan, giving :
 
-\begin{marginfigure}
+\begin{marginfigure}[-8pt]
 \begin{tikzpicture}
 \begin{axis}[marginplot,
 legend style
@@ -590,18 +590,16 @@ draw = none},
 samples = 500,
 %restrict y to domain=0:1,
 xlabel = $P_{act}$,
-ylabel = $Lifespan (days)$
+ylabel = $RLS (days)$
 %extra x ticks={0.618},
 %extra x tick style={grid=major}
 ]
 
-\addplot[myGreen][domain = 0:0.99 ] {(\parlsszero * (1- x^\parlssone) ) };
 \addplot[black][domain = 0:0.99 ] {(\parlsrzero * (1- x^\parlsrone) ) };
-\legend{Aboveground, Belowground}
 \end{axis}
 \end{tikzpicture}
 \label{fig:lifespan}
-\caption{Lifespan of organs as a function of proportion of active tissues.}
+\caption{Lifespan as a function of proportion of active tissues.}
 \end{marginfigure}
 
 \begin{align}
@@ -623,7 +621,7 @@ where $LLS$ and $RLS$ are respectively the leaf and the root lifespans calculate
 
 \paragraph{Death} Death is modelled as in Reineking \parencite{reineking_environmental_2006}. Age and desiccation (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random lotteries following the following survival probabilities:
 
-\begin{marginfigure}[-10pt]
+\begin{marginfigure}[-4pt]
 \begin{tikzpicture}
 \begin{axis}[marginplot,
 legend style
