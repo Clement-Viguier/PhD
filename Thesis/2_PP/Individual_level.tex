@@ -95,7 +95,7 @@ The parameter filtering procedure is applied on the three main allocation algori
 
 \begin{figure*}\label{fig:comparison_BM}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/weight_full_sim.png}
-\caption{Comparison of simulated weights with distribution of weights of real alpine species for contrasting conditions.}
+\caption[][-1cm]{Comparison of simulated weights with distribution of weights of real alpine species for contrasting conditions.}
 \end{figure*}
 
 \paragraph{Sensitivity analysis}
@@ -122,9 +122,9 @@ Out of the 31 parameters, 6 show graphical response of selection rate (see figur
 %Plasticity does not change the acceptance rate in any form (only slightly increased from 0.26\% to 0.38\%, up to 0.42\% for full plastic). \\
 
 
-\begin{figure*}[p]\label{fig:accept_rate}
+\begin{figure*}[p]
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/acceptance_rate_RSRnWeight_per_par_none.pdf}
-\caption[Selection rate of all parameters.]{Selection rate (coloured lines) per parameter  (\textcolor{myGreen}{global} and \textcolor{myOrange}{species specific}) for the individual growth. The grey area illustrates the prior distribution after the first filtering step (see the method paragraph for more details). \textit{Non plastic}.}
+\caption[Selection rate of all parameters.]{Selection rate (coloured lines) per parameter  (\textcolor{myGreen}{global} and \textcolor{myOrange}{species specific}) for the individual growth. The grey area illustrates the prior distribution after the first filtering step (see the method paragraph for more details). \textit{Non plastic}.}\label{fig:accept_rate}
 \end{figure*}
 
 
@@ -138,9 +138,9 @@ Out of the 31 parameters, 6 show graphical response of selection rate (see figur
 
 A total of 12 parameters show a relative influence on selection rate for at least one of the algorithm. These parameters are divided between model parameters and species parameters. Species parameters show influence only for the \textit{non plastic} allocation algorithm. Model parameters express relatively similar importance for all three algorithms. The respiration rate of active tissues (\texttt{r\_1}) is the most sensitive parameters (see figures \ref{fig:accept_rate} and \ref{fig:importance}). Other sensitive parameters are related to water availability (\texttt{beta\_0}), organ exchange rates (\texttt{P\_max} and \texttt{u\_max}) and soil coverage by roots (\texttt{rho\_ ar} and \texttt{k\_or}).
 
-\begin{marginfigure}\label{fig:importance}
+\begin{marginfigure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/importance.pdf}
-\caption[Relative importance of main parameters for selection]{Relative importance of main parameters for selection under the three main allocation algorithms: \textcolor{myOrange}{non plastic}, \textcolor{myGreen}{fixed-equilibrium} \& \textcolor{myBlue}{plastic}.}
+\caption[Relative importance of main parameters for selection]{Relative importance of main parameters for selection under the three main allocation algorithms: \textcolor{myOrange}{non plastic}, \textcolor{myGreen}{fixed-equilibrium} \& \textcolor{myBlue}{plastic}.}\label{fig:importance}
 \end{marginfigure}
 
 
@@ -176,18 +176,18 @@ The total biomass is particularly sensitive to the tissue respiration cost (\tex
 
 The species-specific parameter \texttt{tau} controlling the balance between genetic and environmental control does not emerge as an influencing parameter at the global scale for any of the two flexible allocation rules.
 
-\begin{figure}\label{fig:sensitivity_BM}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/par_effect_none_BM.png}
-\caption{Main parameters effect on the total plant biomass. \textit{Non plastic}. One dot represents a parameter set. Not all parameter set are represented as the y axis is limited around the smooth function (local regression). Coloured points represent selected parameter sets in the two treatments (\textcolor{myOrange}{dry} and \textcolor{myGreen}{wet}).}
+\caption{Main parameters effect on the total plant biomass. \textit{Non plastic}. One dot represents a parameter set. Not all parameter set are represented as the y axis is limited around the smooth function (local regression). Coloured points represent selected parameter sets in the two treatments (\textcolor{myOrange}{dry} and \textcolor{myGreen}{wet}).}\label{fig:sensitivity_BM}
 \end{figure}
 
 % RSR
 Root:Shoot Ratio (or RMF in figure \ref{fig:sensitivity_RSR}) strongly responds to species-specific parameters under \textit{non plastic} allocation because the memory parameters (\texttt{l\_ini} and \texttt{w\_ini}) are the means plants control their RSR. For other allocation rules, species-specific parameters have little control over RSR. Surprisingly, the photosynthetic capacity has a stronger influence on the ratio than the root maximum exchange rate.
 
 
-\begin{figure}\label{fig:sensitivity_RSR}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/par_effect_none_RSR.png}
-\caption{Main parameters effect on the total plant Root Mass Fraction (RMF). \textit{Non plastic}}
+\caption{Main parameters effect on the total plant Root Mass Fraction (RMF). \textit{Non plastic}}\label{fig:sensitivity_RSR}
 \end{figure}
 
 % TAU
@@ -197,9 +197,9 @@ Root:Shoot Ratio (or RMF in figure \ref{fig:sensitivity_RSR}) strongly responds 
 Little to no difference in RSR is expected for \textit{non plastic} allocation rule since allocation promoted a fixed phenotype, but both \textit{fixed-equilibrium} and \textit{plastic-optimisation} allocation rules allow for changes in RSR. Nevertheless, no stable change in RSR is observed in any of the simulations. Fluctuations are present but consist in stable oscillations between two fixed values (see figure \ref{fig:comparison_RSR}), synchronized with water variations. These rapid adaptations of the relative proportion of roots denote a high flexibility of plant phenotypes in \model.
 
 
-\begin{figure*}\label{fig:comparison_RSR}
+\begin{figure*}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Calibration/RSR_full_sim_f-e.png}
-\caption{Comparison of simulated values of RSR with real species RSR in two contrasting conditons. Because there is no plasticity or ontogeny, the simulated plants do not express any chagnes in RSR. \textit{Fixed-equilibrium}.}
+\caption{Comparison of simulated values of RSR with real species RSR in two contrasting conditons. Because there is no plasticity or ontogeny, the simulated plants do not express any chagnes in RSR. \textit{Fixed-equilibrium}.}\label{fig:comparison_RSR}
 \end{figure*}
 
 
@@ -280,9 +280,9 @@ The memory of external conditions plays a determining role in phenotypic develop
 
 \paragraph{Allocation algorithms}
 
-\begin{figure}\label{fig:allocation}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Individual/allocation_rules.pdf}
-\caption[Effect of the different allocation algorithms on the different biomass compartments]{Effect of the different allocation algorithms on the different biomass compartments of the plant. The fraction of organic matter allocated to the stem (ensemble of supporting tissues for shoot and roots) are increasing over time for all algorithms. The \textit{non plastic} algorithm show constant allocation coefficients between above-ground and below-ground compartments and between active and structural tissues. All others show different coefficients for the above-ground - below-ground partitioning, and the \textit{plastic-optimisation} algorithm have changing proportion of active and structural tissues. The bottom-right panel shows the total biomass for the four allocation algorithms after 100 days. }
+\caption[Effect of the different allocation algorithms on the different biomass compartments]{Effect of the different allocation algorithms on the different biomass compartments of the plant. The fraction of organic matter allocated to the stem (ensemble of supporting tissues for shoot and roots) are increasing over time for all algorithms. The \textit{non plastic} algorithm show constant allocation coefficients between above-ground and below-ground compartments and between active and structural tissues. All others show different coefficients for the above-ground - below-ground partitioning, and the \textit{plastic-optimisation} algorithm have changing proportion of active and structural tissues. The bottom-right panel shows the total biomass for the four allocation algorithms after 100 days. }\label{fig:allocation}
 \end{figure}
 
 
@@ -317,9 +317,9 @@ The plastic algorithms show similar levels of variation and range, while the \te
 %Isn't it possible to show these along memory or active/str ratio axis?
 
 
-\begin{figure}\label{fig:plastic_allocation_trajectory}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Individual/memory_effect.png}
-\caption{Trajectories along time in the strategy space of 5 plants with different memories. After 10 days, all plants have converged toward the estimated optimum.}
+\caption{Trajectories along time in the strategy space of 5 plants with different memories. After 10 days, all plants have converged toward the estimated optimum.}\label{fig:plastic_allocation_trajectory}
 \end{figure}
 
 \paragraph{Memory and phenotype}
@@ -328,15 +328,15 @@ The kinetics of the phenotypic shift is first visualised for one parameter set o
 
 The memory of resource availability is a strong enough driver to alter the default phenotype of a species. The effect of the two components of the memory (memory of water availability and memory of light availability) on the three main traits is explored through local regressions. The proportion of active tissues in roots increases to a plateau with the increase in water availability memory (figure \ref{fig:w_ini_p_as_r}). This response pattern is consistent between all parameter sets, but the starting points and slopes may differ. The same pattern is observed between light availability memory and proportion of active tissues in roots (data not shown). The allocation convergence in the root is also influenced by the increase in light availability memory. An increase in the latter leads to a smooth increase in the former (see figure \ref{fig:l_ini_p_as_r}) with less drastic response than the water. This response is mirrored in shoot allocation response to increase in water availability memory (data not shown). Both organs react in symmetric ways to increase in resource availability. The RSR has a negative log response to water availability memory (positive in the case of light availability memory).
 
-\begin{figure}\label{fig:w_ini_p_as_r}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Individual/w_ini_p_as_r.pdf}
-\caption{Effect of memory of water availability on proportion of active tissues in roots. \textit{Plastic-optimisation}. Each line correspond to a local regression fitted for all memory combinations for a given parameter set. Water availability memory is given in percentage of maximum exchange rate, absolute values may change between parameter sets.}
+\caption{Effect of memory of water availability on proportion of active tissues in roots. \textit{Plastic-optimisation}. Each line correspond to a local regression fitted for all memory combinations for a given parameter set. Water availability memory is given in percentage of maximum exchange rate, absolute values may change between parameter sets.}\label{fig:w_ini_p_as_r}
 \end{figure}
 
 
-\begin{figure}\label{fig:l_ini_p_as_r}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Individual/l_ini_p_as_r.pdf}
-\caption{Effect of memory of water availability on proportion of active tissues in shoot. \textit{Plastic-optimisation}. Each line correspond to a local regression fitted for all memory combinations for a given parameter set. Light availability memory is given in percentage of maximum exchange rate, absolute values may change between parameter sets.}
+\caption{Effect of memory of water availability on proportion of active tissues in shoot. \textit{Plastic-optimisation}. Each line correspond to a local regression fitted for all memory combinations for a given parameter set. Light availability memory is given in percentage of maximum exchange rate, absolute values may change between parameter sets.}\label{fig:l_ini_p_as_r}
 \end{figure}
 
 The combined effect of the two axes of plant resource availability memory is observed by plotting the phenotypes (on the 2D space of active tissue allocation) of four contrasting memories for all parameter sets (figure \ref{fig:memory_n_phenotype}). There is clear clustering of the four memory profiles, with some overlaps due to the fact that multiple parameter sets are plotted at the same time. The memory of low availability (\textcolor{myRed}{$\bullet$}) has a much larger distribution area than others, suggesting the relative instability of this profile within the "estimated net gain landscape". A memory of low availability for both resources drives plant toward very conservative strategies than other strategies. High expected availability of at least one resource increases allocation to active tissues to both organs. This confirms the positive effect of complementary resources (light for roots and water for the shoot) of active tissue allocation in organs (see figure \ref{fig:l_ini_p_as_r}). Because of this, there is no highly unbalance phenotypes with high contrast between organ-specific allocation emerging from the \textit{plastic-optimisation} allocation in \model. There is general coordination, but the balance between resource availability memories still impacts the position on the 2D, illustrated by the absence of overlap between low light - high water  (\textcolor{myBlue}{$\bullet$}) and high light - low water (\textcolor{myYellow}{$\bullet$}) phenotypes. In case of high resource availability and coordination, high investment in active tissues for both organ is achieved (\textcolor{myGreen}{$\bullet$}) and high light - high water), but the range of values is similar than for unbalanced memories (\textcolor{myBlue}{$\bullet$}) and high light - low water (\textcolor{myYellow}{$\bullet$}).
@@ -351,7 +351,7 @@ The combined effect of the two axes of plant resource availability memory is obs
 
 \textcolor{myBlue}{$\bullet$ low light - HIGH water},
 
-\textcolor{myGreen}{$\bullet$ HIGH light - HIGH water}.}
+\textcolor{myGreen}{$\bullet$ HIGH light - HIGH water}.}\label{fig:memory_n_phenotype}
 \end{figure*}
 
 
@@ -446,9 +446,9 @@ The effects of the species-specific parameters on growth are first studied with 
 
 %The allocation phenotypic space is three-dimensional, but only two dimensions are represented (proportion of active tissues in roots (PAR) and proportion of active tissues in the shoot (PAS)), while the best value of the third (root mass fraction) is used for the projection of the biomass.
 
-\begin{figure}\label{fig:best_phenotypes}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/landscape_PAR-PAS.pdf}
-\caption{Projection of best phenotypes (varying RMF) on the 2D PAR-PAS plane for each parameter set. Points identify the optima. \textit{Non plastic}.}
+\caption{Projection of best phenotypes (varying RMF) on the 2D PAR-PAS plane for each parameter set. Points identify the optima. \textit{Non plastic}.}\label{fig:best_phenotypes}
 \end{figure}
 
  On the tissue allocation plan (proportion of active tissues in leaves and roots) (see figure \ref{fig:best_phenotypes}), the best performing phenotypes present a bean shape. This shape covers a good fraction of the space, in the centre and sometimes top-right corner (high active tissue allocation) of the 2D space, while other corners are ignored. Too low values for any of the organs lead to a limited growth. For certain parameter sets, the top-right corner, corresponding to high resource acquisition strategies, has lower growth values than the centre. They have lower growth values than phenotypes with similar values for one of the organs and a lower value for the other organ.  %This shape suggest that relative importance of organ efficiency is lower than other criteria such as equilibrium and overall performance (see section \ref{chapter:modelling_PP} paragraph \ref{subsection:match} for the discussion on the components of plant performance). On this plane, the lowest values of plant biomass are characterised by low values of active tissue allocation. 
@@ -465,9 +465,9 @@ Introducing resource availability variations and plasticity can impact the shape
 
 A shift of gravity centres can be observed between the two resource levels in all allocation algorithms (see figure \ref{fig:gravity_shift_resource}, the four panels). \textit{Non plastic} and \textit{fixed} algorithm show similar trends with an increase in the proportion of active tissues in both organs. This change toward more exploitative tissues is consistent and can be observed for all parameter sets but one. The \textit{plastic-optimisation} algorithm show drastically different responses of the gravity centre of phenotypes. There is little change in shoot proportion of active tissues, but a consistent reduction of active tissues in the root system, and a reduction of root mass fraction (data not shown). These two responses indicate a net reduction of root activity in favour of shoot activity. Two things must be taken into consideration while looking at these results: (1) the gravity center is computed from final position into the phenotypic space, not the starting position, (2) because \textit{plastic-optimisation} algorithm allows changes in traits that are represented (PAR and PAS), shifts along these axes can be driven by the plasticity mechanisms and not neceseraly only performance differences. A similar representation of the gravity centre computed from the initial phenotype (not shown) shows a similar response for the three first algorithms and no apparent shift for the \textit{plastic-optimisation} plasticity.
 
-\begin{figure}\label{fig:gravity_shift_resource}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/ld_gravity_resourceall.pdf}
-\caption{Shift on the 2D phenotypic space of the center of gravity as function of resource availability. The center of gravity is defined as the average phenotype weighted by the relative biomass, and characterises the performance landscape.}
+\caption{Shift on the 2D phenotypic space of the center of gravity as function of resource availability. The center of gravity is defined as the average phenotype weighted by the relative biomass, and characterises the performance landscape.}\label{fig:gravity_shift_resource}
 \end{figure}
 
 \textit{Non plastic} and \textit{fixed} plasticities respond in a same way to a shift in resource availability. However, we can note that the gravity centres have a lower proportion of active tissues for \textit{fixed} allocation algorithm compared to the \textit{non plastic} one.
@@ -478,32 +478,32 @@ A shift of gravity centres can be observed between the two resource levels in al
 
 Plastic allocation leads to an improvement in mean biomass of all individuals for all three plastic allocation algorithms (see figure \ref{fig:mean_BM_pl}). The \textit{fixed-equilibrium} plants are 2.5 times bigger in average than \textit{non plastic} plants (in low resource conditions), and up to 7 times bigger for \textit{plastic-optimisation} plant. These ratios are relatively similar for high resource availability. 
 
-\begin{figure}\label{fig:mean_BM_pl}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_BM_allocation.pdf}
-\caption{Mean relative biomass as a function of allocation algorithm and resource level.}
+\caption{Mean relative biomass as a function of allocation algorithm and resource level.}\label{fig:mean_BM_pl}
 \end{figure}
 
 However, the maximum biomass is only marginally improved with an increase of 6\% for \textit{fixed-equilibrium} and 8\% for \textit{fixed-optimisation} in low resource condition (see figure \ref{fig:max_BM_pl}). These percentages drop to less than 1\% in high resource availability conditions. The \textit{plastic-optimisation} algorithm even leads to a decrease in the maximum biomass averaging 10\% and 13\% respectively in low and high resource availability conditions.
 
-\begin{figure}\label{fig:max_BM_pl}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_maxBM_allocation.pdf}
-\caption{Maximum biomass relative to the \textit{non plastic} simulations, as a function of allocation algorithm and resource level.}
+\caption{Maximum biomass relative to the \textit{non plastic} simulations, as a function of allocation algorithm and resource level.}\label{fig:max_BM_pl}
 \end{figure}
 
 \paragraph{Phenotypic convergence}
 
 The effect of plasticity on the potential diversity is estimated by looking at the species that reach the range of 90\% to 100\% of the maximum biomass within the specific conditions (for each parameter set, algorithm and condition separately).
 
-\begin{figure}\label{fig:species_richness}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_eveness.pdf}
-\caption{Proportion of species within the range of 90\% to 100\% of the maximum biomass, as a function of allocation algorithm and resource level.}
+\caption{Proportion of species within the range of 90\% to 100\% of the maximum biomass, as a function of allocation algorithm and resource level.}\label{fig:species_richness}
 \end{figure}
 
 The number of species within this range is extremely low in \textit{non plastic} allocation algorithm simulations, with 1.4\% and 2.1\% respectively for low and high resource conditions. This percentage is greatly improved by plastic allocation algorithm and reach in average 9\% to 15\% of species in \textit{fixed-equilibrium} and \textit{fixed-optimisation} algorithm, while it can reach up to 100 \% for \textit{plastic-optimisation} algorithm, with a mean proportion of species with a top performance around 72\% in low availability condition, and up to 82\% in high resource availability condition.
 
-\begin{figure}\label{fig:function_div}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/plot_fdiv.pdf}
-\caption{Functional volume occupied by the species within the range of 90\% to 100\% of the maximum biomass, as a function of allocation algorithm and resource level.}
+\caption{Functional volume occupied by the species within the range of 90\% to 100\% of the maximum biomass, as a function of allocation algorithm and resource level.}\label{fig:function_div}
 \end{figure}
 
 The functional diversity, estimated with the approximate volume of the top phenotypes, follows an opposite trend, with the highest value for the \textit{non plastic} allocation algorithm. \textit{Fixed} algorithms present half the functional volume of the \textit{non plastic} algorithm, and the \textit{plastic-optimisation} algorithm has extremely low values five times lower than the \textit{non plastic} ones.
@@ -532,9 +532,9 @@ On one hand, the extent of strategies (plan PAR-PAS in figure \ref{fig:best_phen
 
 On the other hand, the organ-specific strategies are also important as low values for any of the organs (leaves or roots) lead to very low growth. Extreme high values can also be limiting, suggesting the existence of an optimum of the proportion of active tissue for the tissue efficient. This \textemph{optimum tissue efficiency} results from trade-off between active and structural tissues, driven by the relative importance of carbon gain (increased exchange area with active tissues) and carbon loss (increased respiration and turn-over with the proportion of active tissues) that depends on models parameters and resource availability (that change the exchange rate).
 
-\begin{marginfigure}\label{fig:function_div}
+\begin{marginfigure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Landscape/ld_axis.pdf}
-\caption{Alternative axes to describe the plant phenotypes on the plan PAR-PAS (PAR: proportion of active tissues in roots, PAS: proportion of active tissues in shoot). The slow-fast axis refers to the proportion of active tissues (close to the fast-slow strategies of \citet{reich_world-wide_2014}), while the orthogonal axis shows how coordinated the plant is (see \citet{freschet_integrated_2015} for similar concept).}
+\caption{Alternative axes to describe the plant phenotypes on the plan PAR-PAS (PAR: proportion of active tissues in roots, PAS: proportion of active tissues in shoot). The slow-fast axis refers to the proportion of active tissues (close to the fast-slow strategies of \citet{reich_world-wide_2014}), while the orthogonal axis shows how coordinated the plant is (see \citet{freschet_integrated_2015} for similar concept).}\label{fig:function_div}
 \end{marginfigure}
 
 However, meeting these tissues specific optima might not be sufficient, as the bean shape of the best phenotypes suggests, another component is relevant. Low values of the proportion of active tissue in one organ can be compensated by a high allocation of active tissues in the other organ that allows a higher allocation in the low exchange rate organ. This confirms the importance of the equilibrium over the tissue-specific strategies. But the shape also reveals a last component of the plant performances. The fact that species with high values of the proportion of active tissues in both organs have lower biomass, is certainly due to a limitation of both resources (equilibrium is assumed), reducing the overall efficiency. 
@@ -607,16 +607,16 @@ The \textit{plastic-optimisation} algorithm is characterised by a high convergen
 The fact that this plasticity does not translate into higher maximum biomass is surprising, especially considering the fact that RMF plasticity improves maximum biomass (see figure \ref{fig:mean_BM_pl}). Lag in adaptation is often identified as a limit of plasticity \parencite{dewitt_costs_1998, van_kleunen_constraints_2005}, nevertheless, in a constant resource influx experiment, and considering the high phenotypic flexibility of plants in \model, this explanation is unlikely. Another problem highlighted with plasticity is its adaptiveness. Evolutionarily speaking, it is hard to imagine the emergence and maintenance of a plasticity mechanism (in a given context) if it is no adaptive. Yet, such process could be maladaptive in a new context. Because plasticity is not emerging but imposed by the simulation set up, its adaptiveness can be discussed. Here adaptiveness does not refer to a reduction of fitness due to plasticity but to the capacity of the plastic mechanism to define an optimum (or at least better) phenotype. Plasticity, as implemented in the model, has no explicit bias and all mechanisms involved in plant growth are simulated by the allocation algorithm. The sampling of phenotypes is random and could be a source of uncertainty, but it is uniform and no consistent drift is likely to emerge from the noise introduced by such sampling. The last aspect of plasticity that can affect the adaptiveness of plasticity is the estimation of conditions. The estimation of conditions is based on the resource levels experienced by the plant and by definition are exact. Thus, the problem lies in the projection of these conditions and how they translated into resource uptakes.
 
 
-\begin{figure}\label{fig:exchange_volume_projection}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Concepts/exchange_volume_projection.pdf}
-\caption{Projection of the water volume exchange after increase in exchange area at equilibrium and with no limitation.}
+\caption{Projection of the water volume exchange after increase in exchange area at equilibrium and with no limitation.}\label{fig:exchange_volume_projection}
 \end{figure}
 
 In \model the resource availability is coded as an uptake rate per day and per unit of exchange area and is computed as the resource uptake divided by the exchange area. This resource availability is supposed constant, and plants make the assumption that increasing their exchange area leads to a proportional increase in resource volume exchanged (see figure \ref{fig:exchange_volume_projection}).
 
-\begin{figure}\label{fig:exhaustion}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Concepts/exhaustion2.pdf}
-\caption{Projection of the water volume exchange after an increase in exchange area when total available water volume is limiting. The water volume exchanged cannot exceed the total available water volume, leading to a systematic over-estimation of water availability and offset between shoot and root activity.}
+\caption{Projection of the water volume exchange after an increase in exchange area when total available water volume is limiting. The water volume exchanged cannot exceed the total available water volume, leading to a systematic over-estimation of water availability and offset between shoot and root activity.}\label{fig:exhaustion}
 \end{figure}
 
 However, in the case where a plant already absorbs all the available resource, then this assumption is not respected, and the uptake rate per area is lower than expected (see figure \ref{fig:exhaustion} right panel, realised exchanged volume does not match the projection because it cannot exceed the total volume of available water). This gap between perception and actual resource availability occurs because the plant is not able to perceive that the limitation cannot be compensated by a higher investment in the limiting organ. This behaviour explains a very high investment toward root and root active tissues in low resource conditions under \textit{plastic-optimisation} allocation (figure \ref{fig:gravity_shift_resource}). This gap\sidenote{this is different from a lag because it is not the result of slow changes in phenotype but comes from a default in the estimation of the optimum phenotype.} is the cause of the \textemph{plastic exhaustion} phenomenon. Indeed, this constant over-estimation leads to a constant discrepancy between the estimated optimum phenotype and the actual phenotype, and a larger allocation to root active tissues. This effect is particularly noticeable in the context of pot simulations where the water pool is limited. The absence of plasticity costs also favours such extreme behaviour. 
@@ -686,17 +686,17 @@ To study the effect of plasticity on community identity along with a precipitati
 The effect of allocation algorithm is observed on all species by plotting the position of the median \textit{optimum} along the watering gradient that translates what part of the strategy spectrum (from conservative to exploitative) benefit from the simulation conditions. At the low end of the gradient, conservative species exhibit higher growth than exploitative species with a median optimum around 25\% of active tissues in roots for both the \textit{non plastic}and the \textit{fixed-equilibrium} plastic allocation. In the other end of the spectrum, for watering values above 1 mm per day, the \textit{optimum} reaches a high point (median around 90\% of active tissues for both algorithms) demonstrating the better performance of the exploitative species in high resource availability conditions.  There are no apparent differences between algorithms and the optimum is conserved along the gradient. There is a similar shift with an increase of optimum water availability memory for \textit{non plastic} algorithm.
 
 
-\begin{figure}\label{fig:gradient_strat_trend}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_strat_trend.pdf}
-\caption{Median (bold line \textbf{--}) optimum root strategy along the water treatment gradient for \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}} allocation algorithms. The light lines (--) correspond to the 20 independent parameter sets. The color ribbon marks the band between the 5th and 95th percentiles.} % Maybe I should change that so it is the 25th and 75th like for variable inputs.
+\caption{Median (bold line \textbf{--}) optimum root strategy along the water treatment gradient for \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}} allocation algorithms. The light lines (--) correspond to the 20 independent parameter sets. The color ribbon marks the band between the 5th and 95th percentiles.} \label{fig:gradient_strat_trend}% Maybe I should change that so it is the 25th and 75th like for variable inputs.
 \end{figure}
 
 The memory of water availability of best-performing phenotypes increases along the gradient under \textit{non plastic} allocation (see figure \ref{fig:gradient_w_ini_trend}, left panel), but the plasticity negates the effect of this species-specific parameter and no clear pattern can be observed (right panel).
 
 
-\begin{figure}\label{fig:gradient_w_ini_trend}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/best_w_ini_pl_rain_grad_alt.pdf}
-\caption{Median (bold line \textbf{--}) optimum water avaialbility memory along the water treatment gradient for \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}} allocation algorithms. The light lines (--) correspond to the 20 independent parameter sets. The color ribbon marks the band between the 5th and 95th percentiles.} % Maybe I should change that so it is the 25th and 75th like for variable inputs.
+\caption{Median (bold line \textbf{--}) optimum water avaialbility memory along the water treatment gradient for \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}} allocation algorithms. The light lines (--) correspond to the 20 independent parameter sets. The color ribbon marks the band between the 5th and 95th percentiles.} \label{fig:gradient_w_ini_trend}% Maybe I should change that so it is the 25th and 75th like for variable inputs.
 \end{figure}
 
 
@@ -706,21 +706,21 @@ The total cumulative biomass of all plants increases along the precipitation gra
 %Strongly affect the potential overall productivity captured by cumulative biomass.
 
 
-\begin{figure}\label{fig:total_BM}
+\begin{figure}
     \classiccaptionstyle
 \sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_cumBM.pdf}
 }{
 \caption[Total biomass along a precipitation gradient]{Total biomass of all individual along a precipitation gradient for all tested parameter sets. Colour distinguishes plasticity treatments: \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}}.}
-  }
+  }\label{fig:total_BM}
 \end{figure}
 
 The effect on the maximum biomass is also investigated. For most simulation the maximum biomass is unchanged, and the median of the maximum biomass follow the same path for both conditions. However, the 75th and the 95th percentiles of plastic simulations show a high increase in maximum biomass.
 % But, only marginally (for a few parameter sets) increases the biomass of best species.
 
-\begin{figure}\label{fig:maximum_BM}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_rel_BM_pl_trend.pdf}
-\caption[Maximum biomass relative along a precipitation gradient]{Median (bold line \textbf{--}) maximum biomass relative to the best performing plant in the most favourable condition for each parameter set, along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}}. The color ribbons mark the bands between the 5th and 95th and between the 25th and 75th percentiles.}
+\caption[Maximum biomass relative along a precipitation gradient]{Median (bold line \textbf{--}) maximum biomass relative to the best performing plant in the most favourable condition for each parameter set, along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}}. The color ribbons mark the bands between the 5th and 95th and between the 25th and 75th percentiles.}\label{fig:maximum_BM}
 \end{figure}
 
 %That probably means more species reaching high-performance levels.
@@ -729,15 +729,15 @@ The effect on the maximum biomass is also investigated. For most simulation the 
 
 Similarly to the previous results, the potential diversity is estimated with the number of species, or the functional volume, of the species within the 90\%-100\% range of the maximum biomass for the given conditions.
 
-\begin{figure}\label{fig:species_richness_grad}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_plot_spdiv10.pdf}
-\caption[Species richness of the best performing species along a precipitation gradient]{Median (bold line \textbf{--}) species richness of the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}}. The color ribbon marks the band between the 5th and 95th percentiles.} \end{figure}
+\caption[Species richness of the best performing species along a precipitation gradient]{Median (bold line \textbf{--}) species richness of the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}}. The color ribbon marks the band between the 5th and 95th percentiles.}\label{fig:species_richness_grad} \end{figure}
 
 The species richness decreases along the gradient under the two plasticity treatments. The medians of species richness reach the low point for the same precipitation values than the medians of the optimum reach the highest values. The \textit{fixed-equilibrium} simulations show highest species richness along the whole gradient (except for one parameter set).
 
-\begin{figure}\label{fig:functional_div_grad}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/gradient_plot_fdiv10.pdf}
-\caption[Functional diversity of the best performing species along a precipitation gradient]{Median (bold line \textbf{--}) estimation of the functional volume occupied by the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}}. The color ribbon marks the band between the 5th and 95th percentiles.} \end{figure}
+\caption[Functional diversity of the best performing species along a precipitation gradient]{Median (bold line \textbf{--}) estimation of the functional volume occupied by the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a precipitation gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{-- \textit{non plastic}} \&  \textcolor{myGreen}{-- \textit{fixed-equilibrium}}. The color ribbon marks the band between the 5th and 95th percentiles.}\label{fig:functional_div_grad} \end{figure}
 
 The functional volume occupied by the top species also decreases for both plasticity when the precipitations increase. For low watering values the functional volume of \textit{non plastic} simulation is higher, however this difference disappears when both groups of simulations reach low functional diversity.
 
@@ -748,9 +748,9 @@ The functional volume occupied by the top species also decreases for both plasti
 %The potential effect of plasticity on niche breadth is visualised here for one representative parameter set.
 The median performance of the best performing phenotypes for each condition of the gradient is compared with and without RMF plasticity (\textit{fixed-equilibrium}) along the gradient. It is limited to the best phenotypes to mimic a degree of biotic filtering. The plasticity greatly enhance the ability of the plants to maintain a high growth, often comparable to the one of the best phenotype, along the gradient. The extreme low value of the gradient shows no differences between phenotypes because the water level does not allow plant to grow, only the organic matter content is the seed is used, leading to similar outputs. As seen in figure \ref{fig:gradient_strat_trend}, the best phenotypes often share the same strategy, but differ in memory for resource availability (figure \ref{fig:gradient_strat_trend}). Under \textit{fixed-equilibrium} allocation (right panel), the left end of the gradient (except the first value of precipitation) shows more contrast in the performances in strategies, while the right end (more water) shows very little contrast. This is very different from the \textit{non plastic} allocation results (left panel) that shows large differences between the best strategies along the whole gradient.  
 
-\begin{figure}\label{fig:gradient_ranking}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/optimum_shifting_median.pdf}
-\caption{Median relative performance of best phenotypes along a precipitation gradient for 20 parameter sets.}
+\caption{Median relative performance of best phenotypes along a precipitation gradient for 20 parameter sets.}\label{fig:gradient_ranking}
 \end{figure}
 
 %The effect of the plasticity on the potential niche can be observed by looking at the cumulative number of species within the 91\%-100\% range of maximum biomass along the gradient (figure \ref{fig:gradient_ranges}). For all parameter sets, there is an increase in the number of species 
@@ -805,9 +805,9 @@ The cumulative productivity of all species combined is largely improved by the p
 This form of gain provided by the phenotypic plasticity can be called \textemph{static gain}, as it is capped by the best performing constant phenotype. It is illustrated in the figure \ref{fig:filter}. The gain only comes from the transition from a sub-optimum phenotype toward the best one (see  \textcolor{myOrange}{starting phenotype A}  shifting toward the green one). The gain can be quantified as the total biomass difference between the non plastic species (- - dashed line) and the plastic one (- continuous line).  In constant condition, the best phenotype cannot benefit from the plasticity because it has the highest growth rate along time and has no static gain (\textcolor{myGreen}{starting phenotype B}). 
 
 
-\begin{figure}\label{fig:filter}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/filtering.pdf}
-\caption[Abiotic filtering in constant conditions]{Conceptual representation of the abiotic filtering in constant conditions and the illustration of the static gain. The top panel represents the abiotic filtering landscape with a central valley and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines. }
+\caption[Abiotic filtering in constant conditions]{Conceptual representation of the abiotic filtering in constant conditions and the illustration of the static gain. The top panel represents the abiotic filtering landscape with a central valley and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines. }\label{fig:filter}
 \end{figure}
 
 % abiotic filtering, constant filter
@@ -835,13 +835,13 @@ While the effects at the community level are still hard to define, the phenotypi
 
 In a context of global change, to survive two options are possible: (1) migrate to new habitat with suited conditions, (2) adapt to new condition in the same habitat. In this context, the phenotypic plasticity facilitates both the adaptation to new conditions in the same spatial habitat and the adaptation to a new habitat that match the ideal conditions only to a certain degree. By facilitating the adaptation to new conditions or habitat, the phenotypic plasticity reduces the relative importance of climatic variables compared to the competition as already suggested by empirical results \parencite{alexander_novel_2015}.\\
 
-\begin{figure}\label{fig:rain_pl_effect}
+\begin{figure}
     \classiccaptionstyle
 \sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
 \includegraphics[width = \textwidth]{./2_PP/Figures/Rain/rain_pl_effects.pdf}
 }{
 \caption[Effect of plasticity in constant conditions]{Effect of the phenotypic plasticity on the main properties of the grassland communities in constant conditions.}
-}
+}\label{fig:rain_pl_effect}
 \end{figure}
 
 \textbf{In constant environmental conditions, the phenotypic plasticity already has an impact on species performances and interactions through the static gain it provides to some species. The species that benefit from this static gain have the optimum resource-use strategy, but a wrong estimation (memory) of the resource availability. It increases the fitness evenness of species by reducing the abiotic filtering dimensionality down to the resource-use strategy, axis not influenced by the plasticity. This leads to a convergence of the phenotypes and a widening of the fundamental niche. The effects at the community level are hard to anticipate, but they will be largely dependent on the competitive interactions and how they are affected by the plasticity. The reduction of the abiotic filtering will likely increase the species diversity, but the functional diversity might not follow this trend due to functional convergence. The effects on the other component of the ecosystem properties cannot be fully determined and greatly depend on the outcome of the competitive interactions. In temporally heterogeneous conditions, the phenotypic plasticity may play a larger role and greatly mediate the community's properties.}
@@ -861,9 +861,9 @@ The maximum biomass (relative to the \textit{non plastic} best performance in co
 
 In contrast with the stable conditions (see previous results) the plasticity provide, in non-constant conditions a great improvement in the maximum biomass for most parameter sets. 
 
-\begin{figure}\label{fig:variable_BM}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_relnone_BM_trend.pdf}
-\caption[Biomass variations along a gradient of resource variability]{Median (bold line) biomass variation of the best performing species along a gradient of resource variability for four plasticity treatment. The upper panel of the top-left frame illustrates the water influx as a function of time along the variability gradient. The dotted lines in the top-left frame indicate the median biomass for the other three algorithms. The color ribbons mark the bands between the 5th and 95th and between the 25th and 75th percentiles. }
+\caption[Biomass variations along a gradient of resource variability]{Median (bold line) biomass variation of the best performing species along a gradient of resource variability for four plasticity treatment. The upper panel of the top-left frame illustrates the water influx as a function of time along the variability gradient. The dotted lines in the top-left frame indicate the median biomass for the other three algorithms. The color ribbons mark the bands between the 5th and 95th and between the 25th and 75th percentiles. }\label{fig:variable_BM}
 \end{figure}
 
 %
@@ -873,29 +873,29 @@ In contrast with the stable conditions (see previous results) the plasticity pro
 
 In addition to a reduction of biomass, the increasing slope of the water influx reduction leads to a shift of the optimum strategy in \textit{non plastic} simulations (see figures \ref{fig:variable_strategy} \&  \ref{fig:variable_trajectories}) toward more conservative strategies. The median optimum value shifts from 0.85 to 0.75 and 0.35 in extreme conditions. This reduction of optimum toward more conservative strategies is offset in most of \textit{fixed-equilibrium} and \textit{fixed-optimisation} simulations where the median optimum value for the PAR stays above 80\%. Only a small reduction (around 25\%) of the 5th and 25th percentiles of the optimum root strategy can be observed between the extreme conditions for these two algorithms.
 
-\begin{figure}\label{fig:variable_strategy}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_strat_trend.pdf}
-\caption[Strategy shift along a gradient of resource variability]{Median (bold line) strategy (PAR: proportion of active tissues in root) shift of the best performing species along a gradient of resource variability for four plasticity treatment. The dotted lines in the top-left frame indicate the median PAR for the other three algorithms. The color ribbons mark the bands between the 5th and 95th and between the 25th and 75th percentiles.}
+\caption[Strategy shift along a gradient of resource variability]{Median (bold line) strategy (PAR: proportion of active tissues in root) shift of the best performing species along a gradient of resource variability for four plasticity treatment. The dotted lines in the top-left frame indicate the median PAR for the other three algorithms. The color ribbons mark the bands between the 5th and 95th and between the 25th and 75th percentiles.}\label{fig:variable_strategy}
 \end{figure}
 
  This shift in optimum strategy can better be observed on the plan of the proportion of active tissues in roots (PAR) and root mass fraction (RMF) in figure \ref{fig:variable_trajectories} where all trajectories\sidenote{trajectory of the optimum, not of the species.} along the variability gradient are plotted. \textit{Non plastic} allocation trajectories by a linear shift toward more conservative strategies with a higher allocation to roots, while \textit{fixed-equilibrium} and \textit{fixed-optimisation} trajectories are non-linear and can be divided into two phases: (1) increase in RMF, (2) reduction of PAR. \textit{Plastic-optimisation} algorithm shows no consistent pattern in trajectories.
 
 
-\begin{figure*}\label{fig:variable_trajectories}
+\begin{figure*}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_2D_strat_dyn.pdf}
-\caption[Best phenotypes along water resource variability gradient]{Best phenotypes along water resource variability gradient. Thinner lighter lines indicate low water variability, while the thicker lines indicate strong temporal heterogeneity.}
+\caption[Best phenotypes along water resource variability gradient][-1cm]{Best phenotypes along water resource variability gradient (line thickness encore water availability).}\label{fig:variable_trajectories}
 \end{figure*}
 
-\paragraph{Diversity}
+\paragraph[2.5cm]{Diversity}
 
 %As previously seen, plasticity can affect diversity in a drastic way, reducing the functional diversity by contracting the phenotypic space, but also increasing the potential species diversity by the same mechanism. The effect of static gain\sidenote{refers on the gain due to convergence toward a good static phenotype and no temporal changes.} and dynamic gain must be disentangled. The 
 
 
 Along the gradient, the performance and the identity of the bet phenotype were greatly altered by the water variability, but the phenotypic plasticity mitigates these effects. The number of species is fairly stable for all algorithms but the \textit{non plastic} that shows an improvement in species diversity. The fixed allocation algorithms have between 15\% and 20\% of the species within the 90\%-100\% range of the maximum biomass for the conditions, while the \textit{non plastic} allocation shows this level only of the extreme variable case, but otherwise is limited to a few percents. The functional diversity is stable along the gradient and is similar for all algorithms (\textit{plastic-optimisation} algorithm being excluded)(data not shown).
 
-\begin{figure}\label{fig:variable}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/var_spdiv_trend.pdf}
-\caption[Species richness of the best performing species along a water resource variability gradient]{Species richness of the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a water resource variability gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.}
+\caption[Species richness of the best performing species along a water resource variability gradient]{Species richness of the species within the range 90\%-100\% of highest biomass for any given condition (parameter and precipitation) along a water resource variability gradient.  Colour distinguishes plasticity treatments: \textcolor{myOrange}{- \textit{non plastic}} \&  \textcolor{myGreen}{- \textit{fixed-equilibrium}}.}\label{fig:variable}
 \end{figure}
 
 %Changes in optimum, but does it affect evenness? Same pattern as before with the trade-off between species and functional diversity. What happens if you filter down stuff?
@@ -948,9 +948,9 @@ This \textemph{asymmetric gain} should favour already established species as it 
 
 The plasticity has also an effect on the maximum biomass as observed in the figure \ref{fig:variable_BM}. This effect is almost null in constant condition, as expected from the previous simulations, but increases with the resource variability. There is no evidence of improvement for all resource-use strategy, but because the unbalance caused by the temporal variability in resource greatly reduces the productivity, we can assume improvement of the biomass for all strategies. Therefore, the productivity between non plastic and plastic community under variable conditions should increase.
 
-\begin{figure}\label{fig:variable_filter}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/variable_filter.pdf}
-\caption[Abiotic filtering in temporally variable conditions]{Conceptual representation of the abiotic filtering in variable conditions and the illustration of the dynamic gain. The top panel represents the abiotic filtering landscape with a sinuous valley and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines.}
+\caption[Abiotic filtering in temporally variable conditions]{Conceptual representation of the abiotic filtering in variable conditions and the illustration of the dynamic gain. The top panel represents the abiotic filtering landscape with a sinuous valley and the trajectories of the species. The middle panel is the growth rate as a function of the phenotype for two positions in time. The bottom panel illustrates the growth curves for the different phenotypes. Two alternative position \textcolor{myOrange}{A} and \textcolor{myGreen}{B} represent a sub-optimum and the optimum position without plasticity (dashed lines). Alternative plastic trajectories are represented by continuous lines.}\label{fig:variable_filter}
 \end{figure}
 
 This is explained by the trajectories within the fitness landscape that can follow the changes in the optimum phenotype, and so present a total biomass superior to the best \textit{non plastic phenotype} (see figure \ref{fig:variable_filter}). The difference of biomass between a \textit{non plastic} phenotype and its plastic counter-part (\textit{fixed-equilibrium} or \textit{fixed-optimisation}) is call the \textemph{dynamic gain}.  This gain is not caped by the best \textit{non plastic} performance.
@@ -977,13 +977,13 @@ While the trade-off between the functional diversity and the species richness is
 
 % Talk about turcotte 
 
-\begin{figure}\label{fig:variable_pl_effect}
+\begin{figure}
     \classiccaptionstyle
 \sidebysidecaption{0.60\textwidth}{0.3\textwidth}{%
 \includegraphics[width = \textwidth]{./2_PP/Figures/Variable/variable_pl_effects.pdf}
 }{
 \caption[Effect of plasticity in variable conditions]{Effect of the phenotypic plasticity on the main properties of the grassland communities in variable conditions.}
-}
+}\label{fig:variable_pl_effect}
 \end{figure}
 
 
@@ -1059,9 +1059,9 @@ Aside from the way plants alter their phenotype to respond to estimated heteroge
 
 
 
-\begin{figure}\label{fig:stress_memory}
+\begin{figure}
 \includegraphics[width = \textwidth]{./2_PP/Figures/Concepts/stress_memory.pdf}
-\caption[Stress memory and recovery]{Stress memory and recovery. A theoretical example of memory formation, where up to thousands of stress-inducible transcripts (green lines) respond to the initial stress, concurrently with an accumulation of signalling molecules and the release of repressive chromatin (orange lines). Upon reexposure to a second stress, persistent signalling molecules and a retained accessible conformation of chromatin (solid lines) allow an enhanced stress response. The recovery period is a critical window where plant memory can be consolidated or resetting (dashed lines) can occur. \textit{Modified from \citet{crisp_reconsidering_2016}, see the paper for more details}.}
+\caption[Stress memory and recovery]{Stress memory and recovery. A theoretical example of memory formation, where up to thousands of stress-inducible transcripts (green lines) respond to the initial stress, concurrently with an accumulation of signalling molecules and the release of repressive chromatin (orange lines). Upon reexposure to a second stress, persistent signalling molecules and a retained accessible conformation of chromatin (solid lines) allow an enhanced stress response. The recovery period is a critical window where plant memory can be consolidated or resetting (dashed lines) can occur. \textit{Modified from \citet{crisp_reconsidering_2016}, see the paper for more details}.}\label{fig:stress_memory}
 \end{figure}
 
 Such mechanism would stabilise the plastic responses in case of non-recovery, or increase the inertia and the amplitude of the response with the transcriptional memory. The stress can be quantified easily, leading to a proportional response of the phenotype to compensate for the stress. In the context of the functional equilibrium, the deficit in the activity in one organ can be compensated by its increase in exchange area. Because the response is related to the stress and not a gain function, it does not have to follow the same constraints as the initial strategy as it is in \model, offering a response decorrelated from the resource-use strategies. When the response can be achieved in multiple ways (increase in allocation or morphological change), a decision must be developed. It seems that this functioning allows for the integration of multiple stress factors, however, difficulties may emerge if they alter the same organ. Cases of additive stress (water and nutrient) can be observed in empirical studies \parencite{fort_root_2015}, suggesting that an additional approach to this problem could work. Multiple stresses integration \parencite{pierik_art_2014} was one of the objectives of the model \model and it was integrated but not tested.

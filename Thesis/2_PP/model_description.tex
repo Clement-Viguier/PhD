@@ -26,14 +26,14 @@ The development of \model ~is motivated by the need for a flexible tool to explo
 \subsection{State variables}
 
 \paragraph{Scales}
-In mountain grasslands individuals (tillers) generally do not grow big and interact only with close neighbours and form little patches. And thus it is possible to represent a rich community at a fairly small scale ($\approx$ dm or m), but the spatial resolution should be relatively fine ($\approx$ cm) to capture inter-individual interactions. Because the model is intended to explore climate change impact on mountain grasslands, it can run on multiple growth seasons separated by snow-covered periods, but must also integrate the intra-seasonal variations at a daily scale. Mountain weather (mostly temperature) is known for its large hourly variations, it would, however, require too much computational power to consider such variations. Modelling such hourly variations also implies the modelling of fine scale water regulation processes. To avoid the high cost of hourly variations, the assumption that plants regulates their water exchanges to maintain fairly constant water use efficiency (WUE) is made. Therefore, the physiological processes are modelled on daily time-step.
+In mountain grasslands individuals (tillers) generally do not grow big and interact only with close neighbours and form little patches. And thus it is possible to represent a rich community at a fairly small scale ($\approx$ dm or m), but the spatial resolution should be relatively fine ($\approx$ cm, the default resolution being 1cm in \model) to capture inter-individual interactions. Because the model is intended to explore climate change impact on mountain grasslands, it can run on multiple growth seasons separated by snow-covered periods, but must also integrate the intra-seasonal variations at a daily scale. Mountain weather (mostly temperature) is known for its large hourly variations, it would, however, require too much computational power to consider such variations. Modelling such hourly variations also implies the modelling of fine scale water regulation processes. To avoid the high cost of hourly variations, the assumption that plants regulates their water exchanges to maintain fairly constant water use efficiency (WUE) is made. Therefore, the physiological processes are modelled on daily time-step.
 
-\paragraph{Plants} The plants are described in the model by state variables described in table \ref{table:state_var_plant}. The best way to understand how plant are represented is to imagine two homogeneous cylinders on top of each other, the shoot cylinder varying in radius and height representing the light acquisition (and shading) zone, and the root cylinder varying only in diameter (because of shallow soil in mountain ecosystems) representing the water acquisition zone. These cylinders are centred on cells of the torus simulation plan to simulate periodic boundary conditions and avoid edge effects.\\
+\paragraph{Plants} The plants are described in the model by state variables described in table \ref{table:state_var_plant}. The best way to understand how plant are represented is to imagine two homogeneous cylinders on top of each other, the shoot cylinder varying in radius and height representing the light acquisition (and shading) zone, and the root cylinder varying only in diameter (because of shallow soil in mountain ecosystems) representing the water acquisition zone. These cylinders are centred on cells of the torus simulation plan to simulate periodic boundary conditions and avoid edge effects. A cell may only be at the center of one individual, but the shoot or root zones of multiple individuals may overlap on a given cell.\\
 \begin{marginfigure}
 \includegraphics{./Figures/plant_geometry_m.pdf}
 \caption{Plant geometry and growth axis.}
 \end{marginfigure}
-\indent In addition to classic variables (age, position, height, diameter, shoot and root biomasses) the plants are described by traits, that can be species-specific or non-specific, others are variable (SLA, SRL) and depend on particular traits that are unique to this model: the \textbf{ratio between active tissue and structural tissue} (in shoot and root) (variables $\frac{act}{str}_{ag}$ and $\frac{act}{str}_{bg}$ in table \ref{table:state_var_plant}). This couple of traits come from the evidence that numerous trade-off observed in leaves can be explained (at least partially) by this allocation trade-off between active tissue producing organic matter, but increasing respiration, and structural tissue that increase tissue lifespan.
+\indent In addition to classic variables (age, position, height, diameter, shoot and root biomasses) the plants are described by traits, that can be species-specific or non-specific, others are variable (SLA, SRL) and depend on particular traits that are unique to this model: the \textbf{ratio between active tissue and structural tissue} (in shoot and root) (variables $\frac{act}{str}_{ag}$ and $\frac{act}{str}_{bg}$ in table \ref{table:state_var_plant})\sidenote{proportion variables $PAS$ and $PAR$ may be used instead of these "inverse" variables}. This couple of traits come from the evidence that numerous trade-off observed in leaves can be explained (at least partially) by this allocation trade-off between active tissue producing organic matter, but increasing respiration, and structural tissue that increase tissue lifespan.
 
 %TAble of plant state variables
 \begin{table2*}
@@ -71,7 +71,7 @@ $water_{exp}$ & below-ground potential resource availability & gH2O.root area\\
 
 %TAble of plant state variables
 \begin{table2*}
-\caption{Species traits}
+\caption{Species traits. Variable marked with a star * are parameters for the corresponding stat variables in the table \ref{table:state_var_plant}.}
 \label{table:state_var_species}
 \begin{center}
 \begin{tabular}{l|c|c|l}
@@ -83,10 +83,10 @@ fract\_dev & 0-1 (0.05-0.6) & - & blooming vs persistence\\
 fract\_rep & 0-1 (0-1) & - & reproduction vs persistence\\
 geometric constant ($k_{g}$) & (0.1 - 20) & - & competition sensitivity vs self-shading\\
 plasticity stability & 0-1  (0.8-1) & - & genetic information vs experience\\
-initial water resource & (0.001 - 0.05) & $gH_{2}O.cm^{-2}$ & water resource niche\\
-initial light resource & (0.001 - 0.05) & $gH_{2}O.cm^{-2}$ & light (in $H_{2}$ equivalent) resource niche\\
-$\frac{act}{str}_{ag,d}$ & (0.03 - 0.3) & $g.g^{-1}$ & active vs structural tissue\\
-$\frac{act}{str}_{gg,d}$ & (0.03 - 0.3) & $g.g^{-1}$ & active vs structural tissue\\
+initial water resource* & (0.001 - 0.05) & $gH_{2}O.cm^{-2}$ & water resource niche\\
+initial light resource*& (0.001 - 0.05) & $gH_{2}O.cm^{-2}$ & light (in $H_{2}$ equivalent) resource niche\\
+$\frac{act}{str}_{ag,d}$* & (0.03 - 0.3) & $g.g^{-1}$ & active vs structural tissue\\
+$\frac{act}{str}_{gg,d}$* & (0.03 - 0.3) & $g.g^{-1}$ & active vs structural tissue\\
 mean temp. & (0 - 5) & \celsius & early vs late germination\\
 germination rate & 0-1 (0.5 - 1) & - & good season bet-hedging\\
 thickness & 	(0.012 - 0.05) & cm & WUE vs light efficiency (not in this version)\\
@@ -224,7 +224,7 @@ Vapour pressure deficit is then computed from temperature and relative humidity.
 
 \textbf{Daily processes}
 
-\paragraph{Light competition}Light competition is central to all vegetation models as it constrains the photosynthetic activity and so plant growth. To avoid costly calculations of ray propagation we assume vertical homogeneous top radiation. Relief and orientation effects are taken into account in the computation of irradiation data.\\
+\paragraph{Light competition}Light competition, also called above-ground competition, is central to all vegetation models as it constrains the photosynthetic activity and so plant growth. To avoid costly calculations of ray propagation we assume vertical homogeneous top radiation. Relief and orientation effects are taken into account in the computation of irradiation data.\\
 Light competition sub-model allows the calculation of individual potential photosynthesis activity and light at soil surface for evaporation calculation.\\
 Competition for light is calculated independently for each pixel, potential photosynthetic activity is then aggregated at the individual level. Each pixel can be seen as a column of homogeneous layers containing at least one individual (top layer). For each layer, the light transmission is computed based on leaf density.
 
@@ -619,7 +619,7 @@ where $LLS$ and $RLS$ are respectively the leaf and the root lifespans calculate
 \indent Root senescent tissues disappear from the system. Information about senescent aboveground biomass is stored, but senescent biomass effect of light competition is ignored in this version because as it is implemented senescent tissues appear early in plant development and have large negative effect on light absorption.\\
 \indent To the natural senescence and artificial cost of having only active tissue, an additional component can be added to the turn-over rate: the negative NPP. In case of negative NPP, the biomass will be taken from the already allocated following the shoot:root ratio. This can lead to a lower overall productivity (negative growth during unproductive periods) but also changes in the equilibrium if tissue have different efficiencies.\\
 
-\paragraph{Death} Death is modelled as in Reineking \parencite{reineking_environmental_2006}. Age and desiccation (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random lotteries following the following survival probabilities:
+\paragraph{Survival} Survival is modelled as in Reineking \parencite{reineking_environmental_2006}. Age and desiccation (negative NPP) are the two reasons why a plant can die. The two death mechanism are simulated by independent random lotteries following the following survival probabilities:
 
 \begin{marginfigure}[-4pt]
 \begin{tikzpicture}

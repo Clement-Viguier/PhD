@@ -18690,6 +18690,74 @@
       \endverb
       \keyw{biomass allocation,specific leaf area,specific root length,community assembly,plant–plant interactions,functional diversity,biotic interactions,competitive hierarchies,trait clustering,trait divergence}
     \endentry
+    \entry{bradshaw_evolutionary_1965}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=462e5d36238356982b4a10d7261f4dff}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=801fc63c203c892ba43561d46433d2f6}{%
+           family={Thoday},
+           familyi={T\bibinitperiod},
+           given={E.\bibnamedelimi W.\bibnamedelimi Caspari\bibnamedelimb {and}\bibnamedelimb J.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{fullhash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{authornamehash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{authorfullhash}{462e5d36238356982b4a10d7261f4dff}
+      \strng{editornamehash}{801fc63c203c892ba43561d46433d2f6}
+      \strng{editorfullhash}{801fc63c203c892ba43561d46433d2f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter focuses on evolutionary significance of phenotypic plasticity in plants. The expression of an individual genotype is modified by its environment. The amount by which it can be modified is termed its plasticity. This plasticity can be either morphological or physiological; these are interrelated. The plasticity of a character is related to the general pattern of its development, and apart from this, that plasticity is a general property of the whole genotype. Plasticity of a character appears to be specific for that character, specific in relation to particular environmental influences, specific in direction, under genetic control not necessarily related to heterozygosity, and able to be radically altered by selection. Because plants are static organisms, plasticity is of marked adaptive value in a great number of situations. Examples of all these situations in plant species are discussed. They indicate that adaptation by plasticity is a widespread and important phenomenon in plants and has evolved differently in different species. The mechanisms involved in plasticity are varied. At one extreme, the character shows a continuous range of modification dependent on the intensity of the environmental stimulus. At the other, the character shows only two discrete modifications. The stimulus causing these modifications may be direct or indirect. The mechanisms found can be related to the particular environmental situation involved.}
+      \field{booktitle}{Advances in {Genetics}}
+      \field{title}{Evolutionary {Significance} of {Phenotypic} {Plasticity} in {Plants}}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{volume}{13}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \field{pages}{115\bibrangedash 155}
+      \range{pages}{41}
+      \verb{file}
+      \verb ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\9FRQSNG8\\S0065266008600486.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0065266008600486
+      \endverb
+    \endentry
+    \entry{chalmandrier_communities_2015}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=98eb058b72a09ea8e891b935c10f072d}{%
+           family={Chalmandrier},
+           familyi={C\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{fullhash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{authornamehash}{98eb058b72a09ea8e891b935c10f072d}
+      \strng{authorfullhash}{98eb058b72a09ea8e891b935c10f072d}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{From communities to meta-communities : decrypting diversity patterns}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+    \endentry
     \entry{chesson_general_2000}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=db6b43699dc16ed26ca5592cbdebda43}{%
@@ -18978,6 +19046,46 @@
       \endverb
       \verb{url}
       \verb http://dx.plos.org/10.1371/journal.pbio.0040001
+      \endverb
+    \endentry
+    \entry{forsman_rethinking_2014}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0f4572dfabd62293f447606c56196545}{%
+           family={Forsman},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0f4572dfabd62293f447606c56196545}
+      \strng{fullhash}{0f4572dfabd62293f447606c56196545}
+      \strng{authornamehash}{0f4572dfabd62293f447606c56196545}
+      \strng{authorfullhash}{0f4572dfabd62293f447606c56196545}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Much research has been devoted to identify the conditions under which selection favours flexible individuals or genotypes that are able to modify their growth, development and behaviour in response to environmental cues, to unravel the mechanisms of plasticity and to explore its influence on patterns of diversity among individuals, populations and species. The consequences of developmental plasticity and phenotypic flexibility for the performance and ecological success of populations and species have attracted a comparatively limited but currently growing interest. Here, I re-emphasize that an increased understanding of the roles of plasticity in these contexts requires a ‘whole organism’ (rather than ‘single trait’) approach, taking into consideration that organisms are integrated complex phenotypes. I further argue that plasticity and genetic polymorphism should be analysed and discussed within a common framework. I summarize predictions from theory on how phenotypic variation stemming from developmental plasticity and phenotypic flexibility may affect different aspects of population-level performance. I argue that it is important to distinguish between effects associated with greater interindividual phenotypic variation resulting from plasticity, and effects mediated by variation among individuals in the capacity to express plasticity and flexibility as such. Finally, I claim that rigorous testing of predictions requires methods that allow for quantifying and comparing whole organism plasticity, as well as the ability to experimentally manipulate the level of and capacity for developmental plasticity and phenotypic flexibility independent of genetic variation.}
+      \field{issn}{0018-067X}
+      \field{journaltitle}{Heredity}
+      \field{month}{10}
+      \field{title}{Rethinking phenotypic plasticity and its consequences for individuals, populations and species}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/hdy.2014.92
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\T5ZDAMKH\\Forsman - 2014 - Rethinking phenotypic plasticity and its consequen.pdf:application/pdf;Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\EQ974RU8\\hdy201492a.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/hdy/journal/vaop/ncurrent/full/hdy201492a.html
       \endverb
     \endentry
     \entry{frund_pollinator_2010}{article}{}
@@ -19872,6 +19980,67 @@
       \endverb
       \keyw{Asynchrony,biodiversity,ecosystem functioning,ecosystem predictability,forests,gap model,insurance hypothesis,productivity,stability,structural equation model}
     \endentry
+    \entry{perez-ramos_tradeoffs_2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=1401c5b5a4d28a9cfbc08de0860cffbd}{%
+           family={Pérez-Ramos},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Ignacio\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=ea9945bcf6d4de6e5d537136754f41f4}{%
+           family={Volaire},
+           familyi={V\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=a6b6abcce67ba3eaa862795c96e0ba6a}{%
+           family={Fattet},
+           familyi={F\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=9f3b26e60fc1b11dc30568282f25ba86}{%
+           family={Blanchard},
+           familyi={B\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5fd127d49aaa74f15c0d8e1c03eb8ad2}{%
+           family={Roumet},
+           familyi={R\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e20179903ff88c78481c3926f05efe8f}
+      \strng{fullhash}{dec35f31694252f03f0698a13c2b88d1}
+      \strng{authornamehash}{e20179903ff88c78481c3926f05efe8f}
+      \strng{authorfullhash}{dec35f31694252f03f0698a13c2b88d1}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In environments where light is not a limiting resource such as rangelands and grasslands, there is much disagreement regarding the benefits provided by rapid light capture during the growing season and the species’ ability to withstand drought during the dry period. In this study, we selected four perennial herbaceous species with contrasting resource-use strategies (acquisitive versus conservative), which were transplanted as monocultures into PVC pots to evaluate their species-specific responses to drought. The two main strategies of drought-survival (avoidance versus tolerance) were driven by distinct underlying mechanisms that allow the plant to delay or tolerate water deficit in leaves. On the one hand, plants that produced reduced leaves with lower surface area:mass ratio (lower SLA) exhibited higher values of leaf water potential (LWP) and leaf relative water content (LRWC), which could be associated to a higher ability to delay tissue dehydration in enlarged leaves. Regarding the below-ground compartment, dehydration avoidance was promoted by prolonged elongation rates of thinner roots that allow the plant to increase water uptake and accessibility during the dry period. On the other hand, dehydration tolerance was positively related with progressive foliage senescence under water deficit, which probably favored a longer survival of meristematic basal tissues. The results presented in this study suggest the existence of a trade-off between the traits favoring rapid light-acquisition and those enhancing the ability to delay leaf dehydration. Thus, the species related most closely with a resource-acquisition strategy (Bromus erectus and Potentilla neumanniana) could be considered less efficient to delay leaf dehydration than the others (Carex humilis and Festuca christiani-bernardii), as indicated by their lower values of leaf water potential (LWP) and leaf relative water content (LRWC) under identical conditions of water deficit. Our findings support evidence that there is not a single strategy to effectively cope with drought and reveal the diversity of adaptive mechanisms among coexisting species.}
+      \field{issn}{0098-8472}
+      \field{journaltitle}{Environmental and Experimental Botany}
+      \field{month}{3}
+      \field{title}{Tradeoffs between functional strategies for resource-use and drought-survival in {Mediterranean} rangeland species}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2015}
+      \field{volume}{87}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{126\bibrangedash 136}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.envexpbot.2012.09.004
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\6EGRHP2T\\Pérez-Ramos et al. - 2013 - Tradeoffs between functional strategies for resour.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\USGETACK\\S0098847212001876.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0098847212001876
+      \endverb
+      \keyw{functional traits,Aerial senescence,Dehydration avoidance,Dehydration tolerance,Root elongation}
+    \endentry
     \entry{richter_phenotypic_2012}{article}{}
       \name{author}{6}{}{%
         {{uniquename=0,hash=bf00fdca6db2155b0e9739c23f7c7a0d}{%
@@ -20418,6 +20587,53 @@
       \verb{url}
       \verb http://www.jstor.org/stable/3085075
       \endverb
+    \endentry
+    \entry{turcotte_phenotypic_2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=130f7876eb0ce82152f35906736fa102}{%
+           family={Turcotte},
+           familyi={T\bibinitperiod},
+           given={Martin\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=c60758812665ef8561071eca0e2f2a41}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9673cc978d8e821ee57fb58b4108e518}
+      \strng{fullhash}{9673cc978d8e821ee57fb58b4108e518}
+      \strng{authornamehash}{9673cc978d8e821ee57fb58b4108e518}
+      \strng{authorfullhash}{9673cc978d8e821ee57fb58b4108e518}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecologists are increasingly interested in predicting how intraspecific variation and changing trait values impact species interactions and community composition. For many traits, much of this variation is caused by phenotypic plasticity, and thus the impact of plasticity on species coexistence deserves robust quantification. Partly due to a lack of sound theoretical expectations, empirical studies make contradictory claims regarding plasticity effects on coexistence. Our critical review of this literature, framed in modern coexistence theory, reveals that plasticity affects species interactions in ways that could impact stabilizing niche differences and competitive asymmetries. However, almost no study integrates these measures to quantify the net effect of plasticity on species coexistence. To address this challenge, we outline novel empirical approaches grounded in modern theory.}
+      \field{issn}{0169-5347}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Phenotypic {Plasticity} and {Species} {Coexistence}}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{31}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{803\bibrangedash 813}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.tree.2016.07.013
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\ZS28RTM9\\Turcotte et Levine - 2016 - Phenotypic Plasticity and Species Coexistence.pdf:application/pdf;ScienceDirect Snapshot:C\:\\Users\\Clemt\\Zotero\\storage\\BXIIEJUZ\\S0169534716301215.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0169534716301215
+      \endverb
+      \keyw{intraspecific variation,character displacement,competitive asymmetry,niche shift,resource polymorphism.}
     \endentry
     \entry{violle_return_2012}{article}{}
       \name{author}{8}{}{%
@@ -22113,6 +22329,44 @@
       \verb http://onlinelibrary.wiley.com/doi/10.1111/gcb.12445/abstract
       \endverb
       \keyw{grassland,biotic interactions,elevational gradient,environmental changes,local adaptation,reciprocal transplantation}
+    \endentry
+    \entry{grime_evidence_1977}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a3e0beb729aa361dfee5e8212a94c3ba}{%
+           family={Grime},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{fullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{authornamehash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \strng{authorfullhash}{a3e0beb729aa361dfee5e8212a94c3ba}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is suggested that evolution in plants may be associated with the emergence of three primary strategies, each of which may be identified by reference to a number of characteristics including morphological features, resource allocation, phenology, and response to stress. The competitive strategy prevails in productive, relatively undisturbed vegetation, the stress-tolerant strategy is associated with continuously unproductive conditions, and the ruderal strategy is characteristic of severely disturbed but potentially productive habitats. A triangular model based upon the three strategies may be reconciled with the theory of r- and K-selection, provides an insight into the processes of vegetation succession and dominance, and appears to be capable of extension to fungi and to animals.}
+      \field{issn}{0003-0147}
+      \field{journaltitle}{The American Naturalist}
+      \field{month}{11}
+      \field{number}{982}
+      \field{title}{Evidence for the {Existence} of {Three} {Primary} {Strategies} in {Plants} and {Its} {Relevance} to {Ecological} and {Evolutionary} {Theory}}
+      \field{urlday}{13}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{volume}{111}
+      \field{year}{1977}
+      \field{urldateera}{ce}
+      \field{pages}{1169\bibrangedash 1194}
+      \range{pages}{26}
+      \verb{file}
+      \verb JSTOR Full Text PDF:C\:\\Users\\Clemt\\Zotero\\storage\\GSS6P4VG\\Grime - 1977 - Evidence for the Existence of Three Primary Strate.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2460262
+      \endverb
     \endentry
     \entry{gugger_lower_2015}{article}{}
       \name{author}{4}{}{%
@@ -24652,6 +24906,8 @@
       \keyw{biodiversity}
     \endentry
   \endsortlist
+  \missing{reineking_2006}
+  \missing{taubert_2014}
 \endrefsection
 \endinput
 
